@@ -101,13 +101,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5fa5d9c07e152f20b558f654b04770bd1519b4cf/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5fa5d9c07e152f20b558f654b04770bd1519b4cf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5fa5d9c07e152f20b558f654b04770bd1519b4cf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/6a29bc1c7a41cf071ba6af87570841a94a6686fc/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6a29bc1c7a41cf071ba6af87570841a94a6686fc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6a29bc1c7a41cf071ba6af87570841a94a6686fc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5fa5d9c07e152f20b558f654b04770bd1519b4cf/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5fa5d9c07e152f20b558f654b04770bd1519b4cf/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6a29bc1c7a41cf071ba6af87570841a94a6686fc/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6a29bc1c7a41cf071ba6af87570841a94a6686fc/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -127,9 +127,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5fa5d9c07e152f20b558f654b04770bd1519b4cf/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/6a29bc1c7a41cf071ba6af87570841a94a6686fc/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@5fa5d9c](https://github.com/lotusnprod/lotus-manuscript/tree/5fa5d9c07e152f20b558f654b04770bd1519b4cf)
+from [lotusnprod/lotus-manuscript@6a29bc1](https://github.com/lotusnprod/lotus-manuscript/tree/6a29bc1c7a41cf071ba6af87570841a94a6686fc)
 on April 9, 2021.
 </em></small>
 
@@ -287,7 +287,7 @@ Otherwise, address correspondence to <jean-luc.wolfender@unige.ch>, <bjo@uic.edu
 
 As contemporary bioinformatic and chemoinformatic capabilities are reshaping natural products research, major benefits could result from the availability of an open database of referenced structure-organism pairs. Such pairs allow the documentation of distinct molecular structures found as components of heterogeneous chemical matrices originating from living organisms. The references to the work describing the structure-organism relationship are also highly valuable since they ideally detail the experimental work leading to the occurrence reporting. However current databases covering such information suffer from paywall restrictions, limited taxonomic scope, poorly standardized fields, and lack of interoperability. To address these issues, we established the LOTUS project to collect and curate a set of structure-organism pairs from publicly available natural products databases and yield an ensemble of over 500,000 curated and referenced structure-organism pairs. To provide open access as well as standardized linking to other resources, LOTUS data is hosted on Wikidata and regularly mirrored on [https://lotus.naturalproducts.net](https://lotus.naturalproducts.net).  The diffusion of these referenced structure-organism pairs within the Wikidata framework addresses many of the limitations of currently available databases, opens the possibility of community curation and facilitates linkage to existing biological and chemical data resources. All programs and code developed for data gathering, curation, and dissemination are made publicly available. The LOTUS project, which follows the FAIR (<ins>F</ins>indability, <ins>A</ins>ccessibility, <ins>I</ins>nteroperability, and <ins>R</ins>euse) principles in research, represents an important advancement in the design and deployment of a comprehensive and collaborative natural products knowledge base.
 
-![Graphical abstract](images/graphicalAbstract.svg){graphical-abstract}
+![](images/graphicalAbstract.svg){graphical-abstract}
 
 
 ## Introduction {.page_break_before}
@@ -614,7 +614,7 @@ The LNPN website and processing system is available at [https://github.com/mSoro
 
 ### Code Freezing
 
-All repository hyperlinks in the manuscript point to the preprint branches by default. The links contain all programs and code at the time of submission (2021-03-29) **TO DO** and will eventually be updated to a publication branch using modifications resulting from the peer-reviewing process. As the code evolves, readers are invited to refer to the main branch of each repository for the most up-to-date code.
+All repository hyperlinks in the manuscript point to the preprint branches by default. The links contain all programs and code before submission (2021-02-23) and will eventually be updated to a publication branch using modifications resulting from the peer-reviewing process. As the code evolves, readers are invited to refer to the main branch of each repository for the most up-to-date code.
 A frozen version (2021-02-23) of all programs and code is also available in the LOTUS OSF repository ([https://osf.io/pmgux/](https://osf.io/pmgux/)).
 
 ### Programs and packages
@@ -625,7 +625,7 @@ ChemmineR (3.42.1) [@doi:10/b46rs7], chorddiag (0.1.2) [@florChorddiagInteractiv
 
 #### Python
 The [Python](https://www.python.org/) version used was 3.8.6, and the Python packages utilized were, in alphabetical order: 
-[Molvs](https://github.com/mcs07/MolVS) (0.1.1), pandas (1.1.4) [@doi:10/gh6dqz], rdkit (2020.09.2) [@RDKitOpensourceCheminformatics]
+faerun (0.3.2) [@doi:10/gcmhc5], map4 (1.0) [@doi:10/gjjz4c], matplotlib (3.1.3) [@doi:10.1109/MCSE.2007.55], [Molvs](https://github.com/mcs07/MolVS) (0.1.1), pandas (1.1.4) [@doi:10/gh6dqz], rdkit (2020.09.2) [@RDKitOpensourceCheminformatics], scipy (1.5.0) [@doi:10/ggj45f], tmap (1.0.4) [@doi:10/gjjz4f]. 
 
 #### Kotlin
 Kotlin packages used were as follows: 
@@ -652,9 +652,7 @@ The authors declare no competing interest.
 
 ## Author contributions
 
-![
-Author contributions
-](images/author_contribution.svg){author-contribution}
+![](images/author_contribution.svg){author-contribution}
 
 ## Supporting Information {.page_break_before}
 
@@ -662,7 +660,7 @@ Author contributions
 
 <font size="1.5">
 <table>
-<caption>Table S1: Data Sources List</caption>
+<caption>Table SI-1: Data Sources List</caption>
 <colgroup>
 <col style="text-align: center; vertical-align: middle; width: 9%;" />
 <col style="text-align: center; vertical-align: middle; width: 9%;" />
@@ -1191,7 +1189,7 @@ Author contributions
 | **Total** | 279 | 15 | 28 | 98 | 1.00 | - | - | - | **97** | **3** |
 | **Correctd total** | - | - | - | - | - | **0.96** | **0.89** | **0.91** | - | - |
 
-Table S2: Summary of the Validation Statistics {#tbl:si-2}
+Table: Summary of the Validation Statistics {#tbl:si-2 tag="SI-2"}
 
 
 ### SI 3 - Wikidata SPARQL Queries {.page_break_before}
@@ -1787,8 +1785,8 @@ SELECT ?item ?itemLabel ?taxonLabel ?artLabel WHERE {
 
 ### SI 5 - Complement to Figure 7{.page_break_before}
 
-![**Complement to Figure 7**: distribution of β-sitosterol and related chemical parents among families with at least 50 reported compounds present in LOTUS.
-](images/magicTree_additional.svg "magicTree_additional"){#fig:magicTree-additional}
+![**Complement to Figure 7**: distribution of β-sitosterol and related chemical parents among families with at least 50 reported compounds present in LOTUS. Script used for the generation of each tree in the figure is the same ([src/4_visualizing/plot_magicTree.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/4_visualizing/plot_magicTree.R)) as for Figure @fig:magicTree as both figures are related.
+](images/magicTree_additional.svg "magicTree_additional"){#fig:magicTree-additional tag="SI-5"}
 
 
 ## Citations {.page_break_before}
@@ -1868,6 +1866,8 @@ Hester [@hesterVroomReadWrite2020]
 Horai [@doi:10/d8pdcr]
 
 Huang [@doi:10/gh5ps9]
+
+Hunter [@doi:10.1109/MCSE.2007.55]
 
 Ibezim [@doi:10/gh5ptd]
 
@@ -1988,6 +1988,8 @@ Tsugawa [@doi:10/gfwm27]
 DrDuke [@DepartmentAgricultureAgricultural1992]
 
 van Santen [@doi:10/gh5ptm]
+
+Virtanen [@doi:10/ggj45f]
 
 Waagmeester [@doi:10/ggqqc6]
 
