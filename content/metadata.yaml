@@ -242,11 +242,11 @@ authors:
       - Additional – Sachem, IDSM: false
       - Additional – Wikidata: true
   -
-    # github: 
+    github: rdmpage
     name: Roderic Page
     initials: RP
     orcid: 0000-0002-7101-9767
-    # twitter: 
+    twitter: rdmpage
     email: roderic.page@glasgow.ac.uk
     affiliations:
       -  IBAHCM, MVLS, University of Glasgow, Glasgow, United Kingdom
