@@ -1,9 +1,9 @@
 ---
-title: 'Open Natural Products Research: Curation and Dissemination of Biological Occurrences of Chemical Structures through Wikidata'
+title: 'The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata'
 keywords:
 - to do
 lang: en-US
-date-meta: '2021-04-10'
+date-meta: '2021-04-15'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -26,12 +26,12 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Open Natural Products Research: Curation and Dissemination of Biological Occurrences of Chemical Structures through Wikidata" />
-  <meta name="citation_title" content="Open Natural Products Research: Curation and Dissemination of Biological Occurrences of Chemical Structures through Wikidata" />
-  <meta property="og:title" content="Open Natural Products Research: Curation and Dissemination of Biological Occurrences of Chemical Structures through Wikidata" />
-  <meta property="twitter:title" content="Open Natural Products Research: Curation and Dissemination of Biological Occurrences of Chemical Structures through Wikidata" />
-  <meta name="dc.date" content="2021-04-10" />
-  <meta name="citation_publication_date" content="2021-04-10" />
+  <meta name="dc.title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
+  <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
+  <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
+  <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
+  <meta name="dc.date" content="2021-04-15" />
+  <meta name="citation_publication_date" content="2021-04-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -40,7 +40,7 @@ header-includes: |-
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Adriano Rutz" />
   <meta name="citation_author_institution" content="School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
-  <meta name="citation_author_institution" content="Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, SwitzerlandInstitute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
+  <meta name="citation_author_institution" content="Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0003-0443-9902" />
   <meta name="twitter:creator" content="@adafede" />
   <meta name="citation_author" content="Maria Sorokina" />
@@ -61,10 +61,11 @@ header-includes: |-
   <meta name="twitter:creator" content="@egonwillighagen" />
   <meta name="citation_author" content="Arnaud Gaudry" />
   <meta name="citation_author_institution" content="School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
-  <meta name="citation_author_institution" content="Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, SwitzerlandInstitute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
+  <meta name="citation_author_institution" content="Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0002-3648-7362" />
   <meta name="citation_author" content="James G. Graham" />
-  <meta name="citation_author_institution" content="Center for Natural Product Technologies, Program for Collaborative Research in the Pharmaceutical Sciences (PCRPS), Pharmacognosy Institute, and Department of Pharmaceutical Sciences, College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States" />
+  <meta name="citation_author_institution" content="Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States" />
+  <meta name="citation_author_institution" content="Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States" />
   <meta name="citation_author_orcid" content="0000-0002-7114-8921" />
   <meta name="citation_author" content="Ralf Stephan" />
   <meta name="citation_author_institution" content="Ontario Institute for Cancer Research (OICR), 661 University Ave Suite 510, Toronto, Canada" />
@@ -81,19 +82,21 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0001-6966-0814" />
   <meta name="twitter:creator" content="@csteinbeck" />
   <meta name="citation_author" content="Guido F. Pauli" />
-  <meta name="citation_author_institution" content="Center for Natural Product Technologies, Program for Collaborative Research in the Pharmaceutical Sciences (PCRPS), Pharmacognosy Institute, and Department of Pharmaceutical Sciences, College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States" />
+  <meta name="citation_author_institution" content="Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States" />
+  <meta name="citation_author_institution" content="Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States" />
   <meta name="citation_author_orcid" content="0000-0003-1022-4326" />
   <meta name="citation_author" content="Jean-Luc Wolfender" />
   <meta name="citation_author_institution" content="School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
-  <meta name="citation_author_institution" content="Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, SwitzerlandInstitute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
+  <meta name="citation_author_institution" content="Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0002-0125-952X" />
   <meta name="citation_author" content="Jonathan Bisson" />
-  <meta name="citation_author_institution" content="Center for Natural Product Technologies, Program for Collaborative Research in the Pharmaceutical Sciences (PCRPS), Pharmacognosy Institute, and Department of Pharmaceutical Sciences, College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States" />
+  <meta name="citation_author_institution" content="Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States" />
+  <meta name="citation_author_institution" content="Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States" />
   <meta name="citation_author_orcid" content="0000-0003-1640-9989" />
   <meta name="twitter:creator" content="@Bjonnh" />
   <meta name="citation_author" content="Pierre-Marie Allard" />
   <meta name="citation_author_institution" content="School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
-  <meta name="citation_author_institution" content="Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, SwitzerlandInstitute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
+  <meta name="citation_author_institution" content="Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0003-3389-2191" />
   <meta name="twitter:creator" content="@NatprodCbn" />
   <link rel="canonical" href="https://lotusnprod.github.io/lotus-manuscript/" />
@@ -102,13 +105,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/4c49238972dbc2a810bd3d87c5d1fb1a4036f331/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4c49238972dbc2a810bd3d87c5d1fb1a4036f331/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4c49238972dbc2a810bd3d87c5d1fb1a4036f331/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/48b6b38a5bb8c10dd5797171b865348425386f2e/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/48b6b38a5bb8c10dd5797171b865348425386f2e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/48b6b38a5bb8c10dd5797171b865348425386f2e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4c49238972dbc2a810bd3d87c5d1fb1a4036f331/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4c49238972dbc2a810bd3d87c5d1fb1a4036f331/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/48b6b38a5bb8c10dd5797171b865348425386f2e/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/48b6b38a5bb8c10dd5797171b865348425386f2e/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -128,10 +131,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/4c49238972dbc2a810bd3d87c5d1fb1a4036f331/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/48b6b38a5bb8c10dd5797171b865348425386f2e/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@4c49238](https://github.com/lotusnprod/lotus-manuscript/tree/4c49238972dbc2a810bd3d87c5d1fb1a4036f331)
-on April 10, 2021.
+from [lotusnprod/lotus-manuscript@48b6b38](https://github.com/lotusnprod/lotus-manuscript/tree/48b6b38a5bb8c10dd5797171b865348425386f2e)
+on April 15, 2021.
 </em></small>
 
 ## Authors
@@ -146,7 +149,7 @@ on April 10, 2021.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [adafede](https://twitter.com/adafede)<br>
   <small>
-     School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, SwitzerlandInstitute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+     School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
   </small>
 
 + **Maria Sorokina** <br>
@@ -199,19 +202,21 @@ on April 10, 2021.
     · ![GitHub icon](images/github.svg){.inline_icon}
     [ArnaudGaudry](https://github.com/ArnaudGaudry)<br>
   <small>
-     School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, SwitzerlandInstitute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+     School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
   </small>
 
 + **James G. Graham** <br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-7114-8921](https://orcid.org/0000-0002-7114-8921)<br>
   <small>
-     Center for Natural Product Technologies, Program for Collaborative Research in the Pharmaceutical Sciences (PCRPS), Pharmacognosy Institute, and Department of Pharmaceutical Sciences, College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
+     Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States; Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
   </small>
 
 + **Ralf Stephan** <br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-4650-631X](https://orcid.org/0000-0002-4650-631X)<br>
+    [0000-0002-4650-631X](https://orcid.org/0000-0002-4650-631X)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [rwst](https://github.com/rwst)<br>
   <small>
      Ontario Institute for Cancer Research (OICR), 661 University Ave Suite 510, Toronto, Canada
   </small>
@@ -249,14 +254,14 @@ on April 10, 2021.
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-1022-4326](https://orcid.org/0000-0003-1022-4326)<br>
   <small>
-     Center for Natural Product Technologies, Program for Collaborative Research in the Pharmaceutical Sciences (PCRPS), Pharmacognosy Institute, and Department of Pharmaceutical Sciences, College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
+     Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States; Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
   </small>
 
 + **Jean-Luc Wolfender** ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-0125-952X](https://orcid.org/0000-0002-0125-952X)<br>
   <small>
-     School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, SwitzerlandInstitute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+     School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
   </small>
 
 + **Jonathan Bisson** ^[✉](#correspondence)^<br>
@@ -267,7 +272,7 @@ on April 10, 2021.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [Bjonnh](https://twitter.com/Bjonnh)<br>
   <small>
-     Center for Natural Product Technologies, Program for Collaborative Research in the Pharmaceutical Sciences (PCRPS), Pharmacognosy Institute, and Department of Pharmaceutical Sciences, College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
+     Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States; Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
   </small>
 
 + **Pierre-Marie Allard** ^[✉](#correspondence)^<br>
@@ -278,7 +283,7 @@ on April 10, 2021.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [NatprodCbn](https://twitter.com/NatprodCbn)<br>
   <small>
-     School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, SwitzerlandInstitute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+     School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
   </small>
 
 
@@ -290,11 +295,9 @@ Otherwise, address correspondence to <jean-luc.wolfender@unige.ch>, <bjo@uic.edu
 
 ## Abstract {.page_break_before}
 
-As contemporary bioinformatic and chemoinformatic capabilities are reshaping natural products research, major benefits could result from the availability of an open electronic resource of referenced structure-organism pairs. Such pairs allow the documentation of distinct molecular structures found as components of heterogeneous chemical matrices originating from living organisms. The references to the work describing the structure-organism relationship are also highly valuable since they ideally detail the experimental work leading to the occurrence reporting. However in the traditional database approach, access to such information is often restricted, in addition to limited taxonomic scope, poorly standardized fields, and lack of interoperability.  Building on experience gained from the development of COCONUT, this report introduces the establishment of the LOTUS project via development of a curated data set of structure-organism pairs from publicly available information about natural products. The LOTUS project employs an original workflow that currently comprises >500,000 curated and referenced structure-organism pairs. To provide open access as well as standardized linking to other resources, LOTUS data is hosted on Wikidata and regularly mirrored on [https://lotus.naturalproducts.net](https://lotus.naturalproducts.net). The diffusion of these referenced structure-organism pairs within the Wikidata framework addresses many of the limitations of currently available electronic resources, opens the possibility of community curation and facilitates linkage to existing biological and chemical data resources. All programs and code developed for data gathering, curation, and dissemination are made publicly available. The LOTUS project, which follows the FAIR (<ins>F</ins>indability, <ins>A</ins>ccessibility, <ins>I</ins>nteroperability, and <ins>R</ins>euse) principles in research, represents an important advancement in the design and deployment of a comprehensive and collaborative natural products knowledge base.
+As bio- and chemoinformatics are reshaping natural products (NP) research, existing databases impose intrinsic and practical limits regarding access, chemical or taxonomic scope, field standardization, and interoperability. Further limitations result from essential but missing links to the primary literature, which contain the experimental information that documents structures, organisms and their relationships. Sharing such consolidated knowledge via an open platform has strong transformative potential for NP research. The LOTUS initiative has now completed the first steps towards the harmonization, curation, validation, and open dissemination of 500,000+ referenced structure-organism pairs. LOTUS data is hosted on Wikidata and regularly mirrored on [https://lotus.naturalproducts.net](https://lotus.naturalproducts.net). Data sharing within the Wikidata framework broadens data access, chemical and taxonomic scope, and interoperability, thereby overcoming many of the limitations of existing electronic resources. Furthermore, embedding LOTUS data into the vast Wikidata knowledge graph facilitates new biological and chemical insights. This opens new possibilities for community curation of data and evolving publication models. All code developed within the LOTUS initiative for data gathering, curation, and dissemination are publicly available on [https://gitlab.com/lotus7](https://gitlab.com/lotus7) and [https://github.com/mSorok/LOTUSweb](https://github.com/mSorok/LOTUSweb). Collectively, LOTUS evolves NP knowledge management to function in a world of openly shared electronic resources.
 
 ![](images/graphicalAbstract.svg){graphical-abstract}
-
-
 
 
 ## Introduction {.page_break_before}
@@ -1874,6 +1877,10 @@ Allard [@doi:10/ggb79p]
 Bandyukova [@doi:10/b4w5q4]
 
 Bierer [@doi:10/ggb7x6]
+
+Bisson IMPS [@doi:10.1021/acs.jmedchem.5b01009]
+
+Bisson NMR [@doi:10.1039/c6np00022c]
 
 Boonen [@doi:10/gh5ptc]
 
