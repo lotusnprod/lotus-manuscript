@@ -42,7 +42,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-bjonnh
+Bjonnh
 Bohlmann
 Bolzani
 Boonen
@@ -72,7 +72,7 @@ chorddiag
 Christoph
 Chun
 ClassyFire
-ClassyfireR
+classyfireR
 cleaningOriginal
 cleaningTranslated
 CMU
@@ -84,12 +84,12 @@ counterions
 Cousijn
 Cranston
 Crataegus
-Crossref
+crossref
 CRSII
 csteinbeck
 CTS
-curation
-Cyanometdb
+Curation
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -142,13 +142,13 @@ FishBase
 flavolivaceus
 Flemingovo
 Flor
-FooDB
+foodb
 FragmentRemover
 Friedrich
 frontend
 Fungorum
 Gagolewski
-galgonek
+Galgonek
 Gaudry
 GBIF
 gdata
@@ -165,7 +165,7 @@ Giacomoni
 GitLab
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerify
 GPL
@@ -192,7 +192,7 @@ incentivization
 InChI
 InChIKey
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -297,7 +297,7 @@ npatlas
 npcare
 NPClassifier
 npedia
-NPimporterBot
+NPImporterBot
 NRCS
 Ntie
 nubbe
@@ -328,7 +328,7 @@ Pharmacognosy
 Phasmida
 phenolexplorer
 physicochemical
-Phytochemical
+phytochemical
 Phytochemistry
 phytohub
 Pilon
@@ -348,7 +348,7 @@ PubChem
 publishingDetails
 py
 quassinoid
-Quassinoids
+quassinoids
 Ralf
 Rasberry
 Rcrossref
@@ -408,7 +408,7 @@ Squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -428,7 +428,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
