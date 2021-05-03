@@ -3,7 +3,7 @@ title: 'The LOTUS Initiative for Open Natural Products Research: Knowledge Manag
 keywords:
 - to do
 lang: en-US
-date-meta: '2021-04-30'
+date-meta: '2021-05-03'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-04-30" />
-  <meta name="citation_publication_date" content="2021-04-30" />
+  <meta name="dc.date" content="2021-05-03" />
+  <meta name="citation_publication_date" content="2021-05-03" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -105,13 +105,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d317ccd43fa0a54e53ca0f813be6d0c1542f4270/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d317ccd43fa0a54e53ca0f813be6d0c1542f4270/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d317ccd43fa0a54e53ca0f813be6d0c1542f4270/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/21649de2f311fbd06652228489145cac25babfc6/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/21649de2f311fbd06652228489145cac25babfc6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/21649de2f311fbd06652228489145cac25babfc6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d317ccd43fa0a54e53ca0f813be6d0c1542f4270/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d317ccd43fa0a54e53ca0f813be6d0c1542f4270/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/21649de2f311fbd06652228489145cac25babfc6/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/21649de2f311fbd06652228489145cac25babfc6/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -131,10 +131,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d317ccd43fa0a54e53ca0f813be6d0c1542f4270/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/21649de2f311fbd06652228489145cac25babfc6/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@d317ccd](https://github.com/lotusnprod/lotus-manuscript/tree/d317ccd43fa0a54e53ca0f813be6d0c1542f4270)
-on April 30, 2021.
+from [lotusnprod/lotus-manuscript@21649de](https://github.com/lotusnprod/lotus-manuscript/tree/21649de2f311fbd06652228489145cac25babfc6)
+on May 3, 2021.
 </em></small>
 
 ## Authors
@@ -1895,6 +1895,8 @@ Capecchi [@doi:10/gjjz4c]
 Chamberlain [@chamberlainRcrossrefClientVarious2020]
 
 Choi [@doi:10/f9rhrj]
+
+Cordell 2001 [@doi:10.1002/ptr.890]
 
 Cordell [@doi:10/gh533j]
 

@@ -72,7 +72,7 @@ chorddiag
 Christoph
 Chun
 ClassyFire
-classyfireR
+ClassyfireR
 cleaningOriginal
 cleaningTranslated
 CMU
@@ -84,12 +84,12 @@ counterions
 Cousijn
 Cranston
 Crataegus
-crossref
+Crossref
 CRSII
 csteinbeck
-CTS
+cts
 Curation
-cyanometdb
+Cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -97,7 +97,7 @@ daphnane
 dataset
 datasets
 Dataverse
-Datawarrior
+datawarrior
 DBI
 DBs
 deduplicate
@@ -111,7 +111,7 @@ dianatdb
 diterpene
 DM
 Dmitry
-DNP
+dnp
 Dockerized
 DOIs
 doit
@@ -165,7 +165,7 @@ Giacomoni
 GitLab
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerify
 GPL
@@ -220,7 +220,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kalske
 Kang
@@ -272,7 +272,7 @@ Michonneau
 Mietchen
 mitishamba
 modularity
-molvs
+MolVS
 monogyna
 Mozzherin
 mSorok
@@ -281,10 +281,10 @@ MVLS
 NameBank
 náměstí
 nanpdb
-NAPRALERT
+napralert
 natively
 NatprodCbn
-NaturalProducts
+naturalproducts
 NCBI
 NCCIH
 Ngozi
@@ -293,11 +293,11 @@ NMR
 Nonmarine
 Noteborn
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
-NPImporterBot
+NPimporterBot
 NRCS
 Ntie
 nubbe
@@ -324,7 +324,7 @@ parallelization
 pbmcapply
 Pedersen
 Peroni
-Pharmacognosy
+pharmacognosy
 Phasmida
 phenolexplorer
 physicochemical
@@ -348,13 +348,13 @@ PubChem
 publishingDetails
 py
 quassinoid
-quassinoids
+Quassinoids
 Ralf
 Rasberry
 Rcrossref
 RDF
 RDFFrames
-RDKit
+rdkit
 rdmpage
 readxl
 Reback
@@ -377,7 +377,7 @@ Rutz
 rvest
 rwst
 sancdb
-Sanitization
+sanitization
 Santen
 Sawada
 Scholia
@@ -404,7 +404,7 @@ spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
@@ -456,7 +456,7 @@ triplestore
 TRM
 Tropicos
 Tsugawa
-tsv
+TSV
 uBio
 UHFFFAOYSA
 UIC
@@ -482,7 +482,7 @@ Vondrášek
 vroom
 Vue
 Waagmeester
-WAKANKENSAKU
+Wakankensaku
 Warnes
 webchem
 Weininger
