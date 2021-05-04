@@ -42,7 +42,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-Bjonnh
+bjonnh
 Bohlmann
 Bolzani
 Boonen
@@ -72,7 +72,7 @@ chorddiag
 Christoph
 Chun
 ClassyFire
-ClassyfireR
+classyfireR
 cleaningOriginal
 cleaningTranslated
 CMU
@@ -89,7 +89,7 @@ CRSII
 csteinbeck
 cts
 Curation
-Cyanometdb
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -111,7 +111,7 @@ dianatdb
 diterpene
 DM
 Dmitry
-dnp
+DNP
 Dockerized
 DOIs
 doit
@@ -148,7 +148,7 @@ Friedrich
 frontend
 Fungorum
 Gagolewski
-Galgonek
+galgonek
 Gaudry
 GBIF
 gdata
@@ -165,7 +165,7 @@ Giacomoni
 GitLab
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerify
 GPL
@@ -190,9 +190,9 @@ IDSM
 iNaturalist
 incentivization
 InChI
-InChIKey
+InChiKey
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -281,7 +281,7 @@ MVLS
 NameBank
 náměstí
 nanpdb
-napralert
+NAPRALERT
 natively
 NatprodCbn
 naturalproducts
@@ -293,7 +293,7 @@ NMR
 Nonmarine
 Noteborn
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -354,7 +354,7 @@ Rasberry
 Rcrossref
 RDF
 RDFFrames
-rdkit
+Rdkit
 rdmpage
 readxl
 Reback
@@ -377,7 +377,7 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
 Santen
 Sawada
 Scholia
@@ -404,11 +404,11 @@ spectrometry
 Spiegeleer
 splitstackshape
 spp
-squatina
+Squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -448,7 +448,7 @@ tppt
 transdisciplinary
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -456,7 +456,7 @@ triplestore
 TRM
 Tropicos
 Tsugawa
-TSV
+tsv
 uBio
 UHFFFAOYSA
 UIC
@@ -482,7 +482,7 @@ Vondrášek
 vroom
 Vue
 Waagmeester
-Wakankensaku
+wakankensaku
 Warnes
 webchem
 Weininger
