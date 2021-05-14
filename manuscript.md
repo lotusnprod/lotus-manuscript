@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/f2b9d36e8fe4b21dec97d67e985084a7f5164f2f/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f2b9d36e8fe4b21dec97d67e985084a7f5164f2f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f2b9d36e8fe4b21dec97d67e985084a7f5164f2f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/77dabb763634f093d2415eeb77e86d1e009aeeea/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/77dabb763634f093d2415eeb77e86d1e009aeeea/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/77dabb763634f093d2415eeb77e86d1e009aeeea/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f2b9d36e8fe4b21dec97d67e985084a7f5164f2f/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f2b9d36e8fe4b21dec97d67e985084a7f5164f2f/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/77dabb763634f093d2415eeb77e86d1e009aeeea/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/77dabb763634f093d2415eeb77e86d1e009aeeea/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/f2b9d36e8fe4b21dec97d67e985084a7f5164f2f/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/77dabb763634f093d2415eeb77e86d1e009aeeea/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@f2b9d36](https://github.com/lotusnprod/lotus-manuscript/tree/f2b9d36e8fe4b21dec97d67e985084a7f5164f2f)
+from [lotusnprod/lotus-manuscript@77dabb7](https://github.com/lotusnprod/lotus-manuscript/tree/77dabb763634f093d2415eeb77e86d1e009aeeea)
 on May 14, 2021.
 </em></small>
 
@@ -360,7 +360,7 @@ The contacts of the electronic NP resources not explicitly licensed as open were
 
 ### Data Cleaning & Vaidation
 
-As shown in Figure @fig:workflow, data curation consisted of three stages: harmonization, cleaning, and validation. Thereby, after the harmonization stage, each of the three central objects of the referenced pairs - chemical compounds, biological organisms, and reference - were cleaned. Given the data size (2.5M+ initial entries), manual validation was unfeasible. Curating the references turned out to be a particularly challenging part of the process. Whereas organisms are typically reported by at least their vernacular or scientific denomination, and structures via their SMILES, InChI, InChIKey, or image (not covered in this work), references suffer from largely insufficient reporting standards. Despite relatively poor standardization of the initial reference field, proper referencing remains an indispensable way to establish the validity of structure-organism pairs. Better reporting practices, supported by new tools such as [Scholia](https://scholia.toolforge.org/) [@wikidata:Q28942417, @doi:10.3897/rio.5.e35820], and relying on Wikidata, [Fatcat](https://fatcat.wiki/), or [Semantic Scholar](https://www.semanticscholar.org/) should improve reference-related information retrieval in the future.
+As shown in Figure @fig:workflow, data curation consisted of three stages: harmonization, cleaning, and validation. Thereby, after the harmonization stage, each of the three central objects of the referenced pairs - chemical compounds, biological organisms, and reference - were cleaned. Given the data size (2.5M+ initial entries), manual validation was unfeasible. Curating the references turned out to be a particularly challenging part of the process. Whereas organisms are typically reported by at least their vernacular or scientific denomination, and structures via their SMILES, InChI, InChIKey, or image (not covered in this work), references suffer from largely insufficient reporting standards. Despite relatively poor standardization of the initial reference field, proper referencing remains an indispensable way to establish the validity of structure-organism pairs. Better reporting practices, supported by new tools such as [Scholia](https://scholia.toolforge.org/) [@doi:10.5281/ZENODO.1036595, @doi:10.3897/rio.5.e35820], and relying on Wikidata, [Fatcat](https://fatcat.wiki/), or [Semantic Scholar](https://www.semanticscholar.org/) should improve reference-related information retrieval in the future.
 
 In addition to curating the entries during data processing, 420 referenced structure-organism pairs were selected for manual validation. An entry was considered as valid if: *i)* the structure (in the form of any structural descriptor that could be linked to the final sanitized InChIKey) was described in the reference *ii)* the containing organism (as any organism descriptor that could be linked to the accepted canonical name) was described in the reference and *iii)* the reference was describing the occurrence of the chemical structure in the biological organism. This process allowed us to establish rules for automatic filtering and validation of the entries. The filtering was then applied to all entries. To confirm the efficacy of the filtering process, a new subset of 100 diverse, automatically curated, and automatically validated entries was manually checked, yielding a rate of 97% of true positives. The detailed results of the two manual validation steps are reported in Supporting Information [SI-2](SI-2---Summary-of-the-Validation-Statistics). The resulting data is also available in the dataset shared at [https://osf.io/c8hgb/](https://osf.io/c8hgb/).
 
@@ -467,7 +467,7 @@ The [Scholia platform](https://scholia.toolforge.org/) provides a visual interfa
 
 ### Data Interpretation
 
-To illustrate the nature and dimensions of the LOTUS dataset, some selected examples of data interpretation are shown. First, the repartition of chemical structures among four important NP reservoirs: plants, fungi, animals and bacteria (Table @tbl:repartition). Then, the distribution of biological organisms according to the number of related chemical structures and likewise the distribution of chemical structures across biological organisms are illustrated (Figure @fig:distribution). Furthermore, the individual electronic NP resources participation in LOTUS data is resumed using the UpSet plot depiction, which allows the visualization of intersections in data sets (Figure @fig:upset). Across these figures we take again the two previous examples, i.e, *β*-sitosterol as chemical structure and *Arabidopsis thaliana* as biological organism because of their well-documented statuses. Finally, a biologically-interpreted chemical tree and a chemically-interpreted biological tree are presented (Figure @fig:tmap and Figure @fig:magicTree). The examples illustrate the overall chemical and biological coverage of LOTUS by linking family-specific classes of chemical structures to their taxonomic position. Table @tbl:repartition, Figures @fig:distribution, @fig:tmap, and @fig:magic-tree were generated using the frozen data (2021-05-05 timestamp), which is available for download at [https://osf.io/c8hgb/](https://osf.io/c8hgb/). Figure @fig:upset required a dataset containing information from DNP and the complete data used for its generation is therefore not available for public distribution. All scripts used for the generation of the figures (including [SI-5](SI-5---Complement-to-Figure-7)) are available in the [lotusProcessor](https://gitlab.com/lotus7/lotusProcessorv) repository in the [src/4_visualizing](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/4_visualizing) directory for reproducibility.
+To illustrate the nature and dimensions of the LOTUS dataset, some selected examples of data interpretation are shown. First, the repartition of chemical structures among four important NP reservoirs: plants, fungi, animals and bacteria (Table @tbl:repartition). Then, the distribution of biological organisms according to the number of related chemical structures and likewise the distribution of chemical structures across biological organisms are illustrated (Figure @fig:distribution). Furthermore, the individual electronic NP resources participation in LOTUS data is resumed using the UpSet plot depiction, which allows the visualization of intersections in data sets (Figure @fig:upset). Across these figures we take again the two previous examples, i.e, *β*-sitosterol as chemical structure and *Arabidopsis thaliana* as biological organism because of their well-documented statuses. Finally, a biologically-interpreted chemical tree and a chemically-interpreted biological tree are presented (Figure @fig:tmap and Figure @fig:magicTree). The examples illustrate the overall chemical and biological coverage of LOTUS by linking family-specific classes of chemical structures to their taxonomic position. Table @tbl:repartition, Figures @fig:distribution, @fig:tmap, and @fig:magicTree were generated using the frozen data (2021-05-05 timestamp), which is available for download at [https://osf.io/c8hgb/](https://osf.io/c8hgb/). Figure @fig:upset required a dataset containing information from DNP and the complete data used for its generation is therefore not available for public distribution. All scripts used for the generation of the figures (including [SI-5](SI-5---Complement-to-Figure-7)) are available in the [lotusProcessor](https://gitlab.com/lotus7/lotusProcessorv) repository in the [src/4_visualizing](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/4_visualizing) directory for reproducibility.
 
 #### Repartition of Chemical Structures across reported Biological Organisms in LOTUS
 
@@ -537,29 +537,29 @@ The integration of multiple knowledge sources, e.g. genetics for NP producing ge
 
 ### Advancing NP Knowledge
 
-At its current development stage, data harmonized and curated in the LOTUS initiative remain imperfect and, by the very nature of research, at least partially biased (see introduction). In the context of bioactive NP research, and due to global editorial practices, it should not be ignored that many publications tend to emphasize new compounds and/or those for which interesting bioactivity has been measured. Near-ubiquitous (primarily plant-based) compounds tend to be overrepresented in the NP literature, yet the implication of their wide distribution in nature and associated patterns of broad, non-specific activity are often underappreciated (Bisson et al., 2016). Ideally, all characterized compounds independent of structural novelty and/or bioactivity potential should be documented. New data are  fundamental for the advancement of NP research. The LOTUS initiative provides a framework for rigorous review and incorporation of new records, and already presents a valuable overview of the distribution of NP occurrences studied to date. While these data may already represent a reasonable approximation of the chemical content of some well-studied organisms such as *Arabidopsis thaliana*, they remain very patchy for most other members of the tree of life. The comprehensive editing opportunities provided within LOTUS and through the associated Wikidata distribution platform open new opportunities for collaborative community engagement. The authors believe that (inter)active community participation is the most efficient means of achieving a more comprehensive documentation of NP occurrences. In addition to facilitating the introduction of new data, it also provides a forum for critical review of existing data, as well as harmonization and verification of existing NP datasets as they come online.
+At its current development stage, data harmonized and curated in the LOTUS initiative remain imperfect and, by the very nature of research, at least partially biased (see introduction). In the context of bioactive NP research, and due to global editorial practices, it should not be ignored that many publications tend to emphasize new compounds and/or those for which interesting bioactivity has been measured. Near-ubiquitous (primarily plant-based) compounds tend to be overrepresented in the NP literature, yet the implication of their wide distribution in nature and associated patterns of broad, non-specific activity are often underappreciated [@doi:10.1021/acs.jmedchem.5b01009]. Ideally, all characterized compounds independent of structural novelty and/or bioactivity potential should be documented. New data are  fundamental for the advancement of NP research. The LOTUS initiative provides a framework for rigorous review and incorporation of new records, and already presents a valuable overview of the distribution of NP occurrences studied to date. While these data may already represent a reasonable approximation of the chemical content of some well-studied organisms such as *Arabidopsis thaliana*, they remain very patchy for most other members of the tree of life. The comprehensive editing opportunities provided within LOTUS and through the associated Wikidata distribution platform open new opportunities for collaborative community engagement. The authors believe that (inter)active community participation is the most efficient means of achieving a more comprehensive documentation of NP occurrences. In addition to facilitating the introduction of new data, it also provides a forum for critical review of existing data, as well as harmonization and verification of existing NP datasets as they come online.
 
 ### Fostering FAIRness and TRUSTworthiness
 
 The LOTUS harmonized data and dissemination of referenced structure-organism pairs through Wikidata, enables novel forms of queries and transformational perspectives in NP research. As LOTUS follows the guidelines of FAIRness and TRUSTworthiness, all researchers across disciplines can benefit from this opportunity, whether the interest is in ecology and evolution, chemical ecology, drug discovery, biosynthesis pathway elucidation, chemotaxonomy, or other research fields that connect with NP.
 
-The introduction of LOTUS even provides a new opportunity to advance the FAIR guiding principles for scientific data management and stewardship originally established in 2016 (Wilkinson et al., 2016). Researchers worldwide uniformly acknowledge the limitations caused by the intrinsic unavailability of essential (raw) data (Bisson et al., 2017). The lack of progress is, at least in part, due to elements in the dissemination channels of the classical print and static PDF publication formats that complicate or sometimes even discourage data sharing, e.g., due to page limitations and economically motivated mechanisms, including those involved in the focus on and calculation of journal impact factors. In particular raw data such as experimental readings, spectroscopic data, instrumental measurements, statistical, and other calculations are valued by all, but disseminated by only very few. The immense value of raw data and the desire to advance the public dissemination has recently been documented in detail for NMR spectroscopic data by a large consortium of NP researchers (McAlpine et al., 2019). However, to generate the vital flow of contributed data, the effort associated with preparing and submitting content to open repositories as well as data reuse should be better acknowledged in academia, government, regulatory, and industrial environments. (Cousijn et al., 2018, 2019; Pierce et al., 2019).
+The introduction of LOTUS even provides a new opportunity to advance the FAIR guiding principles for scientific data management and stewardship originally established in 2016 [@doi:10/bdd4]. Researchers worldwide uniformly acknowledge the limitations caused by the intrinsic unavailability of essential (raw) data [@doi:10.1039/c6np00022c]. The lack of progress is, at least in part, due to elements in the dissemination channels of the classical print and static PDF publication formats that complicate or sometimes even discourage data sharing, e.g., due to page limitations and economically motivated mechanisms, including those involved in the focus on and calculation of journal impact factors. In particular raw data such as experimental readings, spectroscopic data, instrumental measurements, statistical, and other calculations are valued by all, but disseminated by only very few. The immense value of raw data and the desire to advance the public dissemination has recently been documented in detail for NMR spectroscopic data by a large consortium of NP researchers [@doi:10.1039/c7np00064b]. However, to generate the vital flow of contributed data, the effort associated with preparing and submitting content to open repositories as well as data reuse should be better acknowledged in academia, government, regulatory, and industrial environments [@doi:10/gh533h; @doi:10/gfnxpj; @doi:10/gf3j9t].
 
 ### Opening New Perspectives for Spectral Data
 
-The possibilities for expansion and future applications of the Wikidata-based LOTUS initiative are significant. For example, properly formatted spectral data, e.g., data obtained by mass spectrometry (MS) or nuclear magnetic resonance (NMR), can be linked to the Wikidata entries for the respective chemical compounds. MassBank (Horai et al., 2010) and SPLASH (Wohlgemuth et al., 2016) identifiers are already reported in Wikidata, and this existing information can be used to report MassBank or SPLASH records for example for *Arabidopsis thaliana* compounds (https://w.wiki/3Jor). Such possibilities will help to bridge experimental data results obtained during the early stages of NP research with data that had been reported and formatted in different contexts. This opens exciting perspectives for structural dereplication, NP annotation, and metabolomic analysis. The authors have previously demonstrated that taxonomically-informed metabolite annotation is critical for the improvement of the NP annotation process (Rutz et al., 2019). Alternative approaches linking structural annotation to biological organisms have also shown substantial improvements (Hoffmann et al., 2021). The LOTUS initiative offers new opportunities for linking chemical objects to both their biological occurrences and spectral information and should significantly facilitate such applications.
+The possibilities for expansion and future applications of the Wikidata-based LOTUS initiative are significant. For example, properly formatted spectral data, e.g., data obtained by mass spectrometry (MS) or nuclear magnetic resonance (NMR), can be linked to the Wikidata entries for the respective chemical compounds. MassBank [@doi:10/d8pdcr] and SPLASH [@doi:10.1093/bioinformatics/btq476] identifiers are already reported in Wikidata, and this existing information can be used to report MassBank or SPLASH records for example for *Arabidopsis thaliana* compounds ([https://w.wiki/3Jor](https://w.wiki/3Jor)). Such possibilities will help to bridge experimental data results obtained during the early stages of NP research with data that had been reported and formatted in different contexts. This opens exciting perspectives for structural dereplication, NP annotation, and metabolomic analysis. The authors have previously demonstrated that taxonomically-informed metabolite annotation is critical for the improvement of the NP annotation process [@doi:10/fm73]. Alternative approaches linking structural annotation to biological organisms have also shown substantial improvements [@doi:10.1101/2021.03.18.435634]. The LOTUS initiative offers new opportunities for linking chemical objects to both their biological occurrences and spectral information and should significantly facilitate such applications.
 
 ### Integrating Chemodiversity, Biodiversity, and Human Health
 
-As shown in SI-5, observing the chemical and biological diversity at various granularities can offer new insights. Regarding the chemical objects involved, it will be important to document the taxonomies of chemical annotations for the Wikidata entries. However, this is a rather complex task, for which stability and coverage issues will have to be addressed first. Existing chemical taxonomies such as ChEBI, ClassyFire, or NPClassifier are evolving steadily, and it will be important to constantly update the tools used to make further annotations. Repositioning NP within their greater biosynthetic context is another major challenge - and active field of research. The fact that the LOTUS disseminates data through Wikidata will help facilitate its integration with biological pathway knowledge bases such as WikiPathways and contribute to this complex task (Martens et al., 2020; Slenter et al., 2018).
+As shown in [SI-5](SI-5---Complement-to-Figure-7), observing the chemical and biological diversity at various granularities can offer new insights. Regarding the chemical objects involved, it will be important to document the taxonomies of chemical annotations for the Wikidata entries. However, this is a rather complex task, for which stability and coverage issues will have to be addressed first. Existing chemical taxonomies such as ChEBI, ClassyFire, or NPClassifier are evolving steadily, and it will be important to constantly update the tools used to make further annotations. Repositioning NP within their greater biosynthetic context is another major challenge - and active field of research. The fact that the LOTUS disseminates data through Wikidata will help facilitate its integration with biological pathway knowledge bases such as [WikiPathways](https://www.wikipathways.org/index.php/WikiPathways) and contribute to this complex task [@doi:10/gh6dq2; @doi:10.1093/nar/gkx1064].
 
-In the field of ecology, for example, molecular traits are gaining increased attention (Kessler and Kalske, 2018; Sedio, 2017). Conceptually, LOTUS can help associate classical plant traits (e.g., leaf surface area, photosynthetic capacities, etc.) with Wikidata biological organisms entries, and, thus, allow their integration and comparison with chemicals that are associated with the organisms. Likewise, the association of biogeography data documented in repositories such as GBIF could be further exploited in Wikidata to pursue the exciting but understudied topic of “chemodiverse hotspots” (Defossez et al., 2021).
+In the field of ecology, for example, molecular traits are gaining increased attention [@doi:10/gftqcm; @doi:10/ghttk6]. Conceptually, LOTUS can help associate classical plant traits (e.g., leaf surface area, photosynthetic capacities, etc.) with Wikidata biological organisms entries, and, thus, allow their integration and comparison with chemicals that are associated with the organisms. Likewise, the association of biogeography data documented in repositories such as GBIF could be further exploited in Wikidata to pursue the exciting but understudied topic of “chemodiverse hotspots” [@doi:10/ghssx4].
 
-Further NP-related information of great interest remains poorly formatted. One example of such a shortcoming relates to traditional medicine, including ethnomedicine and ethnobotany, which is the historical and empiric approach of mankind to discover and use bioactive products from Nature, primarily plants. The amount of knowledge generated in human history on the use of medicinal substances represents fascinating yet underutilized information. Notably, the body of literature on the pharmacology and toxicology of NP is compound-centric, increases steadily, and relatively scattered, but still highly relevant (not necessarily: sufficient) for exploring the role and potential utility of NP for human health. To this end, the LOTUS initiative represents a resource for new concepts by which such information could be valued and conserved in the digital era, as LOTUS provides a blueprint for appropriate formatting and sharing of such data (Allard et al., 2018; Cordell, 2017b, 2017a). This underscores the transformative value of the LOTUS initiative for the advancement of Traditional Medicine and its drug discovery potential in health systems worldwide.
+Further NP-related information of great interest remains poorly formatted. One example of such a shortcoming relates to traditional medicine, including ethnomedicine and ethnobotany, which is the historical and empiric approach of mankind to discover and use bioactive products from Nature, primarily plants. The amount of knowledge generated in human history on the use of medicinal substances represents fascinating yet underutilized information. Notably, the body of literature on the pharmacology and toxicology of NP is compound-centric, increases steadily, and relatively scattered, but still highly relevant (not necessarily: sufficient) for exploring the role and potential utility of NP for human health. To this end, the LOTUS initiative represents a resource for new concepts by which such information could be valued and conserved in the digital era, as LOTUS provides a blueprint for appropriate formatting and sharing of such data [@doi:10/ggb79p; @doi:10/gh533j; @doi:10.1177/1934578X1701200849]. This underscores the transformative value of the LOTUS initiative for the advancement of Traditional Medicine and its drug discovery potential in health systems worldwide.
 
 ### Summary & Outlook
 
-The various facets discussed above connect with ongoing and future developments that the tandem of the LOTUS initiative and its Wikidata integration can accommodate through a broader knowledge base. The information of the LOTUS initiative is already readily accessible by third party projects build on top of Wikidata such as the SLING project (https://github.com/ringgaard/sling, see entry for gliotoxin) or the Plant Humanities Lab project (https://lab.plant-humanities.org/, see entry for Ilex guayusa). Behind the scenes, all underlying resources represent data in a multidimensional space and can be extracted as individual graphs that can be interconnected. The craft of appropriate federated queries allows users to navigate these graphs and fully exploit their potential (Kratochvíl, 2018; Waagmeester et al., 2020). The development of interfaces such as RDFFrames (Mohamed et al., 2020) will also facilitate the use of the wide arsenal of existing machine learning approaches to automate reasoning on these knowledge graphs.
+The various facets discussed above connect with ongoing and future developments that the tandem of the LOTUS initiative and its Wikidata integration can accommodate through a broader knowledge base. The information of the LOTUS initiative is already readily accessible by third party projects build on top of Wikidata such as the SLING project ([https://github.com/ringgaard/sling](https://github.com/ringgaard/sling), see entry for [gliotoxin](https://ringgaard.com/kb/Q413364)) or the Plant Humanities Lab project ([https://lab.plant-humanities.org/](https://lab.plant-humanities.org/), see entry for [*Ilex guayusa*](https://search.plant-humanities.org/?eid=wd%3AQ3772280)). Behind the scenes, all underlying resources represent data in a multidimensional space and can be extracted as individual graphs that can be interconnected. The craft of appropriate federated queries allows users to navigate these graphs and fully exploit their potential [@doi:10/gdn52j; @doi:10/ggqqc6]. The development of interfaces such as RDFFrames [@wikidata:Q106204599] will also facilitate the use of the wide arsenal of existing machine learning approaches to automate reasoning on these knowledge graphs.
 
 Overall, the LOTUS initiative aims to make more and better data available. This project paves the way for the establishment of an open and expandable electronic NP resource. The design and efforts of the LOTUS initiative reflect our conviction that the integration of NP research results is long-needed and requires a truly open and FAIR knowledge base. We believe that the LOTUS initiative has the potential to fuel a virtuous cycle of research habits and, as a result, contribute to a better understanding of *Life and its chemistry*.
 
@@ -570,11 +570,11 @@ Overall, the LOTUS initiative aims to make more and better data available. This 
 
 #### Gathering
 
-Before their inclusion, the overall quality of the source was manually assessed to estimate the quality of referenced structure-organism pairs and the lack of ambiguities in the links between data and references. This led to the identification of thirty-six electronic NP resources as valuable LOTUS input. Data from the proprietary Dictionary of Natural Products (DNP v 29.1) was also used for comparison purposes only and is not publicly disseminated. FooDB was also curated but not publicly disseminated since its license did not allow sharing in Wikidata. SI-1 gives all necessary details regarding electronic NP resources access and characteristics.
+Before their inclusion, the overall quality of the source was manually assessed to estimate the quality of referenced structure-organism pairs and the lack of ambiguities in the links between data and references. This led to the identification of thirty-six electronic NP resources as valuable LOTUS input. Data from the proprietary Dictionary of Natural Products (DNP v 29.1) was also used for comparison purposes only and is not publicly disseminated. [FooDB](https://foodb.ca/) was also curated but not publicly disseminated since its license did not allow sharing in Wikidata. [SI-1](SI-1---Data-Sources-List) gives all necessary details regarding electronic NP resources access and characteristics.
 
 Manual inspection of each electronic NP resource revealed that the structure, organism, and reference fields were widely variable in format and contents, thus requiring standardization to be comparable. The initial stage consisted of writing tailored scripts that are capable of harmonizing and categorizing knowledge from each source (Fig. 2). This transformative process led to three categories: fields relevant to the chemical structure described, to the producing biological organism, and the reference describing the occurrence of the chemical structure in the producing biological organism. This process resulted in categorized columns for each source, providing an initial harmonized format for each table.
 
-For all thirty-eight sources, if a single file or multiple files were accessible via a download option including FTP, data was gathered that way. For some sources, data was scraped (cf. SI-1). All scraping scripts written to automatically retrieve entries can be found in the lotusProcessor repository in the src/1_gathering directory (under each respective subdirectory). Data extraction scripts for the DNP are available and should allow users with a license to further exploit the data (src/1_gathering/db/dnp). The chemical structure fields, organism fields, and reference fields were manually categorized into three, two, and ten subcategories, respectively. For chemical structures, ”InChI”, “SMILES”, and “chemical name” (not necessarily IUPAC). For organisms, “clean” and “dirty”, meaning lot text not referred to the canonical name was present or the organism was not described by its canonical name. For the references, the original reference was kept in the “original” field. When the format allowed it, references were divided into: “authors”, ”doi”, ”external”, ”isbn”, ”journal”, “original”, ”publishing details”, “pubmed”, “title”, “split”. The generic “external” field was used for all external cross-references to other websites or electronic NP resources (for example, “also in knapsack”). The last subcategory, “split”, corresponds to a still non-atomic field after the removal of parts of the original reference. Other field titles are self-explanatory. The producing organism field was kept as a single field.
+For all thirty-eight sources, if a single file or multiple files were accessible via a download option including FTP, data was gathered that way. For some sources, data was scraped (cf. [SI-1](SI-1---Data-Sources-List)). All scraping scripts written to automatically retrieve entries can be found in the [lotusProcessor](https://gitlab.com/lotus7/lotusProcessor) repository in the [src/1_gathering](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/1_gathering) directory (under each respective subdirectory). Data extraction scripts for the DNP are available and should allow users with a license to further exploit the data ([src/1_gathering/db/dnp](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/1_gathering/db/dnp)). The chemical structure fields, organism fields, and reference fields were manually categorized into three, two, and ten subcategories, respectively. For chemical structures, ”InChI”, “SMILES”, and “chemical name” (not necessarily IUPAC). For organisms, “clean” and “dirty”, meaning lot text not referred to the canonical name was present or the organism was not described by its canonical name. For the references, the original reference was kept in the “original” field. When the format allowed it, references were divided into: “authors”, ”doi”, ”external”, ”isbn”, ”journal”, “original”, ”publishing details”, “pubmed”, “title”, “split”. The generic “external” field was used for all external cross-references to other websites or electronic NP resources (for example, “also in knapsack”). The last subcategory, “split”, corresponds to a still non-atomic field after the removal of parts of the original reference. Other field titles are self-explanatory. The producing organism field was kept as a single field.
 
 #### Harmonization
 
@@ -586,30 +586,30 @@ To obtain an unambiguously referenced structure-organism pair for Wikidata disse
 
 ##### Chemical Structures
 
-To retrieve as much information as possible from the original structure field(s) of each of the sources, the following procedure was followed. Allowed structural fields for the sources were divided into two types: structural (InChI, SMILES) or nominal (chemical name, not necessarily IUPAC). If multiple fields were present, structural identifiers were preferred over structure names. Among structural identifiers, when both identifiers led to different structures, InChI was preferred over SMILES. SMILES were translated to InChI using the RDKit (2020.03.3) implementation in Python 3.8 (src/2_curating/2_editing/structure/1_translating/smiles.py). They were first converted to ROMol objects which were then converted to InChI. When no structural identifier was available, the nominal identifier was translated to InChI first thanks to OPSIN (Lowe et al., 2011), a fast Java-based translation open-source solution. If no translation was obtained, chemical names were then submitted to the CTS (Wohlgemuth et al., 2010), once in lower case only, once with the first letter capitalized. If again no translation was obtained, candidates were then submitted to the Chemical Identifier Resolver via the cts_convert function from the webchem package (Szöcs et al., 2020). Before the translation process, some typical chemical structure-related greek characters (such as α, ß) were replaced by their textual equivalents (alpha, beta) to obtain better results. All pre-translation steps are included in the preparing_name function and are available in src/r/preparing_name.R.
+To retrieve as much information as possible from the original structure field(s) of each of the sources, the following procedure was followed. Allowed structural fields for the sources were divided into two types: structural (InChI, SMILES) or nominal (chemical name, not necessarily IUPAC). If multiple fields were present, structural identifiers were preferred over structure names. Among structural identifiers, when both identifiers led to different structures, InChI was preferred over SMILES. SMILES were translated to InChI using the RDKit (2020.03.3) implementation in Python 3.8 ([src/2_curating/2_editing/structure/1_translating/smiles.py](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/2_curating/2_editing/structure/1_translating/smiles.py)). They were first converted to [ROMol](https://www.rdkit.org/docs/cppapi/ROMol_8h.html#details) objects which were then converted to InChI. When no structural identifier was available, the nominal identifier was translated to InChI first thanks to [OPSIN](https://github.com/dan2097/opsin) [@doi:10/b2zkr9], a fast Java-based translation open-source solution. If no translation was obtained, chemical names were then submitted to the CTS [@doi:10.1093/bioinformatics/btq476], once in lower case only, once with the first letter capitalized. If again no translation was obtained, candidates were then submitted to the [Chemical Identifier Resolver](https://cactus.nci.nih.gov) via the cts_convert function from the webchem package [@doi:10/gh5ptf]. Before the translation process, some typical chemical structure-related greek characters (such as *α*, *ß*) were replaced by their textual equivalents (alpha, beta) to obtain better results. All pre-translation steps are included in the preparing_name function and are available in [src/r/preparing_name.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/r/preparing_name.R).
 
-The chemical sanitization step sought to standardize the representation of chemical structures coming from different sources. It consisted of three main stages (standardizing, fragment removal, and uncharging) achieved via the MolVS package. The initial standardizer function consists of six stages (RDKit Sanitization, RDKit Hs removal, Metals Disconnection, Normalization, Acids Reionization, and Stereochemistry recalculation) detailed in the molvs documentation. In a second step, the FragmentRemover functionality was applied using a list of SMARTS to detect and remove common counterions and crystallization reagents sometimes occurring in the input DB. Finally, the Uncharger function was employed to neutralize molecules when appropriate. 
+The chemical sanitization step sought to standardize the representation of chemical structures coming from different sources. It consisted of three main stages (standardizing, fragment removal, and uncharging) achieved via the MolVS package. The initial standardizer function consists of six stages (RDKit Sanitization, RDKit Hs removal, Metals Disconnection, Normalization, Acids Reionization, and Stereochemistry recalculation) detailed in the [molvs documentation](https://molvs.readthedocs.io/en/latest/guide/standardize.html). In a second step, the FragmentRemover functionality was applied using a list of SMARTS to detect and remove common counterions and crystallization reagents sometimes occurring in the input DB. Finally, the Uncharger function was employed to neutralize molecules when appropriate. 
 
-MarvinSuite was used for traditional and IUPAC names translation, Marvin 20.19, ChemAxon. When stereochemistry was not fully defined, (+) and (-) symbols were removed from names. All details are available in the following script: src/2_curating/2_editing/structure/4_enriching/naming.R.
-Chemical classification of all resulting structures was done using classyfireR (Feunang et al., 2016) and NPClassifier API.
+MarvinSuite was used for traditional and IUPAC names translation, Marvin 20.19, [ChemAxon](https://www.chemaxon.com). When stereochemistry was not fully defined, (+) and (-) symbols were removed from names. All details are available in the following script: [src/2_curating/2_editing/structure/4_enriching/naming.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/2_curating/2_editing/structure/4_enriching/naming.R).
+Chemical classification of all resulting structures was done using classyfireR [@doi:10/gc5tqv] and [NPClassifier API](https://ccms-ucsd.github.io/GNPSDocumentation/api/#structure-np-classifier).
 
 From the 269,436 initial InChI, 233,652 (87%) sanitized structures were obtained, of which 176,235 (75%) had complete stereochemistry defined. 197,392 (73%) were uploaded to Wikidata.
 From the 244,724 initial SMILES, 205,244 (84%) sanitized structures were obtained, of which 8,542 (4%) had complete stereochemistry defined. 173,590 (71%) were uploaded to Wikidata.
 From the 49,315 initial chemical names, 27,780 (56%) sanitized structures were obtained, of which 2,324 (8%) had complete stereochemistry defined. 23,098 (47%) were uploaded to Wikidata.
-In total, 164,308 structures with fully defined stereochemistry were uploaded as “chemical compounds” (Q11173), and 106,043 structures without fully defined stereochemistry were uploaded as “group of stereoisomers” (Q59199015).
+In total, 164,308 structures with fully defined stereochemistry were uploaded as “chemical compounds” ([Q11173](https://www.wikidata.org/wiki/Q11173)), and 106,043 structures without fully defined stereochemistry were uploaded as “group of stereoisomers” ([Q59199015](https://www.wikidata.org/wiki/Q59199015)).
 
 
 ##### Biological Organisms
 
-The cleaning process at the biological organism’s level had three objectives: convert the original organism string to (a) taxon name(s), atomize fields containing multiple taxon names, and deduplicate synonyms. The original organism strings were treated with Global Names Finder (GNF) and Global Names Verify (GNV), both tools coming from the Global Names Architecture (GNA) a system of web services that helps people to register, find, index, check and organize biological scientific names and interconnect on-line information about species. GNF allows scientific name recognition within raw text blocks and searches for found scientific names among public taxonomic DB. GNV takes names or lists of names and verifies them against various biodiversity data sources. Canonical names, their taxonID, and the taxonomic DB they were found in were retrieved. When a single entry led to multiple canonical names (accepted synonyms), all of them were kept. Because both GNF and GNV recognize scientific names and not common ones, common names were translated before a second resubmission.
+The cleaning process at the biological organism’s level had three objectives: convert the original organism string to (a) taxon name(s), atomize fields containing multiple taxon names, and deduplicate synonyms. The original organism strings were treated with [Global Names Finder](https://github.com/gnames/gnfinder) (GNF) and [Global Names Verifier](https://github.com/gnames/gnverifier) (GNV), both tools coming from the [Global Names Architecture](http://globalnames.org) (GNA) a system of web services that helps people to register, find, index, check and organize biological scientific names and interconnect on-line information about species. GNF allows scientific name recognition within raw text blocks and searches for found scientific names among public taxonomic DB. GNV takes names or lists of names and verifies them against various biodiversity data sources. Canonical names, their taxonID, and the taxonomic DB they were found in were retrieved. When a single entry led to multiple canonical names (accepted synonyms), all of them were kept. Because both GNF and GNV recognize scientific names and not common ones, common names were translated before a second resubmission.
 
 ###### Dictionaries
 
-To perform the translations from common biological organism name to latin scientific name, specialized dictionaries included in DrDuke, FooDB, PhenolExplorer were aggregated together with the translation dictionary of GBIF Backbone Taxonomy. The script used for this was src/1_gathering/translation/common.R. When the canonical translation of a common name contained a specific epithet that was not initially present, the translation pair was discarded (for example, “Aloe” translated in “Aloe vera” was discarded). Common names corresponding to a generic name were also discarded (for example “Kiwi” corresponding to the synonym of an Apteryx spp. (https://www.gbif.org/species/4849989)). When multiple translations were given for a single common name, the following procedure was followed: the canonical name was split into species name, genus name, and possible subnames. For each common name, genus names and species names were counted. If both the species and genus names were consistent at more than 50%, they were considered consistent overall and, therefore, kept (for example, “Aberrant Bush Warbler” had “Horornis flavolivaceus” and “Horornis flavolivaceus intricatus” as translation; as both the generic (“Horornis”) and the specific (“flavolivaceus”) epithets were consistent at 100%, both (“Horornis flavolivaceus”) were kept). When only the generic epithet had more than 50% consistency, it was kept (for example, “Angelshark” had “Squatina australis” and “Squatina squatina” as translation, so only “Squatina” was kept). Some unspecific common names were removed (see https://osf.io/gqhcn/) and only common names with more than three characters were kept. This resulted in 181,891 translation pairs further used for the conversion from common names to scientific names. For TCM names, translation dictionaries from TCMID, TMMC, and coming from the Chinese Medicine Board of Australia were aggregated. The script used for this was src/1_gathering/translation/tcm.R. Some unspecific common names were removed (see https://osf.io/zs7ky/). Careful attention was given to the Latin genitive translations and custom dictionaries were written (see https://osf.io/c3ja4/, https://osf.io/u75e9/). Organ names of the producing organism were removed to avoid wrong translation (see https://osf.io/94fa2/). This resulted in 7070 translation pairs. Both common and TCM translation pairs were then ordered by decreasing string length, first translating the longer names to avoid part of them being translated incorrectly.
+To perform the translations from common biological organism name to latin scientific name, specialized dictionaries included in DrDuke, FooDB, PhenolExplorer were aggregated together with the translation dictionary of [GBIF Backbone Taxonomy](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c). The script used for this was [src/1_gathering/translation/common.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/1_gathering/translation/common.R). When the canonical translation of a common name contained a specific epithet that was not initially present, the translation pair was discarded (for example, “Aloe” translated in “*Aloe vera*” was discarded). Common names corresponding to a generic name were also discarded (for example “Kiwi” corresponding to the synonym of an *Apteryx* spp. ([https://www.gbif.org/species/4849989](https://www.gbif.org/species/4849989))). When multiple translations were given for a single common name, the following procedure was followed: the canonical name was split into species name, genus name, and possible subnames. For each common name, genus names and species names were counted. If both the species and genus names were consistent at more than 50%, they were considered consistent overall and, therefore, kept (for example, “Aberrant Bush Warbler” had “*Horornis flavolivaceus*” and “*Horornis flavolivaceus intricatus*” as translation; as both the generic (“*Horornis*”) and the specific (“*flavolivaceus*”) epithets were consistent at 100%, both (“*Horornis flavolivaceus*”) were kept). When only the generic epithet had more than 50% consistency, it was kept (for example, “Angelshark” had “*Squatina australis*” and “*Squatina squatina*” as translation, so only “*Squatina*” was kept). Some unspecific common names were removed (see [https://osf.io/gqhcn/](https://osf.io/gqhcn/)) and only common names with more than three characters were kept. This resulted in 181,891 translation pairs further used for the conversion from common names to scientific names. For TCM names, translation dictionaries from TCMID, TMMC, and coming from the Chinese Medicine Board of Australia were aggregated. The script used for this was [src/1_gathering/translation/tcm.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/1_gathering/translation/tcm.R). Some unspecific common names were removed (see [https://osf.io/zs7ky/](https://osf.io/zs7ky/)). Careful attention was given to the Latin genitive translations and custom dictionaries were written (see [https://osf.io/c3ja4/](https://osf.io/c3ja4/), [https://osf.io/u75e9/](https://osf.io/u75e9/)). Organ names of the producing organism were removed to avoid wrong translation (see [https://osf.io/94fa2/](https://osf.io/94fa2/)). This resulted in 7,070 translation pairs. Both common and TCM translation pairs were then ordered by decreasing string length, first translating the longer names to avoid part of them being translated incorrectly.
 
 ###### Translation
 
-To ensure compatibility between obtained taxonID with Wikidata, the taxonomic DB 3 (ITIS), 4 (NCBI), 5 (Index Fungorum), 6 (GRIN Taxonomy for Plants), 8 (The Interim Register of Marine and Nonmarine Genera), 9 (World Register of Marine Species), 11 (GBIF Backbone Taxonomy), 12 (Encyclopedia of Life), 118 (AmphibiaWeb), 128 (ARKive), 132 (ZooBank), 147 (Database of Vascular Plants of Canada (VASCAN)), 148 (Phasmida Species File), 150 (USDA NRCS PLANTS Database), 155 (FishBase), 158 (EUNIS), 163 (IUCN Red List of Threatened Species), 164 (BioLib.cz), 165 (Tropicos - Missouri Botanical Garden), 167 (The International Plant Names Index), 169 (uBio NameBank), 174 (The Mammal Species of The World), 175 (BirdLife International), 179 (Open Tree of Life), 180 (iNaturalist) and 187 (The eBird/Clements Checklist of Birds of the World) were chosen. All other available taxonomic DB are listed at http://index.globalnames.org/datasource. To retrieve as much information as possible from the original organism field of each of the sources, the following procedure was followed: First, a scientific name recognition step, allowing us to retrieve canonical names was carried (src/2_curating/2_editing/organisms/subscripts/1_cleaningOriginal.R). Then, a subtraction step of the obtained canonical names from the original field was applied, to avoid unwanted translation of parts of canonical names. For example, Bromus mango contains “mango” as a specific epithet, which is also the common name for Mangifera indica. After this subtraction step, the remaining names were translated from vernacular (common) and TCM names to scientific names, with help of the dictionaries. For performance reasons, this cleaning step was written in Kotlin and used coroutines to allow efficient parallelization of that process (src/2_curating/2_editing/organisms/2_translating_organism_kotlin/). They were subsequently submitted again to scientific name recognition (src/2_curating/2_editing/organisms/3_cleaningTranslated.R). 
+To ensure compatibility between obtained taxonID with Wikidata, the taxonomic DB 3 ([ITIS](https://www.itis.gov/)), 4 ([NCBI](https://www.ncbi.nlm.nih.gov/taxonomy)), 5 ([Index Fungorum](http://www.indexfungorum.org/)), 6 ([GRIN Taxonomy for Plants](http://wgb.cimmyt.org/gringlobal/taxon/abouttaxonomy.aspx?language=en&chapter=scope)), 8 ([The Interim Register of Marine and Nonmarine Genera](https://www.irmng.org/)), 9 ([World Register of Marine Species](http://www.marinespecies.org/)), 11 ([GBIF Backbone Taxonomy](https://www.gbif.org/)), 12 ([Encyclopedia of Life](https://eol.org/)), 118 ([AmphibiaWeb](https://amphibiaweb.org/)), 128 ([ARKive](https://www.wildscreen.org/arkive-closure/)), 132 ([ZooBank](http://zoobank.org/)), 147 ([Database of Vascular Plants of Canada (VASCAN)](http://data.canadensys.net/vascan/search)), 148 ([Phasmida Species File](http://phasmida.speciesfile.org/)), 150 ([USDA NRCS PLANTS Database](https://plants.sc.egov.usda.gov/)), 155 ([FishBase](https://www.fishbase.se/)), 158 ([EUNIS](https://eunis.eea.europa.eu/)), 163 ([IUCN Red List of Threatened Species](https://www.iucnredlist.org/)), 164 ([BioLib.cz](https://www.biolib.cz/)), 165 ([Tropicos - Missouri Botanical Garden](https://www.tropicos.org/)), 167 ([The International Plant Names Index](https://www.ipni.org/)), 169 ([uBio NameBank](http://ubio.org/)), 174 ([The Mammal Species of The World](https://www.departments.bucknell.edu/biology/resources/msw3/)), 175 ([BirdLife International](http://www.birdlife.org/)), 179 ([Open Tree of Life](https://tree.opentreeoflife.org/)), 180 ([iNaturalist](https://www.inaturalist.org/)) and 187 ([The eBird/Clements Checklist of Birds of the World](https://ebird.org/science/use-ebird-data/the-ebird-taxonomy)) were chosen. All other available taxonomic DB are listed at [http://index.globalnames.org/datasource](http://index.globalnames.org/datasource). To retrieve as much information as possible from the original organism field of each of the sources, the following procedure was followed: First, a scientific name recognition step, allowing us to retrieve canonical names was carried ([src/2_curating/2_editing/organisms/subscripts/1_cleaningOriginal.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/2_curating/2_editing/organisms/subscripts/1_cleaningOriginal.R)). Then, a subtraction step of the obtained canonical names from the original field was applied, to avoid unwanted translation of parts of canonical names. For example, Bromus mango contains “mango” as a specific epithet, which is also the common name for Mangifera indica. After this subtraction step, the remaining names were translated from vernacular (common) and TCM names to scientific names, with help of the dictionaries. For performance reasons, this cleaning step was written in Kotlin and used coroutines to allow efficient parallelization of that process ([src/2_curating/2_editing/organisms/2_translating_organism_kotlin/](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/2_curating/2_editing/organisms/2_translating_organism_kotlin/)). They were subsequently submitted again to scientific name recognition ([src/2_curating/2_editing/organisms/3_cleaningTranslated.R](http://src/2_curating/2_editing/organisms/3_cleaningTranslated.R)). 
 
 After full resolution of canonical names, all obtained names were submitted to rotl (Michonneau et al., 2016) to obtain a unified taxonomy.
 
@@ -619,7 +619,7 @@ From the 294 initial “dirty” organism fields, 241 (82%) canonical names were
 
 ##### References {.page_break_before}
 
-The Rcrossref package interfacing with the Crossref API was used to translate references from their original subcategory (“original”, “publishingDetails”, “split”, “title”) to a DOI, the title of its corresponding article, the journal it was published in, its date of publication and the name of the first author. The first twenty candidates were kept and ranked according to the score returned by Crossref, which is a tf-idf score. For DOI and PMID, only a single candidate was kept. All parameters are available in src/functions/reference.R. All DOIs were also translated with this method, to eventually discard any DOI not leading to an object. PMIDs were translated, thanks to the entrez_summary function of the rentrez package. Scripts used for all subcategories of references are available in the directory src/2_curating/2_editing/reference/1_translating/. Once all translations were made, results coming from each subcategory were integrated, (src/2_curating/2_editing/reference/2_integrating.R) and the producing organism related to the reference was added for further treatment. Because the crossref score was not informative enough, at least one other metric was chosen to complement it. The first metric was related to the presence of the producing organism’s generic name in the title of the returned article. If the title contained the generic name of the organism, a score of 1 was given, else 0. Regarding the subcategories “doi”, “pubmed” and “title”, for which the same subcategory was retrieved via crossref or rentrez, distances between the input’s string and the candidates’ one were calculated. Optimal string alignment (restricted Damerau-Levenshtein distance) was used as a method. Among “publishing details”, “original” and “split” categories, three additional metrics were used: If the journal name was present in the original field, a score of 1 was given, else 0. If the name of the first author was present in the original field, a score of 1 was given, else 0. Those three scores were then summed together. All candidates were first ordered according to their crossref score, then by the complement score for related subcategories, then again according to their title-producing organism score, and finally according to their translation distance score. After this reranking step, only the first candidate was kept. Finally, the Pubmed PMCID dictionary (PMC-ids.csv.gz) was used to perform the translations between DOI, PMID, and PMCID. (src/2_curating/2_editing/reference/3_cleaning.R)
+The [Rcrossref](https://cran.r-project.org/web/packages/rcrossref/) package [@chamberlainRcrossrefClientVarious2020] interfacing with the [Crossref](https://www.crossref.org) API was used to translate references from their original subcategory (“original”, “publishingDetails”, “split”, “title”) to a DOI, the title of its corresponding article, the journal it was published in, its date of publication and the name of the first author. The first twenty candidates were kept and ranked according to the score returned by Crossref, which is a [tf-idf](https://lucene.apache.org/core/8_8_0/core/org/apache/lucene/search/similarities/TFIDFSimilarity.html) score. For DOI and PMID, only a single candidate was kept. All parameters are available in [src/functions/reference.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/main/src/functions/reference.R). All DOIs were also translated with this method, to eventually discard any DOI not leading to an object. PMIDs were translated, thanks to the entrez_summary function of the [rentrez](https://cran.r-project.org/web/packages/rentrez/) package [@doi:10/gh5ptg]. Scripts used for all subcategories of references are available in the directory [src/2_curating/2_editing/reference/1_translating/](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/2_curating/2_editing/reference/1_translating/). Once all translations were made, results coming from each subcategory were integrated, ([src/2_curating/2_editing/reference/2_integrating.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/2_curating/2_editing/reference/2_integrating.R)) and the producing organism related to the reference was added for further treatment. Because the crossref score was not informative enough, at least one other metric was chosen to complement it. The first metric was related to the presence of the producing organism’s generic name in the title of the returned article. If the title contained the generic name of the organism, a score of 1 was given, else 0. Regarding the subcategories “doi”, “pubmed” and “title”, for which the same subcategory was retrieved via crossref or rentrez, distances between the input’s string and the candidates’ one were calculated. Optimal string alignment (restricted [Damerau-Levenshtein distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)) was used as a method. Among “publishing details”, “original” and “split” categories, three additional metrics were used: If the journal name was present in the original field, a score of 1 was given, else 0. If the name of the first author was present in the original field, a score of 1 was given, else 0. Those three scores were then summed together. All candidates were first ordered according to their crossref score, then by the complement score for related subcategories, then again according to their title-producing organism score, and finally according to their translation distance score. After this reranking step, only the first candidate was kept. Finally, the Pubmed PMCID dictionary ([PMC-ids.csv.gz](https://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz)) was used to perform the translations between DOI, PMID, and PMCID. ([src/2_curating/2_editing/reference/3_cleaning.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/2_curating/2_editing/reference/3_cleaning.R))
 
 From the 36,692 initial “original” references, 21,928 (60%) references with sufficient quality were obtained, of which 15,674 (71%) had the organism name in their title. 9,882 (27%) were uploaded to Wikidata.
 From the 21,306 initial “pubmed” references, 9,015 (42%) references with sufficient quality were obtained, of which 5,695 (63%) had the organism name in their title. 3,013 (14%) were uploaded to Wikidata.
@@ -632,14 +632,14 @@ From the 3,310 initial “publishingDetails” references, 119 (4%) references w
 
 #### Realignment
 
-In order to fetch back the referenced structure-organism pairs links in the original data, the cleaned structures, cleaned organisms, and cleaned references were re-aligned with the initial entries. This resulted in over 6.2M referenced structure-organism pairs. Those pairs were not unique, with redundancies among electronic NP resources and different original categories leading to the same final pair (for example, entry reporting InChI=1/C21H20O12/c22-6-13-15(27)17(29)18(30)21(32-13)33-20-16(28)14-11(26)4-8(23)5-12(14)31-19(20)7-1-2-9(24)10(25)3-7/h1-5,13,15,17-18,21-27,29-30H,6H2/t13-,15+,17+,18-,21+/m1/s1 in Crataegus oxyacantha or InChI=1S/C21H20O12/c22-6-13-15(27)17(29)18(30)21(32-13)33-20-16(28)14-11(26)4-8(23)5-12(14)31-19(20)7-1-2-9(24)10(25)3-7/h1-5,13,15,17-18,21-27,29-30H,6H2/t13-,15+,17+,18-,21+/m1/s1 in Crataegus stevenii both led to OVSQVDMCBVZWGM-DTGCRPNFSA-N in Crataegus monogyna). After deduplication, over 2M unique structure-organism pairs were obtained.
+In order to fetch back the referenced structure-organism pairs links in the original data, the cleaned structures, cleaned organisms, and cleaned references were re-aligned with the initial entries. This resulted in over 6.2M referenced structure-organism pairs. Those pairs were not unique, with redundancies among electronic NP resources and different original categories leading to the same final pair (for example, entry reporting InChI=1/C21H20O12/c22-6-13-15(27)17(29)18(30)21(32-13)33-20-16(28)14-11(26)4-8(23)5-12(14)31-19(20)7-1-2-9(24)10(25)3-7/h1-5,13,15,17-18,21-27,29-30H,6H2/t13-,15+,17+,18-,21+/m1/s1 in *Crataegus oxyacantha* or InChI=1S/C21H20O12/c22-6-13-15(27)17(29)18(30)21(32-13)33-20-16(28)14-11(26)4-8(23)5-12(14)31-19(20)7-1-2-9(24)10(25)3-7/h1-5,13,15,17-18,21-27,29-30H,6H2/t13-,15+,17+,18-,21+/m1/s1 in *Crataegus stevenii* both led to OVSQVDMCBVZWGM-DTGCRPNFSA-N in *Crataegus monogyna*). After deduplication, over 2M unique structure-organism pairs were obtained.
 
-After the curation of all three objects, all of them were put together again. Therefore, the original aligned table containing the original pairs was joined with each curation result. Only entries containing a structure, an organism, and a reference after curation were kept. Each curated object was divided into minimal data (for Wikidata upload) and metadata. A dictionary containing original and curated object translations was written for each object to avoid those translations being made again during the next curation step (src/2_curating/3_integrating.R).
+After the curation of all three objects, all of them were put together again. Therefore, the original aligned table containing the original pairs was joined with each curation result. Only entries containing a structure, an organism, and a reference after curation were kept. Each curated object was divided into minimal data (for Wikidata upload) and metadata. A dictionary containing original and curated object translations was written for each object to avoid those translations being made again during the next curation step ([src/2_curating/3_integrating.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/2_curating/3_integrating.R)).
 
 
 #### Validation
 
-The pairs obtained after curation were of different quality. Globally, structure and organism translation was satisfactory whereas reference translation was not. Therefore, to assess the validity of the obtained results, a randomized set of 420 referenced structure-organism pairs was sampled in each reference subcategory and validated or rejected manually. Entries were sampled with at least 55 of each reference subcategory present (to get a representative idea of each subcategory) (src/3_analysing/1_sampling.R). An entry was only validated if: i) the structure (as any structural descriptor that could be linked to the final sanitized InChIKey) was described in the reference ii) the producing organism (as any organism descriptor that could be linked to the accepted canonical name) was described in the reference and iii) the reference was describing the occurrence of the chemical structure in the biological organism. Results obtained on the manually analyzed set were categorized according to the initial reference subcategory and are detailed in SI-2. To improve these results, further cleaning of the references was needed. This was done by accepting entries whose reference was coming from a DOI, a PMID, or from a title which restricted Damerau-Levenshtein distance between original and translated was lower than ten or if it was coming from one of the three main journals where occurrences are published (i.e., Journal of Natural Products, Phytochemistry, or Journal of Agricultural and Food Chemistry). For “split”, “publishingDetails” and “original” subcategories, the year of publication of the obtained reference, its journal, and the name of the first author were searched in the original entry and if at least two of them were present, the entry was kept. Entries were then further filtered to keep the ones where the reference title contained the first element of the detected canonical name. Except for COCONUT, exceptions to this filter were made for all DOI-based references. To validate those filtering criteria, an additional set of 100 structure-organism pairs were manually analyzed. F0.5 score was used as a metric. F0.5 score is a modified F1 score where precision has twice more weight than recall.
+The pairs obtained after curation were of different quality. Globally, structure and organism translation was satisfactory whereas reference translation was not. Therefore, to assess the validity of the obtained results, a randomized set of 420 referenced structure-organism pairs was sampled in each reference subcategory and validated or rejected manually. Entries were sampled with at least 55 of each reference subcategory present (to get a representative idea of each subcategory) ([src/3_analysing/1_sampling.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/3_analysing/1_sampling.R)). An entry was only validated if: *i)* the structure (as any structural descriptor that could be linked to the final sanitized InChIKey) was described in the reference *ii)* the producing organism (as any organism descriptor that could be linked to the accepted canonical name) was described in the reference and *iii)* the reference was describing the occurrence of the chemical structure in the biological organism. Results obtained on the manually analyzed set were categorized according to the initial reference subcategory and are detailed in [SI-2](SI-2---Summary-of-the-Validation-Statistics). To improve these results, further cleaning of the references was needed. This was done by accepting entries whose reference was coming from a DOI, a PMID, or from a title which restricted Damerau-Levenshtein distance between original and translated was lower than ten or if it was coming from one of the three main journals where occurrences are published (i.e., *Journal of Natural Products*, *Phytochemistry*, or *Journal of Agricultural and Food Chemistry*). For “split”, “publishingDetails” and “original” subcategories, the year of publication of the obtained reference, its journal, and the name of the first author were searched in the original entry and if at least two of them were present, the entry was kept. Entries were then further filtered to keep the ones where the reference title contained the first element of the detected canonical name. Except for COCONUT, exceptions to this filter were made for all DOI-based references. To validate those filtering criteria, an additional set of 100 structure-organism pairs were manually analyzed. F0.5 score was used as a metric. F0.5 score is a modified F1 score where precision has twice more weight than recall.
 
 The F-score was calculated with ß = 0.5, as follows: 
 
@@ -647,7 +647,7 @@ The F-score was calculated with ß = 0.5, as follows:
 ${F_{\beta}\ =\ \left(1+\beta^2\right)\cdot\frac{precision\cdot recall}{\left(\beta^2\ \cdot\ precision\right)\ +\ recall}}$ {#eq:validation}
 
 
-Based on this first manually validated dataset, filtering criteria (src/r/filter.R) were established to maximize precision and recall. Another 100 entries were sampled, this time respecting the whole set ratios. After manual validation, 97% of true positives were reached on the second set. A summary of the validation results is given in SI-2. Once validated, the filtering criteria were established to the whole curated set to filter entries chosen for dissemination (src/3_analysing/2_validating.R).
+Based on this first manually validated dataset, filtering criteria ([src/r/filter.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/r/filter.R)) were established to maximize precision and recall. Another 100 entries were sampled, this time respecting the whole set ratios. After manual validation, 97% of true positives were reached on the second set. A summary of the validation results is given in [SI-2](SI-2---Summary-of-the-Validation-Statistics). Once validated, the filtering criteria were established to the whole curated set to filter entries chosen for dissemination ([src/3_analysing/2_validating.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/3_analysing/2_validating.R)).
 
 #### Unit Testing
 
@@ -659,37 +659,37 @@ Those tests assess that the functions are providing results coherent with what i
 
 #### Wikidata
 
-All the data produced for this work has been made available on Wikidata under a Creative Commons 0 license according to Wikidata:Licensing. This license is a "No-right-reserved" license that allows most reuses.
+All the data produced for this work has been made available on Wikidata under a Creative Commons 0 license according to [Wikidata:Licensing](https://www.wikidata.org/wiki/Wikidata:Licensing). This license is a "No-right-reserved" license that allows most reuses.
 
 #### Lotus.NaturalProducts.Net (LNPN)
 
-The web interface is implemented following the same protocol as described in the COCONUT publication (Sorokina et al., 2021) i.e. the data are stored in a MongoDB repository, the backend runs with Kotlin and Java, using the Spring framework, and the frontend is written in React.js, and completely Dockerized. In addition to the diverse search functions available through this web interface, an API is also implemented, allowing programmatic LNPN querying. The complete API usage is described on the “Documentation” page of the website. LNPN is part of the NaturalProducts.net portal, an initiative aimed at gathering diverse open NP resources in one place.
+The web interface is implemented following the same protocol as described in the COCONUT publication [@doi:10/gh6dqw] i.e. the data are stored in a MongoDB repository, the backend runs with Kotlin and Java, using the Spring framework, and the frontend is written in React.js, and completely Dockerized. In addition to the diverse search functions available through this web interface, an API is also implemented, allowing programmatic LNPN querying. The complete API usage is described on the “Documentation” page of the website. LNPN is part of the NaturalProducts.net portal, an initiative aimed at gathering diverse open NP resources in one place.
 
 ### Data Interaction
 
 #### Data Retrieval
 
-Bulk retrieval of a frozen (2021-05-05) version of LOTUS data is also available at https://osf.io/c8hgb/. 
+Bulk retrieval of a frozen (2021-05-05) version of LOTUS data is also available at [https://osf.io/c8hgb/](https://osf.io/c8hgb/). 
 
 
-WikidataLotusExporter allows the download of all chemical compounds with a "found in taxon" property. That way, it does not only get the data produced by this work, but any that would have existed beforehand or that would have been added directly on Wikidata by our users. It makes a copy of all the entities (compounds, taxa, references) into a local triplestore that can be queried with SPARQL as is or converted to a TSV file for inclusion in other projects. It is currently adapted to export directly into the SSOT thus allowing direct reuse by the processing/curation pipeline.
+[WikidataLotusExporter](https://gitlab.com/lotus7/wikidataLotusExporter) allows the download of all chemical compounds with a "found in taxon" property. That way, it does not only get the data produced by this work, but any that would have existed beforehand or that would have been added directly on Wikidata by our users. It makes a copy of all the entities (compounds, taxa, references) into a local triplestore that can be queried with SPARQL as is or converted to a TSV file for inclusion in other projects. It is currently adapted to export directly into the SSOT thus allowing direct reuse by the processing/curation pipeline.
 
 #### Data Addition
 
 ##### Wikidata
 
-Data is loaded by the Kotlin importer available in the WikidataLotusImporter repository under a GPL V3 license and imported into Wikidata. The importer processes the curated outputs grouping references, organisms, and compounds together. It then checks if they already exist in Wikidata (using SPARQL or a direct connection to Wikidata depending on the kind of data). It then uses update or insert, also called upsert, the entities as needed. The script currently takes the tabular file of the documented structure-organism pairs resulting from the LOTUS curation process as input. It is currently being adapted to use directly the SSOT and avoid an unnecessary conversion step. To import references, it first double checks for the presence of duplicated DOIs and utilizes the Crossref REST API to retrieve metadata associated with the DOI, the support for other citation sources such as Europe PMC is in progress. The structure-related fields are only subject to limited processing: basic formatting of the molecular formula by subscripting of the numbers. Due to limitations in Wikidata, the molecule names are dropped if they are longer than 250 characters and likewise the InChI strings cannot be stored if they are longer than 1500 characters.
+Data is loaded by the Kotlin importer available in the [WikidataLotusImporter](https://gitlab.com/lotus7/wikidataLotusImporter) repository under a GPL V3 license and imported into Wikidata. The importer processes the curated outputs grouping references, organisms, and compounds together. It then checks if they already exist in Wikidata (using SPARQL or a direct connection to Wikidata depending on the kind of data). It then uses *update* or *insert*, also called *upsert*, the entities as needed. The script currently takes the tabular file of the documented structure-organism pairs resulting from the LOTUS curation process as input. It is currently being adapted to use directly the SSOT and avoid an unnecessary conversion step. To import references, it first double checks for the presence of duplicated DOIs and utilizes the [Crossref REST API](https://www.crossref.org/education/retrieve-metadata/rest-api/) to retrieve metadata associated with the DOI, the support for other citation sources such as Europe PMC is in progress. The structure-related fields are only subject to limited processing: basic formatting of the molecular formula by subscripting of the numbers. Due to limitations in Wikidata, the molecule names are dropped if they are longer than 250 characters and likewise the InChI strings cannot be stored if they are longer than 1500 characters.
 
-Uploaded taxonomical DB identifiers are currently restricted to ITIS, GBIF, NCBI Taxon, Index Fungorum, IRMNG, WORMS, VASCAN, and iNaturalist. The taxa levels are currently limited to family, subfamily, tribe, subtribe, genus, species, variety. The importer checks for the existence of each item based on their InChIKey and upserts the compound with the found in taxon statement and the associated organisms and references.
+Uploaded taxonomical DB identifiers are currently restricted to ITIS, GBIF, NCBI Taxon, Index Fungorum, IRMNG, WORMS, VASCAN, and iNaturalist. The taxa levels are currently limited to family, subfamily, tribe, subtribe, genus, species, variety. The importer checks for the existence of each item based on their InChIKey and upserts the compound with the *found in taxon* statement and the associated organisms and references.
 
 
 ##### LNPN
 
-From the onset, LNPN has been importing data directly from the frozen tabular data of the LOTUS dataset (https://osf.io/hgjdb/). In future versions, LNPN will directly feed on the SSOT.
+From the onset, LNPN has been importing data directly from the frozen tabular data of the LOTUS dataset ([https://osf.io/hgjdb/](https://osf.io/hgjdb/)). In future versions, LNPN will directly feed on the SSOT.
 
 ##### Data Edition
 
-The bot framework WikidataLotusImporter was adapted such that, in addition to batch upload capabilities, it can also edit erroneously created entries on Wikidata. As massive edits have a large potential to disrupt otherwise good data, progressive deployment of this script is used, starting by editing progressively 1, 10, then 100 entries that are manually checked. Upon validation of 100 entries, the full script is run and check its behavior checked at regular intervals. An example of a corrected entry is as follows: https://www.wikidata.org/w/index.php?title=Q105349871&type=revision&diff=1365519277&oldid=1356145998
+The bot framework [WikidataLotusImporter](https://gitlab.com/lotus7/wikidataLotusImporter) was adapted such that, in addition to batch upload capabilities, it can also edit erroneously created entries on Wikidata. As massive edits have a large potential to disrupt otherwise good data, progressive deployment of this script is used, starting by editing progressively 1, 10, then 100 entries that are manually checked. Upon validation of 100 entries, the full script is run and check its behavior checked at regular intervals. An example of a corrected entry is as follows: [https://www.wikidata.org/w/index.php?title=Q105349871&type=revision&diff=1365519277&oldid=1356145998](https://www.wikidata.org/w/index.php?title=Q105349871&type=revision&diff=1365519277&oldid=1356145998)
 
 ##### Curation interface
 
@@ -746,7 +746,7 @@ Quality control and testing: Ktlint 9.4.1, Kotlinter 3.3.0, Detekt 1.15.0, Ben M
 
 ## Data Availability
 
-A snapshot of the obtained data at the time of submission is available at the following OSF repository (data): https://osf.io/pmgux/. The https://lotus.nprod.net website is intended to gather news and features related to the LOTUS initiative in the future.
+A snapshot of the obtained data at the time of submission is available at the following OSF repository (data): [https://osf.io/pmgux/](https://osf.io/pmgux/). The [https://lotus.nprod.net](https://lotus.nprod.net) website is intended to gather news and features related to the LOTUS initiative in the future.
 
 
 ## Acknowledgments
@@ -1905,267 +1905,6 @@ SELECT ?item ?itemLabel ?taxonLabel ?artLabel WHERE {
 
 ![**Complement to Figure 7**: distribution of β-sitosterol and related chemical parents among families with at least 50 reported compounds present in LOTUS. Script used for the generation of each tree in the figure is the same ([src/4_visualizing/plot_magicTree.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/4_visualizing/plot_magicTree.R)) as for Figure @fig:magicTree as both figures are related.
 ](images/magicTree_additional.svg "magicTree_additional"){#fig:magicTree-additional tag="SI-5"}
-
-
-## Citations {.page_break_before}
-
-This list will maagically disappear later on... just here for safety for now!
-
-Afendi [@doi:10/cstrnq]
-
-All natural [@doi:10/bkfd8h]
-
-Allard [@doi:10/ggb79p]
-
-Bandyukova [@doi:10/b4w5q4]
-
-Bierer [@doi:10/ggb7x6]
-
-Bisson IMPS [@doi:10.1021/acs.jmedchem.5b01009]
-
-Bisson NMR [@doi:10.1039/c6np00022c]
-
-Boonen [@doi:10/gh5ptc]
-
-Brunson [@doi:10/gg4ghf]
-
-Campitelli [@campitelliGgnewscaleMultipleFill2021]
-
-Cao [@doi:10/b46rs7]
-
-Capecchi [@doi:10/gjjz4c]
-
-Chamberlain [@chamberlainRcrossrefClientVarious2020]
-
-Choi [@doi:10/f9rhrj]
-
-Cordell 2001 [@doi:10.1002/ptr.890]
-
-Cordell [@doi:10/gh533j]
-
-Cordell [@doi:10.1177/1934578X1701200849]
-
-Cousijn [@doi:10/gh533h]
-
-Cousijn [@doi:10/gfnxpj]
-
-Davis [@doi:10/gh5ps5]
-
-Defossez [@doi:10/ghssx4]
-
-Derese [@deresesolomonMitishambaDatabaseWeb2015]
-
-Dowle [@dowleDataTableExtension2020]
-
-Dührkop [@doi:10/gh5482]
-
-Feunang [@doi:10/gc5tqv]
-
-Flor [@florChorddiagInteractiveChord2020]
-
-Gagolewski [@gagolewskiPackageStringiCharacter2020]
-
-GBIF.org [@GBIFOrg2020]
-
-Gehlenborg [@gehlenborgUpSetRMoreScalable2019]
-
-Giacomoni [@https://hal.archives-ouvertes.fr/hal-01697081]
-
-Graham [@doi:10.1016/b978-008045382-8.00060-5]
-
-Gu [@doi:10/f43xwq]
-
-Günthardt [@doi:10/gd3bm6]
-
-Hatherley [@doi:10/f7gjs6]
-
-Haug [@doi:10.1093/nar/gkz1019]
-
-Heller [@doi:10/6bg]
-
-Helmy [@doi:10/gc4h7x]
-
-Hester [@hesterVroomReadWrite2020]
-
-Horai [@doi:10/d8pdcr]
-
-Huang [@doi:10/gh5ps9]
-
-Hunter [@doi:10.1109/MCSE.2007.55]
-
-Ibezim [@doi:10/gh5ptd]
-
-Jarmusch [@doi:10.1038/s41592-020-0916-7]
-
-Jones [@doi:10/gjgdzm]
-
-Jr [@jrHmiscHarrellMiscellaneous2020]
-
-Kessler [@doi:10/gftqcm]
-
-Kim [@doi:10.26434/chemrxiv.12885494.v1]
-
-Kim [@doi:10/gfxmsx]
-
-Kim [@doi:10/f7hnsd]
-
-Klementz [@doi:10/f8cnnk]
-
-Kratochvíl [@doi:10/gf5bv5]
-
-Kratochvíl [@doi:10/gdn52j]
-
-Kuang [@kuangPbmcapplyTrackingProgress2019]
-
-Lang [@langXMLToolsParsing2020]
-
-Lee bias 2013 [@doi:10.1002/asi.22784]
-
-Lin [@doi:10/ggwrtj]
-
-Loo [@doi:10/ghfr9v]
-
-Lowe [@doi:10/b2zkr9]
-
-Madariaga-Mazón [@doi:10/ghxp29]
-
-Mahto [@mahtoSplitstackshapeStackReshape2019]
-
-McAlpine [@doi:10.1039/c7np00064b]
-
-Mongia [@doi:10.1038/s41598-021-87796-6]
-
-Wakankensaku [@MainPageWAKANKENSAKU]
-
-Martens [@doi:10/gh6dq2]
-
-Michonneau [@doi:10/f9jgkm]
-
-Mohamed [@wikidata:Q106204599]
-
-Müller [@mullerRSQLiteSQLiteInterface2021]
-
-Nielsen [@wikidata:Q28942417]
-
-Nissen [@doi:10.7554/eLife.21451]
-
-Noteborn [@doi:10/b3z2g7]
-
-Ntie-Kang [@doi:10/ggfdw7]
-
-Nupur [@doi:10/f8wjvh]
-
-Olivon [@doi:10/gcg6xw]
-
-Ooms [@wikidata:Q106204620]
-
-Pedersen [@pedersenGgraphImplementationGrammar2020]
-
-Peroni [@doi:10/gf2tnn]
-
-Pierce [@doi:10/gf3j9t]
-
-Pilon [@doi:10/gh5ps7]
-
-Pilón-Jiménez [@doi:10/gh5ptb]
-
-Probst [@doi:10/gjjz4f]
-
-Probst [@doi:10/gcmhc5]
-
-Probst [@doi:10/gjjz4d]
-
-R [@rcoreteamLanguageEnvironmentStatistical2020]
-
-R DBI [@rspecialinterestgroupondatabasesr-sig-dbDBIDatabaseInterface2021]
-
-Rasberry [@doi:10.3897/rio.5.e35820]
-
-Rdkit [@RDKitOpensourceCheminformatics]
-
-Reback [@doi:10/gh6dqz]
-
-Rees [@doi:10/ggkjbt]
-
-Rothwell [@doi:10/gh5ps6]
-
-Rutz [@doi:10/fm73]
-
-Sander [@doi:10/f637rz]
-
-Sawada [@doi:10/f36bkc]
-
-Sedio [@doi:10/ghttk6]
-
-Sharma [@doi:10/f6ss69]
-
-Shinbo [@doi:10.1007/3-540-29782-0_13]
-
-Sievert [@sievertInteractiveWebBasedData2020]
-
-Slenter [@doi:10.1093/nar/gkx1064]
-
-Sorokina [@doi:10/ghssx5]
-
-Sorokina [@doi:10/ggwwcq]
-
-Sorokina [@doi:10/gh6dqw]
-
-Szöcs [@doi:10/gh5ptf]
-
-Tomiki [@doi:10/gh5ps8]
-
-Tsugawa [@doi:10/gfwm27]
-
-DrDuke [@DepartmentAgricultureAgricultural1992]
-
-van Santen [@doi:10/gh5ptm]
-
-Virtanen [@doi:10/ggj45f]
-
-Waagmeester [@doi:10/ggqqc6]
-
-Wang [@doi:10/ggwr93]
-
-Warnes [@warnesGdataVariousProgramming2017]
-
-Weininger [@doi:10/fg6q5f]
-
-Wickham [@wickhamReadxlReadExcel2019]
-
-Wickham [@doi:10/ggddkj]
-
-Wickham [@wickhamRvestEasilyHarvest2020]
-
-Wickham [@wickhamXml2ParseXML2020]
-
-Wilkins [@wilkinsGgfittextFitText2020]
-
-Wilkinson [@doi:10/bdd4]
-
-Willighagen [@doi:10/gbppnb]
-
-Winter [@doi:10/gh5ptg]
-
-Wohlgemuth [@doi:10.1093/bioinformatics/btq476]
-
-Wohlgemuth [@doi:10/gh533g]
-
-Wolfender [@doi:10/gh6dqv]
-
-Xu [@xuGgstarStarLayer2021]
-
-Xu [@doi:10.21203/rs.3.rs-155672/v2]
-
-Yabuzaki [@doi:10/f9x5p2]
-
-Yu [@doi:10/f9qv8x]
-
-Yue [@doi:10/f6hnfz]
-
-Zeng [@doi:10/gh5ptk]
-
-Zhang [@doi:10/gfs7x6]
 
 
 ## References {.page_break_before}
