@@ -95,7 +95,7 @@ Crataegus
 crossref
 CRSII
 csteinbeck
-cts
+CTS
 curation
 Cyanometdb
 Cyathocaline
@@ -124,7 +124,7 @@ Dockerized
 DOIs
 doit
 Dowle
-DrDuke
+drduke
 DTGCRPNFSA
 Dührkop
 eBird
@@ -143,7 +143,7 @@ Eurycoma
 evidentiary
 EvoMRI
 EW
-faerun
+Faerun
 Farnsworth
 Fatcat
 Feunang
@@ -209,9 +209,9 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChIKey
+InChiKey
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -295,7 +295,7 @@ Michonneau
 Mietchen
 mitishamba
 modularity
-Molvs
+MolVS
 Mongia
 monogyna
 Mozzherin
@@ -309,7 +309,7 @@ nanpdb
 napralert
 natively
 NatprodCbn
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 nextStep
@@ -320,11 +320,11 @@ NMR
 Nonmarine
 Noteborn
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
-NPImporterBot
+NPimporterBot
 NRCS
 Ntie
 nubbe
@@ -355,9 +355,9 @@ Peroni
 Pflanzen
 Pharmacognosy
 Phasmida
-phenolexplorer
+PhenolExplorer
 physicochemical
-Phytochemical
+phytochemical
 Phytochemistry
 phytohub
 Pilon
@@ -386,14 +386,14 @@ Rasberry
 Rcrossref
 RDF
 RDFFrames
-RDKit
+rdkit
 rdmpage
 readxl
 Reback
 Rees
 Reionization
 rentrez
-Repartition
+repartition
 reproducibility
 reranking
 resubmission
@@ -411,7 +411,7 @@ rvest
 rwst
 Saikkonen
 sancdb
-Sanitization
+sanitization
 Santen
 Sawada
 Scholia
@@ -442,7 +442,7 @@ Squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -462,7 +462,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-TCM
+tcm
 TCMID
 Termitidae
 terpenoid
@@ -475,7 +475,7 @@ tidyverse
 Tilmann
 tmap
 tmdb
-tmmc
+TMMC
 Tomiki
 tppt
 transdisciplinary
@@ -491,7 +491,7 @@ triterpenoid
 TRM
 Tropicos
 Tsugawa
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
@@ -518,7 +518,7 @@ Vondrášek
 vroom
 Vue
 Waagmeester
-WAKANKENSAKU
+wakankensaku
 Warnes
 webchem
 Weininger
