@@ -80,7 +80,7 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 cleaningOriginal
 cleaningTranslated
 CMU
@@ -90,14 +90,13 @@ coroutines
 Correctd
 counterions
 Cousijn
-Cranston
 Crataegus
-crossref
+Crossref
 CRSII
 csteinbeck
-CTS
+cts
 curation
-Cyanometdb
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -107,6 +106,7 @@ datasets
 datawarrior
 DBI
 DBs
+decandolleEssaiProprietesMedicales
 deduplicate
 deduplication
 Defossez
@@ -124,7 +124,7 @@ Dockerized
 DOIs
 doit
 Dowle
-drduke
+DrDuke
 DTGCRPNFSA
 Dührkop
 eBird
@@ -134,7 +134,6 @@ egonwillighagen
 endosymbionts
 entrez
 erysodine
-Ethnobotanical
 ethnobotany
 ethnomedicine
 Eukaryota
@@ -144,7 +143,6 @@ evidentiary
 EvoMRI
 EW
 Faerun
-Farnsworth
 Fatcat
 Feunang
 Fidele
@@ -153,7 +151,7 @@ FishBase
 flavolivaceus
 Flemingovo
 Flor
-FooDB
+foodb
 FragmentRemover
 Fribourg
 Friedrich
@@ -174,8 +172,10 @@ ggraph
 ggstar
 ggtree
 ggtreeExtra
+ggwr
 Giacomoni
 GitLab
+gjjz
 gliotoxin
 GNA
 GNF
@@ -209,7 +209,7 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChiKey
+InChIKey
 indica
 indolic
 inflamnat
@@ -240,11 +240,10 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kalske
 Kang
-Kautsar
 KEMQGTRYUADPNZ
 Kessler
 Kikuchi
@@ -266,7 +265,6 @@ limonoids
 LM
 LNPN
 longifolia
-López
 lotusProcessor
 Luc
 maagically
@@ -287,7 +285,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-metabolomic
+Metabolomic
 MEYS
 mibig
 Michán
@@ -295,7 +293,7 @@ Michonneau
 Mietchen
 mitishamba
 modularity
-MolVS
+molvs
 Mongia
 monogyna
 Mozzherin
@@ -309,7 +307,7 @@ nanpdb
 napralert
 natively
 NatprodCbn
-NaturalProducts
+naturalproducts
 NCBI
 NCCIH
 nextStep
@@ -320,7 +318,7 @@ NMR
 Nonmarine
 Noteborn
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -355,7 +353,7 @@ Peroni
 Pflanzen
 Pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -386,19 +384,18 @@ Rasberry
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 Reback
 Rees
 Reionization
 rentrez
-repartition
+Repartition
 reproducibility
 reranking
 resubmission
 revalidation
-Reymond
 Rhizopodaceae
 rhizoxin
 Roderic
@@ -409,7 +406,6 @@ RSQLite
 Rutz
 rvest
 rwst
-Saikkonen
 sancdb
 sanitization
 Santen
@@ -442,7 +438,7 @@ Squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -458,11 +454,12 @@ subtribe
 SuccuBot
 swmd
 Szöcs
+Tabernanthe
 Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
@@ -520,6 +517,7 @@ Vue
 Waagmeester
 wakankensaku
 Warnes
+wdpage
 webchem
 Weininger
 Wickham
