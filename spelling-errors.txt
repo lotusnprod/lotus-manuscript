@@ -43,7 +43,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-bjonnh
+Bjonnh
 Bohlmann
 Bolzani
 Boonen
@@ -92,12 +92,12 @@ counterions
 Cousijn
 Cranston
 Crataegus
-Crossref
+crossref
 CRSII
 csteinbeck
 cts
 curation
-cyanometdb
+Cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -143,7 +143,7 @@ Eurycoma
 evidentiary
 EvoMRI
 EW
-Faerun
+faerun
 Farnsworth
 Fatcat
 Feunang
@@ -153,14 +153,14 @@ FishBase
 flavolivaceus
 Flemingovo
 Flor
-foodb
+FooDB
 FragmentRemover
 Fribourg
 Friedrich
 frontend
 Fungorum
 Gagolewski
-galgonek
+Galgonek
 Gaudry
 GBIF
 gdata
@@ -179,7 +179,7 @@ GitLab
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -209,9 +209,9 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChiKey
+InChIKey
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -240,7 +240,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kalske
 Kang
@@ -287,7 +287,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-Metabolomic
+metabolomic
 MEYS
 mibig
 Michán
@@ -295,7 +295,7 @@ Michonneau
 Mietchen
 mitishamba
 modularity
-molvs
+Molvs
 Mongia
 monogyna
 Mozzherin
@@ -306,7 +306,7 @@ MVLS
 NameBank
 náměstí
 nanpdb
-NAPRALERT
+napralert
 natively
 NatprodCbn
 naturalproducts
@@ -320,11 +320,11 @@ NMR
 Nonmarine
 Noteborn
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
-NPimporterBot
+NPImporterBot
 NRCS
 Ntie
 nubbe
@@ -393,7 +393,7 @@ Reback
 Rees
 Reionization
 rentrez
-repartition
+Repartition
 reproducibility
 reranking
 resubmission
@@ -411,7 +411,7 @@ rvest
 rwst
 Saikkonen
 sancdb
-sanitization
+Sanitization
 Santen
 Sawada
 Scholia
@@ -442,7 +442,7 @@ Squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -462,7 +462,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
@@ -475,7 +475,7 @@ tidyverse
 Tilmann
 tmap
 tmdb
-TMMC
+tmmc
 Tomiki
 tppt
 transdisciplinary
@@ -491,7 +491,7 @@ triterpenoid
 TRM
 Tropicos
 Tsugawa
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger
@@ -500,7 +500,7 @@ unconserved
 underreporting
 Universiteitssingel
 Univocity
-UNPD
+unpd
 upsert
 upserting
 upserts
@@ -518,7 +518,7 @@ Vondrášek
 vroom
 Vue
 Waagmeester
-wakankensaku
+WAKANKENSAKU
 Warnes
 webchem
 Weininger
