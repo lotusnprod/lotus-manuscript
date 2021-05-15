@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e5909db04d96d7702d8044aa199673cef788cc1b/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e5909db04d96d7702d8044aa199673cef788cc1b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e5909db04d96d7702d8044aa199673cef788cc1b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/4712c5a7a6bcc15a57e9159850016c1346cafaf8/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4712c5a7a6bcc15a57e9159850016c1346cafaf8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4712c5a7a6bcc15a57e9159850016c1346cafaf8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e5909db04d96d7702d8044aa199673cef788cc1b/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e5909db04d96d7702d8044aa199673cef788cc1b/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4712c5a7a6bcc15a57e9159850016c1346cafaf8/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4712c5a7a6bcc15a57e9159850016c1346cafaf8/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/e5909db04d96d7702d8044aa199673cef788cc1b/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/4712c5a7a6bcc15a57e9159850016c1346cafaf8/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@e5909db](https://github.com/lotusnprod/lotus-manuscript/tree/e5909db04d96d7702d8044aa199673cef788cc1b)
+from [lotusnprod/lotus-manuscript@4712c5a](https://github.com/lotusnprod/lotus-manuscript/tree/4712c5a7a6bcc15a57e9159850016c1346cafaf8)
 on May 15, 2021.
 </em></small>
 
@@ -847,7 +847,7 @@ SELECT DISTINCT ?structure ?structureLabel ?structure_inchikey WHERE {
 
 This query answers to the following question:
 <pre>
-Which organisms are known to contain compounds sharing the planar structure of <i>β</i>-sitosterol?
+Which organisms are known to contain <i>β</i>-sitosterol?
 </pre>
 
 Link: [https://w.wiki/3HLy](https://w.wiki/3HLy)
