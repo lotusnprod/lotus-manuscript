@@ -71,7 +71,7 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 cleaningOriginal
 cleaningTranslated
 CMU
@@ -84,7 +84,7 @@ Crossref
 CRSII
 csteinbeck
 cstrnq
-cts
+CTS
 curation
 cyanometdb
 Cyathocaline
@@ -93,7 +93,7 @@ Damerau
 daphnane
 dataset
 datasets
-datawarrior
+Datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -111,7 +111,7 @@ DNP
 Dockerized
 DOIs
 doit
-drduke
+DrDuke
 DTGCRPNFSA
 eBird
 Egon
@@ -135,13 +135,13 @@ Findability
 FishBase
 flavolivaceus
 Flemingovo
-foodb
+FooDB
 FragmentRemover
 Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 Gaudry
 GBIF
 gdata
@@ -165,7 +165,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerifier
 Gottlieb
@@ -183,6 +183,7 @@ hotspots
 Hu
 IBAHCM
 iboga
+icense
 idf
 IDSM
 Ilex
@@ -190,7 +191,7 @@ iNaturalist
 InChI
 InChIKey
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -217,7 +218,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -260,7 +261,7 @@ Michonneau
 Mietchen
 mitishamba
 modularity
-molvs
+Molvs
 monogyna
 Mozzherin
 mSorok
@@ -281,7 +282,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -311,7 +312,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -338,7 +339,7 @@ Ralf
 Rcrossref
 RDF
 RDFFrames
-RDKit
+rdkit
 rdmpage
 readxl
 Reionization
@@ -382,7 +383,7 @@ Squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -438,7 +439,7 @@ unconserved
 underreporting
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts
@@ -455,7 +456,7 @@ Voilà
 Vondrášek
 vroom
 Vue
-wakankensaku
+Wakankensaku
 wdpage
 webchem
 Wijeratne
