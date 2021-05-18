@@ -80,8 +80,8 @@ If your pull request build fails, see the CI logs for the cause of failure and r
 When a commit to the `main` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/lotusnprod/rootstock/tree/gh-pages) and [`output`](https://github.com/lotusnprod/rootstock/tree/output) branches.
 The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
 
-+ **HTML manuscript** at https://lotusnprod.github.io/rootstock/
-+ **PDF manuscript** at https://lotusnprod.github.io/rootstock/manuscript.pdf
++ **HTML manuscript** at https://lotusnprod.github.io/lotus-manuscript/
++ **PDF manuscript** at https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml) if using GitHub Actions or [`.travis.yml`](.travis.yml) if using Travis CI.
 
