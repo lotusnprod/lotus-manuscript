@@ -85,7 +85,7 @@ csteinbeck
 cstrnq
 cts
 curation
-Cyanometdb
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -106,11 +106,11 @@ dianatdb
 diterpene
 DM
 Dmitry
-DNP
+dnp
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -136,7 +136,7 @@ Fidele
 FishBase
 flavolivaceus
 Flemingovo
-FooDB
+foodb
 FragmentRemover
 Fribourg
 Friedrich
@@ -190,7 +190,7 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChIKey
+InChiKey
 indability
 indica
 indolic
@@ -255,7 +255,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-Metabolomic
+metabolomic
 MEYS
 mibig
 Michán
@@ -263,7 +263,7 @@ Michonneau
 Mietchen
 mitishamba
 modularity
-MolVS
+molvs
 monogyna
 Mozzherin
 mSorok
@@ -284,7 +284,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -383,7 +383,7 @@ spectrometry
 Spiegeleer
 splitstackshape
 spp
-squatina
+Squatina
 src
 SSOT
 standardizer
@@ -407,7 +407,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
@@ -420,7 +420,7 @@ tidyverse
 Tilmann
 tmap
 tmdb
-TMMC
+tmmc
 tppt
 transdisciplinary
 transformational
@@ -434,7 +434,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
@@ -460,7 +460,7 @@ Voilà
 Vondrášek
 vroom
 Vue
-wakankensaku
+Wakankensaku
 wdpage
 webchem
 Wijeratne
