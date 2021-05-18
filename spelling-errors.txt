@@ -29,7 +29,6 @@ Bhardwaj
 BiGCaT
 bioactive
 bioactivity
-bioassay
 biofacquim
 biogeography
 bioinformatic
@@ -40,7 +39,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-Bjonnh
+bjonnh
 Bohlmann
 Bolzani
 Bromus
@@ -84,7 +83,7 @@ Crossref
 CRSII
 csteinbeck
 cstrnq
-cts
+CTS
 curation
 Cyanometdb
 Cyathocaline
@@ -111,7 +110,7 @@ DNP
 Dockerized
 DOIs
 doit
-drduke
+DrDuke
 DTGCRPNFSA
 eBird
 echnology
@@ -130,7 +129,8 @@ euse
 evidentiary
 EvoMRI
 EW
-faerun
+expicit
+Faerun
 Fatcat
 Fidele
 FishBase
@@ -142,7 +142,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 Gaudry
 GBIF
 gdata
@@ -166,7 +166,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -193,7 +193,7 @@ InChI
 InChIKey
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -263,7 +263,7 @@ Michonneau
 Mietchen
 mitishamba
 modularity
-MolVS
+molvs
 monogyna
 Mozzherin
 mSorok
@@ -275,7 +275,7 @@ nanpdb
 NAPRALERT
 natively
 NatprodCbn
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 nextStep
@@ -326,7 +326,6 @@ plotly
 PMA
 PMIDs
 polyketides
-positivity
 pre
 preprint
 procardb
@@ -343,7 +342,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 Reionization
@@ -363,7 +362,7 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
 Scholia
 scipy
 SDF
@@ -384,7 +383,7 @@ spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
@@ -419,7 +418,7 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-tmap
+TMAP
 tmdb
 TMMC
 tppt
@@ -444,13 +443,12 @@ unconserved
 underreporting
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts
 UpSetR
 ustainability
-Vaidation
 Vanderlan
 varia
 VASCAN
@@ -462,7 +460,7 @@ Voilà
 Vondrášek
 vroom
 Vue
-wakankensaku
+Wakankensaku
 wdpage
 webchem
 Wijeratne
