@@ -39,7 +39,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-bjonnh
+Bjonnh
 Bohlmann
 Bolzani
 Bromus
@@ -83,7 +83,7 @@ Crossref
 CRSII
 csteinbeck
 cstrnq
-CTS
+cts
 curation
 Cyanometdb
 Cyathocaline
@@ -142,7 +142,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 Gaudry
 GBIF
 gdata
@@ -166,7 +166,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerifier
 Gottlieb
@@ -193,7 +193,7 @@ InChI
 InChIKey
 indability
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -220,7 +220,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -263,7 +263,7 @@ Michonneau
 Mietchen
 mitishamba
 modularity
-molvs
+MolVS
 monogyna
 Mozzherin
 mSorok
@@ -275,7 +275,7 @@ nanpdb
 NAPRALERT
 natively
 NatprodCbn
-NaturalProducts
+naturalproducts
 NCBI
 NCCIH
 nextStep
@@ -362,7 +362,7 @@ Rutz
 rvest
 rwst
 sancdb
-Sanitization
+sanitization
 Scholia
 scipy
 SDF
@@ -418,7 +418,7 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-TMAP
+tmap
 tmdb
 TMMC
 tppt
@@ -434,7 +434,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger
@@ -460,7 +460,7 @@ Voilà
 Vondrášek
 vroom
 Vue
-Wakankensaku
+wakankensaku
 wdpage
 webchem
 Wijeratne
