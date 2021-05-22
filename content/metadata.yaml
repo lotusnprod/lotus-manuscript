@@ -370,7 +370,7 @@ authors:
       - School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
       - Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
     funders: CRSII5_189921
-    correspondence: true
+    correspondence: false
     roles:
       - Conceptualization: false
       - Data curation: false
@@ -396,7 +396,7 @@ authors:
     initials: JB
     orcid: 0000-0003-1640-9989
     twitter: Bjonnh #CENAPT
-    email: ucayali@uic.edu
+    email: bjo@uic.edu
     affiliations:
       - Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
       - Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
@@ -410,7 +410,7 @@ authors:
       - Investigation: true
       - Methodology: true
       - Project administration: true
-      - Resources: false
+      - Resources: true
       - Software: true
       - Supervision: true
       - Validation: true
@@ -442,7 +442,7 @@ authors:
       - Investigation: true
       - Methodology: true
       - Project administration: true
-      - Resources: false
+      - Resources: true
       - Software: true
       - Supervision: true
       - Validation: true
