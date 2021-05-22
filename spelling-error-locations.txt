@@ -1,8 +1,6 @@
 content/00.front-matter.md:54:gitlab
 content/00.front-matter.md:54:GitLab
 content/00.front-matter.md:55:allard
-content/00.front-matter.md:55:luc
-content/00.front-matter.md:55:wolfender
 content/01.abstract.md:3:bioinformatic
 content/01.abstract.md:3:chemoinformatic
 content/01.abstract.md:6:transformative

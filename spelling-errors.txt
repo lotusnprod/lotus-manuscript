@@ -71,7 +71,7 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 cleaningOriginal
 cleaningTranslated
 CMU
@@ -83,8 +83,8 @@ Crossref
 CRSII
 csteinbeck
 cstrnq
-cts
-curation
+CTS
+Curation
 cyanometdb
 Cyathocaline
 Cyathocalyx
@@ -136,7 +136,7 @@ Fidele
 FishBase
 flavolivaceus
 Flemingovo
-foodb
+FooDB
 FragmentRemover
 Fribourg
 Friedrich
@@ -166,7 +166,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -193,7 +193,7 @@ InChI
 InChiKey
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -272,10 +272,10 @@ MVLS
 NameBank
 náměstí
 nanpdb
-NAPRALERT
+napralert
 natively
 NatprodCbn
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 nextStep
@@ -315,7 +315,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -362,7 +362,7 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
 Scholia
 scipy
 SDF
@@ -387,7 +387,7 @@ Squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -407,7 +407,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-TCM
+tcm
 TCMID
 Termitidae
 terpenoid
@@ -418,9 +418,9 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-tmap
+TMAP
 tmdb
-tmmc
+TMMC
 tppt
 transdisciplinary
 transformational
@@ -434,7 +434,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger

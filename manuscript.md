@@ -3,7 +3,7 @@ title: 'The LOTUS Initiative for Open Natural Products Research: Knowledge Manag
 keywords:
 - to do
 lang: en-US
-date-meta: '2021-05-18'
+date-meta: '2021-05-22'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-05-18" />
-  <meta name="citation_publication_date" content="2021-05-18" />
+  <meta name="dc.date" content="2021-05-22" />
+  <meta name="citation_publication_date" content="2021-05-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/c62a3c0bded821487dec5bedbb87e76c5671e4cc/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/c62a3c0bded821487dec5bedbb87e76c5671e4cc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/c62a3c0bded821487dec5bedbb87e76c5671e4cc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/2f10daa8b1bac66e9fd753e194022e77ae03ec6f/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/2f10daa8b1bac66e9fd753e194022e77ae03ec6f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/2f10daa8b1bac66e9fd753e194022e77ae03ec6f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/c62a3c0bded821487dec5bedbb87e76c5671e4cc/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/c62a3c0bded821487dec5bedbb87e76c5671e4cc/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/2f10daa8b1bac66e9fd753e194022e77ae03ec6f/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/2f10daa8b1bac66e9fd753e194022e77ae03ec6f/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,10 +132,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/c62a3c0bded821487dec5bedbb87e76c5671e4cc/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/2f10daa8b1bac66e9fd753e194022e77ae03ec6f/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@c62a3c0](https://github.com/lotusnprod/lotus-manuscript/tree/c62a3c0bded821487dec5bedbb87e76c5671e4cc)
-on May 18, 2021.
+from [lotusnprod/lotus-manuscript@2f10daa](https://github.com/lotusnprod/lotus-manuscript/tree/2f10daa8b1bac66e9fd753e194022e77ae03ec6f)
+on May 22, 2021.
 </em></small>
 
 ## Authors
@@ -258,7 +258,7 @@ on May 18, 2021.
      Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States; Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
   </small>
 
-+ **Jean-Luc Wolfender** ^[✉](#correspondence)^<br>
++ **Jean-Luc Wolfender** <br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-0125-952X](https://orcid.org/0000-0002-0125-952X)<br>
   <small>
@@ -290,7 +290,7 @@ on May 18, 2021.
 
 ::: {#correspondence}
 ✉ — correspondence preferred via [GitLab Issues](https://gitlab.com/groups/lotus7/-/issues).
-Otherwise, address correspondence to <jean-luc.wolfender@unige.ch>, <bjo@uic.edu>, and <pierre-marie.allard@unifr.ch>.
+Otherwise, address correspondence to <bjo@uic.edu>, and <pierre-marie.allard@unifr.ch>.
 :::
 
 
