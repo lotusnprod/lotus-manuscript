@@ -143,7 +143,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 Gaudry
 GBIF
 gdata
@@ -221,7 +221,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -343,7 +343,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 Reionization
@@ -363,7 +363,7 @@ Rutz
 rvest
 rwst
 sancdb
-Sanitization
+sanitization
 Scholia
 scipy
 SDF
@@ -384,11 +384,11 @@ spectrometry
 Spiegeleer
 splitstackshape
 spp
-squatina
+Squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -419,9 +419,9 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-tmap
+TMAP
 tmdb
-TMMC
+tmmc
 tppt
 transdisciplinary
 transformational
@@ -444,7 +444,7 @@ unconserved
 underreporting
 Universiteitssingel
 Univocity
-UNPD
+unpd
 upsert
 upserting
 upserts
@@ -461,7 +461,7 @@ Voilà
 Vondrášek
 vroom
 Vue
-Wakankensaku
+wakankensaku
 wdpage
 webchem
 Wijeratne
