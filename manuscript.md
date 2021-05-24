@@ -3,7 +3,7 @@ title: 'The LOTUS Initiative for Open Natural Products Research: Knowledge Manag
 keywords:
 - to do
 lang: en-US
-date-meta: '2021-05-22'
+date-meta: '2021-05-24'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-05-22" />
-  <meta name="citation_publication_date" content="2021-05-22" />
+  <meta name="dc.date" content="2021-05-24" />
+  <meta name="citation_publication_date" content="2021-05-24" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/2f10daa8b1bac66e9fd753e194022e77ae03ec6f/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/2f10daa8b1bac66e9fd753e194022e77ae03ec6f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/2f10daa8b1bac66e9fd753e194022e77ae03ec6f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/0a886c195d97162258f5ee767af0a2e26770485a/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/0a886c195d97162258f5ee767af0a2e26770485a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/0a886c195d97162258f5ee767af0a2e26770485a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/2f10daa8b1bac66e9fd753e194022e77ae03ec6f/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/2f10daa8b1bac66e9fd753e194022e77ae03ec6f/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/0a886c195d97162258f5ee767af0a2e26770485a/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/0a886c195d97162258f5ee767af0a2e26770485a/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,10 +132,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/2f10daa8b1bac66e9fd753e194022e77ae03ec6f/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/0a886c195d97162258f5ee767af0a2e26770485a/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@2f10daa](https://github.com/lotusnprod/lotus-manuscript/tree/2f10daa8b1bac66e9fd753e194022e77ae03ec6f)
-on May 22, 2021.
+from [lotusnprod/lotus-manuscript@0a886c1](https://github.com/lotusnprod/lotus-manuscript/tree/0a886c195d97162258f5ee767af0a2e26770485a)
+on May 24, 2021.
 </em></small>
 
 ## Authors
@@ -865,13 +865,15 @@ When stereochemistry was not fully defined, (+) and (-) symbols were removed fro
 All details are available in the following script: [src/2_curating/2_editing/structure/4_enriching/naming.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/2_curating/2_editing/structure/4_enriching/naming.R).
 Chemical classification of all resulting structures was done using classyfireR [@doi:10/gc5tqv] and [NPClassifier API](https://ccms-ucsd.github.io/GNPSDocumentation/api/#structure-np-classifier).
 
-From the 269,436 initial InChI, 233,652 (87%) sanitized structures were obtained, of which 176,235 (75%) had complete stereochemistry defined. 
-197,392 (73%) were uploaded to Wikidata.
-From the 244,724 initial SMILES, 205,244 (84%) sanitized structures were obtained, of which 8,542 (4%) had complete stereochemistry defined. 
-173,590 (71%) were uploaded to Wikidata.
-From the 49,315 initial chemical names, 27,780 (56%) sanitized structures were obtained, of which 2,324 (8%) had complete stereochemistry defined. 
-23,098 (47%) were uploaded to Wikidata.
-In total, 164,308 structures with fully defined stereochemistry were uploaded as "chemical compounds" ([Q11173](https://www.wikidata.org/wiki/Q11173)), and 106,043 structures without fully defined stereochemistry were uploaded as "group of stereoisomers" ([Q59199015](https://www.wikidata.org/wiki/Q59199015)).
+After manual evaluation, structures remaining as dimers were discarded (all structures containing a "." in their SMILES were removed).
+
+From the 283,267 initial InChI, 242,068 (85%) sanitized structures were obtained, of which 185,929 (77%) had complete stereochemistry defined. 
+203,718 (72%) were uploaded to Wikidata.
+From the 248,185 initial SMILES, 207,658 (84%) sanitized structures were obtained, of which 98,685 (48%) had complete stereochemistry defined. 
+174,091 (70%) were uploaded to Wikidata.
+From the 49,675 initial chemical names, 27,932 (56%) sanitized structures were obtained, of which 17,460 (63%) had complete stereochemistry defined. 
+23,036 (46%) were uploaded to Wikidata.
+In total, 163,800 structures with fully defined stereochemistry were uploaded as "chemical compounds" ([Q11173](https://www.wikidata.org/wiki/Q11173)), and 106,669 structures without fully defined stereochemistry were uploaded as "group of stereoisomers" ([Q59199015](https://www.wikidata.org/wiki/Q59199015)).
 
 
 ##### Biological Organisms {.page_break_before}
@@ -915,8 +917,8 @@ After this subtraction step, the remaining names were translated from vernacular
 For performance reasons, this cleaning step was written in Kotlin and used coroutines to allow efficient parallelization of that process ([src/2_curating/2_editing/organisms/2_translating_organism_kotlin/](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/2_curating/2_editing/organisms/2_translating_organism_kotlin/)). They were subsequently submitted again to scientific name recognition ([src/2_curating/2_editing/organisms/3_cleaningTranslated.R](http://src/2_curating/2_editing/organisms/3_cleaningTranslated.R)). 
 
 After full resolution of canonical names, all obtained names were submitted to rotl (Michonneau et al., 2016) to obtain a unified taxonomy.
-From the 86,076 initial "clean" organism fields, 43,421 (50%) canonical names were obtained, of which 31,965 (37%) were uploaded to Wikidata.
-From the 294 initial "dirty" organism fields, 241 (82%) canonical names were obtained, of which 198 (67%) were uploaded to Wikidata.
+From the 88,395 initial "clean" organism fields, 43,936 (50%) canonical names were obtained, of which 32,285 (37%) were uploaded to Wikidata.
+From the 300 initial "dirty" organism fields, 250 (83%) canonical names were obtained, of which 208 (69%) were uploaded to Wikidata.
 
 
 ##### References 
@@ -940,20 +942,18 @@ All candidates were first ordered according to their crossref score, then by the
 After this reranking step, only the first candidate was kept. 
 Finally, the Pubmed PMCID dictionary ([PMC-ids.csv.gz](https://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz)) was used to perform the translations between DOI, PMID, and PMCID. ([src/2_curating/2_editing/reference/3_cleaning.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/2_curating/2_editing/reference/3_cleaning.R))
 
-From the 36,692 initial "original" references, 21,928 (60%) references with sufficient quality were obtained, of which 15,674 (71%) had the organism name in their title. 
-9,882 (27%) were uploaded to Wikidata.
-From the 21,306 initial "pubmed" references, 9,015 (42%) references with sufficient quality were obtained, of which 5,695 (63%) had the organism name in their title. 
-3,013 (14%) were uploaded to Wikidata.
-From the 35,348 initial "doi" references, 19,682 (56%) references with sufficient quality were obtained, of which 15,522 (79%) had the organism name in their title. 
-11,847 (34%) were uploaded to Wikidata.
-From the 29,584 initial "title" references, 17,410 (59%) references with sufficient quality were obtained, of which 12,732 (73%) had the organism name in their title. 
-9,638 (33%) were uploaded to Wikidata.
-From the 11,322 initial "split" references, 5,856 (52%) references with sufficient quality were obtained, of which 3,221 (55%) had the organism name in their title. 
-2,255 (20%) were uploaded to Wikidata.
-From the 3,310 initial "publishingDetails" references, 119 (4%) references with sufficient quality were obtained, of which 59 (50%) had the organism name in their title. 
-16 (<0.1%) were uploaded to Wikidata.
-
-
+From the 36,710 initial "original" references, 21,970 (60%) references with sufficient quality were obtained, of which 15,588 (71%) had the organism name in their title.
+14,710 (40%) were uploaded to Wikidata.
+From the 21,953 initial "pubmed" references, 9,452 (43%) references with sufficient quality were obtained, of which 6,098 (65%) had the organism name in their title. 
+5,553 (25%) were uploaded to Wikidata.
+From the 37,371 initial "doi" references, 20,139 (54%) references with sufficient quality were obtained, of which 15,727 (78%) had the organism name in their title. 
+15,351 (41%) were uploaded to Wikidata.
+From the 29,600 initial "title" references, 17,417 (59%) references with sufficient quality were obtained, of which 12,675 (73%) had the organism name in their title. 
+10,725 (36%) were uploaded to Wikidata.
+From the 11,325 initial "split" references, 5,856 (52%) references with sufficient quality were obtained, of which 3,206 (55%) had the organism name in their title. 
+2,854 (25%) were uploaded to Wikidata.
+From the 3,314 initial "publishingDetails" references, 119 (4%) references with sufficient quality were obtained, of which 59 (50%) had the organism name in their title. 
+58 (2%) were uploaded to Wikidata.
 
 #### Realignment
 
@@ -1115,7 +1115,7 @@ A frozen version (2021-02-23) of all programs and code is also available in the 
 ### Programs and packages {.page_break_before}
 
 #### R
-The [R](https://www.r-project.org/) version used for the project was 4.0.5 (2021-03-31) -- "Shake and Throw", and R-packages used were, in alphabetical order::
+The [R](https://www.r-project.org/) versions used for the project were 4.0.2 up to 4.1, and R-packages used were, in alphabetical order:
 ChemmineR (3.42.1) [@doi:10/b46rs7], chorddiag (0.1.2) [@florChorddiagInteractiveChord2020], ClassyfireR (0.3.6) [@doi:10/gc5tqv], data.table (1.13.6) [@dowleDataTableExtension2020], DBI (1.1.1) [@rspecialinterestgroupondatabasesr-sig-dbDBIDatabaseInterface2021], gdata (2.18.0) [@warnesGdataVariousProgramming2017], ggalluvial (0.12.3) [@doi:10/gg4ghf], ggfittext (0.9.1) [@wilkinsGgfittextFitText2020], ggnewscale (0.4.5) [@campitelliGgnewscaleMultipleFill2021], ggraph (2.0.4) [@pedersenGgraphImplementationGrammar2020], ggstar (1.0.1) [@xuGgstarStarLayer2021], ggtree (2.4.1) [@doi:10/f9qv8x], ggtreeExtra (1.0.1) [@doi:10.21203/rs.3.rs-155672/v2], Hmisc (4.4-2) [@jrHmiscHarrellMiscellaneous2020], jsonlite (1.7.2) [@wikidata:Q106204620], pbmcapply (1.5.0) [@kuangPbmcapplyTrackingProgress2019], plotly (4.9.3) [@sievertInteractiveWebBasedData2020], rcrossref(1.1.0) [@chamberlainRcrossrefClientVarious2020], readxl (1.3.1) [@wickhamReadxlReadExcel2019], rentrez (1.2.3) [@doi:10/gh5ptg], rotl (3.0.11) [@doi:10/f9jgkm], rvest (0.3.6) [@wickhamRvestEasilyHarvest2020], splitstackshape (1.4.8) [@mahtoSplitstackshapeStackReshape2019], RSQLite (2.2.3) [@mullerRSQLiteSQLiteInterface2021], stringdist (0.9.6.3) [@doi:10/ghfr9v], stringi (1.5.3) [@gagolewskiPackageStringiCharacter2020], tidyverse (1.3.0) [@doi:10/ggddkj], treeio (1.14.3) [@doi:10/ggwr93], UpSetR (1.4.0) [@gehlenborgUpSetRMoreScalable2019], vroom (1.3.2) [@hesterVroomReadWrite2020], webchem (1.1.1) [@doi:10/gh5ptf], XML (3.99-05) [@langXMLToolsParsing2020], xml2 (1.3.2) [@wickhamXml2ParseXML2020]
 
 #### Python

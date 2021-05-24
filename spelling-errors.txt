@@ -39,7 +39,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-Bjonnh
+bjonnh
 Bohlmann
 Bolzani
 Bromus
@@ -83,8 +83,8 @@ Crossref
 CRSII
 csteinbeck
 cstrnq
-CTS
-Curation
+cts
+curation
 cyanometdb
 Cyathocaline
 Cyathocalyx
@@ -92,7 +92,7 @@ Damerau
 daphnane
 dataset
 datasets
-datawarrior
+Datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -103,14 +103,15 @@ dereplication
 Detekt
 DiaNat
 dianatdb
+dimers
 diterpene
 DM
 Dmitry
-dnp
+DNP
 Dockerized
 DOIs
 doit
-drduke
+DrDuke
 DTGCRPNFSA
 eBird
 echnology
@@ -166,7 +167,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerifier
 Gottlieb
@@ -190,7 +191,7 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChiKey
+InChIKey
 indability
 indica
 Indolic
@@ -220,7 +221,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -255,7 +256,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-metabolomic
+Metabolomic
 MEYS
 mibig
 Michán
@@ -263,7 +264,7 @@ Michonneau
 Mietchen
 mitishamba
 modularity
-molvs
+MolVS
 monogyna
 Mozzherin
 mSorok
@@ -272,10 +273,10 @@ MVLS
 NameBank
 náměstí
 nanpdb
-napralert
+NAPRALERT
 natively
 NatprodCbn
-NaturalProducts
+naturalproducts
 NCBI
 NCCIH
 nextStep
@@ -342,7 +343,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-RDKit
+rdkit
 rdmpage
 readxl
 Reionization
@@ -383,11 +384,11 @@ spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -418,7 +419,7 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-TMAP
+tmap
 tmdb
 TMMC
 tppt
@@ -434,7 +435,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
