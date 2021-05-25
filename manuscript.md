@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e5d69b18848b517951412cfcb84b9c9792041f55/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e5d69b18848b517951412cfcb84b9c9792041f55/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e5d69b18848b517951412cfcb84b9c9792041f55/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/f1158df407103ce957e7346f4619ae6acaa104f1/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f1158df407103ce957e7346f4619ae6acaa104f1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f1158df407103ce957e7346f4619ae6acaa104f1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e5d69b18848b517951412cfcb84b9c9792041f55/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e5d69b18848b517951412cfcb84b9c9792041f55/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f1158df407103ce957e7346f4619ae6acaa104f1/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f1158df407103ce957e7346f4619ae6acaa104f1/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/e5d69b18848b517951412cfcb84b9c9792041f55/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/f1158df407103ce957e7346f4619ae6acaa104f1/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@e5d69b1](https://github.com/lotusnprod/lotus-manuscript/tree/e5d69b18848b517951412cfcb84b9c9792041f55)
+from [lotusnprod/lotus-manuscript@f1158df](https://github.com/lotusnprod/lotus-manuscript/tree/f1158df407103ce957e7346f4619ae6acaa104f1)
 on May 25, 2021.
 </em></small>
 
@@ -682,9 +682,9 @@ The chemical diversity captured in LOTUS is here displayed *via* a TMAP (Figure 
 Using Faerun, an interactive HTML file is generated to display metadata and molecule structures by embedding the SmilesDrawer library [@doi:10/gcmhc5; @doi:10/gjjz4d].
 Planar structures were used for all compounds to generate the TMAP using MAP4 encoding [@doi:10/gjjz4c].
 As the tree organizes structures according to their molecular fingerprint, an anticipated coherence between the clustering of compounds and the mapped NPClassifier chemical class is indeed observed (Figure @fig:tmap A.).
-For clarity, the eight most represented chemical classes belonging to the terpenoids pathway of LOTUS plus the quassinoids and carotenoids (C40, *β*-*β*) classes are mapped, with an example of a quassinoid (yellow star) and a carotenoid (green star) and their corresponding location in the TMAP.
+For clarity, the eight most represented chemical classes belonging to the terpenoids pathway of LOTUS plus the quassinoids and carotenoids (C40, *β*-*β*) classes are mapped, with an example of a quassinoid (green star) and a carotenoid (yellow star) and their corresponding location in the TMAP.
 
-![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (light violet star) and an ubiquitous carotenoid (dark violet star) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in red. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs in the chemical class. A chemical class biological specificity score of 1 means that compounds in that chemical class were reported in a unique biological family. Zooms on a group of compounds of high biological specificity score (in yellow) and on compounds of low specificity (black) are depicted. An interactive HTML visualization of the LOTUS TMAP is available at [https://osf.io/kqa8b/](https://osf.io/kqa8b/).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
+![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (green star) and an ubiquitous carotenoid (yellow star) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in red. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs in the chemical class. A chemical class biological specificity score of 1 means that compounds in that chemical class were reported in a unique biological family. Zooms on a group of compounds of high biological specificity score (in yellow) and on compounds of low specificity (black) are depicted. An interactive HTML visualization of the LOTUS TMAP is available at [https://osf.io/kqa8b/](https://osf.io/kqa8b/).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
 
 To explore relationships between chemistry and biology, it is possible to map biological information such as the most reported biological family (Figure @fig:tmap B.) and the chemical class biological specificity (Figure @fig:tmap C.) on the TMAP.
 The biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs.
