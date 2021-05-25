@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/34d5cca8469ffc251d41284f138302867b16fa2f/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/34d5cca8469ffc251d41284f138302867b16fa2f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/34d5cca8469ffc251d41284f138302867b16fa2f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e5d69b18848b517951412cfcb84b9c9792041f55/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e5d69b18848b517951412cfcb84b9c9792041f55/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e5d69b18848b517951412cfcb84b9c9792041f55/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/34d5cca8469ffc251d41284f138302867b16fa2f/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/34d5cca8469ffc251d41284f138302867b16fa2f/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e5d69b18848b517951412cfcb84b9c9792041f55/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e5d69b18848b517951412cfcb84b9c9792041f55/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/34d5cca8469ffc251d41284f138302867b16fa2f/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/e5d69b18848b517951412cfcb84b9c9792041f55/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@34d5cca](https://github.com/lotusnprod/lotus-manuscript/tree/34d5cca8469ffc251d41284f138302867b16fa2f)
+from [lotusnprod/lotus-manuscript@e5d69b1](https://github.com/lotusnprod/lotus-manuscript/tree/e5d69b18848b517951412cfcb84b9c9792041f55)
 on May 25, 2021.
 </em></small>
 
@@ -1851,7 +1851,7 @@ SELECT ?item ?itemLabel ?taxonLabel ?artLabel WHERE {
 
 ### SI 5 Complement to Figure 7{.page_break_before}
 
-![**Complement to Figure 7**: distribution of β-sitosterol and related chemical parents among families with at least 50 reported compounds present in LOTUS. Script used for the generation of each tree in the figure is the same ([src/4_visualizing/plot_magicTree.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/4_visualizing/plot_magicTree.R)) as for Figure @fig:magicTree as both figures are related.](images/magicTree_additional.svg "magicTree_additional"){#fig:magicTree-additional tag="SI-5"}
+![**Complement to Figure 7**: distribution of *β*-sitosterol and related chemical parents among families with at least 50 reported compounds present in LOTUS. Script used for the generation of each tree in the figure is the same ([src/4_visualizing/plot_magicTree.R](https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/4_visualizing/plot_magicTree.R)) as for Figure @fig:magicTree as both figures are related.](images/magicTree_additional.svg "magicTree_additional"){#fig:magicTree-additional tag="SI-5"}
 
 
 ## References {.page_break_before}
