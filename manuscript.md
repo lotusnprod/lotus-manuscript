@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/f6d1187ca4b371f0a3609391faf31e938bdaa643/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f6d1187ca4b371f0a3609391faf31e938bdaa643/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f6d1187ca4b371f0a3609391faf31e938bdaa643/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/34d5cca8469ffc251d41284f138302867b16fa2f/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/34d5cca8469ffc251d41284f138302867b16fa2f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/34d5cca8469ffc251d41284f138302867b16fa2f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f6d1187ca4b371f0a3609391faf31e938bdaa643/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f6d1187ca4b371f0a3609391faf31e938bdaa643/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/34d5cca8469ffc251d41284f138302867b16fa2f/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/34d5cca8469ffc251d41284f138302867b16fa2f/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/f6d1187ca4b371f0a3609391faf31e938bdaa643/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/34d5cca8469ffc251d41284f138302867b16fa2f/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@f6d1187](https://github.com/lotusnprod/lotus-manuscript/tree/f6d1187ca4b371f0a3609391faf31e938bdaa643)
+from [lotusnprod/lotus-manuscript@34d5cca](https://github.com/lotusnprod/lotus-manuscript/tree/34d5cca8469ffc251d41284f138302867b16fa2f)
 on May 25, 2021.
 </em></small>
 
@@ -509,7 +509,7 @@ For example, by typing "erysodine", the user will land on the page of this compo
 Scrolling down to the "found in taxon" statement will allow the user to view the biological organisms reported to contain this NP (Figure @fig:wdpage).
 Clicking the reference link under each taxon name links to the publication(s) documenting the occurrence.
 
-![**Illustration of the "found in taxon" statement section on the Wikidata page** of erysodine [Q27265641](https://www.wikidata.org/wiki/Q27265641) showing a selection of containing taxa and the references documenting these occurrences.](images/erysodine.png "wdpage"){#fig:wdpage width="100%"}
+![**Illustration of the "found in taxon" statement section on the Wikidata page** of erysodine [Q27265641](https://www.wikidata.org/wiki/Q27265641) showing a selection of containing taxa and the references documenting these occurrences.](images/erysodine.svg "wdpage"){#fig:wdpage width="100%"}
 
 The typical approach of more elaborated queries consists of writing SPARQL queries using the [Wikidata Query Service](https://query.wikidata.org/) or a direct connection to the SPARQL endpoint.
 Below are some examples from simple to more elaborated queries, demonstrating what can be done using this approach.
