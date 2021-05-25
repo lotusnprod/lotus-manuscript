@@ -72,7 +72,7 @@ Christoph
 Chun
 clade
 ClassyFire
-ClassyfireR
+classyfireR
 cleaningOriginal
 cleaningTranslated
 CMU
@@ -80,11 +80,11 @@ codebase
 coroutines
 counterions
 Crataegus
-Crossref
+crossref
 CRSII
 csteinbeck
 cstrnq
-CTS
+cts
 curation
 Cyanometdb
 Cyathocaline
@@ -108,7 +108,7 @@ dimers
 diterpene
 DM
 Dmitry
-DNP
+dnp
 Dockerized
 DOIs
 doit
@@ -143,7 +143,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 Gaudry
 GBIF
 gdata
@@ -191,7 +191,7 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChIKey
+InChiKey
 indability
 indica
 Indolic
@@ -273,7 +273,7 @@ MVLS
 NameBank
 náměstí
 nanpdb
-napralert
+NAPRALERT
 natively
 NatprodCbn
 naturalproducts
@@ -285,7 +285,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -315,7 +315,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -342,12 +342,12 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-RDKit
+rdkit
 rdmpage
 readxl
 Reionization
 rentrez
-Repartition
+repartition
 reproducibility
 reranking
 resubmission
@@ -383,11 +383,11 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -407,7 +407,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-TCM
+tcm
 TCMID
 Termitidae
 terpenoid
@@ -460,7 +460,7 @@ Voilà
 Vondrášek
 vroom
 Vue
-wakankensaku
+Wakankensaku
 wdpage
 webchem
 Wijeratne

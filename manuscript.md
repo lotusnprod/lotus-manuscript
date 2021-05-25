@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/f1158df407103ce957e7346f4619ae6acaa104f1/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f1158df407103ce957e7346f4619ae6acaa104f1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f1158df407103ce957e7346f4619ae6acaa104f1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/46d202b0a08e66aa664ccc69006c9624c73e44b3/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/46d202b0a08e66aa664ccc69006c9624c73e44b3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/46d202b0a08e66aa664ccc69006c9624c73e44b3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f1158df407103ce957e7346f4619ae6acaa104f1/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f1158df407103ce957e7346f4619ae6acaa104f1/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/46d202b0a08e66aa664ccc69006c9624c73e44b3/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/46d202b0a08e66aa664ccc69006c9624c73e44b3/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/f1158df407103ce957e7346f4619ae6acaa104f1/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/46d202b0a08e66aa664ccc69006c9624c73e44b3/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@f1158df](https://github.com/lotusnprod/lotus-manuscript/tree/f1158df407103ce957e7346f4619ae6acaa104f1)
+from [lotusnprod/lotus-manuscript@46d202b](https://github.com/lotusnprod/lotus-manuscript/tree/46d202b0a08e66aa664ccc69006c9624c73e44b3)
 on May 25, 2021.
 </em></small>
 
