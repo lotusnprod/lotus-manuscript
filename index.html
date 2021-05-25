@@ -180,13 +180,13 @@
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/381217b575fc8bfde3de6ca586ab58f8b6ef4551/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/381217b575fc8bfde3de6ca586ab58f8b6ef4551/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/381217b575fc8bfde3de6ca586ab58f8b6ef4551/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/f6d1187ca4b371f0a3609391faf31e938bdaa643/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f6d1187ca4b371f0a3609391faf31e938bdaa643/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f6d1187ca4b371f0a3609391faf31e938bdaa643/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/381217b575fc8bfde3de6ca586ab58f8b6ef4551/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/381217b575fc8bfde3de6ca586ab58f8b6ef4551/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f6d1187ca4b371f0a3609391faf31e938bdaa643/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f6d1187ca4b371f0a3609391faf31e938bdaa643/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -217,9 +217,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lotusnprod.github.io/lotus-manuscript/v/381217b575fc8bfde3de6ca586ab58f8b6ef4551/">permalink</a>)
+(<a href="https://lotusnprod.github.io/lotus-manuscript/v/f6d1187ca4b371f0a3609391faf31e938bdaa643/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/381217b575fc8bfde3de6ca586ab58f8b6ef4551">lotusnprod/lotus-manuscript@381217b</a>
+from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/f6d1187ca4b371f0a3609391faf31e938bdaa643">lotusnprod/lotus-manuscript@f6d1187</a>
 on May 25, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -572,8 +572,9 @@ Clicking the reference link under each taxon name links to the publication(s) do
 <p>The typical approach of more elaborated queries consists of writing SPARQL queries using the <a href="https://query.wikidata.org/">Wikidata Query Service</a> or a direct connection to the SPARQL endpoint.
 Below are some examples from simple to more elaborated queries, demonstrating what can be done using this approach.
 The full-text queries with explanations are included in <a href="#si-3-wikidata-sparql-queries">SI-3</a>.</p>
+<div id="tbl:queries" class="tablenos">
 <table>
-<caption>Potential questions about referenced structure-organism relationships and the corresponding Wikidata SPARQL query that provides an answer.{#tbl:queries}</caption>
+<caption><span>Table 2:</span> Potential questions about referenced structure-organism relationships and the corresponding Wikidata SPARQL query that provides an answer. </caption>
 <colgroup>
 <col style="width: 63%" />
 <col style="width: 36%" />
@@ -627,9 +628,10 @@ The full-text queries with explanations are included in <a href="#si-3-wikidata-
 </tr>
 </tbody>
 </table>
-<p>The queries presented in Table ?? are only a few examples, and many other ways of interrogating LOTUS can be formulated.
+</div>
+<p>The queries presented in Table <a href="#tbl:queries">2</a> are only a few examples, and many other ways of interrogating LOTUS can be formulated.
 Generic queries can also be used, for example, for hypothesis generation when starting a research project.
-For instance, a generic SPARQL query - listed in Table ?? as “Which are the available referenced structure-organism pairs?” - retrieves all structures, identified by their InChIKey (<a href="https://www.wikidata.org/wiki/Property:P235">P235</a>), which contain found in taxon (<a href="https://www.wikidata.org/wiki/Property:P703">P703</a>) statements that are stated in (<a href="https://www.wikidata.org/wiki/Property:P248">P248</a>) a bibliographic reference: <a href="https://w.wiki/3JpE">https://w.wiki/3JpE</a>.
+For instance, a generic SPARQL query - listed in Table <a href="#tbl:queries">2</a> as “Which are the available referenced structure-organism pairs?” - retrieves all structures, identified by their InChIKey (<a href="https://www.wikidata.org/wiki/Property:P235">P235</a>), which contain found in taxon (<a href="https://www.wikidata.org/wiki/Property:P703">P703</a>) statements that are stated in (<a href="https://www.wikidata.org/wiki/Property:P248">P248</a>) a bibliographic reference: <a href="https://w.wiki/3JpE">https://w.wiki/3JpE</a>.
 Data can then be exported in various formats, such as classical tabular formats, json, or html tables (see Download tab on the lower right of the query frame).
 At the time of writing (2021-05-05), this query returned 797,123 entries; a frozen query result is available at <a href="https://osf.io/thqaw/">https://osf.io/thqaw/</a>.</p>
 <p>Targeted queries allowing to interrogate LOTUS data from the perspective of one of the three objects forming the referenced structure-organism pairs can be also built.
@@ -697,22 +699,23 @@ If Scholia currently does not offer a direct editing interface for scientific re
 The adaptation of such a framework to edit the documented structure-pairs in the LOTUS initiative could thus facilitate the capture of future expert curation, especially manual efforts that cannot be replaced by automated scripts.</p>
 <h3 id="data-interpretation">Data Interpretation</h3>
 <p>To illustrate the nature and dimensions of the LOTUS dataset, some selected examples of data interpretation are shown.
-First, the repartition of chemical structures among four important NP reservoirs: plants, fungi, animals and bacteria (Table ??).
+First, the repartition of chemical structures among four important NP reservoirs: plants, fungi, animals and bacteria (Table <a href="#tbl:repartition">3</a>).
 Then, the distribution of biological organisms according to the number of related chemical structures and likewise the distribution of chemical structures across biological organisms are illustrated (Figure <a href="#fig:distribution">4</a>).
 Furthermore, the individual electronic NP resources participation in LOTUS data is resumed using the UpSet plot depiction, which allows the visualization of intersections in data sets (Figure <a href="#fig:upset">5</a>).
 Across these figures we take again the two previous examples, i.e, <em>β</em>-sitosterol as chemical structure and <em>Arabidopsis thaliana</em> as biological organism because of their well-documented statuses.
 Finally, a biologically-interpreted chemical tree and a chemically-interpreted biological tree are presented (Figure <a href="#fig:tmap">6</a> and Figure <a href="#fig:magicTree">7</a>).
 The examples illustrate the overall chemical and biological coverage of LOTUS by linking family-specific classes of chemical structures to their taxonomic position.
-Table ??, Figures <a href="#fig:distribution">4</a>, <a href="#fig:tmap">6</a>, and <a href="#fig:magicTree">7</a> were generated using the frozen data (2021-05-23 timestamp), which is available for download at <a href="https://osf.io/eydjs/">https://osf.io/eydjs/</a>.
+Table <a href="#tbl:repartition">3</a>, Figures <a href="#fig:distribution">4</a>, <a href="#fig:tmap">6</a>, and <a href="#fig:magicTree">7</a> were generated using the frozen data (2021-05-23 timestamp), which is available for download at <a href="https://osf.io/eydjs/">https://osf.io/eydjs/</a>.
 Figure <a href="#fig:upset">5</a> required a dataset containing information from DNP and the complete data used for its generation is therefore not available for public distribution.
 All scripts used for the generation of the figures (including <a href="#si-5-complement-to-figure-7">SI-5</a>) are available in the <a href="https://gitlab.com/lotus7/lotusProcessorv">lotusProcessor</a> repository in the <a href="https://gitlab.com/lotus7/lotusProcessor/-/tree/preprint/src/4_visualizing">src/4_visualizing</a> directory for reproducibility.</p>
 <h4 id="repartition-of-chemical-structures-across-reported-biological-organisms-in-lotus">Repartition of Chemical Structures across reported Biological Organisms in LOTUS</h4>
-<p>Table ?? summarizes the repartition of chemical structures and their chemical classes (according to NPClassifier <span class="citation" data-cites="lUVqn8aT">(kim et al., <a href="#ref-lUVqn8aT" role="doc-biblioref">2020</a>)</span>) across the biological organisms reported in LOTUS.
+<p>Table <a href="#tbl:repartition">3</a> summarizes the repartition of chemical structures and their chemical classes (according to NPClassifier <span class="citation" data-cites="lUVqn8aT">(kim et al., <a href="#ref-lUVqn8aT" role="doc-biblioref">2020</a>)</span>) across the biological organisms reported in LOTUS.
 For this, biological organisms were grouped into four artificial taxonomic levels (plants, fungi, animals, and bacteria).
 These were built by combining the two highest taxonomic levels in the OTL taxonomy, namely Domain and Kingdom levels.
 When the chemical structure/class was reported only in one taxonomic grouping, it was counted as “specific”.</p>
+<div id="tbl:repartition" class="tablenos">
 <table style="width:100%;">
-<caption>Repartition and specificity of chemical structures across four important NP reservoirs: plants, fungi, animals, and bacteria. When the chemical structure/class appeared only in one group and not the three others, they were counted as “specific”. Chemical classes were attributed with NPClassifier.{#tbl:repartition}</caption>
+<caption><span>Table 3:</span> Repartition and specificity of chemical structures across four important NP reservoirs: plants, fungi, animals, and bacteria. When the chemical structure/class appeared only in one group and not the three others, they were counted as “specific”. Chemical classes were attributed with NPClassifier. </caption>
 <colgroup>
 <col style="width: 14%" />
 <col style="width: 14%" />
@@ -772,6 +775,7 @@ When the chemical structure/class was reported only in one taxonomic grouping, i
 </tr>
 </tbody>
 </table>
+</div>
 <h4 id="distributions-of-organisms-per-structure-and-structures-per-organism">Distributions of Organisms per Structure and Structures per Organism</h4>
 <p>Readily achievable outcomes from LOTUS show that the depth of exploration of the world of NP is rather limited: as depicted in Figure <a href="#fig:distribution">4</a>, on average, three organisms are reported per chemical structure and eleven structures per organism.
 Notably, half of all structures have been reported from a single organism, and half of all studied organisms are reported to contain five or fewer structures.
@@ -845,7 +849,7 @@ Six decades after Hegnauer’s publication of “Die Chemotaxonomie der Pflanzen
 Genetic studies investigating the pathways involved and the organisms carrying the responsible biosynthetic genes would be of interest to confirm the previous observations.
 These forms of data interpretation exemplify the importance of reporting not only new structures, but also novel occurrences of known structures in organisms as comprehensive chemotaxonomic studies are pivotal for a better understanding of the metabolomes of living organisms.</p>
 <p>The integration of multiple knowledge sources, e.g. genetics for NP producing gene clusters <span class="citation" data-cites="F5HJbaQH">(Kautsar et al., <a href="#ref-F5HJbaQH" role="doc-biblioref">2019</a>)</span> combined to taxonomies and occurrences DB, also opens new opportunities to understand if an organism is responsible for the <em>biosynthesis</em> of a NP or merely <em>contains</em> it.
-This understanding is of utmost importance for the chemotaxonomic field and will help to understand to which extent microorganisms (endosymbionts) play a role in host development and its NP expression <span class="citation" data-cites="BSCQ82T">(SAIKKONEN, <a href="#ref-BSCQ82T" role="doc-biblioref">2004</a>)</span>.</p>
+This understanding is of utmost importance for the chemotaxonomic field and will help to understand to which extent microorganisms (endosymbionts) play a role in host development and its NP expression <span class="citation" data-cites="BSCQ82T">(Saikkonen, <a href="#ref-BSCQ82T" role="doc-biblioref">2004</a>)</span>.</p>
 <h2 id="conclusion-perspectives">Conclusion &amp; Perspectives</h2>
 <h3 id="advancing-np-knowledge">Advancing NP Knowledge</h3>
 <p>At its current development stage, data harmonized and curated in the LOTUS initiative remain imperfect and, by the very nature of research, at least partially biased (see <a href="#introduction">Introduction</a>).
@@ -2637,7 +2641,7 @@ You can add further statements, e.g. <code>molecular formula</code>, or <code>S
 <p>Rutz A, Dounoue-Kubo M, Ollivier S, Bisson J, Bagheri M, Saesong T, Ebrahimi SN, Ingkaninan K, Wolfender J-L, Allard P-M. 2019. Taxonomically Informed Scoring Enhances Confidence in Natural Products Annotation. <em>Frontiers in Plant Science</em> <strong>10</strong>:1329. doi:<a href="https://doi.org/10.3389/fpls.2019.01329">10.3389/fpls.2019.01329</a></p>
 </div>
 <div id="ref-BSCQ82T">
-<p>SAIKKONEN K. 2004. Evolution of endophyte?plant symbioses. <em>Trends in Plant Science</em> <strong>9</strong>:275–280. doi:<a href="https://doi.org/10.1016/j.tplants.2004.04.005">10.1016/j.tplants.2004.04.005</a></p>
+<p>Saikkonen K. 2004. Evolution of endophyte?plant symbioses. <em>Trends in Plant Science</em> <strong>9</strong>:275–280. doi:<a href="https://doi.org/10.1016/j.tplants.2004.04.005">10.1016/j.tplants.2004.04.005</a></p>
 </div>
 <div id="ref-bOvsdNwM">
 <p>Sander T, Freyss J, von Korff M, Rufener C. 2015. DataWarrior: An Open-Source Program For Chemistry Aware Data Visualization And Analysis. <em>Journal of Chemical Information and Modeling</em> <strong>55</strong>:460–473. doi:<a href="https://doi.org/10.1021/ci500588j">10.1021/ci500588j</a></p>
