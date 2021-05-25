@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/381217b575fc8bfde3de6ca586ab58f8b6ef4551/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/381217b575fc8bfde3de6ca586ab58f8b6ef4551/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/381217b575fc8bfde3de6ca586ab58f8b6ef4551/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/f6d1187ca4b371f0a3609391faf31e938bdaa643/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f6d1187ca4b371f0a3609391faf31e938bdaa643/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f6d1187ca4b371f0a3609391faf31e938bdaa643/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/381217b575fc8bfde3de6ca586ab58f8b6ef4551/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/381217b575fc8bfde3de6ca586ab58f8b6ef4551/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f6d1187ca4b371f0a3609391faf31e938bdaa643/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f6d1187ca4b371f0a3609391faf31e938bdaa643/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/381217b575fc8bfde3de6ca586ab58f8b6ef4551/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/f6d1187ca4b371f0a3609391faf31e938bdaa643/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@381217b](https://github.com/lotusnprod/lotus-manuscript/tree/381217b575fc8bfde3de6ca586ab58f8b6ef4551)
+from [lotusnprod/lotus-manuscript@f6d1187](https://github.com/lotusnprod/lotus-manuscript/tree/f6d1187ca4b371f0a3609391faf31e938bdaa643)
 on May 25, 2021.
 </em></small>
 
@@ -516,7 +516,7 @@ Below are some examples from simple to more elaborated queries, demonstrating wh
 The full-text queries with explanations are included in [SI-3](#si-3-wikidata-sparql-queries).
 
 
-Table: Potential questions about referenced structure-organism relationships and the corresponding Wikidata SPARQL query that provides an answer.{#tbl:queries}
+Table: Potential questions about referenced structure-organism relationships and the corresponding Wikidata SPARQL query that provides an answer. {#tbl:queries}
 
 | Question | Wikidata SPARQL query | 
 |:------------------------:|:-------------:|
@@ -642,7 +642,7 @@ These were built by combining the two highest taxonomic levels in the OTL taxono
 When the chemical structure/class was reported only in one taxonomic grouping, it was counted as "specific".
 
 
-Table: Repartition and specificity of chemical structures across four important NP reservoirs: plants, fungi, animals, and bacteria. When the chemical structure/class appeared only in one group and not the three others, they were counted as "specific". Chemical classes were attributed with NPClassifier.{#tbl:repartition}
+Table: Repartition and specificity of chemical structures across four important NP reservoirs: plants, fungi, animals, and bacteria. When the chemical structure/class appeared only in one group and not the three others, they were counted as "specific". Chemical classes were attributed with NPClassifier. {#tbl:repartition}
 
 | **Group** | **Organisms** | **Structure-Organism Pairs** | **Chemical Structures** | **Specific Chemical Structures** | **Chemical Classes** | **Specific Chemical Classes** | 
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
