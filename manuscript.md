@@ -3,7 +3,7 @@ title: 'The LOTUS Initiative for Open Natural Products Research: Knowledge Manag
 keywords:
 - to do
 lang: en-US
-date-meta: '2021-05-24'
+date-meta: '2021-05-25'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-05-24" />
-  <meta name="citation_publication_date" content="2021-05-24" />
+  <meta name="dc.date" content="2021-05-25" />
+  <meta name="citation_publication_date" content="2021-05-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/eaf86ae361a27882fd0a95b1ca5731de4b5a4d1d/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/eaf86ae361a27882fd0a95b1ca5731de4b5a4d1d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/eaf86ae361a27882fd0a95b1ca5731de4b5a4d1d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/39ef95e70e5a31fe2d5027c09a684e1d2baeacec/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/39ef95e70e5a31fe2d5027c09a684e1d2baeacec/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/39ef95e70e5a31fe2d5027c09a684e1d2baeacec/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/eaf86ae361a27882fd0a95b1ca5731de4b5a4d1d/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/eaf86ae361a27882fd0a95b1ca5731de4b5a4d1d/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/39ef95e70e5a31fe2d5027c09a684e1d2baeacec/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/39ef95e70e5a31fe2d5027c09a684e1d2baeacec/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,10 +132,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/eaf86ae361a27882fd0a95b1ca5731de4b5a4d1d/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/39ef95e70e5a31fe2d5027c09a684e1d2baeacec/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@eaf86ae](https://github.com/lotusnprod/lotus-manuscript/tree/eaf86ae361a27882fd0a95b1ca5731de4b5a4d1d)
-on May 24, 2021.
+from [lotusnprod/lotus-manuscript@39ef95e](https://github.com/lotusnprod/lotus-manuscript/tree/39ef95e70e5a31fe2d5027c09a684e1d2baeacec)
+on May 25, 2021.
 </em></small>
 
 ## Authors
@@ -311,37 +311,36 @@ The LOTUS initiative represents an important advancement in the design and deplo
 
 ## Introduction {.page_break_before}
 
-### Evolution of Electronic Natural Product Resources
+### Evolution of Electronic Natural Products Resources
 
 Natural Products (NP) research is a transdisciplinary field with wide-ranging interests, from fundamental structural aspects of naturally-occurring molecular entities to their effects on living organisms, and extending to the study of chemically-mediated interactions within entire ecosystems.
-Despite the ambiguous definition of “natural” [@doi:10/bkfd8h], the basis of our definition of a NP as a chemical entity *found in* a living organism is predicated on identification of the expicit relationship between a naturally-occurring chemical entity and its source organism.
-A third fundamental element of a structure-organism pair is a literature reference to the experimental evidence that establishes the linkages between them, and a future-oriented electronic NP resource should contain only fully-referenced structure-organism pairs.
+Despite the ambiguous definition of “natural” [@doi:10/bkfd8h], the basis of our definition of a NP as a chemical entity *found in* a living organism is predicated on the identification of the explicit relationship between a naturally-occurring chemical entity and its source organism.
+A third fundamental element of a structure-organism pair is a reference to the experimental evidence that establishes the linkages between them, and a future-oriented electronic NP resource should contain only fully-referenced structure-organism pairs.
 
-Reliance on data from the NP literature presents challenges.
+Reliance on data from the NP literature presents many challenges.
 The assembly and integration of NP occurrences into an inter-operative platform relies primarily on access to a heterogeneous set of spectral and structural databases (DB) whose content and maintenance status are critical factors in this dependency [@doi:10/gfwm27].
-The assembly of a tertiary inter-operative NP platform is thus dependent on a secondary set of  data that has been selectively annotated into a DB from the primary literature.
-The experimental data itself reflects a complex process involving collection or sourcing of natural material (and establishment of its identity), a series of material transformation and separation steps and ultimately the chemical or spectral elucidation of isolates.
-The specter of human error and potential for introduction of biases are present at every phase of this journey.
-These include publication biases [@doi:10.1002/asi.22784], such as emphasis on novel and/or bioactive structures in the review process, or, in DB assembly stages, selective focus on a specific compound class or a given taxonomic range, or disregard for annotation of other important evidence presented in the primary source.
+A tertiary inter-operative NP platform is thus dependent on a secondary set of data that has been selectively annotated into a DB from primary literature sources.
+The experimental data itself reflects a complex process involving collection or sourcing of natural material (and establishment of its identity), a series of material transformation and separation steps, and ultimately the chemical or spectral elucidation of isolates.
+The specter of human error and the potential for the introduction of biases are present at every phase of this journey.
+These include publication biases [@doi:10.1002/asi.22784], such as emphasis on novel and/or bioactive structures in the review process, or, in DB assembly stages, with selective focus on a specific compound class or a given taxonomic range, or disregard for annotation of other relevant evidence that may have been presented in primary sources.
 Temporal biases exist- a technological "state-of-the-art" when published can eventually be recast as anachronistic.
 The advancement of NP science has always relied on the development of new technologies.
 In the past century alone, the rate at which unambiguous identification of new NP entities from biological matrices can be achieved has been reduced from years to days, and in the past few decades, the scale at which new NP discoveries are being reported has increased exponentially.
-Without a means to process these disparate NP data points, information is fragmented, and scientific progress impaired[@doi:10.1371/journal.pone.0118747].
+Without a means to access and process these disparate NP data points, information is fragmented, and scientific progress is impaired [@doi:10.1371/journal.pone.0118747].
 To this extent, contemporary bioinformatic approaches enable the (re-)interpretation and (re-)annotation of (existing) datasets that document molecular aspects of biodiversity [@doi:10.1038/s41598-021-87796-6; @doi:10.1038/s41592-020-0916-7].
 
-While well-structured and freely accessible DB exist, they are often concerned primarily with chemical structures (e.g. [PubChem](https://pubchem.ncbi.nlm.nih.gov/) [@doi:10.1093/nar/gky1033], with over 100M entries) or biological organisms (e.g. [GBIF](https://www.gbif.org/) [@GBIFOrg2020], with over 1,400M entries), and their scarce interlinkages limit their application for documentation of NP occurrence(s).
+While large, well-structured and freely accessible DB exist, they are often concerned primarily with chemical structures (e.g. [PubChem](https://pubchem.ncbi.nlm.nih.gov/) [@doi:10.1093/nar/gky1033], with over 100M entries) or biological organisms (e.g. [GBIF](https://www.gbif.org/) [@GBIFOrg2020], with over 1,400M entries), but scarce interlinkages limit their application for documentation of NP occurrence(s).
 Currently, no open, cross-kingdom, comprehensive, computer-interpretable electronic NP resource links NP and their producing organisms, along with referral to the underlying experimental work.
-One key shortcoming of currently available electronic NP resources is the provision of structure-organism pairs lacking reference to the original work that describes them.
-This breaks the crucial evidentiary link required for tracing information back to the original data and assessing its quality.
-Even valuable efforts for compiling NP data made by commercial products, such as the [Dictionary of Natural Products](https://dnp.chemnetbase.com/) (DNP), lack proper documentation of these critical links.
+This shortcoming breaks the crucial evidentiary link required for tracing information back to the original data and assessing its quality.
+Even valuable commercially available efforts for compiling NP data, such as the [Dictionary of Natural Products](https://dnp.chemnetbase.com/) (DNP), can lack proper documentation of these critical links.
 
-Pioneering efforts to address such shortcomings led to the establishment of [KNApSAck](http://www.knapsackfamily.com/KNApSAcK/) [@doi:10.1007/3-540-29782-0_13], which is likely the first public, curated electronic NP resource of referenced structure-organism pairs.
+Pioneering efforts to address such challenges led to the establishment of [KNApSAck](http://www.knapsackfamily.com/KNApSAcK/) [@doi:10.1007/3-540-29782-0_13], which is likely the first public, curated electronic NP resource of referenced structure-organism pairs.
 KNApSAck currently contains 50,000+ structures and 100,000+ structure-organism pairs.
 However, the organism field is not standardized, and access to the data is not straightforward.
-Another effort led to the NAPRALERT dataset [@doi:10.1016/b978-008045382-8.00060-5], which was compiled over five decades from the NP literature, gathering and annotating data derived from over 200,000 primary literature sources.
-The dataset contains 200,000+ distinct compound names and structural elements, along with 500,000+ records of distinct structure-organism pairs.
-In total, NAPRALERT represents over 900,000 such records, due to equivalent structure-organism pairs reported in different citations.
-NAPRALERT currently employs an access model that provides only limited free searches of the dataset.
+One of the earliest-established electronic NP resources is the NAPRALERT dataset [@doi:10.1016/b978-008045382-8.00060-5], which was compiled over five decades from the NP literature, gathering and annotating data derived from over 200,000 primary literature sources.
+The dataset contains 200,000+ distinct compound names and structural elements, along with 500,000+ records of distinct, fully-cited structure-organism pairs.
+In total, NAPRALERT contains over 900,000 such records, due to equivalent structure-organism pairs reported in different citations.
+NAPRALERT is not an open platform, employing an access model that provides only limited free searches of the dataset.
 Finally, the [NPAtlas](https://www.npatlas.org/) [@doi:10/gh5ptm] is a more recent project aimed at complying with the FAIR (<u>F</u>indability, <u>A</u>ccessibility, <u>I</u>nteroperability, and <u>R</u>euse) guidelines for digital assets [@doi:10/bdd4] and offering web access.
 While the NPAtlas encourages submission of new compounds with their biological source, it focuses on microbial NP and ignores a wide range of biosynthetically active organisms found in the Archaeplastida.
 
@@ -357,25 +356,25 @@ Since its creation, Wikidata has focused on cross-disciplinary and multilingual 
 Wikidata is curated and governed collaboratively by a global community of volunteers, about 20,000 of which are contributing monthly.
 Wikidata currently contains more than 1 billion statements in the form of subject-predicate-object triples.
 Triples are machine-interpretable and can be enriched with qualifiers and references.
-Within Wikidata, data triples correspond to ~90 million entries, which can be grouped into classes as diverse as countries, songs, disasters, or chemical compounds.
+Within Wikidata, data triples correspond to approximately 90 million entries, which can be grouped into classes as diverse as countries, songs, disasters, or chemical compounds.
 The statements are closely integrated with [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) and serve as the source for its infoboxes.
 Various workflows have been established for reporting such classes, particularly those of interest to life sciences, such as genes, proteins, diseases, drugs, or biological taxa [@doi:10/ggqqc6].
 
-Building on the principles and experiences described above, the present report introduces the development and implementation of the LOTUS workflow for NP occurrences’ curation and dissemination, which applies both FAIR and TRUST (<u>T</u>ransparency, <u>R</u>esponsibility, <u>U</u>ser focus, <u>S</u>ustainability, and <u>T</u>echnology) principles [@doi:10/ggwrtj].
-LOTUS’ data upload and retrieval procedures ensure optimal accessibility by the research community, allowing any researcher to contribute, edit and reuse the data with a clear and open CC0 license ([Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/)).
+Building on the principles and experiences described above, the present report introduces the development and implementation of the LOTUS workflow for NP occurrences' curation and dissemination, which applies both FAIR and TRUST (<u>T</u>ransparency, <u>R</u>esponsibility, <u>U</u>ser focus, <u>S</u>ustainability, and <u>T</u>echnology) principles [@doi:10/ggwrtj].
+LOTUS' data upload and retrieval procedures ensure optimal accessibility by the research community, allowing any researcher to contribute, edit and reuse the data with a clear and open CC0 license ([Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/)).
 
 Despite many advantages, Wikidata hosting has some notable, yet manageable drawbacks.
 While its SPARQL query language offers a powerful way to query available data, it can also appear intimidating to the less experienced user.
 Furthermore, some typical queries of molecular electronic NP resources such as structural or spectral searches are not yet available in Wikidata.
 To bridge this gap, LOTUS is hosted in parallel at [https://lotus.naturalproducts.net](https://lotus.naturalproducts.net) (LNPN) within the naturalproducts.net ecosystem.
-The [Natural Products Online](https://naturalproducts.net/) is a portal for the open-source and open-data resources for NP research.
+The [Natural Products Online](https://naturalproducts.net/) is a portal for open-source and open-data resources for NP research.
 In addition to the generalistic COCONUT and LNPN databases, the portal will enable hosting of arbitrary and skinned collections, themed in particular by species or taxonomic clade, by geographic location or by institution, together with a range of cheminformatics tools for NP research.
 LNPN is periodically updated with the latest LOTUS data.
 This dual hosting provides an integrated, community-curated, and vast knowledge base (*via* Wikidata), as well as a NP community-oriented product with tailored search modes (*via* LNPN).
 
 The LOTUS initiative and its multiple data interaction options establish the basis for transparent and sustainable access, sharing, and creation of knowledge on NP occurrence.
 LOTUS represents an important advancement in the design and deployment of a comprehensive and collaborative NP knowledge base.
-More broadly, the LOTUS initiative fosters cross-fertilization of the fields of chemistry, biology and associated disciplines.
+More broadly, the LOTUS initiative fosters cross-fertilization of the fields of chemistry, biology, and associated disciplines.
 
 
 ## Results & Discussion
