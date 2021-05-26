@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/4d4cc516fced6d2c45ee19ee3e6c2a56e363a195/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4d4cc516fced6d2c45ee19ee3e6c2a56e363a195/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4d4cc516fced6d2c45ee19ee3e6c2a56e363a195/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/cddc2a51a6f474cc0af8e7526678b1c8ea3042c2/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/cddc2a51a6f474cc0af8e7526678b1c8ea3042c2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/cddc2a51a6f474cc0af8e7526678b1c8ea3042c2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4d4cc516fced6d2c45ee19ee3e6c2a56e363a195/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4d4cc516fced6d2c45ee19ee3e6c2a56e363a195/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/cddc2a51a6f474cc0af8e7526678b1c8ea3042c2/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/cddc2a51a6f474cc0af8e7526678b1c8ea3042c2/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/4d4cc516fced6d2c45ee19ee3e6c2a56e363a195/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/cddc2a51a6f474cc0af8e7526678b1c8ea3042c2/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@4d4cc51](https://github.com/lotusnprod/lotus-manuscript/tree/4d4cc516fced6d2c45ee19ee3e6c2a56e363a195)
+from [lotusnprod/lotus-manuscript@cddc2a5](https://github.com/lotusnprod/lotus-manuscript/tree/cddc2a51a6f474cc0af8e7526678b1c8ea3042c2)
 on May 26, 2021.
 </em></small>
 
@@ -708,7 +708,7 @@ The tips were labeled according to the biological family and colored according t
 The bars represent structure specificity of the most characteristic chemical class of the given biological family (the higher the more specific).
 This specificity score was calculated as in Equation @eq:spec_chem:
 
-${\text{Specificity score}_{chem}=\frac{\mid\text {Structures in chemical class}\cap\text{Structures in taxon}\mid^2}{\mid \text{Structures in chemical class}\mid\boldsymbol{\cdot}\mid\text{Structures in taxon} \mid}}$ {#eq:spec_chem}
+${\text {Specificity score}_{\text {chem}}=\frac{\mid\text {Structures in chemical class}\cap\text{Structures in taxon}\mid^2}{\mid \text{Structures in chemical class}\mid\boldsymbol{\cdot}\mid\text{Structures in taxon} \mid}}$ {#eq:spec_chem}
 
 ![**LOTUS provides new means of exploring and representing chemical and biological diversity.** The tree generated from current LOTUS data builds on biological taxonomy and employs the kingdom as tips label color (only families containing 50+ chemical structures were considered). The outer bars correspond to the most specific chemical class found in the biological family. The height of the bar is proportional to a specificity score corresponding to the square of the number of structures reported in the chemical class within the given biological family over the product of the number of reported structures in the chemical class with the number of reported structures in the biological family. The bar color corresponds to the chemical pathway of the most specific chemical class in the NPClassifier classification system. The size of the leaf nodes corresponds to the number of genera reported in the family. This figure is vectorized and zoomable for detailed inspection.](images/magicTree.svg "magicTree"){#fig:magicTree width="100%"}
 
