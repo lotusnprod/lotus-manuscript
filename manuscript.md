@@ -3,7 +3,7 @@ title: 'The LOTUS Initiative for Open Natural Products Research: Knowledge Manag
 keywords:
 - to do
 lang: en-US
-date-meta: '2021-05-25'
+date-meta: '2021-05-26'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-05-25" />
-  <meta name="citation_publication_date" content="2021-05-25" />
+  <meta name="dc.date" content="2021-05-26" />
+  <meta name="citation_publication_date" content="2021-05-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/46d202b0a08e66aa664ccc69006c9624c73e44b3/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/46d202b0a08e66aa664ccc69006c9624c73e44b3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/46d202b0a08e66aa664ccc69006c9624c73e44b3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/382a2bb878d60953d190a4ee5d1be4f7479e2f78/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/382a2bb878d60953d190a4ee5d1be4f7479e2f78/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/382a2bb878d60953d190a4ee5d1be4f7479e2f78/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/46d202b0a08e66aa664ccc69006c9624c73e44b3/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/46d202b0a08e66aa664ccc69006c9624c73e44b3/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/382a2bb878d60953d190a4ee5d1be4f7479e2f78/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/382a2bb878d60953d190a4ee5d1be4f7479e2f78/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,10 +132,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/46d202b0a08e66aa664ccc69006c9624c73e44b3/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/382a2bb878d60953d190a4ee5d1be4f7479e2f78/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@46d202b](https://github.com/lotusnprod/lotus-manuscript/tree/46d202b0a08e66aa664ccc69006c9624c73e44b3)
-on May 25, 2021.
+from [lotusnprod/lotus-manuscript@382a2bb](https://github.com/lotusnprod/lotus-manuscript/tree/382a2bb878d60953d190a4ee5d1be4f7479e2f78)
+on May 26, 2021.
 </em></small>
 
 ## Authors
@@ -299,7 +299,7 @@ Otherwise, address correspondence to <bjo@uic.edu>, and <pierre-marie.allard@uni
 Contemporary bioinformatic and chemoinformatic capabilities hold promise to reshape knowledge management, analysis, and interpretation of data in natural products research.
 Currently, reliance on a disparate set of non-standardized, insular, and specialized databases presents a series of challenges to data access, either within the discipline or to integration and interoperability between related domains.
 The fundamental elements of exchange are referenced structure-organism pairs that establish relationships between distinct molecular structures and the living organisms from which they were identified.
-Consolidating and sharing such information via an open platform has strong transformative potential for natural products research, and beyond.
+Consolidating and sharing such information *via* an open platform has strong transformative potential for natural products research, and beyond.
 This is the ultimate goal of the newly established LOTUS initiative, which has now completed the first steps toward the harmonization, curation, validation, and open dissemination of 700,000+ referenced structure-organism pairs.
 LOTUS data is hosted on Wikidata and regularly mirrored on [https://lotus.naturalproducts.net](https://lotus.naturalproducts.net).
 Data sharing within the Wikidata framework broadens data access and interoperability, opening new possibilities for community curation and evolving publication models.
@@ -324,6 +324,7 @@ The experimental data itself reflects a complex process involving collection or 
 The specter of human error and the potential for the introduction of biases are present at every phase of this journey.
 These include publication biases [@doi:10.1002/asi.22784], such as emphasis on novel and/or bioactive structures in the review process, or, in DB assembly stages, with selective focus on a specific compound class or a given taxonomic range, or disregard for annotation of other relevant evidence that may have been presented in primary sources.
 Temporal biases exist- a technological "state-of-the-art" when published can eventually be recast as anachronistic.
+
 The advancement of NP science has always relied on the development of new technologies.
 In the past century alone, the rate at which unambiguous identification of new NP entities from biological matrices can be achieved has been reduced from years to days, and in the past few decades, the scale at which new NP discoveries are being reported has increased exponentially.
 Without a means to access and process these disparate NP data points, information is fragmented, and scientific progress is impaired [@doi:10.1371/journal.pone.0118747].
@@ -415,7 +416,7 @@ As the LOTUS data volume is expected to increase over time, a frozen (as of 2021
 
 Multiple data sources were processed as described hereafter.
 All publicly accessible electronic NP resources included in COCONUT that contain referenced structure-organism pairs were considered as initial input.
-The data were complemented with COCONUT's own structure-organism documented pairs [@doi:10/ggwwcq], as well as the following additional electronic NP resources: Dr. Duke [@DepartmentAgricultureAgricultural1992], Cyanometdb [@doi:10/gjgdzm], Datawarrior [@doi:10/f637rz], a subset of NAPRALERT, Wakankensaku [@MainPageWAKANKENSAKU], and DiaNat-DB [@doi:10.1039/D0RA10453A].
+The data were complemented with COCONUT's own referenced structure-organism pairs [@doi:10/gh6dqw], as well as the following additional electronic NP resources: Dr. Duke [@DepartmentAgricultureAgricultural1992], Cyanometdb [@doi:10/gjgdzm], Datawarrior [@doi:10/f637rz], a subset of NAPRALERT, Wakankensaku [@MainPageWAKANKENSAKU], and DiaNat-DB [@doi:10.1039/D0RA10453A].
 
 The contacts of the electronic NP resources not explicitly licensed as open were individually reached for permission to access and reuse data.
 A detailed list of data sources and related information is available as [SI-1](#si-1-data-sources-list).
@@ -439,6 +440,8 @@ The filtering was then applied to all entries.
 To confirm the efficacy of the filtering process, a new subset of 100 diverse, automatically curated, and automatically validated entries was manually checked, yielding a rate of 97% of true positives.
 The detailed results of the two manual validation steps are reported in Supporting Information [SI-2](#si-2-summary-of-the-validation-statistics).
 The resulting data is also available in the dataset shared at [https://osf.io/c8hgb/](https://osf.io/c8hgb/).
+Table @tbl:examples shows an example of a referenced structure-organism pair before and after curation.
+This process resolved the structure to an InChIKey, the organism to a valid taxonomic name, and the reference to a DOI, thereby completing the essential referenced structure-organism pair.
 
 Table: Example of a referenced structure-organism pair before and after curation {#tbl:examples}
 
@@ -447,17 +450,14 @@ Table: Example of a referenced structure-organism pair before and after curation
 | **Before curation** | Cyathocaline | Stem bark of Cyathocalyx zeylanica CHAMP. ex HOOK. f. & THOMS. (Annonaceae) | Wijeratne E. M. K., de Silva L. B., Kikuchi T., Tezuka Y., Gunatilaka A. A. L., Kingston D. G. I., J. Nat. Prod., 58, 459-462 (1995). | 
 | **After curation** | VFIIVOHWCNHINZ-UHFFFAOYSA-N | Cyathocalyx zeylanicus | 10.1021/NP50117A020 | 
 
-
-Table @tbl:examples shows an example of a referenced structure-organism pair before and after curation.
-This process resolved the structure to an InChIKey, the organism to a valid taxonomic name, and the reference to a DOI, thereby completing the essential referenced structure-organism pair.
 Challenging examples encountered during the development of the curation process were compiled in an edge case table ([tests/tests.tsv](https://gitlab.com/lotus7/lotusProcessor/-/blob/preprint/tests/tests.tsv)) to allow for automated unit testing.
 These tests allow a continuous revalidation of any change made to the code, ensuring that corrected errors will not reappear.
+The alluvial plot in Figure @fig:alluvial illustrates the individual contribution of each *source* and *original* *subcategory* that led to the *cleaned* *categories*: structure, organism, and reference.
 
 ![**Alluvial plot of the data transformation flow within LOTUS during the automated curation and validation processes.** The figure also reflects the relative proportions of the data stream in terms of the contributions from the various sources ("source" block, left), the composition of the harmonized subcategories ("original subcategory" block, middle), and the validated data after curation ("cleaned category" block, right). Automatically validated entries are represented in green, rejected entries in blue.](images/alluvial.svg "Alluvial"){#fig:alluvial width="100%"}
 
-The alluvial plot in Figure @fig:alluvial illustrates the individual contribution of each *source* and *original* *subcategory* that led to the *cleaned* *categories*: structure, organism, and reference.
-For example, the graph highlights the essential contribution of the DOI category of references contained in NAPRALERT towards the current set of validated references in LOTUS.
-The combination of the results of the automated curation pipeline and the manually curated entries led to the establishment of four categories (manually validated, manually rejected, automatically validated, and automatically rejected) of the documented structure-organism pairs that formed the processed part of the SSOT.
+The figure highlights, for example, the essential contribution of the DOI category of references contained in NAPRALERT towards the current set of validated references in LOTUS.
+The combination of the results of the automated curation pipeline and the manually curated entries led to the establishment of four categories (manually validated, manually rejected, automatically validated, and automatically rejected) of the referenced structure-organism pairs that formed the processed part of the SSOT.
 Out of a total of 2.5M+ pairs, the manual and automatic validation retained 700,000+ pairs ( approximately 30%), which were then selected for dissemination on Wikidata.
 The disseminated data contains 250,000+ unique chemical structures, 30,000+ distinct organisms, and 75,000+ references.
 
@@ -536,7 +536,7 @@ The queries presented in Table @tbl:queries are only a few examples, and many ot
 Generic queries can also be used, for example, for hypothesis generation when starting a research project.
 For instance, a generic SPARQL query - listed in Table @tbl:queries as "Which are the available referenced structure-organism pairs?" - retrieves all structures, identified by their InChIKey ([P235](https://www.wikidata.org/wiki/Property:P235)), which contain found in taxon ([P703](https://www.wikidata.org/wiki/Property:P703)) statements that are stated in ([P248](https://www.wikidata.org/wiki/Property:P248)) a bibliographic reference: [https://w.wiki/3JpE](https://w.wiki/3JpE).
 Data can then be exported in various formats, such as classical tabular formats, json, or html tables (see Download tab on the lower right of the query frame).
-At the time of writing (2021-05-05), this query returned 797,123 entries; a frozen query result is available at [https://osf.io/thqaw/](https://osf.io/thqaw/).
+At the time of writing (2021-05-05), this query (without the LIMIT 1000) returned 797,123 entries; a frozen query result is available at [https://osf.io/thqaw/](https://osf.io/thqaw/).
 
 Targeted queries allowing to interrogate LOTUS data from the perspective of one of the three objects forming the referenced structure-organism pairs can be also built.
 Users can, for example, retrieve a list of all structures reported from a given organism, such as all structures reported from *Arabidopsis thaliana* ([Q158695](https://www.wikidata.org/wiki/Q158695)) ([https://w.wiki/3HLn](https://w.wiki/3HLn)).
@@ -590,9 +590,9 @@ There are several ways to interact with Wikidata which depend on the technical s
 
 Any researcher interested in reporting NP occurrences can manually add the data directly in Wikidata, without any particular technical knowledge requirement.
 The only prerequisite is a Wikidata account and following the [general object editing guidelines](https://www.wikidata.org/wiki/Wikidata:Tours).
-Regarding the addition of NP-centered objects (i.e., documented structure-organisms pairs), users shall refer to the [WikiProject Chemistry/Natural products](https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry/Natural_products) group page.
+Regarding the addition of NP-centered objects (i.e., referenced structure-organisms pairs), users shall refer to the [WikiProject Chemistry/Natural products](https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry/Natural_products) group page.
 
-A tutorial for the manual creation and upload of a documented structure-organism pair to Wikidata is available in [SI-3](#si-3-wikidata-sparql-queries).
+A tutorial for the manual creation and upload of a referenced structure-organism pair to Wikidata is available in [SI-4](#si-4--wikidata-entry-creation-tutorial).
 While direct Wikidata upload is possible, contributors are encouraged to use the LOTUS curation pipeline as a preliminary step to strengthen the initial data quality.
 The added data will therefore benefit from the curation and validation stages implemented in the LOTUS processing pipeline.
 
@@ -619,7 +619,7 @@ Users who value this approach and are interested in contributing are invited to 
 The [Scholia platform](https://scholia.toolforge.org/) provides a visual interface to display the links among Wikidata objects such as researchers, topics, species or chemicals.
 It now provides an interesting way to view the chemical compounds found in a given biological organism (see here for the metabolome view of [*Eurycoma longifolia*](https://scholia.toolforge.org/taxon/Q311710)).
 If Scholia currently does not offer a direct editing interface for scientific references, it still allows users to proceed to convenient batch editing via [Quick Statements](https://www.wikidata.org/wiki/Help:QuickStatements).
-The adaptation of such a framework to edit the documented structure-pairs in the LOTUS initiative could thus facilitate the capture of future expert curation, especially manual efforts that cannot be replaced by automated scripts.
+The adaptation of such a framework to edit the referenced structure-pairs in the LOTUS initiative could thus facilitate the capture of future expert curation, especially manual efforts that cannot be replaced by automated scripts.
 
 ### Data Interpretation
 
@@ -1029,7 +1029,7 @@ This license is a "No-right-reserved" license that allows most reuses.
 
 #### Lotus.NaturalProducts.Net (LNPN)
 
-The web interface is implemented following the same protocol as described in the COCONUT publication [@doi:10/gh6dqw] i.e. the data are stored in a MongoDB repository, the backend runs with Kotlin and Java, using the Spring framework, and the frontend is written in React.js, and completely Dockerized.
+The web interface is implemented following the same protocol as described in the COCONUT publication [@doi:10/ghssx5] i.e. the data are stored in a MongoDB repository, the backend runs with Kotlin and Java, using the Spring framework, and the frontend is written in React.js, and completely Dockerized.
 In addition to the diverse search functions available through this web interface, an API is also implemented, allowing programmatic LNPN querying.
 The complete API usage is described on the "Documentation" page of the website.
 LNPN is part of the NaturalProducts.net portal, an initiative aimed at gathering diverse open NP resources in one place.
@@ -1054,7 +1054,7 @@ Data is loaded by the Kotlin importer available in the [WikidataLotusImporter](h
 The importer processes the curated outputs grouping references, organisms, and compounds together.
 It then checks if they already exist in Wikidata (using SPARQL or a direct connection to Wikidata depending on the kind of data).
 It then uses *update* or *insert*, also called *upsert*, the entities as needed.
-The script currently takes the tabular file of the documented structure-organism pairs resulting from the LOTUS curation process as input.
+The script currently takes the tabular file of the referenced structure-organism pairs resulting from the LOTUS curation process as input.
 It is currently being adapted to use directly the SSOT and avoid an unnecessary conversion step.
 To import references, it first double checks for the presence of duplicated DOIs and utilizes the [Crossref REST API](https://www.crossref.org/education/retrieve-metadata/rest-api/) to retrieve metadata associated with the DOI, the support for other citation sources such as Europe PMC is in progress.
 The structure-related fields are only subject to limited processing: basic formatting of the molecular formula by subscripting of the numbers.
@@ -1183,7 +1183,7 @@ The authors declare no competing interest.
 
 Table: Data Sources List {#tbl:si-1 tag="SI-1"}
 
-| database | type | initial retrieved unique observations | cleaned documented structure-organism pairs | pairs validated for wikidata export | website | article | retrieval | license | contact | varia |
+| database | type | initial retrieved unique observations | cleaned referenced structure-organism pairs | pairs validated for wikidata export | website | article | retrieval | license | contact | varia |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | afrotryp | open | 312 | 135 | 28 | - | [article](https://link.springer.com/article/10.1007/s00044-016-1764-y?shared-article-renderer) [@doi:10/gh5ptd] | [download](https://static-content.springer.com/esm/art%3A10.1007%2Fs00044-016-1764-y/MediaObjects/44_2016_1764_MOESM1_ESM.doc) | [license](https://gitlab.com/lotus7/lotusProcessor/-/blob/main/docs/licenses/afrotryp.md) | [Fidele Ntie-Kang](https://link.springer.com/article/10.1007/s00044-016-1764-y/email/correspondent/c1/new) or [Ngozi Justina Nwodo](https://link.springer.com/article/10.1007/s00044-016-1764-y/email/correspondent/c2/new) | - |
 | alkamid | open | 4,434 | 2,582 | 2,076 | [website](http://alkamid.ugent.be) | [article](http://dx.doi.org/10.1016/j.jep.2012.05.038) [@doi:10/gh5ptc] | [script](https://gitlab.com/lotus7/lotusProcessor/-/tree/main/src/1_gathering/db/alkamid/scraping.R) | [license](https://gitlab.com/lotus7/lotusProcessor/-/blob/main/docs/licenses/alkamid.md) | [Bart De Spiegeleer](mailto:Bart.DeSpiegeleer@UGent.be) | - |
@@ -1577,14 +1577,14 @@ ORDER BY DESC (?count)
 available at [https://osf.io/7dk8h/](https://osf.io/7dk8h/) and [https://oolonek.github.io/dendron/notes/235ba226-b0da-4c23-bbb7-c46c4a65d2f1.html](https://oolonek.github.io/dendron/notes/235ba226-b0da-4c23-bbb7-c46c4a65d2f1.html)
 ]{.banner .lightblue}
 
-#### Manual addition of a documented structure-organism pair to Wikidata
+#### Manual addition of a referenced structure-organism pair to Wikidata
 
-##### Select a documented structure-organism pair
+##### Select a referenced structure-organism pair
 
 Throughout this demonstration, we are going to use the following example:
 > [trigocherrin A](https://pubchem.ncbi.nlm.nih.gov/compound/101556657) is found in [_Trigonostemon cherrieri_](http://gni.globalnames.org/name_strings?search_term=trigonostemon+cherrieri&commit=Search), as stated in [Trigocherrin A, the first natural chlorinated daphnane diterpene orthoester from Trigonostemon cherrieri](https://doi.org/10.1021/OL2030907).
 
-##### Fetch the information for the documented structure-organism pair
+##### Fetch the information for the referenced structure-organism pair
 
 ###### Structure
 
@@ -1774,7 +1774,7 @@ For taxa, these include taxon name, parent taxon and taxon rank.
 
 ###### Add the reference documenting the structure-organism pair <a name="add_ref"></a>
 
-Finally, since we report documented structure-organisms pairs, we need to add the reference for this newly created ```compound found in taxon``` relationship.
+Finally, since we report referenced structure-organisms pairs, we need to add the reference for this newly created ```compound found in taxon``` relationship.
 This happens on the item about the compound, just below the ```found in taxon``` statement.
 Click on the ```0 references``` link and then on ```add reference```:
 
@@ -1809,7 +1809,7 @@ If you are interested the annotation of article with topics in Scholia here is a
 
 ##### Voilà !
 
-You have added your first documented structure-organism relationship to Wikidata and made a valuable contribution to the community.
+You have added your first referenced structure-organism relationship to Wikidata and made a valuable contribution to the community.
 You can add further statements, e.g. ```molecular formula```, or ```SPLASH code``` for linking to spectral data.
 
 The Wikidata entry [https://www.wikidata.org/wiki/Q105674316](https://www.wikidata.org/wiki/Q105674316) has been started using these instructions.

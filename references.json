@@ -61,7 +61,14 @@
         ]
       ]
     },
-    "title": "Main Page - WAKANKENSAKU",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "WAKANKENSAKU - Main Page",
     "type": "webpage",
     "URL": "https://wakankensaku.inm.u-toyama.ac.jp/wiki/Main_Page",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: MainPageWAKANKENSAKU"
@@ -6695,7 +6702,7 @@
         [
           "2021",
           5,
-          25
+          26
         ]
       ]
     }
