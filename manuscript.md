@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e794c6f131f7a31b77f893a3cd956ee505f3c0f8/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e794c6f131f7a31b77f893a3cd956ee505f3c0f8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e794c6f131f7a31b77f893a3cd956ee505f3c0f8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/1efb94c2c0c7b870533aea69d5b00fb946bddbf2/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1efb94c2c0c7b870533aea69d5b00fb946bddbf2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1efb94c2c0c7b870533aea69d5b00fb946bddbf2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e794c6f131f7a31b77f893a3cd956ee505f3c0f8/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e794c6f131f7a31b77f893a3cd956ee505f3c0f8/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1efb94c2c0c7b870533aea69d5b00fb946bddbf2/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1efb94c2c0c7b870533aea69d5b00fb946bddbf2/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/e794c6f131f7a31b77f893a3cd956ee505f3c0f8/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/1efb94c2c0c7b870533aea69d5b00fb946bddbf2/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@e794c6f](https://github.com/lotusnprod/lotus-manuscript/tree/e794c6f131f7a31b77f893a3cd956ee505f3c0f8)
+from [lotusnprod/lotus-manuscript@1efb94c](https://github.com/lotusnprod/lotus-manuscript/tree/1efb94c2c0c7b870533aea69d5b00fb946bddbf2)
 on May 26, 2021.
 </em></small>
 
@@ -811,7 +811,7 @@ We believe that the LOTUS initiative has the potential to fuel a virtuous cycle 
 
 Before their inclusion, the overall quality of the source was manually assessed to estimate the quality of referenced structure-organism pairs and the lack of ambiguities in the links between data and references.
 This led to the identification of thirty-six electronic NP resources as valuable LOTUS input.
-Data from the proprietary Dictionary of Natural Products (DNP v 29.1) was also used for comparison purposes only and is not publicly disseminated.
+Data from the proprietary Dictionary of Natural Products (DNP v 29.2) was also used for comparison purposes only and is not publicly disseminated.
 [FooDB](https://foodb.ca/) was also curated but not publicly disseminated since its license did not allow sharing in Wikidata.
 [SI-1](#si-1-data-sources-list) gives all necessary details regarding electronic NP resources access and characteristics.
 
@@ -820,16 +820,16 @@ The initial stage consisted of writing tailored scripts that are capable of harm
 This transformative process led to three categories: fields relevant to the chemical structure described, to the producing biological organism, and the reference describing the occurrence of the chemical structure in the producing biological organism.
 This process resulted in categorized columns for each source, providing an initial harmonized format for each table.
 
-For all thirty-eight sources, if a single file or multiple files were accessible via a download option including FTP, data was gathered that way.
+For all thirty-eight sources, if a single file or multiple files were accessible *via* a download option including FTP, data was gathered that way.
 For some sources, data was scraped (cf. [SI-1](#si-1-data-sources-list)).
-All scraping scripts written to automatically retrieve entries can be found in the [lotus-processor](https://gitlab.com/lotus7/lotus-processor) repository in the [src/1_gathering](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/1_gathering) directory (under each respective subdirectory).
+All scraping scripts can be found in the [lotus-processor](https://gitlab.com/lotus7/lotus-processor) repository in the [src/1_gathering](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/1_gathering) directory (under each respective subdirectory).
 Data extraction scripts for the DNP are available and should allow users with a DNP license only to further exploit the data ([src/1_gathering/db/dnp](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/1_gathering/db/dnp)).
 The chemical structure fields, organism fields, and reference fields were manually categorized into three, two, and ten subcategories, respectively.
 For chemical structures, "InChI", "SMILES", and "chemical name" (not necessarily IUPAC).
-For organisms, "clean" and "dirty", meaning lot text not referred to the canonical name was present or the organism was not described by its canonical name.
+For organisms, "clean" and "dirty", meaning lot text not referred to the canonical name was present or the organism was not described by its canonical name (e.g. "Compound isolated from the fresh leaves of *Citrus* spp.").
 For the references, the original reference was kept in the "original" field.
 When the format allowed it, references were divided into: "authors", "doi", "external", "isbn", "journal", "original", "publishing details", "pubmed", "title", "split".
-The generic "external" field was used for all external cross-references to other websites or electronic NP resources (for example, "also in knapsack").
+The generic "external" field was used for all external cross-references to other websites or electronic NP resources (e.g. "also in knapsack").
 The last subcategory, "split", corresponds to a still non-atomic field after the removal of parts of the original reference.
 Other field titles are self-explanatory.
 The producing organism field was kept as a single field.
@@ -850,7 +850,7 @@ The biological organism field was reported as three minimal necessary and suffic
 The reference was reported as four minimal fields, namely reference title, DOI, PMCID, and PMID, one being sufficient.
 For the forthcoming translation processes, automated solutions were used when available.
 However, for specific cases (common or vernacular names of the biological organisms, Traditional Chinese Medicine (TCM) names, and conversion between digital reference identifiers), no solution existed, thus requiring the use of tailored dictionaries.
-The initial entries (containing one or multiple producing organisms per structure, with one or multiple accepted names per organism) were cleaned into over 2M referenced structure-organism pairs.
+The initial entries (containing one or multiple producing organisms per structure, with one or multiple accepted names per organism) were cleaned into 2M+ referenced structure-organism pairs.
 
 ##### Chemical Structures
 
@@ -858,16 +858,16 @@ To retrieve as much information as possible from the original structure field(s)
 Allowed structural fields for the sources were divided into two types: structural (InChI, SMILES) or nominal (chemical name, not necessarily IUPAC).
 If multiple fields were present, structural identifiers were preferred over structure names.
 Among structural identifiers, when both identifiers led to different structures, InChI was preferred over SMILES.
-SMILES were translated to InChI using the RDKit (2020.03.3) implementation in Python 3.8 ([src/2_curating/2_editing/structure/1_translating/smiles.py](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/2_curating/2_editing/structure/1_translating/smiles.py)).
+SMILES were translated to InChI using the RDKit (2021.03.1) implementation in Python 3.8 ([src/2_curating/2_editing/structure/1_translating/smiles.py](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/2_curating/2_editing/structure/1_translating/smiles.py)).
 They were first converted to [ROMol](https://www.rdkit.org/docs/cppapi/ROMol_8h.html#details) objects which were then converted to InChI.
 When no structural identifier was available, the nominal identifier was translated to InChI first thanks to [OPSIN](https://github.com/dan2097/opsin) [@doi:10/b2zkr9], a fast Java-based translation open-source solution.
 If no translation was obtained, chemical names were then submitted to the CTS [@doi:10.1093/bioinformatics/btq476], once in lower case only, once with the first letter capitalized.
-If again no translation was obtained, candidates were then submitted to the [Chemical Identifier Resolver](https://cactus.nci.nih.gov) via the cts_convert function from the webchem package [@doi:10/gh5ptf].
+If again no translation was obtained, candidates were then submitted to the [Chemical Identifier Resolver](https://cactus.nci.nih.gov) *via* the *cts_convert* function from the webchem package [@doi:10/gh5ptf].
 Before the translation process, some typical chemical structure-related greek characters (such as *α*, *ß*) were replaced by their textual equivalents (alpha, beta) to obtain better results.
 All pre-translation steps are included in the preparing_name function and are available in [src/r/preparing_name.R](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/r/preparing_name.R).
 
 The chemical sanitization step sought to standardize the representation of chemical structures coming from different sources.
-It consisted of three main stages (standardizing, fragment removal, and uncharging) achieved via the MolVS package.
+It consisted of three main stages (standardizing, fragment removal, and uncharging) achieved *via* the MolVS package.
 The initial standardizer function consists of six stages (RDKit Sanitization, RDKit Hs removal, Metals Disconnection, Normalization, Acids Reionization, and Stereochemistry recalculation) detailed in the [molvs documentation](https://molvs.readthedocs.io/en/latest/guide/standardize.html).
 In a second step, the FragmentRemover functionality was applied using a list of SMARTS to detect and remove common counterions and crystallization reagents sometimes occurring in the input DB.
 Finally, the Uncharger function was employed to neutralize molecules when appropriate.
@@ -947,7 +947,7 @@ Once all translations were made, results coming from each subcategory were integ
 Because the crossref score was not informative enough, at least one other metric was chosen to complement it.
 The first metric was related to the presence of the producing organism’s generic name in the title of the returned article.
 If the title contained the generic name of the organism, a score of 1 was given, else 0.
-Regarding the subcategories "doi", "pubmed" and "title", for which the same subcategory was retrieved via crossref or rentrez, distances between the input’s string and the candidates’ one were calculated.
+Regarding the subcategories "doi", "pubmed" and "title", for which the same subcategory was retrieved *via* crossref or rentrez, distances between the input’s string and the candidates’ one were calculated.
 Optimal string alignment (restricted [Damerau-Levenshtein distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)) was used as a method.
 Among "publishing details", "original" and "split" categories, three additional metrics were used: If the journal name was present in the original field, a score of 1 was given, else 0.
 If the name of the first author was present in the original field, a score of 1 was given, else 0.
@@ -972,9 +972,9 @@ From the 3,314 initial "publishingDetails" references, 119 (4%) references with 
 #### Realignment
 
 In order to fetch back the referenced structure-organism pairs links in the original data, the cleaned structures, cleaned organisms, and cleaned references were re-aligned with the initial entries.
-This resulted in over 6.2M referenced structure-organism pairs.
+This resulted in 6.2M+ referenced structure-organism pairs.
 Those pairs were not unique, with redundancies among electronic NP resources and different original categories leading to the same final pair (for example, entry reporting InChI=1/C21H20O12/c22-6-13-15(27)17(29)18(30)21(32-13)33-20-16(28)14-11(26)4-8(23)5-12(14)31-19(20)7-1-2-9(24)10(25)3-7/h1-5,13,15,17-18,21-27,29-30H,6H2/t13-,15+,17+,18-,21+/m1/s1 in *Crataegus oxyacantha* or InChI=1S/C21H20O12/c22-6-13-15(27)17(29)18(30)21(32-13)33-20-16(28)14-11(26)4-8(23)5-12(14)31-19(20)7-1-2-9(24)10(25)3-7/h1-5,13,15,17-18,21-27,29-30H,6H2/t13-,15+,17+,18-,21+/m1/s1 in *Crataegus stevenii* both led to OVSQVDMCBVZWGM-DTGCRPNFSA-N in *Crataegus monogyna*).
-After deduplication, over 2M unique structure-organism pairs were obtained.
+After deduplication, 2M+ unique structure-organism pairs were obtained.
 
 After the curation of all three objects, all of them were put together again.
 Therefore, the original aligned table containing the original pairs was joined with each curation result.
@@ -1137,7 +1137,7 @@ ChemmineR (3.42.1) [@doi:10/b46rs7], chorddiag (0.1.2) [@florChorddiagInteractiv
 
 #### Python
 The [Python](https://www.python.org/) version used was 3.8.6, and the Python packages utilized were, in alphabetical order: 
-faerun (0.3.2) [@doi:10/gcmhc5], map4 (1.0) [@doi:10/gjjz4c], matplotlib (3.1.3) [@doi:10.1109/MCSE.2007.55], [Molvs](https://github.com/mcs07/MolVS) (0.1.1), pandas (1.1.4) [@doi:10/gh6dqz], rdkit (2020.09.2) [@RDKitOpensourceCheminformatics], scipy (1.5.0) [@doi:10/ggj45f], tmap (1.0.4) [@doi:10/gjjz4f].
+faerun (0.3.2) [@doi:10/gcmhc5], map4 (1.0) [@doi:10/gjjz4c], matplotlib (3.1.3) [@doi:10.1109/MCSE.2007.55], [Molvs](https://github.com/mcs07/MolVS) (0.1.1), pandas (1.1.4) [@doi:10/gh6dqz], rdkit (2021.03.1) [@RDKitOpensourceCheminformatics], scipy (1.5.0) [@doi:10/ggj45f], tmap (1.0.4) [@doi:10/gjjz4f].
 
 #### Kotlin
 Kotlin packages used were as follows: 

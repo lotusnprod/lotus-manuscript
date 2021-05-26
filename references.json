@@ -78,6 +78,13 @@
     "title": "RDKit: Open-source cheminformatics",
     "type": "article-journal",
     "URL": "http://www.rdkit.org",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: RDKitOpensourceCheminformatics"
   },
   {
