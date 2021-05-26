@@ -180,13 +180,13 @@
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e794c6f131f7a31b77f893a3cd956ee505f3c0f8/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e794c6f131f7a31b77f893a3cd956ee505f3c0f8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e794c6f131f7a31b77f893a3cd956ee505f3c0f8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/1efb94c2c0c7b870533aea69d5b00fb946bddbf2/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1efb94c2c0c7b870533aea69d5b00fb946bddbf2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1efb94c2c0c7b870533aea69d5b00fb946bddbf2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e794c6f131f7a31b77f893a3cd956ee505f3c0f8/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e794c6f131f7a31b77f893a3cd956ee505f3c0f8/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1efb94c2c0c7b870533aea69d5b00fb946bddbf2/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1efb94c2c0c7b870533aea69d5b00fb946bddbf2/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -217,9 +217,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lotusnprod.github.io/lotus-manuscript/v/e794c6f131f7a31b77f893a3cd956ee505f3c0f8/">permalink</a>)
+(<a href="https://lotusnprod.github.io/lotus-manuscript/v/1efb94c2c0c7b870533aea69d5b00fb946bddbf2/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/e794c6f131f7a31b77f893a3cd956ee505f3c0f8">lotusnprod/lotus-manuscript@e794c6f</a>
+from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/1efb94c2c0c7b870533aea69d5b00fb946bddbf2">lotusnprod/lotus-manuscript@1efb94c</a>
 on May 26, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -909,23 +909,23 @@ We believe that the LOTUS initiative has the potential to fuel a virtuous cycle 
 <h4 id="gathering">Gathering</h4>
 <p>Before their inclusion, the overall quality of the source was manually assessed to estimate the quality of referenced structure-organism pairs and the lack of ambiguities in the links between data and references.
 This led to the identification of thirty-six electronic NP resources as valuable LOTUS input.
-Data from the proprietary Dictionary of Natural Products (DNP v 29.1) was also used for comparison purposes only and is not publicly disseminated.
+Data from the proprietary Dictionary of Natural Products (DNP v 29.2) was also used for comparison purposes only and is not publicly disseminated.
 <a href="https://foodb.ca/">FooDB</a> was also curated but not publicly disseminated since its license did not allow sharing in Wikidata.
 <a href="#si-1-data-sources-list">SI-1</a> gives all necessary details regarding electronic NP resources access and characteristics.</p>
 <p>Manual inspection of each electronic NP resource revealed that the structure, organism, and reference fields were widely variable in format and contents, thus requiring standardization to be comparable.
 The initial stage consisted of writing tailored scripts that are capable of harmonizing and categorizing knowledge from each source (Figure <a href="#fig:workflow">1</a>).
 This transformative process led to three categories: fields relevant to the chemical structure described, to the producing biological organism, and the reference describing the occurrence of the chemical structure in the producing biological organism.
 This process resulted in categorized columns for each source, providing an initial harmonized format for each table.</p>
-<p>For all thirty-eight sources, if a single file or multiple files were accessible via a download option including FTP, data was gathered that way.
+<p>For all thirty-eight sources, if a single file or multiple files were accessible <em>via</em> a download option including FTP, data was gathered that way.
 For some sources, data was scraped (cf. <a href="#si-1-data-sources-list">SI-1</a>).
-All scraping scripts written to automatically retrieve entries can be found in the <a href="https://gitlab.com/lotus7/lotus-processor">lotus-processor</a> repository in the <a href="https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/1_gathering">src/1_gathering</a> directory (under each respective subdirectory).
+All scraping scripts can be found in the <a href="https://gitlab.com/lotus7/lotus-processor">lotus-processor</a> repository in the <a href="https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/1_gathering">src/1_gathering</a> directory (under each respective subdirectory).
 Data extraction scripts for the DNP are available and should allow users with a DNP license only to further exploit the data (<a href="https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/1_gathering/db/dnp">src/1_gathering/db/dnp</a>).
 The chemical structure fields, organism fields, and reference fields were manually categorized into three, two, and ten subcategories, respectively.
 For chemical structures, “InChI”, “SMILES”, and “chemical name” (not necessarily IUPAC).
-For organisms, “clean” and “dirty”, meaning lot text not referred to the canonical name was present or the organism was not described by its canonical name.
+For organisms, “clean” and “dirty”, meaning lot text not referred to the canonical name was present or the organism was not described by its canonical name (e.g. “Compound isolated from the fresh leaves of <em>Citrus</em> spp.”).
 For the references, the original reference was kept in the “original” field.
 When the format allowed it, references were divided into: “authors”, “doi”, “external”, “isbn”, “journal”, “original”, “publishing details”, “pubmed”, “title”, “split”.
-The generic “external” field was used for all external cross-references to other websites or electronic NP resources (for example, “also in knapsack”).
+The generic “external” field was used for all external cross-references to other websites or electronic NP resources (e.g. “also in knapsack”).
 The last subcategory, “split”, corresponds to a still non-atomic field after the removal of parts of the original reference.
 Other field titles are self-explanatory.
 The producing organism field was kept as a single field.</p>
@@ -942,21 +942,21 @@ The biological organism field was reported as three minimal necessary and suffic
 The reference was reported as four minimal fields, namely reference title, DOI, PMCID, and PMID, one being sufficient.
 For the forthcoming translation processes, automated solutions were used when available.
 However, for specific cases (common or vernacular names of the biological organisms, Traditional Chinese Medicine (TCM) names, and conversion between digital reference identifiers), no solution existed, thus requiring the use of tailored dictionaries.
-The initial entries (containing one or multiple producing organisms per structure, with one or multiple accepted names per organism) were cleaned into over 2M referenced structure-organism pairs.</p>
+The initial entries (containing one or multiple producing organisms per structure, with one or multiple accepted names per organism) were cleaned into 2M+ referenced structure-organism pairs.</p>
 <h5 id="chemical-structures">Chemical Structures</h5>
 <p>To retrieve as much information as possible from the original structure field(s) of each of the sources, the following procedure was followed.
 Allowed structural fields for the sources were divided into two types: structural (InChI, SMILES) or nominal (chemical name, not necessarily IUPAC).
 If multiple fields were present, structural identifiers were preferred over structure names.
 Among structural identifiers, when both identifiers led to different structures, InChI was preferred over SMILES.
-SMILES were translated to InChI using the RDKit (2020.03.3) implementation in Python 3.8 (<a href="https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/2_curating/2_editing/structure/1_translating/smiles.py">src/2_curating/2_editing/structure/1_translating/smiles.py</a>).
+SMILES were translated to InChI using the RDKit (2021.03.1) implementation in Python 3.8 (<a href="https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/2_curating/2_editing/structure/1_translating/smiles.py">src/2_curating/2_editing/structure/1_translating/smiles.py</a>).
 They were first converted to <a href="https://www.rdkit.org/docs/cppapi/ROMol_8h.html#details">ROMol</a> objects which were then converted to InChI.
 When no structural identifier was available, the nominal identifier was translated to InChI first thanks to <a href="https://github.com/dan2097/opsin">OPSIN</a> <span class="citation" data-cites="pf43Zseq">(Lowe et al., <a href="#ref-pf43Zseq" role="doc-biblioref">2011</a>)</span>, a fast Java-based translation open-source solution.
 If no translation was obtained, chemical names were then submitted to the CTS <span class="citation" data-cites="WRJsojww">(Wohlgemuth et al., <a href="#ref-WRJsojww" role="doc-biblioref">2010</a>)</span>, once in lower case only, once with the first letter capitalized.
-If again no translation was obtained, candidates were then submitted to the <a href="https://cactus.nci.nih.gov">Chemical Identifier Resolver</a> via the cts_convert function from the webchem package <span class="citation" data-cites="kM2kraS2">(Szöcs et al., <a href="#ref-kM2kraS2" role="doc-biblioref">2020</a>)</span>.
+If again no translation was obtained, candidates were then submitted to the <a href="https://cactus.nci.nih.gov">Chemical Identifier Resolver</a> <em>via</em> the <em>cts_convert</em> function from the webchem package <span class="citation" data-cites="kM2kraS2">(Szöcs et al., <a href="#ref-kM2kraS2" role="doc-biblioref">2020</a>)</span>.
 Before the translation process, some typical chemical structure-related greek characters (such as <em>α</em>, <em>ß</em>) were replaced by their textual equivalents (alpha, beta) to obtain better results.
 All pre-translation steps are included in the preparing_name function and are available in <a href="https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/r/preparing_name.R">src/r/preparing_name.R</a>.</p>
 <p>The chemical sanitization step sought to standardize the representation of chemical structures coming from different sources.
-It consisted of three main stages (standardizing, fragment removal, and uncharging) achieved via the MolVS package.
+It consisted of three main stages (standardizing, fragment removal, and uncharging) achieved <em>via</em> the MolVS package.
 The initial standardizer function consists of six stages (RDKit Sanitization, RDKit Hs removal, Metals Disconnection, Normalization, Acids Reionization, and Stereochemistry recalculation) detailed in the <a href="https://molvs.readthedocs.io/en/latest/guide/standardize.html">molvs documentation</a>.
 In a second step, the FragmentRemover functionality was applied using a list of SMARTS to detect and remove common counterions and crystallization reagents sometimes occurring in the input DB.
 Finally, the Uncharger function was employed to neutralize molecules when appropriate.</p>
@@ -1022,7 +1022,7 @@ Once all translations were made, results coming from each subcategory were integ
 Because the crossref score was not informative enough, at least one other metric was chosen to complement it.
 The first metric was related to the presence of the producing organism’s generic name in the title of the returned article.
 If the title contained the generic name of the organism, a score of 1 was given, else 0.
-Regarding the subcategories “doi”, “pubmed” and “title”, for which the same subcategory was retrieved via crossref or rentrez, distances between the input’s string and the candidates’ one were calculated.
+Regarding the subcategories “doi”, “pubmed” and “title”, for which the same subcategory was retrieved <em>via</em> crossref or rentrez, distances between the input’s string and the candidates’ one were calculated.
 Optimal string alignment (restricted <a href="https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance">Damerau-Levenshtein distance</a>) was used as a method.
 Among “publishing details”, “original” and “split” categories, three additional metrics were used: If the journal name was present in the original field, a score of 1 was given, else 0.
 If the name of the first author was present in the original field, a score of 1 was given, else 0.
@@ -1044,9 +1044,9 @@ From the 3,314 initial “publishingDetails” references, 119 (4%) references w
 58 (2%) were uploaded to Wikidata.</p>
 <h4 id="realignment">Realignment</h4>
 <p>In order to fetch back the referenced structure-organism pairs links in the original data, the cleaned structures, cleaned organisms, and cleaned references were re-aligned with the initial entries.
-This resulted in over 6.2M referenced structure-organism pairs.
+This resulted in 6.2M+ referenced structure-organism pairs.
 Those pairs were not unique, with redundancies among electronic NP resources and different original categories leading to the same final pair (for example, entry reporting InChI=1/C21H20O12/c22-6-13-15(27)17(29)18(30)21(32-13)33-20-16(28)14-11(26)4-8(23)5-12(14)31-19(20)7-1-2-9(24)10(25)3-7/h1-5,13,15,17-18,21-27,29-30H,6H2/t13-,15+,17+,18-,21+/m1/s1 in <em>Crataegus oxyacantha</em> or InChI=1S/C21H20O12/c22-6-13-15(27)17(29)18(30)21(32-13)33-20-16(28)14-11(26)4-8(23)5-12(14)31-19(20)7-1-2-9(24)10(25)3-7/h1-5,13,15,17-18,21-27,29-30H,6H2/t13-,15+,17+,18-,21+/m1/s1 in <em>Crataegus stevenii</em> both led to OVSQVDMCBVZWGM-DTGCRPNFSA-N in <em>Crataegus monogyna</em>).
-After deduplication, over 2M unique structure-organism pairs were obtained.</p>
+After deduplication, 2M+ unique structure-organism pairs were obtained.</p>
 <p>After the curation of all three objects, all of them were put together again.
 Therefore, the original aligned table containing the original pairs was joined with each curation result.
 Only entries containing a structure, an organism, and a reference after curation were kept.
@@ -1159,7 +1159,7 @@ A frozen version (2021-02-23) of all programs and code is also available in the 
 ChemmineR (3.42.1) <span class="citation" data-cites="zukFZ2aq">(Cao et al., <a href="#ref-zukFZ2aq" role="doc-biblioref">2008</a>)</span>, chorddiag (0.1.2) <span class="citation" data-cites="156ifmHvV">(Flor, <a href="#ref-156ifmHvV" role="doc-biblioref">2020</a>)</span>, ClassyfireR (0.3.6) <span class="citation" data-cites="1GFQixHzv">(Djoumbou Feunang et al., <a href="#ref-1GFQixHzv" role="doc-biblioref">2016</a>)</span>, data.table (1.13.6) <span class="citation" data-cites="hR0edX6b">(Dowle and Srinivasan, <a href="#ref-hR0edX6b" role="doc-biblioref">2020</a>)</span>, DBI (1.1.1) <span class="citation" data-cites="7JFonzW0">(R Special Interest Group on Databases (R-SIG-DB) et al., <a href="#ref-7JFonzW0" role="doc-biblioref">2021</a>)</span>, gdata (2.18.0) <span class="citation" data-cites="7AFWc7sN">(Warnes et al., <a href="#ref-7AFWc7sN" role="doc-biblioref">2017</a>)</span>, ggalluvial (0.12.3) <span class="citation" data-cites="13wsG3vmM">(Brunson, <a href="#ref-13wsG3vmM" role="doc-biblioref">2020</a>)</span>, ggfittext (0.9.1) <span class="citation" data-cites="ejxxPICa">(Wilkins, <a href="#ref-ejxxPICa" role="doc-biblioref">2020</a>)</span>, ggnewscale (0.4.5) <span class="citation" data-cites="7J4ZPUL7">(Campitelli, <a href="#ref-7J4ZPUL7" role="doc-biblioref">2021</a>)</span>, ggraph (2.0.4) <span class="citation" data-cites="gdTufCbt">(Pedersen, <a href="#ref-gdTufCbt" role="doc-biblioref">2020</a>)</span>, ggstar (1.0.1) <span class="citation" data-cites="17NxHx9HG">(Xu, <a href="#ref-17NxHx9HG" role="doc-biblioref">2021</a>)</span>, ggtree (2.4.1) <span class="citation" data-cites="YdA5Ivd8">(Yu et al., <a href="#ref-YdA5Ivd8" role="doc-biblioref">2016</a>)</span>, ggtreeExtra (1.0.1) <span class="citation" data-cites="121McWIls">(Xu et al., <a href="#ref-121McWIls" role="doc-biblioref">2021</a>)</span>, Hmisc (4.4-2) <span class="citation" data-cites="dkabTMGA">(Jr et al., <a href="#ref-dkabTMGA" role="doc-biblioref">2020</a>)</span>, jsonlite (1.7.2) <span class="citation" data-cites="Jdw1vygr">(Ooms, <a href="#ref-Jdw1vygr" role="doc-biblioref">2014</a>)</span>, pbmcapply (1.5.0) <span class="citation" data-cites="XiPNsL5P">(Kuang et al., <a href="#ref-XiPNsL5P" role="doc-biblioref">2019</a>)</span>, plotly (4.9.3) <span class="citation" data-cites="kVXkIA2g">(Sievert, <a href="#ref-kVXkIA2g" role="doc-biblioref">2020</a>)</span>, rcrossref(1.1.0) <span class="citation" data-cites="UHC5x6VA">(Chamberlain et al., <a href="#ref-UHC5x6VA" role="doc-biblioref">2020</a>)</span>, readxl (1.3.1) <span class="citation" data-cites="xN7NElEK">(Wickham and Bryan, <a href="#ref-xN7NElEK" role="doc-biblioref">2019</a>)</span>, rentrez (1.2.3) <span class="citation" data-cites="13ZrxSjw4">(Winter, <a href="#ref-13ZrxSjw4" role="doc-biblioref">2017</a>)</span>, rotl (3.0.11) <span class="citation" data-cites="hPmhpanN">(Michonneau et al., <a href="#ref-hPmhpanN" role="doc-biblioref">2016</a>)</span>, rvest (0.3.6) <span class="citation" data-cites="1ELrikmXF">(Wickham, <a href="#ref-1ELrikmXF" role="doc-biblioref">2020</a>)</span>, splitstackshape (1.4.8) <span class="citation" data-cites="NfiSMvAq">(Mahto, <a href="#ref-NfiSMvAq" role="doc-biblioref">2019</a>)</span>, RSQLite (2.2.3) <span class="citation" data-cites="LnilgHS9">(Müller et al., <a href="#ref-LnilgHS9" role="doc-biblioref">2021</a>)</span>, stringdist (0.9.6.3) <span class="citation" data-cites="LmFzkeBM">(Loo, <a href="#ref-LmFzkeBM" role="doc-biblioref">2014</a>)</span>, stringi (1.5.3) <span class="citation" data-cites="12mR83H1T">(Gagolewski, <a href="#ref-12mR83H1T" role="doc-biblioref">2020</a>)</span>, tidyverse (1.3.0) <span class="citation" data-cites="EWll2pyF">(Wickham et al., <a href="#ref-EWll2pyF" role="doc-biblioref">2019</a>)</span>, treeio (1.14.3) <span class="citation" data-cites="1EloBUtuI">(Wang et al., <a href="#ref-1EloBUtuI" role="doc-biblioref">2020</a>)</span>, UpSetR (1.4.0) <span class="citation" data-cites="T2D9o6RC">(Gehlenborg, <a href="#ref-T2D9o6RC" role="doc-biblioref">2019</a>)</span>, vroom (1.3.2) <span class="citation" data-cites="otfsIdc0">(Hester and Wickham, <a href="#ref-otfsIdc0" role="doc-biblioref">2020</a>)</span>, webchem (1.1.1) <span class="citation" data-cites="kM2kraS2">(Szöcs et al., <a href="#ref-kM2kraS2" role="doc-biblioref">2020</a>)</span>, XML (3.99-05) <span class="citation" data-cites="TceFUyOp">(Lang, <a href="#ref-TceFUyOp" role="doc-biblioref">2020</a>)</span>, xml2 (1.3.2) <span class="citation" data-cites="2keqmgUs">(Wickham et al., <a href="#ref-2keqmgUs" role="doc-biblioref">2020</a>)</span></p>
 <h4 id="python">Python</h4>
 <p>The <a href="https://www.python.org/">Python</a> version used was 3.8.6, and the Python packages utilized were, in alphabetical order:
-faerun (0.3.2) <span class="citation" data-cites="VMUBsFFG">(Probst and Reymond, <a href="#ref-VMUBsFFG" role="doc-biblioref">2018</a><a href="#ref-VMUBsFFG" role="doc-biblioref">a</a>)</span>, map4 (1.0) <span class="citation" data-cites="2HOkPhmh">(Capecchi et al., <a href="#ref-2HOkPhmh" role="doc-biblioref">2020</a>)</span>, matplotlib (3.1.3) <span class="citation" data-cites="1026Gxdsi">(Hunter, <a href="#ref-1026Gxdsi" role="doc-biblioref">2007</a>)</span>, <a href="https://github.com/mcs07/MolVS">Molvs</a> (0.1.1), pandas (1.1.4) <span class="citation" data-cites="zEc5CK8P">(Reback et al., <a href="#ref-zEc5CK8P" role="doc-biblioref">2020</a>)</span>, rdkit (2020.09.2) <span class="citation" data-cites="1BXLY6HF1">(“RDKit: Open-source cheminformatics,” <a href="#ref-1BXLY6HF1" role="doc-biblioref">n.d.</a>)</span>, scipy (1.5.0) <span class="citation" data-cites="8Miti2Gz">(Virtanen et al., <a href="#ref-8Miti2Gz" role="doc-biblioref">2020</a>)</span>, tmap (1.0.4) <span class="citation" data-cites="1DcpY38I1">(Probst and Reymond, <a href="#ref-1DcpY38I1" role="doc-biblioref">2020</a>)</span>.</p>
+faerun (0.3.2) <span class="citation" data-cites="VMUBsFFG">(Probst and Reymond, <a href="#ref-VMUBsFFG" role="doc-biblioref">2018</a><a href="#ref-VMUBsFFG" role="doc-biblioref">a</a>)</span>, map4 (1.0) <span class="citation" data-cites="2HOkPhmh">(Capecchi et al., <a href="#ref-2HOkPhmh" role="doc-biblioref">2020</a>)</span>, matplotlib (3.1.3) <span class="citation" data-cites="1026Gxdsi">(Hunter, <a href="#ref-1026Gxdsi" role="doc-biblioref">2007</a>)</span>, <a href="https://github.com/mcs07/MolVS">Molvs</a> (0.1.1), pandas (1.1.4) <span class="citation" data-cites="zEc5CK8P">(Reback et al., <a href="#ref-zEc5CK8P" role="doc-biblioref">2020</a>)</span>, rdkit (2021.03.1) <span class="citation" data-cites="1BXLY6HF1">(“RDKit: Open-source cheminformatics,” <a href="#ref-1BXLY6HF1" role="doc-biblioref">2021</a>)</span>, scipy (1.5.0) <span class="citation" data-cites="8Miti2Gz">(Virtanen et al., <a href="#ref-8Miti2Gz" role="doc-biblioref">2020</a>)</span>, tmap (1.0.4) <span class="citation" data-cites="1DcpY38I1">(Probst and Reymond, <a href="#ref-1DcpY38I1" role="doc-biblioref">2020</a>)</span>.</p>
 <h4 id="kotlin">Kotlin</h4>
 <p>Kotlin packages used were as follows:
 Common: Kotlin 1.4.21 up to 1.4.30, Univocity 2.9.0, OpenJDK 15, Kotlin serialization 1.0.1, konnector 0.1.27, Log4J 2.14.0
@@ -2620,7 +2620,7 @@ You can add further statements, e.g. <code>molecular formula</code>, or <code>S
 <p>Rasberry L, Willighagen E, Nielsen F, Mietchen D. 2019. Robustifying Scholia: paving the way for knowledge discovery and research assessment through Wikidata. <em>Research Ideas and Outcomes</em> <strong>5</strong>:e35820. doi:<a href="https://doi.org/10.3897/rio.5.e35820">10.3897/rio.5.e35820</a></p>
 </div>
 <div id="ref-1BXLY6HF1">
-<p>RDKit: Open-source cheminformatics. n.d.</p>
+<p>RDKit: Open-source cheminformatics. 2021.</p>
 </div>
 <div id="ref-zEc5CK8P">
 <p>Reback J, McKinney W, Jbrockmendel, Bossche JVD, Augspurger T, Cloud P, Gfyoung, Sinhrks, Hawkins S, Roeschke M, Klein A, Terji Petersen, Tratner J, She C, Ayd W, Naveh S, Garcia M, Schendel J, Hayden A, Saxton D, Jancauskas V, McMaster A, Battiston P, Skipper Seabold, Chris-B1, H-Vetinari, Kaiqi Dong, Hoyer S, Overmeire W, Gorelli M. 2020. pandas-dev/pandas: Pandas 1.1.4. Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.4161697">10.5281/zenodo.4161697</a></p>
