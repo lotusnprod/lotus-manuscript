@@ -84,7 +84,7 @@ Crossref
 CRSII
 csteinbeck
 cstrnq
-CTS
+cts
 curation
 cyanometdb
 Cyathocaline
@@ -93,7 +93,7 @@ Damerau
 daphnane
 dataset
 datasets
-Datawarrior
+datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -108,7 +108,7 @@ dimers
 diterpene
 DM
 Dmitry
-dnp
+DNP
 Dockerized
 DOIs
 doit
@@ -194,7 +194,7 @@ InChI
 InChIKey
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -221,7 +221,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -256,7 +256,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-Metabolomic
+metabolomic
 MEYS
 mibig
 Michán
@@ -264,7 +264,7 @@ Michonneau
 Mietchen
 mitishamba
 modularity
-MolVS
+Molvs
 monogyna
 Mozzherin
 mSorok
@@ -276,7 +276,7 @@ nanpdb
 NAPRALERT
 natively
 NatprodCbn
-NaturalProducts
+naturalproducts
 NCBI
 NCCIH
 nextStep
@@ -347,7 +347,7 @@ rdmpage
 readxl
 Reionization
 rentrez
-repartition
+Repartition
 reproducibility
 reranking
 resubmission
@@ -362,7 +362,7 @@ Rutz
 rvest
 rwst
 sancdb
-Sanitization
+sanitization
 Scholia
 scipy
 SDF
@@ -420,13 +420,13 @@ tidyverse
 Tilmann
 tmap
 tmdb
-TMMC
+tmmc
 tppt
 transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -460,12 +460,10 @@ Voilà
 Vondrášek
 vroom
 Vue
-Wakankensaku
+wakankensaku
 wdpage
 webchem
 Wijeratne
-WikidataLotusExporter
-WikidataLotusImporter
 Wikidata’s
 WikidataTK
 Wikimedia
