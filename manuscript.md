@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5c62335dba35ffa9acda6a3a2cec082aaacc1581/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5c62335dba35ffa9acda6a3a2cec082aaacc1581/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5c62335dba35ffa9acda6a3a2cec082aaacc1581/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/66638ee151fef63b5c686b4eb64bfeb32473a078/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/66638ee151fef63b5c686b4eb64bfeb32473a078/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/66638ee151fef63b5c686b4eb64bfeb32473a078/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5c62335dba35ffa9acda6a3a2cec082aaacc1581/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5c62335dba35ffa9acda6a3a2cec082aaacc1581/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/66638ee151fef63b5c686b4eb64bfeb32473a078/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/66638ee151fef63b5c686b4eb64bfeb32473a078/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5c62335dba35ffa9acda6a3a2cec082aaacc1581/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/66638ee151fef63b5c686b4eb64bfeb32473a078/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@5c62335](https://github.com/lotusnprod/lotus-manuscript/tree/5c62335dba35ffa9acda6a3a2cec082aaacc1581)
+from [lotusnprod/lotus-manuscript@66638ee](https://github.com/lotusnprod/lotus-manuscript/tree/66638ee151fef63b5c686b4eb64bfeb32473a078)
 on May 26, 2021.
 </em></small>
 
@@ -290,7 +290,7 @@ on May 26, 2021.
 
 ::: {#correspondence}
 ✉ — correspondence preferred via [GitLab Issues](https://gitlab.com/groups/lotus7/-/issues).
-Otherwise, address correspondence to <bjo@uic.edu>, and <pierre-marie.allard@unifr.ch>.
+Otherwise, address correspondence to <research@bjonnh.net>, and <pierre-marie.allard@unifr.ch>.
 :::
 
 

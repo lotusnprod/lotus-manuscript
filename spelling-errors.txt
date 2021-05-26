@@ -39,7 +39,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-Bjonnh
+bjonnh
 Bohlmann
 Bolzani
 Bromus
@@ -72,7 +72,7 @@ Christoph
 Chun
 clade
 ClassyFire
-ClassyfireR
+classyfireR
 cleaningOriginal
 cleaningTranslated
 CMU
@@ -86,14 +86,14 @@ csteinbeck
 cstrnq
 cts
 curation
-Cyanometdb
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
 daphnane
 dataset
 datasets
-Datawarrior
+datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -108,11 +108,11 @@ dimers
 diterpene
 DM
 Dmitry
-dnp
+DNP
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -137,13 +137,13 @@ Fidele
 FishBase
 flavolivaceus
 Flemingovo
-foodb
+FooDB
 FragmentRemover
 Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 Gaudry
 GBIF
 gdata
@@ -221,7 +221,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -256,7 +256,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-metabolomic
+Metabolomic
 MEYS
 mibig
 Michán
@@ -273,7 +273,7 @@ MVLS
 NameBank
 náměstí
 nanpdb
-napralert
+NAPRALERT
 natively
 NatprodCbn
 naturalproducts
@@ -342,7 +342,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 Reionization
@@ -387,7 +387,7 @@ squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -407,7 +407,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
@@ -434,7 +434,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
