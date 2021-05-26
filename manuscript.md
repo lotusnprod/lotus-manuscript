@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/382a2bb878d60953d190a4ee5d1be4f7479e2f78/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/382a2bb878d60953d190a4ee5d1be4f7479e2f78/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/382a2bb878d60953d190a4ee5d1be4f7479e2f78/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/10204ad91c89fa2b90fd1c48b50758598572e61a/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/10204ad91c89fa2b90fd1c48b50758598572e61a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/10204ad91c89fa2b90fd1c48b50758598572e61a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/382a2bb878d60953d190a4ee5d1be4f7479e2f78/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/382a2bb878d60953d190a4ee5d1be4f7479e2f78/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/10204ad91c89fa2b90fd1c48b50758598572e61a/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/10204ad91c89fa2b90fd1c48b50758598572e61a/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/382a2bb878d60953d190a4ee5d1be4f7479e2f78/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/10204ad91c89fa2b90fd1c48b50758598572e61a/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@382a2bb](https://github.com/lotusnprod/lotus-manuscript/tree/382a2bb878d60953d190a4ee5d1be4f7479e2f78)
+from [lotusnprod/lotus-manuscript@10204ad](https://github.com/lotusnprod/lotus-manuscript/tree/10204ad91c89fa2b90fd1c48b50758598572e61a)
 on May 26, 2021.
 </em></small>
 
@@ -666,7 +666,7 @@ This incomplete coverage may be partially explained by the habit in classical NP
 The added value of the LOTUS Initiative to assemble multiple electronic NP resources is illustrated in Figure @fig:upset : Panel A shows the contributions of the individual electronic NP resources to the ensemble of chemical structures found in one of the most studied vascular plants, *Arabidopsis thaliana* ("Mouse-ear cress"; [Q147096](https://www.wikidata.org/wiki/Q147096)).
 Panel B shows the ensemble of taxa reported to contain the ubiquitous higher plant triterpenoid, *β*-sitosterol, represented by its planar structure ([Q121802](https://www.wikidata.org/wiki/Q121802) and [Q63409374](https://www.wikidata.org/wiki/Q63409374)).
 
-![**UpSet plots of the individual contribution of electronic NP resources** to the planar structures found in *Arabidopsis thaliana* (A) vs. organisms reported to contain the planar structure of *β*-sitosterol (KZJWDPNRJALNS) (B). UpSet plots are evolved Venn diagrams, allowing to represent intersections between multiple sets. The horizontal bars on the lower left represent the number of corresponding entries per electronic NP resource. The dots and their connecting line represent the intersection between source and consolidate sets. The vertical bars indicate the number of entries at the intersection. For example, 479 organisms containing the planar structure of *β*-sitosterol are present in both UNPD and NAPRALERT, whereas each of them individually reports 1,164 and 2,085 organisms containing the planar structure of *β*-sitosterol, respectively.](images/upset_combined.svg "upset"){#fig:upset width="100%"}
+![**UpSet plots of the individual contribution of electronic NP resources** to the planar structures found in *Arabidopsis thaliana* (A) *versus* organisms reported to contain the planar structure of *β*-sitosterol (KZJWDPNRJALNS) (B). UpSet plots are evolved Venn diagrams, allowing to represent intersections between multiple sets. The horizontal bars on the lower left represent the number of corresponding entries per electronic NP resource. The dots and their connecting line represent the intersection between source and consolidate sets. The vertical bars indicate the number of entries at the intersection. For example, 479 organisms containing the planar structure of *β*-sitosterol are present in both UNPD and NAPRALERT, whereas each of them individually reports 1,164 and 2,085 organisms containing the planar structure of *β*-sitosterol, respectively.](images/upset_combined.svg "upset"){#fig:upset width="100%"}
 
 Figure @fig:upset A. also shows that according to NPClassifier, the chemical pathway distribution across electronic NP resources is unconserved.
 Note that NPClassifier and ClassyFire [@doi:10/gc5tqv] chemical taxonomies are both available as metadata in the frozen LOTUS export and LNPN.
@@ -681,16 +681,16 @@ Of note, *β*-sitosterol is documented in only 3 organisms in the DNP, highlight
 The chemical diversity captured in LOTUS is here displayed *via* a TMAP (Figure @fig:tmap), a visualization method allowing the structural organization of large chemical datasets as a minimum spanning tree [@doi:10/gjjz4f].
 Using Faerun, an interactive HTML file is generated to display metadata and molecule structures by embedding the SmilesDrawer library [@doi:10/gcmhc5; @doi:10/gjjz4d].
 Planar structures were used for all compounds to generate the TMAP using MAP4 encoding [@doi:10/gjjz4c].
-As the tree organizes structures according to their molecular fingerprint, an anticipated coherence between the clustering of compounds and the mapped NPClassifier chemical class is indeed observed (Figure @fig:tmap A.).
-For clarity, the eight most represented chemical classes belonging to the terpenoids pathway of LOTUS plus the quassinoids and carotenoids (C40, *β*-*β*) classes are mapped, with an example of a quassinoid (green star) and a carotenoid (yellow star) and their corresponding location in the TMAP.
+As the tree organizes structures according to their molecular fingerprint, an anticipated coherence between the clustering of compounds and the mapped NPClassifier chemical class is observed (Figure @fig:tmap A.).
+For clarity, the eight most represented chemical classes of LOTUS plus the quassinoids and carotenoids (C40, *β*-*β*) classes are mapped, with examples of a quassinoid (green star) and a carotenoid (yellow star) and their corresponding location in the TMAP.
 
 ![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (green star) and an ubiquitous carotenoid (yellow star) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in red. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs in the chemical class. A chemical class biological specificity score of 1 means that compounds in that chemical class were reported in a unique biological family. Zooms on a group of compounds of high biological specificity score (in yellow) and on compounds of low specificity (black) are depicted. An interactive HTML visualization of the LOTUS TMAP is available at [https://osf.io/kqa8b/](https://osf.io/kqa8b/).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
 
 To explore relationships between chemistry and biology, it is possible to map biological information such as the most reported biological family (Figure @fig:tmap B.) and the chemical class biological specificity (Figure @fig:tmap C.) on the TMAP.
 The biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs.
-See Equation @eq:spec_chem:
+See Equation @eq:spec_bio:
 
-${\text {Specificity score}_{\text {chem}}=\frac{\mid \text{Pairs in chemical class} \cap \text {Pairs in taxon where chemical class occurs the most}\mid}{\mid \text {Pairs in chemical class}\mid}}$ {#eq:spec_chem}
+${\text {Specificity score}_{\text {bio}}=\frac{\mid \text{Pairs in chemical class} \cap \text {Pairs in taxon where chemical class occurs the most}\mid}{\mid \text {Pairs in chemical class}\mid}}$ {#eq:spec_bio}
 
 This visualization allows to highlight chemical classes specific to a given taxon, such as the quassinoids in the Simaroubaceae family.
 In this case it is striking to see how well the compounds of a given chemical class (quassinoids) (Figure @fig:tmap A.) and the most reported plant family per compound (Simaroubaceae) (Figure @fig:tmap B.) overlap.
@@ -706,9 +706,9 @@ To limit bias due to underreporting in the literature and keep a reasonable disp
 Organisms were classified according to the OTL taxonomy, and structures according to NPClassifier.
 The tips were labeled according to the biological family and colored according to their biological kingdom.
 The bars represent structure specificity of the most characteristic chemical class of the given biological family (the higher the more specific).
-This specificity score was calculated as in Equation @eq:spec_bio:
+This specificity score was calculated as in Equation @eq:spec_chem:
 
-${\text{Specificity score}_{bio}=\frac{\mid\text {Structures in chemical class}\cap\text{Structures in taxon}\mid^2}{\mid \text{Structures in chemical class}\mid\boldsymbol{\cdot}\mid\text{Structures in taxon} \mid}}$ {#eq:spec_bio}
+${\text{Specificity score}_{chem}=\frac{\mid\text {Structures in chemical class}\cap\text{Structures in taxon}\mid^2}{\mid \text{Structures in chemical class}\mid\boldsymbol{\cdot}\mid\text{Structures in taxon} \mid}}$ {#eq:spec_chem}
 
 ![**LOTUS provides new means of exploring and representing chemical and biological diversity.** The tree generated from current LOTUS data builds on biological taxonomy and employs the kingdom as tips label color (only families containing 50+ chemical structures were considered). The outer bars correspond to the most specific chemical class found in the biological family. The height of the bar is proportional to a specificity score corresponding to the square of the number of structures reported in the chemical class within the given biological family over the product of the number of reported structures in the chemical class with the number of reported structures in the biological family. The bar color corresponds to the chemical pathway of the most specific chemical class in the NPClassifier classification system. The size of the leaf nodes corresponds to the number of genera reported in the family. This figure is vectorized and zoomable for detailed inspection.](images/magicTree.svg "magicTree"){#fig:magicTree width="100%"}
 
@@ -716,11 +716,11 @@ Figure @fig:magicTree makes it possible to spot highly specific compound classes
 Similarly, tendencies of more generic occurrence of NP can be observed.
 For example, within the fungal kingdom, Basidiomycotina appear to have a higher biosynthetic specificity toward terpenoids than other fungi, which mostly focus on polyketides production.
 When observed at a finer scale, down to the structure level, such chemotaxonomic representation can give valuable insights.
-For example, among all chemical structures, only two were found in all biological kingdoms, namely heptadecanoic acid (KEMQGTRYUADPNZ-UHFFFAOYSA-N) and *β*-carotene (OENHQHLEOONYIE-JLTXGRSLSA-N).Looking at the repartition of *β*-sitosterol (KZJWDPNRJALLNS-VJSFXXLFSA-N) within the overall biological tree, [SI-5](#si-5-complement-to-figure-7) plots its presence/absence *versus* those of its superior chemical classifications, namely the stigmastane, steroid, and terpenoid derivatives, over the same tree used in Figure @fig:magicTree.
+For example, among all chemical structures, only two were found in all biological kingdoms, namely heptadecanoic acid (KEMQGTRYUADPNZ-UHFFFAOYSA-N) and *β*-carotene (OENHQHLEOONYIE-JLTXGRSLSA-N). Looking at the repartition of *β*-sitosterol (KZJWDPNRJALLNS-VJSFXXLFSA-N) within the overall biological tree, [SI-5](#si-5-complement-to-figure-7) plots its presence/absence *versus* those of its superior chemical classifications, namely the stigmastane, steroid, and terpenoid derivatives, over the same tree used in Figure @fig:magicTree.
 The comparison of these five chemically-interpreted biological trees clearly highlights the increasing speciation of the *β*-sitosterol biosynthetic pathway in the Archaeplastida kingdom, while the superior classes are distributed across all kingdoms.
-A zoomable and vectorized version of Figure @fig:magicTree is available for detailed inspection.
+Figure @fig:magicTree is zoomable and vectorized for detailed inspection.
 
-As illustrated, the possibility of data interrogation at multiple precision levels, from fully defined 3D structures to broader chemical classes, is of great interest, e.g., for taxonomic and evolution studies.
+As illustrated, the possibility of data interrogation at multiple precision levels, from fully defined chemical structures to broader chemical classes, is of great interest, e.g., for taxonomic and evolution studies.
 This makes LOTUS a unique tool for the advancement of chemotaxonomy, pioneered by Augustin Pyramus de Candolle and pursued by other notable researchers (Robert Hegnauer, Otto R. Gottlieb) [@doi:10.1007/978-3-642-68641-2; @doi:10/d592kt; @decandolleEssaiProprietesMedicales1816].
 Six decades after Hegnauer's publication of "Die Chemotaxonomie der Pflanzen" [@doi:10.1007/978-3-0348-9314-5] much remains to be done for the advancement of this field of study and the LOTUS initiatives aims to provide a solid basis for researchers willing to pursue these exciting explorations at the interface of chemistry, biology and evolution.
 
