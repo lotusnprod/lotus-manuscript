@@ -557,9 +557,12 @@ content/05.methods.md:67:counterions
 content/05.methods.md:67:FragmentRemover
 content/05.methods.md:68:Uncharger
 content/05.methods.md:70:chemaxon
+content/05.methods.md:70:chemaxon
 content/05.methods.md:70:ChemAxon
 content/05.methods.md:70:IUPAC
 content/05.methods.md:70:MarvinSuite
+content/05.methods.md:70:molconvert
+content/05.methods.md:70:Molconvert
 content/05.methods.md:71:stereochemistry
 content/05.methods.md:72:gitlab
 content/05.methods.md:72:preprint

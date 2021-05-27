@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/bb47ea07d1b7a7aa22074b30547e3492fc27c625/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/bb47ea07d1b7a7aa22074b30547e3492fc27c625/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/bb47ea07d1b7a7aa22074b30547e3492fc27c625/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/bb47ea07d1b7a7aa22074b30547e3492fc27c625/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/bb47ea07d1b7a7aa22074b30547e3492fc27c625/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/bb47ea07d1b7a7aa22074b30547e3492fc27c625/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@bb47ea0](https://github.com/lotusnprod/lotus-manuscript/tree/bb47ea07d1b7a7aa22074b30547e3492fc27c625)
+from [lotusnprod/lotus-manuscript@16e48a3](https://github.com/lotusnprod/lotus-manuscript/tree/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369)
 on May 27, 2021.
 </em></small>
 
@@ -811,10 +811,10 @@ We believe that the LOTUS initiative has the potential to fuel a virtuous cycle 
 
 #### Gathering
 
-Before their inclusion, the overall quality of the source was manually assessed to estimate the quality of referenced structure-organism pairs and the lack of ambiguities in the links between data and references.
+Before their inclusion, the overall quality of the source was manually assessed to estimate, both, the quality of referenced structure-organism pairs and the lack of ambiguities in the links between data and references.
 This led to the identification of thirty-six electronic NP resources as valuable LOTUS input.
 Data from the proprietary Dictionary of Natural Products (DNP v 29.2) was also used for comparison purposes only and is not publicly disseminated.
-[FooDB](https://foodb.ca/) was also curated but not publicly disseminated since its license did not allow sharing in Wikidata.
+[FooDB](https://foodb.ca/) was also curated but not publicly disseminated since its license proscribed sharing in Wikidata.
 [SI-1](#si-1-data-sources-list) gives all necessary details regarding electronic NP resources access and characteristics.
 
 Manual inspection of each electronic NP resource revealed that the structure, organism, and reference fields were widely variable in format and contents, thus requiring standardization to be comparable.
@@ -874,7 +874,7 @@ The initial standardizer function consists of six stages (RDKit Sanitization, RD
 In a second step, the FragmentRemover functionality was applied using a list of SMARTS to detect and remove common counterions and crystallization reagents sometimes occurring in the input DB.
 Finally, the Uncharger function was employed to neutralize molecules when appropriate.
 
-MarvinSuite was used for traditional and IUPAC names translation, Marvin 20.19, [ChemAxon](https://www.chemaxon.com).
+[Molconvert](https://docs.chemaxon.com/display/docs/molconvert.md) function of the MarvinSuite was used for traditional and IUPAC names translation, Marvin 20.19, [ChemAxon](https://www.chemaxon.com).
 When stereochemistry was not fully defined, (+) and (-) symbols were removed from names.
 All details are available in the following script: [src/2_curating/2_editing/structure/4_enriching/naming.R](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/2_curating/2_editing/structure/4_enriching/naming.R).
 Chemical classification of all resulting structures was done using classyfireR [@doi:10/gc5tqv] and [NPClassifier API](https://ccms-ucsd.github.io/GNPSDocumentation/api/#structure-np-classifier).
