@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/aedf612d1717ac53e2e03c2ba62581ae620865d2/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/aedf612d1717ac53e2e03c2ba62581ae620865d2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/aedf612d1717ac53e2e03c2ba62581ae620865d2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d7962c11802c1ff94846597977f9b6c7d8c6e9e9/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d7962c11802c1ff94846597977f9b6c7d8c6e9e9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d7962c11802c1ff94846597977f9b6c7d8c6e9e9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/aedf612d1717ac53e2e03c2ba62581ae620865d2/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/aedf612d1717ac53e2e03c2ba62581ae620865d2/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d7962c11802c1ff94846597977f9b6c7d8c6e9e9/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d7962c11802c1ff94846597977f9b6c7d8c6e9e9/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/aedf612d1717ac53e2e03c2ba62581ae620865d2/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d7962c11802c1ff94846597977f9b6c7d8c6e9e9/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@aedf612](https://github.com/lotusnprod/lotus-manuscript/tree/aedf612d1717ac53e2e03c2ba62581ae620865d2)
+from [lotusnprod/lotus-manuscript@d7962c1](https://github.com/lotusnprod/lotus-manuscript/tree/d7962c11802c1ff94846597977f9b6c7d8c6e9e9)
 on May 27, 2021.
 </em></small>
 
@@ -1207,7 +1207,7 @@ Table: Data Sources List {#tbl:si-1 tag="SI-1"}
 | npass | open | 290,539 | 34,403 | 23,060 | [website](http://bidd2.nus.edu.sg/NPASS/about.php) | [article](https://academic.oup.com/nar/article/46/D1/D1217/4584628) [@doi:10/gh5ptk] | [download](http://bidd.group/NPASS/downloadnpass.html) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/npass.md) | [phacyz@nus.edu.sg](mailto:phacyz@nus.edu.sg) [jiangyy@sz.tsinghua.edu.cn](mailto:jiangyy@sz.tsinghua.edu.cn) [iaochen@163.com](mailto:iaochen@163.com) | - |
 | npatlas | open | 29,006 | 49,968 | 44,466 | [website](https://www.npatlas.org/joomla/) | [article](https://doi.org/10.1021/acscentsci.9b00806) [@doi:10/gh5ptm] | [download](https://www.npatlas.org/custom/versions/np_atlas_2020_06/NPAtlas_download.tsv) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/npatlas.md) | [rliningt@sfu.ca](mailto:rliningt@sfu.ca) | - |
 | npcare | open | 7,763 | 4,650 | 2,525 | [website](http://silver.sejong.ac.kr/npcare/) | [article](https://doi.org/10.1186/s13321-016-0188-5) [@doi:10/f9rhrj] | [download](http://silver.sejong.ac.kr/npcare/csv/npcare.zip) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/npcare.md) | [choihwanho@gmail.com](mailto:choihwanho@gmail.com) | - |
-| npedia | open | 82 | 99 | 23 | [website](http://www.cbrg.riken.jp/npedia/?LANG=en) | [article](https://www.jstage.jst.go.jp/article/ciqs/2006/0/2006_0_JL6/_article) [@doi:10/gh5ps8] | [script](https://gitlab.com/lotus7/lotus-processor/-/tree/main/src/1_gathering/db/npedia/scraping.R) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/npedia.md) | [hisyo@riken.jp](mailto:hisyo@riken.jp) [npd@riken.jp](mailto:npd@riken.jp) | - |
+| npedia | open | 82 | 99 | 23 | [website](http://www.cbrg.riken.jp/npedia/?LANG=en) | [article](https://www.jstage.jst.go.jp/article/ciqs/2006/0/2006_0_JL6/_article) [@inenglishplease] | [script](https://gitlab.com/lotus7/lotus-processor/-/tree/main/src/1_gathering/db/npedia/scraping.R) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/npedia.md) | [hisyo@riken.jp](mailto:hisyo@riken.jp) [npd@riken.jp](mailto:npd@riken.jp) | - |
 | nubbe | open | 2,189 | 2,614 | 2,389 | [website](https://nubbe.iq.unesp.br/portal/nubbe-search.html) | [article](https://www.nature.com/articles/s41598-017-07451-x) [@doi:10/gh5ps7] | - | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/nubbe.md) | [Vanderlan S. Bolzani](https://www.nature.com/articles/s41598-017-07451-x/email/correspondent/c1/new) | - |
 | pamdb | open | 3,061 | 3,198 | 64 | [website](http://pseudomonas.umaryland.edu/PAMDB.htm) | [article](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkx1061) [@doi:10/gh5ps9] | [download](http://pseudomonas.umaryland.edu/PaDl/PaMet.xlsx) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/pamdb.md) | [awilks@rx.umaryland.edu](awilks@rx.umaryland.edu) [aoglesby@rx.umaryland.edu](mailto:aoglesby@rx.umaryland.edu) [mkane@rx.umaryland.edu](mailto:mkane@rx.umaryland.edu) | - |
 | phenolexplorer | open | 8,968 | 12,027 | 6,536 | [website](http://phenol-explorer.eu/cite_us) | [article](http://database.oxfordjournals.org/content/2013/bat070.long) [@doi:10/gh5ps6] | [download](http://phenol-explorer.eu/downloads) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/phenolexplorer.md) | [scalberta@iarc.fr](mailto:scalberta@iarc.fr) | - |
