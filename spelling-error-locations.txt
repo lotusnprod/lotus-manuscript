@@ -315,6 +315,7 @@ content/03.results-discussion.md:283:wikimedia
 content/03.results-discussion.md:283:wikimedia
 content/03.results-discussion.md:287:Arabidopsis
 content/03.results-discussion.md:287:thaliana
+content/03.results-discussion.md:288:occuring
 content/03.results-discussion.md:288:sitosterol
 content/03.results-discussion.md:288:triterpenoid
 content/03.results-discussion.md:290:Arabidopsis
@@ -343,7 +344,7 @@ content/03.results-discussion.md:298:DNP
 content/03.results-discussion.md:298:sitosterol
 content/03.results-discussion.md:302:datasets
 content/03.results-discussion.md:302:tmap
-content/03.results-discussion.md:302:TMAP
+content/03.results-discussion.md:302:tmap
 content/03.results-discussion.md:303:Faerun
 content/03.results-discussion.md:303:SmilesDrawer
 content/03.results-discussion.md:304:TMAP
@@ -367,6 +368,7 @@ content/03.results-discussion.md:308:TMAP
 content/03.results-discussion.md:308:TMAP
 content/03.results-discussion.md:308:wikimedia
 content/03.results-discussion.md:308:wikimedia
+content/03.results-discussion.md:310:taxonomical
 content/03.results-discussion.md:310:tmap
 content/03.results-discussion.md:310:tmap
 content/03.results-discussion.md:310:TMAP
@@ -433,6 +435,7 @@ content/03.results-discussion.md:345:chemotaxonomy
 content/03.results-discussion.md:345:Gottlieb
 content/03.results-discussion.md:345:Hegnauer
 content/03.results-discussion.md:345:Pyramus
+content/03.results-discussion.md:345:ressource
 content/03.results-discussion.md:346:Chemotaxonomie
 content/03.results-discussion.md:346:der
 content/03.results-discussion.md:346:Hegnauer
