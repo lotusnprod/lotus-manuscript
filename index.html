@@ -180,13 +180,13 @@
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/bb47ea07d1b7a7aa22074b30547e3492fc27c625/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/bb47ea07d1b7a7aa22074b30547e3492fc27c625/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/bb47ea07d1b7a7aa22074b30547e3492fc27c625/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/bb47ea07d1b7a7aa22074b30547e3492fc27c625/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/bb47ea07d1b7a7aa22074b30547e3492fc27c625/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -217,9 +217,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lotusnprod.github.io/lotus-manuscript/v/bb47ea07d1b7a7aa22074b30547e3492fc27c625/">permalink</a>)
+(<a href="https://lotusnprod.github.io/lotus-manuscript/v/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/bb47ea07d1b7a7aa22074b30547e3492fc27c625">lotusnprod/lotus-manuscript@bb47ea0</a>
+from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369">lotusnprod/lotus-manuscript@16e48a3</a>
 on May 27, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -907,10 +907,10 @@ We believe that the LOTUS initiative has the potential to fuel a virtuous cycle 
 <h2 class="page_break_before" id="methods">Methods</h2>
 <h3 id="data-curation-1">Data Curation</h3>
 <h4 id="gathering">Gathering</h4>
-<p>Before their inclusion, the overall quality of the source was manually assessed to estimate the quality of referenced structure-organism pairs and the lack of ambiguities in the links between data and references.
+<p>Before their inclusion, the overall quality of the source was manually assessed to estimate, both, the quality of referenced structure-organism pairs and the lack of ambiguities in the links between data and references.
 This led to the identification of thirty-six electronic NP resources as valuable LOTUS input.
 Data from the proprietary Dictionary of Natural Products (DNP v 29.2) was also used for comparison purposes only and is not publicly disseminated.
-<a href="https://foodb.ca/">FooDB</a> was also curated but not publicly disseminated since its license did not allow sharing in Wikidata.
+<a href="https://foodb.ca/">FooDB</a> was also curated but not publicly disseminated since its license proscribed sharing in Wikidata.
 <a href="#si-1-data-sources-list">SI-1</a> gives all necessary details regarding electronic NP resources access and characteristics.</p>
 <p>Manual inspection of each electronic NP resource revealed that the structure, organism, and reference fields were widely variable in format and contents, thus requiring standardization to be comparable.
 The initial stage consisted of writing tailored scripts that are capable of harmonizing and categorizing knowledge from each source (Figure <a href="#fig:workflow">1</a>).
@@ -960,7 +960,7 @@ It consisted of three main stages (standardizing, fragment removal, and unchargi
 The initial standardizer function consists of six stages (RDKit Sanitization, RDKit Hs removal, Metals Disconnection, Normalization, Acids Reionization, and Stereochemistry recalculation) detailed in the <a href="https://molvs.readthedocs.io/en/latest/guide/standardize.html">molvs documentation</a>.
 In a second step, the FragmentRemover functionality was applied using a list of SMARTS to detect and remove common counterions and crystallization reagents sometimes occurring in the input DB.
 Finally, the Uncharger function was employed to neutralize molecules when appropriate.</p>
-<p>MarvinSuite was used for traditional and IUPAC names translation, Marvin 20.19, <a href="https://www.chemaxon.com">ChemAxon</a>.
+<p><a href="https://docs.chemaxon.com/display/docs/molconvert.md">Molconvert</a> function of the MarvinSuite was used for traditional and IUPAC names translation, Marvin 20.19, <a href="https://www.chemaxon.com">ChemAxon</a>.
 When stereochemistry was not fully defined, (+) and (-) symbols were removed from names.
 All details are available in the following script: <a href="https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/2_curating/2_editing/structure/4_enriching/naming.R">src/2_curating/2_editing/structure/4_enriching/naming.R</a>.
 Chemical classification of all resulting structures was done using classyfireR <span class="citation" data-cites="1GFQixHzv">(Djoumbou Feunang et al., <a href="#ref-1GFQixHzv" role="doc-biblioref">2016</a>)</span> and <a href="https://ccms-ucsd.github.io/GNPSDocumentation/api/#structure-np-classifier">NPClassifier API</a>.</p>
