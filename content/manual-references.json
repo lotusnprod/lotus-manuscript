@@ -26,5 +26,60 @@
   {"id":"wickhamXml2ParseXML2020","author":[{"family":"Wickham","given":"Hadley"},{"family":"Hester","given":"Jim"},{"family":"Ooms","given":"Jeroen"}],"genre":"manual","issued":{"date-parts":[[2020]]},"title":"xml2: Parse XML","type":"report","URL":"https://CRAN.R-project.org/package=xml2"},
   {"id":"wilkinsGgfittextFitText2020","author":[{"family":"Wilkins","given":"David"}],"issued":{"date-parts":[[2020]]},"title":"ggfittext: Fit Text Inside a Box in 'ggplot2'","type":"book","URL":"https://CRAN.R-project.org/package=ggfittext"},
   {"id":"xuGgstarStarLayer2021","author":[{"family":"Xu","given":"Shuangbin"}],"genre":"manual","issued":{"date-parts":[[2021]]},"title":"ggstar: Star Layer for 'ggplot2'","type":"report","URL":"https://CRAN.R-project.org/package=ggstar"},
-  {"id":"decandolleEssaiProprietesMedicales1816","accessed":{"date-parts":[[2021,3,3]]},"author":[{"family":"Candolle","given":"Augustin Pyramus","non-dropping-particle":"de","dropping-particle":"de"}],"DOI":"10.5962/bhl.title.112422","event-place":"Paris","issued":{"date-parts":[[1816]]},"note":"ZSCC: NoCitationData[s1]","publisher":"Chez Crochard, Libraire,","publisher-place":"Paris","source":"DOI.org (Crossref)","title":"Essai sur les propriétés médicales des plantes, comparées avec leurs formes extérieures et leur classification naturelle","type":"book","URL":"http://www.biodiversitylibrary.org/bibliography/112422"}
+  {"id":"decandolleEssaiProprietesMedicales1816","accessed":{"date-parts":[[2021,3,3]]},"author":[{"family":"Candolle","given":"Augustin Pyramus","non-dropping-particle":"de","dropping-particle":"de"}],"DOI":"10.5962/bhl.title.112422","event-place":"Paris","issued":{"date-parts":[[1816]]},"note":"ZSCC: NoCitationData[s1]","publisher":"Chez Crochard, Libraire,","publisher-place":"Paris","source":"DOI.org (Crossref)","title":"Essai sur les propriétés médicales des plantes, comparées avec leurs formes extérieures et leur classification naturelle","type":"book","URL":"http://www.biodiversitylibrary.org/bibliography/112422"},
+  	{
+      "id": "inenglishplease",
+      "type": "article-journal",
+      "container-title": "Proceedings of the Symposium on Chemoinformatics",
+      "DOI": "10.11545/ciqs.2006.0.JL6.0",
+      "page": "JL6-JL6",
+      "title": "RIKEN natural products encyclopedia (RIKEN NPEdia), a chemical database of RIKEN natural products depository (RIKEN NPDepo)",
+      "volume": "2006",
+      "author": [
+        {
+          "family": "Tomiki",
+          "given": "Takeshi"
+        },
+        {
+          "family": "Saito",
+          "given": "Tamio"
+        },
+        {
+          "family": "Ueki",
+          "given": "Masashi"
+        },
+        {
+          "family": "Konno",
+          "given": "Hideaki"
+        },
+        {
+          "family": "Asaoka",
+          "given": "Takeo"
+        },
+        {
+          "family": "Suzuki",
+          "given": "Ryuichiro"
+        },
+        {
+          "family": "Uramoto",
+          "given": "Masakazu"
+        },
+        {
+          "family": "Kakeya",
+          "given": "Hideaki"
+        },
+        {
+          "family": "Osada",
+          "given": "Hiroyuki"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            "2006"
+          ]
+        ]
+      }
+    }
+
 ]
