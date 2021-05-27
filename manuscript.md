@@ -3,7 +3,7 @@ title: 'The LOTUS Initiative for Open Natural Products Research: Knowledge Manag
 keywords:
 - to do
 lang: en-US
-date-meta: '2021-05-26'
+date-meta: '2021-05-27'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-05-26" />
-  <meta name="citation_publication_date" content="2021-05-26" />
+  <meta name="dc.date" content="2021-05-27" />
+  <meta name="citation_publication_date" content="2021-05-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/84053d2d882cc5aa8769529a30864210c7287039/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/84053d2d882cc5aa8769529a30864210c7287039/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/84053d2d882cc5aa8769529a30864210c7287039/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/aedf612d1717ac53e2e03c2ba62581ae620865d2/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/aedf612d1717ac53e2e03c2ba62581ae620865d2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/aedf612d1717ac53e2e03c2ba62581ae620865d2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/84053d2d882cc5aa8769529a30864210c7287039/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/84053d2d882cc5aa8769529a30864210c7287039/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/aedf612d1717ac53e2e03c2ba62581ae620865d2/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/aedf612d1717ac53e2e03c2ba62581ae620865d2/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,10 +132,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/84053d2d882cc5aa8769529a30864210c7287039/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/aedf612d1717ac53e2e03c2ba62581ae620865d2/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@84053d2](https://github.com/lotusnprod/lotus-manuscript/tree/84053d2d882cc5aa8769529a30864210c7287039)
-on May 26, 2021.
+from [lotusnprod/lotus-manuscript@aedf612](https://github.com/lotusnprod/lotus-manuscript/tree/aedf612d1717ac53e2e03c2ba62581ae620865d2)
+on May 27, 2021.
 </em></small>
 
 ## Authors
@@ -458,7 +458,7 @@ The alluvial plot in Figure @fig:alluvial illustrates the individual contributio
 
 The figure highlights, for example, the essential contribution of the DOI category of references contained in NAPRALERT towards the current set of validated references in LOTUS.
 The combination of the results of the automated curation pipeline and the manually curated entries led to the establishment of four categories (manually validated, manually rejected, automatically validated, and automatically rejected) of the referenced structure-organism pairs that formed the processed part of the SSOT.
-Out of a total of 2.5M+ pairs, the manual and automatic validation retained 700,000+ pairs ( approximately 30%), which were then selected for dissemination on Wikidata.
+Out of a total of 2.5M+ pairs, the manual and automatic validation retained 700,000+ pairs (approximately 30%), which were then selected for dissemination on Wikidata.
 The disseminated data contains 250,000+ unique chemical structures, 30,000+ distinct organisms, and 75,000+ references.
 
 
