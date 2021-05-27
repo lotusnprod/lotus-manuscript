@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/a20e52ff8fbfa5ad47f3901e50c7b5681ba37c03/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a20e52ff8fbfa5ad47f3901e50c7b5681ba37c03/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a20e52ff8fbfa5ad47f3901e50c7b5681ba37c03/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/57c20de14c8d325dfe13aaa718eed75c3e1d5097/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/57c20de14c8d325dfe13aaa718eed75c3e1d5097/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/57c20de14c8d325dfe13aaa718eed75c3e1d5097/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a20e52ff8fbfa5ad47f3901e50c7b5681ba37c03/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a20e52ff8fbfa5ad47f3901e50c7b5681ba37c03/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/57c20de14c8d325dfe13aaa718eed75c3e1d5097/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/57c20de14c8d325dfe13aaa718eed75c3e1d5097/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/a20e52ff8fbfa5ad47f3901e50c7b5681ba37c03/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/57c20de14c8d325dfe13aaa718eed75c3e1d5097/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@a20e52f](https://github.com/lotusnprod/lotus-manuscript/tree/a20e52ff8fbfa5ad47f3901e50c7b5681ba37c03)
+from [lotusnprod/lotus-manuscript@57c20de](https://github.com/lotusnprod/lotus-manuscript/tree/57c20de14c8d325dfe13aaa718eed75c3e1d5097)
 on May 27, 2021.
 </em></small>
 
@@ -417,7 +417,7 @@ As the LOTUS data volume is expected to increase over time, a frozen (as of 2021
 #### Data Harmonization
 
 Multiple data sources were processed as described hereafter.
-All publicly accessible electronic NP resources included in [COCONUT](https://zenodo.org/record/3778405#.YK-kyBBfhld) that contain referenced structure-organism pairs were considered as initial input.
+All publicly accessible electronic NP resources included in [COCONUT](https://zenodo.org/record/3778405) that contain referenced structure-organism pairs were considered as initial input.
 The data were complemented with COCONUT's own referenced structure-organism pairs [@doi:10/gh6dqw], as well as the following additional electronic NP resources: Dr. Duke [@DepartmentAgricultureAgricultural1992], Cyanometdb [@doi:10/gjgdzm], Datawarrior [@doi:10/f637rz], a subset of NAPRALERT, Wakankensaku [@MainPageWAKANKENSAKU] and DiaNat-DB [@doi:10.1039/D0RA10453A].
 
 The contacts of the electronic NP resources not explicitly licensed as open were individually reached for permission to access and reuse data.
@@ -480,10 +480,9 @@ Despite (or possibly due to) their power, SPARQL queries are complex and often r
 This involves a steep learning curve which tends to discourage end-users.
 Furthermore, traditional ways to query electronic NP resources such as structural or spectral searches are currently not within the scope of Wikidata and, thus, are addressed in LNPN.
 Using the pre-existing COCONUT template, LNPN hosting allows the user to perform structural searches by drawing a molecule, thereby addressing the current lack of structural search possibilities in Wikidata.
-Since metabolite profiling by Liquid Chromatography (LC) - Mass Spectrometry (MS) is now routinely used for the chemical composition assessment of natural extracts, future versions of LOTUS and COCONUT are envisioned to be augmented by predicted MS spectra and hosted at [https://naturalproducts.net/](https://naturalproducts.net/) to allow mass, fragment and spectral-based queries.
+Since metabolite profiling by Liquid Chromatography (LC) - Mass Spectrometry (MS) is now routinely used for the chemical composition assessment of natural extracts, future versions of LOTUS and COCONUT are envisioned to be augmented by predicted MS spectra and hosted at [https://naturalproducts.net/](https://naturalproducts.net/) to allow mass and spectral-based queries.
 To facilitate queries focused on specific taxa (e.g., "return all molecules found in the Asteraceae family"), a unified taxonomy is paramount.
-As the taxonomy of living organisms is a complex and always evolving field, all the taxon identifiers from all accepted taxonomic DB for a given taxon name were kept.
-This implies that for a given name, multiple taxonomies from different taxonomic DB are allowed.
+As the taxonomy of living organisms is a complex and constantly evolving field, all the taxon identifiers from all accepted taxonomic DB for a given taxon name were kept.
 Initiatives such as the [Open Tree of Life](https://tree.opentreeoflife.org/) (OTL) [@doi:10/ggkjbt] will help to gradually reduce these discrepancies, the Wikidata platform should support such developments.
 OTL also benefits from regular expert curation and new data.
 As the taxonomic identifier property for this resource did not exist in Wikidata, its creation was requested and obtained.
@@ -506,14 +505,14 @@ More refined approaches to the direct interrogation of the up-to-date LOTUS data
 
 ##### Wikidata
 
-The easiest way to search for NP occurrence information in Wikidata is by typing the name of a chemical structure directly into the "Search Wikidata" field.
+The easiest way to search for NP occurrence information in Wikidata is by typing the name of a chemical structure directly into the "Search Wikidata" field on the upper right of the [Wikidata homepage](https://www.wikidata.org/wiki/Wikidata:Main_Page).
 For example, by typing "erysodine", the user will land on the page of this compound ([Q27265641](https://www.wikidata.org/wiki/Q27265641)).
 Scrolling down to the "found in taxon" statement will allow the user to view the biological organisms reported to contain this NP (Figure @fig:wdpage).
 Clicking the reference link under each taxon name links to the publication(s) documenting the occurrence.
 
 ![**Illustration of the "found in taxon" statement section on the Wikidata page** of erysodine [Q27265641](https://www.wikidata.org/wiki/Q27265641) showing a selection of containing taxa and the references documenting these occurrences.](images/erysodine.svg "wdpage"){#fig:wdpage width="100%"}
 
-The typical approach of more elaborated queries consists of writing SPARQL queries using the [Wikidata Query Service](https://query.wikidata.org/) or a direct connection to the SPARQL endpoint.
+The typical approach to more elaborated queries consists in writing SPARQL queries using the [Wikidata Query Service](https://query.wikidata.org/) or a direct connection to a SPARQL endpoint.
 Below are some examples from simple to more elaborated queries, demonstrating what can be done using this approach.
 The full-text queries with explanations are included in [SI-3](#si-3-wikidata-sparql-queries).
 
@@ -535,8 +534,8 @@ Table: Potential questions about referenced structure-organism relationships and
 
 
 The queries presented in Table @tbl:queries are only a few examples and many other ways of interrogating LOTUS can be formulated.
-Generic queries can also be used, for example, for hypothesis generation when starting a research project.
-For instance, a generic SPARQL query - listed in Table @tbl:queries as "Which are the available referenced structure-organism pairs?" - retrieves all structures, identified by their InChIKey ([P235](https://www.wikidata.org/wiki/Property:P235)), which contain found in taxon ([P703](https://www.wikidata.org/wiki/Property:P703)) statements that are stated in ([P248](https://www.wikidata.org/wiki/Property:P248)) a bibliographic reference: [https://w.wiki/3JpE](https://w.wiki/3JpE).
+Generic queries can be used, for example, for hypothesis generation when starting a research project.
+For instance, a generic SPARQL query - listed in Table @tbl:queries as "Which are the available referenced structure-organism pairs?" - retrieves all structures, identified by their InChIKey ([P235](https://www.wikidata.org/wiki/Property:P235)), which contain "found in taxon" ([P703](https://www.wikidata.org/wiki/Property:P703)) statements that are stated in ([P248](https://www.wikidata.org/wiki/Property:P248)) a bibliographic reference: [https://w.wiki/3JpE](https://w.wiki/3JpE).
 Data can then be exported in various formats, such as classical tabular formats, json, or html tables (see Download tab on the lower right of the query frame).
 At the time of writing (2021-05-05), this query (without the LIMIT 1000) returned 797,123 entries; a frozen query result is available at [https://osf.io/thqaw/](https://osf.io/thqaw/).
 
@@ -1192,7 +1191,7 @@ Table: Data Sources List {#tbl:si-1 tag="SI-1"}
 | biofacquim | open | 531 | 683 | 534 | [website](https://biofacquim.herokuapp.com) (old version) | [article_old](https://www.mdpi.com/2218-273X/9/1/31) [article_new](https://f1000research.com/articles/8-2071) [@doi:10/gh5ptb] | [download](https://ndownloader.figshare.com/files/20050244) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/biofacquim.md) | [José Medina-Franco](mailto:medinajl@unam.mx) | - |
 | biophytmol | open | 546 | 628 | 353 | [website](http://ab-openlab.csir.res.in/biophytmol/) | [article](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-014-0046-2) [@doi:10/f6ss69] | [script](https://gitlab.com/lotus7/lotus-processor/-/tree/main/src/1_gathering/db/biophytmol/scraping.R) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/biophytmol.md) | [Anshu Bhardwaj](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-014-0046-2/email/correspondent/c1/new) | website often down |
 | carotenoiddb | open | 2,922 | 1,199 | 639 | [website](http://carotenoiddb.jp/About.html) | [article](https://doi.org/10.1093/database/bax004) [@doi:10/f9x5p2] | [script](https://gitlab.com/lotus7/lotus-processor/-/tree/main/src/1_gathering/db/carotenoiddb/scraping.R) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/carotenoiddb.md) | [yzjunko@gmail.com](mailto:yzjunko@gmail.com) | - |
-| coconut | open | 583,623 | 345,328 | 34,429 | [website](https://coconut.naturalproducts.net) | [article](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00424-9) [@doi:10/ggwwcq] | [download](https://zenodo.org/record/3778405/files/COCONUT.sdf.zip?download=1) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/coconut.md) | [Maria Sorokina](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00424-9/email/correspondent/c1/new) | [zenodo](https://zenodo.org/record/3778405#.XsylyC1Ph0Y) |
+| coconut | open | 583,623 | 345,328 | 34,429 | [website](https://coconut.naturalproducts.net) | [article](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00424-9) [@doi:10/ggwwcq] | [download](https://zenodo.org/record/3778405/files/COCONUT.sdf.zip?download=1) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/coconut.md) | [Maria Sorokina](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00424-9/email/correspondent/c1/new) | [zenodo](https://zenodo.org/record/3778405) |
 | cyanometdb | open | 1,930 | 1,844 | 1,774 | - | [article](https://doi.org/10.1016/j.watres.2021.117017) [@doi:10/gjgdzm] | [download](https://ars.els-cdn.com/content/image/1-s2.0-S0043135421002153-mmc4.zip) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/cyanometdb.md) | [elisabeth.janssen@eawag.ch](mailto:elisabeth.janssen@eawag.ch) | - |
 | datawarrior | open | 589 | 1,062 | 102 | [website](http://www.openmolecules.org/datawarrior/index.html) | [article](https://doi.org/10.1021/ci500588j) [@doi:10/f637rz] | [download](http://www.openmolecules.org/datawarrior/download.html) | [icense](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/datawarrior.md) | [thomas.sander@idorsia.com](mailto:thomas.sander@idorsia.com) | no real link to the dataset inside it |
 | dianatdb | open | 290 | 404 | 27 | [website](http://rdu.iquimica.unam.mx/handle/20.500.12214/1186) | [article](https://doi.org/10.1039/D0RA10453A) [@doi:10.1039/D0RA10453A] | [download](http://rdu.iquimica.unam.mx/bitstream/20.500.12214/1186/3/2020_DiaNatDB_336.xlsx) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/dianatdb.md) | [amadariaga@iquimica.unam.mx](mailto:amadariaga@iquimica.unam.mx) or [kmtzm@unam.mx](mailto:kmtzm@unam.mx) | - |
