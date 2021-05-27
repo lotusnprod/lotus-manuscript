@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d7962c11802c1ff94846597977f9b6c7d8c6e9e9/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d7962c11802c1ff94846597977f9b6c7d8c6e9e9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d7962c11802c1ff94846597977f9b6c7d8c6e9e9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/2ca3edc13f45b19a54775006f21225ca36606839/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/2ca3edc13f45b19a54775006f21225ca36606839/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/2ca3edc13f45b19a54775006f21225ca36606839/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d7962c11802c1ff94846597977f9b6c7d8c6e9e9/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d7962c11802c1ff94846597977f9b6c7d8c6e9e9/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/2ca3edc13f45b19a54775006f21225ca36606839/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/2ca3edc13f45b19a54775006f21225ca36606839/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d7962c11802c1ff94846597977f9b6c7d8c6e9e9/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/2ca3edc13f45b19a54775006f21225ca36606839/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@d7962c1](https://github.com/lotusnprod/lotus-manuscript/tree/d7962c11802c1ff94846597977f9b6c7d8c6e9e9)
+from [lotusnprod/lotus-manuscript@2ca3edc](https://github.com/lotusnprod/lotus-manuscript/tree/2ca3edc13f45b19a54775006f21225ca36606839)
 on May 27, 2021.
 </em></small>
 
@@ -289,18 +289,18 @@ on May 27, 2021.
 
 
 ::: {#correspondence}
-✉ — correspondence preferred *via* [GitLab Issues](https://gitlab.com/groups/lotus7/-/issues).
+✉ — technical correspondence preferred *via* [GitLab Issues](https://gitlab.com/groups/lotus7/-/issues).
 Otherwise, address correspondence to <research@bjonnh.net>, and <pierre-marie.allard@unifr.ch>.
 :::
 
 
 ## Abstract {.page_break_before}
 
-Contemporary bioinformatic and chemoinformatic capabilities hold promise to reshape knowledge management, analysis, and interpretation of data in natural products research.
+Contemporary bioinformatic and chemoinformatic capabilities hold promise to reshape knowledge management, analysis and interpretation of data in natural products research.
 Currently, reliance on a disparate set of non-standardized, insular, and specialized databases presents a series of challenges to data access, either within the discipline or to integration and interoperability between related domains.
 The fundamental elements of exchange are referenced structure-organism pairs that establish relationships between distinct molecular structures and the living organisms from which they were identified.
-Consolidating and sharing such information *via* an open platform has strong transformative potential for natural products research, and beyond.
-This is the ultimate goal of the newly established LOTUS initiative, which has now completed the first steps toward the harmonization, curation, validation, and open dissemination of 700,000+ referenced structure-organism pairs.
+Consolidating and sharing such information *via* an open platform has strong transformative potential for natural products research and beyond.
+This is the ultimate goal of the newly established LOTUS initiative, which has now completed the first steps toward the harmonization, curation, validation and open dissemination of 700,000+ referenced structure-organism pairs.
 LOTUS data is hosted on Wikidata and regularly mirrored on [https://lotus.naturalproducts.net](https://lotus.naturalproducts.net).
 Data sharing within the Wikidata framework broadens data access and interoperability, opening new possibilities for community curation and evolving publication models.
 Furthermore, embedding LOTUS data into the vast Wikidata knowledge graph will facilitate new biological and chemical insights.
@@ -313,21 +313,21 @@ The LOTUS initiative represents an important advancement in the design and deplo
 
 ### Evolution of Electronic Natural Products Resources
 
-Natural Products (NP) research is a transdisciplinary field with wide-ranging interests, from fundamental structural aspects of naturally-occurring molecular entities to their effects on living organisms, and extending to the study of chemically-mediated interactions within entire ecosystems.
+Natural Products (NP) research is a transdisciplinary field with wide-ranging interests: from fundamental structural aspects of naturally-occurring molecular entities to their effects on living organisms and extending to the study of chemically-mediated interactions within entire ecosystems.
 Despite the ambiguous definition of "natural" [@doi:10/bkfd8h], the basis of our definition of a NP as a chemical entity *found in* a living organism is predicated on the identification of the explicit relationship between a naturally-occurring chemical entity and its source organism.
-A third fundamental element of a structure-organism pair is a reference to the experimental evidence that establishes the linkages between them, and a future-oriented electronic NP resource should contain only fully-referenced structure-organism pairs.
+A third fundamental element of a structure-organism pair is a reference to the experimental evidence that establishes the linkages between a chemical structure and a biologicl organism and a future-oriented electronic NP resource should contain only fully-referenced structure-organism pairs.
 
 Reliance on data from the NP literature presents many challenges.
-The assembly and integration of NP occurrences into an inter-operative platform relies primarily on access to a heterogeneous set of spectral and structural databases (DB) whose content and maintenance status are critical factors in this dependency [@doi:10/gfwm27].
+The assembly and integration of NP occurrences into an inter-operative platform relies primarily on access to a heterogeneous set of databases (DB) whose content and maintenance status are critical factors in this dependency [@doi:10/gfwm27].
 A tertiary inter-operative NP platform is thus dependent on a secondary set of data that has been selectively annotated into a DB from primary literature sources.
-The experimental data itself reflects a complex process involving collection or sourcing of natural material (and establishment of its identity), a series of material transformation and separation steps, and ultimately the chemical or spectral elucidation of isolates.
+The experimental data itself reflects a complex process involving collection or sourcing of natural material (and establishment of its identity), a series of material transformation and separation steps and ultimately the chemical or spectral elucidation of isolates.
 The specter of human error and the potential for the introduction of biases are present at every phase of this journey.
 These include publication biases [@doi:10.1002/asi.22784], such as emphasis on novel and/or bioactive structures in the review process, or, in DB assembly stages, with selective focus on a specific compound class or a given taxonomic range, or disregard for annotation of other relevant evidence that may have been presented in primary sources.
-Temporal biases exist- a technological "state-of-the-art" when published can eventually be recast as anachronistic.
+Temporal biases also exist: a technological "state-of-the-art" when published can eventually be recast as anachronistic.
 
-The advancement of NP science has always relied on the development of new technologies.
-In the past century alone, the rate at which unambiguous identification of new NP entities from biological matrices can be achieved has been reduced from years to days, and in the past few decades, the scale at which new NP discoveries are being reported has increased exponentially.
-Without a means to access and process these disparate NP data points, information is fragmented, and scientific progress is impaired [@doi:10.1371/journal.pone.0118747].
+The advancement of NP research has always relied on the development of new technologies.
+In the past century alone, the rate at which unambiguous identification of new NP entities from biological matrices can be achieved has been reduced from years to days and in the past few decades, the scale at which new NP discoveries are being reported has increased exponentially.
+Without a means to access and process these disparate NP data points, information is fragmented and scientific progress is impaired [@doi:10.1371/journal.pone.0118747].
 To this extent, contemporary bioinformatic tools enable the (re-)interpretation and (re-)annotation of (existing) datasets documenting molecular aspects of biodiversity [@doi:10.1038/s41598-021-87796-6; @doi:10.1038/s41592-020-0916-7].
 
 While large, well-structured and freely accessible DB exist, they are often concerned primarily with chemical structures (e.g. [PubChem](https://pubchem.ncbi.nlm.nih.gov/) [@doi:10.1093/nar/gky1033], with over 100M entries) or biological organisms (e.g. [GBIF](https://www.gbif.org/) [@GBIFOrg2020], with over 1,400M entries), but scarce interlinkages limit their application for documentation of NP occurrence(s).
@@ -337,22 +337,22 @@ Even valuable commercially available efforts for compiling NP data, such as the 
 
 Pioneering efforts to address such challenges led to the establishment of [KNApSAck](http://www.knapsackfamily.com/KNApSAcK/) [@doi:10.1007/3-540-29782-0_13], which is likely the first public, curated electronic NP resource of referenced structure-organism pairs.
 KNApSAck currently contains 50,000+ structures and 100,000+ structure-organism pairs.
-However, the organism field is not standardized, and access to the data is not straightforward.
+However, the organism field is not standardized and access to the data is not straightforward.
 One of the earliest-established electronic NP resources is the NAPRALERT dataset [@doi:10.1016/b978-008045382-8.00060-5], which was compiled over five decades from the NP literature, gathering and annotating data derived from over 200,000 primary literature sources.
 The dataset contains 200,000+ distinct compound names and structural elements, along with 500,000+ records of distinct, fully-cited structure-organism pairs.
 In total, NAPRALERT contains over 900,000 such records, due to equivalent structure-organism pairs reported in different citations.
 NAPRALERT is not an open platform, employing an access model that provides only limited free searches of the dataset.
-Finally, the [NPAtlas](https://www.npatlas.org/) [@doi:10/gh5ptm] is a more recent project aimed at complying with the FAIR (<u>F</u>indability, <u>A</u>ccessibility, <u>I</u>nteroperability, and <u>R</u>euse) guidelines for digital assets [@doi:10/bdd4] and offering web access.
+Finally, the [NPAtlas](https://www.npatlas.org/) [@doi:10/gh5ptm] is a more recent project aimed at complying with the FAIR (<u>F</u>indability, <u>A</u>ccessibility, <u>I</u>nteroperability and <u>R</u>euse) guidelines for digital assets [@doi:10/bdd4] and offering web access.
 While the NPAtlas encourages submission of new compounds with their biological source, it focuses on microbial NP and ignores a wide range of biosynthetically active organisms found in the Archaeplastida.
 
 Building on experience with the recently published [COlleCtion of Open NatUral producTs](https://coconut.naturalproducts.net/) (COCONUT) [@doi:10/ghssx5], the LOTUS initiative seeks to address the aforementioned shortcomings.
 At its current stage of development, LOTUS disseminates 700,000+ referenced structure-organism pairs.
-After extensive data curation and harmonization, each pair was standardized at the chemical, biological, and reference levels.
-These efforts and experiences represent an intensive preliminary curatorial phase, and the first major step towards providing a high quality, computer-interpretable knowledge base capable of transforming NP research data management from a classical (siloed) database approach to an optimally-shared resource.
+After extensive data curation and harmonization, each pair was standardized at the chemical, biological and reference levels.
+These efforts and experiences represent an intensive preliminary curatorial phase and the first major step towards providing a high quality, computer-interpretable knowledge base capable of transforming NP research data management from a classical (siloed) database approach to an optimally-shared resource.
 
 ### Accommodating Principles of FAIRness and TRUSTworthiness for Natural Products Knowledge Management
 
-In awareness of the multi-faceted pitfalls associated with implementing, using, and maintaining classical scientific DBs [@doi:10/gc4h7x], and to enhance current and future sharing options, the LOTUS initiative selected the [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) platform for disseminating its resources.
+In awareness of the multi-faceted pitfalls associated with implementing, using and maintaining classical scientific DBs [@doi:10/gc4h7x], and to enhance current and future sharing options, the LOTUS initiative selected the [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) platform for disseminating its resources.
 Since its creation, Wikidata has focused on cross-disciplinary and multilingual support.
 Wikidata is curated and governed collaboratively by a global community of volunteers, about 20,000 of which are contributing monthly.
 Wikidata currently contains more than 1 billion statements in the form of subject-predicate-object triples.
@@ -361,7 +361,7 @@ Within Wikidata, data triples correspond to approximately 90 million entries, wh
 The statements are closely integrated with [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) and serve as the source for its infoboxes.
 Various workflows have been established for reporting such classes, particularly those of interest to life sciences, such as genes, proteins, diseases, drugs, or biological taxa [@doi:10/ggqqc6].
 
-Building on the principles and experiences described above, the present report introduces the development and implementation of the LOTUS workflow for NP occurrences' curation and dissemination, which applies both FAIR and TRUST (<u>T</u>ransparency, <u>R</u>esponsibility, <u>U</u>ser focus, <u>S</u>ustainability, and <u>T</u>echnology) principles [@doi:10/ggwrtj].
+Building on the principles and experiences described above, the present report introduces the development and implementation of the LOTUS workflow for NP occurrences' curation and dissemination, which applies both FAIR and TRUST (<u>T</u>ransparency, <u>R</u>esponsibility, <u>U</u>ser focus, <u>S</u>ustainability and <u>T</u>echnology) principles [@doi:10/ggwrtj].
 LOTUS' data upload and retrieval procedures ensure optimal accessibility by the research community, allowing any researcher to contribute, edit and reuse the data with a clear and open CC0 license ([Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/)).
 
 Despite many advantages, Wikidata hosting has some notable, yet manageable drawbacks.
@@ -371,18 +371,18 @@ To bridge this gap, LOTUS is hosted in parallel at [https://lotus.naturalproduct
 The [Natural Products Online](https://naturalproducts.net/) is a portal for open-source and open-data resources for NP research.
 In addition to the generalistic COCONUT and LNPN databases, the portal will enable hosting of arbitrary and skinned collections, themed in particular by species or taxonomic clade, by geographic location or by institution, together with a range of cheminformatics tools for NP research.
 LNPN is periodically updated with the latest LOTUS data.
-This dual hosting provides an integrated, community-curated, and vast knowledge base (*via* Wikidata), as well as a NP community-oriented product with tailored search modes (*via* LNPN).
+This dual hosting provides an integrated, community-curated and vast knowledge base (*via* Wikidata), as well as a NP community-oriented product with tailored search modes (*via* LNPN).
 
-The LOTUS initiative and its multiple data interaction options establish the basis for transparent and sustainable access, sharing, and creation of knowledge on NP occurrence.
+The LOTUS initiative and its multiple data interaction options establish the basis for transparent and sustainable access, sharing and creation of knowledge on NP occurrence.
 LOTUS represents an important advancement in the design and deployment of a comprehensive and collaborative NP knowledge base.
-More broadly, the LOTUS initiative fosters cross-fertilization of the fields of chemistry, biology, and associated disciplines.
+More broadly, the LOTUS initiative fosters cross-fertilization of the fields of chemistry, biology and associated disciplines.
 
 
 ## Results & Discussion
 
 This section is structured as follows: first, we present an overview of the LOTUS initiative at its current stage of development.
 As part of this overview, the central curation and dissemination elements of the LOTUS initiative are explained in detail.
-The second section addresses the interaction between LOTUS and its end-users, including data retrieval, addition, and editing.
+The second section addresses the interaction modes between LOTUS and its end-users, including data retrieval, addition, and editing.
 The final section is dedicated to the interpretation of LOTUS data and illustrates the dimensions and qualities of the current LOTUS dataset from chemical and biological perspectives.
 
 ### Blueprint of the LOTUS Initiative
@@ -412,7 +412,9 @@ All stages of the workflow are described on the git sites of the LOTUS initiativ
 At the time of writing, 700,000+ LOTUS entries contained a curated chemical structure, biological organism, and reference and were available on both Wikidata and LNPN.
 As the LOTUS data volume is expected to increase over time, a frozen (as of 2021-05-23) tabular version of this dataset with its associated metadata is made available at [https://osf.io/eydjs/](https://osf.io/eydjs/).
 
-### Data Harmonization
+### Data Curation
+
+#### Data Harmonization
 
 Multiple data sources were processed as described hereafter.
 All publicly accessible electronic NP resources included in COCONUT that contain referenced structure-organism pairs were considered as initial input.
@@ -423,7 +425,7 @@ A detailed list of data sources and related information is available as [SI-1](#
 All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://gitlab.com/lotus7/lotus-processor) repository in the [src/1_gathering](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/1_gathering) directory.
 All subsequent and future iterations that include additional data sources, either updated information from the same data sources or new data, will involve a comparison of the new with previously gathered data at the SSOT level to ensure that the data is only curated once.
 
-### Data Cleaning & Validation {.page_break_before}
+#### Data Cleaning & Validation {.page_break_before}
 
 As shown in Figure @fig:workflow, data curation consisted of three stages: harmonization, cleaning, and validation.
 Thereby, after the harmonization stage, each of the three central objects - chemical compounds, biological organisms, and reference - were cleaned.
@@ -462,7 +464,7 @@ Out of a total of 2.5M+ pairs, the manual and automatic validation retained 700,
 The disseminated data contains 250,000+ unique chemical structures, 30,000+ distinct organisms, and 75,000+ references.
 
 
-### Data Dissemination
+#### Data Dissemination
 
 Research worldwide can benefit the most when all results of published scientific studies are fully accessible immediately upon publication [@doi:10.1038/417222b].
 This concept is considered the foundation of scientific investigation and a prerequisite for effectively directing new research efforts based on prior information.
