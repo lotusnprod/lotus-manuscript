@@ -61,8 +61,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-chemodiverse
-Chemodiversity
+chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -73,7 +72,7 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 cleaningOriginal
 cleaningTranslated
 CMU
@@ -81,12 +80,12 @@ codebase
 coroutines
 counterions
 Crataegus
-Crossref
+crossref
 CRSII
 csteinbeck
 cstrnq
 cts
-curation
+Curation
 Cyanometdb
 Cyathocaline
 Cyathocalyx
@@ -94,7 +93,7 @@ Damerau
 daphnane
 dataset
 datasets
-Datawarrior
+datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -113,7 +112,7 @@ DNP
 Dockerized
 DOIs
 doit
-drduke
+DrDuke
 DTGCRPNFSA
 eBird
 echnology
@@ -265,7 +264,7 @@ Michonneau
 Mietchen
 mitishamba
 modularity
-molvs
+Molvs
 monogyna
 Mozzherin
 mSorok
@@ -277,7 +276,7 @@ nanpdb
 NAPRALERT
 natively
 NatprodCbn
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 nextStep
@@ -349,7 +348,7 @@ rdmpage
 readxl
 Reionization
 rentrez
-Repartition
+repartition
 reproducibility
 reranking
 ressource
@@ -386,7 +385,7 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-squatina
+Squatina
 src
 SSOT
 standardizer
@@ -421,9 +420,9 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-tmap
+TMAP
 tmdb
-tmmc
+TMMC
 tppt
 transdisciplinary
 transformational
@@ -437,7 +436,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
@@ -463,7 +462,7 @@ Voilà
 Vondrášek
 vroom
 Vue
-wakankensaku
+Wakankensaku
 wdpage
 webchem
 Wijeratne

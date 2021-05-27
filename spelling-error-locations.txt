@@ -478,7 +478,7 @@ content/04.conclusion-perspectives.md:45:wikipathways
 content/04.conclusion-perspectives.md:45:WikiPathways
 content/04.conclusion-perspectives.md:45:WikiPathways
 content/04.conclusion-perspectives.md:49:biogeography
-content/04.conclusion-perspectives.md:49:chemodiverse
+content/04.conclusion-perspectives.md:49:chemodiversity
 content/04.conclusion-perspectives.md:49:GBIF
 content/04.conclusion-perspectives.md:49:hotspots
 content/04.conclusion-perspectives.md:52:bioactive
@@ -489,7 +489,7 @@ content/04.conclusion-perspectives.md:56:transformative
 content/04.conclusion-perspectives.md:61:gliotoxin
 content/04.conclusion-perspectives.md:61:guayusa
 content/04.conclusion-perspectives.md:61:Ilex
-content/04.conclusion-perspectives.md:64:RDFFrames
+content/04.conclusion-perspectives.md:65:RDFFrames
 content/05.methods.md:3:Curation
 content/05.methods.md:9:DNP
 content/05.methods.md:10:foodb

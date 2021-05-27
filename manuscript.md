@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d1bd8e248bdb482a5b6d27cc5041047224e31859/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d1bd8e248bdb482a5b6d27cc5041047224e31859/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d1bd8e248bdb482a5b6d27cc5041047224e31859/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/bb47ea07d1b7a7aa22074b30547e3492fc27c625/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/bb47ea07d1b7a7aa22074b30547e3492fc27c625/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/bb47ea07d1b7a7aa22074b30547e3492fc27c625/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d1bd8e248bdb482a5b6d27cc5041047224e31859/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d1bd8e248bdb482a5b6d27cc5041047224e31859/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/bb47ea07d1b7a7aa22074b30547e3492fc27c625/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/bb47ea07d1b7a7aa22074b30547e3492fc27c625/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d1bd8e248bdb482a5b6d27cc5041047224e31859/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/bb47ea07d1b7a7aa22074b30547e3492fc27c625/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@d1bd8e2](https://github.com/lotusnprod/lotus-manuscript/tree/d1bd8e248bdb482a5b6d27cc5041047224e31859)
+from [lotusnprod/lotus-manuscript@bb47ea0](https://github.com/lotusnprod/lotus-manuscript/tree/bb47ea07d1b7a7aa22074b30547e3492fc27c625)
 on May 27, 2021.
 </em></small>
 
@@ -735,9 +735,9 @@ This understanding is of utmost importance for the chemotaxonomic field and will
 
 ## Conclusion & Perspectives
 
-### Advancing NP Knowledge
+### Advancing Natural Products Knowledge
 
-At its current development stage, data harmonized and curated in the LOTUS initiative remain imperfect and, by the very nature of research, at least partially biased (see [Introduction](#introduction)).
+At its current development stage, data harmonized and curated throughout the LOTUS initiative remain imperfect and, by the very nature of research, at least partially biased (see [Introduction](#introduction)).
 In the context of bioactive NP research, and due to global editorial practices, it should not be ignored that many publications tend to emphasize new compounds and/or those for which interesting bioactivity has been measured.
 Near-ubiquitous (primarily plant-based) compounds tend to be overrepresented in the NP literature, yet the implication of their wide distribution in nature and associated patterns of broad, non-specific activity are often underappreciated [@doi:10.1021/acs.jmedchem.5b01009].
 Ideally, all characterized compounds independent of structural novelty and/or bioactivity profile should be documented, and the expansion of verified structure-organism pairs is fundamental to the advancement of NP research.
@@ -764,7 +764,7 @@ However, to generate the vital flow of contributed data, the effort associated w
 The possibilities for expansion and future applications of the Wikidata-based LOTUS initiative are significant.
 For example, properly formatted spectral data, e.g., data obtained by MS or NMR, can be linked to the Wikidata entries for the respective chemical compounds.
 MassBank [@doi:10/d8pdcr] and SPLASH [@doi:10.1093/bioinformatics/btq476] identifiers are already reported in Wikidata, and this existing information can be used to report MassBank or SPLASH records for example for *Arabidopsis thaliana* compounds ([https://w.wiki/3PJD](https://w.wiki/3PJD)).
-Such possibilities will help to bridge experimental data results obtained during the early stages of NP research with data that had been reported and formatted in different contexts.
+Such possibilities will help to bridge experimental data results obtained during the early stages of NP research with data that has been reported and formatted in different contexts.
 This opens exciting perspectives for structural dereplication, NP annotation, and metabolomic analysis.
 The authors have previously demonstrated that taxonomically-informed metabolite annotation is critical for the improvement of the NP annotation process [@doi:10/fm73].
 Alternative approaches linking structural annotation to biological organisms have also shown substantial improvements [@doi:10.1101/2021.03.18.435634].
@@ -781,7 +781,7 @@ The fact that the LOTUS disseminates data through Wikidata will help facilitate 
 
 In the field of ecology, for example, molecular traits are gaining increased attention [@doi:10/gftqcm; @doi:10/ghttk6].
 Conceptually, LOTUS can help associate classical plant traits (e.g., leaf surface area, photosynthetic capacities, etc.) with Wikidata biological organisms entries, and, thus, allow their integration and comparison with chemicals that are associated with the organisms.
-Likewise, the association of biogeography data documented in repositories such as GBIF could be further exploited in Wikidata to pursue the exciting but understudied topic of “chemodiverse hotspots” [@doi:10/ghssx4].
+Likewise, the association of biogeography data documented in repositories such as GBIF could be further exploited in Wikidata to pursue the exciting but understudied topic of “chemodiversity hotspots” [@doi:10/ghssx4].
 
 Further NP-related information of great interest remains poorly formatted.
 One example of such a shortcoming relates to traditional medicine, including ethnomedicine and ethnobotany, which is the historical and empiric approach of mankind to discover and use bioactive products from Nature, primarily plants.
@@ -794,6 +794,7 @@ This underscores the transformative value of the LOTUS initiative for the advanc
 
 The various facets discussed above connect with ongoing and future developments that the tandem of the LOTUS initiative and its Wikidata integration can accommodate through a broader knowledge base.
 The information of the LOTUS initiative is already readily accessible by third party projects build on top of Wikidata such as the SLING project ([https://github.com/ringgaard/sling](https://github.com/ringgaard/sling), see entry for [gliotoxin](https://ringgaard.com/kb/Q413364)) or the Plant Humanities Lab project ([https://lab.plant-humanities.org/](https://lab.plant-humanities.org/), see entry for [*Ilex guayusa*](https://search.plant-humanities.org/?eid=wd%3AQ3772280)).
+
 Behind the scenes, all underlying resources represent data in a multidimensional space and can be extracted as individual graphs that can be interconnected.
 The craft of appropriate federated queries allows users to navigate these graphs and fully exploit their potential [@doi:10/gdn52j; @doi:10/ggqqc6].
 The development of interfaces such as RDFFrames [@wikidata:Q106204599] will also facilitate the use of the wide arsenal of existing machine learning approaches to automate reasoning on these knowledge graphs.
@@ -801,7 +802,7 @@ The development of interfaces such as RDFFrames [@wikidata:Q106204599] will also
 Overall, the LOTUS initiative aims to make more and better data available.
 This project paves the way for the establishment of an open and expandable electronic NP resource.
 The design and efforts of the LOTUS initiative reflect our conviction that the integration of NP research results is long-needed and requires a truly open and FAIR knowledge base.
-We believe that the LOTUS initiative has the potential to fuel a virtuous cycle of research habits and, as a result, contribute to a better understanding of *Life and its chemistry*.
+We believe that the LOTUS initiative has the potential to fuel a virtuous cycle of research habits and, as a result, *contribute to a better understanding of Life and its chemistry*.
 
 
 ## Methods {.page_break_before}
