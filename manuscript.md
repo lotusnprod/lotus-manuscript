@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/0422f22779d6613c934d7ba9b0aaf238997584f7/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/0422f22779d6613c934d7ba9b0aaf238997584f7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/0422f22779d6613c934d7ba9b0aaf238997584f7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e96cd59dd25444597c020f1806872793919423fd/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e96cd59dd25444597c020f1806872793919423fd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e96cd59dd25444597c020f1806872793919423fd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/0422f22779d6613c934d7ba9b0aaf238997584f7/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/0422f22779d6613c934d7ba9b0aaf238997584f7/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e96cd59dd25444597c020f1806872793919423fd/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e96cd59dd25444597c020f1806872793919423fd/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/0422f22779d6613c934d7ba9b0aaf238997584f7/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/e96cd59dd25444597c020f1806872793919423fd/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@0422f22](https://github.com/lotusnprod/lotus-manuscript/tree/0422f22779d6613c934d7ba9b0aaf238997584f7)
+from [lotusnprod/lotus-manuscript@e96cd59](https://github.com/lotusnprod/lotus-manuscript/tree/e96cd59dd25444597c020f1806872793919423fd)
 on May 28, 2021.
 </em></small>
 
@@ -685,7 +685,7 @@ Planar structures were used for all compounds to generate the TMAP (chemical spa
 As the tree organizes structures according to their molecular fingerprint, an anticipated coherence between the clustering of compounds and the mapped NPClassifier chemical class is observed (Figure @fig:tmap A.).
 For clarity, the eight most represented chemical classes of LOTUS plus the quassinoids and carotenoids (C40, *β*-*β*) classes are mapped, with examples of a quassinoid (green star) and a carotenoid (yellow star) and their corresponding location in the TMAP.
 
-![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (green star) and an ubiquitous carotenoid (yellow star) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in red. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs in the chemical class. A chemical class biological specificity score of 1 means that compounds in that chemical class were reported in a unique biological family. Zooms on a group of compounds of high biological specificity score (in yellow) and on compounds of low specificity (black) are depicted. An interactive HTML visualization of the LOTUS TMAP is at [https://lotus.nprod.net/post/lotus-tmap/](https://lotus.nprod.net/post/lotus-tmap/) and archived at [https://osf.io/kqa8b/](https://osf.io/kqa8b/). The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
+![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (green star) and an ubiquitous carotenoid (yellow star) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in red. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs in the chemical class. A chemical class biological specificity score of 1 means that compounds in that chemical class were reported in a unique biological family. Zooms on a group of compounds of high biological specificity score (in yellow) and on compounds of low specificity (black) are depicted. An interactive HTML visualization of the LOTUS TMAP is avalable at [https://lotus.nprod.net/post/lotus-tmap/](https://lotus.nprod.net/post/lotus-tmap/) and archived at [https://osf.io/kqa8b/](https://osf.io/kqa8b/). The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
 
 To explore relationships between chemistry and biology, it is possible to map taxonomical information such as the most reported biological family per chemical compound (Figure @fig:tmap B.) or the biological specificity of chemical classes (Figure @fig:tmap C.) on the TMAP.
 The biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs.
@@ -1252,9 +1252,9 @@ Table: Summary of the Validation Statistics {#tbl:si-2 tag="SI-2"}
 #### Query 1 - *Arabidopsis thaliana*
 
 This query answers to the following question:
-<pre>
+ ```
 What are the compounds found in Mouse-ear cress (<i>Arabidopsis thaliana</i>)?
-</pre>
+ ```
 
 Link: [https://w.wiki/3HMX](https://w.wiki/3HMX)
 ```SQL
@@ -1274,9 +1274,9 @@ SELECT DISTINCT ?structure ?structureLabel ?structure_inchikey WHERE {
 #### Query 2 - *β*-sitosterol {.page_break_before}
 
 This query answers to the following question:
-<pre>
+ ```
 Which organisms are known to contain <i>β</i>-sitosterol?
-</pre>
+ ```
 
 Link: [https://w.wiki/3HLy](https://w.wiki/3HLy)
 ```SQL
@@ -1299,9 +1299,9 @@ SELECT DISTINCT ?taxon ?taxonName WHERE {
 #### Query 3 - *β*-sitosterol stereoisomers {.page_break_before}
 
 This query answers to the following question:
-<pre>
+ ```
 Which organisms are known to contain stereoisomers of <i>β</i>-sitosterol?
-</pre>
+ ```
 
 Link: [https://w.wiki/3Jgs](https://w.wiki/3Jgs)
 ```SQL
@@ -1327,9 +1327,9 @@ ORDER BY ASC(?InChIKey)                     # sort by inchikey
 #### Query 4 - Pigments {.page_break_before}
 
 This query answers to the following question:
-<pre>
+ ```
 Which pigments are found in which taxa, according to which reference?
-</pre>
+ ```
 
 Link: [https://w.wiki/3H3o](https://w.wiki/3H3o)
 ```SQL
@@ -1372,9 +1372,10 @@ LIMIT 10000
 #### Query 5 - Sister taxon compounds {.page_break_before}
 
 This query answers to the following question:
-<pre>
+ ```
 What are examples of organisms where compounds were found in an organism sharing the same parent taxon, but not the organism itself?
-</pre>
+ ```
+
 
 Link: [https://w.wiki/3HM6](https://w.wiki/3HM6)
 ```SQL
@@ -1411,9 +1412,9 @@ WHERE {
 
 This query answers to the following question:
 
-<pre>
+ ```
 Which <i>Zephyranthes</i> species lack compounds known from at least two species in the genus?
-</pre>
+ ```
 
 Link: [https://w.wiki/3HJf](https://w.wiki/3HJf)
 ```SQL
@@ -1461,9 +1462,9 @@ WHERE {
 
 This query answers to the following question:
 
-<pre>
+ ```
 How many compounds are structurally similar to compounds labeled as antibiotics? Results are grouped by the parent taxon of the organism they were found in.
-</pre>
+ ```
 
 Link: [https://w.wiki/3HMA](https://w.wiki/3HMA)
 ```SQL
@@ -1494,9 +1495,9 @@ ORDER BY DESC (?count)
 #### Query 8 - Triples {.page_break_before}
 
 This query answers to the following question:
-<pre>
+ ```
 Which are the available referenced structure-organism pairs? (example limited to 1000 results)
-</pre>
+ ```
 
 Link: [https://w.wiki/3JpE](https://w.wiki/3JpE)
 ```SQL
@@ -1514,9 +1515,9 @@ LIMIT 1000
 #### Query 9 - Indolic scaffold {.page_break_before}
 
 This query answers to the following question:
-<pre>
+ ```
 Which organisms contain indolic scaffolds? Count occurrences, group and order the results by the parent taxon.
-</pre>
+ ```
 
 Link: [https://w.wiki/3HMD](https://w.wiki/3HMD)
 ```SQL
@@ -1546,9 +1547,9 @@ ORDER BY DESC (?count)
 #### Query 10 - Senior NP chemists {.page_break_before}
 
 This query answers to the following question:
-<pre>
+ ```
 How many structure-organism pairs have been referenced by certain authors? (Here, two senior natural products chemists and co-authors of this paper are compared to the late Ferdinand Bohlmann).
-</pre>
+ ```
 
 Link: [https://w.wiki/3HML](https://w.wiki/3HML)
 ```SQL
