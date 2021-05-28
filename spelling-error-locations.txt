@@ -1234,8 +1234,6 @@ content/09.supporting-information-3.md:316:Bohlmann
 content/09.supporting-information-3.md:323:JLW
 content/09.supporting-information-3.md:324:GFP
 content/09.supporting-information-3.md:325:Bohlmann
-content/09.supporting-information-4.md:5:oolonek
-content/09.supporting-information-4.md:5:oolonek
 content/09.supporting-information-4.md:5:osf
 content/09.supporting-information-4.md:5:osf
 content/09.supporting-information-4.md:13:cherrieri
