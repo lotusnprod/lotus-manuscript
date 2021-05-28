@@ -3,7 +3,7 @@ title: 'The LOTUS Initiative for Open Natural Products Research: Knowledge Manag
 keywords:
 - to do
 lang: en-US
-date-meta: '2021-05-27'
+date-meta: '2021-05-28'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-05-27" />
-  <meta name="citation_publication_date" content="2021-05-27" />
+  <meta name="dc.date" content="2021-05-28" />
+  <meta name="citation_publication_date" content="2021-05-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/0422f22779d6613c934d7ba9b0aaf238997584f7/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/0422f22779d6613c934d7ba9b0aaf238997584f7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/0422f22779d6613c934d7ba9b0aaf238997584f7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/0422f22779d6613c934d7ba9b0aaf238997584f7/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/0422f22779d6613c934d7ba9b0aaf238997584f7/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,10 +132,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/0422f22779d6613c934d7ba9b0aaf238997584f7/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@16e48a3](https://github.com/lotusnprod/lotus-manuscript/tree/16e48a33bed9024d7ef9d3c8b7753ed3e8d90369)
-on May 27, 2021.
+from [lotusnprod/lotus-manuscript@0422f22](https://github.com/lotusnprod/lotus-manuscript/tree/0422f22779d6613c934d7ba9b0aaf238997584f7)
+on May 28, 2021.
 </em></small>
 
 ## Authors
@@ -685,7 +685,7 @@ Planar structures were used for all compounds to generate the TMAP (chemical spa
 As the tree organizes structures according to their molecular fingerprint, an anticipated coherence between the clustering of compounds and the mapped NPClassifier chemical class is observed (Figure @fig:tmap A.).
 For clarity, the eight most represented chemical classes of LOTUS plus the quassinoids and carotenoids (C40, *β*-*β*) classes are mapped, with examples of a quassinoid (green star) and a carotenoid (yellow star) and their corresponding location in the TMAP.
 
-![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (green star) and an ubiquitous carotenoid (yellow star) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in red. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs in the chemical class. A chemical class biological specificity score of 1 means that compounds in that chemical class were reported in a unique biological family. Zooms on a group of compounds of high biological specificity score (in yellow) and on compounds of low specificity (black) are depicted. An interactive HTML visualization of the LOTUS TMAP is available at [https://osf.io/kqa8b/](https://osf.io/kqa8b/). The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
+![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (green star) and an ubiquitous carotenoid (yellow star) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in red. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs in the chemical class. A chemical class biological specificity score of 1 means that compounds in that chemical class were reported in a unique biological family. Zooms on a group of compounds of high biological specificity score (in yellow) and on compounds of low specificity (black) are depicted. An interactive HTML visualization of the LOTUS TMAP is at [https://lotus.nprod.net/post/lotus-tmap/](https://lotus.nprod.net/post/lotus-tmap/) and archived at [https://osf.io/kqa8b/](https://osf.io/kqa8b/). The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
 
 To explore relationships between chemistry and biology, it is possible to map taxonomical information such as the most reported biological family per chemical compound (Figure @fig:tmap B.) or the biological specificity of chemical classes (Figure @fig:tmap C.) on the TMAP.
 The biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs.
@@ -926,7 +926,7 @@ To ensure compatibility between obtained taxonID with Wikidata, the taxonomic DB
 All other available taxonomic DB are listed at [http://index.globalnames.org/datasource](http://index.globalnames.org/datasource).
 To retrieve as much information as possible from the original organism field of each of the sources, the following procedure was followed: First, a scientific name recognition step, allowing us to retrieve canonical names was carried ([src/2_curating/2_editing/organisms/subscripts/1_cleaningOriginal.R](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/2_curating/2_editing/organisms/subscripts/1_cleaningOriginal.R)).
 Then, a subtraction step of the obtained canonical names from the original field was applied, to avoid unwanted translation of parts of canonical names.
-For example, Bromus mango contains "mango" as a specific epithet, which is also the common name for Mangifera indica.
+For example, _Bromus mango_ contains "mango" as a specific epithet, which is also the common name for _Mangifera indica_.
 After this subtraction step, the remaining names were translated from vernacular (common) and TCM names to scientific names, with help of the dictionaries.
 For performance reasons, this cleaning step was written in Kotlin and used coroutines to allow efficient parallelization of that process ([src/2_curating/2_editing/organisms/2_translating_organism_kotlin/](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/2_curating/2_editing/organisms/2_translating_organism_kotlin/)).
 They were subsequently submitted again to scientific name recognition ([src/2_curating/2_editing/organisms/3_cleaningTranslated.R](http://src/2_curating/2_editing/organisms/3_cleaningTranslated.R)).
@@ -955,7 +955,7 @@ Among "publishing details", "original" and "split" categories, three additional 
 If the name of the first author was present in the original field, a score of 1 was given, else 0.
 Those three scores were then summed together.
 All candidates were first ordered according to their crossref score, then by the complement score for related subcategories, then again according to their title-producing organism score, and finally according to their translation distance score.
-After this reranking step, only the first candidate was kept.
+After this re-ranking step, only the first candidate was kept.
 Finally, the Pubmed PMCID dictionary ([PMC-ids.csv.gz](https://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz)) was used to perform the translations between DOI, PMID, and PMCID ([src/2_curating/2_editing/reference/3_cleaning.R](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/2_curating/2_editing/reference/3_cleaning.R)).
 
 From the 36,710 initial "original" references, 21,970 (60%) references with sufficient quality were obtained, of which 15,588 (71%) had the organism name in their title.
@@ -994,7 +994,7 @@ Entries were sampled with at least 55 of each reference subcategory present (to 
 An entry was only validated if: *i)* the structure (as any structural descriptor that could be linked to the final sanitized InChIKey) was described in the reference *ii)* the producing organism (as any organism descriptor that could be linked to the accepted canonical name) was described in the reference and *iii)* the reference was describing the occurrence of the chemical structure in the biological organism.
 Results obtained on the manually analyzed set were categorized according to the initial reference subcategory and are detailed in [SI-2](#si-2-summary-of-the-validation-statistics).
 To improve these results, further cleaning of the references was needed.
-This was done by accepting entries whose reference was coming from a DOI, a PMID, or from a title which restricted Damerau-Levenshtein distance between original and translated was lower than ten or if it was coming from one of the three main journals where occurrences are published (i.e., *Journal of Natural Products*, *Phytochemistry*, or *Journal of Agricultural and Food Chemistry*).
+This was done by accepting entries whose reference was coming from a DOI, a PMID, or from a title which restricted Damerau-Levenshtein distance between original and translated was lower than ten or if it was coming from one of the three main journals where NP occurrences are commonly expected to be published (i.e., *Journal of Natural Products*, *Phytochemistry*, or *Journal of Agricultural and Food Chemistry*).
 For "split", "publishingDetails" and "original" subcategories, the year of publication of the obtained reference, its journal, and the name of the first author were searched in the original entry and if at least two of them were present, the entry was kept.
 Entries were then further filtered to keep the ones where the reference title contained the first element of the detected canonical name.
 Except for COCONUT, exceptions to this filter were made for all DOI-based references.
@@ -1026,7 +1026,7 @@ The Kotlin code has tests based on JUnit and code quality control checks based o
 
 #### Wikidata
 
-All the data produced for this work has been made available on Wikidata under a Creative Commons 0 license according to [Wikidata:Licensing](https://www.wikidata.org/wiki/Wikidata:Licensing).
+All the data produced for this work has been made available on Wikidata under a [Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/) license according to [Wikidata:Licensing](https://www.wikidata.org/wiki/Wikidata:Licensing).
 This license is a "No-right-reserved" license that allows most reuses.
 
 #### Lotus.NaturalProducts.Net (LNPN)

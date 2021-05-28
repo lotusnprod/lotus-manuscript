@@ -364,6 +364,8 @@ content/03.results-discussion.md:308:Simaroubaceae
 content/03.results-discussion.md:308:tmap
 content/03.results-discussion.md:308:tmap
 content/03.results-discussion.md:308:tmap
+content/03.results-discussion.md:308:tmap
+content/03.results-discussion.md:308:tmap
 content/03.results-discussion.md:308:TMAP
 content/03.results-discussion.md:308:TMAP
 content/03.results-discussion.md:308:wikimedia
@@ -686,9 +688,6 @@ content/05.methods.md:120:gitlab
 content/05.methods.md:120:preprint
 content/05.methods.md:120:src
 content/05.methods.md:120:src
-content/05.methods.md:122:Bromus
-content/05.methods.md:122:indica
-content/05.methods.md:122:Mangifera
 content/05.methods.md:123:TCM
 content/05.methods.md:124:coroutines
 content/05.methods.md:124:gitlab
@@ -730,7 +729,6 @@ content/05.methods.md:146:Damerau
 content/05.methods.md:146:Damerau
 content/05.methods.md:146:Levenshtein
 content/05.methods.md:150:crossref
-content/05.methods.md:151:reranking
 content/05.methods.md:152:gitlab
 content/05.methods.md:152:ncbi
 content/05.methods.md:152:preprint
