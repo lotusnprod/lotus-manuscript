@@ -180,13 +180,13 @@
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e96cd59dd25444597c020f1806872793919423fd/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e96cd59dd25444597c020f1806872793919423fd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e96cd59dd25444597c020f1806872793919423fd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/20db992c2c5c0a71e7cde5bb6fae6a8703aec207/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/20db992c2c5c0a71e7cde5bb6fae6a8703aec207/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/20db992c2c5c0a71e7cde5bb6fae6a8703aec207/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e96cd59dd25444597c020f1806872793919423fd/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e96cd59dd25444597c020f1806872793919423fd/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/20db992c2c5c0a71e7cde5bb6fae6a8703aec207/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/20db992c2c5c0a71e7cde5bb6fae6a8703aec207/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -217,9 +217,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lotusnprod.github.io/lotus-manuscript/v/e96cd59dd25444597c020f1806872793919423fd/">permalink</a>)
+(<a href="https://lotusnprod.github.io/lotus-manuscript/v/20db992c2c5c0a71e7cde5bb6fae6a8703aec207/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/e96cd59dd25444597c020f1806872793919423fd">lotusnprod/lotus-manuscript@e96cd59</a>
+from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/20db992c2c5c0a71e7cde5bb6fae6a8703aec207">lotusnprod/lotus-manuscript@20db992</a>
 on May 28, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -1874,255 +1874,255 @@ The authors would also like to thank contributors of all electronic NP resources
 </div>
 <h3 class="page_break_before" id="si-3-wikidata-sparql-queries">SI 3 Wikidata SPARQL Queries</h3>
 <h4 id="query-1---arabidopsis-thaliana">Query 1 - <em>Arabidopsis thaliana</em></h4>
-<p>This query answers to the following question:
-<code>What are the compounds found in Mouse-ear cress (&lt;i&gt;Arabidopsis thaliana&lt;/i&gt;)?</code></p>
+<p>This query answers to the following question:</p>
+<pre><code>What are the compounds found in Mouse-ear cress (&lt;i&gt;Arabidopsis thaliana&lt;/i&gt;)?</code></pre>
 <p>Link: <a href="https://w.wiki/3HMX">https://w.wiki/3HMX</a></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb1-1"><a href="#cb1-1"></a># What are <span class="kw">the</span> compounds found <span class="kw">in</span> Mouse<span class="op">-</span>ear cress (Arabidopsis thaliana)?</span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?<span class="kw">structure</span> ?structureLabel ?structure_inchikey <span class="kw">WHERE</span> {</span>
-<span id="cb1-3"><a href="#cb1-3"></a>  ?<span class="kw">structure</span> wdt<span class="ch">:P235</span> ?structure_inchikey; # get <span class="kw">the</span> inchikey</span>
-<span id="cb1-4"><a href="#cb1-4"></a>    p<span class="ch">:P703</span> ?statement.                     # statement found <span class="kw">in</span> taxon</span>
-<span id="cb1-5"><a href="#cb1-5"></a>  ?statement ps<span class="ch">:P703</span> wd<span class="ch">:Q158695</span>;           # Wikidata <span class="kw">identifier</span> <span class="kw">of</span> your taxa <span class="kw">of</span> interest (here Arabidopsis thaliana). </span>
-<span id="cb1-6"><a href="#cb1-6"></a>                                           # You can remove <span class="kw">the</span> Qxxxxxx <span class="kw">and</span> hit Ctrl<span class="op">+</span>space, <span class="kw">type</span> <span class="kw">the</span> <span class="fu">first</span> letters <span class="kw">and</span> it should autocomplete</span>
-<span id="cb1-7"><a href="#cb1-7"></a>    prov<span class="ch">:wasDerivedFrom</span> ?<span class="fu">ref</span>.              # get results <span class="kw">with</span> a reference</span>
-<span id="cb1-8"><a href="#cb1-8"></a>  ?<span class="fu">ref</span> pr<span class="ch">:P248</span> ?art.                       # get <span class="kw">the</span> reference <span class="kw">ID</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a>  ?art wdt<span class="ch">:P356</span> ?art_doi.                  # get <span class="kw">the</span> reference DOI</span>
-<span id="cb1-10"><a href="#cb1-10"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
-<span id="cb1-11"><a href="#cb1-11"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb2-1"><a href="#cb2-1"></a># What are <span class="kw">the</span> compounds found <span class="kw">in</span> Mouse<span class="op">-</span>ear cress (Arabidopsis thaliana)?</span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?<span class="kw">structure</span> ?structureLabel ?structure_inchikey <span class="kw">WHERE</span> {</span>
+<span id="cb2-3"><a href="#cb2-3"></a>  ?<span class="kw">structure</span> wdt<span class="ch">:P235</span> ?structure_inchikey; # get <span class="kw">the</span> inchikey</span>
+<span id="cb2-4"><a href="#cb2-4"></a>    p<span class="ch">:P703</span> ?statement.                     # statement found <span class="kw">in</span> taxon</span>
+<span id="cb2-5"><a href="#cb2-5"></a>  ?statement ps<span class="ch">:P703</span> wd<span class="ch">:Q158695</span>;           # Wikidata <span class="kw">identifier</span> <span class="kw">of</span> your taxa <span class="kw">of</span> interest (here Arabidopsis thaliana). </span>
+<span id="cb2-6"><a href="#cb2-6"></a>                                           # You can remove <span class="kw">the</span> Qxxxxxx <span class="kw">and</span> hit Ctrl<span class="op">+</span>space, <span class="kw">type</span> <span class="kw">the</span> <span class="fu">first</span> letters <span class="kw">and</span> it should autocomplete</span>
+<span id="cb2-7"><a href="#cb2-7"></a>    prov<span class="ch">:wasDerivedFrom</span> ?<span class="fu">ref</span>.              # get results <span class="kw">with</span> a reference</span>
+<span id="cb2-8"><a href="#cb2-8"></a>  ?<span class="fu">ref</span> pr<span class="ch">:P248</span> ?art.                       # get <span class="kw">the</span> reference <span class="kw">ID</span></span>
+<span id="cb2-9"><a href="#cb2-9"></a>  ?art wdt<span class="ch">:P356</span> ?art_doi.                  # get <span class="kw">the</span> reference DOI</span>
+<span id="cb2-10"><a href="#cb2-10"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
+<span id="cb2-11"><a href="#cb2-11"></a>}</span></code></pre></div>
 <h4 class="page_break_before" id="query-2---β-sitosterol">Query 2 - <em>β</em>-sitosterol</h4>
-<p>This query answers to the following question:
-<code>Which organisms are known to contain &lt;i&gt;β&lt;/i&gt;-sitosterol?</code></p>
+<p>This query answers to the following question:</p>
+<pre><code>Which organisms are known to contain &lt;i&gt;β&lt;/i&gt;-sitosterol?</code></pre>
 <p>Link: <a href="https://w.wiki/3HLy">https://w.wiki/3HLy</a></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb2-1"><a href="#cb2-1"></a># Which organisms are known <span class="kw">to</span> contain β-sitosterol?</span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?taxon ?taxonName <span class="kw">WHERE</span> {</span>
-<span id="cb2-3"><a href="#cb2-3"></a>  {</span>
-<span id="cb2-4"><a href="#cb2-4"></a>    wd<span class="ch">:Q121802</span> p<span class="ch">:P703</span> ?stmt.          # limits <span class="kw">the</span> search <span class="kw">to</span> β-sitosterol</span>
-<span id="cb2-5"><a href="#cb2-5"></a>    ?stmt ps<span class="ch">:P703</span> ?taxon.             # found <span class="kw">in</span> taxon</span>
-<span id="cb2-6"><a href="#cb2-6"></a>    {</span>
-<span id="cb2-7"><a href="#cb2-7"></a>      ?stmt prov<span class="ch">:wasDerivedFrom</span> ?<span class="fu">ref</span>.</span>
-<span id="cb2-8"><a href="#cb2-8"></a>      ?<span class="fu">ref</span> pr<span class="ch">:P248</span> ?art.              # stated <span class="kw">in</span> </span>
-<span id="cb2-9"><a href="#cb2-9"></a>      ?art wdt<span class="ch">:P356</span> ?art_doi.         # DOI <span class="kw">of</span> <span class="kw">the</span> reference</span>
-<span id="cb2-10"><a href="#cb2-10"></a>    }</span>
-<span id="cb2-11"><a href="#cb2-11"></a>  }</span>
-<span id="cb2-12"><a href="#cb2-12"></a>  ?taxon wdt<span class="ch">:P225</span> ?taxonName.         # scientific name <span class="kw">of</span> <span class="kw">the</span> taxon</span>
-<span id="cb2-13"><a href="#cb2-13"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
-<span id="cb2-14"><a href="#cb2-14"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb4-1"><a href="#cb4-1"></a># Which organisms are known <span class="kw">to</span> contain β-sitosterol?</span>
+<span id="cb4-2"><a href="#cb4-2"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?taxon ?taxonName <span class="kw">WHERE</span> {</span>
+<span id="cb4-3"><a href="#cb4-3"></a>  {</span>
+<span id="cb4-4"><a href="#cb4-4"></a>    wd<span class="ch">:Q121802</span> p<span class="ch">:P703</span> ?stmt.          # limits <span class="kw">the</span> search <span class="kw">to</span> β-sitosterol</span>
+<span id="cb4-5"><a href="#cb4-5"></a>    ?stmt ps<span class="ch">:P703</span> ?taxon.             # found <span class="kw">in</span> taxon</span>
+<span id="cb4-6"><a href="#cb4-6"></a>    {</span>
+<span id="cb4-7"><a href="#cb4-7"></a>      ?stmt prov<span class="ch">:wasDerivedFrom</span> ?<span class="fu">ref</span>.</span>
+<span id="cb4-8"><a href="#cb4-8"></a>      ?<span class="fu">ref</span> pr<span class="ch">:P248</span> ?art.              # stated <span class="kw">in</span> </span>
+<span id="cb4-9"><a href="#cb4-9"></a>      ?art wdt<span class="ch">:P356</span> ?art_doi.         # DOI <span class="kw">of</span> <span class="kw">the</span> reference</span>
+<span id="cb4-10"><a href="#cb4-10"></a>    }</span>
+<span id="cb4-11"><a href="#cb4-11"></a>  }</span>
+<span id="cb4-12"><a href="#cb4-12"></a>  ?taxon wdt<span class="ch">:P225</span> ?taxonName.         # scientific name <span class="kw">of</span> <span class="kw">the</span> taxon</span>
+<span id="cb4-13"><a href="#cb4-13"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
+<span id="cb4-14"><a href="#cb4-14"></a>}</span></code></pre></div>
 <h4 class="page_break_before" id="query-3---β-sitosterol-stereoisomers">Query 3 - <em>β</em>-sitosterol stereoisomers</h4>
-<p>This query answers to the following question:
-<code>Which organisms are known to contain stereoisomers of &lt;i&gt;β&lt;/i&gt;-sitosterol?</code></p>
+<p>This query answers to the following question:</p>
+<pre><code>Which organisms are known to contain stereoisomers of &lt;i&gt;β&lt;/i&gt;-sitosterol?</code></pre>
 <p>Link: <a href="https://w.wiki/3Jgs">https://w.wiki/3Jgs</a></p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb3-1"><a href="#cb3-1"></a># Which organisms are known <span class="kw">to</span> contain stereoisomers <span class="kw">of</span> β-sitosterol?</span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="kw">SELECT</span> ?compound ?compoundLabel ?InChIKey ?taxonname </span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="kw">WITH</span> {</span>
-<span id="cb3-4"><a href="#cb3-4"></a>  <span class="kw">SELECT</span> ?compound ?InChIKey <span class="kw">WHERE</span> {</span>
-<span id="cb3-5"><a href="#cb3-5"></a>    wd<span class="ch">:Q121802</span> wdt<span class="ch">:P235</span> ?queryKey .         # β-sitosterol</span>
-<span id="cb3-6"><a href="#cb3-6"></a>    ?compound wdt<span class="ch">:P235</span> ?InChIKey .          # get <span class="kw">the</span> inchikey <span class="kw">of</span> β-sitosterol</span>
-<span id="cb3-7"><a href="#cb3-7"></a>    <span class="kw">FILTER</span> (regex(str(?InChIKey), <span class="fu">concat</span>(<span class="ot">&quot;^&quot;</span>, <span class="fu">substr</span>($queryKey,<span class="dv">1</span>,<span class="dv">14</span>), <span class="ot">&quot;-&quot;</span>))) # results containing <span class="kw">the</span> <span class="fu">first</span> <span class="dv">14</span> <span class="dt">character</span> <span class="kw">of</span> <span class="kw">the</span> inchikey <span class="kw">of</span> β-sitosterol</span>
-<span id="cb3-8"><a href="#cb3-8"></a>    <span class="kw">FILTER</span> ( ?InChIKey <span class="op">!=</span> ?queryKey )       # but <span class="kw">not</span> containing <span class="kw">the</span> inchikey <span class="kw">of</span> β-sitosterol</span>
-<span id="cb3-9"><a href="#cb3-9"></a>  }</span>
-<span id="cb3-10"><a href="#cb3-10"></a>} <span class="kw">AS</span> %compounds</span>
-<span id="cb3-11"><a href="#cb3-11"></a><span class="kw">WHERE</span> {</span>
-<span id="cb3-12"><a href="#cb3-12"></a>  INCLUDE %compounds</span>
-<span id="cb3-13"><a href="#cb3-13"></a>  ?compound wdt<span class="ch">:P703</span><span class="op">/</span>wdt<span class="ch">:P225</span> ?taxonname .  # found <span class="kw">in</span> taxon <span class="op">/</span> taxon scientific name</span>
-<span id="cb3-14"><a href="#cb3-14"></a>  ?compound rdfs<span class="ch">:label</span> ?compoundLabel.      # compound name</span>
-<span id="cb3-15"><a href="#cb3-15"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
-<span id="cb3-16"><a href="#cb3-16"></a>}</span>
-<span id="cb3-17"><a href="#cb3-17"></a><span class="kw">ORDER</span> <span class="kw">BY</span> <span class="kw">ASC</span>(?InChIKey)                     # <span class="kw">sort</span> <span class="kw">by</span> inchikey</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb6-1"><a href="#cb6-1"></a># Which organisms are known <span class="kw">to</span> contain stereoisomers <span class="kw">of</span> β-sitosterol?</span>
+<span id="cb6-2"><a href="#cb6-2"></a><span class="kw">SELECT</span> ?compound ?compoundLabel ?InChIKey ?taxonname </span>
+<span id="cb6-3"><a href="#cb6-3"></a><span class="kw">WITH</span> {</span>
+<span id="cb6-4"><a href="#cb6-4"></a>  <span class="kw">SELECT</span> ?compound ?InChIKey <span class="kw">WHERE</span> {</span>
+<span id="cb6-5"><a href="#cb6-5"></a>    wd<span class="ch">:Q121802</span> wdt<span class="ch">:P235</span> ?queryKey .         # β-sitosterol</span>
+<span id="cb6-6"><a href="#cb6-6"></a>    ?compound wdt<span class="ch">:P235</span> ?InChIKey .          # get <span class="kw">the</span> inchikey <span class="kw">of</span> β-sitosterol</span>
+<span id="cb6-7"><a href="#cb6-7"></a>    <span class="kw">FILTER</span> (regex(str(?InChIKey), <span class="fu">concat</span>(<span class="ot">&quot;^&quot;</span>, <span class="fu">substr</span>($queryKey,<span class="dv">1</span>,<span class="dv">14</span>), <span class="ot">&quot;-&quot;</span>))) # results containing <span class="kw">the</span> <span class="fu">first</span> <span class="dv">14</span> <span class="dt">character</span> <span class="kw">of</span> <span class="kw">the</span> inchikey <span class="kw">of</span> β-sitosterol</span>
+<span id="cb6-8"><a href="#cb6-8"></a>    <span class="kw">FILTER</span> ( ?InChIKey <span class="op">!=</span> ?queryKey )       # but <span class="kw">not</span> containing <span class="kw">the</span> inchikey <span class="kw">of</span> β-sitosterol</span>
+<span id="cb6-9"><a href="#cb6-9"></a>  }</span>
+<span id="cb6-10"><a href="#cb6-10"></a>} <span class="kw">AS</span> %compounds</span>
+<span id="cb6-11"><a href="#cb6-11"></a><span class="kw">WHERE</span> {</span>
+<span id="cb6-12"><a href="#cb6-12"></a>  INCLUDE %compounds</span>
+<span id="cb6-13"><a href="#cb6-13"></a>  ?compound wdt<span class="ch">:P703</span><span class="op">/</span>wdt<span class="ch">:P225</span> ?taxonname .  # found <span class="kw">in</span> taxon <span class="op">/</span> taxon scientific name</span>
+<span id="cb6-14"><a href="#cb6-14"></a>  ?compound rdfs<span class="ch">:label</span> ?compoundLabel.      # compound name</span>
+<span id="cb6-15"><a href="#cb6-15"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
+<span id="cb6-16"><a href="#cb6-16"></a>}</span>
+<span id="cb6-17"><a href="#cb6-17"></a><span class="kw">ORDER</span> <span class="kw">BY</span> <span class="kw">ASC</span>(?InChIKey)                     # <span class="kw">sort</span> <span class="kw">by</span> inchikey</span></code></pre></div>
 <h4 class="page_break_before" id="query-4---pigments">Query 4 - Pigments</h4>
-<p>This query answers to the following question:
-<code>Which pigments are found in which taxa, according to which reference?</code></p>
+<p>This query answers to the following question:</p>
+<pre><code>Which pigments are found in which taxa, according to which reference?</code></pre>
 <p>Link: <a href="https://w.wiki/3H3o">https://w.wiki/3H3o</a></p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb4-1"><a href="#cb4-1"></a># Which pigments are found <span class="kw">in</span> which taxa, according <span class="kw">to</span> which reference?</span>
-<span id="cb4-2"><a href="#cb4-2"></a># special thanks goes <span class="kw">to</span> @biocolores (Layla Michán) <span class="cf">for</span> updating this information!</span>
-<span id="cb4-3"><a href="#cb4-3"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?compound ?compoundLabel ?taxon ?taxonname ?DOI </span>
-<span id="cb4-4"><a href="#cb4-4"></a><span class="kw">WITH</span> {</span>
-<span id="cb4-5"><a href="#cb4-5"></a>  <span class="kw">SELECT</span> ?compound <span class="kw">WHERE</span> {</span>
-<span id="cb4-6"><a href="#cb4-6"></a>    ?compound wdt<span class="ch">:P31</span><span class="op">*/</span>wdt<span class="ch">:P279</span><span class="op">*</span> wd<span class="ch">:Q161179</span>.  # get pigments</span>
-<span id="cb4-7"><a href="#cb4-7"></a>  }</span>
-<span id="cb4-8"><a href="#cb4-8"></a>} <span class="kw">AS</span> %compounds</span>
-<span id="cb4-9"><a href="#cb4-9"></a><span class="kw">WITH</span> {</span>
-<span id="cb4-10"><a href="#cb4-10"></a>  <span class="kw">SELECT</span> ?compound ?P703statement <span class="kw">WHERE</span> {</span>
-<span id="cb4-11"><a href="#cb4-11"></a>    INCLUDE %compounds</span>
-<span id="cb4-12"><a href="#cb4-12"></a>            ?compound p<span class="ch">:P703</span> ?P703statement.  # <span class="kw">check</span> <span class="cf">for</span> <span class="ot">&quot;found in taxon&quot;</span> statements</span>
-<span id="cb4-13"><a href="#cb4-13"></a>  }</span>
-<span id="cb4-14"><a href="#cb4-14"></a>} <span class="kw">AS</span> %P703statement</span>
-<span id="cb4-15"><a href="#cb4-15"></a><span class="kw">WITH</span> {</span>
-<span id="cb4-16"><a href="#cb4-16"></a>  <span class="kw">SELECT</span> ?compound ?taxon ?DOI <span class="kw">WHERE</span> {</span>
-<span id="cb4-17"><a href="#cb4-17"></a>    INCLUDE %P703statement</span>
-<span id="cb4-18"><a href="#cb4-18"></a>            ?P703statement ps<span class="ch">:P703</span> ?taxon ;   # get <span class="kw">the</span> respective taxa</span>
-<span id="cb4-19"><a href="#cb4-19"></a>            prov<span class="ch">:wasDerivedFrom</span> <span class="op">/</span> pr<span class="ch">:P248</span> [   # get <span class="kw">the</span> reference supporting that statement</span>
-<span id="cb4-20"><a href="#cb4-20"></a>              wdt<span class="ch">:P356</span> ?DOI                   # get <span class="kw">the</span> DOI <span class="cf">for</span> <span class="kw">the</span> reference</span>
-<span id="cb4-21"><a href="#cb4-21"></a>            ] .</span>
-<span id="cb4-22"><a href="#cb4-22"></a>  }</span>
-<span id="cb4-23"><a href="#cb4-23"></a>} <span class="kw">AS</span> %taxa</span>
-<span id="cb4-24"><a href="#cb4-24"></a><span class="kw">WHERE</span> {</span>
-<span id="cb4-25"><a href="#cb4-25"></a>  {</span>
-<span id="cb4-26"><a href="#cb4-26"></a>    INCLUDE %taxa</span>
-<span id="cb4-27"><a href="#cb4-27"></a></span>
-<span id="cb4-28"><a href="#cb4-28"></a>            ?taxon wdt<span class="ch">:P225</span> ?taxonname .      # get <span class="kw">the</span> taxon name</span>
-<span id="cb4-29"><a href="#cb4-29"></a>  }</span>
-<span id="cb4-30"><a href="#cb4-30"></a>  ?compound rdfs<span class="ch">:label</span> ?compoundLabel .       # get compound labels</span>
-<span id="cb4-31"><a href="#cb4-31"></a>  <span class="kw">FILTER</span> (LANG(?compoundLabel) <span class="op">=</span> <span class="ot">&quot;en&quot;</span>) .      # <span class="kw">filter</span> <span class="cf">for</span> English</span>
-<span id="cb4-32"><a href="#cb4-32"></a>}</span>
-<span id="cb4-33"><a href="#cb4-33"></a><span class="kw">ORDER</span> <span class="kw">BY</span> <span class="kw">ASC</span>(?compoundLabel)</span>
-<span id="cb4-34"><a href="#cb4-34"></a><span class="kw">LIMIT</span> <span class="dv">10000</span></span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb8-1"><a href="#cb8-1"></a># Which pigments are found <span class="kw">in</span> which taxa, according <span class="kw">to</span> which reference?</span>
+<span id="cb8-2"><a href="#cb8-2"></a># special thanks goes <span class="kw">to</span> @biocolores (Layla Michán) <span class="cf">for</span> updating this information!</span>
+<span id="cb8-3"><a href="#cb8-3"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?compound ?compoundLabel ?taxon ?taxonname ?DOI </span>
+<span id="cb8-4"><a href="#cb8-4"></a><span class="kw">WITH</span> {</span>
+<span id="cb8-5"><a href="#cb8-5"></a>  <span class="kw">SELECT</span> ?compound <span class="kw">WHERE</span> {</span>
+<span id="cb8-6"><a href="#cb8-6"></a>    ?compound wdt<span class="ch">:P31</span><span class="op">*/</span>wdt<span class="ch">:P279</span><span class="op">*</span> wd<span class="ch">:Q161179</span>.  # get pigments</span>
+<span id="cb8-7"><a href="#cb8-7"></a>  }</span>
+<span id="cb8-8"><a href="#cb8-8"></a>} <span class="kw">AS</span> %compounds</span>
+<span id="cb8-9"><a href="#cb8-9"></a><span class="kw">WITH</span> {</span>
+<span id="cb8-10"><a href="#cb8-10"></a>  <span class="kw">SELECT</span> ?compound ?P703statement <span class="kw">WHERE</span> {</span>
+<span id="cb8-11"><a href="#cb8-11"></a>    INCLUDE %compounds</span>
+<span id="cb8-12"><a href="#cb8-12"></a>            ?compound p<span class="ch">:P703</span> ?P703statement.  # <span class="kw">check</span> <span class="cf">for</span> <span class="ot">&quot;found in taxon&quot;</span> statements</span>
+<span id="cb8-13"><a href="#cb8-13"></a>  }</span>
+<span id="cb8-14"><a href="#cb8-14"></a>} <span class="kw">AS</span> %P703statement</span>
+<span id="cb8-15"><a href="#cb8-15"></a><span class="kw">WITH</span> {</span>
+<span id="cb8-16"><a href="#cb8-16"></a>  <span class="kw">SELECT</span> ?compound ?taxon ?DOI <span class="kw">WHERE</span> {</span>
+<span id="cb8-17"><a href="#cb8-17"></a>    INCLUDE %P703statement</span>
+<span id="cb8-18"><a href="#cb8-18"></a>            ?P703statement ps<span class="ch">:P703</span> ?taxon ;   # get <span class="kw">the</span> respective taxa</span>
+<span id="cb8-19"><a href="#cb8-19"></a>            prov<span class="ch">:wasDerivedFrom</span> <span class="op">/</span> pr<span class="ch">:P248</span> [   # get <span class="kw">the</span> reference supporting that statement</span>
+<span id="cb8-20"><a href="#cb8-20"></a>              wdt<span class="ch">:P356</span> ?DOI                   # get <span class="kw">the</span> DOI <span class="cf">for</span> <span class="kw">the</span> reference</span>
+<span id="cb8-21"><a href="#cb8-21"></a>            ] .</span>
+<span id="cb8-22"><a href="#cb8-22"></a>  }</span>
+<span id="cb8-23"><a href="#cb8-23"></a>} <span class="kw">AS</span> %taxa</span>
+<span id="cb8-24"><a href="#cb8-24"></a><span class="kw">WHERE</span> {</span>
+<span id="cb8-25"><a href="#cb8-25"></a>  {</span>
+<span id="cb8-26"><a href="#cb8-26"></a>    INCLUDE %taxa</span>
+<span id="cb8-27"><a href="#cb8-27"></a></span>
+<span id="cb8-28"><a href="#cb8-28"></a>            ?taxon wdt<span class="ch">:P225</span> ?taxonname .      # get <span class="kw">the</span> taxon name</span>
+<span id="cb8-29"><a href="#cb8-29"></a>  }</span>
+<span id="cb8-30"><a href="#cb8-30"></a>  ?compound rdfs<span class="ch">:label</span> ?compoundLabel .       # get compound labels</span>
+<span id="cb8-31"><a href="#cb8-31"></a>  <span class="kw">FILTER</span> (LANG(?compoundLabel) <span class="op">=</span> <span class="ot">&quot;en&quot;</span>) .      # <span class="kw">filter</span> <span class="cf">for</span> English</span>
+<span id="cb8-32"><a href="#cb8-32"></a>}</span>
+<span id="cb8-33"><a href="#cb8-33"></a><span class="kw">ORDER</span> <span class="kw">BY</span> <span class="kw">ASC</span>(?compoundLabel)</span>
+<span id="cb8-34"><a href="#cb8-34"></a><span class="kw">LIMIT</span> <span class="dv">10000</span></span></code></pre></div>
 <h4 class="page_break_before" id="query-5---sister-taxon-compounds">Query 5 - Sister taxon compounds</h4>
-<p>This query answers to the following question:
-<code>What are examples of organisms where compounds were found in an organism sharing the same parent taxon, but not the organism itself?</code></p>
+<p>This query answers to the following question:</p>
+<pre><code>What are examples of organisms where compounds were found in an organism sharing the same parent taxon, but not the organism itself?</code></pre>
 <p>Link: <a href="https://w.wiki/3HM6">https://w.wiki/3HM6</a></p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb5-1"><a href="#cb5-1"></a># What are examples <span class="kw">of</span> organisms <span class="kw">where</span> compounds were found <span class="kw">in</span> an organism sharing <span class="kw">the</span> same <span class="kw">parent</span> taxon, but <span class="kw">not</span> <span class="kw">the</span> organism itself? </span>
-<span id="cb5-2"><a href="#cb5-2"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?compound ?compoundLabel ?taxonname_with_compound ?taxonname_without_compound ?parent_taxon <span class="kw">WITH</span>{ </span>
-<span id="cb5-3"><a href="#cb5-3"></a>  <span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?compound ?taxon_with_compound ?parent_taxon </span>
-<span id="cb5-4"><a href="#cb5-4"></a>  <span class="kw">WHERE</span> {</span>
-<span id="cb5-5"><a href="#cb5-5"></a>    ?compound wdt<span class="ch">:P235</span> ?inchikey.</span>
-<span id="cb5-6"><a href="#cb5-6"></a>    SERVICE bd<span class="ch">:sample</span> { ?compound wdt<span class="ch">:P703</span> ?taxon_with_compound . bd<span class="ch">:serviceParam</span> bd<span class="ch">:sample</span>.<span class="kw">limit</span> <span class="dv">1000</span> }   </span>
-<span id="cb5-7"><a href="#cb5-7"></a>    ?taxon_with_compound wdt<span class="ch">:P171</span> ?parent_taxon .</span>
-<span id="cb5-8"><a href="#cb5-8"></a>  }</span>
-<span id="cb5-9"><a href="#cb5-9"></a>} <span class="kw">AS</span> %taxon_with_compound </span>
-<span id="cb5-10"><a href="#cb5-10"></a><span class="kw">WITH</span></span>
-<span id="cb5-11"><a href="#cb5-11"></a>{ </span>
-<span id="cb5-12"><a href="#cb5-12"></a>  <span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?taxon_without_compound ?parent_taxon ?compound </span>
-<span id="cb5-13"><a href="#cb5-13"></a>  <span class="kw">WHERE</span> {</span>
-<span id="cb5-14"><a href="#cb5-14"></a>    INCLUDE %taxon_with_compound</span>
-<span id="cb5-15"><a href="#cb5-15"></a>    ?taxon_without_compound wdt<span class="ch">:P171</span> ?parent_taxon .</span>
-<span id="cb5-16"><a href="#cb5-16"></a>    <span class="kw">FILTER</span> (?taxon_with_compound <span class="op">!=</span> ?taxon_without_compound)</span>
-<span id="cb5-17"><a href="#cb5-17"></a>  }</span>
-<span id="cb5-18"><a href="#cb5-18"></a>} <span class="kw">AS</span> %taxon2 </span>
-<span id="cb5-19"><a href="#cb5-19"></a><span class="kw">WHERE</span> {</span>
-<span id="cb5-20"><a href="#cb5-20"></a>  INCLUDE %taxon_with_compound</span>
-<span id="cb5-21"><a href="#cb5-21"></a>  INCLUDE %taxon2</span>
-<span id="cb5-22"><a href="#cb5-22"></a>  <span class="kw">FILTER</span> <span class="kw">NOT</span> <span class="kw">EXISTS</span> {  ?compound wdt<span class="ch">:P703</span> ?taxon_without_compound .}</span>
-<span id="cb5-23"><a href="#cb5-23"></a>  ?taxon_with_compound wdt<span class="ch">:P225</span> ?taxonname_with_compound .</span>
-<span id="cb5-24"><a href="#cb5-24"></a>  ?taxon_without_compound wdt<span class="ch">:P225</span> ?taxonname_without_compound .</span>
-<span id="cb5-25"><a href="#cb5-25"></a>  ?compound rdfs<span class="ch">:label</span> ?compoundLabel.</span>
-<span id="cb5-26"><a href="#cb5-26"></a>  <span class="kw">FILTER</span>(LANG(?compoundLabel) <span class="op">=</span> <span class="ot">&quot;en&quot;</span>).</span>
-<span id="cb5-27"><a href="#cb5-27"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb10-1"><a href="#cb10-1"></a># What are examples <span class="kw">of</span> organisms <span class="kw">where</span> compounds were found <span class="kw">in</span> an organism sharing <span class="kw">the</span> same <span class="kw">parent</span> taxon, but <span class="kw">not</span> <span class="kw">the</span> organism itself? </span>
+<span id="cb10-2"><a href="#cb10-2"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?compound ?compoundLabel ?taxonname_with_compound ?taxonname_without_compound ?parent_taxon <span class="kw">WITH</span>{ </span>
+<span id="cb10-3"><a href="#cb10-3"></a>  <span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?compound ?taxon_with_compound ?parent_taxon </span>
+<span id="cb10-4"><a href="#cb10-4"></a>  <span class="kw">WHERE</span> {</span>
+<span id="cb10-5"><a href="#cb10-5"></a>    ?compound wdt<span class="ch">:P235</span> ?inchikey.</span>
+<span id="cb10-6"><a href="#cb10-6"></a>    SERVICE bd<span class="ch">:sample</span> { ?compound wdt<span class="ch">:P703</span> ?taxon_with_compound . bd<span class="ch">:serviceParam</span> bd<span class="ch">:sample</span>.<span class="kw">limit</span> <span class="dv">1000</span> }   </span>
+<span id="cb10-7"><a href="#cb10-7"></a>    ?taxon_with_compound wdt<span class="ch">:P171</span> ?parent_taxon .</span>
+<span id="cb10-8"><a href="#cb10-8"></a>  }</span>
+<span id="cb10-9"><a href="#cb10-9"></a>} <span class="kw">AS</span> %taxon_with_compound </span>
+<span id="cb10-10"><a href="#cb10-10"></a><span class="kw">WITH</span></span>
+<span id="cb10-11"><a href="#cb10-11"></a>{ </span>
+<span id="cb10-12"><a href="#cb10-12"></a>  <span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?taxon_without_compound ?parent_taxon ?compound </span>
+<span id="cb10-13"><a href="#cb10-13"></a>  <span class="kw">WHERE</span> {</span>
+<span id="cb10-14"><a href="#cb10-14"></a>    INCLUDE %taxon_with_compound</span>
+<span id="cb10-15"><a href="#cb10-15"></a>    ?taxon_without_compound wdt<span class="ch">:P171</span> ?parent_taxon .</span>
+<span id="cb10-16"><a href="#cb10-16"></a>    <span class="kw">FILTER</span> (?taxon_with_compound <span class="op">!=</span> ?taxon_without_compound)</span>
+<span id="cb10-17"><a href="#cb10-17"></a>  }</span>
+<span id="cb10-18"><a href="#cb10-18"></a>} <span class="kw">AS</span> %taxon2 </span>
+<span id="cb10-19"><a href="#cb10-19"></a><span class="kw">WHERE</span> {</span>
+<span id="cb10-20"><a href="#cb10-20"></a>  INCLUDE %taxon_with_compound</span>
+<span id="cb10-21"><a href="#cb10-21"></a>  INCLUDE %taxon2</span>
+<span id="cb10-22"><a href="#cb10-22"></a>  <span class="kw">FILTER</span> <span class="kw">NOT</span> <span class="kw">EXISTS</span> {  ?compound wdt<span class="ch">:P703</span> ?taxon_without_compound .}</span>
+<span id="cb10-23"><a href="#cb10-23"></a>  ?taxon_with_compound wdt<span class="ch">:P225</span> ?taxonname_with_compound .</span>
+<span id="cb10-24"><a href="#cb10-24"></a>  ?taxon_without_compound wdt<span class="ch">:P225</span> ?taxonname_without_compound .</span>
+<span id="cb10-25"><a href="#cb10-25"></a>  ?compound rdfs<span class="ch">:label</span> ?compoundLabel.</span>
+<span id="cb10-26"><a href="#cb10-26"></a>  <span class="kw">FILTER</span>(LANG(?compoundLabel) <span class="op">=</span> <span class="ot">&quot;en&quot;</span>).</span>
+<span id="cb10-27"><a href="#cb10-27"></a>}</span></code></pre></div>
 <h4 class="page_break_before" id="query-6---zephyranthes-sister-taxon-compounds">Query 6 - <em>Zephyranthes</em> sister taxon compounds</h4>
 <p>This query answers to the following question:</p>
-<pre><code>Which &lt;i&gt;Zephyranthes&lt;/i&gt; species lack compounds known from at least two species in the genus?</code></pre>
+<pre><code>Which Zephyranthes species lack compounds known from at least two species in the genus?</code></pre>
 <p>Link: <a href="https://w.wiki/3HJf">https://w.wiki/3HJf</a></p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb7-1"><a href="#cb7-1"></a># Which Zephyranthes species lack compounds known <span class="kw">from</span> <span class="kw">at</span> <span class="fu">least</span> two species <span class="kw">in</span> <span class="kw">the</span> genus? </span>
-<span id="cb7-2"><a href="#cb7-2"></a>PREFIX target: <span class="op">&lt;</span>http:<span class="op">//</span>www.wikidata.org<span class="op">/</span>entity<span class="op">/</span>Q191364<span class="op">&gt;</span> # Zephyranthes</span>
-<span id="cb7-3"><a href="#cb7-3"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?compound ?compoundLabel ?taxon_with_compound ?another_taxon_with_compound ?taxon_without_compound</span>
-<span id="cb7-4"><a href="#cb7-4"></a><span class="kw">WITH</span></span>
-<span id="cb7-5"><a href="#cb7-5"></a>{ </span>
-<span id="cb7-6"><a href="#cb7-6"></a>  <span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?compound ?taxon_YES_1 ?taxon_YES_2 </span>
-<span id="cb7-7"><a href="#cb7-7"></a>  <span class="kw">WHERE</span> {</span>
-<span id="cb7-8"><a href="#cb7-8"></a>    ?compound wdt<span class="ch">:P703</span> ?taxon_YES_1 .</span>
-<span id="cb7-9"><a href="#cb7-9"></a>    ?compound wdt<span class="ch">:P703</span> ?taxon_YES_2 .</span>
-<span id="cb7-10"><a href="#cb7-10"></a>    ?taxon_YES_1 wdt<span class="ch">:P171</span> target: .</span>
-<span id="cb7-11"><a href="#cb7-11"></a>    ?taxon_YES_2 wdt<span class="ch">:P171</span> target: .</span>
-<span id="cb7-12"><a href="#cb7-12"></a>    <span class="kw">FILTER</span> (?taxon_YES_2 <span class="op">!=</span> ?taxon_YES_1)</span>
-<span id="cb7-13"><a href="#cb7-13"></a>  }</span>
-<span id="cb7-14"><a href="#cb7-14"></a>} <span class="kw">AS</span> %taxa_with_compound </span>
-<span id="cb7-15"><a href="#cb7-15"></a><span class="kw">WITH</span></span>
-<span id="cb7-16"><a href="#cb7-16"></a>{ </span>
-<span id="cb7-17"><a href="#cb7-17"></a>  <span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?taxon_NO ?compound </span>
-<span id="cb7-18"><a href="#cb7-18"></a>  <span class="kw">WHERE</span> {</span>
-<span id="cb7-19"><a href="#cb7-19"></a>    INCLUDE %taxa_with_compound</span>
-<span id="cb7-20"><a href="#cb7-20"></a>    ?taxon_NO wdt<span class="ch">:P171</span> target: .</span>
-<span id="cb7-21"><a href="#cb7-21"></a>    <span class="kw">FILTER</span> (?taxon_YES_1 <span class="op">!=</span> ?taxon_NO)</span>
-<span id="cb7-22"><a href="#cb7-22"></a>  }</span>
-<span id="cb7-23"><a href="#cb7-23"></a>} <span class="kw">AS</span> %taxon_without_compond </span>
-<span id="cb7-24"><a href="#cb7-24"></a><span class="kw">WHERE</span> {</span>
-<span id="cb7-25"><a href="#cb7-25"></a>  INCLUDE %taxa_with_compound</span>
-<span id="cb7-26"><a href="#cb7-26"></a>  INCLUDE %taxon_without_compond</span>
-<span id="cb7-27"><a href="#cb7-27"></a>  <span class="kw">FILTER</span> <span class="kw">NOT</span> <span class="kw">EXISTS</span> { ?compound wdt<span class="ch">:P703</span> ?taxon_NO .}</span>
-<span id="cb7-28"><a href="#cb7-28"></a>  <span class="kw">VALUES</span> ?classes {</span>
-<span id="cb7-29"><a href="#cb7-29"></a>    wd<span class="ch">:Q11173</span></span>
-<span id="cb7-30"><a href="#cb7-30"></a>    wd<span class="ch">:Q59199015</span></span>
-<span id="cb7-31"><a href="#cb7-31"></a>  }</span>
-<span id="cb7-32"><a href="#cb7-32"></a>  ?taxon_YES_1 wdt<span class="ch">:P225</span> ?taxon_with_compound .</span>
-<span id="cb7-33"><a href="#cb7-33"></a>  ?taxon_YES_2 wdt<span class="ch">:P225</span> ?another_taxon_with_compound .</span>
-<span id="cb7-34"><a href="#cb7-34"></a>  ?taxon_NO wdt<span class="ch">:P225</span> ?taxon_without_compound .</span>
-<span id="cb7-35"><a href="#cb7-35"></a>  ?compound wdt<span class="ch">:P31</span><span class="op">*/</span>wdt<span class="ch">:P279</span><span class="op">*</span> ?classes .</span>
-<span id="cb7-36"><a href="#cb7-36"></a>  ?compound rdfs<span class="ch">:label</span> ?compoundLabel.</span>
-<span id="cb7-37"><a href="#cb7-37"></a>  <span class="kw">FILTER</span>(LANG(?compoundLabel) <span class="op">=</span> <span class="ot">&quot;en&quot;</span>).</span>
-<span id="cb7-38"><a href="#cb7-38"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb12-1"><a href="#cb12-1"></a># Which Zephyranthes species lack compounds known <span class="kw">from</span> <span class="kw">at</span> <span class="fu">least</span> two species <span class="kw">in</span> <span class="kw">the</span> genus? </span>
+<span id="cb12-2"><a href="#cb12-2"></a>PREFIX target: <span class="op">&lt;</span>http:<span class="op">//</span>www.wikidata.org<span class="op">/</span>entity<span class="op">/</span>Q191364<span class="op">&gt;</span> # Zephyranthes</span>
+<span id="cb12-3"><a href="#cb12-3"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?compound ?compoundLabel ?taxon_with_compound ?another_taxon_with_compound ?taxon_without_compound</span>
+<span id="cb12-4"><a href="#cb12-4"></a><span class="kw">WITH</span></span>
+<span id="cb12-5"><a href="#cb12-5"></a>{ </span>
+<span id="cb12-6"><a href="#cb12-6"></a>  <span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?compound ?taxon_YES_1 ?taxon_YES_2 </span>
+<span id="cb12-7"><a href="#cb12-7"></a>  <span class="kw">WHERE</span> {</span>
+<span id="cb12-8"><a href="#cb12-8"></a>    ?compound wdt<span class="ch">:P703</span> ?taxon_YES_1 .</span>
+<span id="cb12-9"><a href="#cb12-9"></a>    ?compound wdt<span class="ch">:P703</span> ?taxon_YES_2 .</span>
+<span id="cb12-10"><a href="#cb12-10"></a>    ?taxon_YES_1 wdt<span class="ch">:P171</span> target: .</span>
+<span id="cb12-11"><a href="#cb12-11"></a>    ?taxon_YES_2 wdt<span class="ch">:P171</span> target: .</span>
+<span id="cb12-12"><a href="#cb12-12"></a>    <span class="kw">FILTER</span> (?taxon_YES_2 <span class="op">!=</span> ?taxon_YES_1)</span>
+<span id="cb12-13"><a href="#cb12-13"></a>  }</span>
+<span id="cb12-14"><a href="#cb12-14"></a>} <span class="kw">AS</span> %taxa_with_compound </span>
+<span id="cb12-15"><a href="#cb12-15"></a><span class="kw">WITH</span></span>
+<span id="cb12-16"><a href="#cb12-16"></a>{ </span>
+<span id="cb12-17"><a href="#cb12-17"></a>  <span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?taxon_NO ?compound </span>
+<span id="cb12-18"><a href="#cb12-18"></a>  <span class="kw">WHERE</span> {</span>
+<span id="cb12-19"><a href="#cb12-19"></a>    INCLUDE %taxa_with_compound</span>
+<span id="cb12-20"><a href="#cb12-20"></a>    ?taxon_NO wdt<span class="ch">:P171</span> target: .</span>
+<span id="cb12-21"><a href="#cb12-21"></a>    <span class="kw">FILTER</span> (?taxon_YES_1 <span class="op">!=</span> ?taxon_NO)</span>
+<span id="cb12-22"><a href="#cb12-22"></a>  }</span>
+<span id="cb12-23"><a href="#cb12-23"></a>} <span class="kw">AS</span> %taxon_without_compond </span>
+<span id="cb12-24"><a href="#cb12-24"></a><span class="kw">WHERE</span> {</span>
+<span id="cb12-25"><a href="#cb12-25"></a>  INCLUDE %taxa_with_compound</span>
+<span id="cb12-26"><a href="#cb12-26"></a>  INCLUDE %taxon_without_compond</span>
+<span id="cb12-27"><a href="#cb12-27"></a>  <span class="kw">FILTER</span> <span class="kw">NOT</span> <span class="kw">EXISTS</span> { ?compound wdt<span class="ch">:P703</span> ?taxon_NO .}</span>
+<span id="cb12-28"><a href="#cb12-28"></a>  <span class="kw">VALUES</span> ?classes {</span>
+<span id="cb12-29"><a href="#cb12-29"></a>    wd<span class="ch">:Q11173</span></span>
+<span id="cb12-30"><a href="#cb12-30"></a>    wd<span class="ch">:Q59199015</span></span>
+<span id="cb12-31"><a href="#cb12-31"></a>  }</span>
+<span id="cb12-32"><a href="#cb12-32"></a>  ?taxon_YES_1 wdt<span class="ch">:P225</span> ?taxon_with_compound .</span>
+<span id="cb12-33"><a href="#cb12-33"></a>  ?taxon_YES_2 wdt<span class="ch">:P225</span> ?another_taxon_with_compound .</span>
+<span id="cb12-34"><a href="#cb12-34"></a>  ?taxon_NO wdt<span class="ch">:P225</span> ?taxon_without_compound .</span>
+<span id="cb12-35"><a href="#cb12-35"></a>  ?compound wdt<span class="ch">:P31</span><span class="op">*/</span>wdt<span class="ch">:P279</span><span class="op">*</span> ?classes .</span>
+<span id="cb12-36"><a href="#cb12-36"></a>  ?compound rdfs<span class="ch">:label</span> ?compoundLabel.</span>
+<span id="cb12-37"><a href="#cb12-37"></a>  <span class="kw">FILTER</span>(LANG(?compoundLabel) <span class="op">=</span> <span class="ot">&quot;en&quot;</span>).</span>
+<span id="cb12-38"><a href="#cb12-38"></a>}</span></code></pre></div>
 <h4 class="page_break_before" id="query-7---antibiotic-like-compounds">Query 7 - Antibiotic-like compounds</h4>
 <p>This query answers to the following question:</p>
 <pre><code>How many compounds are structurally similar to compounds labeled as antibiotics? Results are grouped by the parent taxon of the organism they were found in.</code></pre>
 <p>Link: <a href="https://w.wiki/3HMA">https://w.wiki/3HMA</a></p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb9-1"><a href="#cb9-1"></a># How many compounds are structurally similar <span class="kw">to</span> compounds labeled <span class="kw">as</span> antibiotics? </span>
-<span id="cb9-2"><a href="#cb9-2"></a># Results are grouped <span class="kw">by</span> <span class="kw">the</span> <span class="kw">parent</span> taxon <span class="kw">of</span> <span class="kw">the</span> organism they were found <span class="kw">in</span>.</span>
-<span id="cb9-3"><a href="#cb9-3"></a>PREFIX sachem: <span class="op">&lt;</span>http:<span class="op">//</span>bioinfo.uochb.cas.cz<span class="op">/</span>rdf<span class="op">/</span>v1<span class="fl">.0</span><span class="op">/</span>sachem#<span class="op">&gt;</span> # prefixes <span class="kw">needed</span> <span class="cf">for</span> structural similarity search</span>
-<span id="cb9-4"><a href="#cb9-4"></a>PREFIX idsm: <span class="op">&lt;</span>https:<span class="op">//</span>idsm.elixir<span class="op">-</span>czech.cz<span class="op">/</span>sparql<span class="op">/</span>endpoint<span class="op">/&gt;</span></span>
-<span id="cb9-5"><a href="#cb9-5"></a><span class="kw">SELECT</span> ?parent_taxon ?parent_taxon_name (<span class="fu">COUNT</span>(<span class="kw">DISTINCT</span> ?compound) <span class="kw">AS</span> ?<span class="fu">count</span>) <span class="kw">WHERE</span> {</span>
-<span id="cb9-6"><a href="#cb9-6"></a>  SERVICE idsm<span class="ch">:wikidata</span> {</span>
-<span id="cb9-7"><a href="#cb9-7"></a>    SERVICE <span class="op">&lt;</span>https:<span class="op">//</span><span class="kw">query</span>.wikidata.org<span class="op">/</span>bigdata<span class="op">/</span>namespace<span class="op">/</span>wdq<span class="op">/</span>sparql<span class="op">&gt;</span> {</span>
-<span id="cb9-8"><a href="#cb9-8"></a>      ?antibiotic ((wdt<span class="ch">:P279</span><span class="op">*</span>)<span class="op">/</span>wdt<span class="ch">:P2868</span><span class="op">/</span>wdt<span class="ch">:P486</span>) <span class="ot">&quot;D000900&quot;</span>; # get antibiotics</span>
-<span id="cb9-9"><a href="#cb9-9"></a>        wdt<span class="ch">:P233</span> ?smiles.                                     # get SMILES</span>
-<span id="cb9-10"><a href="#cb9-10"></a>    }</span>
-<span id="cb9-11"><a href="#cb9-11"></a>    ?compound sachem<span class="ch">:similarCompoundSearch</span> _<span class="ch">:b40</span>.</span>
-<span id="cb9-12"><a href="#cb9-12"></a>    _<span class="ch">:b40</span> sachem<span class="ch">:query</span> ?smiles;</span>
-<span id="cb9-13"><a href="#cb9-13"></a>      sachem<span class="ch">:cutoff</span> <span class="ot">&quot;0.9&quot;</span>^^xsd<span class="ch">:double</span>.                        # similarity cut<span class="op">-</span><span class="kw">off</span> <span class="kw">at</span> <span class="fl">0.9</span> similarity</span>
-<span id="cb9-14"><a href="#cb9-14"></a>  }</span>
-<span id="cb9-15"><a href="#cb9-15"></a>  hint<span class="ch">:Prior</span> hint<span class="ch">:runFirst</span> <span class="ot">&quot;true&quot;</span>^^xsd<span class="ch">:boolean</span>.</span>
-<span id="cb9-16"><a href="#cb9-16"></a>  ?compound wdt<span class="ch">:P703</span> ?taxon.                                  # found <span class="kw">in</span> taxon</span>
-<span id="cb9-17"><a href="#cb9-17"></a>  ?taxon wdt<span class="ch">:P171</span> ?parent_taxon.                              # get <span class="kw">the</span> <span class="kw">parent</span> taxon </span>
-<span id="cb9-18"><a href="#cb9-18"></a>  OPTIONAL { ?parent_taxon wdt<span class="ch">:P225</span> ?parent_taxon_name. }</span>
-<span id="cb9-19"><a href="#cb9-19"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
-<span id="cb9-20"><a href="#cb9-20"></a>}</span>
-<span id="cb9-21"><a href="#cb9-21"></a><span class="kw">GROUP</span> <span class="kw">BY</span> ?parent_taxon ?parent_taxon_name                     # <span class="fu">count</span> per <span class="kw">parent</span> taxon </span>
-<span id="cb9-22"><a href="#cb9-22"></a><span class="kw">ORDER</span> <span class="kw">BY</span> <span class="kw">DESC</span> (?<span class="fu">count</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb14-1"><a href="#cb14-1"></a># How many compounds are structurally similar <span class="kw">to</span> compounds labeled <span class="kw">as</span> antibiotics? </span>
+<span id="cb14-2"><a href="#cb14-2"></a># Results are grouped <span class="kw">by</span> <span class="kw">the</span> <span class="kw">parent</span> taxon <span class="kw">of</span> <span class="kw">the</span> organism they were found <span class="kw">in</span>.</span>
+<span id="cb14-3"><a href="#cb14-3"></a>PREFIX sachem: <span class="op">&lt;</span>http:<span class="op">//</span>bioinfo.uochb.cas.cz<span class="op">/</span>rdf<span class="op">/</span>v1<span class="fl">.0</span><span class="op">/</span>sachem#<span class="op">&gt;</span> # prefixes <span class="kw">needed</span> <span class="cf">for</span> structural similarity search</span>
+<span id="cb14-4"><a href="#cb14-4"></a>PREFIX idsm: <span class="op">&lt;</span>https:<span class="op">//</span>idsm.elixir<span class="op">-</span>czech.cz<span class="op">/</span>sparql<span class="op">/</span>endpoint<span class="op">/&gt;</span></span>
+<span id="cb14-5"><a href="#cb14-5"></a><span class="kw">SELECT</span> ?parent_taxon ?parent_taxon_name (<span class="fu">COUNT</span>(<span class="kw">DISTINCT</span> ?compound) <span class="kw">AS</span> ?<span class="fu">count</span>) <span class="kw">WHERE</span> {</span>
+<span id="cb14-6"><a href="#cb14-6"></a>  SERVICE idsm<span class="ch">:wikidata</span> {</span>
+<span id="cb14-7"><a href="#cb14-7"></a>    SERVICE <span class="op">&lt;</span>https:<span class="op">//</span><span class="kw">query</span>.wikidata.org<span class="op">/</span>bigdata<span class="op">/</span>namespace<span class="op">/</span>wdq<span class="op">/</span>sparql<span class="op">&gt;</span> {</span>
+<span id="cb14-8"><a href="#cb14-8"></a>      ?antibiotic ((wdt<span class="ch">:P279</span><span class="op">*</span>)<span class="op">/</span>wdt<span class="ch">:P2868</span><span class="op">/</span>wdt<span class="ch">:P486</span>) <span class="ot">&quot;D000900&quot;</span>; # get antibiotics</span>
+<span id="cb14-9"><a href="#cb14-9"></a>        wdt<span class="ch">:P233</span> ?smiles.                                     # get SMILES</span>
+<span id="cb14-10"><a href="#cb14-10"></a>    }</span>
+<span id="cb14-11"><a href="#cb14-11"></a>    ?compound sachem<span class="ch">:similarCompoundSearch</span> _<span class="ch">:b40</span>.</span>
+<span id="cb14-12"><a href="#cb14-12"></a>    _<span class="ch">:b40</span> sachem<span class="ch">:query</span> ?smiles;</span>
+<span id="cb14-13"><a href="#cb14-13"></a>      sachem<span class="ch">:cutoff</span> <span class="ot">&quot;0.9&quot;</span>^^xsd<span class="ch">:double</span>.                        # similarity cut<span class="op">-</span><span class="kw">off</span> <span class="kw">at</span> <span class="fl">0.9</span> similarity</span>
+<span id="cb14-14"><a href="#cb14-14"></a>  }</span>
+<span id="cb14-15"><a href="#cb14-15"></a>  hint<span class="ch">:Prior</span> hint<span class="ch">:runFirst</span> <span class="ot">&quot;true&quot;</span>^^xsd<span class="ch">:boolean</span>.</span>
+<span id="cb14-16"><a href="#cb14-16"></a>  ?compound wdt<span class="ch">:P703</span> ?taxon.                                  # found <span class="kw">in</span> taxon</span>
+<span id="cb14-17"><a href="#cb14-17"></a>  ?taxon wdt<span class="ch">:P171</span> ?parent_taxon.                              # get <span class="kw">the</span> <span class="kw">parent</span> taxon </span>
+<span id="cb14-18"><a href="#cb14-18"></a>  OPTIONAL { ?parent_taxon wdt<span class="ch">:P225</span> ?parent_taxon_name. }</span>
+<span id="cb14-19"><a href="#cb14-19"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
+<span id="cb14-20"><a href="#cb14-20"></a>}</span>
+<span id="cb14-21"><a href="#cb14-21"></a><span class="kw">GROUP</span> <span class="kw">BY</span> ?parent_taxon ?parent_taxon_name                     # <span class="fu">count</span> per <span class="kw">parent</span> taxon </span>
+<span id="cb14-22"><a href="#cb14-22"></a><span class="kw">ORDER</span> <span class="kw">BY</span> <span class="kw">DESC</span> (?<span class="fu">count</span>)</span></code></pre></div>
 <h4 class="page_break_before" id="query-8---triples">Query 8 - Triples</h4>
-<p>This query answers to the following question:
-<code>Which are the available referenced structure-organism pairs? (example limited to 1000 results)</code></p>
+<p>This query answers to the following question:</p>
+<pre><code>Which are the available referenced structure-organism pairs? (example limited to 1000 results)</code></pre>
 <p>Link: <a href="https://w.wiki/3JpE">https://w.wiki/3JpE</a></p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb10-1"><a href="#cb10-1"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?<span class="kw">structure</span> ?structure_inchikey ?taxon ?taxon_name ?reference ?reference_doi <span class="kw">WHERE</span> {</span>
-<span id="cb10-2"><a href="#cb10-2"></a>  ?<span class="kw">structure</span> wdt<span class="ch">:P235</span> ?structure_inchikey;       # get <span class="kw">the</span> inchikey</span>
-<span id="cb10-3"><a href="#cb10-3"></a>    p<span class="ch">:P703</span>[                                      # statement found <span class="kw">in</span> taxon</span>
-<span id="cb10-4"><a href="#cb10-4"></a>     ps<span class="ch">:P703</span> ?taxon;                             # get <span class="kw">the</span> taxon</span>
-<span id="cb10-5"><a href="#cb10-5"></a>     (prov<span class="ch">:wasDerivedFrom</span><span class="op">/</span>pr<span class="ch">:P248</span>) ?reference ]. # get <span class="kw">the</span> reference</span>
-<span id="cb10-6"><a href="#cb10-6"></a>  ?taxon wdt<span class="ch">:P225</span> ?taxon_name.                   # get <span class="kw">the</span> taxon scientific name</span>
-<span id="cb10-7"><a href="#cb10-7"></a>  ?reference wdt<span class="ch">:P356</span> ?reference_doi.            # get <span class="kw">the</span> reference DOI</span>
-<span id="cb10-8"><a href="#cb10-8"></a>}</span>
-<span id="cb10-9"><a href="#cb10-9"></a><span class="kw">LIMIT</span> <span class="dv">1000</span></span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb16-1"><a href="#cb16-1"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?<span class="kw">structure</span> ?structure_inchikey ?taxon ?taxon_name ?reference ?reference_doi <span class="kw">WHERE</span> {</span>
+<span id="cb16-2"><a href="#cb16-2"></a>  ?<span class="kw">structure</span> wdt<span class="ch">:P235</span> ?structure_inchikey;       # get <span class="kw">the</span> inchikey</span>
+<span id="cb16-3"><a href="#cb16-3"></a>    p<span class="ch">:P703</span>[                                      # statement found <span class="kw">in</span> taxon</span>
+<span id="cb16-4"><a href="#cb16-4"></a>     ps<span class="ch">:P703</span> ?taxon;                             # get <span class="kw">the</span> taxon</span>
+<span id="cb16-5"><a href="#cb16-5"></a>     (prov<span class="ch">:wasDerivedFrom</span><span class="op">/</span>pr<span class="ch">:P248</span>) ?reference ]. # get <span class="kw">the</span> reference</span>
+<span id="cb16-6"><a href="#cb16-6"></a>  ?taxon wdt<span class="ch">:P225</span> ?taxon_name.                   # get <span class="kw">the</span> taxon scientific name</span>
+<span id="cb16-7"><a href="#cb16-7"></a>  ?reference wdt<span class="ch">:P356</span> ?reference_doi.            # get <span class="kw">the</span> reference DOI</span>
+<span id="cb16-8"><a href="#cb16-8"></a>}</span>
+<span id="cb16-9"><a href="#cb16-9"></a><span class="kw">LIMIT</span> <span class="dv">1000</span></span></code></pre></div>
 <h4 class="page_break_before" id="query-9---indolic-scaffold">Query 9 - Indolic scaffold</h4>
-<p>This query answers to the following question:
-<code>Which organisms contain indolic scaffolds? Count occurrences, group and order the results by the parent taxon.</code></p>
+<p>This query answers to the following question:</p>
+<pre><code>Which organisms contain indolic scaffolds? Count occurrences, group and order the results by the parent taxon.</code></pre>
 <p>Link: <a href="https://w.wiki/3HMD">https://w.wiki/3HMD</a></p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb11-1"><a href="#cb11-1"></a># Which organisms contain indolic scaffold? <span class="kw">Group</span> <span class="kw">and</span> <span class="kw">order</span> <span class="kw">the</span> results <span class="kw">by</span> <span class="kw">the</span> <span class="kw">parent</span> taxon.</span>
-<span id="cb11-2"><a href="#cb11-2"></a>PREFIX sachem: <span class="op">&lt;</span>http:<span class="op">//</span>bioinfo.uochb.cas.cz<span class="op">/</span>rdf<span class="op">/</span>v1<span class="fl">.0</span><span class="op">/</span>sachem#<span class="op">&gt;</span> # prefixes <span class="kw">needed</span> <span class="cf">for</span> structural similarity search</span>
-<span id="cb11-3"><a href="#cb11-3"></a>PREFIX wd: <span class="op">&lt;</span>http:<span class="op">//</span>www.wikidata.org<span class="op">/</span>entity<span class="op">/&gt;</span></span>
-<span id="cb11-4"><a href="#cb11-4"></a>PREFIX p: <span class="op">&lt;</span>http:<span class="op">//</span>www.wikidata.org<span class="op">/</span>prop<span class="op">/&gt;</span></span>
-<span id="cb11-5"><a href="#cb11-5"></a>PREFIX idsm: <span class="op">&lt;</span>https:<span class="op">//</span>idsm.elixir<span class="op">-</span>czech.cz<span class="op">/</span>sparql<span class="op">/</span>endpoint<span class="op">/&gt;</span></span>
-<span id="cb11-6"><a href="#cb11-6"></a></span>
-<span id="cb11-7"><a href="#cb11-7"></a><span class="kw">SELECT</span> ?parent_taxon ?parent_taxon_name (<span class="fu">COUNT</span>(<span class="kw">DISTINCT</span> ?compound) <span class="kw">AS</span> ?<span class="fu">count</span>)  <span class="kw">WHERE</span> {</span>
-<span id="cb11-8"><a href="#cb11-8"></a>  SERVICE idsm<span class="ch">:wikidata</span> {</span>
-<span id="cb11-9"><a href="#cb11-9"></a>    ?compound sachem<span class="ch">:substructureSearch</span></span>
-<span id="cb11-10"><a href="#cb11-10"></a>              [ sachem<span class="ch">:query</span> <span class="ot">&quot;NCCC1=CNC2=C1C=CC=C2&quot;</span> ] # indolic scaffold</span>
-<span id="cb11-11"><a href="#cb11-11"></a>  }</span>
-<span id="cb11-12"><a href="#cb11-12"></a>  hint<span class="ch">:Prior</span> hint<span class="ch">:runFirst</span> <span class="kw">true</span>.                      # hint <span class="kw">to</span> evaluate <span class="kw">the</span> idsm service <span class="fu">first</span></span>
-<span id="cb11-13"><a href="#cb11-13"></a>  ?compound p<span class="ch">:P703</span> ?statement;                        # found <span class="kw">in</span> taxon</span>
-<span id="cb11-14"><a href="#cb11-14"></a>            wdt<span class="ch">:P235</span> ?inchikey.                       # get <span class="kw">the</span> inchikey</span>
-<span id="cb11-15"><a href="#cb11-15"></a>  ?statement ps<span class="ch">:P703</span> ?taxon.                          # get <span class="kw">the</span> taxon</span>
-<span id="cb11-16"><a href="#cb11-16"></a>  ?taxon wdt<span class="ch">:P171</span> ?parent_taxon.                      # get <span class="kw">the</span> <span class="kw">parent</span> taxon</span>
-<span id="cb11-17"><a href="#cb11-17"></a>  ?parent_taxon wdt<span class="ch">:P225</span> ?parent_taxon_name.          # get <span class="kw">the</span> <span class="kw">parent</span> taxon name</span>
-<span id="cb11-18"><a href="#cb11-18"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
-<span id="cb11-19"><a href="#cb11-19"></a>}</span>
-<span id="cb11-20"><a href="#cb11-20"></a><span class="kw">GROUP</span> <span class="kw">BY</span> ?parent_taxon ?parent_taxon_name</span>
-<span id="cb11-21"><a href="#cb11-21"></a><span class="kw">ORDER</span> <span class="kw">BY</span> <span class="kw">DESC</span> (?<span class="fu">count</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb18-1"><a href="#cb18-1"></a># Which organisms contain indolic scaffold? <span class="kw">Group</span> <span class="kw">and</span> <span class="kw">order</span> <span class="kw">the</span> results <span class="kw">by</span> <span class="kw">the</span> <span class="kw">parent</span> taxon.</span>
+<span id="cb18-2"><a href="#cb18-2"></a>PREFIX sachem: <span class="op">&lt;</span>http:<span class="op">//</span>bioinfo.uochb.cas.cz<span class="op">/</span>rdf<span class="op">/</span>v1<span class="fl">.0</span><span class="op">/</span>sachem#<span class="op">&gt;</span> # prefixes <span class="kw">needed</span> <span class="cf">for</span> structural similarity search</span>
+<span id="cb18-3"><a href="#cb18-3"></a>PREFIX wd: <span class="op">&lt;</span>http:<span class="op">//</span>www.wikidata.org<span class="op">/</span>entity<span class="op">/&gt;</span></span>
+<span id="cb18-4"><a href="#cb18-4"></a>PREFIX p: <span class="op">&lt;</span>http:<span class="op">//</span>www.wikidata.org<span class="op">/</span>prop<span class="op">/&gt;</span></span>
+<span id="cb18-5"><a href="#cb18-5"></a>PREFIX idsm: <span class="op">&lt;</span>https:<span class="op">//</span>idsm.elixir<span class="op">-</span>czech.cz<span class="op">/</span>sparql<span class="op">/</span>endpoint<span class="op">/&gt;</span></span>
+<span id="cb18-6"><a href="#cb18-6"></a></span>
+<span id="cb18-7"><a href="#cb18-7"></a><span class="kw">SELECT</span> ?parent_taxon ?parent_taxon_name (<span class="fu">COUNT</span>(<span class="kw">DISTINCT</span> ?compound) <span class="kw">AS</span> ?<span class="fu">count</span>)  <span class="kw">WHERE</span> {</span>
+<span id="cb18-8"><a href="#cb18-8"></a>  SERVICE idsm<span class="ch">:wikidata</span> {</span>
+<span id="cb18-9"><a href="#cb18-9"></a>    ?compound sachem<span class="ch">:substructureSearch</span></span>
+<span id="cb18-10"><a href="#cb18-10"></a>              [ sachem<span class="ch">:query</span> <span class="ot">&quot;NCCC1=CNC2=C1C=CC=C2&quot;</span> ] # indolic scaffold</span>
+<span id="cb18-11"><a href="#cb18-11"></a>  }</span>
+<span id="cb18-12"><a href="#cb18-12"></a>  hint<span class="ch">:Prior</span> hint<span class="ch">:runFirst</span> <span class="kw">true</span>.                      # hint <span class="kw">to</span> evaluate <span class="kw">the</span> idsm service <span class="fu">first</span></span>
+<span id="cb18-13"><a href="#cb18-13"></a>  ?compound p<span class="ch">:P703</span> ?statement;                        # found <span class="kw">in</span> taxon</span>
+<span id="cb18-14"><a href="#cb18-14"></a>            wdt<span class="ch">:P235</span> ?inchikey.                       # get <span class="kw">the</span> inchikey</span>
+<span id="cb18-15"><a href="#cb18-15"></a>  ?statement ps<span class="ch">:P703</span> ?taxon.                          # get <span class="kw">the</span> taxon</span>
+<span id="cb18-16"><a href="#cb18-16"></a>  ?taxon wdt<span class="ch">:P171</span> ?parent_taxon.                      # get <span class="kw">the</span> <span class="kw">parent</span> taxon</span>
+<span id="cb18-17"><a href="#cb18-17"></a>  ?parent_taxon wdt<span class="ch">:P225</span> ?parent_taxon_name.          # get <span class="kw">the</span> <span class="kw">parent</span> taxon name</span>
+<span id="cb18-18"><a href="#cb18-18"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
+<span id="cb18-19"><a href="#cb18-19"></a>}</span>
+<span id="cb18-20"><a href="#cb18-20"></a><span class="kw">GROUP</span> <span class="kw">BY</span> ?parent_taxon ?parent_taxon_name</span>
+<span id="cb18-21"><a href="#cb18-21"></a><span class="kw">ORDER</span> <span class="kw">BY</span> <span class="kw">DESC</span> (?<span class="fu">count</span>)</span></code></pre></div>
 <h4 class="page_break_before" id="query-10---senior-np-chemists">Query 10 - Senior NP chemists</h4>
-<p>This query answers to the following question:
-<code>How many structure-organism pairs have been referenced by certain authors? (Here, two senior natural products chemists and co-authors of this paper are compared to the late Ferdinand Bohlmann).</code></p>
+<p>This query answers to the following question:</p>
+<pre><code>How many structure-organism pairs have been referenced by certain authors? (Here, two senior natural products chemists and co-authors of this paper are compared to the late Ferdinand Bohlmann).</code></pre>
 <p>Link: <a href="https://w.wiki/3HML">https://w.wiki/3HML</a></p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb12-1"><a href="#cb12-1"></a># How many <span class="kw">structure</span><span class="op">-</span>organism pairs have been referenced <span class="kw">by</span> certain authors? </span>
-<span id="cb12-2"><a href="#cb12-2"></a># Here, two senior <span class="kw">natural</span> products chemists are compared <span class="kw">to</span> <span class="kw">the</span> late Ferdinand Bohlmann</span>
-<span id="cb12-3"><a href="#cb12-3"></a>#defaultView<span class="ch">:BarChart</span></span>
-<span id="cb12-4"><a href="#cb12-4"></a><span class="kw">SELECT</span> ?authors_namesLabel (<span class="fu">COUNT</span>(<span class="kw">DISTINCT</span>(?compound)) <span class="kw">AS</span> ?<span class="fu">count</span>) <span class="kw">WHERE</span> {</span>
-<span id="cb12-5"><a href="#cb12-5"></a>  ?compound p<span class="ch">:P703</span> ?stmt.           # statement found <span class="kw">in</span> taxon</span>
-<span id="cb12-6"><a href="#cb12-6"></a>    ?stmt prov<span class="ch">:wasDerivedFrom</span> ?<span class="fu">ref</span>. # get <span class="kw">the</span> reference</span>
-<span id="cb12-7"><a href="#cb12-7"></a>    ?<span class="fu">ref</span> pr<span class="ch">:P248</span> ?art.              # stated <span class="kw">in</span></span>
-<span id="cb12-8"><a href="#cb12-8"></a>  <span class="kw">VALUES</span> ?authors_names {</span>
-<span id="cb12-9"><a href="#cb12-9"></a>    wd<span class="ch">:Q56084663</span>                    # JLW</span>
-<span id="cb12-10"><a href="#cb12-10"></a>    wd<span class="ch">:Q40259636</span>                    # GFP</span>
-<span id="cb12-11"><a href="#cb12-11"></a>    wd<span class="ch">:Q1405133</span>                     # A german chemist <span class="kw">of</span> <span class="kw">the</span> 20th century <span class="op">..</span>. Ferdinand Bohlmann</span>
-<span id="cb12-12"><a href="#cb12-12"></a>  }</span>
-<span id="cb12-13"><a href="#cb12-13"></a>  ?art wdt<span class="ch">:P50</span> ?authors_names.      # <span class="kw">limit</span> <span class="kw">to</span> <span class="kw">references</span> containing <span class="kw">the</span> author names</span>
-<span id="cb12-14"><a href="#cb12-14"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
-<span id="cb12-15"><a href="#cb12-15"></a>}</span>
-<span id="cb12-16"><a href="#cb12-16"></a><span class="kw">GROUP</span> <span class="kw">BY</span> ?authors_namesLabel</span>
-<span id="cb12-17"><a href="#cb12-17"></a><span class="kw">ORDER</span> <span class="kw">BY</span> <span class="kw">DESC</span> (?<span class="fu">count</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb20"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb20-1"><a href="#cb20-1"></a># How many <span class="kw">structure</span><span class="op">-</span>organism pairs have been referenced <span class="kw">by</span> certain authors? </span>
+<span id="cb20-2"><a href="#cb20-2"></a># Here, two senior <span class="kw">natural</span> products chemists are compared <span class="kw">to</span> <span class="kw">the</span> late Ferdinand Bohlmann</span>
+<span id="cb20-3"><a href="#cb20-3"></a>#defaultView<span class="ch">:BarChart</span></span>
+<span id="cb20-4"><a href="#cb20-4"></a><span class="kw">SELECT</span> ?authors_namesLabel (<span class="fu">COUNT</span>(<span class="kw">DISTINCT</span>(?compound)) <span class="kw">AS</span> ?<span class="fu">count</span>) <span class="kw">WHERE</span> {</span>
+<span id="cb20-5"><a href="#cb20-5"></a>  ?compound p<span class="ch">:P703</span> ?stmt.           # statement found <span class="kw">in</span> taxon</span>
+<span id="cb20-6"><a href="#cb20-6"></a>    ?stmt prov<span class="ch">:wasDerivedFrom</span> ?<span class="fu">ref</span>. # get <span class="kw">the</span> reference</span>
+<span id="cb20-7"><a href="#cb20-7"></a>    ?<span class="fu">ref</span> pr<span class="ch">:P248</span> ?art.              # stated <span class="kw">in</span></span>
+<span id="cb20-8"><a href="#cb20-8"></a>  <span class="kw">VALUES</span> ?authors_names {</span>
+<span id="cb20-9"><a href="#cb20-9"></a>    wd<span class="ch">:Q56084663</span>                    # JLW</span>
+<span id="cb20-10"><a href="#cb20-10"></a>    wd<span class="ch">:Q40259636</span>                    # GFP</span>
+<span id="cb20-11"><a href="#cb20-11"></a>    wd<span class="ch">:Q1405133</span>                     # A german chemist <span class="kw">of</span> <span class="kw">the</span> 20th century <span class="op">..</span>. Ferdinand Bohlmann</span>
+<span id="cb20-12"><a href="#cb20-12"></a>  }</span>
+<span id="cb20-13"><a href="#cb20-13"></a>  ?art wdt<span class="ch">:P50</span> ?authors_names.      # <span class="kw">limit</span> <span class="kw">to</span> <span class="kw">references</span> containing <span class="kw">the</span> author names</span>
+<span id="cb20-14"><a href="#cb20-14"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
+<span id="cb20-15"><a href="#cb20-15"></a>}</span>
+<span id="cb20-16"><a href="#cb20-16"></a><span class="kw">GROUP</span> <span class="kw">BY</span> ?authors_namesLabel</span>
+<span id="cb20-17"><a href="#cb20-17"></a><span class="kw">ORDER</span> <span class="kw">BY</span> <span class="kw">DESC</span> (?<span class="fu">count</span>)</span></code></pre></div>
 <h3 class="page_break_before" id="si-4-wikidata-entry-creation-tutorial">SI 4 Wikidata Entry Creation Tutorial</h3>
 <p><span class="banner lightblue"><i class="fas fa-scroll fa-lg"></i> <strong>Tutorial for manual creation</strong><br>
 available at <a href="https://osf.io/7dk8h/">https://osf.io/7dk8h/</a> and <a href="https://oolonek.github.io/dendron/notes/235ba226-b0da-4c23-bbb7-c46c4a65d2f1.html">https://oolonek.github.io/dendron/notes/235ba226-b0da-4c23-bbb7-c46c4a65d2f1.html</a></span></p>
@@ -2203,18 +2203,18 @@ For “<a href="https://doi.org/10.1021/OL2030907">Trigocherrin A, the first nat
 Note that DOIs are uppercase-normalized in Wikidata.</p>
 <h5 id="check-for-the-presence-of-your-compound-in-wikidata">Check for the presence of your compound in Wikidata <a name="check_compound"></a></h5>
 <p>Using the compound’s InChIKey (i.e. <code>QOVGHDRCAGYGEB-FFZYJECLSA-N</code> for trigocherrin A), run a SPARQL query to check if your compound is present in Wikidata or not:</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb15-1"><a href="#cb15-1"></a><span class="kw">SELECT</span> ?item ?itemLabel <span class="kw">WHERE</span> {</span>
-<span id="cb15-2"><a href="#cb15-2"></a>  <span class="kw">VALUES</span> ?classes {</span>
-<span id="cb15-3"><a href="#cb15-3"></a>    wd<span class="ch">:Q11173</span> # chemical compound</span>
-<span id="cb15-4"><a href="#cb15-4"></a>    wd<span class="ch">:Q59199015</span> # <span class="kw">group</span> <span class="kw">of</span> stereoisomers</span>
-<span id="cb15-5"><a href="#cb15-5"></a>    wd<span class="ch">:Q79529</span> # chemical substance</span>
-<span id="cb15-6"><a href="#cb15-6"></a>    wd<span class="ch">:Q17339814</span> # <span class="kw">group</span> <span class="kw">of</span> chemical substances</span>
-<span id="cb15-7"><a href="#cb15-7"></a>    wd<span class="ch">:Q47154513</span> # structural <span class="kw">class</span> <span class="kw">of</span> chemical compounds</span>
-<span id="cb15-8"><a href="#cb15-8"></a>  }</span>
-<span id="cb15-9"><a href="#cb15-9"></a>  ?item wdt<span class="ch">:P31</span> ?classes. # <span class="kw">instance</span> <span class="kw">of</span></span>
-<span id="cb15-10"><a href="#cb15-10"></a>  ?item wdt<span class="ch">:P235</span> <span class="st">&#39;QOVGHDRCAGYGEB-FFZYJECLSA-N&#39;</span></span>
-<span id="cb15-11"><a href="#cb15-11"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
-<span id="cb15-12"><a href="#cb15-12"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb23-1"><a href="#cb23-1"></a><span class="kw">SELECT</span> ?item ?itemLabel <span class="kw">WHERE</span> {</span>
+<span id="cb23-2"><a href="#cb23-2"></a>  <span class="kw">VALUES</span> ?classes {</span>
+<span id="cb23-3"><a href="#cb23-3"></a>    wd<span class="ch">:Q11173</span> # chemical compound</span>
+<span id="cb23-4"><a href="#cb23-4"></a>    wd<span class="ch">:Q59199015</span> # <span class="kw">group</span> <span class="kw">of</span> stereoisomers</span>
+<span id="cb23-5"><a href="#cb23-5"></a>    wd<span class="ch">:Q79529</span> # chemical substance</span>
+<span id="cb23-6"><a href="#cb23-6"></a>    wd<span class="ch">:Q17339814</span> # <span class="kw">group</span> <span class="kw">of</span> chemical substances</span>
+<span id="cb23-7"><a href="#cb23-7"></a>    wd<span class="ch">:Q47154513</span> # structural <span class="kw">class</span> <span class="kw">of</span> chemical compounds</span>
+<span id="cb23-8"><a href="#cb23-8"></a>  }</span>
+<span id="cb23-9"><a href="#cb23-9"></a>  ?item wdt<span class="ch">:P31</span> ?classes. # <span class="kw">instance</span> <span class="kw">of</span></span>
+<span id="cb23-10"><a href="#cb23-10"></a>  ?item wdt<span class="ch">:P235</span> <span class="st">&#39;QOVGHDRCAGYGEB-FFZYJECLSA-N&#39;</span></span>
+<span id="cb23-11"><a href="#cb23-11"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
+<span id="cb23-12"><a href="#cb23-12"></a>}</span></code></pre></div>
 <p><a href="https://w.wiki/32zU">Try this query</a>.
 You can adapt it by replacing the InChIKey with the one for your compound.</p>
 <p>Alternatively you can use the following Scholia link (replace by your compounds InChIKey) <a href="https://scholia.toolforge.org/inchikey/QOVGHDRCAGYGEB-FFZYJECLSA-N">https://scholia.toolforge.org/inchikey/QOVGHDRCAGYGEB-FFZYJECLSA-N</a></p>
@@ -2309,35 +2309,35 @@ Using such semi-automated workflows does require and account that is a minimum n
 You can add further statements, e.g. <code>molecular formula</code>, or <code>SPLASH code</code> for linking to spectral data.</p>
 <p>The Wikidata entry <a href="https://www.wikidata.org/wiki/Q105674316">https://www.wikidata.org/wiki/Q105674316</a> has been started using these instructions.</p>
 <p>You can run a SPARQL query and check that everything went smoothly by modifying the InChiKey line in the following <a href="https://w.wiki/32zb">SPARQL query</a>:</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb17-1"><a href="#cb17-1"></a><span class="kw">SELECT</span> ?item ?itemLabel ?taxonLabel ?artLabel <span class="kw">WHERE</span> {</span>
-<span id="cb17-2"><a href="#cb17-2"></a>  <span class="kw">VALUES</span> ?classes {</span>
-<span id="cb17-3"><a href="#cb17-3"></a>    wd<span class="ch">:Q11173</span> # chemical compound</span>
-<span id="cb17-4"><a href="#cb17-4"></a>    wd<span class="ch">:Q59199015</span> # <span class="kw">group</span> <span class="kw">of</span> stereoisomers</span>
-<span id="cb17-5"><a href="#cb17-5"></a>    wd<span class="ch">:Q79529</span> # chemical substance</span>
-<span id="cb17-6"><a href="#cb17-6"></a>    wd<span class="ch">:Q17339814</span> # <span class="kw">group</span> <span class="kw">of</span> chemical substances</span>
-<span id="cb17-7"><a href="#cb17-7"></a>    wd<span class="ch">:Q47154513</span> # structural <span class="kw">class</span> <span class="kw">of</span> chemical compounds</span>
-<span id="cb17-8"><a href="#cb17-8"></a>  }</span>
-<span id="cb17-9"><a href="#cb17-9"></a>  ?item wdt<span class="ch">:P31</span> ?classes. # <span class="kw">instance</span> <span class="kw">of</span></span>
-<span id="cb17-10"><a href="#cb17-10"></a>  ?item wdt<span class="ch">:P235</span> <span class="st">&#39;QOVGHDRCAGYGEB-FFZYJECLSA-N&#39;</span> # InChiKey</span>
-<span id="cb17-11"><a href="#cb17-11"></a>  {</span>
-<span id="cb17-12"><a href="#cb17-12"></a>    ?item p<span class="ch">:P1582</span> ?stmt. # <span class="kw">natural</span> product <span class="kw">of</span> taxon</span>
-<span id="cb17-13"><a href="#cb17-13"></a>    ?stmt ps<span class="ch">:P1582</span> ?taxon. # <span class="kw">natural</span> product <span class="kw">of</span> taxon</span>
-<span id="cb17-14"><a href="#cb17-14"></a>    OPTIONAL {</span>
-<span id="cb17-15"><a href="#cb17-15"></a>      ?stmt prov<span class="ch">:wasDerivedFrom</span> ?<span class="fu">ref</span>.</span>
-<span id="cb17-16"><a href="#cb17-16"></a>      ?<span class="fu">ref</span> pr<span class="ch">:P248</span> ?art. # stated <span class="kw">in</span></span>
-<span id="cb17-17"><a href="#cb17-17"></a>    }</span>
-<span id="cb17-18"><a href="#cb17-18"></a>  }</span>
-<span id="cb17-19"><a href="#cb17-19"></a>  <span class="kw">UNION</span></span>
-<span id="cb17-20"><a href="#cb17-20"></a>  {</span>
-<span id="cb17-21"><a href="#cb17-21"></a>    ?item p<span class="ch">:P703</span> ?stmt. # found <span class="kw">in</span> taxon</span>
-<span id="cb17-22"><a href="#cb17-22"></a>    ?stmt ps<span class="ch">:P703</span> ?taxon. # found <span class="kw">in</span> taxon</span>
-<span id="cb17-23"><a href="#cb17-23"></a>    OPTIONAL {</span>
-<span id="cb17-24"><a href="#cb17-24"></a>      ?stmt prov<span class="ch">:wasDerivedFrom</span> ?<span class="fu">ref</span>.</span>
-<span id="cb17-25"><a href="#cb17-25"></a>      ?<span class="fu">ref</span> pr<span class="ch">:P248</span> ?art. # stated <span class="kw">in</span></span>
-<span id="cb17-26"><a href="#cb17-26"></a>    }</span>
-<span id="cb17-27"><a href="#cb17-27"></a>  }</span>
-<span id="cb17-28"><a href="#cb17-28"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
-<span id="cb17-29"><a href="#cb17-29"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb25"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb25-1"><a href="#cb25-1"></a><span class="kw">SELECT</span> ?item ?itemLabel ?taxonLabel ?artLabel <span class="kw">WHERE</span> {</span>
+<span id="cb25-2"><a href="#cb25-2"></a>  <span class="kw">VALUES</span> ?classes {</span>
+<span id="cb25-3"><a href="#cb25-3"></a>    wd<span class="ch">:Q11173</span> # chemical compound</span>
+<span id="cb25-4"><a href="#cb25-4"></a>    wd<span class="ch">:Q59199015</span> # <span class="kw">group</span> <span class="kw">of</span> stereoisomers</span>
+<span id="cb25-5"><a href="#cb25-5"></a>    wd<span class="ch">:Q79529</span> # chemical substance</span>
+<span id="cb25-6"><a href="#cb25-6"></a>    wd<span class="ch">:Q17339814</span> # <span class="kw">group</span> <span class="kw">of</span> chemical substances</span>
+<span id="cb25-7"><a href="#cb25-7"></a>    wd<span class="ch">:Q47154513</span> # structural <span class="kw">class</span> <span class="kw">of</span> chemical compounds</span>
+<span id="cb25-8"><a href="#cb25-8"></a>  }</span>
+<span id="cb25-9"><a href="#cb25-9"></a>  ?item wdt<span class="ch">:P31</span> ?classes. # <span class="kw">instance</span> <span class="kw">of</span></span>
+<span id="cb25-10"><a href="#cb25-10"></a>  ?item wdt<span class="ch">:P235</span> <span class="st">&#39;QOVGHDRCAGYGEB-FFZYJECLSA-N&#39;</span> # InChiKey</span>
+<span id="cb25-11"><a href="#cb25-11"></a>  {</span>
+<span id="cb25-12"><a href="#cb25-12"></a>    ?item p<span class="ch">:P1582</span> ?stmt. # <span class="kw">natural</span> product <span class="kw">of</span> taxon</span>
+<span id="cb25-13"><a href="#cb25-13"></a>    ?stmt ps<span class="ch">:P1582</span> ?taxon. # <span class="kw">natural</span> product <span class="kw">of</span> taxon</span>
+<span id="cb25-14"><a href="#cb25-14"></a>    OPTIONAL {</span>
+<span id="cb25-15"><a href="#cb25-15"></a>      ?stmt prov<span class="ch">:wasDerivedFrom</span> ?<span class="fu">ref</span>.</span>
+<span id="cb25-16"><a href="#cb25-16"></a>      ?<span class="fu">ref</span> pr<span class="ch">:P248</span> ?art. # stated <span class="kw">in</span></span>
+<span id="cb25-17"><a href="#cb25-17"></a>    }</span>
+<span id="cb25-18"><a href="#cb25-18"></a>  }</span>
+<span id="cb25-19"><a href="#cb25-19"></a>  <span class="kw">UNION</span></span>
+<span id="cb25-20"><a href="#cb25-20"></a>  {</span>
+<span id="cb25-21"><a href="#cb25-21"></a>    ?item p<span class="ch">:P703</span> ?stmt. # found <span class="kw">in</span> taxon</span>
+<span id="cb25-22"><a href="#cb25-22"></a>    ?stmt ps<span class="ch">:P703</span> ?taxon. # found <span class="kw">in</span> taxon</span>
+<span id="cb25-23"><a href="#cb25-23"></a>    OPTIONAL {</span>
+<span id="cb25-24"><a href="#cb25-24"></a>      ?stmt prov<span class="ch">:wasDerivedFrom</span> ?<span class="fu">ref</span>.</span>
+<span id="cb25-25"><a href="#cb25-25"></a>      ?<span class="fu">ref</span> pr<span class="ch">:P248</span> ?art. # stated <span class="kw">in</span></span>
+<span id="cb25-26"><a href="#cb25-26"></a>    }</span>
+<span id="cb25-27"><a href="#cb25-27"></a>  }</span>
+<span id="cb25-28"><a href="#cb25-28"></a>  SERVICE wikibase<span class="ch">:label</span> { bd<span class="ch">:serviceParam</span> wikibase<span class="ch">:language</span> <span class="ot">&quot;[AUTO_LANGUAGE],en&quot;</span>. }</span>
+<span id="cb25-29"><a href="#cb25-29"></a>}</span></code></pre></div>
 <h3 class="page_break_before" id="si-5-complement-to-figure-7">SI 5 Complement to Figure 7</h3>
 <div id="fig:magicTree-additional" class="fignos">
 <figure>
