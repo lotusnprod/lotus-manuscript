@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/6c7033aeb627df4d437318f3fbc31227001378e1/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6c7033aeb627df4d437318f3fbc31227001378e1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6c7033aeb627df4d437318f3fbc31227001378e1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/39ee802a198af06cd903c26d01d3c5027fcf6e8f/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/39ee802a198af06cd903c26d01d3c5027fcf6e8f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/39ee802a198af06cd903c26d01d3c5027fcf6e8f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6c7033aeb627df4d437318f3fbc31227001378e1/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6c7033aeb627df4d437318f3fbc31227001378e1/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/39ee802a198af06cd903c26d01d3c5027fcf6e8f/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/39ee802a198af06cd903c26d01d3c5027fcf6e8f/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/6c7033aeb627df4d437318f3fbc31227001378e1/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/39ee802a198af06cd903c26d01d3c5027fcf6e8f/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@6c7033a](https://github.com/lotusnprod/lotus-manuscript/tree/6c7033aeb627df4d437318f3fbc31227001378e1)
+from [lotusnprod/lotus-manuscript@39ee802](https://github.com/lotusnprod/lotus-manuscript/tree/39ee802a198af06cd903c26d01d3c5027fcf6e8f)
 on May 28, 2021.
 </em></small>
 
@@ -378,7 +378,7 @@ LOTUS represents an important advancement in the design and deployment of a comp
 More broadly, the LOTUS initiative fosters cross-fertilization of the fields of chemistry, biology and associated disciplines.
 
 
-## Results & Discussion
+## Results & Discussion {.page_break_before}
 
 This section is structured as follows: first, we present an overview of the LOTUS initiative at its current stage of development.
 The central curation and dissemination elements of the LOTUS initiative are then explained in detail.
@@ -425,15 +425,15 @@ A detailed list of data sources and related information is available as [SI-1](#
 All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://gitlab.com/lotus7/lotus-processor) repository in the [src/1_gathering](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/1_gathering) directory.
 All subsequent and future iterations that include additional data sources, either updated information from the same data sources or new data, will involve a comparison of the new with previously gathered data at the SSOT level to ensure that the data is only curated once.
 
-#### Data Cleaning & Validation {.page_break_before}
+#### Data Cleaning & Validation
 
 As shown in Figure @fig:workflow, data curation consisted of three stages: harmonization, cleaning and validation.
 Thereby, after the harmonization stage, each of the three central objects - chemical compounds, biological organisms and reference - were cleaned.
 Given the data size (2.5M+ initial entries), manual validation was unfeasible.
 Curating the references was a particularly challenging part of the process.
 Whereas organisms are typically reported by at least their vernacular or scientific denomination and chemical structures via their SMILES, InChI, InChIKey or image (not covered in this work), references suffer from largely insufficient reporting standards.
-Despite relatively poor standardization of the initial reference field, proper referencing remains an indispensable way to establish the validity of structure-organism pairs.
-Better reporting practices, supported by new tools such as [Scholia](https://scholia.toolforge.org/) [@doi:10.5281/ZENODO.1036595; @doi:10.3897/rio.5.e35820] and relying on Wikidata, [Fatcat](https://fatcat.wiki/), or [Semantic Scholar](https://www.semanticscholar.org/) should improve reference-related information retrieval in the future.
+Despite poor standardization of the initial reference field, proper referencing remains an indispensable way to establish the validity of structure-organism pairs.
+Better reporting practices, supported by tools such as [Scholia](https://scholia.toolforge.org/) [@doi:10.5281/ZENODO.1036595; @doi:10.3897/rio.5.e35820] and relying on Wikidata, [Fatcat](https://fatcat.wiki/), or [Semantic Scholar](https://www.semanticscholar.org/) should improve reference-related information retrieval in the future.
 
 In addition to curating the entries during data processing, 420 referenced structure-organism pairs were selected for manual validation.
 An entry was considered as valid if: *i)* the structure (in the form of any structural descriptor that could be linked to the final sanitized InChIKey) was described in the reference *ii)* the containing organism (as any organism descriptor that could be linked to the accepted canonical name) was described in the reference and *iii)* the reference was describing the occurrence of the chemical structure in the biological organism.
@@ -554,7 +554,7 @@ The endpoint allows users to run [federated queries](https://www.w3.org/TR/sparq
 For example, the SPARQL query [https://w.wiki/3HMD](https://w.wiki/3HMD) returns a list of all organisms that produce NP with an indolic scaffold.
 The output is aggregated at the parent taxa level of the containing organisms and ranked by the number of scaffold occurrences.
 
-##### Lotus.NaturalProducts.Net (LNPN)
+##### Lotus.NaturalProducts.Net (LNPN) {.page_break_before}
 
 In the search field of the LNPN interface ([https://lotus.naturalproducts.net/](https://lotus.naturalproducts.net/)), simple queries can be achieved by typing the molecule name (e.g., [protopine](https://lotus.naturalproducts.net/search/simple/protopine)) or pasting a SMILES, InChI, InChIKey string, or a Wikidata identifier.
 All compounds reported from a given organism can be found by entering the organism name at the species or any higher taxa level (e.g. [*Tabernanthe iboga*](https://lotus.naturalproducts.net/search/simple/Tabernanthe%20iboga)).
@@ -605,7 +605,7 @@ These scripts can be used for future batch upload of properly curated and refere
 Programs for data addition to Wikidata can be found in the repository [lotus-wikidata-importer](https://gitlab.com/lotus7/lotus-wikidata-importer).
 The following [Xtools page](https://xtools.wmflabs.org/ec/www.wikidata.org/NPImporterBot) offers an overview of the latest activity performed by our [NPimporterBot](https://www.wikidata.org/wiki/User:NPImporterBothttps://www.wikidata.org/wiki/User:NPImporterBot), using those programs.
 
-#### Data Editing
+#### Data Editing {.page_break_before}
 
 Even if correct at a given time point, scientific advances can invalidate or update previously uploaded data.
 Thus, the possibility to continuously edit the data is desirable and guarantees data quality and sustainability.
@@ -653,7 +653,7 @@ Table: Repartition and specificity of chemical structures across four important 
 | **Bacteria** | 1,424 | 29,311 | 23,917 | 22,124 (93%) | 334 | 38 (11%) |
 
 
-#### Distributions of Organisms per Structure and Structures per Organism
+#### Distributions of Organisms per Structure and Structures per Organism {.page_break_before}
 
 Readily achievable outcomes from LOTUS show that the depth of exploration of the world of NP is rather limited: as depicted in Figure @fig:distribution, on average, three organisms are reported per chemical structure and eleven structures per organism.
 Notably, half of all structures have been reported from a single organism and half of all studied organisms are reported to contain five or fewer structures.
@@ -662,7 +662,7 @@ This incomplete coverage may be partially explained by the habit in classical NP
 
 ![**Distribution of "structures per organism" and "organisms per structure"**. The number of organisms linked to the planar structure of *β*-sitosterol (KZJWDPNRJALLNS) and the number of chemical structures in *Arabidopsis thaliana are* two exemplary highlights. The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_structure_organism_distribution.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_structure_organism_distribution.svg).](images/distribution.svg "distribution"){#fig:distribution width="100%"}
 
-#### Contribution of Individual Electronic NP Resources to LOTUS
+#### Contribution of Individual Electronic NP Resources to LOTUS {.page_break_before}
 
 The added value of the LOTUS initiative to assemble multiple electronic NP resources is illustrated in Figure @fig:upset : Panel A shows the contributions of the individual electronic NP resources to the ensemble of chemical structures found in one of the most studied vascular plants, *Arabidopsis thaliana* ("Mouse-ear cress"; [Q147096](https://www.wikidata.org/wiki/Q147096)).
 Panel B shows the ensemble of taxa reported to contain the planar structure of the widely occuring triterpenoid *β*-sitosterol ([Q121802](https://www.wikidata.org/wiki/Q121802)).
@@ -699,7 +699,7 @@ This is also evidenced on Figure @fig:tmap C. with a chemical class specificity 
 In this plot, it is also possible to identify chemical classes that are widely spread among living organisms, such as the carotenoids (C40, *β*-*β*), which exhibit a specificity of 0.12 at the biological family level.
 This means that among all the carotenoids (C40, *β*-*β*) - organism pairs, about one tenth belong to the most common family.
 
-#### A Chemically-interpreted Biological Tree
+#### A Chemically-interpreted Biological Tree {.page_break_before}
 
 An alternative view of the biological and chemical diversity covered by LOTUS is illustrated in Figure @fig:magicTree.
 Here chemical compounds are not organized but biological organisms are placed in their taxonomy.
@@ -733,7 +733,7 @@ The integration of multiple knowledge sources, e.g. genetics for NP producing ge
 This understanding is of utmost importance for the chemotaxonomic field and will help to understand to which extent microorganisms (endosymbionts) play a role in host development and its NP expression potential [@doi:10.1016/j.tplants.2004.04.005].
 
 
-## Conclusion & Perspectives
+## Conclusion & Perspectives {.page_break_before}
 
 ### Advancing Natural Products Knowledge
 
@@ -854,7 +854,7 @@ For the forthcoming translation processes, automated solutions were used when av
 However, for specific cases (common or vernacular names of the biological organisms, Traditional Chinese Medicine (TCM) names, and conversion between digital reference identifiers), no solution existed, thus requiring the use of tailored dictionaries.
 The initial entries (containing one or multiple producing organisms per structure, with one or multiple accepted names per organism) were cleaned into 2M+ referenced structure-organism pairs.
 
-##### Chemical Structures
+##### Chemical Structures {.page_break_before}
 
 To retrieve as much information as possible from the original structure field(s) of each of the sources, the following procedure was followed.
 Allowed structural fields for the sources were divided into two types: structural (InChI, SMILES) or nominal (chemical name, not necessarily IUPAC).
@@ -985,7 +985,7 @@ Each curated object was divided into minimal data (for Wikidata upload) and meta
 A dictionary containing original and curated object translations was written for each object to avoid those translations being made again during the next curation step ([src/2_curating/3_integrating.R](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/2_curating/3_integrating.R)).
 
 
-#### Validation
+#### Validation {.page_break_before}
 
 The pairs obtained after curation were of different quality.
 Globally, structure and organism translation was satisfactory whereas reference translation was not.
@@ -1008,7 +1008,7 @@ The F-score was calculated with ß = 0.5, as in Equation @eq:validation:
 ${F_{\beta}\ =\ \left(1+\beta^2\right)\cdot\frac{precision\cdot recall}{\left(\beta^2\ \cdot\ precision\right)\ +\ recall}}$ {#eq:validation}
 
 
-Based on this first manually validated dataset, filtering criteria ([src/r/filter.R](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/r/filter.R)) were established to maximize precision and recall.
+Based on this first manually validated dataset, filtering criteria ([src/r/filter_dirty.R](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/r/filter_dirty.R)) were established to maximize precision and recall.
 Another 100 entries were sampled, this time respecting the whole set ratios.
 After manual validation, 97% of true positives were reached on the second set.
 A summary of the validation results is given in [SI-2](#si-2-summary-of-the-validation-statistics).
@@ -1036,7 +1036,7 @@ In addition to the diverse search functions available through this web interface
 The complete API usage is described on the "Documentation" page of the website.
 LNPN is part of the NaturalProducts.net portal, an initiative aimed at gathering diverse open NP resources in one place.
 
-### Data Interaction
+### Data Interaction {.page_break_before}
 
 #### Data Retrieval
 
@@ -1048,7 +1048,7 @@ That way, it does not only get the data produced by this work, but any that woul
 It makes a copy of all the entities (compounds, taxa, references) into a local triplestore that can be queried with SPARQL as is or converted to a TSV file for inclusion in other projects.
 It is currently adapted to export directly into the SSOT thus allowing direct reuse by the processing/curation pipeline.
 
-#### Data Addition {.page_break_before}
+#### Data Addition 
 
 ##### Wikidata
 
@@ -1062,14 +1062,14 @@ To import references, it first double checks for the presence of duplicated DOIs
 The structure-related fields are only subject to limited processing: basic formatting of the molecular formula by subscripting of the numbers.
 Due to limitations in Wikidata, the molecule names are dropped if they are longer than 250 characters and likewise the InChI strings cannot be stored if they are longer than 1500 characters.
 
-Uploaded taxonomical DB identifiers are currently restricted to ITIS, GBIF, NCBI Taxon, Index Fungorum, IRMNG, WORMS, VASCAN, and iNaturalist.
+Uploaded taxonomical DB identifiers are currently restricted to ITIS, GBIF, NCBI Taxon, Index Fungorum, IRMNG, WORMS, VASCAN, and iNaturalist, and newly OTL.
 The taxa levels are currently limited to family, subfamily, tribe, subtribe, genus, species, variety.
 The importer checks for the existence of each item based on their InChIKey and upserts the compound with the *found in taxon* statement and the associated organisms and references.
 
 
 ##### LNPN
 
-From the onset, LNPN has been importing data directly from the frozen tabular data of the LOTUS dataset ([https://osf.io/hgjdb/](https://osf.io/hgjdb/)).
+From the onset, LNPN has been importing data directly from the frozen tabular data of the LOTUS dataset ([https://osf.io/6kc2m/](https://osf.io/6kc2m/)).
 In future versions, LNPN will directly feed on the SSOT.
 
 ##### Data Edition
@@ -1087,7 +1087,7 @@ This new interface is intended to become open to the public to foster the curati
 In line with the overall LOTUS approach, any modification made in this curation interface will be mirrored after validation on Wikidata and LNPN.
 
 
-## Code Availability 
+## Code Availability {.page_break_before}
 
 ### General Repository
 
@@ -1601,7 +1601,7 @@ Throughout this demonstration, we are going to use the following example:
 
 Search PubChem for your compound, here [trigocherrin A](https://pubchem.ncbi.nlm.nih.gov/#query=%22trigocherrin%20A%22).This leads to [https://pubchem.ncbi.nlm.nih.gov/compound/101556657](https://pubchem.ncbi.nlm.nih.gov/compound/101556657).
 
-![tutorial-image-01](images/tutorial/2021-02-25-14-15-54.png)
+![](images/tutorial/2021-02-25-14-15-54.png)
 
 From there, you can fetch the compound's name, InChIKey and InChI as well as its Canonical and Isomeric SMILES.
 Here we keep, respectively:
@@ -1614,11 +1614,11 @@ Here we keep, respectively:
 * C[C@@H]1C2[C@]([C@H]3[C@H]4[C@]1(C5=CC(=C(Cl)Cl)[C@@H]([C@]5([C@@H]([C@@]6([C@H]4O6)COC(=O)C)OC(=O)C)O)OC(=O)C7=CC=CC=C7)OC(O3)(O2)C8=CC=CC=C8)(C(=C)C)O
 ```
 
-###### Organism
+###### Organism {.page_break_before}
 
 You can check if your organism name is correctly spelled using the Global Names resolver service: [http://gni.globalnames.org/name_strings?search_term=trigonostemon+cherrieri&commit=Search](http://gni.globalnames.org/name_strings?search_term=trigonostemon+cherrieri&commit=Search).
 
-![tutorial-image-02](images/tutorial/2021-02-27-18-40-20.png)
+![](images/tutorial/2021-02-27-18-40-20.png)
 
 Alternatively, you can use [gnfinder](https://github.com/gnames/gnfinder) in your command line interface to check for the spelling of your organism string.
  
@@ -1718,34 +1718,34 @@ If you are unfamiliar with how Wikidata works, you can start by reading the Wiki
 Now that you are all set up, you can go to Wikidata's page for creating new items, [https://www.wikidata.org/wiki/Special:NewItem](https://www.wikidata.org/wiki/Special:NewItem):
 
 
-![tutorial-image-03](images/tutorial/2021-02-25-14-18-03.png)
+![](images/tutorial/2021-02-25-14-18-03.png)
 
 An empty page with a new Wikidata identifier is created 
 
-![tutorial-image-04](images/tutorial/2021-02-25-14-18-50.png)
+![](images/tutorial/2021-02-25-14-18-50.png)
 
 ###### Add the chemical compound information <a name="add_chemical"></a>
 
 Create a new statement for ```is an instance of```
 
-![tutorial-image-05](images/tutorial/2021-02-25-14-20-08.png)
+![](images/tutorial/2021-02-25-14-20-08.png)
 
 and select chemical compound (i.e. [Q11173](https://www.wikidata.org/wiki/Q11173)):
 
-![tutorial-image-06](images/tutorial/2021-02-25-14-20-58.png)
+![](images/tutorial/2021-02-25-14-20-58.png)
 
 Click ```publish``` to save your changes and make them public.
 
 Since you created a new item about an instance of a chemical compound, the user interface will automatically propose to you a set of additional statements commonly found on items about chemical compounds.
 
-![tutorial-image-07](images/tutorial/2021-02-25-14-22-44.png)
+![](images/tutorial/2021-02-25-14-22-44.png)
 
 You can then go on and fill these in.
 
 Here, we start with the InChIKey.
 Note the little flag which will automatically tell you if you have some problems with the recently created statements.
 
-![tutorial-image-08](images/tutorial/2021-02-25-14-24-34.png)
+![](images/tutorial/2021-02-25-14-24-34.png)
 
 Here, Wikidata tells us that if we add an InChiKey, we will need to also add an InChI.
 Logical, but good to have a reminder!
@@ -1768,12 +1768,12 @@ Now let's add the ```found in taxon``` property ([P703](https://www.wikidata.org
 
 Just click on ```Add a new statement``` and type in the first letters of the property you want to add:
 
-![tutorial-image-09](images/tutorial/2021-02-25-14-31-56.png)
+![](images/tutorial/2021-02-25-14-31-56.png)
 
 Again, type in the first letters of the taxon, and if the organism is present, it will autocomplete.
 Here is how this looks like for _Trigonostemon cherrieri_:
 
-![tutorial-image-10](images/tutorial/2021-02-25-14-33-14.png)
+![](images/tutorial/2021-02-25-14-33-14.png)
 
 Click ```publish``` to save your changes and make them public.
 
@@ -1789,21 +1789,21 @@ Finally, since we report referenced structure-organisms pairs, we need to add th
 This happens on the item about the compound, just below the ```found in taxon``` statement.
 Click on the ```0 references``` link and then on ```add reference```:
 
-![tutorial-image-11](images/tutorial/2021-02-25-14-35-33.png)
+![](images/tutorial/2021-02-25-14-35-33.png)
 
 Here, we use the ```stated in``` property ([P248](https://www.wikidata.org/wiki/Property:P248)):
 
-![tutorial-image-12](images/tutorial/2021-02-25-14-36-33.png)
+![](images/tutorial/2021-02-25-14-36-33.png)
 
 Now, type in the first letters or word of the scientific publication documenting the natural product occurence, autocompletion happens again.
 Note that multiple publications might have the same title, and that there could be minor differences in punctuation or special characters between the information you and Wikidata have about the same reference.
 If you are not sure whether your target reference is already in Wikidata, you can use its DOI to check, as outlined in the [Check whether your target reference is already on Wikidata](#check_ref) section.
 
-![tutorial-image-13](images/tutorial/2021-02-25-14-38-54.png)
+![](images/tutorial/2021-02-25-14-38-54.png)
 
 Click ```publish``` to save your changes and make them public.
 
-![tutorial-image-14](images/tutorial/2021-02-25-14-39-48.png)
+![](images/tutorial/2021-02-25-14-39-48.png)
 
 ###### Check whether your target reference is already on Wikidata <a name="check_ref"></a>
 
