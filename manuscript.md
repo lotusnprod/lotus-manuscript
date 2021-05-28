@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/7031be1d16fadd93b4432c0f18c74f53062c6a53/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/7031be1d16fadd93b4432c0f18c74f53062c6a53/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/7031be1d16fadd93b4432c0f18c74f53062c6a53/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/a148f22a0c1b6b0648cefd9fef958fe8efd82bc5/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a148f22a0c1b6b0648cefd9fef958fe8efd82bc5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a148f22a0c1b6b0648cefd9fef958fe8efd82bc5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/7031be1d16fadd93b4432c0f18c74f53062c6a53/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/7031be1d16fadd93b4432c0f18c74f53062c6a53/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a148f22a0c1b6b0648cefd9fef958fe8efd82bc5/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a148f22a0c1b6b0648cefd9fef958fe8efd82bc5/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/7031be1d16fadd93b4432c0f18c74f53062c6a53/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/a148f22a0c1b6b0648cefd9fef958fe8efd82bc5/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@7031be1](https://github.com/lotusnprod/lotus-manuscript/tree/7031be1d16fadd93b4432c0f18c74f53062c6a53)
+from [lotusnprod/lotus-manuscript@a148f22](https://github.com/lotusnprod/lotus-manuscript/tree/a148f22a0c1b6b0648cefd9fef958fe8efd82bc5)
 on May 28, 2021.
 </em></small>
 
@@ -677,7 +677,7 @@ This is particularly well illustrated in Figure @fig:upset B., where the number 
 NAPRALERT has by far the highest number of entries (2,085 in total), while other electronic NP resources complement this well: e.g., UNPD has 532 reported organisms with *β*-sitosterol that do not overlap with those reported in NAPRALERT.
 Of note, *β*-sitosterol is documented in only 3 organisms in the DNP, highlighting the importance of a better systematic reporting of ubiquitous metabolites and the interest of multiple data sources agglomeration.
 
-#### A Biologically-interpreted Chemical Tree {.page_break_before}
+#### A Biologically-interpreted Chemical Tree
 
 The chemical diversity captured in LOTUS is here displayed using tmap (Figure @fig:tmap), a visualization library allowing the structural organization of large chemical datasets as a minimum spanning tree [@doi:10/gjjz4f].
 Using Faerun, an interactive HTML file is generated to display metadata and molecule structures by embedding the SmilesDrawer library [@doi:10/gcmhc5; @doi:10/gjjz4d].
@@ -686,6 +686,9 @@ As the tree organizes structures according to their molecular fingerprint, an an
 For clarity, the eight most represented chemical classes of LOTUS plus the quassinoids and carotenoids (C40, *β*-*β*) classes are mapped, with examples of a quassinoid (green star) and a carotenoid (yellow star) and their corresponding location in the TMAP.
 
 ![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (green star) and an ubiquitous carotenoid (yellow star) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in red. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs in the chemical class. A chemical class biological specificity score of 1 means that compounds in that chemical class were reported in a unique biological family. Zooms on a group of compounds of high biological specificity score (in yellow) and on compounds of low specificity (black) are depicted. An interactive HTML visualization of the LOTUS TMAP is avalable at [https://lotus.nprod.net/post/lotus-tmap/](https://lotus.nprod.net/post/lotus-tmap/) and archived at [https://osf.io/kqa8b/](https://osf.io/kqa8b/). The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
+
+<br/><br/>
+<br/><br/>
 
 To explore relationships between chemistry and biology, it is possible to map taxonomical information such as the most reported biological family per chemical compound (Figure @fig:tmap B.) or the biological specificity of chemical classes (Figure @fig:tmap C.) on the TMAP.
 The biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs.
@@ -699,7 +702,7 @@ This is also evidenced on Figure @fig:tmap C. with a chemical class specificity 
 In this plot, it is also possible to identify chemical classes that are widely spread among living organisms, such as the carotenoids (C40, *β*-*β*), which exhibit a specificity of 0.12 at the biological family level.
 This means that among all the carotenoids (C40, *β*-*β*) - organism pairs, about one tenth belong to the most common family.
 
-#### A Chemically-interpreted Biological Tree {.page_break_before}
+#### A Chemically-interpreted Biological Tree
 
 An alternative view of the biological and chemical diversity covered by LOTUS is illustrated in Figure @fig:magicTree.
 Here chemical compounds are not organized but biological organisms are placed in their taxonomy.
@@ -733,7 +736,7 @@ The integration of multiple knowledge sources, e.g. genetics for NP producing ge
 This understanding is of utmost importance for the chemotaxonomic field and will help to understand to which extent microorganisms (endosymbionts) play a role in host development and its NP expression potential [@doi:10.1016/j.tplants.2004.04.005].
 
 
-## Conclusion & Perspectives {.page_break_before}
+## Conclusion & Perspectives
 
 ### Advancing Natural Products Knowledge
 
@@ -759,7 +762,7 @@ In particular raw data such as experimental readings, spectroscopic data, instru
 The immense value of raw data and the desire to advance the public dissemination has recently been documented in detail for nuclear magnetic resonance (NMR) spectroscopic data by a large consortium of NP researchers [@doi:10.1039/c7np00064b].
 However, to generate the vital flow of contributed data, the effort associated with preparing and submitting content to open repositories as well as data reuse should be better acknowledged in academia, government, regulatory, and industrial environments [@doi:10/gh533h; @doi:10/gfnxpj; @doi:10/gf3j9t].
 
-### Opening New Perspectives for Spectral Data  {.page_break_before}
+### Opening New Perspectives for Spectral Data
 
 The possibilities for expansion and future applications of the Wikidata-based LOTUS initiative are significant.
 For example, properly formatted spectral data, e.g., data obtained by MS or NMR, can be linked to the Wikidata entries for the respective chemical compounds.
@@ -790,7 +793,7 @@ Notably, the body of literature on the pharmacology and toxicology of NP is comp
 To this end, the LOTUS initiative represents a resource for new concepts by which such information could be valued and conserved in the digital era, as LOTUS provides a blueprint for appropriate formatting and sharing of such data [@doi:10/ggb79p; @doi:10/gh533j; @doi:10.1177/1934578X1701200849].
 This underscores the transformative value of the LOTUS initiative for the advancement of Traditional Medicine and its drug discovery potential in health systems worldwide.
 
-### Summary & Outlook {.page_break_before}
+### Summary & Outlook
 
 The various facets discussed above connect with ongoing and future developments that the tandem of the LOTUS initiative and its Wikidata integration can accommodate through a broader knowledge base.
 The information of the LOTUS initiative is already readily accessible by third party projects build on top of Wikidata such as the SLING project ([https://github.com/ringgaard/sling](https://github.com/ringgaard/sling), see entry for [gliotoxin](https://ringgaard.com/kb/Q413364)) or the Plant Humanities Lab project ([https://lab.plant-humanities.org/](https://lab.plant-humanities.org/), see entry for [*Ilex guayusa*](https://search.plant-humanities.org/?eid=wd%3AQ3772280)).
