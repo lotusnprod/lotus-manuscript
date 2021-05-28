@@ -106,13 +106,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/39ee802a198af06cd903c26d01d3c5027fcf6e8f/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/39ee802a198af06cd903c26d01d3c5027fcf6e8f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/39ee802a198af06cd903c26d01d3c5027fcf6e8f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/7031be1d16fadd93b4432c0f18c74f53062c6a53/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/7031be1d16fadd93b4432c0f18c74f53062c6a53/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/7031be1d16fadd93b4432c0f18c74f53062c6a53/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/39ee802a198af06cd903c26d01d3c5027fcf6e8f/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/39ee802a198af06cd903c26d01d3c5027fcf6e8f/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/7031be1d16fadd93b4432c0f18c74f53062c6a53/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/7031be1d16fadd93b4432c0f18c74f53062c6a53/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -132,9 +132,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/39ee802a198af06cd903c26d01d3c5027fcf6e8f/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/7031be1d16fadd93b4432c0f18c74f53062c6a53/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@39ee802](https://github.com/lotusnprod/lotus-manuscript/tree/39ee802a198af06cd903c26d01d3c5027fcf6e8f)
+from [lotusnprod/lotus-manuscript@7031be1](https://github.com/lotusnprod/lotus-manuscript/tree/7031be1d16fadd93b4432c0f18c74f53062c6a53)
 on May 28, 2021.
 </em></small>
 
@@ -378,7 +378,7 @@ LOTUS represents an important advancement in the design and deployment of a comp
 More broadly, the LOTUS initiative fosters cross-fertilization of the fields of chemistry, biology and associated disciplines.
 
 
-## Results & Discussion {.page_break_before}
+## Results & Discussion
 
 This section is structured as follows: first, we present an overview of the LOTUS initiative at its current stage of development.
 The central curation and dissemination elements of the LOTUS initiative are then explained in detail.
@@ -412,7 +412,7 @@ All stages of the workflow are described on the git sites of the LOTUS initiativ
 At the time of writing, 700,000+ LOTUS entries contained a curated chemical structure, biological organism and reference and were available on both Wikidata and LNPN.
 As the LOTUS data volume is expected to increase over time, a frozen (as of 2021-05-23), tabular version of this dataset with its associated metadata is made available at [https://osf.io/eydjs/](https://osf.io/eydjs/).
 
-### Data Curation
+### Data Curation 
 
 #### Data Harmonization
 
@@ -425,7 +425,7 @@ A detailed list of data sources and related information is available as [SI-1](#
 All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://gitlab.com/lotus7/lotus-processor) repository in the [src/1_gathering](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/1_gathering) directory.
 All subsequent and future iterations that include additional data sources, either updated information from the same data sources or new data, will involve a comparison of the new with previously gathered data at the SSOT level to ensure that the data is only curated once.
 
-#### Data Cleaning & Validation
+#### Data Cleaning & Validation {.page_break_before}
 
 As shown in Figure @fig:workflow, data curation consisted of three stages: harmonization, cleaning and validation.
 Thereby, after the harmonization stage, each of the three central objects - chemical compounds, biological organisms and reference - were cleaned.
@@ -517,7 +517,7 @@ Below are some examples from simple to more elaborated queries, demonstrating wh
 The full-text queries with explanations are included in [SI-3](#si-3-wikidata-sparql-queries).
 
 
-Table: Potential questions about referenced structure-organism relationships and the corresponding Wikidata SPARQL query that provides an answer. {#tbl:queries}
+Table: Potential questions about structure-organism relationships and corresponding Wikidata SPARQL queries. {#tbl:queries}
 
 | Question | Wikidata SPARQL query | 
 |:------------------------:|:-------------:|
@@ -527,7 +527,7 @@ Table: Potential questions about referenced structure-organism relationships and
 | Which pigments are found in which taxa, according to which reference? | [https://w.wiki/3H3o](https://w.wiki/3H3o) |
 | What are examples of organisms where compounds were found in an organism sharing the same parent taxon, but not the organism itself? | [https://w.wiki/3HM6](https://w.wiki/3HM6) |
 | Which *Zephyranthes* species lack compounds known from at least two species in the genus? | [https://w.wiki/3HJf](https://w.wiki/3HJf) |
-| How many compounds are structurally similar to compounds labeled as antibiotics? Results are grouped by the parent taxon of the organism they were found in. | [https://w.wiki/3HMA](https://w.wiki/3HMA) |
+| How many compounds are structurally similar to compounds labeled as antibiotics? (grouped by the parent taxon of the containing organism) | [https://w.wiki/3HMA](https://w.wiki/3HMA) |
 | Which are the available referenced structure-organism pairs? (example limited to 1000 results) | [https://w.wiki/3JpE](https://w.wiki/3JpE) |
 | Which organisms contain indolic scaffolds? Count occurrences, group and order the results by the parent taxon. | [https://w.wiki/3HMD](https://w.wiki/3HMD) |
 | How many structure-organism pairs have been referenced by certain authors? (Here, two senior natural products chemists and co-authors of this paper are compared to the late Ferdinand Bohlmann). | [https://w.wiki/3HML](https://w.wiki/3HML) |
@@ -554,7 +554,7 @@ The endpoint allows users to run [federated queries](https://www.w3.org/TR/sparq
 For example, the SPARQL query [https://w.wiki/3HMD](https://w.wiki/3HMD) returns a list of all organisms that produce NP with an indolic scaffold.
 The output is aggregated at the parent taxa level of the containing organisms and ranked by the number of scaffold occurrences.
 
-##### Lotus.NaturalProducts.Net (LNPN) {.page_break_before}
+##### Lotus.NaturalProducts.Net (LNPN)
 
 In the search field of the LNPN interface ([https://lotus.naturalproducts.net/](https://lotus.naturalproducts.net/)), simple queries can be achieved by typing the molecule name (e.g., [protopine](https://lotus.naturalproducts.net/search/simple/protopine)) or pasting a SMILES, InChI, InChIKey string, or a Wikidata identifier.
 All compounds reported from a given organism can be found by entering the organism name at the species or any higher taxa level (e.g. [*Tabernanthe iboga*](https://lotus.naturalproducts.net/search/simple/Tabernanthe%20iboga)).
@@ -642,6 +642,7 @@ For this, biological organisms were grouped into four artificial taxonomic level
 These were built by combining the two highest taxonomic levels in the OTL taxonomy, namely Domain and Kingdom levels.
 When the chemical structure/class was reported only in one taxonomic grouping, it was counted as "specific".
 
+<br/><br/>
 
 Table: Repartition and specificity of chemical structures across four important NP reservoirs: plants, fungi, animals and bacteria. When the chemical structure/class appeared only in one group and not the three others, they were counted as "specific". Chemical classes were attributed with NPClassifier. {#tbl:repartition}
 
@@ -652,8 +653,7 @@ Table: Repartition and specificity of chemical structures across four important 
 | **Animalia** | 2,524 | 34,464 | 24,757 | 21,084 (85%) | 427 | 16 (4%) |
 | **Bacteria** | 1,424 | 29,311 | 23,917 | 22,124 (93%) | 334 | 38 (11%) |
 
-
-#### Distributions of Organisms per Structure and Structures per Organism {.page_break_before}
+#### Distributions of Organisms per Structure and Structures per Organism 
 
 Readily achievable outcomes from LOTUS show that the depth of exploration of the world of NP is rather limited: as depicted in Figure @fig:distribution, on average, three organisms are reported per chemical structure and eleven structures per organism.
 Notably, half of all structures have been reported from a single organism and half of all studied organisms are reported to contain five or fewer structures.
@@ -759,7 +759,7 @@ In particular raw data such as experimental readings, spectroscopic data, instru
 The immense value of raw data and the desire to advance the public dissemination has recently been documented in detail for nuclear magnetic resonance (NMR) spectroscopic data by a large consortium of NP researchers [@doi:10.1039/c7np00064b].
 However, to generate the vital flow of contributed data, the effort associated with preparing and submitting content to open repositories as well as data reuse should be better acknowledged in academia, government, regulatory, and industrial environments [@doi:10/gh533h; @doi:10/gfnxpj; @doi:10/gf3j9t].
 
-### Opening New Perspectives for Spectral Data
+### Opening New Perspectives for Spectral Data  {.page_break_before}
 
 The possibilities for expansion and future applications of the Wikidata-based LOTUS initiative are significant.
 For example, properly formatted spectral data, e.g., data obtained by MS or NMR, can be linked to the Wikidata entries for the respective chemical compounds.
@@ -790,7 +790,7 @@ Notably, the body of literature on the pharmacology and toxicology of NP is comp
 To this end, the LOTUS initiative represents a resource for new concepts by which such information could be valued and conserved in the digital era, as LOTUS provides a blueprint for appropriate formatting and sharing of such data [@doi:10/ggb79p; @doi:10/gh533j; @doi:10.1177/1934578X1701200849].
 This underscores the transformative value of the LOTUS initiative for the advancement of Traditional Medicine and its drug discovery potential in health systems worldwide.
 
-### Summary & Outlook
+### Summary & Outlook {.page_break_before}
 
 The various facets discussed above connect with ongoing and future developments that the tandem of the LOTUS initiative and its Wikidata integration can accommodate through a broader knowledge base.
 The information of the LOTUS initiative is already readily accessible by third party projects build on top of Wikidata such as the SLING project ([https://github.com/ringgaard/sling](https://github.com/ringgaard/sling), see entry for [gliotoxin](https://ringgaard.com/kb/Q413364)) or the Plant Humanities Lab project ([https://lab.plant-humanities.org/](https://lab.plant-humanities.org/), see entry for [*Ilex guayusa*](https://search.plant-humanities.org/?eid=wd%3AQ3772280)).
@@ -854,7 +854,7 @@ For the forthcoming translation processes, automated solutions were used when av
 However, for specific cases (common or vernacular names of the biological organisms, Traditional Chinese Medicine (TCM) names, and conversion between digital reference identifiers), no solution existed, thus requiring the use of tailored dictionaries.
 The initial entries (containing one or multiple producing organisms per structure, with one or multiple accepted names per organism) were cleaned into 2M+ referenced structure-organism pairs.
 
-##### Chemical Structures {.page_break_before}
+##### Chemical Structures
 
 To retrieve as much information as possible from the original structure field(s) of each of the sources, the following procedure was followed.
 Allowed structural fields for the sources were divided into two types: structural (InChI, SMILES) or nominal (chemical name, not necessarily IUPAC).
@@ -890,7 +890,7 @@ From the 49,675 initial chemical names, 27,932 (56%) sanitized structures were o
 In total, 163,800 structures with fully defined stereochemistry were uploaded as "chemical compounds" ([Q11173](https://www.wikidata.org/wiki/Q11173)), and 106,669 structures without fully defined stereochemistry were uploaded as "group of stereoisomers" ([Q59199015](https://www.wikidata.org/wiki/Q59199015)).
 
 
-##### Biological Organisms {.page_break_before}
+##### Biological Organisms
 
 The cleaning process at the biological organism’s level had three objectives: convert the original organism string to (a) taxon name(s), atomize fields containing multiple taxon names, and deduplicate synonyms.
 The original organism strings were treated with [Global Names Finder](https://github.com/gnames/gnfinder) (GNF) and [Global Names Verifier](https://github.com/gnames/gnverifier) (GNV), both tools coming from the [Global Names Architecture](http://globalnames.org) (GNA) a system of web services that helps people to register, find, index, check and organize biological scientific names and interconnect on-line information about species.
@@ -934,7 +934,6 @@ They were subsequently submitted again to scientific name recognition ([src/2_cu
 After full resolution of canonical names, all obtained names were submitted to rotl (Michonneau et al., 2016) to obtain a unified taxonomy.
 From the 88,395 initial "clean" organism fields, 43,936 (50%) canonical names were obtained, of which 32,285 (37%) were uploaded to Wikidata.
 From the 300 initial "dirty" organism fields, 250 (83%) canonical names were obtained, of which 208 (69%) were uploaded to Wikidata.
-
 
 ##### References 
 
@@ -984,8 +983,7 @@ Only entries containing a structure, an organism, and a reference after curation
 Each curated object was divided into minimal data (for Wikidata upload) and metadata.
 A dictionary containing original and curated object translations was written for each object to avoid those translations being made again during the next curation step ([src/2_curating/3_integrating.R](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/2_curating/3_integrating.R)).
 
-
-#### Validation {.page_break_before}
+#### Validation 
 
 The pairs obtained after curation were of different quality.
 Globally, structure and organism translation was satisfactory whereas reference translation was not.
@@ -1036,7 +1034,7 @@ In addition to the diverse search functions available through this web interface
 The complete API usage is described on the "Documentation" page of the website.
 LNPN is part of the NaturalProducts.net portal, an initiative aimed at gathering diverse open NP resources in one place.
 
-### Data Interaction {.page_break_before}
+### Data Interaction
 
 #### Data Retrieval
 
@@ -1066,7 +1064,6 @@ Uploaded taxonomical DB identifiers are currently restricted to ITIS, GBIF, NCBI
 The taxa levels are currently limited to family, subfamily, tribe, subtribe, genus, species, variety.
 The importer checks for the existence of each item based on their InChIKey and upserts the compound with the *found in taxon* statement and the associated organisms and references.
 
-
 ##### LNPN
 
 From the onset, LNPN has been importing data directly from the frozen tabular data of the LOTUS dataset ([https://osf.io/6kc2m/](https://osf.io/6kc2m/)).
@@ -1079,7 +1076,7 @@ As massive edits have a large potential to disrupt otherwise good data, progress
 Upon validation of 100 entries, the full script is run and check its behavior checked at regular intervals.
 An example of a corrected entry is as follows: [https://www.wikidata.org/w/index.php?title=Q105349871&type=revision&diff=1365519277&oldid=1356145998](https://www.wikidata.org/w/index.php?title=Q105349871&type=revision&diff=1365519277&oldid=1356145998)
 
-##### Curation interface
+##### Curation interface 
 
 A web-based (Kotlin, Spring Boot for the back-end, and TypeScript with Vue for the front-end) curation interface is currently in construction.
 It will allow mass-editing of entries and navigate quick navigation in the SSOT for the curation of new and existing entries.
@@ -1173,7 +1170,7 @@ The authors would also like to thank contributors of all electronic NP resources
 
 The authors declare no competing interest.
 
-## Author contributions {.page_break_before}
+## Author contributions
 
 ![](images/author_contribution.svg "Author Contribution"){author-contribution}
 
@@ -1181,12 +1178,12 @@ The authors declare no competing interest.
 
 ### SI 1 Data Sources List
 
-<div style="font-size:10pt">
+<div style="font-size:9pt">
 
 Table: Data Sources List {#tbl:si-1 tag="SI-1"}
 
-| database | type | initial retrieved unique observations | cleaned referenced structure-organism pairs | pairs validated for wikidata export | website | article | retrieval | license | contact | varia |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| database | type | initial retrieved unique entries | cleaned referenced structure-organism pairs | pairs validated for wikidata export | website | article | retrieval | license | contact | varia |
+|:--------:|:------:|:-----:|:------:|:-----:|:----:|:-----:|:-----:|:----:|:-----:|:----:|
 | afrotryp | open | 312 | 135 | 28 | - | [article](https://link.springer.com/article/10.1007/s00044-016-1764-y?shared-article-renderer) [@doi:10/gh5ptd] | [download](https://static-content.springer.com/esm/art%3A10.1007%2Fs00044-016-1764-y/MediaObjects/44_2016_1764_MOESM1_ESM.doc) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/afrotryp.md) | [Fidele Ntie-Kang](https://link.springer.com/article/10.1007/s00044-016-1764-y/email/correspondent/c1/new) or [Ngozi Justina Nwodo](https://link.springer.com/article/10.1007/s00044-016-1764-y/email/correspondent/c2/new) | - |
 | alkamid | open | 4,434 | 2,582 | 2,076 | [website](http://alkamid.ugent.be) | [article](http://dx.doi.org/10.1016/j.jep.2012.05.038) [@doi:10/gh5ptc] | [script](https://gitlab.com/lotus7/lotus-processor/-/tree/main/src/1_gathering/db/alkamid/scraping.R) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/alkamid.md) | [Bart De Spiegeleer](mailto:Bart.DeSpiegeleer@UGent.be) | - |
 | biofacquim | open | 531 | 683 | 534 | [website](https://biofacquim.herokuapp.com) (old version) | [article_old](https://www.mdpi.com/2218-273X/9/1/31) [article_new](https://f1000research.com/articles/8-2071) [@doi:10/gh5ptb] | [download](https://ndownloader.figshare.com/files/20050244) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/biofacquim.md) | [José Medina-Franco](mailto:medinajl@unam.mx) | - |
@@ -1194,7 +1191,7 @@ Table: Data Sources List {#tbl:si-1 tag="SI-1"}
 | carotenoiddb | open | 2,922 | 1,199 | 639 | [website](http://carotenoiddb.jp/About.html) | [article](https://doi.org/10.1093/database/bax004) [@doi:10/f9x5p2] | [script](https://gitlab.com/lotus7/lotus-processor/-/tree/main/src/1_gathering/db/carotenoiddb/scraping.R) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/carotenoiddb.md) | [yzjunko@gmail.com](mailto:yzjunko@gmail.com) | - |
 | coconut | open | 583,623 | 345,328 | 34,429 | [website](https://coconut.naturalproducts.net) | [article](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00424-9) [@doi:10/ggwwcq] | [download](https://zenodo.org/record/3778405/files/COCONUT.sdf.zip?download=1) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/coconut.md) | [Maria Sorokina](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00424-9/email/correspondent/c1/new) | [zenodo](https://zenodo.org/record/3778405) |
 | cyanometdb | open | 1,930 | 1,844 | 1,774 | - | [article](https://doi.org/10.1016/j.watres.2021.117017) [@doi:10/gjgdzm] | [download](https://ars.els-cdn.com/content/image/1-s2.0-S0043135421002153-mmc4.zip) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/cyanometdb.md) | [elisabeth.janssen@eawag.ch](mailto:elisabeth.janssen@eawag.ch) | - |
-| datawarrior | open | 589 | 1,062 | 102 | [website](http://www.openmolecules.org/datawarrior/index.html) | [article](https://doi.org/10.1021/ci500588j) [@doi:10/f637rz] | [download](http://www.openmolecules.org/datawarrior/download.html) | [icense](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/datawarrior.md) | [thomas.sander@idorsia.com](mailto:thomas.sander@idorsia.com) | no real link to the dataset inside it |
+| datawarrior | open | 589 | 1,062 | 102 | [website](http://www.openmolecules.org/datawarrior/index.html) | [article](https://doi.org/10.1021/ci500588j) [@doi:10/f637rz] | [download](http://www.openmolecules.org/datawarrior/download.html) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/datawarrior.md) | [thomas.sander@idorsia.com](mailto:thomas.sander@idorsia.com) | no real link to the dataset inside it |
 | dianatdb | open | 290 | 404 | 27 | [website](http://rdu.iquimica.unam.mx/handle/20.500.12214/1186) | [article](https://doi.org/10.1039/D0RA10453A) [@doi:10.1039/D0RA10453A] | [download](http://rdu.iquimica.unam.mx/bitstream/20.500.12214/1186/3/2020_DiaNatDB_336.xlsx) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/dianatdb.md) | [amadariaga@iquimica.unam.mx](mailto:amadariaga@iquimica.unam.mx) or [kmtzm@unam.mx](mailto:kmtzm@unam.mx) | - |
 | dnp | commercial | 210,832 | 258,328 | - | [website](http://dnp.chemnetbase.com/faces/chemical/ChemicalSearch.xhtml) | - | [script](https://gitlab.com/lotus7/lotus-processor/-/tree/main/src/1_gathering/db/dnp/extracting.py) | - | [support@taylorfrancis.com](mailto:support@taylorfrancis.com) | commercial |
 | drduke | open | 90,675 | 9,072 | 4,266 | [website](https://phytochem.nal.usda.gov/phytochem/help/index/about) | - | [download](https://data.nal.usda.gov/system/files/Duke-Source-CSV.zip) | [license](https://gitlab.com/lotus7/lotus-processor/-/blob/main/docs/licenses/drduke.md) | [agref@usda.gov](mailto:agref@usda.gov) | - | |
@@ -1231,11 +1228,13 @@ Table: Data Sources List {#tbl:si-1 tag="SI-1"}
 
 ### SI 2 Summary of the Validation Statistics {.page_break_before}
 
+<div style="font-size:10pt">
+
 Table: Summary of the Validation Statistics {#tbl:si-2 tag="SI-2"}
 
 | | **First validation dataset (n =420)** <!-- $colspan="8" --> | | | | | | | | **Second validation dataset (n = 100)** <!-- $colspan="2" --> | |
-|:----------------------------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:---------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
-| **Reference Type ** | **True positives** | **False positives** |**False negatives** |**True negatives** |**Relative abundance** |**Precision** | **Recall** |**F~0.5~ score** |**True positives** |**False negatives** |
+|:-----:|:----:|:----:|:----:|:----:|:-----:|:-----:|:---:|:---:|:----:|:----:|
+| **Reference Type ** | **True positive** | **False positive** |**False negative** |**True negative** |**Relative abundance** |**Precision** | **Recall** |**F~0.5~ score** |**True positive** |**False negative** |
 | **Original** | 80 | 6 | 7 | 11 | 0.31 | 0.93 | 0.92 | 0.92 | 38 | 1 |
 | **Pubmed** | 37 | 1 | 5 | 6 | 0.30 | 0.97 | 0.88 | 0.92 | 5 | 1 |
 | **DOI** | 115 | 6 | 0 | 6 | 0.19 | 0.95 | 1.00 | 0.97 | 43 | 1 |
@@ -1245,6 +1244,7 @@ Table: Summary of the Validation Statistics {#tbl:si-2 tag="SI-2"}
 | **Total** | 279 | 15 | 28 | 98 | 1.00 | - | - | - | **97** | **3** |
 | **Corrected total** | - | - | - | - | - | **0.96** | **0.89** | **0.91** | - | - |
 
+</div>
 
 
 ### SI 3 Wikidata SPARQL Queries {.page_break_before}
@@ -1253,9 +1253,9 @@ Table: Summary of the Validation Statistics {#tbl:si-2 tag="SI-2"}
 
 This query answers to the following question:
 
- ```
-What are the compounds found in Mouse-ear cress (<i>Arabidopsis thaliana</i>)?
- ```
+```BASH
+What are the compounds found in Mouse-ear cress (Arabidopsis thaliana)?
+```
 
 Link: [https://w.wiki/3HMX](https://w.wiki/3HMX)
 ```SQL
@@ -1276,9 +1276,9 @@ SELECT DISTINCT ?structure ?structureLabel ?structure_inchikey WHERE {
 
 This query answers to the following question:
 
- ```
-Which organisms are known to contain <i>β</i>-sitosterol?
- ```
+```BASH
+Which organisms are known to contain β-sitosterol?
+```
 
 Link: [https://w.wiki/3HLy](https://w.wiki/3HLy)
 ```SQL
@@ -1302,9 +1302,9 @@ SELECT DISTINCT ?taxon ?taxonName WHERE {
 
 This query answers to the following question:
 
- ```
-Which organisms are known to contain stereoisomers of <i>β</i>-sitosterol?
- ```
+```BASH
+Which organisms are known to contain stereoisomers of β-sitosterol?
+```
 
 Link: [https://w.wiki/3Jgs](https://w.wiki/3Jgs)
 ```SQL
@@ -1331,14 +1331,14 @@ ORDER BY ASC(?InChIKey)                     # sort by inchikey
 
 This query answers to the following question:
 
- ```
+```BASH
 Which pigments are found in which taxa, according to which reference?
- ```
+```
 
 Link: [https://w.wiki/3H3o](https://w.wiki/3H3o)
 ```SQL
 # Which pigments are found in which taxa, according to which reference?
-# special thanks goes to @biocolores (Layla Michán) for updating this information!
+# special thanks goes to Layla Michán for updating this information!
 SELECT DISTINCT ?compound ?compoundLabel ?taxon ?taxonname ?DOI 
 WITH {
   SELECT ?compound WHERE {
@@ -1377,15 +1377,15 @@ LIMIT 10000
 
 This query answers to the following question:
 
- ```
+```BASH
 What are examples of organisms where compounds were found in an organism sharing the same parent taxon, but not the organism itself?
- ```
+```
 
 
 Link: [https://w.wiki/3HM6](https://w.wiki/3HM6)
 ```SQL
 # What are examples of organisms where compounds were found in an organism sharing the same parent taxon, but not the organism itself? 
-SELECT DISTINCT ?compound ?compoundLabel ?taxonname_with_compound ?taxonname_without_compound ?parent_taxon WITH{ 
+SELECT DISTINCT ?compound ?compoundLabel ?taxonname_with_compound ?taxonname_without_compound ?parent_taxon WITH { 
   SELECT DISTINCT ?compound ?taxon_with_compound ?parent_taxon 
   WHERE {
     ?compound wdt:P235 ?inchikey.
@@ -1417,17 +1417,15 @@ WHERE {
 
 This query answers to the following question:
 
- ```
-Which Zephyranthes species lack compounds known from at least two species in the genus?
- ```
+```BASH
+Which Zephyranthes spp. lack compounds known from ≥ 2 other Zephyranthes?
+```
 
 Link: [https://w.wiki/3HJf](https://w.wiki/3HJf)
 ```SQL
-# Which Zephyranthes species lack compounds known from at least two species in the genus? 
+# Which Zephyranthes spp. lack compounds known from ≥ 2 other Zephyranthes? 
 PREFIX target: <http://www.wikidata.org/entity/Q191364> # Zephyranthes
-SELECT DISTINCT ?compound ?compoundLabel ?taxon_with_compound ?another_taxon_with_compound ?taxon_without_compound
-WITH
-{ 
+SELECT DISTINCT ?compound ?compoundLabel ?taxon_with_compound ?another_taxon_with_compound ?taxon_without_compound WITH { 
   SELECT DISTINCT ?compound ?taxon_YES_1 ?taxon_YES_2 
   WHERE {
     ?compound wdt:P703 ?taxon_YES_1 .
@@ -1467,9 +1465,9 @@ WHERE {
 
 This query answers to the following question:
 
- ```
+```BASH
 How many compounds are structurally similar to compounds labeled as antibiotics? Results are grouped by the parent taxon of the organism they were found in.
- ```
+```
 
 Link: [https://w.wiki/3HMA](https://w.wiki/3HMA)
 ```SQL
@@ -1501,9 +1499,9 @@ ORDER BY DESC (?count)
 
 This query answers to the following question:
 
- ```
+```BASH
 Which are the available referenced structure-organism pairs? (example limited to 1000 results)
- ```
+```
 
 Link: [https://w.wiki/3JpE](https://w.wiki/3JpE)
 ```SQL
@@ -1522,9 +1520,9 @@ LIMIT 1000
 
 This query answers to the following question:
 
- ```
+```BASH
 Which organisms contain indolic scaffolds? Count occurrences, group and order the results by the parent taxon.
- ```
+```
 
 Link: [https://w.wiki/3HMD](https://w.wiki/3HMD)
 ```SQL
@@ -1555,9 +1553,9 @@ ORDER BY DESC (?count)
 
 This query answers to the following question:
 
- ```
+```BASH
 How many structure-organism pairs have been referenced by certain authors? (Here, two senior natural products chemists and co-authors of this paper are compared to the late Ferdinand Bohlmann).
- ```
+```
 
 Link: [https://w.wiki/3HML](https://w.wiki/3HML)
 ```SQL
@@ -1606,15 +1604,15 @@ Search PubChem for your compound, here [trigocherrin A](https://pubchem.ncbi.nlm
 From there, you can fetch the compound's name, InChIKey and InChI as well as its Canonical and Isomeric SMILES.
 Here we keep, respectively:
 
-```
-* trigocherrin A
-* QOVGHDRCAGYGEB-FFZYJECLSA-N
-* InChI=1S/C38H36Cl2O12/c1-18(2)35(44)27-19(3)37-25-16-24(31(39)40)28(48-32(43)22-12-8-6-9-13-22)36(25,45)33(47-21(5)42)34(17-46-20(4)41)29(49-34)26(37)30(35)51-38(50-27,52-37)23-14-10-7-11-15-23/h6-16,19,26-30,33,44-45H,1,17H2,2-5H3/t19-,26+,27?,28+,29+,30-,33-,34+,35+,36-,37+,38?/m1/s1
-* CC1C2C(C3C4C1(C5=CC(=C(Cl)Cl)C(C5(C(C6(C4O6)COC(=O)C)OC(=O)C)O)OC(=O)C7=CC=CC=C7)OC(O2)(O3)C8=CC=CC=C8)(C(=C)C)O
-* C[C@@H]1C2[C@]([C@H]3[C@H]4[C@]1(C5=CC(=C(Cl)Cl)[C@@H]([C@]5([C@@H]([C@@]6([C@H]4O6)COC(=O)C)OC(=O)C)O)OC(=O)C7=CC=CC=C7)OC(O3)(O2)C8=CC=CC=C8)(C(=C)C)O
+```BASH
+- trigocherrin A
+- QOVGHDRCAGYGEB-FFZYJECLSA-N
+- InChI=1S/C38H36Cl2O12/c1-18(2)35(44)27-19(3)37-25-16-24(31(39)40)28(48-32(43)22-12-8-6-9-13-22)36(25,45)33(47-21(5)42)34(17-46-20(4)41)29(49-34)26(37)30(35)51-38(50-27,52-37)23-14-10-7-11-15-23/h6-16,19,26-30,33,44-45H,1,17H2,2-5H3/t19-,26+,27?,28+,29+,30-,33-,34+,35+,36-,37+,38?/m1/s1
+- CC1C2C(C3C4C1(C5=CC(=C(Cl)Cl)C(C5(C(C6(C4O6)COC(=O)C)OC(=O)C)O)OC(=O)C7=CC=CC=C7)OC(O2)(O3)C8=CC=CC=C8)(C(=C)C)O
+- C[C@@H]1C2[C@]([C@H]3[C@H]4[C@]1(C5=CC(=C(Cl)Cl)[C@@H]([C@]5([C@@H]([C@@]6([C@H]4O6)COC(=O)C)OC(=O)C)O)OC(=O)C7=CC=CC=C7)OC(O3)(O2)C8=CC=CC=C8)(C(=C)C)O
 ```
 
-###### Organism {.page_break_before}
+###### Organism
 
 You can check if your organism name is correctly spelled using the Global Names resolver service: [http://gni.globalnames.org/name_strings?search_term=trigonostemon+cherrieri&commit=Search](http://gni.globalnames.org/name_strings?search_term=trigonostemon+cherrieri&commit=Search).
 
@@ -1622,9 +1620,8 @@ You can check if your organism name is correctly spelled using the Global Names 
 
 Alternatively, you can use [gnfinder](https://github.com/gnames/gnfinder) in your command line interface to check for the spelling of your organism string.
  
-```
+```BASH
 echo "Trigonostemion cherrieri" | gnfinder find -c -l eng
-
 {
   "metadata": {
     "date": "2021-02-27T18:44:41.640982+01:00",
@@ -1756,7 +1753,7 @@ Likewise, the addition of an isomeric SMILES string will require us to add a Can
 
 Note that you might have to copy and paste the SMILES string from PubChem to a plain text editor and then back to Wikidata because of some formatting issues when copy pasting directly from PubChem.
 
-```
+```BASH
 C[C@@H]1C2[C@]([C@H]3[C@H]4[C@]1(C5=CC(=C(Cl)Cl)[C@@H]([C@]5([C@@H]([C@@]6([C@H]4O6)COC(=O)C)OC(=O)C)O)OC(=O)C7=CC=CC=C7)OC(O3)(O2)C8=CC=CC=C8)(C(=C)C)O
 
 CC1C2C(C3C4C1(C5=CC(=C(Cl)Cl)C(C5(C(C6(C4O6)COC(=O)C)OC(=O)C)O)OC(=O)C7=CC=CC=C7)OC(O2)(O3)C8=CC=CC=C8)(C(=C)C)O
