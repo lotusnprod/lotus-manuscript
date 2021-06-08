@@ -41,7 +41,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-Bjonnh
+bjonnh
 Bohlmann
 Bolzani
 Bromus
@@ -87,7 +87,7 @@ csteinbeck
 cstrnq
 CTS
 curation
-cyanometdb
+Cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -113,7 +113,7 @@ DNP
 Dockerized
 DOIs
 doit
-drduke
+DrDuke
 DTGCRPNFSA
 eBird
 echnology
@@ -132,19 +132,19 @@ euse
 evidentiary
 EvoMRI
 EW
-Faerun
+faerun
 Fatcat
 Fidele
 FishBase
 flavolivaceus
 Flemingovo
-FooDB
+foodb
 FragmentRemover
 Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 Gaudry
 GBIF
 gdata
@@ -168,7 +168,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -191,7 +191,7 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChiKey
+InChIKey
 indability
 indica
 Indolic
@@ -221,7 +221,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -265,7 +265,7 @@ Mietchen
 mitishamba
 modularity
 Molconvert
-MolVS
+molvs
 monogyna
 Mozzherin
 mSorok
@@ -277,7 +277,7 @@ nanpdb
 NAPRALERT
 natively
 NatprodCbn
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 nextStep
@@ -349,7 +349,7 @@ rdmpage
 readxl
 Reionization
 rentrez
-repartition
+Repartition
 reproducibility
 ressource
 resubmission
@@ -385,11 +385,11 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -422,7 +422,7 @@ tidyverse
 Tilmann
 TMAP
 tmdb
-TMMC
+tmmc
 tppt
 transdisciplinary
 transformational
@@ -436,7 +436,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger
@@ -445,7 +445,7 @@ unconserved
 underreporting
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts
