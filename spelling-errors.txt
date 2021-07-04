@@ -62,7 +62,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-Chemodiversity
+chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -85,8 +85,8 @@ Crossref
 CRSII
 csteinbeck
 cstrnq
-CTS
-curation
+cts
+Curation
 Cyanometdb
 Cyathocaline
 Cyathocalyx
@@ -94,7 +94,7 @@ Damerau
 daphnane
 dataset
 datasets
-datawarrior
+Datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -138,7 +138,7 @@ Fidele
 FishBase
 flavolivaceus
 Flemingovo
-foodb
+FooDB
 FragmentRemover
 Fribourg
 Friedrich
@@ -168,7 +168,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerifier
 Gottlieb
@@ -191,7 +191,7 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChIKey
+InChiKey
 indability
 indica
 Indolic
@@ -221,7 +221,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -256,7 +256,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-metabolomic
+Metabolomic
 MEYS
 mibig
 Michán
@@ -265,7 +265,7 @@ Mietchen
 mitishamba
 modularity
 Molconvert
-molvs
+MolVS
 monogyna
 Mozzherin
 mSorok
@@ -274,10 +274,10 @@ MVLS
 NameBank
 náměstí
 nanpdb
-NAPRALERT
+napralert
 natively
 NatprodCbn
-NaturalProducts
+naturalproducts
 NCBI
 NCCIH
 nextStep
@@ -317,7 +317,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-phenolexplorer
+PhenolExplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -349,7 +349,7 @@ rdmpage
 readxl
 Reionization
 rentrez
-Repartition
+repartition
 reproducibility
 ressource
 resubmission
@@ -364,7 +364,7 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
 Scholia
 scipy
 SDF
@@ -389,7 +389,7 @@ squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -420,15 +420,15 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-TMAP
+tmap
 tmdb
-tmmc
+TMMC
 tppt
 transdisciplinary
 transformational
 transformative
 treeio
-trigocherrin
+Trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -445,7 +445,7 @@ unconserved
 underreporting
 Universiteitssingel
 Univocity
-UNPD
+unpd
 upsert
 upserting
 upserts
