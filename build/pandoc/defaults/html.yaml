@@ -29,6 +29,7 @@ include-after-body:
 ### manually added
 #- build/plugins/tabulator.html
 variables:
+  document-css: false
   math: ""
 html-math-method:
   method: mathjax
