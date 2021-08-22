@@ -10,7 +10,6 @@ content/01.abstract.md:8:naturalproducts
 content/01.abstract.md:8:naturalproducts
 content/01.abstract.md:9:curation
 content/02.introduction.md:5:transdisciplinary
-content/02.introduction.md:7:biologicl
 content/02.introduction.md:14:bioactive
 content/02.introduction.md:20:bioinformatic
 content/02.introduction.md:20:datasets
@@ -698,7 +697,6 @@ content/05.methods.md:124:src
 content/05.methods.md:124:src
 content/05.methods.md:125:src
 content/05.methods.md:125:src
-content/05.methods.md:127:Michonneau
 content/05.methods.md:127:rotl
 content/05.methods.md:133:crossref
 content/05.methods.md:133:Crossref

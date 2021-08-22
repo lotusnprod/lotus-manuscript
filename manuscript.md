@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-08-09'
+date-meta: '2021-08-22'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-08-09" />
-  <meta name="citation_publication_date" content="2021-08-09" />
+  <meta name="dc.date" content="2021-08-22" />
+  <meta name="citation_publication_date" content="2021-08-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/aed375aae9a41938fbb9d557c3abadf90cc69ce0/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/aed375aae9a41938fbb9d557c3abadf90cc69ce0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/aed375aae9a41938fbb9d557c3abadf90cc69ce0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d5b3cb1795d93a53018789d9b9d3e3584090915c/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d5b3cb1795d93a53018789d9b9d3e3584090915c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d5b3cb1795d93a53018789d9b9d3e3584090915c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/aed375aae9a41938fbb9d557c3abadf90cc69ce0/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/aed375aae9a41938fbb9d557c3abadf90cc69ce0/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d5b3cb1795d93a53018789d9b9d3e3584090915c/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d5b3cb1795d93a53018789d9b9d3e3584090915c/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/aed375aae9a41938fbb9d557c3abadf90cc69ce0/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d5b3cb1795d93a53018789d9b9d3e3584090915c/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@aed375a](https://github.com/lotusnprod/lotus-manuscript/tree/aed375aae9a41938fbb9d557c3abadf90cc69ce0)
-on August 9, 2021.
+from [lotusnprod/lotus-manuscript@d5b3cb1](https://github.com/lotusnprod/lotus-manuscript/tree/d5b3cb1795d93a53018789d9b9d3e3584090915c)
+on August 22, 2021.
 </em></small>
 
 ## Authors
@@ -317,7 +317,7 @@ The LOTUS initiative represents an important advancement in the design and deplo
 
 Natural Products (NP) research is a transdisciplinary field with wide-ranging interests: from fundamental structural aspects of naturally-occurring molecular entities to their effects on living organisms and extending to the study of chemically-mediated interactions within entire ecosystems.
 Despite the ambiguous definition of "natural" [@doi:10/bkfd8h], the basis of our definition of a NP as a chemical entity *found in* a living organism is predicated on the identification of the explicit relationship between a naturally-occurring chemical entity and its source organism.
-A third fundamental element of a structure-organism pair is a reference to the experimental evidence that establishes the linkages between a chemical structure and a biologicl organism and a future-oriented electronic NP resource should contain only fully-referenced structure-organism pairs.
+A third fundamental element of a structure-organism pair is a reference to the experimental evidence that establishes the linkages between a chemical structure and a biological organism and a future-oriented electronic NP resource should contain only fully-referenced structure-organism pairs.
 
 Reliance on data from the NP literature presents many challenges.
 The assembly and integration of NP occurrences into an inter-operative platform relies primarily on access to a heterogeneous set of databases (DB) whose content and maintenance status are critical factors in this dependency [@doi:10/gfwm27].
@@ -541,7 +541,7 @@ For instance, a generic SPARQL query - listed in Table @tbl:queries as "Which ar
 Data can then be exported in various formats, such as classical tabular formats, json, or html tables (see Download tab on the lower right of the query frame).
 At the time of writing (2021-05-05), this query (without the LIMIT 1000) returned 797,123 entries; a frozen query result is available at [https://osf.io/thqaw/](https://osf.io/thqaw/).
 
-Targeted queries allowing to interrogate LOTUS data from the perspective of one of the three objects forming the referenced structure-organism pairs can be also built.
+Targeted queries allowing to interrogate LOTUS data from the perspective of one of the three objects forming the referenced structure-organism pairs can also be built.
 Users can, for example, retrieve a list of all structures reported from a given organism, such as all structures reported from *Arabidopsis thaliana* ([Q158695](https://www.wikidata.org/wiki/Q158695)) ([https://w.wiki/3HLn](https://w.wiki/3HLn)).
 Alternatively, all organisms containing a given chemical can be queried via its structure, such as in the search for all organisms where *β*-sitosterol ([Q121802](https://www.wikidata.org/wiki/Q121802)) was found in ([https://w.wiki/3HLy](https://w.wiki/3HLy)).
 For programmatic access, the [lotus-wikidata-exporter](https://gitlab.com/lotus7/lotus-wikidata-exporter) repository also allows data retrieval in RDF format and as TSV tables.
@@ -936,7 +936,7 @@ After this subtraction step, the remaining names were translated from vernacular
 For performance reasons, this cleaning step was written in Kotlin and used coroutines to allow efficient parallelization of that process ([src/2_curating/2_editing/organisms/2_translating_organism_kotlin/](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/2_curating/2_editing/organisms/2_translating_organism_kotlin/)).
 They were subsequently submitted again to scientific name recognition ([src/2_curating/2_editing/organisms/3_cleaningTranslated.R](http://src/2_curating/2_editing/organisms/3_cleaningTranslated.R)).
 
-After full resolution of canonical names, all obtained names were submitted to rotl (Michonneau et al., 2016) to obtain a unified taxonomy.
+After full resolution of canonical names, all obtained names were submitted to rotl [@doi:10.1111/2041-210x.12593] to obtain a unified taxonomy.
 From the 88,395 initial "clean" organism fields, 43,936 (50%) canonical names were obtained, of which 32,285 (37%) were uploaded to Wikidata.
 From the 300 initial "dirty" organism fields, 250 (83%) canonical names were obtained, of which 208 (69%) were uploaded to Wikidata.
 
