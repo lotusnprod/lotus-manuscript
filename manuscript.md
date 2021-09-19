@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-09-17'
+date-meta: '2021-09-19'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-09-17" />
-  <meta name="citation_publication_date" content="2021-09-17" />
+  <meta name="dc.date" content="2021-09-19" />
+  <meta name="citation_publication_date" content="2021-09-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -101,20 +101,20 @@ header-includes: |-
   <meta name="citation_author_institution" content="Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
   <meta name="citation_author_institution" content="Department of Biology, University of Fribourg, Chemin du Musée 10, 1700 Fribourg, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0003-3389-2191" />
-  <meta name="twitter:creator" content="@NatprodCbn" />
+  <meta name="twitter:creator" content="@allard_pm" />
   <link rel="canonical" href="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta property="og:url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta property="twitter:url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/513cbb5fc6b481b6a2036e304b0f399dc4fae553/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/513cbb5fc6b481b6a2036e304b0f399dc4fae553/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/513cbb5fc6b481b6a2036e304b0f399dc4fae553/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d3d2a278ca4ee80d429cbf21b7cc10fa5c2c6b01/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d3d2a278ca4ee80d429cbf21b7cc10fa5c2c6b01/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d3d2a278ca4ee80d429cbf21b7cc10fa5c2c6b01/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/513cbb5fc6b481b6a2036e304b0f399dc4fae553/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/513cbb5fc6b481b6a2036e304b0f399dc4fae553/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d3d2a278ca4ee80d429cbf21b7cc10fa5c2c6b01/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d3d2a278ca4ee80d429cbf21b7cc10fa5c2c6b01/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/513cbb5fc6b481b6a2036e304b0f399dc4fae553/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d3d2a278ca4ee80d429cbf21b7cc10fa5c2c6b01/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@513cbb5](https://github.com/lotusnprod/lotus-manuscript/tree/513cbb5fc6b481b6a2036e304b0f399dc4fae553)
-on September 17, 2021.
+from [lotusnprod/lotus-manuscript@d3d2a27](https://github.com/lotusnprod/lotus-manuscript/tree/d3d2a278ca4ee80d429cbf21b7cc10fa5c2c6b01)
+on September 19, 2021.
 </em></small>
 
 ## Authors
@@ -284,7 +284,7 @@ on September 17, 2021.
     · ![GitHub icon](images/github.svg){.inline_icon}
     [oolonek](https://github.com/oolonek)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [NatprodCbn](https://twitter.com/NatprodCbn)<br>
+    [allard_pm](https://twitter.com/allard_pm)<br>
   <small>
      School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Department of Biology, University of Fribourg, Chemin du Musée 10, 1700 Fribourg, Switzerland
   </small>
@@ -382,10 +382,10 @@ More broadly, the LOTUS initiative fosters cross-fertilization of the fields of 
 
 ## Results & Discussion
 
-This section is structured as follows: first, we present an overview of the LOTUS initiative at its current stage of development.
-The central curation and dissemination elements of the LOTUS initiative are then explained in detail.
-The third section addresses the interaction modes between LOTUS and its end-users, including data retrieval, addition and editing.
-The final section is dedicated to the interpretation of LOTUS data and illustrates the dimensions and qualities of the current LOTUS dataset from chemical and biological perspectives.
+This section is structured as follows: first, we present an [overview of the LOTUS initiative at its current stage of development]((#Blueprint-of-the-LOTUS-Initiative).
+The central [curation](#Data-Cleaning-&-Validation) and [dissemination](#Data-Dissemination) elements of the LOTUS initiative are then explained in detail.
+The [third section](#User-Interaction-with-LOTUS-Data) addresses the interaction modes between LOTUS and its end-users, including data retrieval, addition and editing.
+The [final section](#Data-Interpretation) is dedicated to the interpretation of LOTUS data and illustrates the dimensions and qualities of the current LOTUS dataset from chemical and biological perspectives.
 
 ### Blueprint of the LOTUS Initiative
 
@@ -410,7 +410,7 @@ The overall process leading to referenced and curated structure-organisms pairs 
 ![**Blueprint of the LOTUS initiative.** Data undergo a four-stage process: (1) Harmonization, (2) Cleaning, (3) Validation and (4) Dissemination. The process was designed to incorporate future contributions (5), either by the addition of new data from within Wikidata (a) or new sources (b) or *via* curation of existing data (c). The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg).](images/workflow.svg "Workflow"){#fig:workflow width="100%"}
 
 By design, this iterative process fosters community participation, essential to efficiently document NP occurrences.
-All stages of the workflow are described on the git sites of the LOTUS initiative at [https://gitlab.com/lotus7](https://gitlab.com/lotus7) and [https://github.com/mSorok/LOTUSweb](https://github.com/mSorok/LOTUSweb).
+All stages of the workflow are described on the git sites of the LOTUS initiative at [https://gitlab.com/lotus7](https://gitlab.com/lotus7) and [https://github.com/mSorok/LOTUSweb](https://github.com/mSorok/LOTUSweb) and in the [methods](#Methods).
 At the time of writing, 700,000+ LOTUS entries contained a curated chemical structure, biological organism and reference and were available on both Wikidata and LNPN.
 As the LOTUS data volume is expected to increase over time, a frozen (as of 2021-05-23), tabular version of this dataset with its associated metadata is made available at [https://osf.io/eydjs/](https://osf.io/eydjs/).
 
@@ -424,13 +424,13 @@ The data were complemented with COCONUT's own referenced structure-organism pair
 
 The contacts of the electronic NP resources not explicitly licensed as open were individually reached for permission to access and reuse data.
 A detailed list of data sources and related information is available as [SI-1](#si-1-data-sources-list).
-All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://gitlab.com/lotus7/lotus-processor) repository in the [src/1_gathering](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/1_gathering) directory.
+All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://gitlab.com/lotus7/lotus-processor) repository in the [src/1_gathering](https://gitlab.com/lotus7/lotus-processor/-/tree/preprint/src/1_gathering) directory or in the methods [gathering section](#Gathering).
 All subsequent and future iterations that include additional data sources, either updated information from the same data sources or new data, will involve a comparison of the new with previously gathered data at the SSOT level to ensure that the data is only curated once.
 
 #### Data Cleaning & Validation {.page_break_before}
 
 As shown in Figure @fig:workflow, data curation consisted of three stages: harmonization, cleaning and validation.
-Thereby, after the harmonization stage, each of the three central objects - chemical compounds, biological organisms and reference - were cleaned.
+Thereby, after the harmonization stage, each of the three central objects - chemical compounds, biological organisms and reference - were cleaned, as described in related [methods section](#Cleaning).
 Given the data size (2.5M+ initial entries), manual validation was unfeasible.
 Curating the references was a particularly challenging part of the process.
 Whereas organisms are typically reported by at least their vernacular or scientific denomination and chemical structures via their SMILES, InChI, InChIKey or image (not covered in this work), references suffer from largely insufficient reporting standards.
@@ -439,6 +439,7 @@ Better reporting practices, supported by tools such as [Scholia](https://scholia
 
 In addition to curating the entries during data processing, 420 referenced structure-organism pairs were selected for manual validation.
 An entry was considered as valid if: *i)* the structure (in the form of any structural descriptor that could be linked to the final sanitized InChIKey) was described in the reference *ii)* the containing organism (as any organism descriptor that could be linked to the accepted canonical name) was described in the reference and *iii)* the reference was describing the occurrence of the chemical structure in the biological organism.
+More details aare available in the related [methods section](#Validation).
 This process allowed us to establish rules for automatic filtering and validation of the entries.
 The filtering was then applied to all entries.
 To confirm the efficacy of the filtering process, a new subset of 100 diverse, automatically curated and automatically validated entries was manually checked, yielding a rate of 97% of true positives.
