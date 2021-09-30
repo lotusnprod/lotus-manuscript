@@ -19,7 +19,7 @@
   <meta name="author" content="Jean-Luc Wolfender" />
   <meta name="author" content="Jonathan Bisson" />
   <meta name="author" content="Pierre-Marie Allard" />
-  <meta name="dcterms.date" content="2021-09-24" />
+  <meta name="dcterms.date" content="2021-09-30" />
   <meta name="keywords" content="Natural Products, Knowledge Management, Wikidata" />
   <title>The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata</title>
   <style>
@@ -124,8 +124,8 @@
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-09-24" />
-  <meta name="citation_publication_date" content="2021-09-24" />
+  <meta name="dc.date" content="2021-09-30" />
+  <meta name="citation_publication_date" content="2021-09-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -200,13 +200,13 @@
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/2827ec50e9cf9ac7c1d816eea9f58e24c374260a/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/2827ec50e9cf9ac7c1d816eea9f58e24c374260a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/2827ec50e9cf9ac7c1d816eea9f58e24c374260a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/2827ec50e9cf9ac7c1d816eea9f58e24c374260a/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/2827ec50e9cf9ac7c1d816eea9f58e24c374260a/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -220,27 +220,15 @@
   </style>
 </head>
 <body>
-<!--
-  D3 Plugin (third-party) 
-  
-  Allows you to create complex, dynamic,interactive, data-driven visualizations
-  in SVG. See https://d3js.org/.
--->
-
-<script
-  src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.min.js"
-  integrity="sha512-C2RveGuPIWqkaLAluvoxyiaN1XYNe5ss11urhZWZYBUA9Ydgj+hfGKPcxCzTwut1/fmjEZR7Ac35f2aycT8Ogw=="
-  crossorigin="anonymous"
-></script>
 <header id="title-block-header">
 <h1 class="title">The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata</h1>
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lotusnprod.github.io/lotus-manuscript/v/2827ec50e9cf9ac7c1d816eea9f58e24c374260a/">permalink</a>)
+(<a href="https://lotusnprod.github.io/lotus-manuscript/v/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/2827ec50e9cf9ac7c1d816eea9f58e24c374260a">lotusnprod/lotus-manuscript@2827ec5</a>
-on September 24, 2021.
+from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6">lotusnprod/lotus-manuscript@38b2743</a>
+on September 30, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -3577,7 +3565,8 @@ Zhang R, Lin J, Zou Y, Zhang X-J, Xiao W-L. 2018. Chemical Space and Biological 
       // start expanded/collapsed based on option
       if (
         startCollapsed === "true" ||
-        (startCollapsed === "auto" && isSmallScreen())
+        (startCollapsed === "auto" && isSmallScreen()) ||
+        heading.dataset.collapsed === "true"
       )
         collapseHeading(heading);
       else expandElement(heading);
@@ -3910,8 +3899,9 @@ Zhang R, Lin J, Zou Y, Zhang X-J, Xiao W-L. 2018. Chemical Space and Biological 
     }
   }
 
-  // start script when document is finished loading
-  window.addEventListener("load", start);
+  // start script on DOMContentLoaded instead of load to ensure this plugins
+  // runs before other plugins
+  window.addEventListener("DOMContentLoaded", start);
 </script>
 <!--
   Jump to First Plugin
@@ -3930,11 +3920,8 @@ Zhang R, Lin J, Zou Y, Zhang X-J, Xiao W-L. 2018. Chemical Space and Biological 
 
   // start script
   function start() {
-    if (references !== "false") makeButtons("ref-", "p", "reference");
     if (references !== "false")
-    if (figures !== "false") makeButtons("fig:", "figcaption", "figure");
       makeButtons(`div[id^="ref-"]`, ".csl-left-margin", "reference");
-    if (tables !== "false") makeButtons("tbl:", "caption", "table");
     if (figures !== "false")
       makeButtons(`div[id^="fig:"]`, "figcaption", "figure");
     if (tables !== "false") makeButtons(`div[id^="tbl:"]`, "caption", "table");
@@ -5759,7 +5746,7 @@ Zhang R, Lin J, Zou Y, Zhang X-J, Xiao W-L. 2018. Chemical Space and Biological 
   Allows public annotation of the  manuscript. See https://web.hypothes.is/.
 -->
 
-<script>
+<script type="module">
   // configuration
   window.hypothesisConfig = function () {
     return {
@@ -5970,68 +5957,6 @@ Zhang R, Lin J, Zou Y, Zhang X-J, Xiao W-L. 2018. Chemical Space and Biological 
   span[id^="eq:"] > span.math.display > span {
     /* nudge to make room for equation auto-number and anchor */
     margin-right: 60px !important;
-  }
-</style>
-<!-- 
-  Scite Plugin (third party)
-
-  Adds a Scite badge next to each citation in the references section.
-  See https://scite.ai/.
--->
-
-<script
-  async
-  type="application/javascript"
-  src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"
-></script>
-
-<script>
-  // start script
-  function start() {
-    // if printing, exit and don't run badges
-    if (window.matchMedia("print").matches) return;
-
-    // get citation elements
-    const query = ".references div[id*='ref-']";
-    const elements = document.querySelectorAll(query);
-    for (const element of elements) addBadge(element);
-  }
-
-  // add badge in citation element
-  function addBadge(element) {
-    // get citation text
-    const text = element.innerText;
-    // find doi string, eg "DOI: xxxxx/xxxxx"
-    const match = text.match(/DOI:\s+(\S*)/) || {};
-    const doi = match[1];
-    if (!doi) return;
-    // create cite badge and put after citation
-    const badge = document.createElement("div");
-    badge.innerHTML = "Loading Scite badge...";
-    badge.classList.add("scite-badge");
-    badge.setAttribute("data-doi", doi);
-    badge.setAttribute("data-layout", "horizontal");
-    badge.setAttribute("data-show-zero", "true");
-    element.append(badge);
-    // modify preceding citation <p> element
-    const p = element.querySelector("p");
-    if (p) p.style.marginBottom = "0";
-  }
-
-  // start script when document is finished loading
-  window.addEventListener("load", start);
-</script>
-
-<style>
-  .scite-badge {
-    text-indent: 0;
-    margin-top: 10px;
-  }
-
-  @media print {
-    .scite-badge {
-      display: none;
-    }
   }
 </style>
 </body>
