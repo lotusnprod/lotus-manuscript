@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-09-30'
+date-meta: '2021-10-01'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-09-30" />
-  <meta name="citation_publication_date" content="2021-09-30" />
+  <meta name="dc.date" content="2021-10-01" />
+  <meta name="citation_publication_date" content="2021-10-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/a5c6fb62963304595fa20b730accab867962ba69/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a5c6fb62963304595fa20b730accab867962ba69/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a5c6fb62963304595fa20b730accab867962ba69/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a5c6fb62963304595fa20b730accab867962ba69/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a5c6fb62963304595fa20b730accab867962ba69/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/a5c6fb62963304595fa20b730accab867962ba69/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@38b2743](https://github.com/lotusnprod/lotus-manuscript/tree/38b2743fbfb4b657e8ec27f8cddaf1b16df690c6)
-on September 30, 2021.
+from [lotusnprod/lotus-manuscript@a5c6fb6](https://github.com/lotusnprod/lotus-manuscript/tree/a5c6fb62963304595fa20b730accab867962ba69)
+on October 1, 2021.
 </em></small>
 
 ## Authors
@@ -382,7 +382,7 @@ More broadly, the LOTUS initiative fosters cross-fertilization of the fields of 
 
 ## Results & Discussion
 
-This section is structured as follows: first, we present an [overview of the LOTUS initiative at its current stage of development]((#Blueprint-of-the-LOTUS-Initiative).
+This section is structured as follows: first, we present an [overview of the LOTUS initiative at its current stage of development](#Blueprint-of-the-LOTUS-Initiative).
 The central [curation](#Data-Cleaning-&-Validation) and [dissemination](#Data-Dissemination) elements of the LOTUS initiative are then explained in detail.
 The [third section](#User-Interaction-with-LOTUS-Data) addresses the interaction modes between LOTUS and its end-users, including data retrieval, addition and editing.
 The [final section](#Data-Interpretation) is dedicated to the interpretation of LOTUS data and illustrates the dimensions and qualities of the current LOTUS dataset from chemical and biological perspectives.
@@ -650,7 +650,7 @@ When the chemical structure/class was reported only in one taxonomic grouping, i
 Table: Repartition and specificity of chemical structures across four important NP reservoirs: plants, fungi, animals and bacteria. When the chemical structure/class appeared only in one group and not the three others, they were counted as "specific". Chemical classes were attributed with NPClassifier. {#tbl:repartition}
 
 | **Group** | **Organisms** | **Structure-Organism Pairs** | **Chemical Structures** | **Specific Chemical Structures** | **Chemical Classes** | **Specific Chemical Classes** | 
-|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|:-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|
 | **Plantae** | 26,204 | 485,018 | 186,906 | 181,263 (97%) | 510 | 62 (12%) |
 | **Fungi** | 3,642 | 54,744 | 38,695 | 35,538 (92%) | 398 | 31 (8%) |
 | **Animalia** | 2,524 | 34,464 | 24,757 | 21,084 (85%) | 427 | 16 (4%) |
@@ -1189,7 +1189,7 @@ The authors declare no competing interest.
 Table: Data Sources List {#tbl:si-1 tag="SI-1"}
 
 | database | type | initial retrieved unique entries | cleaned referenced structure-organism pairs | pairs validated for wikidata export | website | article | retrieval | license | contact | varia |
-|:--------:|:------:|:-----:|:------:|:-----:|:----:|:-----:|:-----:|:----:|:-----:|:----:|
+|:--------:|:------:|-----:|------:|-----:|:----:|:-----:|:-----:|:----:|:-----:|:----:|
 | afrotryp | open | 312 | 135 | 28 | - | [article](https://link.springer.com/article/10.1007/s00044-016-1764-y?shared-article-renderer) [@doi:10/gh5ptd] | [download](https://static-content.springer.com/esm/art%3A10.1007%2Fs00044-016-1764-y/MediaObjects/44_2016_1764_MOESM1_ESM.doc) | [license](https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/afrotryp.md) | [Fidele Ntie-Kang](https://link.springer.com/article/10.1007/s00044-016-1764-y/email/correspondent/c1/new) or [Ngozi Justina Nwodo](https://link.springer.com/article/10.1007/s00044-016-1764-y/email/correspondent/c2/new) | - |
 | alkamid | open | 4,434 | 2,582 | 2,076 | [website](http://alkamid.ugent.be) | [article](http://dx.doi.org/10.1016/j.jep.2012.05.038) [@doi:10/gh5ptc] | [script](https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/alkamid/scraping.R) | [license](https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/alkamid.md) | [Bart De Spiegeleer](mailto:Bart.DeSpiegeleer@UGent.be) | - |
 | biofacquim | open | 531 | 683 | 534 | [website](https://biofacquim.herokuapp.com) (old version) | [article_old](https://www.mdpi.com/2218-273X/9/1/31) [article_new](https://f1000research.com/articles/8-2071) [@doi:10/gh5ptb] | [download](https://ndownloader.figshare.com/files/20050244) | [license](https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/biofacquim.md) | [José Medina-Franco](mailto:medinajl@unam.mx) | - |
@@ -1239,7 +1239,7 @@ Table: Data Sources List {#tbl:si-1 tag="SI-1"}
 Table: Summary of the Validation Statistics {#tbl:si-2 tag="SI-2"}
 
 | | **First validation dataset (n =420)** <!-- $colspan="8" --> | | | | | | | | **Second validation dataset (n = 100)** <!-- $colspan="2" --> | |
-|:-----:|:----:|:----:|:----:|:----:|:-----:|:-----:|:---:|:---:|:----:|:----:|
+|:-----:|----:|----:|----:|----:|-----:|-----:|---:|---:|----:|----:|
 | **Reference Type ** | **True positive** | **False positive** |**False negative** |**True negative** |**Relative abundance** |**Precision** | **Recall** |**F~0.5~ score** |**True positive** |**False negative** |
 | **Original** | 80 | 6 | 7 | 11 | 0.31 | 0.93 | 0.92 | 0.92 | 38 | 1 |
 | **Pubmed** | 37 | 1 | 5 | 6 | 0.30 | 0.97 | 0.88 | 0.92 | 5 | 1 |

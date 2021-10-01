@@ -73,7 +73,7 @@ Christoph
 Chun
 clade
 ClassyFire
-ClassyfireR
+classyfireR
 cleaningOriginal
 cleaningTranslated
 CMU
@@ -144,7 +144,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 Gaudry
 GBIF
 gdata
@@ -167,7 +167,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -193,7 +193,7 @@ InChI
 InChIKey
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -263,7 +263,7 @@ Mietchen
 mitishamba
 modularity
 Molconvert
-Molvs
+molvs
 monogyna
 Mozzherin
 mSorok
@@ -314,7 +314,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -346,7 +346,7 @@ rdmpage
 readxl
 Reionization
 rentrez
-repartition
+Repartition
 reproducibility
 ressource
 resubmission
@@ -361,7 +361,7 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
 Scholia
 scipy
 SDF
@@ -382,7 +382,7 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
@@ -417,7 +417,7 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-TMAP
+tmap
 tmdb
 TMMC
 tppt
@@ -433,7 +433,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger
@@ -442,7 +442,7 @@ unconserved
 underreporting
 Universiteitssingel
 Univocity
-UNPD
+unpd
 upsert
 upserting
 upserts
@@ -459,7 +459,7 @@ Voilà
 Vondrášek
 vroom
 Vue
-wakankensaku
+Wakankensaku
 wdpage
 webchem
 Wijeratne
