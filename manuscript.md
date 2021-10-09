@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d51ccd4164413f2c7c01033454de8bb26665dbc6/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d51ccd4164413f2c7c01033454de8bb26665dbc6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d51ccd4164413f2c7c01033454de8bb26665dbc6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/b1efa9430dd8b76a08951c76e4118dc8b7026a23/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/b1efa9430dd8b76a08951c76e4118dc8b7026a23/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/b1efa9430dd8b76a08951c76e4118dc8b7026a23/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d51ccd4164413f2c7c01033454de8bb26665dbc6/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d51ccd4164413f2c7c01033454de8bb26665dbc6/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/b1efa9430dd8b76a08951c76e4118dc8b7026a23/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/b1efa9430dd8b76a08951c76e4118dc8b7026a23/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d51ccd4164413f2c7c01033454de8bb26665dbc6/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/b1efa9430dd8b76a08951c76e4118dc8b7026a23/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@d51ccd4](https://github.com/lotusnprod/lotus-manuscript/tree/d51ccd4164413f2c7c01033454de8bb26665dbc6)
+from [lotusnprod/lotus-manuscript@b1efa94](https://github.com/lotusnprod/lotus-manuscript/tree/b1efa9430dd8b76a08951c76e4118dc8b7026a23)
 on October 9, 2021.
 </em></small>
 
@@ -440,7 +440,8 @@ Better reporting practices, supported by tools such as [Scholia](https://scholia
 In addition to curating the entries during data processing, 420 referenced structure-organism pairs were selected for manual validation.
 An entry was considered as valid if: *i)* the structure (in the form of any structural descriptor that could be linked to the final sanitized InChIKey) was described in the reference *ii)* the containing organism (as any organism descriptor that could be linked to the accepted canonical name) was described in the reference and *iii)* the reference was describing the occurrence of the chemical structure in the biological organism.
 More details are available in the related [methods section](#Validation).
-This process allowed us to establish rules for automatic filtering and validation of the entries. The parameters of the automatic filtering are available as a function ([filter_dirty.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/r/filter_dirty.R)) and are further described in the related [methods section](#Validation).
+This process allowed us to establish rules for automatic filtering and validation of the entries. 
+The parameters of the automatic filtering are available as a function ([filter_dirty.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/r/filter_dirty.R)) and are further described in the related [methods section](#Validation).
 The filtering was then applied to all entries.
 To confirm the efficacy of the filtering process, a new subset of 100 diverse, automatically curated and automatically validated entries was manually checked, yielding a rate of 97% of true positives.
 The detailed results of the two manual validation steps are reported in Supporting Information [SI-2](#si-2-summary-of-the-validation-statistics).
@@ -1001,7 +1002,8 @@ To improve these results, further cleaning of the references was needed.
 This was done by accepting entries whose reference was coming from a DOI, a PMID, or from a title which restricted Damerau-Levenshtein distance between original and translated was lower than ten or if it was coming from one of the three main journals where NP occurrences are commonly expected to be published (i.e., *Journal of Natural Products*, *Phytochemistry*, or *Journal of Agricultural and Food Chemistry*).
 For "split", "publishingDetails" and "original" subcategories, the year of publication of the obtained reference, its journal, and the name of the first author were searched in the original entry and if at least two of them were present, the entry was kept.
 Entries were then further filtered to keep the ones where the reference title contained the first element of the detected canonical name.
-Except for COCONUT, exceptions to this filter were made for all DOI-based references.
+Except for COCONUT, exceptions to this filter were made for all DOI-based references. 
+The function resullting from those rules is ([filter_dirty.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/r/filter_dirty.R)).
 To validate those filtering criteria, an additional set of 100 structure-organism pairs were manually analyzed.
 F0.5 score was used as a metric.
 F0.5 score is a modified F1 score where precision has twice more weight than recall.
