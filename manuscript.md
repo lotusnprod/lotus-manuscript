@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-10-01'
+date-meta: '2021-10-09'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-10-01" />
-  <meta name="citation_publication_date" content="2021-10-01" />
+  <meta name="dc.date" content="2021-10-09" />
+  <meta name="citation_publication_date" content="2021-10-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/a5c6fb62963304595fa20b730accab867962ba69/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a5c6fb62963304595fa20b730accab867962ba69/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a5c6fb62963304595fa20b730accab867962ba69/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d51ccd4164413f2c7c01033454de8bb26665dbc6/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d51ccd4164413f2c7c01033454de8bb26665dbc6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d51ccd4164413f2c7c01033454de8bb26665dbc6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a5c6fb62963304595fa20b730accab867962ba69/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a5c6fb62963304595fa20b730accab867962ba69/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d51ccd4164413f2c7c01033454de8bb26665dbc6/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d51ccd4164413f2c7c01033454de8bb26665dbc6/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/a5c6fb62963304595fa20b730accab867962ba69/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d51ccd4164413f2c7c01033454de8bb26665dbc6/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@a5c6fb6](https://github.com/lotusnprod/lotus-manuscript/tree/a5c6fb62963304595fa20b730accab867962ba69)
-on October 1, 2021.
+from [lotusnprod/lotus-manuscript@d51ccd4](https://github.com/lotusnprod/lotus-manuscript/tree/d51ccd4164413f2c7c01033454de8bb26665dbc6)
+on October 9, 2021.
 </em></small>
 
 ## Authors
@@ -439,8 +439,8 @@ Better reporting practices, supported by tools such as [Scholia](https://scholia
 
 In addition to curating the entries during data processing, 420 referenced structure-organism pairs were selected for manual validation.
 An entry was considered as valid if: *i)* the structure (in the form of any structural descriptor that could be linked to the final sanitized InChIKey) was described in the reference *ii)* the containing organism (as any organism descriptor that could be linked to the accepted canonical name) was described in the reference and *iii)* the reference was describing the occurrence of the chemical structure in the biological organism.
-More details aare available in the related [methods section](#Validation).
-This process allowed us to establish rules for automatic filtering and validation of the entries.
+More details are available in the related [methods section](#Validation).
+This process allowed us to establish rules for automatic filtering and validation of the entries. The parameters of the automatic filtering are available as a function ([filter_dirty.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/r/filter_dirty.R)) and are further described in the related [methods section](#Validation).
 The filtering was then applied to all entries.
 To confirm the efficacy of the filtering process, a new subset of 100 diverse, automatically curated and automatically validated entries was manually checked, yielding a rate of 97% of true positives.
 The detailed results of the two manual validation steps are reported in Supporting Information [SI-2](#si-2-summary-of-the-validation-statistics).
@@ -455,7 +455,7 @@ Table: Example of a referenced structure-organism pair before and after curation
 | **Before curation** | Cyathocaline | Stem bark of Cyathocalyx zeylanica CHAMP. ex HOOK. f. & THOMS. (Annonaceae) | Wijeratne E. M. K., de Silva L. B., Kikuchi T., Tezuka Y., Gunatilaka A. A. L., Kingston D. G. I., J. Nat. Prod., 58, 459-462 (1995). | 
 | **After curation** | VFIIVOHWCNHINZ-UHFFFAOYSA-N | Cyathocalyx zeylanicus | 10.1021/NP50117A020 | 
 
-Challenging examples encountered during the development of the curation process were compiled in an edge case table ([tests/tests.tsv](https://github.com/lotusnprod/lotus-processor/-/blob/preprint/tests/tests.tsv)) to allow for automated unit testing.
+Challenging examples encountered during the development of the curation process were compiled in an edge case table ([tests/tests.tsv](https://github.com/lotusnprod/lotus-processor/blob/main/tests/tests.tsv)) to allow for automated unit testing.
 These tests allow a continuous revalidation of any change made to the code, ensuring that corrected errors will not reappear.
 The alluvial plot in Figure @fig:alluvial illustrates the individual contribution of each *source* and *original* *subcategory* that led to the *cleaned* *categories*: structure, organism and reference.
 
@@ -830,8 +830,8 @@ This process resulted in categorized columns for each source, providing an initi
 
 For all thirty-eight sources, if a single file or multiple files were accessible *via* a download option including FTP, data was gathered that way.
 For some sources, data was scraped (cf. [SI-1](#si-1-data-sources-list)).
-All scraping scripts can be found in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/1_gathering](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/1_gathering) directory (under each respective subdirectory).
-Data extraction scripts for the DNP are available and should allow users with a DNP license only to further exploit the data ([src/1_gathering/db/dnp](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/1_gathering/db/dnp)).
+All scraping scripts can be found in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/1_gathering](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering) directory (under each respective subdirectory).
+Data extraction scripts for the DNP are available and should allow users with a DNP license only to further exploit the data ([src/1_gathering/db/dnp](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering/db/dnp)).
 The chemical structure fields, organism fields, and reference fields were manually categorized into three, two, and ten subcategories, respectively.
 For chemical structures, "InChI", "SMILES", and "chemical name" (not necessarily IUPAC).
 For organisms, "clean" and "dirty", meaning lot text not referred to the canonical name was present or the organism was not described by its canonical name (e.g. "Compound isolated from the fresh leaves of *Citrus* spp.").
@@ -866,13 +866,13 @@ To retrieve as much information as possible from the original structure field(s)
 Allowed structural fields for the sources were divided into two types: structural (InChI, SMILES) or nominal (chemical name, not necessarily IUPAC).
 If multiple fields were present, structural identifiers were preferred over structure names.
 Among structural identifiers, when both identifiers led to different structures, InChI was preferred over SMILES.
-SMILES were translated to InChI using the RDKit (2021.03.1) implementation in Python 3.8 ([src/2_curating/2_editing/structure/1_translating/smiles.py](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/2_curating/2_editing/structure/1_translating/smiles.py)).
+SMILES were translated to InChI using the RDKit (2021.03.1) implementation in Python 3.8 ([src/2_curating/2_editing/structure/1_translating/smiles.py](https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/structure/1_translating/smiles.py)).
 They were first converted to [ROMol](https://www.rdkit.org/docs/cppapi/ROMol_8h.html#details) objects which were then converted to InChI.
 When no structural identifier was available, the nominal identifier was translated to InChI first thanks to [OPSIN](https://github.com/dan2097/opsin) [@doi:10/b2zkr9], a fast Java-based translation open-source solution.
 If no translation was obtained, chemical names were then submitted to the CTS [@doi:10.1093/bioinformatics/btq476], once in lower case only, once with the first letter capitalized.
 If again no translation was obtained, candidates were then submitted to the [Chemical Identifier Resolver](https://cactus.nci.nih.gov) *via* the *cts_convert* function from the webchem package [@doi:10/gh5ptf].
 Before the translation process, some typical chemical structure-related greek characters (such as *α*, *ß*) were replaced by their textual equivalents (alpha, beta) to obtain better results.
-All pre-translation steps are included in the preparing_name function and are available in [src/r/preparing_name.R](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/r/preparing_name.R).
+All pre-translation steps are included in the preparing_name function and are available in [src/r/preparing_name.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/r/preparing_name.R).
 
 The chemical sanitization step sought to standardize the representation of chemical structures coming from different sources.
 It consisted of three main stages (standardizing, fragment removal, and uncharging) achieved *via* the MolVS package.
@@ -882,7 +882,7 @@ Finally, the Uncharger function was employed to neutralize molecules when approp
 
 [Molconvert](https://docs.chemaxon.com/display/docs/molconvert.md) function of the MarvinSuite was used for traditional and IUPAC names translation, Marvin 20.19, [ChemAxon](https://www.chemaxon.com).
 When stereochemistry was not fully defined, (+) and (-) symbols were removed from names.
-All details are available in the following script: [src/2_curating/2_editing/structure/4_enriching/naming.R](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/2_curating/2_editing/structure/4_enriching/naming.R).
+All details are available in the following script: [src/2_curating/2_editing/structure/4_enriching/naming.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/structure/4_enriching/naming.R).
 Chemical classification of all resulting structures was done using classyfireR [@doi:10/gc5tqv] and [NPClassifier API](https://ccms-ucsd.github.io/GNPSDocumentation/api/#structure-np-classifier).
 
 After manual evaluation, structures remaining as dimers were discarded (all structures containing a "." in their SMILES were removed).
@@ -909,7 +909,7 @@ Because both GNF and GNV recognize scientific names and not common ones, common 
 ###### Dictionaries
 
 To perform the translations from common biological organism name to latin scientific name, specialized dictionaries included in DrDuke, FooDB, PhenolExplorer were aggregated together with the translation dictionary of [GBIF Backbone Taxonomy](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c).
-The script used for this was [src/1_gathering/translation/common.R](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/1_gathering/translation/common.R).
+The script used for this was [src/1_gathering/translation/common.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering/translation/common.R).
 When the canonical translation of a common name contained a specific epithet that was not initially present, the translation pair was discarded (for example, "Aloe" translated in "*Aloe vera*" was discarded).
 Common names corresponding to a generic name were also discarded (for example "Kiwi" corresponding to the synonym of an *Apteryx* spp. ([https://www.gbif.org/species/4849989](https://www.gbif.org/species/4849989))).
 When multiple translations were given for a single common name, the following procedure was followed: the canonical name was split into species name, genus name, and possible subnames.
@@ -919,7 +919,7 @@ When only the generic epithet had more than 50% consistency, it was kept (for ex
 Some unspecific common names were removed (see [https://osf.io/gqhcn/](https://osf.io/gqhcn/)) and only common names with more than three characters were kept.
 This resulted in 181,891 translation pairs further used for the conversion from common names to scientific names.
 For TCM names, translation dictionaries from TCMID, TMMC, and coming from the Chinese Medicine Board of Australia were aggregated.
-The script used for this was [src/1_gathering/translation/tcm.R](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/1_gathering/translation/tcm.R).
+The script used for this was [src/1_gathering/translation/tcm.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering/translation/tcm.R).
 Some unspecific common names were removed (see [https://osf.io/zs7ky/](https://osf.io/zs7ky/)).
 Careful attention was given to the Latin genitive translations and custom dictionaries were written (see [https://osf.io/c3ja4/](https://osf.io/c3ja4/), [https://osf.io/u75e9/](https://osf.io/u75e9/)).
 Organ names of the producing organism were removed to avoid wrong translation (see [https://osf.io/94fa2/](https://osf.io/94fa2/)).
@@ -930,11 +930,11 @@ Both common and TCM translation pairs were then ordered by decreasing string len
 
 To ensure compatibility between obtained taxonID with Wikidata, the taxonomic DB 3 ([ITIS](https://www.itis.gov/)), 4 ([NCBI](https://www.ncbi.nlm.nih.gov/taxonomy)), 5 ([Index Fungorum](http://www.indexfungorum.org/)), 6 ([GRIN Taxonomy for Plants](http://wgb.cimmyt.org/gringlobal/taxon/abouttaxonomy.aspx?language=en&chapter=scope)), 8 ([The Interim Register of Marine and Nonmarine Genera](https://www.irmng.org/)), 9 ([World Register of Marine Species](http://www.marinespecies.org/)), 11 ([GBIF Backbone Taxonomy](https://www.gbif.org/)), 12 ([Encyclopedia of Life](https://eol.org/)), 118 ([AmphibiaWeb](https://amphibiaweb.org/)), 128 ([ARKive](https://www.wildscreen.org/arkive-closure/)), 132 ([ZooBank](http://zoobank.org/)), 147 ([Database of Vascular Plants of Canada (VASCAN)](http://data.canadensys.net/vascan/search)), 148 ([Phasmida Species File](http://phasmida.speciesfile.org/)), 150 ([USDA NRCS PLANTS Database](https://plants.sc.egov.usda.gov/)), 155 ([FishBase](https://www.fishbase.se/)), 158 ([EUNIS](https://eunis.eea.europa.eu/)), 163 ([IUCN Red List of Threatened Species](https://www.iucnredlist.org/)), 164 ([BioLib.cz](https://www.biolib.cz/)), 165 ([Tropicos - Missouri Botanical Garden](https://www.tropicos.org/)), 167 ([The International Plant Names Index](https://www.ipni.org/)), 169 ([uBio NameBank](http://ubio.org/)), 174 ([The Mammal Species of The World](https://www.departments.bucknell.edu/biology/resources/msw3/)), 175 ([BirdLife International](http://www.birdlife.org/)), 179 ([Open Tree of Life](https://tree.opentreeoflife.org/)), 180 ([iNaturalist](https://www.inaturalist.org/)) and 187 ([The eBird/Clements Checklist of Birds of the World](https://ebird.org/science/use-ebird-data/the-ebird-taxonomy)) were chosen.
 All other available taxonomic DB are listed at [http://index.globalnames.org/datasource](http://index.globalnames.org/datasource).
-To retrieve as much information as possible from the original organism field of each of the sources, the following procedure was followed: First, a scientific name recognition step, allowing us to retrieve canonical names was carried ([src/2_curating/2_editing/organisms/subscripts/1_cleaningOriginal.R](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/2_curating/2_editing/organisms/subscripts/1_cleaningOriginal.R)).
+To retrieve as much information as possible from the original organism field of each of the sources, the following procedure was followed: First, a scientific name recognition step, allowing us to retrieve canonical names was carried ([src/2_curating/2_editing/organisms/subscripts/1_cleaningOriginal.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/organisms/subscripts/1_cleaningOriginal.R)).
 Then, a subtraction step of the obtained canonical names from the original field was applied, to avoid unwanted translation of parts of canonical names.
 For example, _Bromus mango_ contains "mango" as a specific epithet, which is also the common name for _Mangifera indica_.
 After this subtraction step, the remaining names were translated from vernacular (common) and TCM names to scientific names, with help of the dictionaries.
-For performance reasons, this cleaning step was written in Kotlin and used coroutines to allow efficient parallelization of that process ([src/2_curating/2_editing/organisms/2_translating_organism_kotlin/](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/2_curating/2_editing/organisms/2_translating_organism_kotlin/)).
+For performance reasons, this cleaning step was written in Kotlin and used coroutines to allow efficient parallelization of that process ([src/2_curating/2_editing/organisms/2_translating_organism_kotlin/](https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/organisms/2_translating_organism_kotlin/)).
 They were subsequently submitted again to scientific name recognition ([src/2_curating/2_editing/organisms/3_cleaningTranslated.R](http://src/2_curating/2_editing/organisms/3_cleaningTranslated.R)).
 
 After full resolution of canonical names, all obtained names were submitted to rotl [@doi:10.1111/2041-210x.12593] to obtain a unified taxonomy.
@@ -949,8 +949,8 @@ For DOI and PMID, only a single candidate was kept.
 All parameters are available in [src/functions/reference.R](https://github.com/lotusnprod/lotus-processor/-/tree/main/src/functions/reference.R).
 All DOIs were also translated with this method, to eventually discard any DOI not leading to an object.
 PMIDs were translated, thanks to the entrez_summary function of the [rentrez](https://cran.r-project.org/web/packages/rentrez/) package [@doi:10/gh5ptg].
-Scripts used for all subcategories of references are available in the directory [src/2_curating/2_editing/reference/1_translating/](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/2_curating/2_editing/reference/1_translating/).
-Once all translations were made, results coming from each subcategory were integrated, ([src/2_curating/2_editing/reference/2_integrating.R](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/2_curating/2_editing/reference/2_integrating.R)) and the producing organism related to the reference was added for further treatment.
+Scripts used for all subcategories of references are available in the directory [src/2_curating/2_editing/reference/1_translating/](https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/reference/1_translating/).
+Once all translations were made, results coming from each subcategory were integrated, ([src/2_curating/2_editing/reference/2_integrating.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/reference/2_integrating.R)) and the producing organism related to the reference was added for further treatment.
 Because the crossref score was not informative enough, at least one other metric was chosen to complement it.
 The first metric was related to the presence of the producing organism’s generic name in the title of the returned article.
 If the title contained the generic name of the organism, a score of 1 was given, else 0.
@@ -961,7 +961,7 @@ If the name of the first author was present in the original field, a score of 1 
 Those three scores were then summed together.
 All candidates were first ordered according to their crossref score, then by the complement score for related subcategories, then again according to their title-producing organism score, and finally according to their translation distance score.
 After this re-ranking step, only the first candidate was kept.
-Finally, the Pubmed PMCID dictionary ([PMC-ids.csv.gz](https://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz)) was used to perform the translations between DOI, PMID, and PMCID ([src/2_curating/2_editing/reference/3_cleaning.R](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/2_curating/2_editing/reference/3_cleaning.R)).
+Finally, the Pubmed PMCID dictionary ([PMC-ids.csv.gz](https://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz)) was used to perform the translations between DOI, PMID, and PMCID ([src/2_curating/2_editing/reference/3_cleaning.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/reference/3_cleaning.R)).
 
 From the 36,710 initial "original" references, 21,970 (60%) references with sufficient quality were obtained, of which 15,588 (71%) had the organism name in their title.
 14,710 (40%) were uploaded to Wikidata.
@@ -987,14 +987,14 @@ After the curation of all three objects, all of them were put together again.
 Therefore, the original aligned table containing the original pairs was joined with each curation result.
 Only entries containing a structure, an organism, and a reference after curation were kept.
 Each curated object was divided into minimal data (for Wikidata upload) and metadata.
-A dictionary containing original and curated object translations was written for each object to avoid those translations being made again during the next curation step ([src/2_curating/3_integrating.R](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/2_curating/3_integrating.R)).
+A dictionary containing original and curated object translations was written for each object to avoid those translations being made again during the next curation step ([src/2_curating/3_integrating.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/3_integrating.R)).
 
 #### Validation 
 
 The pairs obtained after curation were of different quality.
 Globally, structure and organism translation was satisfactory whereas reference translation was not.
 Therefore, to assess the validity of the obtained results, a randomized set of 420 referenced structure-organism pairs was sampled in each reference subcategory and validated or rejected manually.
-Entries were sampled with at least 55 of each reference subcategory present (to get a representative idea of each subcategory) ([src/3_analysing/1_sampling.R](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/3_analysing/1_sampling.R)).
+Entries were sampled with at least 55 of each reference subcategory present (to get a representative idea of each subcategory) ([src/3_analysing/1_sampling.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/3_analysing/1_sampling.R)).
 An entry was only validated if: *i)* the structure (as any structural descriptor that could be linked to the final sanitized InChIKey) was described in the reference *ii)* the producing organism (as any organism descriptor that could be linked to the accepted canonical name) was described in the reference and *iii)* the reference was describing the occurrence of the chemical structure in the biological organism.
 Results obtained on the manually analyzed set were categorized according to the initial reference subcategory and are detailed in [SI-2](#si-2-summary-of-the-validation-statistics).
 To improve these results, further cleaning of the references was needed.
@@ -1012,11 +1012,11 @@ The F-score was calculated with ß = 0.5, as in Equation @eq:validation:
 ${F_{\beta}\ =\ \left(1+\beta^2\right)\cdot\frac{precision\cdot recall}{\left(\beta^2\ \cdot\ precision\right)\ +\ recall}}$ {#eq:validation}
 
 
-Based on this first manually validated dataset, filtering criteria ([src/r/filter_dirty.R](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/r/filter_dirty.R)) were established to maximize precision and recall.
+Based on this first manually validated dataset, filtering criteria ([src/r/filter_dirty.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/r/filter_dirty.R)) were established to maximize precision and recall.
 Another 100 entries were sampled, this time respecting the whole set ratios.
 After manual validation, 97% of true positives were reached on the second set.
 A summary of the validation results is given in [SI-2](#si-2-summary-of-the-validation-statistics).
-Once validated, the filtering criteria were established to the whole curated set to filter entries chosen for dissemination ([src/3_analysing/2_validating.R](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/3_analysing/2_validating.R)).
+Once validated, the filtering criteria were established to the whole curated set to filter entries chosen for dissemination ([src/3_analysing/2_validating.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/3_analysing/2_validating.R)).
 
 #### Unit Testing
 
