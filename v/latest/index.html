@@ -200,13 +200,13 @@
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/f276ae27ce079aa66fab632e433bf3c1f2d3acdf/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f276ae27ce079aa66fab632e433bf3c1f2d3acdf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f276ae27ce079aa66fab632e433bf3c1f2d3acdf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f276ae27ce079aa66fab632e433bf3c1f2d3acdf/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f276ae27ce079aa66fab632e433bf3c1f2d3acdf/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -225,9 +225,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lotusnprod.github.io/lotus-manuscript/v/f276ae27ce079aa66fab632e433bf3c1f2d3acdf/">permalink</a>)
+(<a href="https://lotusnprod.github.io/lotus-manuscript/v/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/f276ae27ce079aa66fab632e433bf3c1f2d3acdf">lotusnprod/lotus-manuscript@f276ae2</a>
+from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6">lotusnprod/lotus-manuscript@5422bdb</a>
 on October 9, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -437,7 +437,7 @@ LOTUS represents an important advancement in the design and deployment of a comp
 More broadly, the LOTUS initiative fosters cross-fertilization of the fields of chemistry, biology and associated disciplines.</p>
 <h2 id="results-discussion">Results &amp; Discussion</h2>
 <p>This section is structured as follows: first, we present an <a href="#Blueprint-of-the-LOTUS-Initiative">overview of the LOTUS initiative at its current stage of development</a>.
-The central <a href="#Data-Cleaning-&amp;-Validation">curation</a> and <a href="#Data-Dissemination">dissemination</a> elements of the LOTUS initiative are then explained in detail.
+The central <a href="#Data-Processing-&amp;-Validation">curation</a> and <a href="#Data-Dissemination">dissemination</a> elements of the LOTUS initiative are then explained in detail.
 The <a href="#User-Interaction-with-LOTUS-Data">third section</a> addresses the interaction modes between LOTUS and its end-users, including data retrieval, addition and editing.
 The <a href="#Data-Interpretation">final section</a> is dedicated to the interpretation of LOTUS data and illustrates the dimensions and qualities of the current LOTUS dataset from chemical and biological perspectives.</p>
 <h3 id="blueprint-of-the-lotus-initiative">Blueprint of the LOTUS Initiative</h3>
@@ -449,7 +449,7 @@ Its central data consists of three minimal sufficient objects:</p>
 <li>A <em>reference object</em> describing the structure-organism pair, with the associated article title and a Digital Object Identifier (DOI), a PubMed (PMID), or PubMed Central (PMCID) ID.</li>
 </ul>
 <p>As data formats are largely inhomogeneous among existing electronic NP resources, fields related to chemical structure, biological organism and references are variable and essentially not standardized.
-Therefore, LOTUS implements multiple stages of harmonization, cleaning and validation (Figure <a href="#fig:workflow">1</a>, stages 1 to 3).
+Therefore, LOTUS implements multiple stages of harmonization, processing and validation (Figure <a href="#fig:workflow">1</a>, stages 1 to 3).
 LOTUS employs a Single Source of Truth (SSOT, <a href="https://en.wikipedia.org/wiki/Single_source_of_truth">Single_source_of_truth</a>) to ensure data reliability and continuous availability of the latest curated version of LOTUS data in both Wikidata and LNPN (Figure <a href="#fig:workflow">1</a>, stage 4).
 The SSOT approach consists of a <a href="https://www.postgresql.org/">PostgreSQL</a> DB that structures links and data schemes such that every data element has a single place.
 The LOTUS processing pipeline is tailored to efficiently include and diffuse novel or curated data directly from new sources or at the Wikidata level.
@@ -457,7 +457,7 @@ This iterative workflow relies both on data addition and retrieval actions as de
 The overall process leading to referenced and curated structure-organisms pairs is illustrated in Figure <a href="#fig:workflow">1</a> and detailed below.</p>
 <div id="fig:workflow" class="fignos">
 <figure>
-<img src="images/workflow.svg" style="width:100.0%" alt="Figure 1: Blueprint of the LOTUS initiative. Data undergo a four-stage process: (1) Harmonization, (2) Cleaning, (3) Validation and (4) Dissemination. The process was designed to incorporate future contributions (5), either by the addition of new data from within Wikidata (a) or new sources (b) or via curation of existing data (c). The figure is available under CC0 license at https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg." /><figcaption aria-hidden="true"><span>Figure 1:</span> <strong>Blueprint of the LOTUS initiative.</strong> Data undergo a four-stage process: (1) Harmonization, (2) Cleaning, (3) Validation and (4) Dissemination. The process was designed to incorporate future contributions (5), either by the addition of new data from within Wikidata (a) or new sources (b) or <em>via</em> curation of existing data (c). The figure is available under CC0 license at <a href="https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg">https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg</a>.</figcaption>
+<img src="images/workflow.svg" style="width:100.0%" alt="Figure 1: Blueprint of the LOTUS initiative. Data undergo a four-stage process: (1) Harmonization, (2) Processing, (3) Validation and (4) Dissemination. The process was designed to incorporate future contributions (5), either by the addition of new data from within Wikidata (a) or new sources (b) or via curation of existing data (c). The figure is available under CC0 license at https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg." /><figcaption aria-hidden="true"><span>Figure 1:</span> <strong>Blueprint of the LOTUS initiative.</strong> Data undergo a four-stage process: (1) Harmonization, (2) Processing, (3) Validation and (4) Dissemination. The process was designed to incorporate future contributions (5), either by the addition of new data from within Wikidata (a) or new sources (b) or <em>via</em> curation of existing data (c). The figure is available under CC0 license at <a href="https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg">https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg</a>.</figcaption>
 </figure>
 </div>
 <p>By design, this iterative process fosters community participation, essential to efficiently document NP occurrences.
@@ -473,9 +473,9 @@ The data were complemented with COCONUT’s own referenced structure-organism pa
 A detailed list of data sources and related information is available as <a href="#si-1-data-sources-list">SI-1</a>.
 All necessary scripts for data gathering and harmonization can be found in the <a href="https://github.com/lotusnprod/lotus-processor">lotus-processor</a> repository in the <a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering">src/1_gathering</a> directory or in the methods <a href="#Gathering">gathering section</a>.
 All subsequent and future iterations that include additional data sources, either updated information from the same data sources or new data, will involve a comparison of the new with previously gathered data at the SSOT level to ensure that the data is only curated once.</p>
-<h4 class="page_break_before" id="data-cleaning-validation">Data Cleaning &amp; Validation</h4>
-<p>As shown in Figure <a href="#fig:workflow">1</a>, data curation consisted of three stages: harmonization, cleaning and validation.
-Thereby, after the harmonization stage, each of the three central objects - chemical compounds, biological organisms and reference - were cleaned, as described in related <a href="#Cleaning">methods section</a>.
+<h4 class="page_break_before" id="data-processing-validation">Data Processing &amp; Validation</h4>
+<p>As shown in Figure <a href="#fig:workflow">1</a>, data curation consisted of three stages: harmonization, processing and validation.
+Thereby, after the harmonization stage, each of the three central objects - chemical compounds, biological organisms and reference - were processed, as described in related <a href="#Processing">methods section</a>.
 Given the data size (2.5M+ initial entries), manual validation was unfeasible.
 Curating the references was a particularly challenging part of the process.
 Whereas organisms are typically reported by at least their vernacular or scientific denomination and chemical structures via their SMILES, InChI, InChIKey or image (not covered in this work), references suffer from largely insufficient reporting standards.
@@ -527,10 +527,10 @@ This process resolved the structure to an InChIKey, the organism to a valid taxo
 </div>
 <p>Challenging examples encountered during the development of the curation process were compiled in an edge case table (<a href="https://github.com/lotusnprod/lotus-processor/blob/main/tests/tests.tsv">tests/tests.tsv</a>) to allow for automated unit testing.
 These tests allow a continuous revalidation of any change made to the code, ensuring that corrected errors will not reappear.
-The alluvial plot in Figure <a href="#fig:alluvial">2</a> illustrates the individual contribution of each <em>source</em> and <em>original</em> <em>subcategory</em> that led to the <em>cleaned</em> <em>categories</em>: structure, organism and reference.</p>
+The alluvial plot in Figure <a href="#fig:alluvial">2</a> illustrates the individual contribution of each <em>source</em> and <em>original</em> <em>subcategory</em> that led to the <em>processed</em> <em>categories</em>: structure, organism and reference.</p>
 <div id="fig:alluvial" class="fignos">
 <figure>
-<img src="images/alluvial.svg" style="width:100.0%" alt="Figure 2: Alluvial plot of the data transformation flow within LOTUS during the automated curation and validation processes. The figure also reflects the relative proportions of the data stream in terms of the contributions from the various sources (“source” block, left), the composition of the harmonized subcategories (“original subcategory” block, middle) and the validated data after curation (“cleaned category” block, right). Automatically validated entries are represented in green, rejected entries in blue. The figure is available under CC0 license at https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_alluvial_plot.svg." /><figcaption aria-hidden="true"><span>Figure 2:</span> <strong>Alluvial plot of the data transformation flow within LOTUS during the automated curation and validation processes.</strong> The figure also reflects the relative proportions of the data stream in terms of the contributions from the various sources (“source” block, left), the composition of the harmonized subcategories (“original subcategory” block, middle) and the validated data after curation (“cleaned category” block, right). Automatically validated entries are represented in green, rejected entries in blue. The figure is available under CC0 license at <a href="https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_alluvial_plot.svg">https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_alluvial_plot.svg</a>.</figcaption>
+<img src="images/alluvial.svg" style="width:100.0%" alt="Figure 2: Alluvial plot of the data transformation flow within LOTUS during the automated curation and validation processes. The figure also reflects the relative proportions of the data stream in terms of the contributions from the various sources (“source” block, left), the composition of the harmonized subcategories (“original subcategory” block, middle) and the validated data after curation (“processed category” block, right). Automatically validated entries are represented in green, rejected entries in blue. The figure is available under CC0 license at https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_alluvial_plot.svg." /><figcaption aria-hidden="true"><span>Figure 2:</span> <strong>Alluvial plot of the data transformation flow within LOTUS during the automated curation and validation processes.</strong> The figure also reflects the relative proportions of the data stream in terms of the contributions from the various sources (“source” block, left), the composition of the harmonized subcategories (“original subcategory” block, middle) and the validated data after curation (“processed category” block, right). Automatically validated entries are represented in green, rejected entries in blue. The figure is available under CC0 license at <a href="https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_alluvial_plot.svg">https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_alluvial_plot.svg</a>.</figcaption>
 </figure>
 </div>
 <p>The figure highlights, for example, the essential contribution of the DOI category of references contained in NAPRALERT towards the current set of validated references in LOTUS.
@@ -948,19 +948,19 @@ Other field titles are self-explanatory.
 The producing organism field was kept as a single field.</p>
 <h4 id="harmonization">Harmonization</h4>
 <p>To perform the harmonization of all previously gathered sources, sixteen columns were chosen as described above.
-Upon electronic NP resources harmonization, resulting subcategories were divided and subject to further cleaning.
+Upon electronic NP resources harmonization, resulting subcategories were divided and subject to further processing.
 The “chemical structure” fields were divided into files according to their subcategories (“InChI”, “names” and “SMILES”).
 A file containing all initial structures from all three subcategories was also generated.
 The same procedure was followed for organisms and references.</p>
-<h4 id="cleaning">Cleaning</h4>
-<p>To obtain an unambiguously referenced structure-organism pair for Wikidata dissemination, the initial sixteen columns were translated and cleaned into three fields: the reported structure, the organism canonical name, and the reference.
+<h4 id="processing">Processing</h4>
+<p>To obtain an unambiguously referenced structure-organism pair for Wikidata dissemination, the initial sixteen columns were translated and processed into three fields: the reported structure, the organism canonical name, and the reference.
 The structure was reported as InChI, together with its SMILES and InChIKey translation.
 The biological organism field was reported as three minimal necessary and sufficient fields, namely its canonical name and the taxonID and taxonomic DB corresponding to the latter.
 The reference was reported as four minimal fields, namely reference title, DOI, PMCID, and PMID, one being sufficient.
 For the forthcoming translation processes, automated solutions were used when available.
 However, for specific cases (common or vernacular names of the biological organisms, Traditional Chinese Medicine (TCM) names, and conversion between digital reference identifiers), no solution existed, thus requiring the use of tailored dictionaries.
 Their construction is detailed in the <a href="#Dictionaries">Dictionaries</a> section.
-The initial entries (containing one or multiple producing organisms per structure, with one or multiple accepted names per organism) were cleaned into 2M+ referenced structure-organism pairs.</p>
+The initial entries (containing one or multiple producing organisms per structure, with one or multiple accepted names per organism) were processed into 2M+ referenced structure-organism pairs.</p>
 <h5 id="chemical-structures">Chemical Structures</h5>
 <p>To retrieve as much information as possible from the original structure field(s) of each of the sources, the following procedure was followed.
 Allowed structural fields for the sources were divided into two types: structural (InChI, SMILES) or nominal (chemical name, not necessarily IUPAC).
@@ -991,7 +991,7 @@ From the 49,675 initial chemical names, 27,932 (56%) sanitized structures were o
 23,036 (46%) were uploaded to Wikidata.
 In total, 163,800 structures with fully defined stereochemistry were uploaded as “chemical compounds” (<a href="https://www.wikidata.org/wiki/Q11173">Q11173</a>), and 106,669 structures without fully defined stereochemistry were uploaded as “group of stereoisomers” (<a href="https://www.wikidata.org/wiki/Q59199015">Q59199015</a>).</p>
 <h5 id="biological-organisms">Biological Organisms</h5>
-<p>The cleaning process at the biological organism’s level had three objectives: convert the original organism string to (a) taxon name(s), atomize fields containing multiple taxon names, and deduplicate synonyms.
+<p>The processing at the biological organism’s level had three objectives: convert the original organism string to (a) taxon name(s), atomize fields containing multiple taxon names, and deduplicate synonyms.
 The original organism strings were treated with <a href="https://github.com/gnames/gnfinder">Global Names Finder</a> (GNF) and <a href="https://github.com/gnames/gnverifier">Global Names Verifier</a> (GNV), both tools coming from the <a href="http://globalnames.org">Global Names Architecture</a> (GNA) a system of web services that helps people to register, find, index, check and organize biological scientific names and interconnect on-line information about species.
 GNF allows scientific name recognition within raw text blocks and searches for found scientific names among public taxonomic DB.
 GNV takes names or lists of names and verifies them against various biodiversity data sources.
@@ -1019,12 +1019,12 @@ Both common and TCM translation pairs were then ordered by decreasing string len
 <h6 id="translation">Translation</h6>
 <p>To ensure compatibility between obtained taxonID with Wikidata, the taxonomic DB 3 (<a href="https://www.itis.gov/">ITIS</a>), 4 (<a href="https://www.ncbi.nlm.nih.gov/taxonomy">NCBI</a>), 5 (<a href="http://www.indexfungorum.org/">Index Fungorum</a>), 6 (<a href="http://wgb.cimmyt.org/gringlobal/taxon/abouttaxonomy.aspx?language=en&amp;chapter=scope">GRIN Taxonomy for Plants</a>), 8 (<a href="https://www.irmng.org/">The Interim Register of Marine and Nonmarine Genera</a>), 9 (<a href="http://www.marinespecies.org/">World Register of Marine Species</a>), 11 (<a href="https://www.gbif.org/">GBIF Backbone Taxonomy</a>), 12 (<a href="https://eol.org/">Encyclopedia of Life</a>), 118 (<a href="https://amphibiaweb.org/">AmphibiaWeb</a>), 128 (<a href="https://www.wildscreen.org/arkive-closure/">ARKive</a>), 132 (<a href="http://zoobank.org/">ZooBank</a>), 147 (<a href="http://data.canadensys.net/vascan/search">Database of Vascular Plants of Canada (VASCAN)</a>), 148 (<a href="http://phasmida.speciesfile.org/">Phasmida Species File</a>), 150 (<a href="https://plants.sc.egov.usda.gov/">USDA NRCS PLANTS Database</a>), 155 (<a href="https://www.fishbase.se/">FishBase</a>), 158 (<a href="https://eunis.eea.europa.eu/">EUNIS</a>), 163 (<a href="https://www.iucnredlist.org/">IUCN Red List of Threatened Species</a>), 164 (<a href="https://www.biolib.cz/">BioLib.cz</a>), 165 (<a href="https://www.tropicos.org/">Tropicos - Missouri Botanical Garden</a>), 167 (<a href="https://www.ipni.org/">The International Plant Names Index</a>), 169 (<a href="http://ubio.org/">uBio NameBank</a>), 174 (<a href="https://www.departments.bucknell.edu/biology/resources/msw3/">The Mammal Species of The World</a>), 175 (<a href="http://www.birdlife.org/">BirdLife International</a>), 179 (<a href="https://tree.opentreeoflife.org/">Open Tree of Life</a>), 180 (<a href="https://www.inaturalist.org/">iNaturalist</a>) and 187 (<a href="https://ebird.org/science/use-ebird-data/the-ebird-taxonomy">The eBird/Clements Checklist of Birds of the World</a>) were chosen.
 All other available taxonomic DB are listed at <a href="http://index.globalnames.org/datasource">http://index.globalnames.org/datasource</a>.
-To retrieve as much information as possible from the original organism field of each of the sources, the following procedure was followed: First, a scientific name recognition step, allowing us to retrieve canonical names was carried (<a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/organisms/subscripts/1_cleaningOriginal.R">src/2_curating/2_editing/organisms/subscripts/1_cleaningOriginal.R</a>).
+To retrieve as much information as possible from the original organism field of each of the sources, the following procedure was followed: First, a scientific name recognition step, allowing us to retrieve canonical names was carried (<a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/organisms/subscripts/1_processingOriginal.R">src/2_curating/2_editing/organisms/subscripts/1_processingOriginal.R</a>).
 Then, a subtraction step of the obtained canonical names from the original field was applied, to avoid unwanted translation of parts of canonical names.
 For example, <em>Bromus mango</em> contains “mango” as a specific epithet, which is also the common name for <em>Mangifera indica</em>.
 After this subtraction step, the remaining names were translated from vernacular (common) and TCM names to scientific names, with help of the dictionaries.
-For performance reasons, this cleaning step was written in Kotlin and used coroutines to allow efficient parallelization of that process (<a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/organisms/2_translating_organism_kotlin/">src/2_curating/2_editing/organisms/2_translating_organism_kotlin/</a>).
-They were subsequently submitted again to scientific name recognition (<a href="http://src/2_curating/2_editing/organisms/3_cleaningTranslated.R">src/2_curating/2_editing/organisms/3_cleaningTranslated.R</a>).</p>
+For performance reasons, this processing step was written in Kotlin and used coroutines to allow efficient parallelization of that process (<a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/organisms/2_translating_organism_kotlin/">src/2_curating/2_editing/organisms/2_translating_organism_kotlin/</a>).
+They were subsequently submitted again to scientific name recognition (<a href="http://src/2_curating/2_editing/organisms/3_processingTranslated.R">src/2_curating/2_editing/organisms/3_processingTranslated.R</a>).</p>
 <p>After full resolution of canonical names, all obtained names were submitted to rotl <span class="citation" data-cites="hPmhpanN">(<a href="#ref-hPmhpanN" role="doc-biblioref">Michonneau et al., 2016</a>)</span> to obtain a unified taxonomy.
 From the 88,395 initial “clean” organism fields, 43,936 (50%) canonical names were obtained, of which 32,285 (37%) were uploaded to Wikidata.
 From the 300 initial “dirty” organism fields, 250 (83%) canonical names were obtained, of which 208 (69%) were uploaded to Wikidata.</p>
@@ -1047,7 +1047,7 @@ If the name of the first author was present in the original field, a score of 1 
 Those three scores were then summed together.
 All candidates were first ordered according to their crossref score, then by the complement score for related subcategories, then again according to their title-producing organism score, and finally according to their translation distance score.
 After this re-ranking step, only the first candidate was kept.
-Finally, the Pubmed PMCID dictionary (<a href="https://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz">PMC-ids.csv.gz</a>) was used to perform the translations between DOI, PMID, and PMCID (<a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/reference/3_cleaning.R">src/2_curating/2_editing/reference/3_cleaning.R</a>).</p>
+Finally, the Pubmed PMCID dictionary (<a href="https://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz">PMC-ids.csv.gz</a>) was used to perform the translations between DOI, PMID, and PMCID (<a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/reference/3_processing.R">src/2_curating/2_editing/reference/3_processing.R</a>).</p>
 <p>From the 36,710 initial “original” references, 21,970 (60%) references with sufficient quality were obtained, of which 15,588 (71%) had the organism name in their title.
 14,710 (40%) were uploaded to Wikidata.
 From the 21,953 initial “pubmed” references, 9,452 (43%) references with sufficient quality were obtained, of which 6,098 (65%) had the organism name in their title.
@@ -1061,7 +1061,7 @@ From the 11,325 initial “split” references, 5,856 (52%) references with suff
 From the 3,314 initial “publishingDetails” references, 119 (4%) references with sufficient quality were obtained, of which 59 (50%) had the organism name in their title.
 58 (2%) were uploaded to Wikidata.</p>
 <h4 id="realignment">Realignment</h4>
-<p>In order to fetch back the referenced structure-organism pairs links in the original data, the cleaned structures, cleaned organisms, and cleaned references were re-aligned with the initial entries.
+<p>In order to fetch back the referenced structure-organism pairs links in the original data, the processed structures, processed organisms, and processed references were re-aligned with the initial entries.
 This resulted in 6.2M+ referenced structure-organism pairs.
 Those pairs were not unique, with redundancies among electronic NP resources and different original categories leading to the same final pair (for example, entry reporting InChI=1/C21H20O12/c22-6-13-15(27)17(29)18(30)21(32-13)33-20-16(28)14-11(26)4-8(23)5-12(14)31-19(20)7-1-2-9(24)10(25)3-7/h1-5,13,15,17-18,21-27,29-30H,6H2/t13-,15+,17+,18-,21+/m1/s1 in <em>Crataegus oxyacantha</em> or InChI=1S/C21H20O12/c22-6-13-15(27)17(29)18(30)21(32-13)33-20-16(28)14-11(26)4-8(23)5-12(14)31-19(20)7-1-2-9(24)10(25)3-7/h1-5,13,15,17-18,21-27,29-30H,6H2/t13-,15+,17+,18-,21+/m1/s1 in <em>Crataegus stevenii</em> both led to OVSQVDMCBVZWGM-DTGCRPNFSA-N in <em>Crataegus monogyna</em>).
 After deduplication, 2M+ unique structure-organism pairs were obtained.</p>
@@ -1077,7 +1077,7 @@ Therefore, to assess the validity of the obtained results, a randomized set of 4
 Entries were sampled with at least 55 of each reference subcategory present (to get a representative idea of each subcategory) (<a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/3_analysing/1_sampling.R">src/3_analysing/1_sampling.R</a>).
 An entry was only validated if: <em>i)</em> the structure (as any structural descriptor that could be linked to the final sanitized InChIKey) was described in the reference <em>ii)</em> the producing organism (as any organism descriptor that could be linked to the accepted canonical name) was described in the reference and <em>iii)</em> the reference was describing the occurrence of the chemical structure in the biological organism.
 Results obtained on the manually analyzed set were categorized according to the initial reference subcategory and are detailed in <a href="#si-2-summary-of-the-validation-statistics">SI-2</a>.
-To improve these results, further cleaning of the references was needed.
+To improve these results, further processing of the references was needed.
 This was done by accepting entries whose reference was coming from a DOI, a PMID, or from a title which restricted Damerau-Levenshtein distance between original and translated was lower than ten or if it was coming from one of the three main journals where NP occurrences are commonly expected to be published (i.e., <em>Journal of Natural Products</em>, <em>Phytochemistry</em>, or <em>Journal of Agricultural and Food Chemistry</em>).
 For “split”, “publishingDetails” and “original” subcategories, the year of publication of the obtained reference, its journal, and the name of the first author were searched in the original entry and if at least two of them were present, the entry was kept.
 Entries were then further filtered to keep the ones where the reference title contained the first element of the detected canonical name.
@@ -1144,7 +1144,7 @@ In line with the overall LOTUS approach, any modification made in this curation 
 <h2 class="page_break_before" id="code-availability">Code Availability</h2>
 <h3 id="general-repository">General Repository</h3>
 <p>All programs written for this work can be found in the following group: <a href="https://github.com/lotusnprod">https://github.com/lotusnprod</a>.</p>
-<h4 id="processing">Processing</h4>
+<h4 id="processing-1">Processing</h4>
 <p>The source data curation system is available at <a href="https://github.com/lotusnprod/lotus-processor">https://github.com/lotusnprod/lotus-processor</a>.
 This program takes the source data as input and outputs curated data, ready for dissemination.
 The first step involves checking if the source data has already been processed.
