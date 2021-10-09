@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/b1efa9430dd8b76a08951c76e4118dc8b7026a23/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/b1efa9430dd8b76a08951c76e4118dc8b7026a23/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/b1efa9430dd8b76a08951c76e4118dc8b7026a23/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/b1efa9430dd8b76a08951c76e4118dc8b7026a23/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/b1efa9430dd8b76a08951c76e4118dc8b7026a23/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/b1efa9430dd8b76a08951c76e4118dc8b7026a23/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@b1efa94](https://github.com/lotusnprod/lotus-manuscript/tree/b1efa9430dd8b76a08951c76e4118dc8b7026a23)
+from [lotusnprod/lotus-manuscript@12ceaa1](https://github.com/lotusnprod/lotus-manuscript/tree/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce)
 on October 9, 2021.
 </em></small>
 
@@ -424,7 +424,7 @@ The data were complemented with COCONUT's own referenced structure-organism pair
 
 The contacts of the electronic NP resources not explicitly licensed as open were individually reached for permission to access and reuse data.
 A detailed list of data sources and related information is available as [SI-1](#si-1-data-sources-list).
-All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/1_gathering](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/1_gathering) directory or in the methods [gathering section](#Gathering).
+All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/1_gathering](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering) directory or in the methods [gathering section](#Gathering).
 All subsequent and future iterations that include additional data sources, either updated information from the same data sources or new data, will involve a comparison of the new with previously gathered data at the SSOT level to ensure that the data is only curated once.
 
 #### Data Cleaning & Validation {.page_break_before}
@@ -637,13 +637,17 @@ Finally, a biologically-interpreted chemical tree and a chemically-interpreted b
 The examples illustrate the overall chemical and biological coverage of LOTUS by linking family-specific classes of chemical structures to their taxonomic position.
 Table @tbl:repartition, Figures @fig:distribution, @fig:tmap and @fig:magicTree were generated using the frozen data (2021-05-23 timestamp), which is available for download at [https://osf.io/eydjs/](https://osf.io/eydjs/).
 Figure @fig:upset required a dataset containing information from DNP and the complete data used for its generation is therefore not available for public distribution.
-All scripts used for the generation of the figures (including [SI-5](#si-5-complement-to-figure-7)) are available in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/4_visualizing](https://github.com/lotusnprod/lotus-processor/-/tree/preprint/src/4_visualizing) directory for reproducibility.
+All scripts used for the generation of the figures (including [SI-5](#si-5-complement-to-figure-7)) are available in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/4_visualizing](https://github.com/lotusnprod/lotus-processor/tree/main/src/4_visualizing) directory for reproducibility.
 
 #### Repartition of Chemical Structures across reported Biological Organisms in LOTUS
 
 Table @tbl:repartition summarizes the repartition of chemical structures and their chemical classes (according to NPClassifier [@doi:10.26434/chemrxiv.12885494.v1]) across the biological organisms reported in LOTUS.
 For this, biological organisms were grouped into four artificial taxonomic levels (plants, fungi, animals and bacteria).
 These were built by combining the two highest taxonomic levels in the OTL taxonomy, namely Domain and Kingdom levels.
+"Plants" corresponded to "Eukaryota_Archaeplastida", "Fungi" to "Eukaryota_Fungi", "Animals" to "Eukaryota_Metazoa" and "Bacteria" to "Bacteria_NA". 
+The category corresponding to "Eukaryota_NA" mainly contained Algae, but also other organisms such as Amoebozoa and was therefor excluded. 
+This represented less than 1% of all entries.
+The details of this process are available under [src/3_analyzing/structure_taxon_repartition.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/3_analyzing/structure_taxon_repartition.R).
 When the chemical structure/class was reported only in one taxonomic grouping, it was counted as "specific".
 
 <br/><br/>
