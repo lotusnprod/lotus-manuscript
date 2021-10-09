@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/f276ae27ce079aa66fab632e433bf3c1f2d3acdf/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f276ae27ce079aa66fab632e433bf3c1f2d3acdf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f276ae27ce079aa66fab632e433bf3c1f2d3acdf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f276ae27ce079aa66fab632e433bf3c1f2d3acdf/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f276ae27ce079aa66fab632e433bf3c1f2d3acdf/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/f276ae27ce079aa66fab632e433bf3c1f2d3acdf/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@12ceaa1](https://github.com/lotusnprod/lotus-manuscript/tree/12ceaa1ee297d2f8fae2bc1602300d47cdba47ce)
+from [lotusnprod/lotus-manuscript@f276ae2](https://github.com/lotusnprod/lotus-manuscript/tree/f276ae27ce079aa66fab632e433bf3c1f2d3acdf)
 on October 9, 2021.
 </em></small>
 
@@ -863,6 +863,7 @@ The biological organism field was reported as three minimal necessary and suffic
 The reference was reported as four minimal fields, namely reference title, DOI, PMCID, and PMID, one being sufficient.
 For the forthcoming translation processes, automated solutions were used when available.
 However, for specific cases (common or vernacular names of the biological organisms, Traditional Chinese Medicine (TCM) names, and conversion between digital reference identifiers), no solution existed, thus requiring the use of tailored dictionaries.
+Their construction is detailed in the [Dictionaries](#Dictionaries) section.
 The initial entries (containing one or multiple producing organisms per structure, with one or multiple accepted names per organism) were cleaned into 2M+ referenced structure-organism pairs.
 
 ##### Chemical Structures
