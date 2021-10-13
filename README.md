@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/lotusnprod/lotus-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://lotusnprod.github.io/lotus-manuscript/>.
-The permalink for this webpage version is <https://lotusnprod.github.io/lotus-manuscript/v/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6/>.
+The permalink for this webpage version is <https://lotusnprod.github.io/lotus-manuscript/v/1456cc82d6cb7a79a57f1403a053f9f0348fb351/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://lotusnprod.github.io/lotus-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6`](https://github.com/lotusnprod/lotus-manuscript/commit/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6).
+[`1456cc82d6cb7a79a57f1403a053f9f0348fb351`](https://github.com/lotusnprod/lotus-manuscript/commit/1456cc82d6cb7a79a57f1403a053f9f0348fb351).
