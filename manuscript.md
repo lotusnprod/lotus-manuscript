@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-10-09'
+date-meta: '2021-10-13'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-10-09" />
-  <meta name="citation_publication_date" content="2021-10-09" />
+  <meta name="dc.date" content="2021-10-13" />
+  <meta name="citation_publication_date" content="2021-10-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/1456cc82d6cb7a79a57f1403a053f9f0348fb351/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1456cc82d6cb7a79a57f1403a053f9f0348fb351/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1456cc82d6cb7a79a57f1403a053f9f0348fb351/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1456cc82d6cb7a79a57f1403a053f9f0348fb351/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1456cc82d6cb7a79a57f1403a053f9f0348fb351/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/1456cc82d6cb7a79a57f1403a053f9f0348fb351/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@5422bdb](https://github.com/lotusnprod/lotus-manuscript/tree/5422bdbe5e751fb53ed6ef9f40e30e9b021fbff6)
-on October 9, 2021.
+from [lotusnprod/lotus-manuscript@1456cc8](https://github.com/lotusnprod/lotus-manuscript/tree/1456cc82d6cb7a79a57f1403a053f9f0348fb351)
+on October 13, 2021.
 </em></small>
 
 ## Authors
@@ -385,6 +385,7 @@ More broadly, the LOTUS initiative fosters cross-fertilization of the fields of 
 This section is structured as follows: first, we present an [overview of the LOTUS initiative at its current stage of development](#Blueprint-of-the-LOTUS-Initiative).
 The central [curation](#Data-Processing-&-Validation) and [dissemination](#Data-Dissemination) elements of the LOTUS initiative are then explained in detail.
 The [third section](#User-Interaction-with-LOTUS-Data) addresses the interaction modes between LOTUS and its end-users, including data retrieval, addition and editing.
+Some examples on how LOTUS data can be used to answer research questions or develop hypothesis are given.
 The [final section](#Data-Interpretation) is dedicated to the interpretation of LOTUS data and illustrates the dimensions and qualities of the current LOTUS dataset from chemical and biological perspectives.
 
 ### Blueprint of the LOTUS Initiative
@@ -516,12 +517,12 @@ Clicking the reference link under each taxon name links to the publication(s) do
 
 ![**Illustration of the "found in taxon" statement section on the Wikidata page** of erysodine [Q27265641](https://www.wikidata.org/wiki/Q27265641) showing a selection of containing taxa and the references documenting these occurrences.](images/erysodine.svg "wdpage"){#fig:wdpage width="100%"}
 
-The typical approach to more elaborated queries consists in writing SPARQL queries using the [Wikidata Query Service](https://query.wikidata.org/) or a direct connection to a SPARQL endpoint.
+The typical approach to more elaborated queries consists in writing queries using the [Wikidata Query Service](https://query.wikidata.org/) or a direct connection to a SPARQL endpoint.
 Below are some examples from simple to more elaborated queries, demonstrating what can be done using this approach.
-The full-text queries with explanations are included in [SI-3](#si-3-wikidata-sparql-queries).
+The full-text queries with explanations are included in [SI-3](#si-3-wikidata-queries).
 
 
-Table: Potential questions about structure-organism relationships and corresponding Wikidata SPARQL queries. {#tbl:queries}
+Table: Potential questions about structure-organism relationships and corresponding Wikidata queries. {#tbl:queries}
 
 | Question | Wikidata SPARQL query | 
 |:------------------------:|:-------------:|
@@ -1260,7 +1261,7 @@ Table: Summary of the Validation Statistics {#tbl:si-2 tag="SI-2"}
 </div>
 
 
-### SI 3 Wikidata SPARQL Queries {.page_break_before}
+### SI 3 Wikidata Queries {.page_break_before}
 
 #### Query 1 - *Arabidopsis thaliana*
 
