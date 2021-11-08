@@ -37,7 +37,6 @@ mkdir -p output
 # https://pandoc.org/MANUAL.html
 echo >&2 "Exporting HTML manuscript"
 pandoc --verbose \
-  # --lua-filter=cito.lua \
   --data-dir="$PANDOC_DATA_DIR" \
   --defaults=common.yaml \
   --defaults=html.yaml 
