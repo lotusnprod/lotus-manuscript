@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-10-13'
+date-meta: '2021-11-08'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-10-13" />
-  <meta name="citation_publication_date" content="2021-10-13" />
+  <meta name="dc.date" content="2021-11-08" />
+  <meta name="citation_publication_date" content="2021-11-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/1456cc82d6cb7a79a57f1403a053f9f0348fb351/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1456cc82d6cb7a79a57f1403a053f9f0348fb351/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1456cc82d6cb7a79a57f1403a053f9f0348fb351/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/a28f68da14ec66e925d9ffe0a8170eb6a886a503/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a28f68da14ec66e925d9ffe0a8170eb6a886a503/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a28f68da14ec66e925d9ffe0a8170eb6a886a503/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1456cc82d6cb7a79a57f1403a053f9f0348fb351/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1456cc82d6cb7a79a57f1403a053f9f0348fb351/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a28f68da14ec66e925d9ffe0a8170eb6a886a503/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a28f68da14ec66e925d9ffe0a8170eb6a886a503/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/1456cc82d6cb7a79a57f1403a053f9f0348fb351/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/a28f68da14ec66e925d9ffe0a8170eb6a886a503/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@1456cc8](https://github.com/lotusnprod/lotus-manuscript/tree/1456cc82d6cb7a79a57f1403a053f9f0348fb351)
-on October 13, 2021.
+from [lotusnprod/lotus-manuscript@a28f68d](https://github.com/lotusnprod/lotus-manuscript/tree/a28f68da14ec66e925d9ffe0a8170eb6a886a503)
+on November 8, 2021.
 </em></small>
 
 ## Authors
@@ -737,7 +737,7 @@ As illustrated, the possibility of data interrogation at multiple precision leve
 This makes LOTUS a unique ressource for the advancement of chemotaxonomy, a discipline pioneered by Augustin Pyramus de Candolle and pursued by other notable researchers (Robert Hegnauer, Otto R. Gottlieb) [@doi:10.1007/978-3-642-68641-2; @doi:10/d592kt; @decandolleEssaiProprietesMedicales1816].
 Six decades after Hegnauer's publication of "Die Chemotaxonomie der Pflanzen" [@doi:10.1007/978-3-0348-9314-5] much remains to be done for the advancement of this field of study and the LOTUS initiative aims to provide a solid basis for researchers willing to pursue these exciting explorations at the interface of chemistry, biology and evolution.
 
-As shown recently in the context of spectral annotation [@doi:10/gh5482], lowering the precision level of the annotation allows a broader coverage along with greater confidence.
+As shown recently in the context of spectral annotation [@doi:10.1038/s41587-020-0740-8], lowering the precision level of the annotation allows a broader coverage along with greater confidence.
 Genetic studies investigating the pathways involved and the organisms carrying the responsible biosynthetic genes would be of interest to confirm the previous observations.
 These forms of data interpretation exemplify the importance of reporting not only new structures, but also novel occurrences of known structures in organisms as comprehensive chemotaxonomic studies are pivotal for a better understanding of the metabolomes of living organisms.
 
