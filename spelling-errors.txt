@@ -42,6 +42,7 @@ biosynthetically
 BirdLife
 Bisson
 Bjonnh
+bkfd
 Bohlmann
 Bolzani
 Bromus
@@ -62,7 +63,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-chemodiversity
+Chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -83,9 +84,9 @@ Crossref
 CRSII
 csteinbeck
 cstrnq
-CTS
+cts
 curation
-cyanometdb
+Cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -107,11 +108,11 @@ dimers
 diterpene
 DM
 Dmitry
-dnp
+DNP
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -137,7 +138,7 @@ Fidele
 FishBase
 flavolivaceus
 Flemingovo
-foodb
+FooDB
 FragmentRemover
 Fribourg
 Friedrich
@@ -192,7 +193,7 @@ InChI
 InChIKey
 indability
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -254,7 +255,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-Metabolomic
+metabolomic
 Metazoa
 MEYS
 mibig
@@ -263,7 +264,7 @@ Mietchen
 mitishamba
 modularity
 Molconvert
-molvs
+Molvs
 monogyna
 Mozzherin
 mSorok
@@ -274,7 +275,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 nextStep
@@ -385,7 +386,7 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-squatina
+Squatina
 src
 SSOT
 standardizer
@@ -420,7 +421,7 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-tmap
+TMAP
 tmdb
 tmmc
 tppt
@@ -445,7 +446,7 @@ unconserved
 underreporting
 Universiteitssingel
 Univocity
-UNPD
+unpd
 upsert
 upserting
 upserts
@@ -462,7 +463,7 @@ Voilà
 Vondrášek
 vroom
 Vue
-wakankensaku
+Wakankensaku
 wdpage
 webchem
 Wijeratne
