@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-11-09'
+date-meta: '2021-11-18'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-11-09" />
-  <meta name="citation_publication_date" content="2021-11-09" />
+  <meta name="dc.date" content="2021-11-18" />
+  <meta name="citation_publication_date" content="2021-11-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/ebecaedd55633e1d182d677e4bdfac041fd523fd/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ebecaedd55633e1d182d677e4bdfac041fd523fd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ebecaedd55633e1d182d677e4bdfac041fd523fd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/712c4ae737c6087fbb74147a45a1b51c2207fffc/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/712c4ae737c6087fbb74147a45a1b51c2207fffc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/712c4ae737c6087fbb74147a45a1b51c2207fffc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ebecaedd55633e1d182d677e4bdfac041fd523fd/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ebecaedd55633e1d182d677e4bdfac041fd523fd/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/712c4ae737c6087fbb74147a45a1b51c2207fffc/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/712c4ae737c6087fbb74147a45a1b51c2207fffc/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/ebecaedd55633e1d182d677e4bdfac041fd523fd/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/712c4ae737c6087fbb74147a45a1b51c2207fffc/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@ebecaed](https://github.com/lotusnprod/lotus-manuscript/tree/ebecaedd55633e1d182d677e4bdfac041fd523fd)
-on November 9, 2021.
+from [lotusnprod/lotus-manuscript@712c4ae](https://github.com/lotusnprod/lotus-manuscript/tree/712c4ae737c6087fbb74147a45a1b51c2207fffc)
+on November 18, 2021.
 </em></small>
 
 ## Authors
@@ -872,12 +872,12 @@ The initial entries (containing one or multiple producing organisms per structur
 To retrieve as much information as possible from the original structure field(s) of each of the sources, the following procedure was followed.
 Allowed structural fields for the sources were divided into two types: structural (InChI, SMILES) or nominal (chemical name, not necessarily IUPAC).
 If multiple fields were present, structural identifiers were preferred over structure names.
-Among structural identifiers, when both identifiers led to different structures, InChI was preferred over SMILES.
-SMILES were translated to InChI using the RDKit (2021.03.1) implementation in Python 3.8 ([src/2_curating/2_editing/structure/1_translating/smiles.py](https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/structure/1_translating/smiles.py)).
-They were first converted to [ROMol](https://www.rdkit.org/docs/cppapi/ROMol_8h.html#details) objects which were then converted to InChI.
+Among structural identifiers, when both identifiers were present, SMILES was preferred over InChI.
+InChI were translated to SMILES using the RDKit (2021.09.1) implementation in Python 3.8 ([src/2_curating/2_editing/structure/1_translating/inchi.py](https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/structure/1_translating/inchi.py)).
+They were first converted to [ROMol](https://www.rdkit.org/docs/cppapi/ROMol_8h.html#details) objects which were then converted to SMILES.
 When no structural identifier was available, the nominal identifier was translated to InChI first thanks to [OPSIN](https://github.com/dan2097/opsin) [@doi:10/b2zkr9], a fast Java-based translation open-source solution.
-If no translation was obtained, chemical names were then submitted to the CTS [@doi:10.1093/bioinformatics/btq476], once in lower case only, once with the first letter capitalized.
-If again no translation was obtained, candidates were then submitted to the [Chemical Identifier Resolver](https://cactus.nci.nih.gov) *via* the *cts_convert* function from the webchem package [@doi:10/gh5ptf].
+If no translation was obtained, chemical names were then submitted to the PUG-REST, the interface for programmatic access to PubChem [@d10.1093/nar/gky294; @doi:10.1093/nar/gkv396].
+If again no translation was obtained, candidates were then submitted to the [Chemical Identifier Resolver](https://cactus.nci.nih.gov).
 Before the translation process, some typical chemical structure-related greek characters (such as *α*, *ß*) were replaced by their textual equivalents (alpha, beta) to obtain better results.
 All pre-translation steps are included in the preparing_name function and are available in [src/r/preparing_name.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/r/preparing_name.R).
 
