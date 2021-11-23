@@ -19,7 +19,7 @@
   <meta name="author" content="Jean-Luc Wolfender" />
   <meta name="author" content="Jonathan Bisson" />
   <meta name="author" content="Pierre-Marie Allard" />
-  <meta name="dcterms.date" content="2021-11-18" />
+  <meta name="dcterms.date" content="2021-11-23" />
   <meta name="keywords" content="Natural Products, Knowledge Management, Wikidata" />
   <title>The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata</title>
   <style>
@@ -124,8 +124,8 @@
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-11-18" />
-  <meta name="citation_publication_date" content="2021-11-18" />
+  <meta name="dc.date" content="2021-11-23" />
+  <meta name="citation_publication_date" content="2021-11-23" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -200,13 +200,13 @@
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/712c4ae737c6087fbb74147a45a1b51c2207fffc/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/712c4ae737c6087fbb74147a45a1b51c2207fffc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/712c4ae737c6087fbb74147a45a1b51c2207fffc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/f119bab5bc7a6a294abee6f9e115f2e2ea7b3c1d/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f119bab5bc7a6a294abee6f9e115f2e2ea7b3c1d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f119bab5bc7a6a294abee6f9e115f2e2ea7b3c1d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/712c4ae737c6087fbb74147a45a1b51c2207fffc/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/712c4ae737c6087fbb74147a45a1b51c2207fffc/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f119bab5bc7a6a294abee6f9e115f2e2ea7b3c1d/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f119bab5bc7a6a294abee6f9e115f2e2ea7b3c1d/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -225,10 +225,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lotusnprod.github.io/lotus-manuscript/v/712c4ae737c6087fbb74147a45a1b51c2207fffc/">permalink</a>)
+(<a href="https://lotusnprod.github.io/lotus-manuscript/v/f119bab5bc7a6a294abee6f9e115f2e2ea7b3c1d/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/712c4ae737c6087fbb74147a45a1b51c2207fffc">lotusnprod/lotus-manuscript@712c4ae</a>
-on November 18, 2021.
+from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/f119bab5bc7a6a294abee6f9e115f2e2ea7b3c1d">lotusnprod/lotus-manuscript@f119bab</a>
+on November 23, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -970,7 +970,7 @@ Among structural identifiers, when both identifiers were present, SMILES was pre
 InChI were translated to SMILES using the RDKit (2021.09.1) implementation in Python 3.8 (<a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/structure/1_translating/inchi.py">src/2_curating/2_editing/structure/1_translating/inchi.py</a>).
 They were first converted to <a href="https://www.rdkit.org/docs/cppapi/ROMol_8h.html#details">ROMol</a> objects which were then converted to SMILES.
 When no structural identifier was available, the nominal identifier was translated to InChI first thanks to <a href="https://github.com/dan2097/opsin">OPSIN</a> <span class="citation" data-cites="pf43Zseq">[<a href="#ref-pf43Zseq" role="doc-biblioref">66</a>]</span>, a fast Java-based translation open-source solution.
-If no translation was obtained, chemical names were then submitted to the PUG-REST, the interface for programmatic access to PubChem <span class="citation" data-cites="d10.1093/nar/gky294 icLEZ49v">[<a href="#ref-icLEZ49v" role="doc-biblioref">67</a>,<a href="#ref-d10.1093/nar/gky294" role="doc-biblioref"><strong>d10.1093/nar/gky294?</strong></a>]</span>.
+If no translation was obtained, chemical names were then submitted to the PUG-REST, the interface for programmatic access to PubChem <span class="citation" data-cites="nmEacTGa icLEZ49v">[<a href="#ref-nmEacTGa" role="doc-biblioref">67</a>,<a href="#ref-icLEZ49v" role="doc-biblioref">68</a>]</span>.
 If again no translation was obtained, candidates were then submitted to the <a href="https://cactus.nci.nih.gov">Chemical Identifier Resolver</a>.
 Before the translation process, some typical chemical structure-related greek characters (such as <em>α</em>, <em>ß</em>) were replaced by their textual equivalents (alpha, beta) to obtain better results.
 All pre-translation steps are included in the preparing_name function and are available in <a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/r/preparing_name.R">src/r/preparing_name.R</a>.</p>
@@ -1026,16 +1026,16 @@ For example, <em>Bromus mango</em> contains “mango” as a specific epithet, w
 After this subtraction step, the remaining names were translated from vernacular (common) and TCM names to scientific names, with help of the dictionaries.
 For performance reasons, this processing step was written in Kotlin and used coroutines to allow efficient parallelization of that process (<a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/organisms/2_translating_organism_kotlin/">src/2_curating/2_editing/organisms/2_translating_organism_kotlin/</a>).
 They were subsequently submitted again to scientific name recognition (<a href="http://src/2_curating/2_editing/organisms/3_processingTranslated.R">src/2_curating/2_editing/organisms/3_processingTranslated.R</a>).</p>
-<p>After full resolution of canonical names, all obtained names were submitted to rotl <span class="citation" data-cites="hPmhpanN">[<a href="#ref-hPmhpanN" role="doc-biblioref">68</a>]</span> to obtain a unified taxonomy.
+<p>After full resolution of canonical names, all obtained names were submitted to rotl <span class="citation" data-cites="hPmhpanN">[<a href="#ref-hPmhpanN" role="doc-biblioref">69</a>]</span> to obtain a unified taxonomy.
 From the 88,395 initial “clean” organism fields, 43,936 (50%) canonical names were obtained, of which 32,285 (37%) were uploaded to Wikidata.
 From the 300 initial “dirty” organism fields, 250 (83%) canonical names were obtained, of which 208 (69%) were uploaded to Wikidata.</p>
 <h5 id="references">References</h5>
-<p>The <a href="https://cran.r-project.org/web/packages/rcrossref/">Rcrossref</a> package <span class="citation" data-cites="UHC5x6VA">[<a href="#ref-UHC5x6VA" role="doc-biblioref">69</a>]</span> interfacing with the <a href="https://www.crossref.org">Crossref</a> API was used to translate references from their original subcategory (“original”, “publishingDetails”, “split”, “title”) to a DOI, the title of its corresponding article, the journal it was published in, its date of publication and the name of the first author.
+<p>The <a href="https://cran.r-project.org/web/packages/rcrossref/">Rcrossref</a> package <span class="citation" data-cites="UHC5x6VA">[<a href="#ref-UHC5x6VA" role="doc-biblioref">70</a>]</span> interfacing with the <a href="https://www.crossref.org">Crossref</a> API was used to translate references from their original subcategory (“original”, “publishingDetails”, “split”, “title”) to a DOI, the title of its corresponding article, the journal it was published in, its date of publication and the name of the first author.
 The first twenty candidates were kept and ranked according to the score returned by Crossref, which is a <a href="https://lucene.apache.org/core/8_8_0/core/org/apache/lucene/search/similarities/TFIDFSimilarity.html">tf-idf</a> score.
 For DOI and PMID, only a single candidate was kept.
 All parameters are available in <a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/functions/reference.R">src/functions/reference.R</a>.
 All DOIs were also translated with this method, to eventually discard any DOI not leading to an object.
-PMIDs were translated, thanks to the entrez_summary function of the <a href="https://cran.r-project.org/web/packages/rentrez/">rentrez</a> package <span class="citation" data-cites="13ZrxSjw4">[<a href="#ref-13ZrxSjw4" role="doc-biblioref">70</a>]</span>.
+PMIDs were translated, thanks to the entrez_summary function of the <a href="https://cran.r-project.org/web/packages/rentrez/">rentrez</a> package <span class="citation" data-cites="13ZrxSjw4">[<a href="#ref-13ZrxSjw4" role="doc-biblioref">71</a>]</span>.
 Scripts used for all subcategories of references are available in the directory <a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/reference/1_translating/">src/2_curating/2_editing/reference/1_translating/</a>.
 Once all translations were made, results coming from each subcategory were integrated, (<a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/reference/2_integrating.R">src/2_curating/2_editing/reference/2_integrating.R</a>) and the producing organism related to the reference was added for further treatment.
 Because the crossref score was not informative enough, at least one other metric was chosen to complement it.
@@ -1176,14 +1176,14 @@ A frozen version (2021-02-23) of all programs and code is also available in the 
 <h3 class="page_break_before" id="programs-and-packages">Programs and packages</h3>
 <h4 id="r">R</h4>
 <p>The <a href="https://www.r-project.org/">R</a> versions used for the project were 4.0.2 up to 4.1, and R-packages used were, in alphabetical order:
-ChemmineR (3.42.1) <span class="citation" data-cites="zukFZ2aq">[<a href="#ref-zukFZ2aq" role="doc-biblioref">71</a>]</span>, chorddiag (0.1.2) <span class="citation" data-cites="156ifmHvV">[<a href="#ref-156ifmHvV" role="doc-biblioref">72</a>]</span>, ClassyfireR (0.3.6) <span class="citation" data-cites="1GFQixHzv">[<a href="#ref-1GFQixHzv" role="doc-biblioref">35</a>]</span>, data.table (1.13.6) <span class="citation" data-cites="hR0edX6b">[<a href="#ref-hR0edX6b" role="doc-biblioref">73</a>]</span>, DBI (1.1.1) <span class="citation" data-cites="7JFonzW0">[<a href="#ref-7JFonzW0" role="doc-biblioref">74</a>]</span>, gdata (2.18.0) <span class="citation" data-cites="7AFWc7sN">[<a href="#ref-7AFWc7sN" role="doc-biblioref">75</a>]</span>, ggalluvial (0.12.3) <span class="citation" data-cites="13wsG3vmM">[<a href="#ref-13wsG3vmM" role="doc-biblioref">76</a>]</span>, ggfittext (0.9.1) <span class="citation" data-cites="ejxxPICa">[<a href="#ref-ejxxPICa" role="doc-biblioref">77</a>]</span>, ggnewscale (0.4.5) <span class="citation" data-cites="7J4ZPUL7">[<a href="#ref-7J4ZPUL7" role="doc-biblioref">78</a>]</span>, ggraph (2.0.4) <span class="citation" data-cites="gdTufCbt">[<a href="#ref-gdTufCbt" role="doc-biblioref">79</a>]</span>, ggstar (1.0.1) <span class="citation" data-cites="17NxHx9HG">[<a href="#ref-17NxHx9HG" role="doc-biblioref">80</a>]</span>, ggtree (2.4.1) <span class="citation" data-cites="YdA5Ivd8">[<a href="#ref-YdA5Ivd8" role="doc-biblioref">81</a>]</span>, ggtreeExtra (1.0.1) <span class="citation" data-cites="121McWIls">[<a href="#ref-121McWIls" role="doc-biblioref">82</a>]</span>, Hmisc (4.4-2) <span class="citation" data-cites="dkabTMGA">[<a href="#ref-dkabTMGA" role="doc-biblioref">83</a>]</span>, jsonlite (1.7.2) <span class="citation" data-cites="Jdw1vygr">[<a href="#ref-Jdw1vygr" role="doc-biblioref">84</a>]</span>, pbmcapply (1.5.0) <span class="citation" data-cites="XiPNsL5P">[<a href="#ref-XiPNsL5P" role="doc-biblioref">85</a>]</span>, plotly (4.9.3) <span class="citation" data-cites="kVXkIA2g">[<a href="#ref-kVXkIA2g" role="doc-biblioref">86</a>]</span>, rcrossref(1.1.0) <span class="citation" data-cites="UHC5x6VA">[<a href="#ref-UHC5x6VA" role="doc-biblioref">69</a>]</span>, readxl (1.3.1) <span class="citation" data-cites="xN7NElEK">[<a href="#ref-xN7NElEK" role="doc-biblioref">87</a>]</span>, rentrez (1.2.3) <span class="citation" data-cites="13ZrxSjw4">[<a href="#ref-13ZrxSjw4" role="doc-biblioref">70</a>]</span>, rotl (3.0.11) <span class="citation" data-cites="hPmhpanN">[<a href="#ref-hPmhpanN" role="doc-biblioref">68</a>]</span>, rvest (0.3.6) <span class="citation" data-cites="1ELrikmXF">[<a href="#ref-1ELrikmXF" role="doc-biblioref">88</a>]</span>, splitstackshape (1.4.8) <span class="citation" data-cites="NfiSMvAq">[<a href="#ref-NfiSMvAq" role="doc-biblioref">89</a>]</span>, RSQLite (2.2.3) <span class="citation" data-cites="LnilgHS9">[<a href="#ref-LnilgHS9" role="doc-biblioref">90</a>]</span>, stringdist (0.9.6.3) <span class="citation" data-cites="LmFzkeBM">[<a href="#ref-LmFzkeBM" role="doc-biblioref">91</a>]</span>, stringi (1.5.3) <span class="citation" data-cites="12mR83H1T">[<a href="#ref-12mR83H1T" role="doc-biblioref">92</a>]</span>, tidyverse (1.3.0) <span class="citation" data-cites="EWll2pyF">[<a href="#ref-EWll2pyF" role="doc-biblioref">93</a>]</span>, treeio (1.14.3) <span class="citation" data-cites="1EloBUtuI">[<a href="#ref-1EloBUtuI" role="doc-biblioref">34</a>]</span>, UpSetR (1.4.0) <span class="citation" data-cites="T2D9o6RC">[<a href="#ref-T2D9o6RC" role="doc-biblioref">94</a>]</span>, vroom (1.3.2) <span class="citation" data-cites="otfsIdc0">[<a href="#ref-otfsIdc0" role="doc-biblioref">95</a>]</span>, webchem (1.1.1) <span class="citation" data-cites="kM2kraS2">[<a href="#ref-kM2kraS2" role="doc-biblioref">96</a>]</span>, XML (3.99-05) <span class="citation" data-cites="TceFUyOp">[<a href="#ref-TceFUyOp" role="doc-biblioref">97</a>]</span>, xml2 (1.3.2) <span class="citation" data-cites="2keqmgUs">[<a href="#ref-2keqmgUs" role="doc-biblioref">98</a>]</span></p>
+ChemmineR (3.42.1) <span class="citation" data-cites="zukFZ2aq">[<a href="#ref-zukFZ2aq" role="doc-biblioref">72</a>]</span>, chorddiag (0.1.2) <span class="citation" data-cites="156ifmHvV">[<a href="#ref-156ifmHvV" role="doc-biblioref">73</a>]</span>, ClassyfireR (0.3.6) <span class="citation" data-cites="1GFQixHzv">[<a href="#ref-1GFQixHzv" role="doc-biblioref">35</a>]</span>, data.table (1.13.6) <span class="citation" data-cites="hR0edX6b">[<a href="#ref-hR0edX6b" role="doc-biblioref">74</a>]</span>, DBI (1.1.1) <span class="citation" data-cites="7JFonzW0">[<a href="#ref-7JFonzW0" role="doc-biblioref">75</a>]</span>, gdata (2.18.0) <span class="citation" data-cites="7AFWc7sN">[<a href="#ref-7AFWc7sN" role="doc-biblioref">76</a>]</span>, ggalluvial (0.12.3) <span class="citation" data-cites="13wsG3vmM">[<a href="#ref-13wsG3vmM" role="doc-biblioref">77</a>]</span>, ggfittext (0.9.1) <span class="citation" data-cites="ejxxPICa">[<a href="#ref-ejxxPICa" role="doc-biblioref">78</a>]</span>, ggnewscale (0.4.5) <span class="citation" data-cites="7J4ZPUL7">[<a href="#ref-7J4ZPUL7" role="doc-biblioref">79</a>]</span>, ggraph (2.0.4) <span class="citation" data-cites="gdTufCbt">[<a href="#ref-gdTufCbt" role="doc-biblioref">80</a>]</span>, ggstar (1.0.1) <span class="citation" data-cites="17NxHx9HG">[<a href="#ref-17NxHx9HG" role="doc-biblioref">81</a>]</span>, ggtree (2.4.1) <span class="citation" data-cites="YdA5Ivd8">[<a href="#ref-YdA5Ivd8" role="doc-biblioref">82</a>]</span>, ggtreeExtra (1.0.1) <span class="citation" data-cites="121McWIls">[<a href="#ref-121McWIls" role="doc-biblioref">83</a>]</span>, Hmisc (4.4-2) <span class="citation" data-cites="dkabTMGA">[<a href="#ref-dkabTMGA" role="doc-biblioref">84</a>]</span>, jsonlite (1.7.2) <span class="citation" data-cites="Jdw1vygr">[<a href="#ref-Jdw1vygr" role="doc-biblioref">85</a>]</span>, pbmcapply (1.5.0) <span class="citation" data-cites="XiPNsL5P">[<a href="#ref-XiPNsL5P" role="doc-biblioref">86</a>]</span>, plotly (4.9.3) <span class="citation" data-cites="kVXkIA2g">[<a href="#ref-kVXkIA2g" role="doc-biblioref">87</a>]</span>, rcrossref(1.1.0) <span class="citation" data-cites="UHC5x6VA">[<a href="#ref-UHC5x6VA" role="doc-biblioref">70</a>]</span>, readxl (1.3.1) <span class="citation" data-cites="xN7NElEK">[<a href="#ref-xN7NElEK" role="doc-biblioref">88</a>]</span>, rentrez (1.2.3) <span class="citation" data-cites="13ZrxSjw4">[<a href="#ref-13ZrxSjw4" role="doc-biblioref">71</a>]</span>, rotl (3.0.11) <span class="citation" data-cites="hPmhpanN">[<a href="#ref-hPmhpanN" role="doc-biblioref">69</a>]</span>, rvest (0.3.6) <span class="citation" data-cites="1ELrikmXF">[<a href="#ref-1ELrikmXF" role="doc-biblioref">89</a>]</span>, splitstackshape (1.4.8) <span class="citation" data-cites="NfiSMvAq">[<a href="#ref-NfiSMvAq" role="doc-biblioref">90</a>]</span>, RSQLite (2.2.3) <span class="citation" data-cites="LnilgHS9">[<a href="#ref-LnilgHS9" role="doc-biblioref">91</a>]</span>, stringdist (0.9.6.3) <span class="citation" data-cites="LmFzkeBM">[<a href="#ref-LmFzkeBM" role="doc-biblioref">92</a>]</span>, stringi (1.5.3) <span class="citation" data-cites="12mR83H1T">[<a href="#ref-12mR83H1T" role="doc-biblioref">93</a>]</span>, tidyverse (1.3.0) <span class="citation" data-cites="EWll2pyF">[<a href="#ref-EWll2pyF" role="doc-biblioref">94</a>]</span>, treeio (1.14.3) <span class="citation" data-cites="1EloBUtuI">[<a href="#ref-1EloBUtuI" role="doc-biblioref">34</a>]</span>, UpSetR (1.4.0) <span class="citation" data-cites="T2D9o6RC">[<a href="#ref-T2D9o6RC" role="doc-biblioref">95</a>]</span>, vroom (1.3.2) <span class="citation" data-cites="otfsIdc0">[<a href="#ref-otfsIdc0" role="doc-biblioref">96</a>]</span>, webchem (1.1.1) <span class="citation" data-cites="kM2kraS2">[<a href="#ref-kM2kraS2" role="doc-biblioref">97</a>]</span>, XML (3.99-05) <span class="citation" data-cites="TceFUyOp">[<a href="#ref-TceFUyOp" role="doc-biblioref">98</a>]</span>, xml2 (1.3.2) <span class="citation" data-cites="2keqmgUs">[<a href="#ref-2keqmgUs" role="doc-biblioref">99</a>]</span></p>
 <h4 id="python">Python</h4>
 <p>The <a href="https://www.python.org/">Python</a> version used was 3.8.6, and the Python packages utilized were, in alphabetical order:
-faerun (0.3.2) <span class="citation" data-cites="VMUBsFFG">[<a href="#ref-VMUBsFFG" role="doc-biblioref">37</a>]</span>, map4 (1.0) <span class="citation" data-cites="2HOkPhmh">[<a href="#ref-2HOkPhmh" role="doc-biblioref">39</a>]</span>, matplotlib (3.1.3) <span class="citation" data-cites="1026Gxdsi">[<a href="#ref-1026Gxdsi" role="doc-biblioref">99</a>]</span>, <a href="https://github.com/mcs07/MolVS">Molvs</a> (0.1.1), pandas (1.1.4) <span class="citation" data-cites="zEc5CK8P">[<a href="#ref-zEc5CK8P" role="doc-biblioref">100</a>]</span>, rdkit (2021.03.1) <span class="citation" data-cites="1BXLY6HF1">[<a href="#ref-1BXLY6HF1" role="doc-biblioref">101</a>]</span>, scipy (1.5.0) <span class="citation" data-cites="8Miti2Gz">[<a href="#ref-8Miti2Gz" role="doc-biblioref">102</a>]</span>, tmap (1.0.4) <span class="citation" data-cites="1DcpY38I1">[<a href="#ref-1DcpY38I1" role="doc-biblioref">36</a>]</span>.</p>
+faerun (0.3.2) <span class="citation" data-cites="VMUBsFFG">[<a href="#ref-VMUBsFFG" role="doc-biblioref">37</a>]</span>, map4 (1.0) <span class="citation" data-cites="2HOkPhmh">[<a href="#ref-2HOkPhmh" role="doc-biblioref">39</a>]</span>, matplotlib (3.1.3) <span class="citation" data-cites="1026Gxdsi">[<a href="#ref-1026Gxdsi" role="doc-biblioref">100</a>]</span>, <a href="https://github.com/mcs07/MolVS">Molvs</a> (0.1.1), pandas (1.1.4) <span class="citation" data-cites="zEc5CK8P">[<a href="#ref-zEc5CK8P" role="doc-biblioref">101</a>]</span>, rdkit (2021.03.1) <span class="citation" data-cites="1BXLY6HF1">[<a href="#ref-1BXLY6HF1" role="doc-biblioref">102</a>]</span>, scipy (1.5.0) <span class="citation" data-cites="8Miti2Gz">[<a href="#ref-8Miti2Gz" role="doc-biblioref">103</a>]</span>, tmap (1.0.4) <span class="citation" data-cites="1DcpY38I1">[<a href="#ref-1DcpY38I1" role="doc-biblioref">36</a>]</span>.</p>
 <h4 id="kotlin">Kotlin</h4>
 <p>Kotlin packages used were as follows:
 Common: Kotlin 1.4.21 up to 1.4.30, Univocity 2.9.0, OpenJDK 15, Kotlin serialization 1.0.1, konnector 0.1.27, Log4J 2.14.0
-Wikidata Importer Bot:, WikidataTK 0.11.1, CDK 2.3 <span class="citation" data-cites="xpBWVpji">[<a href="#ref-xpBWVpji" role="doc-biblioref">103</a>]</span>, RDF4J 3.6.0, Ktor 1.5.0, KotlinXCli 0.3.1, Wikidata data processing: Shadow 5.0.0
+Wikidata Importer Bot:, WikidataTK 0.11.1, CDK 2.3 <span class="citation" data-cites="xpBWVpji">[<a href="#ref-xpBWVpji" role="doc-biblioref">104</a>]</span>, RDF4J 3.6.0, Ktor 1.5.0, KotlinXCli 0.3.1, Wikidata data processing: Shadow 5.0.0
 Quality control and testing: Ktlint 9.4.1, Kotlinter 3.3.0, Detekt 1.15.0, Ben Mane’s version plugin 0.36.0, Junit 5.7.0</p>
 <h4 id="additional-executable-files">Additional executable files</h4>
 <p><a href="https://github.com/gnames/gnfinder/releases/tag/v0.12.1">GNFinder</a> v.0.12.1, <a href="https://github.com/gnames/gnverifier/releases/tag/v0.3.1">GNVerifier</a> v.0.3.1, <a href="https://github.com/dan2097/opsin/releases/tag/2.5.0">OPSIN</a> v.2.5.0 <span class="citation" data-cites="pf43Zseq">[<a href="#ref-pf43Zseq" role="doc-biblioref">66</a>]</span></p>
@@ -1208,22 +1208,25 @@ The authors would also like to thank contributors of all electronic NP resources
 </figure>
 <h2 class="page_break_before" id="supporting-information">Supporting Information</h2>
 <h3 id="si-1-data-sources-list">SI 1 Data Sources List</h3>
-<div style="font-size:9pt">
+<div style="font-size:6pt">
 <div id="tbl:si-1" class="tablenos">
-<table id="tbl:si-1" style="width:100%;" data-tag="SI-1">
+<table id="tbl:si-1" data-tag="SI-1">
 <caption><span>Table SI-1:</span> Data Sources List </caption>
 <colgroup>
-<col style="width: 13%" />
-<col style="width: 10%" />
-<col style="width: 7%" />
 <col style="width: 9%" />
 <col style="width: 7%" />
 <col style="width: 7%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
 <col style="width: 7%" />
-<col style="width: 9%" />
 <col style="width: 7%" />
+<col style="width: 6%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 5%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1232,507 +1235,656 @@ The authors would also like to thank contributors of all electronic NP resources
 <th style="text-align: right;">initial retrieved unique entries</th>
 <th style="text-align: right;">cleaned referenced structure-organism pairs</th>
 <th style="text-align: right;">pairs validated for wikidata export</th>
+<th style="text-align: right;">actual pairs on wikidata</th>
 <th style="text-align: center;">website</th>
 <th style="text-align: center;">article</th>
 <th style="text-align: center;">retrieval</th>
 <th style="text-align: center;">license</th>
 <th style="text-align: center;">contact</th>
-<th style="text-align: center;">varia</th>
+<th style="text-align: center;">dump</th>
+<th style="text-align: center;">status</th>
+<th style="text-align: center;">timestamp</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">afrotryp</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">312</td>
-<td style="text-align: right;">135</td>
-<td style="text-align: right;">28</td>
+<td style="text-align: right;">313</td>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">36</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;"><a href="https://link.springer.com/article/10.1007/s00044-016-1764-y?shared-article-renderer">article</a> <span class="citation" data-cites="mpr5sPI7">[<a href="#ref-mpr5sPI7" role="doc-biblioref">104</a>]</span></td>
-<td style="text-align: center;"><a href="https://static-content.springer.com/esm/art%3A10.1007%2Fs00044-016-1764-y/MediaObjects/44_2016_1764_MOESM1_ESM.doc">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/afrotryp.md">license</a></td>
+<td style="text-align: center;"><a href="https://link.springer.com/article/10.1007/s00044-016-1764-y?shared-article-renderer">afrotryp_article</a></td>
+<td style="text-align: center;"><a href="https://static-content.springer.com/esm/art%3A10.1007%2Fs00044-016-1764-y/MediaObjects/44_2016_1764_MOESM1_ESM.doc">afrotryp_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/afrotryp.md">afrotryp_license</a></td>
 <td style="text-align: center;"><a href="https://link.springer.com/article/10.1007/s00044-016-1764-y/email/correspondent/c1/new">Fidele Ntie-Kang</a> or <a href="https://link.springer.com/article/10.1007/s00044-016-1764-y/email/correspondent/c2/new">Ngozi Justina Nwodo</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2021-09-20T07:35:47Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">alkamid</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">4,434</td>
-<td style="text-align: right;">2,582</td>
-<td style="text-align: right;">2,076</td>
-<td style="text-align: center;"><a href="http://alkamid.ugent.be">website</a></td>
-<td style="text-align: center;"><a href="http://dx.doi.org/10.1016/j.jep.2012.05.038">article</a> <span class="citation" data-cites="Go2AAIYt">[<a href="#ref-Go2AAIYt" role="doc-biblioref">105</a>]</span></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/alkamid/scraping.R">script</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/alkamid.md">license</a></td>
+<td style="text-align: right;">4416</td>
+<td style="text-align: right;">2639</td>
+<td style="text-align: right;">2309</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: center;"><a href="http://alkamid.ugent.be">alkamid_website</a></td>
+<td style="text-align: center;"><a href="http://dx.doi.org/10.1016/j.jep.2012.05.038">alkamid_article</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/alkamid/scraping.R">alkamid_script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/alkamid.md">alkamid_license</a></td>
 <td style="text-align: center;"><a href="mailto:Bart.DeSpiegeleer@UGent.be">Bart De Spiegeleer</a></td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2021-01-07T07:08:44Z</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">antibase</td>
+<td style="text-align: center;">commercial</td>
+<td style="text-align: right;">46956</td>
+<td style="text-align: right;">45183</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
 <td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2021-09-20T07:40:28Z</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">antimarin</td>
+<td style="text-align: center;">commercial</td>
+<td style="text-align: right;">73017</td>
+<td style="text-align: right;">67523</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2021-09-20T07:41:50Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">biofacquim</td>
 <td style="text-align: center;">open</td>
 <td style="text-align: right;">531</td>
-<td style="text-align: right;">683</td>
-<td style="text-align: right;">534</td>
-<td style="text-align: center;"><a href="https://biofacquim.herokuapp.com">website</a> (old version)</td>
-<td style="text-align: center;"><a href="https://www.mdpi.com/2218-273X/9/1/31">article_old</a> <a href="https://f1000research.com/articles/8-2071">article_new</a> <span class="citation" data-cites="Ue7W1SPi">[<a href="#ref-Ue7W1SPi" role="doc-biblioref">106</a>]</span></td>
-<td style="text-align: center;"><a href="https://ndownloader.figshare.com/files/20050244">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/biofacquim.md">license</a></td>
+<td style="text-align: right;">519</td>
+<td style="text-align: right;">519</td>
+<td style="text-align: right;">498</td>
+<td style="text-align: center;"><a href="https://biofacquim.herokuapp.com">biofacquim_website</a> (old version)</td>
+<td style="text-align: center;"><a href="https://www.mdpi.com/2218-273X/9/1/31">biofacquim_article_old</a> <a href="https://f1000research.com/articles/8-2071">biofacquim_article_new</a></td>
+<td style="text-align: center;"><a href="https://ndownloader.figshare.com/files/20050244">biofacquim_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/biofacquim.md">biofacquim_license</a></td>
 <td style="text-align: center;"><a href="mailto:medinajl@unam.mx">José Medina-Franco</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2021-09-14T15:28:05Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">biophytmol</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">546</td>
-<td style="text-align: right;">628</td>
-<td style="text-align: right;">353</td>
-<td style="text-align: center;"><a href="http://ab-openlab.csir.res.in/biophytmol/">website</a></td>
-<td style="text-align: center;"><a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-014-0046-2">article</a> <span class="citation" data-cites="GFBBPIgV">[<a href="#ref-GFBBPIgV" role="doc-biblioref">107</a>]</span></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/biophytmol/scraping.R">script</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/biophytmol.md">license</a></td>
+<td style="text-align: right;">543</td>
+<td style="text-align: right;">549</td>
+<td style="text-align: right;">320</td>
+<td style="text-align: right;">302</td>
+<td style="text-align: center;"><a href="http://ab-openlab.csir.res.in/biophytmol/">biophytmol_website</a></td>
+<td style="text-align: center;"><a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-014-0046-2">biophytmol_article</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/biophytmol/scraping.R">biophytmol_script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/biophytmol.md">biophytmol_license</a></td>
 <td style="text-align: center;"><a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-014-0046-2/email/correspondent/c1/new">Anshu Bhardwaj</a></td>
-<td style="text-align: center;">website often down</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2021-09-14T15:36:13Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">carotenoiddb</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">2,922</td>
-<td style="text-align: right;">1,199</td>
-<td style="text-align: right;">639</td>
-<td style="text-align: center;"><a href="http://carotenoiddb.jp/About.html">website</a></td>
-<td style="text-align: center;"><a href="https://doi.org/10.1093/database/bax004">article</a> <span class="citation" data-cites="FzUbylmA">[<a href="#ref-FzUbylmA" role="doc-biblioref">108</a>]</span></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/carotenoiddb/scraping.R">script</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/carotenoiddb.md">license</a></td>
+<td style="text-align: right;">2922</td>
+<td style="text-align: right;">640</td>
+<td style="text-align: right;">531</td>
+<td style="text-align: right;">297</td>
+<td style="text-align: center;"><a href="http://carotenoiddb.jp/About.html">carotenoiddb_website</a></td>
+<td style="text-align: center;"><a href="https://doi.org/10.1093/database/bax004">carotenoiddb_article</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/carotenoiddb/scraping.R">carotenoiddb_script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/carotenoiddb.md">carotenoiddb_license</a></td>
 <td style="text-align: center;"><a href="mailto:yzjunko@gmail.com">yzjunko@gmail.com</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2021-01-07T07:08:45Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">coconut</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">583,623</td>
-<td style="text-align: right;">345,328</td>
-<td style="text-align: right;">34,429</td>
-<td style="text-align: center;"><a href="https://coconut.naturalproducts.net">website</a></td>
-<td style="text-align: center;"><a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00424-9">article</a> <span class="citation" data-cites="R06ZE1xj">[<a href="#ref-R06ZE1xj" role="doc-biblioref">109</a>]</span></td>
-<td style="text-align: center;"><a href="https://zenodo.org/record/3778405/files/COCONUT.sdf.zip?download=1">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/coconut.md">license</a></td>
+<td style="text-align: right;">5757872</td>
+<td style="text-align: right;">5721153</td>
+<td style="text-align: right;">153981</td>
+<td style="text-align: right;">56117</td>
+<td style="text-align: center;"><a href="https://coconut.naturalproducts.net">coconut_website</a></td>
+<td style="text-align: center;"><a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00424-9">coconut_article</a></td>
+<td style="text-align: center;"><a href="https://zenodo.org/record/3778405/files/COCONUT.sdf.zip?download=1">coconut_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/coconut.md">coconut_license</a></td>
 <td style="text-align: center;"><a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00424-9/email/correspondent/c1/new">Maria Sorokina</a></td>
-<td style="text-align: center;"><a href="https://zenodo.org/record/3778405">zenodo</a></td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2021-09-23T21:27:39Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">cyanometdb</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">1,930</td>
-<td style="text-align: right;">1,844</td>
-<td style="text-align: right;">1,774</td>
+<td style="text-align: right;">1905</td>
+<td style="text-align: right;">1631</td>
+<td style="text-align: right;">1621</td>
+<td style="text-align: right;">1018</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;"><a href="https://doi.org/10.1016/j.watres.2021.117017">article</a> <span class="citation" data-cites="OhONtrcV">[<a href="#ref-OhONtrcV" role="doc-biblioref">22</a>]</span></td>
-<td style="text-align: center;"><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0043135421002153-mmc4.zip">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/cyanometdb.md">license</a></td>
+<td style="text-align: center;"><a href="https://doi.org/10.1016/j.watres.2021.117017">cyanometdb_article</a></td>
+<td style="text-align: center;"><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0043135421002153-mmc4.zip">cyanometdb_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/cyanometdb.md">cyanometdb_license</a></td>
 <td style="text-align: center;"><a href="mailto:elisabeth.janssen@eawag.ch">elisabeth.janssen@eawag.ch</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2021-09-14T13:16:33Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">datawarrior</td>
 <td style="text-align: center;">open</td>
 <td style="text-align: right;">589</td>
-<td style="text-align: right;">1,062</td>
-<td style="text-align: right;">102</td>
-<td style="text-align: center;"><a href="http://www.openmolecules.org/datawarrior/index.html">website</a></td>
-<td style="text-align: center;"><a href="https://doi.org/10.1021/ci500588j">article</a> <span class="citation" data-cites="bOvsdNwM">[<a href="#ref-bOvsdNwM" role="doc-biblioref">23</a>]</span></td>
-<td style="text-align: center;"><a href="http://www.openmolecules.org/datawarrior/download.html">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/datawarrior.md">license</a></td>
+<td style="text-align: right;">541</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: center;"><a href="http://www.openmolecules.org/datawarrior/index.html">datawarrior_website</a></td>
+<td style="text-align: center;"><a href="https://doi.org/10.1021/ci500588j">datawarrior_article</a></td>
+<td style="text-align: center;"><a href="http://www.openmolecules.org/datawarrior/download.html">datawarrior_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/datawarrior.md">datawarrior_license</a></td>
 <td style="text-align: center;"><a href="mailto:thomas.sander@idorsia.com">thomas.sander@idorsia.com</a></td>
-<td style="text-align: center;">no real link to the dataset inside it</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">retired</td>
+<td style="text-align: center;">2021-01-07T07:08:45Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">dianatdb</td>
 <td style="text-align: center;">open</td>
 <td style="text-align: right;">290</td>
-<td style="text-align: right;">404</td>
-<td style="text-align: right;">27</td>
-<td style="text-align: center;"><a href="http://rdu.iquimica.unam.mx/handle/20.500.12214/1186">website</a></td>
-<td style="text-align: center;"><a href="https://doi.org/10.1039/D0RA10453A">article</a> <span class="citation" data-cites="dyiEPToF">[<a href="#ref-dyiEPToF" role="doc-biblioref">25</a>]</span></td>
-<td style="text-align: center;"><a href="http://rdu.iquimica.unam.mx/bitstream/20.500.12214/1186/3/2020_DiaNatDB_336.xlsx">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/dianatdb.md">license</a></td>
+<td style="text-align: right;">323</td>
+<td style="text-align: right;">115</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: center;"><a href="http://rdu.iquimica.unam.mx/handle/20.500.12214/1186">dianatdb_website</a></td>
+<td style="text-align: center;"><a href="https://doi.org/10.1039/D0RA10453A">dianatdb_article</a></td>
+<td style="text-align: center;"><a href="http://rdu.iquimica.unam.mx/bitstream/20.500.12214/1186/3/2020_DiaNatDB_336.xlsx">dianatdb_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/dianatdb.md">dianatdb_license</a></td>
 <td style="text-align: center;"><a href="mailto:amadariaga@iquimica.unam.mx">amadariaga@iquimica.unam.mx</a> or <a href="mailto:kmtzm@unam.mx">kmtzm@unam.mx</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2021-08-16T21:43:20Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">dnp</td>
 <td style="text-align: center;">commercial</td>
-<td style="text-align: right;">210,832</td>
-<td style="text-align: right;">258,328</td>
+<td style="text-align: right;">205072</td>
+<td style="text-align: right;">254255</td>
 <td style="text-align: right;">-</td>
-<td style="text-align: center;"><a href="http://dnp.chemnetbase.com/faces/chemical/ChemicalSearch.xhtml">website</a></td>
+<td style="text-align: right;">-</td>
+<td style="text-align: center;"><a href="http://dnp.chemnetbase.com/faces/chemical/ChemicalSearch.xhtml">dnp_website</a></td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/dnp/extracting.py">script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/dnp/extracting.py">dnp_script</a></td>
 <td style="text-align: center;">-</td>
 <td style="text-align: center;"><a href="mailto:support@taylorfrancis.com">support@taylorfrancis.com</a></td>
-<td style="text-align: center;">commercial</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2021-11-02T10:55:14Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">drduke</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">90,675</td>
-<td style="text-align: right;">9,072</td>
-<td style="text-align: right;">4,266</td>
-<td style="text-align: center;"><a href="https://phytochem.nal.usda.gov/phytochem/help/index/about">website</a></td>
+<td style="text-align: right;">90675</td>
+<td style="text-align: right;">9645</td>
+<td style="text-align: right;">6184</td>
+<td style="text-align: right;">3866</td>
+<td style="text-align: center;"><a href="https://phytochem.nal.usda.gov/phytochem/help/index/about">drduke_website</a></td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;"><a href="https://data.nal.usda.gov/system/files/Duke-Source-CSV.zip">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/drduke.md">license</a></td>
+<td style="text-align: center;"><a href="https://data.nal.usda.gov/system/files/Duke-Source-CSV.zip">drduke_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/drduke.md">drduke_license</a></td>
 <td style="text-align: center;"><a href="mailto:agref@usda.gov">agref@usda.gov</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2021-11-02T10:55:16Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">foodb</td>
 <td style="text-align: center;">restricted</td>
-<td style="text-align: right;">82,415</td>
-<td style="text-align: right;">361</td>
+<td style="text-align: right;">81941</td>
+<td style="text-align: right;">39403</td>
 <td style="text-align: right;">-</td>
-<td style="text-align: center;"><a href="https://foodb.ca/about#cite">website</a></td>
+<td style="text-align: right;">-</td>
+<td style="text-align: center;"><a href="https://foodb.ca/about#cite">foodb_website</a></td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;"><a href="https://foodb.ca/public/system/downloads/foodb_2020_4_7_csv.tar.gz">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/foodb.md">license</a></td>
+<td style="text-align: center;"><a href="https://foodb.ca/public/system/downloads/foodb_2020_4_7_csv.tar.gz">foodb_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/foodb.md">foodb_license</a></td>
 <td style="text-align: center;"><a href="mailto:jreid3@ualberta.ca">jreid3@ualberta.ca</a> (Jennifer)</td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2021-11-02T10:55:17Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">inflamnat</td>
 <td style="text-align: center;">open</td>
 <td style="text-align: right;">665</td>
-<td style="text-align: right;">656</td>
-<td style="text-align: right;">282</td>
+<td style="text-align: right;">632</td>
+<td style="text-align: right;">306</td>
+<td style="text-align: right;">255</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;"><a href="https://pubs.acs.org/doi/10.1021/acs.jcim.8b00560">article</a> <span class="citation" data-cites="lB6krLxn">[<a href="#ref-lB6krLxn" role="doc-biblioref">110</a>]</span></td>
-<td style="text-align: center;"><a href="https://pubs.acs.org/doi/suppl/10.1021/acs.jcim.8b00560/suppl_file/ci8b00560_si_001.xlsx">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/inflamnat.md">license</a></td>
+<td style="text-align: center;"><a href="https://pubs.acs.org/doi/10.1021/acs.jcim.8b00560">inflamnat_article</a></td>
+<td style="text-align: center;"><a href="https://pubs.acs.org/doi/suppl/10.1021/acs.jcim.8b00560/suppl_file/ci8b00560_si_001.xlsx">inflamnat_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/inflamnat.md">inflamnat_license</a></td>
 <td style="text-align: center;"><a href="mailto:xiaoweilie@ynu.edu.cn">xiaoweilie@ynu.edu.cn</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2021-09-14T13:51:30Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">knapsack</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">116,284</td>
-<td style="text-align: right;">143,062</td>
-<td style="text-align: right;">62,727</td>
-<td style="text-align: center;"><a href="http://www.knapsackfamily.com/knapsack_core/top.php">website</a></td>
-<td style="text-align: center;"><a href="https://link.springer.com/chapter/10.1007/3-540-29782-0_13">article</a> <span class="citation" data-cites="2fEiIH9c pIM4qxZA">[<a href="#ref-2fEiIH9c" role="doc-biblioref">10</a>,<a href="#ref-pIM4qxZA" role="doc-biblioref">111</a>]</span></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/knapsack/scraping.R">script</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/knapsack.md">license</a></td>
+<td style="text-align: right;">132127</td>
+<td style="text-align: right;">139207</td>
+<td style="text-align: right;">59946</td>
+<td style="text-align: right;">51712</td>
+<td style="text-align: center;"><a href="http://www.knapsackfamily.com/knapsack_core/top.php">knapsack_website</a></td>
+<td style="text-align: center;"><a href="https://link.springer.com/chapter/10.1007/3-540-29782-0_13">knapsack_article</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/knapsack/scraping.R">knapsack_script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/knapsack.md">knapsack_license</a></td>
 <td style="text-align: center;"><a href="mailto:skanaya@gtc.naist.jp">skanaya@gtc.naist.jp</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2021-09-17T10:15:34Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">metabolights</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">32,928</td>
-<td style="text-align: right;">32,484</td>
-<td style="text-align: right;">4,919</td>
-<td style="text-align: center;"><a href="https://www.ebi.ac.uk/metabolights/about">website</a></td>
-<td style="text-align: center;"><a href="https://doi.org/10.1093/nar/gkz1019">article</a> <span class="citation" data-cites="1D8ShigK1">[<a href="#ref-1D8ShigK1" role="doc-biblioref">112</a>]</span></td>
-<td style="text-align: center;"><a href="ftp://ftp.ebi.ac.uk/pub/databases/metabolights/eb-eye/eb-eye_metabolights_complete.xml">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/metabolights.md">license</a></td>
+<td style="text-align: right;">38208</td>
+<td style="text-align: right;">37672</td>
+<td style="text-align: right;">6241</td>
+<td style="text-align: right;">4835</td>
+<td style="text-align: center;"><a href="https://www.ebi.ac.uk/metabolights/about">metabolights_website</a></td>
+<td style="text-align: center;"><a href="https://doi.org/10.1093/nar/gkz1019">metabolights_article</a></td>
+<td style="text-align: center;"><a href="ftp://ftp.ebi.ac.uk/pub/databases/metabolights/eb-eye/eb-eye_metabolights_complete.xml">metabolights_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/metabolights.md">metabolights_license</a></td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2021-09-14T13:53:55Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">mibig</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">1,310</td>
-<td style="text-align: right;">1,142</td>
-<td style="text-align: right;">548</td>
-<td style="text-align: center;"><a href="https://mibig.secondarymetabolites.org">website</a></td>
-<td style="text-align: center;"><a href="https://doi.org/10.1093/nar/gkz882">article</a> <span class="citation" data-cites="F5HJbaQH">[<a href="#ref-F5HJbaQH" role="doc-biblioref">45</a>]</span></td>
-<td style="text-align: center;"><a href="https://dl.secondarymetabolites.org/mibig/mibig_json_2.0.tar.gz">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/mibig.md">license</a></td>
-<td style="text-align: center;"><a href="mailto:tiwe@biosustain.dtu.dk">Tilmann Weber</a> or <a href="mailto:marnix.medema@wur.nl">Marnix Medema</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: right;">1310</td>
+<td style="text-align: right;">1139</td>
+<td style="text-align: right;">638</td>
+<td style="text-align: right;">524</td>
+<td style="text-align: center;"><a href="https://mibig.secondarymetabolites.org">mibig_website</a></td>
+<td style="text-align: center;"><a href="https://doi.org/10.1093/nar/gkz882">mibig_article</a></td>
+<td style="text-align: center;"><a href="https://dl.secondarymetabolites.org/mibig/mibig_json_2.0.tar.gz">mibig_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/mibig.md">mibig_license</a></td>
+<td style="text-align: center;"><a href="mailto:tiwe@biosustain.dtu.dk">Tilmann Weber</a> or<a href="mailto:marnix.medema@wur.nl">Marnix Medema</a></td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2021-09-23T20:59:48Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">mitishamba</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">1,073</td>
-<td style="text-align: right;">1,159</td>
-<td style="text-align: right;">368</td>
-<td style="text-align: center;"><a href="http://mitishamba.uonbi.ac.ke">website</a></td>
-<td style="text-align: center;"><a href="http://erepository.uonbi.ac.ke/handle/11295/92273">“article”</a> <span class="citation" data-cites="fAKz2qgk">[<a href="#ref-fAKz2qgk" role="doc-biblioref">113</a>]</span></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/mitishamba/scraping.R">script</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/mitishamba.md">license</a></td>
+<td style="text-align: right;">1071</td>
+<td style="text-align: right;">534</td>
+<td style="text-align: right;">294</td>
+<td style="text-align: right;">289</td>
+<td style="text-align: center;"><a href="http://mitishamba.uonbi.ac.ke">mitishamba_website</a></td>
+<td style="text-align: center;"><a href="http://erepository.uonbi.ac.ke/handle/11295/92273">mitishamba_article</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/mitishamba/scraping.R">mitishamba_script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/mitishamba.md">mitishamba_license</a></td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">defunct</td>
+<td style="text-align: center;">2020-06-12T13:34:39Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">nanpdb</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">5,752</td>
-<td style="text-align: right;">6,447</td>
-<td style="text-align: right;">5,303</td>
-<td style="text-align: center;"><a href="http://african-compounds.org/nanpdb/">website</a></td>
-<td style="text-align: center;"><a href="https://doi.org/10.1021/acs.jnatprod.7b00283">article</a> <span class="citation" data-cites="6xTnsq5S">[<a href="#ref-6xTnsq5S" role="doc-biblioref">114</a>]</span></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/nanpdb/scraping.R">script</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/nanpdb.md">license</a></td>
-<td style="text-align: center;"><a href="ntiekfidele@gmail.com">ntiekfidele@gmail.com</a> <a href="mailto:stefan.guenther@pharmazie.uni-freiburg.de">stefan.guenther@pharmazie.uni-freiburg.de</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: right;">5752</td>
+<td style="text-align: right;">6383</td>
+<td style="text-align: right;">5937</td>
+<td style="text-align: right;">5128</td>
+<td style="text-align: center;"><a href="http://african-compounds.org/nanpdb/">nanpdb_website</a></td>
+<td style="text-align: center;"><a href="https://doi.org/10.1021/acs.jnatprod.7b00283">nanpdb_article</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/nanpdb/scraping.R">nanpdb_script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/nanpdb.md">nanpdb_license</a></td>
+<td style="text-align: center;"><a href="mailto:ntiekfidele@gmail.com">ntiekfidele@gmail.com</a> <a href="mailto:stefan.guenther@pharmazie.uni-freiburg.de">stefan.guenther@pharmazie.uni-freiburg.de</a></td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2020-06-12T13:43:10Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">napralert</td>
 <td style="text-align: center;">commercial</td>
-<td style="text-align: right;">681,401</td>
-<td style="text-align: right;">380,860</td>
-<td style="text-align: right;">261,545</td>
-<td style="text-align: center;"><a href="https://www.napralert.org">website</a></td>
-<td style="text-align: center;"><a href="https://doi.org/10.1016/B978-008045382-8.00060-5">article</a> <span class="citation" data-cites="KmGsdzOE">[<a href="#ref-KmGsdzOE" role="doc-biblioref">11</a>]</span></td>
+<td style="text-align: right;">681401</td>
+<td style="text-align: right;">392213</td>
+<td style="text-align: right;">294583</td>
+<td style="text-align: right;">243580</td>
+<td style="text-align: center;"><a href="https://www.napralert.org">napralert_website</a></td>
+<td style="text-align: center;"><a href="https://doi.org/10.1016/B978-008045382-8.00060-5">napralert_article</a></td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/napralert.md">license</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/napralert.md">napralert_license</a></td>
 <td style="text-align: center;"><a href="mailto:napralert@uic.edu">napralert@uic.edu</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">defunct</td>
+<td style="text-align: center;">2020-12-31T21:47:44Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">npass</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">290,539</td>
-<td style="text-align: right;">34,403</td>
-<td style="text-align: right;">23,060</td>
-<td style="text-align: center;"><a href="http://bidd2.nus.edu.sg/NPASS/about.php">website</a></td>
-<td style="text-align: center;"><a href="https://academic.oup.com/nar/article/46/D1/D1217/4584628">article</a> <span class="citation" data-cites="4RKmYOPE">[<a href="#ref-4RKmYOPE" role="doc-biblioref">115</a>]</span></td>
-<td style="text-align: center;"><a href="http://bidd.group/NPASS/downloadnpass.html">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/npass.md">license</a></td>
+<td style="text-align: right;">290535</td>
+<td style="text-align: right;">30178</td>
+<td style="text-align: right;">25430</td>
+<td style="text-align: right;">20108</td>
+<td style="text-align: center;"><a href="http://bidd2.nus.edu.sg/NPASS/about.php">npass_website</a></td>
+<td style="text-align: center;"><a href="https://academic.oup.com/nar/article/46/D1/D1217/4584628">npass_article</a></td>
+<td style="text-align: center;"><a href="http://bidd.group/NPASS/downloadnpass.html">npass_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/npass.md">npass_license</a></td>
 <td style="text-align: center;"><a href="mailto:phacyz@nus.edu.sg">phacyz@nus.edu.sg</a> <a href="mailto:jiangyy@sz.tsinghua.edu.cn">jiangyy@sz.tsinghua.edu.cn</a> <a href="mailto:iaochen@163.com">iaochen@163.com</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2020-07-10T13:03:09Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">npatlas</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">29,006</td>
-<td style="text-align: right;">49,968</td>
-<td style="text-align: right;">44,466</td>
-<td style="text-align: center;"><a href="https://www.npatlas.org/joomla/">website</a></td>
-<td style="text-align: center;"><a href="https://doi.org/10.1021/acscentsci.9b00806">article</a> <span class="citation" data-cites="1H1kBOCRr">[<a href="#ref-1H1kBOCRr" role="doc-biblioref">12</a>]</span></td>
-<td style="text-align: center;"><a href="https://www.npatlas.org/custom/versions/np_atlas_2020_06/NPAtlas_download.tsv">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/npatlas.md">license</a></td>
+<td style="text-align: right;">32539</td>
+<td style="text-align: right;">34709</td>
+<td style="text-align: right;">34531</td>
+<td style="text-align: right;">28487</td>
+<td style="text-align: center;"><a href="https://www.npatlas.org/joomla/">npatlas_website</a></td>
+<td style="text-align: center;"><a href="https://doi.org/10.1021/acscentsci.9b00806">npatlas_article</a></td>
+<td style="text-align: center;"><a href="https://www.npatlas.org/custom/versions/np_atlas_2020_06/NPAtlas_download.tsv">npatlas_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/npatlas.md">npatlas_license</a></td>
 <td style="text-align: center;"><a href="mailto:rliningt@sfu.ca">rliningt@sfu.ca</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2021-08-18T18:29:55Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">npcare</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">7,763</td>
-<td style="text-align: right;">4,650</td>
-<td style="text-align: right;">2,525</td>
-<td style="text-align: center;"><a href="http://silver.sejong.ac.kr/npcare/">website</a></td>
-<td style="text-align: center;"><a href="https://doi.org/10.1186/s13321-016-0188-5">article</a> <span class="citation" data-cites="1DPlqketM">[<a href="#ref-1DPlqketM" role="doc-biblioref">116</a>]</span></td>
-<td style="text-align: center;"><a href="http://silver.sejong.ac.kr/npcare/csv/npcare.zip">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/npcare.md">license</a></td>
+<td style="text-align: right;">7763</td>
+<td style="text-align: right;">5871</td>
+<td style="text-align: right;">3786</td>
+<td style="text-align: right;">2681</td>
+<td style="text-align: center;"><a href="http://silver.sejong.ac.kr/npcare/">npcare_website</a></td>
+<td style="text-align: center;"><a href="https://doi.org/10.1186/s13321-016-0188-5">npcare_article</a></td>
+<td style="text-align: center;"><a href="http://silver.sejong.ac.kr/npcare/csv/npcare.zip">npcare_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/npcare.md">npcare_license</a></td>
 <td style="text-align: center;"><a href="mailto:choihwanho@gmail.com">choihwanho@gmail.com</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2016-12-20T12:40:12Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">npedia</td>
 <td style="text-align: center;">open</td>
 <td style="text-align: right;">82</td>
 <td style="text-align: right;">99</td>
+<td style="text-align: right;">28</td>
 <td style="text-align: right;">23</td>
-<td style="text-align: center;"><a href="http://www.cbrg.riken.jp/npedia/?LANG=en">website</a></td>
-<td style="text-align: center;"><a href="https://www.jstage.jst.go.jp/article/ciqs/2006/0/2006_0_JL6/_article">article</a> <span class="citation" data-cites="eOKkhMeJ">[<a href="#ref-eOKkhMeJ" role="doc-biblioref">117</a>]</span></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/npedia/scraping.R">script</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/npedia.md">license</a></td>
+<td style="text-align: center;"><a href="http://www.cbrg.riken.jp/npedia/?LANG=en">npedia_website</a></td>
+<td style="text-align: center;"><a href="https://www.jstage.jst.go.jp/article/ciqs/2006/0/2006_0_JL6/_article">npedia_article</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/npedia/scraping.R">npedia_script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/npedia.md">npedia_license</a></td>
 <td style="text-align: center;"><a href="mailto:hisyo@riken.jp">hisyo@riken.jp</a> <a href="mailto:npd@riken.jp">npd@riken.jp</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">defunct</td>
+<td style="text-align: center;">2020-06-03T08:23:04Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">nubbe</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">2,189</td>
-<td style="text-align: right;">2,614</td>
-<td style="text-align: right;">2,389</td>
-<td style="text-align: center;"><a href="https://nubbe.iq.unesp.br/portal/nubbe-search.html">website</a></td>
-<td style="text-align: center;"><a href="https://www.nature.com/articles/s41598-017-07451-x">article</a> <span class="citation" data-cites="1EBJWvXBS">[<a href="#ref-1EBJWvXBS" role="doc-biblioref">118</a>]</span></td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/nubbe.md">license</a></td>
+<td style="text-align: right;">2189</td>
+<td style="text-align: right;">2340</td>
+<td style="text-align: right;">2340</td>
+<td style="text-align: right;">2082</td>
+<td style="text-align: center;"><a href="https://nubbe.iq.unesp.br/portal/nubbe-search.html">nubbe_website</a></td>
+<td style="text-align: center;"><a href="https://www.nature.com/articles/s41598-017-07451-x">nubbe_article</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/nubbe/scraping.R">MISSING_nubbe_script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/nubbe.md">nubbe_license</a></td>
 <td style="text-align: center;"><a href="https://www.nature.com/articles/s41598-017-07451-x/email/correspondent/c1/new">Vanderlan S. Bolzani</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2021-11-02T10:55:18Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">pamdb</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">3,061</td>
-<td style="text-align: right;">3,198</td>
-<td style="text-align: right;">64</td>
-<td style="text-align: center;"><a href="http://pseudomonas.umaryland.edu/PAMDB.htm">website</a></td>
-<td style="text-align: center;"><a href="https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkx1061">article</a> <span class="citation" data-cites="yJZjE7TJ">[<a href="#ref-yJZjE7TJ" role="doc-biblioref">119</a>]</span></td>
-<td style="text-align: center;"><a href="http://pseudomonas.umaryland.edu/PaDl/PaMet.xlsx">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/pamdb.md">license</a></td>
-<td style="text-align: center;"><a href="awilks@rx.umaryland.edu">awilks@rx.umaryland.edu</a> <a href="mailto:aoglesby@rx.umaryland.edu">aoglesby@rx.umaryland.edu</a> <a href="mailto:mkane@rx.umaryland.edu">mkane@rx.umaryland.edu</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: right;">3046</td>
+<td style="text-align: right;">2820</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: center;"><a href="http://pseudomonas.umaryland.edu/PAMDB.htm">pamdb_website</a></td>
+<td style="text-align: center;"><a href="https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkx1061">pamdb_article</a></td>
+<td style="text-align: center;"><a href="http://pseudomonas.umaryland.edu/PaDl/PaMet.xlsx">pamdb_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/pamdb.md">pamdb_license</a></td>
+<td style="text-align: center;"><a href="mailto:awilks@rx.umaryland.edu">awilks@rx.umaryland.edu</a> <a href="mailto:aoglesby@rx.umaryland.edu">aoglesby@rx.umaryland.edu</a> <a href="mailto:mkane@rx.umaryland.edu">mkane@rx.umaryland.edu</a></td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2017-03-02T19:47:50Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">phenolexplorer</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">8,968</td>
-<td style="text-align: right;">12,027</td>
-<td style="text-align: right;">6,536</td>
-<td style="text-align: center;"><a href="http://phenol-explorer.eu/cite_us">website</a></td>
-<td style="text-align: center;"><a href="http://database.oxfordjournals.org/content/2013/bat070.long">article</a> <span class="citation" data-cites="9GVjNRag">[<a href="#ref-9GVjNRag" role="doc-biblioref">120</a>]</span></td>
-<td style="text-align: center;"><a href="http://phenol-explorer.eu/downloads">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/phenolexplorer.md">license</a></td>
+<td style="text-align: right;">8077</td>
+<td style="text-align: right;">8695</td>
+<td style="text-align: right;">7123</td>
+<td style="text-align: right;">5342</td>
+<td style="text-align: center;"><a href="http://phenol-explorer.eu/cite_us">phenolexplorer_website</a></td>
+<td style="text-align: center;"><a href="http://database.oxfordjournals.org/content/2013/bat070.long">phenolexplorer_article</a></td>
+<td style="text-align: center;"><a href="http://phenol-explorer.eu/downloads">phenolexplorer_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/phenolexplorer.md">phenolexplorer_license</a></td>
 <td style="text-align: center;"><a href="mailto:scalberta@iarc.fr">scalberta@iarc.fr</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2016-12-11T02:27:57Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">phytohub</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">2,363</td>
-<td style="text-align: right;">1,451</td>
-<td style="text-align: right;">50</td>
-<td style="text-align: center;"><a href="http://phytohub.eu/about">website</a></td>
-<td style="text-align: center;"><a href="https://hal.archives-ouvertes.fr/hal-01697081/file/2017_Giacomoni_ICPH_Québec.pdf">“article”</a> <span class="citation" data-cites="1APrBLQ3X">[<a href="#ref-1APrBLQ3X" role="doc-biblioref">121</a>]</span></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/phytohub/scraping.R">script</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/phytohub.md">license</a></td>
+<td style="text-align: right;">2349</td>
+<td style="text-align: right;">1138</td>
+<td style="text-align: right;">132</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: center;"><a href="http://phytohub.eu/about">phytohub_website</a></td>
+<td style="text-align: center;"><a href="https://hal.archives-ouvertes.fr/hal-01697081/file/2017_Giacomoni_ICPH_Québec.pdf">phytohub_article</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/phytohub/scraping.R">phytohub_script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/phytohub.md">phytohub_license</a></td>
 <td style="text-align: center;"><a href="mailto:claudine.manach@inra.fr">claudine.manach@inra.fr</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2020-06-03T08:45:20Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">procardb</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">6,606</td>
-<td style="text-align: right;">9,933</td>
-<td style="text-align: right;">70</td>
-<td style="text-align: center;"><a href="https://bioinfo.imtech.res.in/servers/procardb/">website</a></td>
-<td style="text-align: center;"><a href="https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-016-0715-6">article</a> <span class="citation" data-cites="Pf1Puxxg">[<a href="#ref-Pf1Puxxg" role="doc-biblioref">122</a>]</span></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/procardb/scraping.R">script</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/procardb.md">license</a></td>
+<td style="text-align: right;">6556</td>
+<td style="text-align: right;">6278</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: center;"><a href="https://bioinfo.imtech.res.in/servers/procardb/">procardb_website</a></td>
+<td style="text-align: center;"><a href="https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-016-0715-6">procardb_article</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/procardb/scraping.R">procardb_script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/procardb.md">procardb_license</a></td>
 <td style="text-align: center;"><a href="https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-016-0715-6/email/correspondent/c1/new">Anil Kumar Pinnaka</a> <a href="https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-016-0715-6/email/correspondent/c2/new">Ashwani Kumar</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2020-08-10T19:00:42Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">respect</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">2,759</td>
-<td style="text-align: right;">607</td>
-<td style="text-align: right;">263</td>
-<td style="text-align: center;"><a href="http://spectra.psc.riken.jp/menta.cgi/respect/licence/licence">website</a></td>
-<td style="text-align: center;"><a href="https://www.sciencedirect.com/science/article/pii/S003194221200310X">article</a> <span class="citation" data-cites="12Ui1Rc6x">[<a href="#ref-12Ui1Rc6x" role="doc-biblioref">123</a>]</span></td>
-<td style="text-align: center;"><a href="http://spectra.psc.riken.jp/menta.cgi/static/respect/respect.zip">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/respect.md">license</a></td>
+<td style="text-align: right;">2759</td>
+<td style="text-align: right;">1057</td>
+<td style="text-align: right;">634</td>
+<td style="text-align: right;">211</td>
+<td style="text-align: center;"><a href="http://spectra.psc.riken.jp/menta.cgi/respect/licence/licence">respect_website</a></td>
+<td style="text-align: center;"><a href="https://www.sciencedirect.com/science/article/pii/S003194221200310X">respect_article</a></td>
+<td style="text-align: center;"><a href="http://spectra.psc.riken.jp/menta.cgi/static/respect/respect.zip">respect_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/respect.md">respect_license</a></td>
 <td style="text-align: center;"><a href="mailto:ksaito@psc.riken.jp">ksaito@psc.riken.jp</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2021-11-02T10:55:18Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">sancdb</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">861</td>
-<td style="text-align: right;">987</td>
-<td style="text-align: right;">774</td>
-<td style="text-align: center;"><a href="https://sancdb.rubi.ru.ac.za/cite_us/">website</a></td>
-<td style="text-align: center;"><a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-015-0080-8">article</a> <span class="citation" data-cites="ZRFusbLt">[<a href="#ref-ZRFusbLt" role="doc-biblioref">124</a>]</span></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/sancdb/scraping.R">script</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/sancdb.md">license</a></td>
+<td style="text-align: right;">860</td>
+<td style="text-align: right;">922</td>
+<td style="text-align: right;">744</td>
+<td style="text-align: right;">686</td>
+<td style="text-align: center;"><a href="https://sancdb.rubi.ru.ac.za/cite_us/">sancdb_website</a></td>
+<td style="text-align: center;"><a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-015-0080-8">sancdb_article</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/sancdb/scraping.R">sancdb_script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/sancdb.md">sancdb_license</a></td>
 <td style="text-align: center;"><a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-015-0080-8/email/correspondent/c1/new">Özlem Tastan Bishop</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2020-06-03T09:48:30Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">streptomedb</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">71,638</td>
-<td style="text-align: right;">38,343</td>
-<td style="text-align: right;">19,021</td>
-<td style="text-align: center;"><a href="http://132.230.56.4/streptomedb3/">website</a></td>
-<td style="text-align: center;"><a href="https://doi.org/10.1093/nar/gkv1319">article</a> <span class="citation" data-cites="15rL9Psbo">[<a href="#ref-15rL9Psbo" role="doc-biblioref">125</a>]</span></td>
-<td style="text-align: center;"><a href="http://132.230.56.4/streptomedb/download/">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/streptomedb.md">license</a></td>
+<td style="text-align: right;">71638</td>
+<td style="text-align: right;">33041</td>
+<td style="text-align: right;">20715</td>
+<td style="text-align: right;">15424</td>
+<td style="text-align: center;"><a href="http://132.230.56.4/streptomedb3/">streptomedb_website</a></td>
+<td style="text-align: center;"><a href="https://doi.org/10.1093/nar/gkv1319">streptomedb_article</a></td>
+<td style="text-align: center;"><a href="http://132.230.56.4/streptomedb/download/">streptomedb_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/streptomedb.md">streptomedb_license</a></td>
 <td style="text-align: center;"><a href="mailto:stefan.guenther@pharmazie.uni-freiburg.de">stefan.guenther@pharmazie.uni-freiburg.de</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">maintained</td>
+<td style="text-align: center;">2021-10-03T22:39:24Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">swmd</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">1,075</td>
-<td style="text-align: right;">1,616</td>
-<td style="text-align: right;">1,377</td>
-<td style="text-align: center;"><a href="http://www.swmd.co.in/index.php">website</a></td>
-<td style="text-align: center;"><a href="https://dx.doi.org/10.6026%2F97320630005361">article</a> <span class="citation" data-cites="tPji342r">[<a href="#ref-tPji342r" role="doc-biblioref">126</a>]</span></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/swmd/scraping.R">script</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/swmd.md">license</a></td>
+<td style="text-align: right;">1075</td>
+<td style="text-align: right;">1730</td>
+<td style="text-align: right;">1597</td>
+<td style="text-align: right;">1377</td>
+<td style="text-align: center;"><a href="http://www.swmd.co.in/index.php">swmd_website</a></td>
+<td style="text-align: center;"><a href="https://dx.doi.org/10.6026%2F97320630005361">swmd_article</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/swmd/scraping.R">swmd_script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/swmd.md">swmd_license</a></td>
 <td style="text-align: center;"><a href="mailto:Dicky.John@gmail.com">Dicky.John@gmail.com</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2021-11-02T10:55:18Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">tmdb</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">2,116</td>
-<td style="text-align: right;">841</td>
-<td style="text-align: right;">17</td>
-<td style="text-align: center;"><a href="http://pcsb.ahau.edu.cn:8080/TCDB/index.jsp">website</a></td>
-<td style="text-align: center;"><a href="https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-014-0243-1">article</a> <span class="citation" data-cites="16mSGZn7C">[<a href="#ref-16mSGZn7C" role="doc-biblioref">127</a>]</span></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/tmdb/scraping.R">script</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/tmdb.md">license</a></td>
+<td style="text-align: right;">2116</td>
+<td style="text-align: right;">533</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: center;"><a href="http://pcsb.ahau.edu.cn:8080/TCDB/index.jsp">tmdb_website</a></td>
+<td style="text-align: center;"><a href="https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-014-0243-1">tmdb_article</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/tmdb/scraping.R">tmdb_script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/tmdb.md">tmdb_license</a></td>
 <td style="text-align: center;"><a href="https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-014-0243-1/email/correspondent/c1/new">Xiao-Chun Wan</a> <a href="https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-014-0243-1/email/correspondent/c2/new">Guan-Hu Bao</a></td>
-<td style="text-align: center;">currently down</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2020-06-03T10:04:22Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">tmmc</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">15,033</td>
-<td style="text-align: right;">5,771</td>
-<td style="text-align: right;">2,662</td>
-<td style="text-align: center;"><a href="http://informatics.kiom.re.kr/compound/index.jsp">website</a></td>
-<td style="text-align: center;"><a href="https://bmccomplementmedtherapies.biomedcentral.com/articles/10.1186/s12906-015-0758-5">article</a> <span class="citation" data-cites="a48CrnhC">[<a href="#ref-a48CrnhC" role="doc-biblioref">128</a>]</span></td>
-<td style="text-align: center;"><a href="http://informatics.kiom.re.kr/compound/download/compound.xlsx">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/tmmc.md">license</a></td>
+<td style="text-align: right;">15033</td>
+<td style="text-align: right;">7814</td>
+<td style="text-align: right;">5826</td>
+<td style="text-align: right;">2335</td>
+<td style="text-align: center;"><a href="http://informatics.kiom.re.kr/compound/index.jsp">tmmc_website</a></td>
+<td style="text-align: center;"><a href="https://bmccomplementmedtherapies.biomedcentral.com/articles/10.1186/s12906-015-0758-5">tmmc_article</a></td>
+<td style="text-align: center;"><a href="http://informatics.kiom.re.kr/compound/download/compound.xlsx">tmmc_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/tmmc.md">tmmc_license</a></td>
 <td style="text-align: center;"><a href="https://bmccomplementmedtherapies.biomedcentral.com/articles/10.1186/s12906-015-0758-5/email/correspondent/c1/new">Jeong-Ju Lee</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2016-06-16T04:28:00Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">tppt</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">27,182</td>
-<td style="text-align: right;">28,412</td>
-<td style="text-align: right;">941</td>
-<td style="text-align: center;"><a href="https://www.agroscope.admin.ch/agroscope/en/home/publications/apps/tppt.html">website</a></td>
-<td style="text-align: center;"><a href="https://pubs.acs.org/doi/10.1021/acs.jafc.8b01639">article</a> <span class="citation" data-cites="fP0lai2j">[<a href="#ref-fP0lai2j" role="doc-biblioref">129</a>]</span></td>
-<td style="text-align: center;"><a href="https://www.agroscope.admin.ch/dam/agroscope/de/dokumente/publikationen/tppt-xls.xlsx.download.xlsx/TPPT_database.xlsx">download</a></td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/blob/main/docs/licenses/tppt.md">license</a></td>
+<td style="text-align: right;">27182</td>
+<td style="text-align: right;">23836</td>
+<td style="text-align: right;">684</td>
+<td style="text-align: right;">588</td>
+<td style="text-align: center;"><a href="https://www.agroscope.admin.ch/agroscope/en/home/publications/apps/tppt.html">tppt_website</a></td>
+<td style="text-align: center;"><a href="https://pubs.acs.org/doi/10.1021/acs.jafc.8b01639">tppt_article</a></td>
+<td style="text-align: center;"><a href="https://www.agroscope.admin.ch/dam/agroscope/de/dokumente/publikationen/tppt-xls.xlsx.download.xlsx/TPPT_database.xlsx">tppt_download</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main/doc/licenses/tppt.md">tppt_license</a></td>
 <td style="text-align: center;"><a href="mailto:thomas.bucheli@agroscope.admin.ch">thomas.bucheli@agroscope.admin.ch</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">unmaintained</td>
+<td style="text-align: center;">2021-09-24T19:50:21Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">unpd</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">340,319</td>
-<td style="text-align: right;">552,307</td>
-<td style="text-align: right;">352,814</td>
-<td style="text-align: center;"><a href="https://web.archive.org/web/20160314180639/http://pkuxxj.pku.edu.cn/UNPD/introduction.php">website</a></td>
-<td style="text-align: center;"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062839">article</a> <span class="citation" data-cites="W6BmnntI">[<a href="#ref-W6BmnntI" role="doc-biblioref">130</a>]</span></td>
+<td style="text-align: right;">331242</td>
+<td style="text-align: right;">304384</td>
+<td style="text-align: right;">211159</td>
+<td style="text-align: right;">185602</td>
+<td style="text-align: center;"><a href="https://web.archive.org/web/20160314180639/http://pkuxxj.pku.edu.cn/UNPD/introduction.php">unpd_website</a></td>
+<td style="text-align: center;"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062839">unpd_article</a></td>
 <td style="text-align: center;">-</td>
 <td style="text-align: center;">-</td>
 <td style="text-align: center;"><a href="mailto:lirongc@pku.edu.cn">lirongc@pku.edu.cn</a> <a href="mailto:xiaojxu@pku.edu.cn">xiaojxu@pku.edu.cn</a></td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">defunct</td>
+<td style="text-align: center;">2021-09-14T16:41:31Z</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">wakankensaku</td>
 <td style="text-align: center;">open</td>
 <td style="text-align: right;">367</td>
-<td style="text-align: right;">49</td>
-<td style="text-align: right;">41</td>
-<td style="text-align: center;"><a href="https://wakankensaku.inm.u-toyama.ac.jp/wiki/Main_Page">website</a></td>
+<td style="text-align: right;">224</td>
+<td style="text-align: right;">208</td>
+<td style="text-align: right;">152</td>
+<td style="text-align: center;"><a href="https://wakankensaku.inm.u-toyama.ac.jp/wiki/Main_Page">wakankensaku_website</a></td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/-/tree/main/src/1_gathering/db/wakankensaku/scraping.R">script</a></td>
+<td style="text-align: center;"><a href="https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/wakankensaku/scraping.R">wakankensaku_script</a></td>
 <td style="text-align: center;">-</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">defunct</td>
+<td style="text-align: center;">2020-07-02T08:35:05Z</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">wikidata</td>
 <td style="text-align: center;">open</td>
-<td style="text-align: right;">nextStep</td>
-<td style="text-align: right;">nextStep</td>
-<td style="text-align: right;">nextStep</td>
-<td style="text-align: center;"><a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">website</a></td>
+<td style="text-align: right;">795162</td>
+<td style="text-align: right;">816832</td>
+<td style="text-align: right;">815985</td>
+<td style="text-align: right;">766472</td>
+<td style="text-align: center;"><a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">wikidata_website</a></td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;"><a href="https://w.wiki/3JpE">download</a></td>
+<td style="text-align: center;"><a href="https://w.wiki/3JpE">wikidata_download</a></td>
 <td style="text-align: center;">-</td>
 <td style="text-align: center;">-</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">maintained</td>
 <td style="text-align: center;">-</td>
 </tr>
 </tbody>
@@ -2385,7 +2537,7 @@ You can add further statements, e.g. <code>molecular formula</code>, or <code>S
 <div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Repository scale classification and decomposition of tandem mass spectral data</strong> <div class="csl-block">Mihir Mongia, Hosein Mohimani</div> <em>Scientific Reports</em> (2021-04-15) <a href="https://doi.org/gj2q8p">https://doi.org/gj2q8p</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41598-021-87796-6">10.1038/s41598-021-87796-6</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33859284">33859284</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8050247">PMC8050247</a></div></div>
 </div>
 <div id="ref-vgWLelZQ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>ReDU: a framework to find and reanalyze public mass spectrometry data</strong> <div class="csl-block">Alan K Jarmusch, Mingxun Wang, Christine M Aceves, Rohit S Advani, Shaden Aguirre, Alexander A Aksenov, Gajender Aleti, Allegra T Aron, Anelize Bauermeister, Sanjana Bolleddu, … Pieter C Dorrestein</div> <em>Nature Methods</em> (2020-09) <a href="https://doi.org/gg9prv">https://doi.org/gg9prv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-020-0916-7">10.1038/s41592-020-0916-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32807955">32807955</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7968862">PMC7968862</a></div></div>
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>ReDU: a framework to find and reanalyze public mass spectrometry data</strong> <div class="csl-block">Alan K Jarmusch, Mingxun Wang, Christine M Aceves, Rohit S Advani, Shaden Aguirre, Alexander A Aksenov, Gajender Aleti, Allegra T Aron, Anelize Bauermeister, Sanjana Bolleddu, … Pieter C Dorrestein</div> <em>Nature Methods</em> (2020-08-17) <a href="https://doi.org/gg9prv">https://doi.org/gg9prv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-020-0916-7">10.1038/s41592-020-0916-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32807955">32807955</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7968862">PMC7968862</a></div></div>
 </div>
 <div id="ref-1BsHixMtu" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>PubChem 2019 update: improved access to chemical data</strong> <div class="csl-block">Sunghwan Kim, Jie Chen, Tiejun Cheng, Asta Gindulyte, Jia He, Siqian He, Qingliang Li, Benjamin A Shoemaker, Paul A Thiessen, Bo Yu, … Evan E Bolton</div> <em>Nucleic Acids Research</em> (2019-01-08) <a href="https://doi.org/gfxmsx">https://doi.org/gfxmsx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gky1033">10.1093/nar/gky1033</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30371825">30371825</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6324075">PMC6324075</a></div></div>
@@ -2564,197 +2716,119 @@ You can add further statements, e.g. <code>molecular formula</code>, or <code>S
 <div id="ref-pf43Zseq" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">66. </div><div class="csl-right-inline"><strong>Chemical Name to Structure: OPSIN, an Open Source Solution</strong> <div class="csl-block">Daniel M Lowe, Peter T Corbett, Peter Murray-Rust, Robert C Glen</div> <em>Journal of Chemical Information and Modeling</em> (2011-03-09) <a href="https://doi.org/b2zkr9">https://doi.org/b2zkr9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/ci100384d">10.1021/ci100384d</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21384929">21384929</a></div></div>
 </div>
+<div id="ref-nmEacTGa" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">67. </div><div class="csl-right-inline"><strong>An update on PUG-REST: RESTful interface for programmatic access to PubChem</strong> <div class="csl-block">Sunghwan Kim, Paul A Thiessen, Tiejun Cheng, Bo Yu, Evan E Bolton</div> <em>Nucleic Acids Research</em> (2018-07-02) <a href="https://doi.org/gf8dhx">https://doi.org/gf8dhx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gky294">10.1093/nar/gky294</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29718389">29718389</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030920">PMC6030920</a></div></div>
+</div>
 <div id="ref-icLEZ49v" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">67. </div><div class="csl-right-inline"><strong>PUG-SOAP and PUG-REST: web services for programmatic access to chemical information in PubChem</strong> <div class="csl-block">Sunghwan Kim, Paul A Thiessen, Evan E Bolton, Stephen H Bryant</div> <em>Nucleic Acids Research</em> (2015-07-01) <a href="https://doi.org/f7nw9n">https://doi.org/f7nw9n</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkv396">10.1093/nar/gkv396</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25934803">25934803</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489244">PMC4489244</a></div></div>
+<div class="csl-left-margin">68. </div><div class="csl-right-inline"><strong>PUG-SOAP and PUG-REST: web services for programmatic access to chemical information in PubChem</strong> <div class="csl-block">Sunghwan Kim, Paul A Thiessen, Evan E Bolton, Stephen H Bryant</div> <em>Nucleic Acids Research</em> (2015-07-01) <a href="https://doi.org/f7nw9n">https://doi.org/f7nw9n</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkv396">10.1093/nar/gkv396</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25934803">25934803</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4489244">PMC4489244</a></div></div>
 </div>
 <div id="ref-hPmhpanN" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">68. </div><div class="csl-right-inline"><strong>rotl: an R package to interact with the Open Tree of Life data</strong> <div class="csl-block">François Michonneau, Joseph W Brown, David J Winter</div> <em>Methods in Ecology and Evolution</em> (2016-07-11) <a href="https://doi.org/f9jgkm">https://doi.org/f9jgkm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/2041-210x.12593">10.1111/2041-210x.12593</a></div></div>
+<div class="csl-left-margin">69. </div><div class="csl-right-inline"><strong>rotl: an R package to interact with the Open Tree of Life data</strong> <div class="csl-block">François Michonneau, Joseph W Brown, David J Winter</div> <em>Methods in Ecology and Evolution</em> (2016-07-11) <a href="https://doi.org/f9jgkm">https://doi.org/f9jgkm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/2041-210x.12593">10.1111/2041-210x.12593</a></div></div>
 </div>
 <div id="ref-UHC5x6VA" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">69. </div><div class="csl-right-inline"><strong>rcrossref: Client for Various 'CrossRef' 'APIs'</strong> <div class="csl-block">Scott Chamberlain, Hao Zhu, Najko Jahn, Carl Boettiger, Karthik Ram</div> (2020) <a href="https://CRAN.R-project.org/package=rcrossref">https://CRAN.R-project.org/package=rcrossref</a></div>
+<div class="csl-left-margin">70. </div><div class="csl-right-inline"><strong>rcrossref: Client for Various 'CrossRef' 'APIs'</strong> <div class="csl-block">Scott Chamberlain, Hao Zhu, Najko Jahn, Carl Boettiger, Karthik Ram</div> (2020) <a href="https://CRAN.R-project.org/package=rcrossref">https://CRAN.R-project.org/package=rcrossref</a></div>
 </div>
 <div id="ref-13ZrxSjw4" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">70. </div><div class="csl-right-inline"><strong>rentrez: An R package for the NCBI eUtils API</strong> <div class="csl-block">David Winter J.</div> <em>The R Journal</em> (2017) <a href="https://doi.org/gh5ptg">https://doi.org/gh5ptg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.32614/rj-2017-058">10.32614/rj-2017-058</a></div></div>
+<div class="csl-left-margin">71. </div><div class="csl-right-inline"><strong>rentrez: An R package for the NCBI eUtils API</strong> <div class="csl-block">David Winter J.</div> <em>The R Journal</em> (2017) <a href="https://doi.org/gh5ptg">https://doi.org/gh5ptg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.32614/rj-2017-058">10.32614/rj-2017-058</a></div></div>
 </div>
 <div id="ref-zukFZ2aq" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">71. </div><div class="csl-right-inline"><strong>ChemmineR: a compound mining framework for R</strong> <div class="csl-block">Y Cao, A Charisi, L-C Cheng, T Jiang, T Girke</div> <em>Bioinformatics</em> (2008-07-02) <a href="https://doi.org/b46rs7">https://doi.org/b46rs7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btn307">10.1093/bioinformatics/btn307</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18596077">18596077</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2638865">PMC2638865</a></div></div>
+<div class="csl-left-margin">72. </div><div class="csl-right-inline"><strong>ChemmineR: a compound mining framework for R</strong> <div class="csl-block">Y Cao, A Charisi, L-C Cheng, T Jiang, T Girke</div> <em>Bioinformatics</em> (2008-07-02) <a href="https://doi.org/b46rs7">https://doi.org/b46rs7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btn307">10.1093/bioinformatics/btn307</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18596077">18596077</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2638865">PMC2638865</a></div></div>
 </div>
 <div id="ref-156ifmHvV" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">72. </div><div class="csl-right-inline"><strong>chorddiag: Interactive Chord Diagrams</strong> <div class="csl-block">Matthias Flor</div> (2020) <a href="http://github.com/mattflor/chorddiag/">http://github.com/mattflor/chorddiag/</a></div>
+<div class="csl-left-margin">73. </div><div class="csl-right-inline"><strong>chorddiag: Interactive Chord Diagrams</strong> <div class="csl-block">Matthias Flor</div> (2020) <a href="http://github.com/mattflor/chorddiag/">http://github.com/mattflor/chorddiag/</a></div>
 </div>
 <div id="ref-hR0edX6b" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">73. </div><div class="csl-right-inline"><strong>data.table: Extension of `data.frame`</strong> <div class="csl-block">Matt Dowle, Arun Srinivasan</div> (2020) <a href="https://CRAN.R-project.org/package=data.table">https://CRAN.R-project.org/package=data.table</a></div>
+<div class="csl-left-margin">74. </div><div class="csl-right-inline"><strong>data.table: Extension of `data.frame`</strong> <div class="csl-block">Matt Dowle, Arun Srinivasan</div> (2020) <a href="https://CRAN.R-project.org/package=data.table">https://CRAN.R-project.org/package=data.table</a></div>
 </div>
 <div id="ref-7JFonzW0" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">74. </div><div class="csl-right-inline"><strong>DBI: R database interface</strong> <div class="csl-block">R Special Interest Group on Databases (R-SIG-DB), Hadley Wickham, Kirill Müller</div> (2021) <a href="https://CRAN.R-project.org/package=DBI">https://CRAN.R-project.org/package=DBI</a></div>
+<div class="csl-left-margin">75. </div><div class="csl-right-inline"><strong>DBI: R database interface</strong> <div class="csl-block">R Special Interest Group on Databases (R-SIG-DB), Hadley Wickham, Kirill Müller</div> (2021) <a href="https://CRAN.R-project.org/package=DBI">https://CRAN.R-project.org/package=DBI</a></div>
 </div>
 <div id="ref-7AFWc7sN" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">75. </div><div class="csl-right-inline"><strong>gdata: Various r programming tools for data manipulation</strong> <div class="csl-block">Gregory R Warnes, Ben Bolker, Gregor Gorjanc, Gabor Grothendieck, Ales Korosec, Thomas Lumley, Don MacQueen, Arni Magnusson, Jim Rogersothers</div> (2017) <a href="https://CRAN.R-project.org/package=gdata">https://CRAN.R-project.org/package=gdata</a></div>
+<div class="csl-left-margin">76. </div><div class="csl-right-inline"><strong>gdata: Various r programming tools for data manipulation</strong> <div class="csl-block">Gregory R Warnes, Ben Bolker, Gregor Gorjanc, Gabor Grothendieck, Ales Korosec, Thomas Lumley, Don MacQueen, Arni Magnusson, Jim Rogersothers</div> (2017) <a href="https://CRAN.R-project.org/package=gdata">https://CRAN.R-project.org/package=gdata</a></div>
 </div>
 <div id="ref-13wsG3vmM" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">76. </div><div class="csl-right-inline"><strong>ggalluvial: Layered Grammar for Alluvial Plots</strong> <div class="csl-block">Jason Brunson</div> <em>Journal of Open Source Software</em> (2020-05-21) <a href="https://doi.org/gg4ghf">https://doi.org/gg4ghf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.21105/joss.02017">10.21105/joss.02017</a></div></div>
+<div class="csl-left-margin">77. </div><div class="csl-right-inline"><strong>ggalluvial: Layered Grammar for Alluvial Plots</strong> <div class="csl-block">Jason Brunson</div> <em>Journal of Open Source Software</em> (2020-05-21) <a href="https://doi.org/gg4ghf">https://doi.org/gg4ghf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.21105/joss.02017">10.21105/joss.02017</a></div></div>
 </div>
 <div id="ref-ejxxPICa" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">77. </div><div class="csl-right-inline"><strong>ggfittext: Fit Text Inside a Box in 'ggplot2'</strong> <div class="csl-block">David Wilkins</div> (2020) <a href="https://CRAN.R-project.org/package=ggfittext">https://CRAN.R-project.org/package=ggfittext</a></div>
+<div class="csl-left-margin">78. </div><div class="csl-right-inline"><strong>ggfittext: Fit Text Inside a Box in 'ggplot2'</strong> <div class="csl-block">David Wilkins</div> (2020) <a href="https://CRAN.R-project.org/package=ggfittext">https://CRAN.R-project.org/package=ggfittext</a></div>
 </div>
 <div id="ref-7J4ZPUL7" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">78. </div><div class="csl-right-inline"><strong>ggnewscale: Multiple fill and colour scales in 'ggplot2'</strong> <div class="csl-block">Elio Campitelli</div> (2021) <a href="https://CRAN.R-project.org/package=ggnewscale">https://CRAN.R-project.org/package=ggnewscale</a></div>
+<div class="csl-left-margin">79. </div><div class="csl-right-inline"><strong>ggnewscale: Multiple fill and colour scales in 'ggplot2'</strong> <div class="csl-block">Elio Campitelli</div> (2021) <a href="https://CRAN.R-project.org/package=ggnewscale">https://CRAN.R-project.org/package=ggnewscale</a></div>
 </div>
 <div id="ref-gdTufCbt" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">79. </div><div class="csl-right-inline"><strong>ggraph: An Implementation of Grammar of Graphics for Graphs and Networks</strong> <div class="csl-block">Thomas Lin Pedersen</div> (2020) <a href="https://CRAN.R-project.org/package=ggraph">https://CRAN.R-project.org/package=ggraph</a></div>
+<div class="csl-left-margin">80. </div><div class="csl-right-inline"><strong>ggraph: An Implementation of Grammar of Graphics for Graphs and Networks</strong> <div class="csl-block">Thomas Lin Pedersen</div> (2020) <a href="https://CRAN.R-project.org/package=ggraph">https://CRAN.R-project.org/package=ggraph</a></div>
 </div>
 <div id="ref-17NxHx9HG" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">80. </div><div class="csl-right-inline"><strong>ggstar: Star Layer for 'ggplot2'</strong> <div class="csl-block">Shuangbin Xu</div> (2021) <a href="https://CRAN.R-project.org/package=ggstar">https://CRAN.R-project.org/package=ggstar</a></div>
+<div class="csl-left-margin">81. </div><div class="csl-right-inline"><strong>ggstar: Star Layer for 'ggplot2'</strong> <div class="csl-block">Shuangbin Xu</div> (2021) <a href="https://CRAN.R-project.org/package=ggstar">https://CRAN.R-project.org/package=ggstar</a></div>
 </div>
 <div id="ref-YdA5Ivd8" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">81. </div><div class="csl-right-inline"><strong>: an package for visualization and annotation of phylogenetic trees with their covariates and other associated data</strong> <div class="csl-block">Guangchuang Yu, David K Smith, Huachen Zhu, Yi Guan, Tommy Tsan‐Yuk Lam</div> <em>Methods in Ecology and Evolution</em> (2016-09-22) <a href="https://doi.org/f9qv8x">https://doi.org/f9qv8x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/2041-210x.12628">10.1111/2041-210x.12628</a></div></div>
+<div class="csl-left-margin">82. </div><div class="csl-right-inline"><strong>: an package for visualization and annotation of phylogenetic trees with their covariates and other associated data</strong> <div class="csl-block">Guangchuang Yu, David K Smith, Huachen Zhu, Yi Guan, Tommy Tsan‐Yuk Lam</div> <em>Methods in Ecology and Evolution</em> (2016-09-22) <a href="https://doi.org/f9qv8x">https://doi.org/f9qv8x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/2041-210x.12628">10.1111/2041-210x.12628</a></div></div>
 </div>
 <div id="ref-121McWIls" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">82. </div><div class="csl-right-inline"><strong>ggtreeExtra: Compact visualization of richly annotated phylogenetic data</strong> <div class="csl-block">Shuangbin Xu, Zehan Dai, Pingfan Guo, Xiaocong Fu, Shanshan Liu, Lang Zhou, Wenli Tang, Tingze Feng, Meijun Chen, Li Zhan, … Guangchuang Yu</div> <em>Research Square Platform LLC</em> (2021-01-26) <a href="https://doi.org/gjj2ds">https://doi.org/gjj2ds</a> <div class="csl-block">DOI: <a href="https://doi.org/10.21203/rs.3.rs-155672/v2">10.21203/rs.3.rs-155672/v2</a></div></div>
+<div class="csl-left-margin">83. </div><div class="csl-right-inline"><strong>ggtreeExtra: Compact visualization of richly annotated phylogenetic data</strong> <div class="csl-block">Shuangbin Xu, Zehan Dai, Pingfan Guo, Xiaocong Fu, Shanshan Liu, Lang Zhou, Wenli Tang, Tingze Feng, Meijun Chen, Li Zhan, … Guangchuang Yu</div> <em>Research Square Platform LLC</em> (2021-01-26) <a href="https://doi.org/gjj2ds">https://doi.org/gjj2ds</a> <div class="csl-block">DOI: <a href="https://doi.org/10.21203/rs.3.rs-155672/v2">10.21203/rs.3.rs-155672/v2</a></div></div>
 </div>
 <div id="ref-dkabTMGA" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">83. </div><div class="csl-right-inline"><strong>Hmisc: Harrell Miscellaneous</strong> <div class="csl-block">Frank EHarrell Jr, with contributions from Charles Dupont, many others</div> (2020) <a href="https://CRAN.R-project.org/package=Hmisc">https://CRAN.R-project.org/package=Hmisc</a></div>
+<div class="csl-left-margin">84. </div><div class="csl-right-inline"><strong>Hmisc: Harrell Miscellaneous</strong> <div class="csl-block">Frank EHarrell Jr, with contributions from Charles Dupont, many others</div> (2020) <a href="https://CRAN.R-project.org/package=Hmisc">https://CRAN.R-project.org/package=Hmisc</a></div>
 </div>
 <div id="ref-Jdw1vygr" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">84. </div><div class="csl-right-inline"><strong>The jsonlite Package: A Practical and Consistent Mapping Between JSON Data and R Objects</strong> <div class="csl-block">Jeroen Ooms</div> (2014-03-12) <a href="https://www.wikidata.org/wiki/Q106204620">https://www.wikidata.org/wiki/Q106204620</a></div>
+<div class="csl-left-margin">85. </div><div class="csl-right-inline"><strong>The jsonlite Package: A Practical and Consistent Mapping Between JSON Data and R Objects</strong> <div class="csl-block">Jeroen Ooms</div> (2014-03-12) <a href="https://www.wikidata.org/wiki/Q106204620">https://www.wikidata.org/wiki/Q106204620</a></div>
 </div>
 <div id="ref-XiPNsL5P" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">85. </div><div class="csl-right-inline"><strong>pbmcapply: Tracking the Progress of Mc*pply with Progress Bar</strong> <div class="csl-block">Kevin Kuang, Quyu Kong, Francesco Napolitano</div> (2019) <a href="https://CRAN.R-project.org/package=pbmcapply">https://CRAN.R-project.org/package=pbmcapply</a></div>
+<div class="csl-left-margin">86. </div><div class="csl-right-inline"><strong>pbmcapply: Tracking the Progress of Mc*pply with Progress Bar</strong> <div class="csl-block">Kevin Kuang, Quyu Kong, Francesco Napolitano</div> (2019) <a href="https://CRAN.R-project.org/package=pbmcapply">https://CRAN.R-project.org/package=pbmcapply</a></div>
 </div>
 <div id="ref-kVXkIA2g" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">86. </div><div class="csl-right-inline"><strong>Interactive Web-Based Data Visualization with R, plotly, and shiny</strong> <div class="csl-block">Carson Sievert</div> <em>Chapman and Hall/CRC</em> (2020) <a href="https://plotly-r.com">https://plotly-r.com</a> <div class="csl-block">ISBN: 978-1-138-33145-7</div></div>
+<div class="csl-left-margin">87. </div><div class="csl-right-inline"><strong>Interactive Web-Based Data Visualization with R, plotly, and shiny</strong> <div class="csl-block">Carson Sievert</div> <em>Chapman and Hall/CRC</em> (2020) <a href="https://plotly-r.com">https://plotly-r.com</a> <div class="csl-block">ISBN: 978-1-138-33145-7</div></div>
 </div>
 <div id="ref-xN7NElEK" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">87. </div><div class="csl-right-inline"><strong>readxl: Read Excel Files</strong> <div class="csl-block">Hadley Wickham, Jennifer Bryan</div> (2019) <a href="https://CRAN.R-project.org/package=readxl">https://CRAN.R-project.org/package=readxl</a></div>
+<div class="csl-left-margin">88. </div><div class="csl-right-inline"><strong>readxl: Read Excel Files</strong> <div class="csl-block">Hadley Wickham, Jennifer Bryan</div> (2019) <a href="https://CRAN.R-project.org/package=readxl">https://CRAN.R-project.org/package=readxl</a></div>
 </div>
 <div id="ref-1ELrikmXF" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">88. </div><div class="csl-right-inline"><strong>rvest: Easily Harvest (Scrape) Web Pages</strong> <div class="csl-block">Hadley Wickham</div> (2020) <a href="https://CRAN.R-project.org/package=rvest">https://CRAN.R-project.org/package=rvest</a></div>
+<div class="csl-left-margin">89. </div><div class="csl-right-inline"><strong>rvest: Easily Harvest (Scrape) Web Pages</strong> <div class="csl-block">Hadley Wickham</div> (2020) <a href="https://CRAN.R-project.org/package=rvest">https://CRAN.R-project.org/package=rvest</a></div>
 </div>
 <div id="ref-NfiSMvAq" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">89. </div><div class="csl-right-inline"><strong>splitstackshape: Stack and Reshape Datasets After Splitting Concatenated Values</strong> <div class="csl-block">Ananda Mahto</div> (2019) <a href="https://CRAN.R-project.org/package=splitstackshape">https://CRAN.R-project.org/package=splitstackshape</a></div>
+<div class="csl-left-margin">90. </div><div class="csl-right-inline"><strong>splitstackshape: Stack and Reshape Datasets After Splitting Concatenated Values</strong> <div class="csl-block">Ananda Mahto</div> (2019) <a href="https://CRAN.R-project.org/package=splitstackshape">https://CRAN.R-project.org/package=splitstackshape</a></div>
 </div>
 <div id="ref-LnilgHS9" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">90. </div><div class="csl-right-inline"><strong>RSQLite: 'SQLite' interface for r</strong> <div class="csl-block">Kirill Müller, Hadley Wickham, David A James, Seth Falcon</div> (2021) <a href="https://CRAN.R-project.org/package=RSQLite">https://CRAN.R-project.org/package=RSQLite</a></div>
+<div class="csl-left-margin">91. </div><div class="csl-right-inline"><strong>RSQLite: 'SQLite' interface for r</strong> <div class="csl-block">Kirill Müller, Hadley Wickham, David A James, Seth Falcon</div> (2021) <a href="https://CRAN.R-project.org/package=RSQLite">https://CRAN.R-project.org/package=RSQLite</a></div>
 </div>
 <div id="ref-LmFzkeBM" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">91. </div><div class="csl-right-inline"><strong>The stringdist Package for Approximate String Matching</strong> <div class="csl-block">Mark Loo P.J.,van,der</div> <em>The R Journal</em> (2014) <a href="https://doi.org/ghfr9v">https://doi.org/ghfr9v</a> <div class="csl-block">DOI: <a href="https://doi.org/10.32614/rj-2014-011">10.32614/rj-2014-011</a></div></div>
+<div class="csl-left-margin">92. </div><div class="csl-right-inline"><strong>The stringdist Package for Approximate String Matching</strong> <div class="csl-block">Mark Loo P.J.,van,der</div> <em>The R Journal</em> (2014) <a href="https://doi.org/ghfr9v">https://doi.org/ghfr9v</a> <div class="csl-block">DOI: <a href="https://doi.org/10.32614/rj-2014-011">10.32614/rj-2014-011</a></div></div>
 </div>
 <div id="ref-12mR83H1T" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">92. </div><div class="csl-right-inline"><strong>R package stringi: Character string processing facilities</strong> <div class="csl-block">Marek Gagolewski</div> (2020) <a href="http://www.gagolewski.com/software/stringi/">http://www.gagolewski.com/software/stringi/</a></div>
+<div class="csl-left-margin">93. </div><div class="csl-right-inline"><strong>R package stringi: Character string processing facilities</strong> <div class="csl-block">Marek Gagolewski</div> (2020) <a href="http://www.gagolewski.com/software/stringi/">http://www.gagolewski.com/software/stringi/</a></div>
 </div>
 <div id="ref-EWll2pyF" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">93. </div><div class="csl-right-inline"><strong>Welcome to the Tidyverse</strong> <div class="csl-block">Hadley Wickham, Mara Averick, Jennifer Bryan, Winston Chang, Lucy McGowan, Romain François, Garrett Grolemund, Alex Hayes, Lionel Henry, Jim Hester, … Hiroaki Yutani</div> <em>Journal of Open Source Software</em> (2019-11-21) <a href="https://doi.org/ggddkj">https://doi.org/ggddkj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.21105/joss.01686">10.21105/joss.01686</a></div></div>
+<div class="csl-left-margin">94. </div><div class="csl-right-inline"><strong>Welcome to the Tidyverse</strong> <div class="csl-block">Hadley Wickham, Mara Averick, Jennifer Bryan, Winston Chang, Lucy McGowan, Romain François, Garrett Grolemund, Alex Hayes, Lionel Henry, Jim Hester, … Hiroaki Yutani</div> <em>Journal of Open Source Software</em> (2019-11-21) <a href="https://doi.org/ggddkj">https://doi.org/ggddkj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.21105/joss.01686">10.21105/joss.01686</a></div></div>
 </div>
 <div id="ref-T2D9o6RC" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">94. </div><div class="csl-right-inline"><strong>UpSetR: A More Scalable Alternative to Venn and Euler Diagrams for Visualizing Intersecting Sets</strong> <div class="csl-block">Nils Gehlenborg</div> (2019) <a href="https://CRAN.R-project.org/package=UpSetR">https://CRAN.R-project.org/package=UpSetR</a></div>
+<div class="csl-left-margin">95. </div><div class="csl-right-inline"><strong>UpSetR: A More Scalable Alternative to Venn and Euler Diagrams for Visualizing Intersecting Sets</strong> <div class="csl-block">Nils Gehlenborg</div> (2019) <a href="https://CRAN.R-project.org/package=UpSetR">https://CRAN.R-project.org/package=UpSetR</a></div>
 </div>
 <div id="ref-otfsIdc0" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">95. </div><div class="csl-right-inline"><strong>vroom: Read and write rectangular text data quickly</strong> <div class="csl-block">Jim Hester, Hadley Wickham</div> (2020) <a href="https://CRAN.R-project.org/package=vroom">https://CRAN.R-project.org/package=vroom</a></div>
+<div class="csl-left-margin">96. </div><div class="csl-right-inline"><strong>vroom: Read and write rectangular text data quickly</strong> <div class="csl-block">Jim Hester, Hadley Wickham</div> (2020) <a href="https://CRAN.R-project.org/package=vroom">https://CRAN.R-project.org/package=vroom</a></div>
 </div>
 <div id="ref-kM2kraS2" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">96. </div><div class="csl-right-inline"><strong>&lt;b&gt;webchem&lt;/b&gt; : An &lt;i&gt;R&lt;/i&gt; Package to Retrieve Chemical Information from the Web</strong> <div class="csl-block">Eduard Szöcs, Tamás Stirling, Eric R Scott, Andreas Scharmüller, Ralf B Schäfer</div> <em>Journal of Statistical Software</em> (2020) <a href="https://doi.org/gh5ptf">https://doi.org/gh5ptf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.18637/jss.v093.i13">10.18637/jss.v093.i13</a></div></div>
+<div class="csl-left-margin">97. </div><div class="csl-right-inline"><strong>&lt;b&gt;webchem&lt;/b&gt; : An &lt;i&gt;R&lt;/i&gt; Package to Retrieve Chemical Information from the Web</strong> <div class="csl-block">Eduard Szöcs, Tamás Stirling, Eric R Scott, Andreas Scharmüller, Ralf B Schäfer</div> <em>Journal of Statistical Software</em> (2020) <a href="https://doi.org/gh5ptf">https://doi.org/gh5ptf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.18637/jss.v093.i13">10.18637/jss.v093.i13</a></div></div>
 </div>
 <div id="ref-TceFUyOp" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">97. </div><div class="csl-right-inline"><strong>XML: Tools for Parsing and Generating XML Within R and S-Plus</strong> <div class="csl-block">Duncan Temple Lang</div> (2020) <a href="https://CRAN.R-project.org/package=XML">https://CRAN.R-project.org/package=XML</a></div>
+<div class="csl-left-margin">98. </div><div class="csl-right-inline"><strong>XML: Tools for Parsing and Generating XML Within R and S-Plus</strong> <div class="csl-block">Duncan Temple Lang</div> (2020) <a href="https://CRAN.R-project.org/package=XML">https://CRAN.R-project.org/package=XML</a></div>
 </div>
 <div id="ref-2keqmgUs" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">98. </div><div class="csl-right-inline"><strong>xml2: Parse XML</strong> <div class="csl-block">Hadley Wickham, Jim Hester, Jeroen Ooms</div> (2020) <a href="https://CRAN.R-project.org/package=xml2">https://CRAN.R-project.org/package=xml2</a></div>
+<div class="csl-left-margin">99. </div><div class="csl-right-inline"><strong>xml2: Parse XML</strong> <div class="csl-block">Hadley Wickham, Jim Hester, Jeroen Ooms</div> (2020) <a href="https://CRAN.R-project.org/package=xml2">https://CRAN.R-project.org/package=xml2</a></div>
 </div>
 <div id="ref-1026Gxdsi" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">99. </div><div class="csl-right-inline"><strong>Matplotlib: A 2D Graphics Environment</strong> <div class="csl-block">John D Hunter</div> <em>Computing in Science &amp; Engineering</em> (2007) <a href="https://doi.org/drbjhg">https://doi.org/drbjhg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1109/mcse.2007.55">10.1109/mcse.2007.55</a></div></div>
+<div class="csl-left-margin">100. </div><div class="csl-right-inline"><strong>Matplotlib: A 2D Graphics Environment</strong> <div class="csl-block">John D Hunter</div> <em>Computing in Science &amp; Engineering</em> (2007) <a href="https://doi.org/drbjhg">https://doi.org/drbjhg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1109/mcse.2007.55">10.1109/mcse.2007.55</a></div></div>
 </div>
 <div id="ref-zEc5CK8P" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">100. </div><div class="csl-right-inline"><strong>pandas-dev/pandas: Pandas 1.1.4</strong> <div class="csl-block">Jeff Reback, Wes McKinney, Jbrockmendel, Joris Van Den Bossche, Tom Augspurger, Phillip Cloud, Gfyoung, Sinhrks, Simon Hawkins, Matthew Roeschke, … Marco Gorelli</div> <em>Zenodo</em> (2020-10-30) <a href="https://doi.org/gh6dqz">https://doi.org/gh6dqz</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.4161697">10.5281/zenodo.4161697</a></div></div>
+<div class="csl-left-margin">101. </div><div class="csl-right-inline"><strong>pandas-dev/pandas: Pandas 1.1.4</strong> <div class="csl-block">Jeff Reback, Wes McKinney, Jbrockmendel, Joris Van Den Bossche, Tom Augspurger, Phillip Cloud, Gfyoung, Sinhrks, Simon Hawkins, Matthew Roeschke, … Marco Gorelli</div> <em>Zenodo</em> (2020-10-30) <a href="https://doi.org/gh6dqz">https://doi.org/gh6dqz</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.4161697">10.5281/zenodo.4161697</a></div></div>
 </div>
 <div id="ref-1BXLY6HF1" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">101. </div><div class="csl-right-inline"><strong>RDKit: Open-source cheminformatics</strong> (2021) <a href="http://www.rdkit.org">http://www.rdkit.org</a></div>
+<div class="csl-left-margin">102. </div><div class="csl-right-inline"><strong>RDKit: Open-source cheminformatics</strong> (2021) <a href="http://www.rdkit.org">http://www.rdkit.org</a></div>
 </div>
 <div id="ref-8Miti2Gz" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">102. </div><div class="csl-right-inline"><strong>SciPy 1.0: fundamental algorithms for scientific computing in Python</strong> <div class="csl-block">Pauli Virtanen, Ralf Gommers, Travis E Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, … SciPy 1.0 Contributors</div> <em>Nature Methods</em> (2020-02-03) <a href="https://doi.org/ggj45f">https://doi.org/ggj45f</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-019-0686-2">10.1038/s41592-019-0686-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32015543">32015543</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7056644">PMC7056644</a></div></div>
+<div class="csl-left-margin">103. </div><div class="csl-right-inline"><strong>SciPy 1.0: fundamental algorithms for scientific computing in Python</strong> <div class="csl-block">Pauli Virtanen, Ralf Gommers, Travis E Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, … SciPy 1.0 Contributors</div> <em>Nature Methods</em> (2020-02-03) <a href="https://doi.org/ggj45f">https://doi.org/ggj45f</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-019-0686-2">10.1038/s41592-019-0686-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32015543">32015543</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7056644">PMC7056644</a></div></div>
 </div>
 <div id="ref-xpBWVpji" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">103. </div><div class="csl-right-inline"><strong>The Chemistry Development Kit (CDK) v2.0: atom typing, depiction, molecular formulas, and substructure searching</strong> <div class="csl-block">Egon L Willighagen, John W Mayfield, Jonathan Alvarsson, Arvid Berg, Lars Carlsson, Nina Jeliazkova, Stefan Kuhn, Tomáš Pluskal, Miquel Rojas-Chertó, Ola Spjuth, … Christoph Steinbeck</div> <em>Journal of Cheminformatics</em> (2017-06-06) <a href="https://doi.org/gbppnb">https://doi.org/gbppnb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13321-017-0220-4">10.1186/s13321-017-0220-4</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29086040">29086040</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5461230">PMC5461230</a></div></div>
-</div>
-<div id="ref-mpr5sPI7" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">104. </div><div class="csl-right-inline"><strong>Binding of anti-Trypanosoma natural products from African flora against selected drug targets: a docking study</strong> <div class="csl-block">Akachukwu Ibezim, Biplab Debnath, Fidele Ntie-Kang, Chika John Mbah, Ngozi Justina Nwodo</div> <em>Medicinal Chemistry Research</em> (2017-01-11) <a href="https://doi.org/gh5ptd">https://doi.org/gh5ptd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1007/s00044-016-1764-y">10.1007/s00044-016-1764-y</a></div></div>
-</div>
-<div id="ref-Go2AAIYt" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">105. </div><div class="csl-right-inline"><strong>Alkamid database: Chemistry, occurrence and functionality of plant N-alkylamides</strong> <div class="csl-block">Jente Boonen, Antoon Bronselaer, Joachim Nielandt, Lieselotte Veryser, Guy De Tré, Bart De Spiegeleer</div> <em>Journal of Ethnopharmacology</em> (2012-08) <a href="https://doi.org/gh5ptc">https://doi.org/gh5ptc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.jep.2012.05.038">10.1016/j.jep.2012.05.038</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22659196">22659196</a></div></div>
-</div>
-<div id="ref-Ue7W1SPi" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">106. </div><div class="csl-right-inline"><strong>BIOFACQUIM: A Mexican Compound Database of Natural Products</strong> <div class="csl-block">B Pilón-Jiménez, Fernanda Saldívar-González, Bárbara Díaz-Eufracio, José Medina-Franco</div> <em>Biomolecules</em> (2019-01-17) <a href="https://doi.org/gh5ptb">https://doi.org/gh5ptb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3390/biom9010031">10.3390/biom9010031</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30658522">30658522</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6358837">PMC6358837</a></div></div>
-</div>
-<div id="ref-GFBBPIgV" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">107. </div><div class="csl-right-inline"><strong>BioPhytMol: a drug discovery community resource on anti-mycobacterial phytomolecules and plant extracts</strong> <div class="csl-block">Arun Sharma, Prasun Dutta, Maneesh Sharma, Neeraj Kumar Rajput, Bhavna Dodiya, John J Georrge, Trupti Kholia, Anshu Bhardwaj, OSDD Consortium</div> <em>Journal of Cheminformatics</em> (2014-10-11) <a href="https://doi.org/f6ss69">https://doi.org/f6ss69</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13321-014-0046-2">10.1186/s13321-014-0046-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25360160">25360160</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4206768">PMC4206768</a></div></div>
-</div>
-<div id="ref-FzUbylmA" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">108. </div><div class="csl-right-inline"><strong>Carotenoids Database: structures, chemical fingerprints and distribution among organisms</strong> <div class="csl-block">Junko Yabuzaki</div> <em>Database</em> (2017) <a href="https://doi.org/f9x5p2">https://doi.org/f9x5p2</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/database/bax004">10.1093/database/bax004</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28365725">28365725</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5574413">PMC5574413</a></div></div>
-</div>
-<div id="ref-R06ZE1xj" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">109. </div><div class="csl-right-inline"><strong>Review on natural products databases: where to find data in 2020</strong> <div class="csl-block">Maria Sorokina, Christoph Steinbeck</div> <em>Journal of Cheminformatics</em> (2020-04-03) <a href="https://doi.org/ggwwcq">https://doi.org/ggwwcq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13321-020-00424-9">10.1186/s13321-020-00424-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33431011">33431011</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7118820">PMC7118820</a></div></div>
-</div>
-<div id="ref-lB6krLxn" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">110. </div><div class="csl-right-inline"><strong>Chemical Space and Biological Target Network of Anti-Inflammatory Natural Products</strong> <div class="csl-block">Ruihan Zhang, Jing Lin, Yan Zou, Xing-Jie Zhang, Wei-Lie Xiao</div> <em>Journal of Chemical Information and Modeling</em> (2018-12-12) <a href="https://doi.org/gfs7x6">https://doi.org/gfs7x6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jcim.8b00560">10.1021/acs.jcim.8b00560</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30540445">30540445</a></div></div>
-</div>
-<div id="ref-pIM4qxZA" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">111. </div><div class="csl-right-inline"><strong>KNApSAcK Family Databases: Integrated Metabolite–Plant Species Databases for Multifaceted Plant Research</strong> <div class="csl-block">Farit Mochamad Afendi, Taketo Okada, Mami Yamazaki, Aki Hirai-Morita, Yukiko Nakamura, Kensuke Nakamura, Shun Ikeda, Hiroki Takahashi, Md Altaf-Ul-Amin, Latifah K Darusman, … Shigehiko Kanaya</div> <em>Plant and Cell Physiology</em> (2012-02) <a href="https://doi.org/cstrnq">https://doi.org/cstrnq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/pcp/pcr165">10.1093/pcp/pcr165</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22123792">22123792</a></div></div>
-</div>
-<div id="ref-1D8ShigK1" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">112. </div><div class="csl-right-inline"><strong>MetaboLights: a resource evolving in response to the needs of its scientific community</strong> <div class="csl-block">Kenneth Haug, Keeva Cochrane, Venkata Chandrasekhar Nainala, Mark Williams, Jiakang Chang, Kalai Vanii Jayaseelan, Claire O’Donovan</div> <em>Nucleic Acids Research</em> (2019-11-06) <a href="https://doi.org/gg5fsw">https://doi.org/gg5fsw</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkz1019">10.1093/nar/gkz1019</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31691833">31691833</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145518">PMC7145518</a></div></div>
-</div>
-<div id="ref-fAKz2qgk" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">113. </div><div class="csl-right-inline"><strong>Mitishamba database: a web based in silico database of natural products from Kenya plants</strong> <div class="csl-block">Derese, Solomon, Ndakala, Albert, Rogo, Michael, Maynim, Cholastica, Oyim, James</div> (31st August to 3rd September 2015)</div>
-</div>
-<div id="ref-6xTnsq5S" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">114. </div><div class="csl-right-inline"><strong>NANPDB: A Resource for Natural Products from Northern African Sources</strong> <div class="csl-block">Fidele Ntie-Kang, Kiran K Telukunta, Kersten Döring, Conrad V Simoben, Aurélien F A. Moumbock, Yvette I Malange, Leonel E Njume, Joseph N Yong, Wolfgang Sippl, Stefan Günther</div> <em>Journal of Natural Products</em> (2017-06-22) <a href="https://doi.org/ggfdw7">https://doi.org/ggfdw7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jnatprod.7b00283">10.1021/acs.jnatprod.7b00283</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28641017">28641017</a></div></div>
-</div>
-<div id="ref-4RKmYOPE" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">115. </div><div class="csl-right-inline"><strong>NPASS: natural product activity and species source database for natural product research, discovery and tool development</strong> <div class="csl-block">Xian Zeng, Peng Zhang, Weidong He, Chu Qin, Shangying Chen, Lin Tao, Yali Wang, Ying Tan, Dan Gao, Bohua Wang, … Yu Zong Chen</div> <em>Nucleic Acids Research</em> (2018-01-04) <a href="https://doi.org/gh5ptk">https://doi.org/gh5ptk</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkx1026">10.1093/nar/gkx1026</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29106619">29106619</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753227">PMC5753227</a></div></div>
-</div>
-<div id="ref-1DPlqketM" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">116. </div><div class="csl-right-inline"><strong>NPCARE: database of natural products and fractional extracts for cancer regulation</strong> <div class="csl-block">Hwanho Choi, Sun Young Cho, Ho Jeong Pak, Youngsoo Kim, Jung-yun Choi, Yoon Jae Lee, Byung Hee Gong, Yeon Seok Kang, Taehoon Han, Geunbae Choi, … Hwangseo Park</div> <em>Journal of Cheminformatics</em> (2017-01-05) <a href="https://doi.org/f9rhrj">https://doi.org/f9rhrj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13321-016-0188-5">10.1186/s13321-016-0188-5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28184254">28184254</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5267755">PMC5267755</a></div></div>
-</div>
-<div id="ref-eOKkhMeJ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">117. </div><div class="csl-right-inline"><strong>RIKEN natural products encyclopedia (RIKEN NPEdia), a chemical database of RIKEN natural products depository (RIKEN NPDepo)</strong> <div class="csl-block">Takeshi Tomiki, Tamio Saito, Masashi Ueki, Hideaki Konno, Takeo Asaoka, Ryuichiro Suzuki, Masakazu Uramoto, Hideaki Kakeya, Hiroyuki Osada</div> <em>Proceedings of the Symposium on Chemoinformatics</em> (2006) <div class="csl-block">DOI: <a href="https://doi.org/10.11545/ciqs.2006.0.JL6.0">10.11545/ciqs.2006.0.jl6.0</a></div></div>
-</div>
-<div id="ref-1EBJWvXBS" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">118. </div><div class="csl-right-inline"><strong>NuBBEDB: an updated database to uncover chemical and biological information from Brazilian biodiversity</strong> <div class="csl-block">Alan C Pilon, Marilia Valli, Alessandra C Dametto, Meri Emili F Pinto, Rafael T Freire, Ian Castro-Gamboa, Adriano D Andricopulo, Vanderlan S Bolzani</div> <em>Scientific Reports</em> (2017-08-03) <a href="https://doi.org/gh5ps7">https://doi.org/gh5ps7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41598-017-07451-x">10.1038/s41598-017-07451-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28775335">28775335</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543130">PMC5543130</a></div></div>
-</div>
-<div id="ref-yJZjE7TJ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">119. </div><div class="csl-right-inline"><strong>PAMDB: a comprehensive Pseudomonas aeruginosa metabolome database</strong> <div class="csl-block">Weiliang Huang, Luke K Brewer, Jace W Jones, Angela T Nguyen, Ana Marcu, David S Wishart, Amanda G Oglesby-Sherrouse, Maureen A Kane, Angela Wilks</div> <em>Nucleic Acids Research</em> (2018-01-04) <a href="https://doi.org/gh5ps9">https://doi.org/gh5ps9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkx1061">10.1093/nar/gkx1061</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29106626">29106626</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753269">PMC5753269</a></div></div>
-</div>
-<div id="ref-9GVjNRag" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">120. </div><div class="csl-right-inline"><strong>Phenol-Explorer 3.0: a major update of the Phenol-Explorer database to incorporate data on the effects of food processing on polyphenol content</strong> <div class="csl-block">JA Rothwell, J Perez-Jimenez, V Neveu, A Medina-Remon, N M'Hiri, P Garcia-Lobato, C Manach, C Knox, R Eisner, DS Wishart, A Scalbert</div> <em>Database</em> (2013-10-07) <a href="https://doi.org/gh5ps6">https://doi.org/gh5ps6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/database/bat070">10.1093/database/bat070</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24103452">24103452</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3792339">PMC3792339</a></div></div>
-</div>
-<div id="ref-1APrBLQ3X" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">121. </div><div class="csl-right-inline"><strong>PhytoHub, an online platform to gather expert knowledge on polyphenols and other dietary phytochemicals</strong> <div class="csl-block">Franck Giacomoni, Andreia Leonor Bento Da Silva, Maria Bronze, Cécile Gladine, Peter Hollman, R Kopec, Dorrain Low Yanwen, Pierre Micheau, Maria Claudia Nunes Dos Santos, Balthazar Pavot, … Claudine Manach</div> (2017-10) <a href="https://hal.archives-ouvertes.fr/hal-01697081">https://hal.archives-ouvertes.fr/hal-01697081</a></div>
-</div>
-<div id="ref-Pf1Puxxg" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">122. </div><div class="csl-right-inline"><strong>ProCarDB: a database of bacterial carotenoids</strong> <div class="csl-block">LNU Nupur, Asheema Vats, Sandeep Kumar Dhanda, Gajendra PS Raghava, Anil Kumar Pinnaka, Ashwani Kumar</div> <em>BMC Microbiology</em> (2016-05-26) <a href="https://doi.org/f8wjvh">https://doi.org/f8wjvh</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12866-016-0715-6">10.1186/s12866-016-0715-6</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27230105">27230105</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4882832">PMC4882832</a></div></div>
-</div>
-<div id="ref-12Ui1Rc6x" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">123. </div><div class="csl-right-inline"><strong>RIKEN tandem mass spectral database (ReSpect) for phytochemicals: A plant-specific MS/MS-based data resource and database</strong> <div class="csl-block">Yuji Sawada, Ryo Nakabayashi, Yutaka Yamada, Makoto Suzuki, Muneo Sato, Akane Sakata, Kenji Akiyama, Tetsuya Sakurai, Fumio Matsuda, Toshio Aoki, … Kazuki Saito</div> <em>Phytochemistry</em> (2012-10) <a href="https://doi.org/f36bkc">https://doi.org/f36bkc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.phytochem.2012.07.007">10.1016/j.phytochem.2012.07.007</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22867903">22867903</a></div></div>
-</div>
-<div id="ref-ZRFusbLt" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">124. </div><div class="csl-right-inline"><strong>SANCDB: a South African natural compound database</strong> <div class="csl-block">Rowan Hatherley, David K Brown, Thommas M Musyoka, David L Penkler, Ngonidzashe Faya, Kevin A Lobb, Özlem Tastan Bishop</div> <em>Journal of Cheminformatics</em> (2015-06-19) <a href="https://doi.org/f7gjs6">https://doi.org/f7gjs6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13321-015-0080-8">10.1186/s13321-015-0080-8</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26097510">26097510</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4471313">PMC4471313</a></div></div>
-</div>
-<div id="ref-15rL9Psbo" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">125. </div><div class="csl-right-inline"><strong>StreptomeDB 2.0—an extended resource of natural products produced by streptomycetes</strong> <div class="csl-block">Dennis Klementz, Kersten Döring, Xavier Lucas, Kiran K Telukunta, Anika Erxleben, Denise Deubel, Astrid Erber, Irene Santillana, Oliver S Thomas, Andreas Bechthold, Stefan Günther</div> <em>Nucleic Acids Research</em> (2016-01-04) <a href="https://doi.org/f8cnnk">https://doi.org/f8cnnk</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkv1319">10.1093/nar/gkv1319</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26615197">26615197</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4702922">PMC4702922</a></div></div>
-</div>
-<div id="ref-tPji342r" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">126. </div><div class="csl-right-inline"><strong>Seaweed metabolite database (SWMD): A database of natural compounds from marine algae</strong> <div class="csl-block">GDicky John Davis, AHannah Rachel Vasanthi</div> <em>Bioinformation</em> (2011-01-22) <a href="https://doi.org/gh5ps5">https://doi.org/gh5ps5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.6026/97320630005361">10.6026/97320630005361</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21423723">21423723</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3053594">PMC3053594</a></div></div>
-</div>
-<div id="ref-16mSGZn7C" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">127. </div><div class="csl-right-inline"><strong>TMDB: A literature-curated database for small molecular compounds found from tea</strong> <div class="csl-block">Yi Yue, Gang-Xiu Chu, Xue-Shi Liu, Xing Tang, Wei Wang, Guang-Jin Liu, Tao Yang, Tie-Jun Ling, Xiao-Gang Wang, Zheng-Zhu Zhang, … Guan-Hu Bao</div> <em>BMC Plant Biology</em> (2014-09-16) <a href="https://doi.org/f6hnfz">https://doi.org/f6hnfz</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12870-014-0243-1">10.1186/s12870-014-0243-1</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25224438">25224438</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4172869">PMC4172869</a></div></div>
-</div>
-<div id="ref-a48CrnhC" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">128. </div><div class="csl-right-inline"><strong>TM-MC: a database of medicinal materials and chemical compounds in Northeast Asian traditional medicine</strong> <div class="csl-block">Sang-Kyun Kim, SeJin Nam, Hyunchul Jang, Anna Kim, Jeong-Ju Lee</div> <em>BMC Complementary and Alternative Medicine</em> (2015-07-09) <a href="https://doi.org/f7hnsd">https://doi.org/f7hnsd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12906-015-0758-5">10.1186/s12906-015-0758-5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26156871">26156871</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4495939">PMC4495939</a></div></div>
-</div>
-<div id="ref-fP0lai2j" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">129. </div><div class="csl-right-inline"><strong>Comprehensive Toxic Plants–Phytotoxins Database and Its Application in Assessing Aquatic Micropollution Potential</strong> <div class="csl-block">Barbara F Günthardt, Juliane Hollender, Konrad Hungerbühler, Martin Scheringer, Thomas D Bucheli</div> <em>Journal of Agricultural and Food Chemistry</em> (2018-06-26) <a href="https://doi.org/gd3bm6">https://doi.org/gd3bm6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1021/acs.jafc.8b01639">10.1021/acs.jafc.8b01639</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29944838">29944838</a></div></div>
-</div>
-<div id="ref-W6BmnntI" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">130. </div><div class="csl-right-inline"><strong>Use of Natural Products as Chemical Library for Drug Discovery and Network Pharmacology</strong> <div class="csl-block">Jiangyong Gu, Yuanshen Gui, Lirong Chen, Gu Yuan, Hui-Zhe Lu, Xiaojie Xu</div> <em>PLoS ONE</em> (2013-04-25) <a href="https://doi.org/f43xwq">https://doi.org/f43xwq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pone.0062839">10.1371/journal.pone.0062839</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23638153">23638153</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3636197">PMC3636197</a></div></div>
+<div class="csl-left-margin">104. </div><div class="csl-right-inline"><strong>The Chemistry Development Kit (CDK) v2.0: atom typing, depiction, molecular formulas, and substructure searching</strong> <div class="csl-block">Egon L Willighagen, John W Mayfield, Jonathan Alvarsson, Arvid Berg, Lars Carlsson, Nina Jeliazkova, Stefan Kuhn, Tomáš Pluskal, Miquel Rojas-Chertó, Ola Spjuth, … Christoph Steinbeck</div> <em>Journal of Cheminformatics</em> (2017-06-06) <a href="https://doi.org/gbppnb">https://doi.org/gbppnb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13321-017-0220-4">10.1186/s13321-017-0220-4</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29086040">29086040</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5461230">PMC5461230</a></div></div>
 </div>
 </div>
 <!-- default theme -->
