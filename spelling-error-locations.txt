@@ -987,8 +987,6 @@ content/09.supporting-information-1.md:36:nubbe
 content/09.supporting-information-1.md:36:nubbe
 content/09.supporting-information-1.md:36:nubbe
 content/09.supporting-information-1.md:36:nubbe
-content/09.supporting-information-1.md:36:nubbe
-content/09.supporting-information-1.md:36:src
 content/09.supporting-information-1.md:36:Vanderlan
 content/09.supporting-information-1.md:37:pamdb
 content/09.supporting-information-1.md:37:pamdb
