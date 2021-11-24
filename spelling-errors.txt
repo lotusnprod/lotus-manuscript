@@ -114,7 +114,7 @@ DNP
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -146,7 +146,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 Gaudry
 GBIF
 gdata
@@ -169,7 +169,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -195,7 +195,7 @@ InChI
 InChIKey
 indability
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -258,7 +258,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-Metabolomic
+metabolomic
 Metazoa
 MEYS
 mibig
@@ -319,7 +319,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -369,7 +369,7 @@ Rutz
 rvest
 rwst
 sancdb
-Sanitization
+sanitization
 Scholia
 scipy
 SDF
@@ -394,7 +394,7 @@ Squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -414,7 +414,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-TCM
+tcm
 TCMID
 Termitidae
 terpenoid
@@ -425,7 +425,7 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-tmap
+TMAP
 tmdb
 TMMC
 tppt
@@ -466,7 +466,7 @@ Voilà
 Vondrášek
 vroom
 Vue
-Wakankensaku
+wakankensaku
 wdpage
 webchem
 Wijeratne
