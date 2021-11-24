@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/020b44e5821a951dd7818355f89d75ef8218156e/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/020b44e5821a951dd7818355f89d75ef8218156e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/020b44e5821a951dd7818355f89d75ef8218156e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/294c9e03dba82f6ed2f6c3feef20bb547d7fa854/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/294c9e03dba82f6ed2f6c3feef20bb547d7fa854/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/294c9e03dba82f6ed2f6c3feef20bb547d7fa854/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/020b44e5821a951dd7818355f89d75ef8218156e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/020b44e5821a951dd7818355f89d75ef8218156e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/294c9e03dba82f6ed2f6c3feef20bb547d7fa854/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/294c9e03dba82f6ed2f6c3feef20bb547d7fa854/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/020b44e5821a951dd7818355f89d75ef8218156e/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/294c9e03dba82f6ed2f6c3feef20bb547d7fa854/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@020b44e](https://github.com/lotusnprod/lotus-manuscript/tree/020b44e5821a951dd7818355f89d75ef8218156e)
+from [lotusnprod/lotus-manuscript@294c9e0](https://github.com/lotusnprod/lotus-manuscript/tree/294c9e03dba82f6ed2f6c3feef20bb547d7fa854)
 on November 24, 2021.
 </em></small>
 
@@ -382,11 +382,11 @@ More broadly, the LOTUS initiative fosters cross-fertilization of the fields of 
 
 ## Results & Discussion
 
-This section is structured as follows: first, we present an [overview of the LOTUS initiative at its current stage of development](#Blueprint-of-the-LOTUS-Initiative).
-The central [curation](#Data-Processing-&-Validation) and [dissemination](#Data-Dissemination) elements of the LOTUS initiative are then explained in detail.
-The [third section](#User-Interaction-with-LOTUS-Data) addresses the interaction modes between LOTUS and its end-users, including data retrieval, addition and editing.
+This section is structured as follows: first, we present an [overview of the LOTUS initiative at its current stage of development](#blueprint-of-the-lotus-initiative).
+The central [curation](#data-processing-&-validation) and [dissemination](#data-dissemination) elements of the LOTUS initiative are then explained in detail.
+The [third section](#user-interaction-with-lotus-data) addresses the interaction modes between LOTUS and its end-users, including data retrieval, addition and editing.
 Some examples on how LOTUS data can be used to answer research questions or develop hypothesis are given.
-The [final section](#Data-Interpretation) is dedicated to the interpretation of LOTUS data and illustrates the dimensions and qualities of the current LOTUS dataset from chemical and biological perspectives.
+The [final section](#data-interpretation) is dedicated to the interpretation of LOTUS data and illustrates the dimensions and qualities of the current LOTUS dataset from chemical and biological perspectives.
 
 ### Blueprint of the LOTUS Initiative
 
@@ -423,13 +423,13 @@ The data were complemented with COCONUT's own referenced structure-organism pair
 
 The contacts of the electronic NP resources not explicitly licensed as open were individually reached for permission to access and reuse data.
 A detailed list of data sources and related information is available as [SI-1](#si-1-data-sources-list).
-All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/1_gathering](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering) directory or in the methods [gathering section](#Gathering).
+All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/1_gathering](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering) directory or in the methods [gathering section](#data-gathering).
 All subsequent and future iterations that include additional data sources, either updated information from the same data sources or new data, will involve a comparison of the new with previously gathered data at the SSOT level to ensure that the data is only curated once.
 
 ### Data Processing & Validation {.page_break_before}
 
 As shown in Figure @fig:workflow, data curation consisted of three stages: harmonization, processing and validation.
-Thereby, after the harmonization stage, each of the three central objects - chemical compounds, biological organisms and reference - were processed, as described in related [methods section](#Data-Processing).
+Thereby, after the harmonization stage, each of the three central objects - chemical compounds, biological organisms and reference - were processed, as described in related [methods section](#data-processing).
 Given the data size (2.5M+ initial entries), manual validation was unfeasible.
 Curating the references was a particularly challenging part of the process.
 Whereas organisms are typically reported by at least their vernacular or scientific denomination and chemical structures via their SMILES, InChI, InChIKey or image (not covered in this work), references suffer from largely insufficient reporting standards.
@@ -438,9 +438,9 @@ Better reporting practices, supported by tools such as [Scholia](https://scholia
 
 In addition to curating the entries during data processing, 420 referenced structure-organism pairs were selected for manual validation.
 An entry was considered as valid if: *i)* the structure (in the form of any structural descriptor that could be linked to the final sanitized InChIKey) was described in the reference *ii)* the containing organism (as any organism descriptor that could be linked to the accepted canonical name) was described in the reference and *iii)* the reference was describing the occurrence of the chemical structure in the biological organism.
-More details are available in the related [methods section](#Data-Validation).
+More details are available in the related [methods section](#data-validation).
 This process allowed us to establish rules for automatic filtering and validation of the entries. 
-The parameters of the automatic filtering are available as a function ([filter_dirty.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/r/filter_dirty.R)) and are further described in the related [methods section](#Data-Validation).
+The parameters of the automatic filtering are available as a function ([filter_dirty.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/r/filter_dirty.R)) and are further described in the related [methods section](#data-validation).
 The filtering was then applied to all entries.
 To confirm the efficacy of the filtering process, a new subset of 100 diverse, automatically curated and automatically validated entries was manually checked, yielding a rate of 97% of true positives.
 The detailed results of the two manual validation steps are reported in Supporting Information [SI-2](#si-2-summary-of-the-validation-statistics).
@@ -876,7 +876,7 @@ The biological organism field was reported as three minimal necessary and suffic
 The reference was reported as four minimal fields, namely reference title, DOI, PMCID, and PMID, one being sufficient.
 For the forthcoming translation processes, automated solutions were used when available.
 However, for specific cases (common or vernacular names of the biological organisms, Traditional Chinese Medicine (TCM) names, and conversion between digital reference identifiers), no solution existed, thus requiring the use of tailored dictionaries.
-Their construction is detailed in the [Dictionaries](#Dictionaries) section.
+Their construction is detailed in the [Dictionaries](#dictionaries) section.
 The initial entries (containing one or multiple producing organisms per structure, with one or multiple accepted names per organism) were processed into 2M+ referenced structure-organism pairs.
 
 #### Chemical Structures

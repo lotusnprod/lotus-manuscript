@@ -3,7 +3,7 @@ adafede
 Adriano
 afrotryp
 alkamid
-allard
+Allard
 Amoebozoa
 AmphibiaWeb
 analysing
@@ -77,7 +77,7 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 CMU
 codebase
 coroutines
@@ -95,7 +95,7 @@ Damerau
 daphnane
 dataset
 datasets
-datawarrior
+Datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -146,7 +146,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 Gaudry
 GBIF
 gdata
@@ -222,7 +222,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -258,7 +258,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-metabolomic
+Metabolomic
 Metazoa
 MEYS
 mibig
@@ -267,7 +267,7 @@ Mietchen
 mitishamba
 modularity
 Molconvert
-MolVS
+Molvs
 monogyna
 Mozzherin
 mSorok
@@ -287,7 +287,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -414,7 +414,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
@@ -433,7 +433,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -441,7 +441,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger
@@ -466,7 +466,7 @@ Voilà
 Vondrášek
 vroom
 Vue
-wakankensaku
+Wakankensaku
 wdpage
 webchem
 Wijeratne
