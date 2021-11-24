@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-11-23'
+date-meta: '2021-11-24'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-11-23" />
-  <meta name="citation_publication_date" content="2021-11-23" />
+  <meta name="dc.date" content="2021-11-24" />
+  <meta name="citation_publication_date" content="2021-11-24" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/c629ba404d306916734b40b9373b5bf1aeb3cb4e/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/c629ba404d306916734b40b9373b5bf1aeb3cb4e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/c629ba404d306916734b40b9373b5bf1aeb3cb4e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/c629ba404d306916734b40b9373b5bf1aeb3cb4e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/c629ba404d306916734b40b9373b5bf1aeb3cb4e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/c629ba404d306916734b40b9373b5bf1aeb3cb4e/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@c629ba4](https://github.com/lotusnprod/lotus-manuscript/tree/c629ba404d306916734b40b9373b5bf1aeb3cb4e)
-on November 23, 2021.
+from [lotusnprod/lotus-manuscript@99fce7f](https://github.com/lotusnprod/lotus-manuscript/tree/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662)
+on November 24, 2021.
 </em></small>
 
 ## Authors
@@ -549,7 +549,13 @@ Users can, for example, retrieve a list of all structures reported from a given 
 Alternatively, all organisms containing a given chemical can be queried via its structure, such as in the search for all organisms where *β*-sitosterol ([Q121802](https://www.wikidata.org/wiki/Q121802)) was found in ([https://w.wiki/3HLy](https://w.wiki/3HLy)).
 For programmatic access, the [lotus-wikidata-exporter](https://github.com/lotusnprod/lotus-wikidata-exporter) repository also allows data retrieval in RDF format and as TSV tables.
 
-As indicated, certain types of queries that are customary in existing molecular electronic resources, such as structure or similarity searches, are not directly available in Wikidata as SPARQL does not natively support a simple integration of such queries.
+To further showcase the possibilities two additional queries were established ([https://w.wiki/4ShY](https://w.wiki/4ShY) and [https://w.wiki/4Shp](https://w.wiki/4Shp)). 
+Both queries were inspired by recent literature review works [@doi:10.1016/j.micres.2021.126708; @doi10.1039/C6NP00039H]. 
+The first work describes compounds with known biological activities among organisms belonging to Actinobacteria. 
+The second one, more specific, the compounds reported in Nauclea latifolia. 
+In both cases, in seconds, the queries allow retrieving a table similar to the ones in the mentioned literature reviews.
+
+To obtain more granular results, certain types of queries that are customary in existing molecular electronic resources, such as structure or similarity searches, are not directly available in Wikidata as SPARQL does not natively support a simple integration of such queries.
 To address this issue, Galgonek et al. developed an in-house SPARQL engine that allows utilization of Sachem, a high-performance chemical DB cartridge for PostgreSQL for fingerprint-guided substructure and similarity search [@doi:10/gdn52j].
 The engine is used by the Integrated Database of Small Molecules (IDSM) that operates, among other things, several dedicated endpoints allowing structural search in selected small-molecule datasets via SPARQL [@doi:10/gf5bv5].
 To allow substructure and similarity searches via SPARQL also on compounds from Wikidata, a [dedicated IDSM/Sachem endpoint](https://idsm.elixir-czech.cz/sparql/endpoint/wikidata) was created for the LOTUS project.
