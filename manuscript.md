@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/06238ebab2fdc0624eafac8905ab399482fd6ec0/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/06238ebab2fdc0624eafac8905ab399482fd6ec0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/06238ebab2fdc0624eafac8905ab399482fd6ec0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/efc87c84f72accfd93472f0f558d722f1a899a82/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/efc87c84f72accfd93472f0f558d722f1a899a82/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/efc87c84f72accfd93472f0f558d722f1a899a82/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/06238ebab2fdc0624eafac8905ab399482fd6ec0/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/06238ebab2fdc0624eafac8905ab399482fd6ec0/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/efc87c84f72accfd93472f0f558d722f1a899a82/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/efc87c84f72accfd93472f0f558d722f1a899a82/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/06238ebab2fdc0624eafac8905ab399482fd6ec0/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/efc87c84f72accfd93472f0f558d722f1a899a82/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@06238eb](https://github.com/lotusnprod/lotus-manuscript/tree/06238ebab2fdc0624eafac8905ab399482fd6ec0)
+from [lotusnprod/lotus-manuscript@efc87c8](https://github.com/lotusnprod/lotus-manuscript/tree/efc87c84f72accfd93472f0f558d722f1a899a82)
 on November 24, 2021.
 </em></small>
 
@@ -463,10 +463,15 @@ The alluvial plot in Figure @fig:alluvial illustrates the individual contributio
 
 ![**Alluvial plot of the data transformation flow within LOTUS during the automated curation and validation processes.** The figure also reflects the relative proportions of the data stream in terms of the contributions from the various sources ("source" block, left), the composition of the harmonized subcategories ("original subcategory" block, middle) and the validated data after curation ("processed category" block, right). Automatically validated entries are represented in green, rejected entries in blue. The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_alluvial_plot.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_alluvial_plot.svg).](images/alluvial.svg "Alluvial"){#fig:alluvial width="100%"}
 
-The figure highlights, for example, the essential contribution of the DOI category of references contained in NAPRALERT towards the current set of validated references in LOTUS.
+The figure highlights, for example, the essential contribution of the references DOI category to the final validated entries. 
+Similar pattern can be seen concerning structures, where the validation rate of structural identifiers is higher than chemical names.
 The combination of the results of the automated curation pipeline and the manually curated entries led to the establishment of four categories (manually validated, manually rejected, automatically validated and automatically rejected) of the referenced structure-organism pairs that formed the processed part of the SSOT.
-Out of a total of 2.5M+ pairs, the manual and automatic validation retained 700,000+ pairs (approximately 30%), which were then selected for dissemination on Wikidata.
-The disseminated data contains 250,000+ unique chemical structures, 30,000+ distinct organisms and 75,000+ references.
+Out of a total of 2.5M+ initial pairs, the manual and automatic validation retained 700,000+ pairs (approximately 30%), which were then selected for dissemination on Wikidata.
+Among validated entries, multiple ones were redundant among the source databases, thus also explaining the decrease of entries between the initial pairs and validated ones.
+Moreover, because data quality was favored over quantity, the number of rejected entries is high.
+Among them, multiple correct entries were certainly falsely rejected, but still not disseminated. 
+All rejected entries were kept aside for later manual inspection and validation.
+In the end, the disseminated data contained 250,000+ unique chemical structures, 30,000+ distinct organisms and 75,000+ references.
 
 
 #### Data Dissemination
@@ -734,7 +739,10 @@ ${\text {Specificity score}_{\text {chem}}=\frac{\mid\text {Structures in chemic
 Figure @fig:magicTree makes it possible to spot highly specific compound classes such as trinervitane terpenoids in the Termitidae, the rhizoxin macrolides in the Rhizopodaceae, or the quassinoids and limonoids typical, respectively, of Simaroubaceae and Meliaceae.
 Similarly, tendencies of more generic occurrence of NP can be observed.
 For example, within the fungal kingdom, Basidiomycotina appear to have a higher biosynthetic specificity toward terpenoids than other fungi, which mostly focus on polyketides production.
-When observed at a finer scale, down to the structure level, such chemotaxonomic representation can give valuable insights.
+As explained previously, Figure @fig:magicTree is highly dependent of what is reported in literature. 
+As also illustrated in Figure @fig:distribution, some compounds can be overstrudied among several organisms, and many organisms studied for specific compounds only.
+This is a direct consequence of the way the NP community report its data actually. 
+Having this in mind, when observed at a finer scale, down to the structure level, such chemotaxonomic representation can give valuable insights.
 For example, among all chemical structures, only two were found in all biological kingdoms, namely heptadecanoic acid (KEMQGTRYUADPNZ-UHFFFAOYSA-N) and *β*-carotene (OENHQHLEOONYIE-JLTXGRSLSA-N). Looking at the repartition of *β*-sitosterol (KZJWDPNRJALLNS-VJSFXXLFSA-N) within the overall biological tree, [SI-5](#si-5-complement-to-figure-7) plots its presence/absence *versus* those of its superior chemical classifications, namely the stigmastane, steroid and terpenoid derivatives, over the same tree used in Figure @fig:magicTree.
 The comparison of these five chemically-interpreted biological trees clearly highlights the increasing speciation of the *β*-sitosterol biosynthetic pathway in the Archaeplastida kingdom, while the superior classes are distributed across all kingdoms.
 Figure @fig:magicTree is zoomable and vectorized for detailed inspection.
@@ -772,6 +780,7 @@ As LOTUS follows the guidelines of FAIRness and TRUSTworthiness, all researchers
 
 The introduction of LOTUS even provides a new opportunity to advance the FAIR guiding principles for scientific data management and stewardship originally established in 2016 [@doi:10/bdd4].
 Researchers worldwide uniformly acknowledge the limitations caused by the intrinsic unavailability of essential (raw) data [@doi:10.1039/c6np00022c].
+In addition to being FAIR, LOTUS data is also open with a clear license, as closed data sadly still is a major impediment to advancement in science [@doi:10.1038/npre.2008.1526.1].
 The lack of progress is, at least in part, due to elements in the dissemination channels of the classical print and static PDF publication formats that complicate or sometimes even discourage data sharing, e.g., due to page limitations and economically motivated mechanisms, including those involved in the focus on and calculation of journal impact factors.
 In particular raw data such as experimental readings, spectroscopic data, instrumental measurements, statistical, and other calculations are valued by all, but disseminated by only very few.
 The immense value of raw data and the desire to advance the public dissemination has recently been documented in detail for nuclear magnetic resonance (NMR) spectroscopic data by a large consortium of NP researchers [@doi:10.1039/c7np00064b].
