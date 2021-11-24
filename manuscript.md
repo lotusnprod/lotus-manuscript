@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/06238ebab2fdc0624eafac8905ab399482fd6ec0/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/06238ebab2fdc0624eafac8905ab399482fd6ec0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/06238ebab2fdc0624eafac8905ab399482fd6ec0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/06238ebab2fdc0624eafac8905ab399482fd6ec0/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/06238ebab2fdc0624eafac8905ab399482fd6ec0/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/06238ebab2fdc0624eafac8905ab399482fd6ec0/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@99fce7f](https://github.com/lotusnprod/lotus-manuscript/tree/99fce7f7ab03d4166c7f5e6923f4d1678e6b5662)
+from [lotusnprod/lotus-manuscript@06238eb](https://github.com/lotusnprod/lotus-manuscript/tree/06238ebab2fdc0624eafac8905ab399482fd6ec0)
 on November 24, 2021.
 </em></small>
 
@@ -818,8 +818,9 @@ The craft of appropriate federated queries allows users to navigate these graphs
 The development of interfaces such as RDFFrames [@wikidata:Q106204599] will also facilitate the use of the wide arsenal of existing machine learning approaches to automate reasoning on these knowledge graphs.
 
 Overall, the LOTUS initiative aims to make more and better data available.
-This project paves the way for the establishment of an open and expandable electronic NP resource.
-The design and efforts of the LOTUS initiative reflect our conviction that the integration of NP research results is long-needed and requires a truly open and FAIR knowledge base.
+While we did our best to ensure high data quality, the current processing pipeline still removes a lot of correct entries and misses or induces some incorrect ones.
+Aware of those imperfections, our project paves the way for the establishment of an open and expandable electronic NP resource.
+The design and efforts of the LOTUS initiative reflect our conviction that the integration of NP research results is long-needed and requires a truly open and FAIR knowledge base, with high quality data directly flowing from its source to Wikidata.
 We believe that the LOTUS initiative has the potential to fuel a virtuous cycle of research habits and, as a result, *contribute to a better understanding of Life and its chemistry*.
 
 
