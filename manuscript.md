@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-11-24'
+date-meta: '2021-11-25'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-11-24" />
-  <meta name="citation_publication_date" content="2021-11-24" />
+  <meta name="dc.date" content="2021-11-25" />
+  <meta name="citation_publication_date" content="2021-11-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/294c9e03dba82f6ed2f6c3feef20bb547d7fa854/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/294c9e03dba82f6ed2f6c3feef20bb547d7fa854/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/294c9e03dba82f6ed2f6c3feef20bb547d7fa854/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d829a989b0938d5c5b5e94e136ba094adb3c008e/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d829a989b0938d5c5b5e94e136ba094adb3c008e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d829a989b0938d5c5b5e94e136ba094adb3c008e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/294c9e03dba82f6ed2f6c3feef20bb547d7fa854/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/294c9e03dba82f6ed2f6c3feef20bb547d7fa854/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d829a989b0938d5c5b5e94e136ba094adb3c008e/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d829a989b0938d5c5b5e94e136ba094adb3c008e/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/294c9e03dba82f6ed2f6c3feef20bb547d7fa854/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d829a989b0938d5c5b5e94e136ba094adb3c008e/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@294c9e0](https://github.com/lotusnprod/lotus-manuscript/tree/294c9e03dba82f6ed2f6c3feef20bb547d7fa854)
-on November 24, 2021.
+from [lotusnprod/lotus-manuscript@d829a98](https://github.com/lotusnprod/lotus-manuscript/tree/d829a989b0938d5c5b5e94e136ba094adb3c008e)
+on November 25, 2021.
 </em></small>
 
 ## Authors
@@ -1186,10 +1186,11 @@ JLW and PMA are thankful to the Swiss National Science Foundation for supporting
 JB and AR are really thankful to JetBrains for the Free educational license of IntelliJ and the excellent support received on Youtrack.
 JB, JGG, and GFP gratefully acknowledge the support of this work by grant U41 AT008706 and supplemental funding to P50 AT000155 from NCCIH and ODS of the NIH.
 MS and CS are supported by the German Research Foundation within the framework ChemBioSys (Project-ID 239748522, SFB 1127).
+EW and DM acknowledge the Scholia grant from the Alfred P. Sloan Foundation under grant number G-2019-11458.
 The work on the Wikidata IDSM/Sachem endpoint was supported by an ELIXIR CZ research infrastructure project grant (MEYS Grant No: LM2018131) including access to computing and storage facilities.
 The authors would like to thank [Dmitry Mozzherin](https://github.com/dimus) for his work done for the Global Names Architecture and related improvements.
 The authors would also like to thank Layla Michán for starting to add pigment information on Wikidata.
-EW and DM acknowledge the Scholia grant from the Alfred P. Sloan Foundation under grant number G-2019-11458.
+The authors would also like to thank the team behind [Manubot](https://manubot.org/) [@doi:10.1371/journal.pcbi.1007128], used to write this manuscript.
 The authors would also like to thank contributors of all electronic NP resources used in this work and the NP community at large.
 
 ## Competing interests

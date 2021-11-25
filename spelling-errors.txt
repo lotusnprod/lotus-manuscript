@@ -44,7 +44,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-bjonnh
+Bjonnh
 bkfd
 Bohlmann
 Bolzani
@@ -87,15 +87,15 @@ Crossref
 CRSII
 csteinbeck
 cstrnq
-curation
-Cyanometdb
+Curation
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
 daphnane
 dataset
 datasets
-Datawarrior
+datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -134,7 +134,7 @@ euse
 evidentiary
 EvoMRI
 EW
-faerun
+Faerun
 Fatcat
 Fidele
 FishBase
@@ -146,7 +146,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 Gaudry
 GBIF
 gdata
@@ -267,7 +267,7 @@ Mietchen
 mitishamba
 modularity
 Molconvert
-Molvs
+molvs
 monogyna
 Mozzherin
 mSorok
@@ -278,7 +278,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-NaturalProducts
+naturalproducts
 Nauclea
 NCBI
 NCCIH
@@ -319,7 +319,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-phenolexplorer
+PhenolExplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -348,7 +348,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 Reionization
@@ -369,7 +369,7 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
 Scholia
 scipy
 SDF
@@ -414,7 +414,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-TCM
+tcm
 TCMID
 Termitidae
 terpenoid
@@ -427,13 +427,13 @@ tidyverse
 Tilmann
 TMAP
 tmdb
-TMMC
+tmmc
 tppt
 transdisciplinary
 transformational
 transformative
 treeio
-trigocherrin
+Trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -441,7 +441,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
@@ -450,7 +450,7 @@ unconserved
 underreporting
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts
@@ -466,7 +466,7 @@ Voilà
 Vondrášek
 vroom
 Vue
-Wakankensaku
+wakankensaku
 wdpage
 webchem
 Wijeratne
