@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d829a989b0938d5c5b5e94e136ba094adb3c008e/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d829a989b0938d5c5b5e94e136ba094adb3c008e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d829a989b0938d5c5b5e94e136ba094adb3c008e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d9d708e6658e6d4e74e31f0b4033f47a8abfe97d/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d9d708e6658e6d4e74e31f0b4033f47a8abfe97d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d9d708e6658e6d4e74e31f0b4033f47a8abfe97d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d829a989b0938d5c5b5e94e136ba094adb3c008e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d829a989b0938d5c5b5e94e136ba094adb3c008e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d9d708e6658e6d4e74e31f0b4033f47a8abfe97d/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d9d708e6658e6d4e74e31f0b4033f47a8abfe97d/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d829a989b0938d5c5b5e94e136ba094adb3c008e/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d9d708e6658e6d4e74e31f0b4033f47a8abfe97d/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@d829a98](https://github.com/lotusnprod/lotus-manuscript/tree/d829a989b0938d5c5b5e94e136ba094adb3c008e)
+from [lotusnprod/lotus-manuscript@d9d708e](https://github.com/lotusnprod/lotus-manuscript/tree/d9d708e6658e6d4e74e31f0b4033f47a8abfe97d)
 on November 25, 2021.
 </em></small>
 
@@ -553,7 +553,7 @@ Alternatively, all organisms containing a given chemical can be queried via its 
 For programmatic access, the [lotus-wikidata-exporter](https://github.com/lotusnprod/lotus-wikidata-exporter) repository also allows data retrieval in RDF format and as TSV tables.
 
 To further showcase the possibilities two additional queries were established ([https://w.wiki/4ShY](https://w.wiki/4ShY) and [https://w.wiki/4Shp](https://w.wiki/4Shp)). 
-Both queries were inspired by recent literature review works [@doi:10.1016/j.micres.2021.126708; @doi10.1039/C6NP00039H]. 
+Both queries were inspired by recent literature review works [@doi:10.1016/j.micres.2021.126708; @doi:10.1039/C6NP00039H]. 
 The first work describes compounds with known biological activities among organisms belonging to Actinobacteria. 
 The second one, more specific, the compounds reported in Nauclea latifolia. 
 In both cases, in seconds, the queries allow retrieving a table similar to the ones in the mentioned literature reviews.
