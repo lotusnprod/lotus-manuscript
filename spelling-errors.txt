@@ -21,6 +21,7 @@ ARKive
 Arnaud
 ArnaudGaudry
 Ashwani
+Aspergillus
 Asteraceae
 Augustin
 australis
@@ -32,7 +33,8 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-bioactive
+Bioactive
+bioactivities
 bioactivity
 biofacquim
 biogeography
@@ -46,7 +48,6 @@ BirdLife
 Bisson
 bjonnh
 bkfd
-Bohlmann
 Bolzani
 Bromus
 Candolle
@@ -77,13 +78,13 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 CMU
 codebase
 coroutines
 counterions
 Crataegus
-crossref
+Crossref
 CRSII
 csteinbeck
 cstrnq
@@ -110,7 +111,7 @@ dimers
 diterpene
 DM
 Dmitry
-dnp
+DNP
 Dockerized
 DOIs
 doit
@@ -195,7 +196,7 @@ InChI
 InChIKey
 indability
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -236,7 +237,7 @@ Ktor
 Kumar
 KZJWDPNRJALLNS
 KZJWDPNRJALNS
-latifolia
+labelled
 Lessingstr
 Levenshtein
 limonoids
@@ -267,7 +268,7 @@ Mietchen
 mitishamba
 modularity
 Molconvert
-molvs
+MolVS
 monogyna
 Mozzherin
 mSorok
@@ -276,10 +277,9 @@ MVLS
 NameBank
 náměstí
 nanpdb
-napralert
+NAPRALERT
 natively
-naturalproducts
-Nauclea
+NaturalProducts
 NCBI
 NCCIH
 Ngozi
@@ -287,7 +287,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -319,7 +319,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -348,12 +348,12 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 Reionization
 rentrez
-repartition
+Repartition
 reproducibility
 ressource
 resubmission
@@ -390,7 +390,7 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
@@ -414,7 +414,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
@@ -433,7 +433,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-trigocherrin
+Trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -441,7 +441,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger
@@ -466,7 +466,7 @@ Voilà
 Vondrášek
 vroom
 Vue
-wakankensaku
+Wakankensaku
 wdpage
 webchem
 Wijeratne
