@@ -171,7 +171,6 @@ content/03.results-discussion.md:158:Actinobacteria
 content/03.results-discussion.md:158:bioactivities
 content/03.results-discussion.md:159:Aspergillus
 content/03.results-discussion.md:159:labelled
-content/03.results-discussion.md:159:spp
 content/03.results-discussion.md:159:terpenoids
 content/03.results-discussion.md:164:InChIKey
 content/03.results-discussion.md:164:SPARQL
@@ -1061,6 +1060,8 @@ content/09.supporting-information-3.md:3:Arabidopsis
 content/09.supporting-information-3.md:3:thaliana
 content/09.supporting-information-3.md:8:Arabidopsis
 content/09.supporting-information-3.md:8:thaliana
+content/09.supporting-information-3.md:13:Arabidopsis
+content/09.supporting-information-3.md:13:thaliana
 content/09.supporting-information-3.md:16:autocomplete
 content/09.supporting-information-3.md:18:InChI
 content/09.supporting-information-3.md:24:sitosterol

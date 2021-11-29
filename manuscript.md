@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/a6ee135b83e56e8e2041d09d7ce2d5b913c1029d/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a6ee135b83e56e8e2041d09d7ce2d5b913c1029d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a6ee135b83e56e8e2041d09d7ce2d5b913c1029d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/8cd4275c0d9894939e382536702ccd93b85ad80a/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/8cd4275c0d9894939e382536702ccd93b85ad80a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/8cd4275c0d9894939e382536702ccd93b85ad80a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a6ee135b83e56e8e2041d09d7ce2d5b913c1029d/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a6ee135b83e56e8e2041d09d7ce2d5b913c1029d/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/8cd4275c0d9894939e382536702ccd93b85ad80a/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/8cd4275c0d9894939e382536702ccd93b85ad80a/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/a6ee135b83e56e8e2041d09d7ce2d5b913c1029d/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/8cd4275c0d9894939e382536702ccd93b85ad80a/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@a6ee135](https://github.com/lotusnprod/lotus-manuscript/tree/a6ee135b83e56e8e2041d09d7ce2d5b913c1029d)
+from [lotusnprod/lotus-manuscript@8cd4275](https://github.com/lotusnprod/lotus-manuscript/tree/8cd4275c0d9894939e382536702ccd93b85ad80a)
 on November 29, 2021.
 </em></small>
 
@@ -538,7 +538,7 @@ Table: Potential questions about structure-organism relationships and correspond
 | How many compounds are structurally similar to compounds labeled as antibiotics? (grouped by the parent taxon of the containing organism) | [https://w.wiki/4U6H](https://w.wiki/4U6H) |
 | Which organisms contain indolic scaffolds? Count occurrences, group and order the results by the parent taxon. | [https://w.wiki/4U6M](https://w.wiki/4U6M) |
 | Which compounds with known bioactivities were isolated from Actinobacteria, between 2014 and 2019, with related organisms and references? | [https://w.wiki/4U7H](https://w.wiki/4U7H) |
-| Which compounds labelled as terpenoids were found in Aspergillus spp., between 2010 and 2020, with related references? | [https://w.wiki/4U7F](https://w.wiki/4U7F) |
+| Which compounds labelled as terpenoids were found in *Aspergillus* species, between 2010 and 2020, with related references? | [https://w.wiki/4U7F](https://w.wiki/4U7F) |
 | Which are the available referenced structure-organism pairs on wikidata? (example limited to 1000 results) | [https://w.wiki/3JpE](https://w.wiki/3JpE) |
 
 The queries presented in Table @tbl:queries are only a few examples and many other ways of interrogating LOTUS can be formulated.
@@ -555,7 +555,7 @@ For programmatic access, the [lotus-wikidata-exporter](https://github.com/lotusn
 To further showcase the possibilities two additional queries were established ([https://w.wiki/4U64](https://w.wiki/4U64) and [https://w.wiki/4U64](https://w.wiki/4U64)). 
 Both queries were inspired by recent literature review works [@doi:10.1016/j.micres.2021.126708; @doi:10.1016/j.phytochem.2021.113011]. 
 The first work describes compounds found in Actinobacteria, with a biological focus on compounds with reported bioactivity. 
-The second one, describes compounds found in Aspergillus spp., with a chemical focus on terpenoids. 
+The second one, describes compounds found in *Aspergillus* spp., with a chemical focus on terpenoids. 
 In both cases, in seconds, the queries allow retrieving a table similar to the ones in the mentioned literature reviews.
 
 To obtain more granular results, certain types of queries that are customary in existing molecular electronic resources, such as structure or similarity searches, are not directly available in Wikidata as SPARQL does not natively support a simple integration of such queries.
@@ -1288,7 +1288,7 @@ What are the compounds found in Mouse-ear cress (Arabidopsis thaliana)?
 
 Link: [https://w.wiki/4U64](https://w.wiki/4U64)
 ```SQL
-# What are the compounds found in Mouse-ear cress (_Arabidopsis thaliana_)?
+# What are the compounds found in Mouse-ear cress (Arabidopsis thaliana)?
 SELECT DISTINCT ?structure ?structureLabel ?structure_inchi WHERE {
   VALUES ?taxon {
     wd:Q158695                           # You can remove the Qxxxxxx and hit Ctrl+space, type the first letters and it should autocomplete
@@ -1592,7 +1592,7 @@ GROUP BY ?organism ?organism_name ?compound ?compound_smiles ?isolation_referenc
 LIMIT 100000
 ```
 
-#### Query 10 - Aspergillus spp. terpenoids {.page_break_before}
+#### Query 10 - *Aspergillus* spp. terpenoids {.page_break_before}
 
 This query answers to the following question:
 
