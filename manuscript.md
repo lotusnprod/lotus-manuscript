@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/8273e6ef6efebb42307b29b7d2eb9b489b629e9e/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/8273e6ef6efebb42307b29b7d2eb9b489b629e9e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/8273e6ef6efebb42307b29b7d2eb9b489b629e9e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/bf22705707f86a31f4078a6553e5d58ac322be7c/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/bf22705707f86a31f4078a6553e5d58ac322be7c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/bf22705707f86a31f4078a6553e5d58ac322be7c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/8273e6ef6efebb42307b29b7d2eb9b489b629e9e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/8273e6ef6efebb42307b29b7d2eb9b489b629e9e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/bf22705707f86a31f4078a6553e5d58ac322be7c/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/bf22705707f86a31f4078a6553e5d58ac322be7c/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/8273e6ef6efebb42307b29b7d2eb9b489b629e9e/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/bf22705707f86a31f4078a6553e5d58ac322be7c/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@8273e6e](https://github.com/lotusnprod/lotus-manuscript/tree/8273e6ef6efebb42307b29b7d2eb9b489b629e9e)
+from [lotusnprod/lotus-manuscript@bf22705](https://github.com/lotusnprod/lotus-manuscript/tree/bf22705707f86a31f4078a6553e5d58ac322be7c)
 on November 30, 2021.
 </em></small>
 
@@ -639,30 +639,30 @@ The adaptation of such a framework to edit the referenced structure-pairs in the
 ### Data Interpretation
 
 To illustrate the nature and dimensions of the LOTUS dataset, some selected examples of data interpretation are shown.
-First, the repartition of chemical structures among four important NP reservoirs: plants, fungi, animals and bacteria (Table @tbl:repartition).
+First, the distribution of chemical structures among four important NP reservoirs: plants, fungi, animals and bacteria (Table @tbl:distribution).
 Then, the distribution of biological organisms according to the number of related chemical structures and likewise the distribution of chemical structures across biological organisms are illustrated (Figure @fig:distribution).
 Furthermore, the individual electronic NP resources participation in LOTUS data is resumed using the UpSet plot depiction, which allows the visualization of intersections in data sets (Figure @fig:upset).
 Across these figures we take again the two previous examples, i.e, *β*-sitosterol as chemical structure and *Arabidopsis thaliana* as biological organism because of their well-documented statuses.
 Finally, a biologically-interpreted chemical tree and a chemically-interpreted biological tree are presented (Figure @fig:tmap and Figure @fig:magicTree).
 The examples illustrate the overall chemical and biological coverage of LOTUS by linking family-specific classes of chemical structures to their taxonomic position.
-Table @tbl:repartition, Figures @fig:distribution, @fig:tmap and @fig:magicTree were generated using the frozen data (2021-05-23 timestamp), which is available for download at [https://osf.io/eydjs](https://osf.io/eydjs).
-Figure @fig:upset required a dataset containing information from DNP and the complete data used for its generation is therefore not available for public distribution.
+Table @tbl:distribution, Figures @fig:distribution, @fig:tmap and @fig:magicTree were generated using the frozen data (2021-05-23 timestamp), which is available for download at [https://osf.io/eydjs](https://osf.io/eydjs).
+Figure @fig:upset required a dataset containing information from closed resources and the complete data used for its generation is therefore not available for public distribution.
 All scripts used for the generation of the figures (including [SI-5](#si-5-complement-to-figure-7)) are available in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/4_visualizing](https://github.com/lotusnprod/lotus-processor/tree/main/src/4_visualizing) directory for reproducibility.
 
-#### Repartition of Chemical Structures across reported Biological Organisms in LOTUS
+#### Distribution of Chemical Structures across reported Biological Organisms in LOTUS
 
-Table @tbl:repartition summarizes the repartition of chemical structures and their chemical classes (according to NPClassifier [@doi:10.26434/chemrxiv.12885494.v1]) across the biological organisms reported in LOTUS.
+Table @tbl:distribution summarizes the distribution of chemical structures and their chemical classes (according to NPClassifier [@doi:10.26434/chemrxiv.12885494.v1]) across the biological organisms reported in LOTUS.
 For this, biological organisms were grouped into four artificial taxonomic levels (plants, fungi, animals and bacteria).
 These were built by combining the two highest taxonomic levels in the OTL taxonomy, namely Domain and Kingdom levels.
 "Plants" corresponded to "Eukaryota_Archaeplastida", "Fungi" to "Eukaryota_Fungi", "Animals" to "Eukaryota_Metazoa" and "Bacteria" to "Bacteria_NA". 
 The category corresponding to "Eukaryota_NA" mainly contained Algae, but also other organisms such as Amoebozoa and was therefor excluded. 
 This represented less than 1% of all entries.
-The details of this process are available under [src/3_analyzing/structure_taxon_repartition.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/3_analyzing/structure_taxon_repartition.R).
+The details of this process are available under [src/3_analyzing/structure_taxon_distribution.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/3_analyzing/structure_taxon_distribution.R).
 When the chemical structure/class was reported only in one taxonomic grouping, it was counted as "specific".
 
 <br/><br/>
 
-Table: Repartition and specificity of chemical structures across four important NP reservoirs: plants, fungi, animals and bacteria. When the chemical structure/class appeared only in one group and not the three others, they were counted as "specific". Chemical classes were attributed with NPClassifier. {#tbl:repartition}
+Table: Distribution and specificity of chemical structures across four important NP reservoirs: plants, fungi, animals and bacteria. When the chemical structure/class appeared only in one group and not the three others, they were counted as "specific". Chemical classes were attributed with NPClassifier. {#tbl:distribution}
 
 | **Group** | **Organisms** | **Structure-Organism Pairs** | **Chemical Structures** | **Specific Chemical Structures** | **Chemical Classes** | **Specific Chemical Classes** | 
 |:-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|
@@ -683,7 +683,7 @@ This incomplete coverage may be partially explained by the habit in classical NP
 #### Contribution of Individual Electronic NP Resources to LOTUS {.page_break_before}
 
 The added value of the LOTUS initiative to assemble multiple electronic NP resources is illustrated in Figure @fig:upset : Panel A shows the contributions of the individual electronic NP resources to the ensemble of chemical structures found in one of the most studied vascular plants, *Arabidopsis thaliana* ("Mouse-ear cress"; [Q147096](https://www.wikidata.org/wiki/Q147096)).
-Panel B shows the ensemble of taxa reported to contain the planar structure of the widely occuring triterpenoid *β*-sitosterol ([Q121802](https://www.wikidata.org/wiki/Q121802)).
+Panel B shows the ensemble of taxa reported to contain the planar structure of the widely occurring triterpenoid *β*-sitosterol ([Q121802](https://www.wikidata.org/wiki/Q121802)).
 
 ![**UpSet plots of the individual contribution of electronic NP resources** to the planar structures found in *Arabidopsis thaliana* (A) and to organisms reported to contain the planar structure of *β*-sitosterol (KZJWDPNRJALNS) (B). UpSet plots are evolved Venn diagrams, allowing to represent intersections between multiple sets. The horizontal bars on the lower left represent the number of corresponding entries per electronic NP resource. The dots and their connecting line represent the intersection between source and consolidate sets. The vertical bars indicate the number of entries at the intersection. For example, 479 organisms containing the planar structure of *β*-sitosterol are present in both UNPD and NAPRALERT, whereas each of them respectively reports 1,164 and 2,085 organisms containing the planar structure of *β*-sitosterol. The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_upset_plot.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_upset_plot.svg).](images/upset_combined.svg "upset"){#fig:upset width="100%"}
 
@@ -741,7 +741,7 @@ As explained previously, Figure @fig:magicTree is highly dependent of what is re
 As also illustrated in Figure @fig:distribution, some compounds can be overstrudied among several organisms, and many organisms studied for specific compounds only.
 This is a direct consequence of the way the NP community report its data actually. 
 Having this in mind, when observed at a finer scale, down to the structure level, such chemotaxonomic representation can give valuable insights.
-For example, among all chemical structures, only two were found in all biological kingdoms, namely heptadecanoic acid (KEMQGTRYUADPNZ-UHFFFAOYSA-N) and *β*-carotene (OENHQHLEOONYIE-JLTXGRSLSA-N). Looking at the repartition of *β*-sitosterol (KZJWDPNRJALLNS-VJSFXXLFSA-N) within the overall biological tree, [SI-5](#si-5-complement-to-figure-7) plots its presence/absence *versus* those of its superior chemical classifications, namely the stigmastane, steroid and terpenoid derivatives, over the same tree used in Figure @fig:magicTree.
+For example, among all chemical structures, only two were found in all biological kingdoms, namely heptadecanoic acid (KEMQGTRYUADPNZ-UHFFFAOYSA-N) and *β*-carotene (OENHQHLEOONYIE-JLTXGRSLSA-N). Looking at the distribution of *β*-sitosterol (KZJWDPNRJALLNS-VJSFXXLFSA-N) within the overall biological tree, [SI-5](#si-5-complement-to-figure-7) plots its presence/absence *versus* those of its superior chemical classifications, namely the stigmastane, steroid and terpenoid derivatives, over the same tree used in Figure @fig:magicTree.
 The comparison of these five chemically-interpreted biological trees clearly highlights the increasing speciation of the *β*-sitosterol biosynthetic pathway in the Archaeplastida kingdom, while the superior classes are distributed across all kingdoms.
 Figure @fig:magicTree is zoomable and vectorized for detailed inspection.
 
@@ -1012,7 +1012,7 @@ A dictionary containing original and curated object translations was written for
 The pairs obtained after curation were of different quality.
 Globally, structure and organism translation was satisfactory whereas reference translation was not.
 Therefore, to assess the validity of the obtained results, a randomized set of 420 referenced structure-organism pairs was sampled in each reference subcategory and validated or rejected manually.
-Entries were sampled with at least 55 of each reference subcategory present (to get a representative idea of each subcategory) ([src/3_analysing/1_sampling.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/3_analysing/1_sampling.R)).
+Entries were sampled with at least 55 of each reference subcategory present (to get a representative idea of each subcategory) ([src/3_analyzing/1_sampling.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/3_analyzing/1_sampling.R)).
 An entry was only validated if: *i)* the structure (as any structural descriptor that could be linked to the final sanitized InChIKey) was described in the reference *ii)* the producing organism (as any organism descriptor that could be linked to the accepted canonical name) was described in the reference and *iii)* the reference was describing the occurrence of the chemical structure in the biological organism.
 Results obtained on the manually analyzed set were categorized according to the initial reference subcategory and are detailed in [SI-2](#si-2-summary-of-the-validation-statistics).
 To improve these results, further processing of the references was needed.
@@ -1035,7 +1035,7 @@ Based on this first manually validated dataset, filtering criteria ([src/r/filte
 Another 100 entries were sampled, this time respecting the whole set ratios.
 After manual validation, 97% of true positives were reached on the second set.
 A summary of the validation results is given in [SI-2](#si-2-summary-of-the-validation-statistics).
-Once validated, the filtering criteria were established to the whole curated set to filter entries chosen for dissemination ([src/3_analysing/2_validating.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/3_analysing/2_validating.R)).
+Once validated, the filtering criteria were established to the whole curated set to filter entries chosen for dissemination ([src/3_analyzing/2_validating.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/3_analyzing/2_validating.R)).
 
 ### Unit Testing
 
@@ -1861,7 +1861,7 @@ Here, we use the ```stated in``` property ([P248](https://www.wikidata.org/wiki/
 
 ![](images/tutorial/2021-02-25-14-36-33.png)
 
-Now, type in the first letters or word of the scientific publication documenting the natural product occurence, autocompletion happens again.
+Now, type in the first letters or word of the scientific publication documenting the natural product occurrence, autocompletion happens again.
 Note that multiple publications might have the same title, and that there could be minor differences in punctuation or special characters between the information you and Wikidata have about the same reference.
 If you are not sure whether your target reference is already in Wikidata, you can use its DOI to check, as outlined in the [Check whether your target reference is already on Wikidata](#check_ref) section.
 

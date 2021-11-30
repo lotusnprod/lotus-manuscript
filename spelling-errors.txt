@@ -6,7 +6,6 @@ alkamid
 allard
 Amoebozoa
 AmphibiaWeb
-analysing
 Angelshark
 Anil
 Animalia
@@ -67,7 +66,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-Chemodiversity
+chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -78,7 +77,7 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 cmcrameri
 CMU
 codebase
@@ -90,14 +89,14 @@ CRSII
 csteinbeck
 cstrnq
 curation
-cyanometdb
+Cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
 daphnane
 dataset
 datasets
-Datawarrior
+datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -136,7 +135,7 @@ euse
 evidentiary
 EvoMRI
 EW
-faerun
+Faerun
 Fatcat
 Fidele
 FishBase
@@ -148,7 +147,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 Gaudry
 GBIF
 gdata
@@ -193,7 +192,7 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChiKey
+InChIKey
 indability
 indica
 Indolic
@@ -259,7 +258,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-Metabolomic
+metabolomic
 Metazoa
 MEYS
 mibig
@@ -277,7 +276,7 @@ MVLS
 NameBank
 náměstí
 nanpdb
-NAPRALERT
+napralert
 natively
 NaturalProducts
 NCBI
@@ -298,8 +297,6 @@ Ntie
 nubbe
 NUTRIM
 Nwodo
-occurence
-occuring
 OENHQHLEOONYIE
 OICR
 oolonek
@@ -348,12 +345,11 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-RDKit
+rdkit
 rdmpage
 readxl
 Reionization
 rentrez
-repartition
 reproducibility
 ressource
 resubmission
@@ -368,7 +364,7 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
 Scholia
 scipy
 SDF
@@ -389,7 +385,7 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
@@ -424,7 +420,7 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-tmap
+TMAP
 tmdb
 tmmc
 tppt
@@ -440,7 +436,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
@@ -449,7 +445,7 @@ unconserved
 underreporting
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts

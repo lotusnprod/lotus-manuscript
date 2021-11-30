@@ -263,8 +263,6 @@ content/03.results-discussion.md:253:scholia
 content/03.results-discussion.md:254:Scholia
 content/03.results-discussion.md:255:curation
 content/03.results-discussion.md:259:dataset
-content/03.results-discussion.md:260:repartition
-content/03.results-discussion.md:260:repartition
 content/03.results-discussion.md:263:Arabidopsis
 content/03.results-discussion.md:263:sitosterol
 content/03.results-discussion.md:263:thaliana
@@ -273,24 +271,17 @@ content/03.results-discussion.md:264:tmap
 content/03.results-discussion.md:266:magicTree
 content/03.results-discussion.md:266:osf
 content/03.results-discussion.md:266:osf
-content/03.results-discussion.md:266:repartition
 content/03.results-discussion.md:266:tmap
 content/03.results-discussion.md:267:dataset
-content/03.results-discussion.md:267:DNP
 content/03.results-discussion.md:268:reproducibility
 content/03.results-discussion.md:268:src
 content/03.results-discussion.md:268:src
-content/03.results-discussion.md:270:Repartition
 content/03.results-discussion.md:272:NPClassifier
-content/03.results-discussion.md:272:repartition
-content/03.results-discussion.md:272:repartition
 content/03.results-discussion.md:274:OTL
 content/03.results-discussion.md:276:Amoebozoa
 content/03.results-discussion.md:278:src
 content/03.results-discussion.md:278:src
 content/03.results-discussion.md:283:NPClassifier
-content/03.results-discussion.md:283:repartition
-content/03.results-discussion.md:283:Repartition
 content/03.results-discussion.md:287:Plantae
 content/03.results-discussion.md:289:Animalia
 content/03.results-discussion.md:296:Metabolomic
@@ -304,7 +295,6 @@ content/03.results-discussion.md:299:wikimedia
 content/03.results-discussion.md:299:wikimedia
 content/03.results-discussion.md:303:Arabidopsis
 content/03.results-discussion.md:303:thaliana
-content/03.results-discussion.md:304:occuring
 content/03.results-discussion.md:304:sitosterol
 content/03.results-discussion.md:304:triterpenoid
 content/03.results-discussion.md:306:Arabidopsis
@@ -410,7 +400,6 @@ content/03.results-discussion.md:362:KEMQGTRYUADPNZ
 content/03.results-discussion.md:362:KZJWDPNRJALLNS
 content/03.results-discussion.md:362:magicTree
 content/03.results-discussion.md:362:OENHQHLEOONYIE
-content/03.results-discussion.md:362:repartition
 content/03.results-discussion.md:362:sitosterol
 content/03.results-discussion.md:362:stigmastane
 content/03.results-discussion.md:362:terpenoid
@@ -1196,7 +1185,6 @@ content/09.supporting-information-4.md:174:PubChem
 content/09.supporting-information-4.md:174:PubChem
 content/09.supporting-information-4.md:190:autocomplete
 content/09.supporting-information-4.md:215:autocompletion
-content/09.supporting-information-4.md:215:occurence
 content/09.supporting-information-4.md:228:scholia
 content/09.supporting-information-4.md:228:scholia
 content/09.supporting-information-4.md:228:scholia
