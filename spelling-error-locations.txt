@@ -1124,10 +1124,6 @@ content/09.supporting-information-3.md:327:Aspergillus
 content/09.supporting-information-3.md:327:labelled
 content/09.supporting-information-3.md:327:spp
 content/09.supporting-information-3.md:327:terpenoids
-content/09.supporting-information-3.md:356:Aspergillus
-content/09.supporting-information-3.md:356:labelled
-content/09.supporting-information-3.md:356:spp
-content/09.supporting-information-3.md:356:terpenoids
 content/09.supporting-information-3.md:362:inchikey
 content/09.supporting-information-4.md:5:osf
 content/09.supporting-information-4.md:5:osf

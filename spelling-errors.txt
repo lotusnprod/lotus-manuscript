@@ -33,7 +33,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-bioactive
+Bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -67,7 +67,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-chemodiversity
+Chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -97,7 +97,7 @@ Damerau
 daphnane
 dataset
 datasets
-Datawarrior
+datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -116,7 +116,7 @@ DNP
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -136,19 +136,19 @@ euse
 evidentiary
 EvoMRI
 EW
-Faerun
+faerun
 Fatcat
 Fidele
 FishBase
 flavolivaceus
 Flemingovo
-foodb
+FooDB
 FragmentRemover
 Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 Gaudry
 GBIF
 gdata
@@ -192,8 +192,8 @@ idf
 IDSM
 Ilex
 iNaturalist
-InChI
-InChiKey
+inchi
+InChIKey
 indability
 indica
 Indolic
@@ -277,7 +277,7 @@ MVLS
 NameBank
 náměstí
 nanpdb
-NAPRALERT
+napralert
 natively
 NaturalProducts
 NCBI
@@ -319,7 +319,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -369,7 +369,7 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
 Scholia
 scipy
 SDF
@@ -390,7 +390,7 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
@@ -450,7 +450,7 @@ unconserved
 underreporting
 Universiteitssingel
 Univocity
-UNPD
+unpd
 upsert
 upserting
 upserts
@@ -465,7 +465,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-Wakankensaku
+wakankensaku
 wdkt
 wdpage
 webchem

@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/15f74e520af56268b01db67a8ccf99ca7d7f79c0/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/15f74e520af56268b01db67a8ccf99ca7d7f79c0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/15f74e520af56268b01db67a8ccf99ca7d7f79c0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/345604cacf9327fac0203e1bb2490092ed773c0a/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/345604cacf9327fac0203e1bb2490092ed773c0a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/345604cacf9327fac0203e1bb2490092ed773c0a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/15f74e520af56268b01db67a8ccf99ca7d7f79c0/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/15f74e520af56268b01db67a8ccf99ca7d7f79c0/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/345604cacf9327fac0203e1bb2490092ed773c0a/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/345604cacf9327fac0203e1bb2490092ed773c0a/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/15f74e520af56268b01db67a8ccf99ca7d7f79c0/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/345604cacf9327fac0203e1bb2490092ed773c0a/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@15f74e5](https://github.com/lotusnprod/lotus-manuscript/tree/15f74e520af56268b01db67a8ccf99ca7d7f79c0)
+from [lotusnprod/lotus-manuscript@345604c](https://github.com/lotusnprod/lotus-manuscript/tree/345604cacf9327fac0203e1bb2490092ed773c0a)
 on November 30, 2021.
 </em></small>
 
@@ -1631,7 +1631,7 @@ GROUP BY ?compound ?compound_inchi
 This query answers to the following question:
 
 ```BASH
-Which compounds labelled as terpenoids were found in Aspergillus spp., between 2010 and 2020, with related references?
+Which are the available referenced structure-organism pairs on Wikidata? (example limited to 1000 results)
 ```
 
 Link: [https://w.wiki/3JpE](https://w.wiki/3JpE)
