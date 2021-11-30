@@ -817,7 +817,6 @@ content/06.code-availability.md:49:ggraph
 content/06.code-availability.md:49:ggstar
 content/06.code-availability.md:49:ggtree
 content/06.code-availability.md:49:ggtreeExtra
-content/06.code-availability.md:49:Hmisc
 content/06.code-availability.md:49:jsonlite
 content/06.code-availability.md:49:pbmcapply
 content/06.code-availability.md:49:plotly
@@ -833,8 +832,8 @@ content/06.code-availability.md:49:stringi
 content/06.code-availability.md:49:tidyverse
 content/06.code-availability.md:49:treeio
 content/06.code-availability.md:49:UpSetR
-content/06.code-availability.md:49:vroom
 content/06.code-availability.md:49:webchem
+content/06.code-availability.md:53:cmcrameri
 content/06.code-availability.md:53:faerun
 content/06.code-availability.md:53:matplotlib
 content/06.code-availability.md:53:Molvs
@@ -848,7 +847,7 @@ content/06.code-availability.md:57:Univocity
 content/06.code-availability.md:58:CDK
 content/06.code-availability.md:58:KotlinXCli
 content/06.code-availability.md:58:Ktor
-content/06.code-availability.md:58:WikidataTK
+content/06.code-availability.md:58:wdkt
 content/06.code-availability.md:59:Detekt
 content/06.code-availability.md:59:Junit
 content/06.code-availability.md:59:Kotlinter

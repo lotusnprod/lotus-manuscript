@@ -3,7 +3,7 @@ adafede
 Adriano
 afrotryp
 alkamid
-Allard
+allard
 Amoebozoa
 AmphibiaWeb
 analysing
@@ -33,7 +33,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-Bioactive
+bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -79,12 +79,13 @@ Chun
 clade
 ClassyFire
 classyfireR
+cmcrameri
 CMU
 codebase
 coroutines
 counterions
 Crataegus
-crossref
+Crossref
 CRSII
 csteinbeck
 cstrnq
@@ -135,7 +136,7 @@ euse
 evidentiary
 EvoMRI
 EW
-faerun
+Faerun
 Fatcat
 Fidele
 FishBase
@@ -147,7 +148,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 Gaudry
 GBIF
 gdata
@@ -182,7 +183,6 @@ Gunatilaka
 Hegnauer
 Hegnauer’s
 heptadecanoic
-Hmisc
 Horornis
 hotspots
 Hu
@@ -193,7 +193,7 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChIKey
+InChiKey
 indability
 indica
 Indolic
@@ -268,7 +268,7 @@ Mietchen
 mitishamba
 modularity
 Molconvert
-Molvs
+molvs
 monogyna
 Mozzherin
 mSorok
@@ -279,7 +279,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Ngozi
@@ -287,7 +287,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -319,7 +319,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-phenolexplorer
+PhenolExplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -394,7 +394,7 @@ Squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -414,7 +414,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
@@ -425,9 +425,9 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-TMAP
+tmap
 tmdb
-tmmc
+TMMC
 tppt
 transdisciplinary
 transformational
@@ -441,7 +441,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger
@@ -464,14 +464,13 @@ VFIIVOHWCNHINZ
 VJSFXXLFSA
 Voilà
 Vondrášek
-vroom
 Vue
 Wakankensaku
+wdkt
 wdpage
 webchem
 Wijeratne
 Wikidata’s
-WikidataTK
 Wikimedia
 WikiPathways
 WikiProject

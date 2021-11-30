@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-11-29'
+date-meta: '2021-11-30'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-11-29" />
-  <meta name="citation_publication_date" content="2021-11-29" />
+  <meta name="dc.date" content="2021-11-30" />
+  <meta name="citation_publication_date" content="2021-11-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/8cd4275c0d9894939e382536702ccd93b85ad80a/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/8cd4275c0d9894939e382536702ccd93b85ad80a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/8cd4275c0d9894939e382536702ccd93b85ad80a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/15f74e520af56268b01db67a8ccf99ca7d7f79c0/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/15f74e520af56268b01db67a8ccf99ca7d7f79c0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/15f74e520af56268b01db67a8ccf99ca7d7f79c0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/8cd4275c0d9894939e382536702ccd93b85ad80a/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/8cd4275c0d9894939e382536702ccd93b85ad80a/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/15f74e520af56268b01db67a8ccf99ca7d7f79c0/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/15f74e520af56268b01db67a8ccf99ca7d7f79c0/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/8cd4275c0d9894939e382536702ccd93b85ad80a/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/15f74e520af56268b01db67a8ccf99ca7d7f79c0/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@8cd4275](https://github.com/lotusnprod/lotus-manuscript/tree/8cd4275c0d9894939e382536702ccd93b85ad80a)
-on November 29, 2021.
+from [lotusnprod/lotus-manuscript@15f74e5](https://github.com/lotusnprod/lotus-manuscript/tree/15f74e520af56268b01db67a8ccf99ca7d7f79c0)
+on November 30, 2021.
 </em></small>
 
 ## Authors
@@ -885,7 +885,7 @@ To retrieve as much information as possible from the original structure field(s)
 Allowed structural fields for the sources were divided into two types: structural (InChI, SMILES) or nominal (chemical name, not necessarily IUPAC).
 If multiple fields were present, structural identifiers were preferred over structure names.
 Among structural identifiers, when both identifiers were present, SMILES was preferred over InChI.
-InChI were translated to SMILES using the RDKit (2021.09.1) implementation in Python 3.8 ([src/2_curating/2_editing/structure/1_translating/inchi.py](https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/structure/1_translating/inchi.py)).
+InChI were translated to SMILES using the RDKit (2021.09.2) implementation in Python 3.8 ([src/2_curating/2_editing/structure/1_translating/inchi.py](https://github.com/lotusnprod/lotus-processor/tree/main/src/2_curating/2_editing/structure/1_translating/inchi.py)).
 They were first converted to [ROMol](https://www.rdkit.org/docs/cppapi/ROMol_8h.html#details) objects which were then converted to SMILES.
 When no structural identifier was available, the nominal identifier was translated to InChI first thanks to [OPSIN](https://github.com/dan2097/opsin) [@doi:10/b2zkr9], a fast Java-based translation open-source solution.
 If no translation was obtained, chemical names were then submitted to the PUG-REST, the interface for programmatic access to PubChem [@doi:10.1093/nar/gky294; @doi:10.1093/nar/gkv396].
@@ -1157,18 +1157,18 @@ A frozen version (2021-02-23) of all programs and code is also available in the 
 ### Programs and packages {.page_break_before}
 
 #### R
-The [R](https://www.r-project.org/) versions used for the project were 4.0.2 up to 4.1, and R-packages used were, in alphabetical order:
-ChemmineR (3.42.1) [@doi:10/b46rs7], chorddiag (0.1.2) [@florChorddiagInteractiveChord2020], ClassyfireR (0.3.6) [@doi:10/gc5tqv], data.table (1.13.6) [@dowleDataTableExtension2020], DBI (1.1.1) [@rspecialinterestgroupondatabasesr-sig-dbDBIDatabaseInterface2021], gdata (2.18.0) [@warnesGdataVariousProgramming2017], ggalluvial (0.12.3) [@doi:10/gg4ghf], ggfittext (0.9.1) [@wilkinsGgfittextFitText2020], ggnewscale (0.4.5) [@campitelliGgnewscaleMultipleFill2021], ggraph (2.0.4) [@pedersenGgraphImplementationGrammar2020], ggstar (1.0.1) [@xuGgstarStarLayer2021], ggtree (2.4.1) [@doi:10/f9qv8x], ggtreeExtra (1.0.1) [@doi:10.21203/rs.3.rs-155672/v2], Hmisc (4.4-2) [@jrHmiscHarrellMiscellaneous2020], jsonlite (1.7.2) [@wikidata:Q106204620], pbmcapply (1.5.0) [@kuangPbmcapplyTrackingProgress2019], plotly (4.9.3) [@sievertInteractiveWebBasedData2020], rcrossref(1.1.0) [@chamberlainRcrossrefClientVarious2020], readxl (1.3.1) [@wickhamReadxlReadExcel2019], rentrez (1.2.3) [@doi:10/gh5ptg], rotl (3.0.11) [@doi:10/f9jgkm], rvest (0.3.6) [@wickhamRvestEasilyHarvest2020], splitstackshape (1.4.8) [@mahtoSplitstackshapeStackReshape2019], RSQLite (2.2.3) [@mullerRSQLiteSQLiteInterface2021], stringdist (0.9.6.3) [@doi:10/ghfr9v], stringi (1.5.3) [@gagolewskiPackageStringiCharacter2020], tidyverse (1.3.0) [@doi:10/ggddkj], treeio (1.14.3) [@doi:10/ggwr93], UpSetR (1.4.0) [@gehlenborgUpSetRMoreScalable2019], vroom (1.3.2) [@hesterVroomReadWrite2020], webchem (1.1.1) [@doi:10/gh5ptf], XML (3.99-05) [@langXMLToolsParsing2020], xml2 (1.3.2) [@wickhamXml2ParseXML2020]
+The [R](https://www.r-project.org/) versions used for the project were 4.0.2 up to 4.1.2, and R-packages used were, in alphabetical order:
+ChemmineR (3.42.1) [@doi:10/b46rs7], chorddiag (0.1.3) [@florChorddiagInteractiveChord2020], ClassyfireR (0.3.6) [@doi:10/gc5tqv], data.table (1.14.2) [@dowleDataTableExtension2020], DBI (1.1.1) [@rspecialinterestgroupondatabasesr-sig-dbDBIDatabaseInterface2021], gdata (2.18.0) [@warnesGdataVariousProgramming2017], ggalluvial (0.12.3) [@doi:10/gg4ghf], ggfittext (0.9.1) [@wilkinsGgfittextFitText2020], ggnewscale (0.4.5) [@campitelliGgnewscaleMultipleFill2021], ggraph (2.0.5) [@pedersenGgraphImplementationGrammar2020], ggstar (1.0.2) [@xuGgstarStarLayer2021], ggtree (3.2.0) [@doi:10/f9qv8x], ggtreeExtra (1.4.0) [@doi:10.21203/rs.3.rs-155672/v2], jsonlite (1.7.2) [@wikidata:Q106204620], pbmcapply (1.5.0) [@kuangPbmcapplyTrackingProgress2019], plotly (4.10.0) [@sievertInteractiveWebBasedData2020], rcrossref(1.1.0.99) [@chamberlainRcrossrefClientVarious2020], readxl (1.3.1) [@wickhamReadxlReadExcel2019], rentrez (1.2.3) [@doi:10/gh5ptg], rotl (3.0.11) [@doi:10/f9jgkm], rvest (1.0.2) [@wickhamRvestEasilyHarvest2020], splitstackshape (1.4.8) [@mahtoSplitstackshapeStackReshape2019], RSQLite (2.2.8) [@mullerRSQLiteSQLiteInterface2021], stringdist (0.9.8) [@doi:10/ghfr9v], stringi (1.7.6) [@gagolewskiPackageStringiCharacter2020], tidyverse (1.3.1) [@doi:10/ggddkj], treeio (1.18.0) [@doi:10/ggwr93], UpSetR (1.4.0) [@gehlenborgUpSetRMoreScalable2019], webchem (1.1.1) [@doi:10/gh5ptf], XML (3.99-0.8) [@langXMLToolsParsing2020], xml2 (1.3.2) [@wickhamXml2ParseXML2020]
 
 #### Python
-The [Python](https://www.python.org/) version used was 3.8.6, and the Python packages utilized were, in alphabetical order: 
-faerun (0.3.2) [@doi:10/gcmhc5], map4 (1.0) [@doi:10/gjjz4c], matplotlib (3.1.3) [@doi:10.1109/MCSE.2007.55], [Molvs](https://github.com/mcs07/MolVS) (0.1.1), pandas (1.1.4) [@doi:10/gh6dqz], rdkit (2021.03.1) [@RDKitOpensourceCheminformatics], scipy (1.5.0) [@doi:10/ggj45f], tmap (1.0.4) [@doi:10/gjjz4f].
+The [Python](https://www.python.org/) version used was 3.7.12 up to 3.9.7, and the Python packages utilized were, in alphabetical order: 
+cmcrameri (1.4) [@doi:10.5281/zenodo.1243862; @doi:10.1038/s41467-020-19160-7], faerun (0.3.20) [@doi:10/gcmhc5], map4 (1.0) [@doi:10/gjjz4c], matplotlib (3.5.0) [@doi:10.1109/MCSE.2007.55], [Molvs](https://github.com/mcs07/MolVS) (0.1.1), pandas (1.3.4) [@doi:10/gh6dqz], rdkit (2021.09.2) [@RDKitOpensourceCheminformatics], scipy (1.7.3) [@doi:10/ggj45f], tmap (1.0.4) [@doi:10/gjjz4f].
 
 #### Kotlin
 Kotlin packages used were as follows: 
-Common: Kotlin 1.4.21 up to 1.4.30, Univocity 2.9.0, OpenJDK 15, Kotlin serialization 1.0.1, konnector 0.1.27, Log4J 2.14.0
-Wikidata Importer Bot:, WikidataTK 0.11.1, CDK 2.3 [@doi:10/gbppnb], RDF4J 3.6.0, Ktor 1.5.0, KotlinXCli 0.3.1, Wikidata data processing: Shadow 5.0.0
-Quality control and testing: Ktlint 9.4.1, Kotlinter 3.3.0, Detekt 1.15.0, Ben Mane's version plugin 0.36.0, Junit 5.7.0
+Common: Kotlin 1.4.21 up to 1.6.0, Univocity 2.9.1, OpenJDK 15, Kotlin serialization 1.3.1, konnector 0.1.34, Log4J 2.14.1
+Wikidata Importer Bot:, wdkt 0.12.1, CDK 2.5 [@doi:10/gbppnb], RDF4J 3.7.4, Ktor 1.6.5, KotlinXCli 0.3.3, Wikidata data processing: Shadow 5.0.0
+Quality control and testing: Ktlint 10.2.0, Kotlinter 3.3.0, Detekt 1.15.0, Ben Mane's version plugin 0.36.0, Junit 5.8.1
 
 #### Additional executable files
 [GNFinder](https://github.com/gnames/gnfinder/releases/tag/v0.12.1) v.0.12.1, [GNVerifier](https://github.com/gnames/gnverifier/releases/tag/v0.3.1) v.0.3.1, [OPSIN](https://github.com/dan2097/opsin/releases/tag/2.5.0) v.2.5.0 [@doi:10/b2zkr9]
