@@ -200,13 +200,13 @@
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/15f74e520af56268b01db67a8ccf99ca7d7f79c0/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/15f74e520af56268b01db67a8ccf99ca7d7f79c0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/15f74e520af56268b01db67a8ccf99ca7d7f79c0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/345604cacf9327fac0203e1bb2490092ed773c0a/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/345604cacf9327fac0203e1bb2490092ed773c0a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/345604cacf9327fac0203e1bb2490092ed773c0a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/15f74e520af56268b01db67a8ccf99ca7d7f79c0/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/15f74e520af56268b01db67a8ccf99ca7d7f79c0/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/345604cacf9327fac0203e1bb2490092ed773c0a/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/345604cacf9327fac0203e1bb2490092ed773c0a/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -225,9 +225,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lotusnprod.github.io/lotus-manuscript/v/15f74e520af56268b01db67a8ccf99ca7d7f79c0/">permalink</a>)
+(<a href="https://lotusnprod.github.io/lotus-manuscript/v/345604cacf9327fac0203e1bb2490092ed773c0a/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/15f74e520af56268b01db67a8ccf99ca7d7f79c0">lotusnprod/lotus-manuscript@15f74e5</a>
+from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/345604cacf9327fac0203e1bb2490092ed773c0a">lotusnprod/lotus-manuscript@345604c</a>
 on November 30, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -2334,7 +2334,7 @@ The authors would also like to thank contributors of all electronic NP resources
 <span id="cb20-22"><a href="#cb20-22" aria-hidden="true" tabindex="-1"></a><span class="kw">GROUP</span> <span class="kw">BY</span> ?compound ?compound_inchi</span></code></pre></div>
 <h4 class="page_break_before" id="query-11---triples">Query 11 - Triples</h4>
 <p>This query answers to the following question:</p>
-<div class="sourceCode" id="cb21"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Which</span> compounds labelled as terpenoids were found in Aspergillus spp., between 2010 and 2020, with related references<span class="pp">?</span></span></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Which</span> are the available referenced structure-organism pairs on Wikidata<span class="pp">?</span> <span class="er">(</span><span class="ex">example</span> limited to 1000 results<span class="kw">)</span></span></code></pre></div>
 <p>Link: <a href="https://w.wiki/3JpE">https://w.wiki/3JpE</a></p>
 <div class="sourceCode" id="cb22"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> ?<span class="kw">structure</span> ?structure_inchikey ?taxon ?taxon_name ?reference ?reference_doi <span class="kw">WHERE</span> {</span>
 <span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>  ?<span class="kw">structure</span> wdt<span class="ch">:P235</span> ?structure_inchikey;       # get <span class="kw">the</span> inchikey</span>
