@@ -170,7 +170,6 @@ content/03.results-discussion.md:157:indolic
 content/03.results-discussion.md:158:Actinobacteria
 content/03.results-discussion.md:158:bioactivities
 content/03.results-discussion.md:159:Aspergillus
-content/03.results-discussion.md:159:labelled
 content/03.results-discussion.md:159:terpenoids
 content/03.results-discussion.md:164:InChIKey
 content/03.results-discussion.md:164:SPARQL
@@ -334,7 +333,6 @@ content/03.results-discussion.md:322:carotenoids
 content/03.results-discussion.md:322:quassinoid
 content/03.results-discussion.md:322:quassinoids
 content/03.results-discussion.md:322:TMAP
-content/03.results-discussion.md:324:avalable
 content/03.results-discussion.md:324:carotenoid
 content/03.results-discussion.md:324:NPClassifier
 content/03.results-discussion.md:324:osf
@@ -1101,11 +1099,9 @@ content/09.supporting-information-3.md:317:Aspergillus
 content/09.supporting-information-3.md:317:spp
 content/09.supporting-information-3.md:317:terpenoids
 content/09.supporting-information-3.md:322:Aspergillus
-content/09.supporting-information-3.md:322:labelled
 content/09.supporting-information-3.md:322:spp
 content/09.supporting-information-3.md:322:terpenoids
 content/09.supporting-information-3.md:327:Aspergillus
-content/09.supporting-information-3.md:327:labelled
 content/09.supporting-information-3.md:327:spp
 content/09.supporting-information-3.md:327:terpenoids
 content/09.supporting-information-3.md:362:inchikey
