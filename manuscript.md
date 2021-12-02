@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-11-30'
+date-meta: '2021-12-02'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-11-30" />
-  <meta name="citation_publication_date" content="2021-11-30" />
+  <meta name="dc.date" content="2021-12-02" />
+  <meta name="citation_publication_date" content="2021-12-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/98c4b08e618091603e8f86632baa50a6f3e1facd/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/98c4b08e618091603e8f86632baa50a6f3e1facd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/98c4b08e618091603e8f86632baa50a6f3e1facd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/a602233dafd951e53a4070364003463310f8956b/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a602233dafd951e53a4070364003463310f8956b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a602233dafd951e53a4070364003463310f8956b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/98c4b08e618091603e8f86632baa50a6f3e1facd/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/98c4b08e618091603e8f86632baa50a6f3e1facd/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a602233dafd951e53a4070364003463310f8956b/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a602233dafd951e53a4070364003463310f8956b/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/98c4b08e618091603e8f86632baa50a6f3e1facd/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/a602233dafd951e53a4070364003463310f8956b/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@98c4b08](https://github.com/lotusnprod/lotus-manuscript/tree/98c4b08e618091603e8f86632baa50a6f3e1facd)
-on November 30, 2021.
+from [lotusnprod/lotus-manuscript@a602233](https://github.com/lotusnprod/lotus-manuscript/tree/a602233dafd951e53a4070364003463310f8956b)
+on December 2, 2021.
 </em></small>
 
 ## Authors
@@ -529,30 +529,30 @@ Table: Potential questions about structure-organism relationships and correspond
 
 | Question | Wikidata SPARQL query | 
 |:------------------------:|:-------------:|
-| What are the compounds present in Mouse-ear cress (*Arabidopsis thaliana*)? | [https://w.wiki/4U64](https://w.wiki/4U64) | 
-| Which organisms are known to contain *β*-sitosterol? | [https://w.wiki/4U63](https://w.wiki/4U63) | 
-| Which organisms are known to contain stereoisomers of *β*-sitosterol?| [https://w.wiki/4U6A](https://w.wiki/4U6A) | 
-| Which pigments are found in which taxa, according to which reference? | [https://w.wiki/3H3o](https://w.wiki/3H3o) |
-| What are examples of organisms where compounds were found in an organism sharing the same parent taxon, but not the organism itself? | [https://w.wiki/3HM6](https://w.wiki/3HM6) |
-| Which *Zephyranthes* species lack compounds known from at least two species in the genus? | [https://w.wiki/3HJf](https://w.wiki/3HJf) |
-| How many compounds are structurally similar to compounds labeled as antibiotics? (grouped by the parent taxon of the containing organism) | [https://w.wiki/4U6H](https://w.wiki/4U6H) |
-| Which organisms contain indolic scaffolds? Count occurrences, group and order the results by the parent taxon. | [https://w.wiki/4U6M](https://w.wiki/4U6M) |
-| Which compounds with known bioactivities were isolated from Actinobacteria, between 2014 and 2019, with related organisms and references? | [https://w.wiki/4U7H](https://w.wiki/4U7H) |
-| Which compounds labeled as terpenoids were found in *Aspergillus* species, between 2010 and 2020, with related references? | [https://w.wiki/4U7F](https://w.wiki/4U7F) |
-| Which are the available referenced structure-organism pairs on wikidata? (example limited to 1000 results) | [https://w.wiki/3JpE](https://w.wiki/3JpE) |
+| What are the compounds present in Mouse-ear cress (*Arabidopsis thaliana*)? | [https://w.wiki/4VFm](https://w.wiki/4VFm) | 
+| Which organisms are known to contain *β*-sitosterol? | [https://w.wiki/4VFn](https://w.wiki/4VFn) | 
+| Which organisms are known to contain stereoisomers of *β*-sitosterol?| [https://w.wiki/4VFq](https://w.wiki/4VFq) | 
+| Which pigments are found in which taxa, according to which reference? | [https://w.wiki/4VFx](https://w.wiki/4VFx) |
+| What are examples of organisms where compounds were found in an organism sharing the same parent taxon, but not the organism itself? | [https://w.wiki/4VF$](https://w.wiki/4VF$) |
+| Which *Zephyranthes* species lack compounds known from at least two species in the genus? | [https://w.wiki/4VG3](https://w.wiki/4VG3) |
+| How many compounds are structurally similar to compounds labeled as antibiotics? (grouped by the parent taxon of the containing organism) | [https://w.wiki/4VG4](https://w.wiki/4VG4) |
+| Which organisms contain indolic scaffolds? Count occurrences, group and order the results by the parent taxon. | [https://w.wiki/4VG9](https://w.wiki/4VG9) |
+| Which compounds with known bioactivities were isolated from Actinobacteria, between 2014 and 2019, with related organisms and references? | [https://w.wiki/4VGC](https://w.wiki/4VGC) |
+| Which compounds labeled as terpenoids were found in *Aspergillus* species, between 2010 and 2020, with related references? | [https://w.wiki/4VGD](https://w.wiki/4VGD) |
+| Which are the available referenced structure-organism pairs on wikidata? (example limited to 1000 results) | [https://w.wiki/4VFh](https://w.wiki/4VFh) |
 
 The queries presented in Table @tbl:queries are only a few examples and many other ways of interrogating LOTUS can be formulated.
 Generic queries can be used, for example, for hypothesis generation when starting a research project.
-For instance, a generic SPARQL query - listed in Table @tbl:queries as "Which are the available referenced structure-organism pairs?" - retrieves all structures, identified by their InChIKey ([P235](https://www.wikidata.org/wiki/Property:P235)), which contain "found in taxon" ([P703](https://www.wikidata.org/wiki/Property:P703)) statements that are stated in ([P248](https://www.wikidata.org/wiki/Property:P248)) a bibliographic reference: [https://w.wiki/3JpE](https://w.wiki/3JpE).
+For instance, a generic SPARQL query - listed in Table @tbl:queries as "Which are the available referenced structure-organism pairs?" - retrieves all structures, identified by their InChIKey ([P235](https://www.wikidata.org/wiki/Property:P235)), which contain "found in taxon" ([P703](https://www.wikidata.org/wiki/Property:P703)) statements that are stated in ([P248](https://www.wikidata.org/wiki/Property:P248)) a bibliographic reference: [https://w.wiki/4VFh](https://w.wiki/4VFh).
 Data can then be exported in various formats, such as classical tabular formats, json, or html tables (see Download tab on the lower right of the query frame).
 At the time of writing (2021-05-05), this query (without the LIMIT 1000) returned 797,123 entries; a frozen query result is available at [https://osf.io/thqaw](https://osf.io/thqaw).
 
 Targeted queries allowing to interrogate LOTUS data from the perspective of one of the three objects forming the referenced structure-organism pairs can also be built.
-Users can, for example, retrieve a list of all structures reported from a given organism, such as all structures reported from *Arabidopsis thaliana* ([Q158695](https://www.wikidata.org/wiki/Q158695)) ([https://w.wiki/4U64](https://w.wiki/4U64)).
-Alternatively, all organisms containing a given chemical can be queried via its structure, such as in the search for all organisms where *β*-sitosterol ([Q121802](https://www.wikidata.org/wiki/Q121802)) was found in ([https://w.wiki/4U64](https://w.wiki/4U64)).
+Users can, for example, retrieve a list of all structures reported from a given organism, such as all structures reported from *Arabidopsis thaliana* ([Q158695](https://www.wikidata.org/wiki/Q158695)) ([https://w.wiki/4VFm](https://w.wiki/4VFm)).
+Alternatively, all organisms containing a given chemical can be queried via its structure, such as in the search for all organisms where *β*-sitosterol ([Q121802](https://www.wikidata.org/wiki/Q121802)) was found in ([https://w.wiki/4VFn](https://w.wiki/4VFn)).
 For programmatic access, the [lotus-wikidata-exporter](https://github.com/lotusnprod/lotus-wikidata-exporter) repository also allows data retrieval in RDF format and as TSV tables.
 
-To further showcase the possibilities two additional queries were established ([https://w.wiki/4U64](https://w.wiki/4U64) and [https://w.wiki/4U64](https://w.wiki/4U64)). 
+To further showcase the possibilities two additional queries were established ([https://w.wiki/4VGC](https://w.wiki/4VGC) and [https://w.wiki/4VGD](https://w.wiki/4VGD)). 
 Both queries were inspired by recent literature review works [@doi:10.1016/j.micres.2021.126708; @doi:10.1016/j.phytochem.2021.113011]. 
 The first work describes compounds found in Actinobacteria, with a biological focus on compounds with reported bioactivity. 
 The second one, describes compounds found in *Aspergillus* spp., with a chemical focus on terpenoids. 
@@ -565,7 +565,7 @@ To allow substructure and similarity searches via SPARQL also on compounds from 
 The endpoint indexes isomeric ([P2017](https://www.wikidata.org/wiki/Property:P2017)) and canonical ([P233](https://www.wikidata.org/wiki/Property:P233)) SMILES code available in Wikidata.
 To ensure that data is kept up-to-date, SMILES codes are automatically downloaded from Wikidata daily.
 The endpoint allows users to run [federated queries](https://www.w3.org/TR/sparql11-federated-query) and, thereby, proceed to structure-oriented searches on the LOTUS data hosted at Wikidata.
-For example, the SPARQL query [https://w.wiki/4U6M](https://w.wiki/4U6M) returns a list of all organisms that produce NP with an indolic scaffold.
+For example, the SPARQL query [https://w.wiki/4VG9](https://w.wiki/4VG9) returns a list of all organisms that produce NP with an indolic scaffold.
 The output is aggregated at the parent taxa level of the containing organisms and ranked by the number of scaffold occurrences.
 
 ##### Lotus.NaturalProducts.Net (LNPN)
@@ -1157,7 +1157,7 @@ A frozen version (2021-02-23) of all programs and code is also available in the 
 
 #### R
 The [R](https://www.r-project.org) versions used for the project were 4.0.2 up to 4.1.2, and R-packages used were, in alphabetical order:
-ChemmineR (3.42.1) [@doi:10/b46rs7], chorddiag (0.1.3) [@florChorddiagInteractiveChord2020], ClassyfireR (0.3.6) [@doi:10/gc5tqv], data.table (1.14.2) [@dowleDataTableExtension2020], DBI (1.1.1) [@rspecialinterestgroupondatabasesr-sig-dbDBIDatabaseInterface2021], gdata (2.18.0) [@warnesGdataVariousProgramming2017], ggalluvial (0.12.3) [@doi:10/gg4ghf], ggfittext (0.9.1) [@wilkinsGgfittextFitText2020], ggnewscale (0.4.5) [@campitelliGgnewscaleMultipleFill2021], ggraph (2.0.5) [@pedersenGgraphImplementationGrammar2020], ggstar (1.0.2) [@xuGgstarStarLayer2021], ggtree (3.2.0) [@doi:10/f9qv8x], ggtreeExtra (1.4.0) [@doi:10.21203/rs.3.rs-155672/v2], jsonlite (1.7.2) [@wikidata:Q106204620], pbmcapply (1.5.0) [@kuangPbmcapplyTrackingProgress2019], plotly (4.10.0) [@sievertInteractiveWebBasedData2020], rcrossref(1.1.0.99) [@chamberlainRcrossrefClientVarious2020], readxl (1.3.1) [@wickhamReadxlReadExcel2019], rentrez (1.2.3) [@doi:10/gh5ptg], rotl (3.0.11) [@doi:10/f9jgkm], rvest (1.0.2) [@wickhamRvestEasilyHarvest2020], splitstackshape (1.4.8) [@mahtoSplitstackshapeStackReshape2019], RSQLite (2.2.8) [@mullerRSQLiteSQLiteInterface2021], stringdist (0.9.8) [@doi:10/ghfr9v], stringi (1.7.6) [@gagolewskiPackageStringiCharacter2020], tidyverse (1.3.1) [@doi:10/ggddkj], treeio (1.18.0) [@doi:10/ggwr93], UpSetR (1.4.0) [@gehlenborgUpSetRMoreScalable2019], webchem (1.1.1) [@doi:10/gh5ptf], XML (3.99-0.8) [@langXMLToolsParsing2020], xml2 (1.3.2) [@wickhamXml2ParseXML2020]
+ChemmineR (3.42.1) [@doi:10/b46rs7], chorddiag (0.1.3) [@florChorddiagInteractiveChord2020], ClassyfireR (0.3.6) [@doi:10/gc5tqv], data.table (1.14.2) [@dowleDataTableExtension2020], DBI (1.1.1) [@rspecialinterestgroupondatabasesr-sig-dbDBIDatabaseInterface2021], gdata (2.18.0) [@warnesGdataVariousProgramming2017], ggalluvial (0.12.3) [@doi:10/gg4ghf], ggfittext (0.9.1) [@wilkinsGgfittextFitText2020], ggnewscale (0.4.5) [@campitelliGgnewscaleMultipleFill2021], ggraph (2.0.5) [@pedersenGgraphImplementationGrammar2020], ggstar (1.0.2) [@xuGgstarStarLayer2021], ggtree (3.2.0) [@doi:10/f9qv8x], ggtreeExtra (1.4.0) [@doi:10.21203/rs.3.rs-155672/v2], jsonlite (1.7.2) [@wikidata:Q106204620], pbmcapply (1.5.0) [@kuangPbmcapplyTrackingProgress2019], plotly (4.10.0) [@sievertInteractiveWebBasedData2020], rcrossref(1.1.0.99) [@chamberlainRcrossrefClientVarious2020], readxl (1.3.1) [@wickhamReadxlReadExcel2019], rentrez (1.2.3) [@doi:10/gh5ptg], rotl (3.0.11) [@doi:10/f9jgkm], rvest (1.0.2) [@wickhamRvestEasilyHarvest2020], splitstackshape (1.4.8) [@mahtoSplitstackshapeStackReshape2019], RSQLite (2.2.8) [@mullerRSQLiteSQLiteInterface2021], stringdist (0.9.8) [@doi:10/ghfr9v], stringi (1.7.6) [@gagolewskiPackageStringiCharacter2020], tidyverse (1.3.1) [@doi:10/ggddkj], treeio (1.18.0) [@doi:10/ggwr93], UpSetR (1.4.0) [@gehlenborgUpSetRMoreScalable2019], webchem (1.1.1) [@doi:10/gh5ptf], XML (3.99-0.8) [@langXMLToolsParsing2020], xml2 (1.3.3) [@wickhamXml2ParseXML2020]
 
 #### Python
 The [Python](https://www.python.org) version used was 3.7.12 up to 3.9.7, and the Python packages utilized were, in alphabetical order: 
@@ -1285,15 +1285,15 @@ This query answers to the following question:
 What are the compounds found in Mouse-ear cress (Arabidopsis thaliana)?
 ```
 
-Link: [https://w.wiki/4U64](https://w.wiki/4U64)
+Link: [https://w.wiki/4VFm](https://w.wiki/4VFm)
 ```SQL
-# What are the compounds found in Mouse-ear cress (Arabidopsis thaliana)?
+#title: What are the compounds found in Mouse-ear cress Arabidopsis thaliana (Q158695)?
 SELECT DISTINCT ?structure ?structureLabel ?structure_inchi WHERE {
   VALUES ?taxon {
     wd:Q158695                           # You can remove the Qxxxxxx and hit Ctrl+space, type the first letters and it should autocomplete
   }
   ?structure wdt:P234 ?structure_inchi;  # Get the InChI
-    p:P703/ps:P703 ?taxon.               # Found in given taxon/taxa
+    (p:P703/ps:P703) ?taxon.             # Found in given taxon/taxa
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
 ```
@@ -1306,15 +1306,15 @@ This query answers to the following question:
 Which organisms are known to contain β-sitosterol?
 ```
 
-Link: [https://w.wiki/4U63](https://w.wiki/4U63)
+Link: [https://w.wiki/4VFn](https://w.wiki/4VFn)
 ```SQL
-# Which organisms are known to contain β-sitosterol?
+#title: Which organisms are known to contain Beta-Sitosterol (Q121802)?
 SELECT DISTINCT ?taxon ?taxon_name WHERE {
   VALUES ?compound {
-    wd:Q121802                     # You can remove the Qxxxxxx and hit Ctrl+space, type the first letters and it should autocomplete
+    wd:Q121802                       # You can remove the Qxxxxxx and hit Ctrl+space, type the first letters and it should autocomplete
   }
-  ?compound p:P703/ps:P703 ?taxon. # Found in taxon
-  ?taxon wdt:P225 ?taxon_name.     # Get scientific name of the taxon
+  ?compound (p:P703/ps:P703) ?taxon. # Found in taxon
+  ?taxon wdt:P225 ?taxon_name.       # Get scientific name of the taxon
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
 ```
@@ -1327,9 +1327,9 @@ This query answers to the following question:
 Which organisms are known to contain which stereoisomers of β-sitosterol?
 ```
 
-Link: [https://w.wiki/4U6A](https://w.wiki/4U6A)
+Link: [https://w.wiki/4VFq](https://w.wiki/4VFq)
 ```SQL
-# Which organisms are known to contain which stereoisomers of β-sitosterol?
+#title: Which organisms are known to contain stereoisomers of Beta-Sitosterol (Q121802)?
 SELECT ?taxon_name ?compound ?InChIKey 
 WITH {
   SELECT ?compound ?InChIKey WHERE {
@@ -1344,7 +1344,7 @@ WITH {
 } AS %compounds
 WHERE {
   INCLUDE %compounds
-          ?compound wdt:P703/wdt:P225 ?taxon_name. # found in taxon / taxon scientific name
+          ?compound (wdt:P703/wdt:P225) ?taxon_name.
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
 ```
@@ -1357,28 +1357,28 @@ This query answers to the following question:
 Which pigments are found in which taxa, according to which reference?
 ```
 
-Link: [https://w.wiki/3H3o](https://w.wiki/3H3o)
+Link: [https://w.wiki/4VFx](https://w.wiki/4VFx)
 ```SQL
-# Which pigments are found in which taxa, according to which reference?
-# special thanks goes to Layla Michán for updating this information!
+#title: Which pigments are found in which taxa, according to which reference?
+# special thanks goes to User:Lmichan for updating this information!
 SELECT DISTINCT ?compound ?compoundLabel ?taxon ?taxonname ?DOI 
 WITH {
   SELECT ?compound WHERE {
-    ?compound wdt:P31*/wdt:P279* wd:Q161179.  # get pigments
+    ?compound (wdt:P31*/wdt:P279*) wd:Q161179.  # get pigments
   }
 } AS %compounds
 WITH {
   SELECT ?compound ?P703statement WHERE {
     INCLUDE %compounds
-            ?compound p:P703 ?P703statement.  # check for "found in taxon" statements
+            ?compound p:P703 ?P703statement.    # check for "found in taxon" statements
   }
 } AS %P703statement
 WITH {
   SELECT ?compound ?taxon ?DOI WHERE {
     INCLUDE %P703statement
-            ?P703statement ps:P703 ?taxon ;   # get the respective taxa
-            prov:wasDerivedFrom / pr:P248 [   # get the reference supporting that statement
-              wdt:P356 ?DOI                   # get the DOI for the reference
+            ?P703statement ps:P703 ?taxon ;     # get the respective taxa
+            prov:wasDerivedFrom / pr:P248 [     # get the reference supporting that statement
+              wdt:P356 ?DOI                     # get the DOI for the reference
             ] .
   }
 } AS %taxa
@@ -1386,10 +1386,10 @@ WHERE {
   {
     INCLUDE %taxa
 
-            ?taxon wdt:P225 ?taxonname .      # get the taxon name
+            ?taxon wdt:P225 ?taxonname .        # get the taxon name
   }
-  ?compound rdfs:label ?compoundLabel .       # get compound labels
-  FILTER (LANG(?compoundLabel) = "en") .      # filter for English
+  ?compound rdfs:label ?compoundLabel .         # get compound labels
+  FILTER (LANG(?compoundLabel) = "en") .        # filter for English
 }
 ORDER BY ASC(?compoundLabel)
 LIMIT 10000
@@ -1404,10 +1404,10 @@ What are examples of organisms where compounds were found in an organism sharing
 ```
 
 
-Link: [https://w.wiki/3HM6](https://w.wiki/3HM6)
+Link: [https://w.wiki/4VF$](https://w.wiki/4VF$)
 ```SQL
-# What are examples of organisms where compounds were found in an organism sharing the same parent taxon, but not the organism itself? 
-SELECT DISTINCT ?compound ?compoundLabel ?taxonname_with_compound ?taxonname_without_compound ?parent_taxon WITH { 
+#title: What are examples of organisms where compounds were found in an organism sharing the same parent taxon, but not the organism itself?
+SELECT DISTINCT ?compound ?compoundLabel ?taxonname_with_compound ?taxonname_without_compound ?parent_taxon WITH{ 
   SELECT DISTINCT ?compound ?taxon_with_compound ?parent_taxon 
   WHERE {
     ?compound wdt:P235 ?inchikey.
@@ -1443,9 +1443,9 @@ This query answers to the following question:
 Which Zephyranthes spp. lack compounds known from ≥ 2 other Zephyranthes?
 ```
 
-Link: [https://w.wiki/3HJf](https://w.wiki/3HJf)
+Link: [https://w.wiki/4VG3](https://w.wiki/4VG3)
 ```SQL
-# Which Zephyranthes spp. lack compounds known from ≥ 2 other Zephyranthes? 
+#title: Which Zephyranthes (Q191364) spp. lack compounds known from at least two species in the genus?
 PREFIX target: <http://www.wikidata.org/entity/Q191364> # Zephyranthes
 SELECT DISTINCT ?compound ?compoundLabel ?taxon_with_compound ?another_taxon_with_compound ?taxon_without_compound WITH { 
   SELECT DISTINCT ?compound ?taxon_YES_1 ?taxon_YES_2 
@@ -1477,7 +1477,7 @@ WHERE {
   ?taxon_YES_1 wdt:P225 ?taxon_with_compound .
   ?taxon_YES_2 wdt:P225 ?another_taxon_with_compound .
   ?taxon_NO wdt:P225 ?taxon_without_compound .
-  ?compound wdt:P31*/wdt:P279* ?classes .
+  ?compound (wdt:P31*/wdt:P279*) ?classes .
   ?compound rdfs:label ?compoundLabel.
   FILTER(LANG(?compoundLabel) = "en").
 }
@@ -1491,10 +1491,9 @@ This query answers to the following question:
 How many compounds are structurally similar to compounds labeled as antibiotics? Results are grouped by the parent taxon of the organism they were found in.
 ```
 
-Link: [https://w.wiki/4U6H](https://w.wiki/4U6H)
+Link: [https://w.wiki/4VG4](https://w.wiki/4VG4)
 ```SQL
-# How many compounds are structurally similar to compounds labeled as antibiotics? 
-# Results are grouped by the parent taxon of the organism they were found in.
+#title: How many compounds are structurally similar to compounds labeled as antibiotics? Results are grouped by the parent taxon of the organism they were found in.
 PREFIX sachem: <http://bioinfo.uochb.cas.cz/rdf/v1.0/sachem#> # prefixes needed for structural similarity search
 PREFIX idsm: <https://idsm.elixir-czech.cz/sparql/endpoint/>
 SELECT ?parent_taxon ?parent_taxon_name (COUNT(DISTINCT ?compound) AS ?count) WHERE {
@@ -1531,9 +1530,9 @@ This query answers to the following question:
 Which organisms contain indolic scaffolds? Count occurrences, group and order the results by the parent taxon.
 ```
 
-Link: [https://w.wiki/4U6M](https://w.wiki/4U6M)
+Link: [https://w.wiki/4VG9](https://w.wiki/4VG9)
 ```SQL
-# Which organisms contain indolic scaffold? Group and order the results by the parent taxon.
+#title: Which organisms contain indolic scaffolds? Count occurences, group and order the results by the parent taxon.
 PREFIX sachem: <http://bioinfo.uochb.cas.cz/rdf/v1.0/sachem#> # prefixes needed for structural similarity search
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX p: <http://www.wikidata.org/prop/>
@@ -1566,9 +1565,9 @@ This query answers to the following question:
 Which compounds with known bioactivities were isolated from Actinobacteria, between 2014 and 2019, with related organisms and references?
 ```
 
-Link: [https://w.wiki/4U7H](https://w.wiki/4U7H)
+Link: [https://w.wiki/4VGC](https://w.wiki/4VGC)
 ```SQL
-# Which compounds with known bioactivities were isolated from Actinobacteria, between 2014 and 2019, with related organisms and references?
+#title: Which compounds with known bioactivities were isolated from Actinobacteria (Q26262282), between 2014 and 2019, with related organisms and references?
 SELECT ?organism ?organism_name ?compound ?compound_smiles (GROUP_CONCAT(DISTINCT ?meshLabel; SEPARATOR = "|") AS ?bioactivities) ?isolation_reference ?reference_title WHERE {
   ?organism (wdt:P171*) wd:Q26262282;
     wdt:P225 ?organism_name.
@@ -1599,9 +1598,9 @@ This query answers to the following question:
 Which compounds labeled as terpenoids were found in Aspergillus spp., between 2010 and 2020, with related references?
 ```
 
-Link: [https://w.wiki/4U7F](https://w.wiki/4U7F)
+Link: [https://w.wiki/4VGD](https://w.wiki/4VGD)
 ```SQL
-# Which compounds labeled as terpenoids were found in Aspergillus spp., between 2010 and 2020, with related references?
+#title: Which compounds labelled as terpenoid (Q426694) were found in Aspergillus (Q335130) spp., between 2010 and 2020, with related references?
 SELECT ?compound ?compound_inchi (GROUP_CONCAT(DISTINCT ?isolation_reference; SEPARATOR = "|") AS ?isolation_references) (GROUP_CONCAT(DISTINCT ?reference_title; SEPARATOR = "|") AS ?references_titles) WHERE {
   VALUES ?taxon {
     wd:Q335130
@@ -1633,8 +1632,9 @@ This query answers to the following question:
 Which are the available referenced structure-organism pairs on Wikidata? (example limited to 1000 results)
 ```
 
-Link: [https://w.wiki/3JpE](https://w.wiki/3JpE)
+Link: [https://w.wiki/4VFh](https://w.wiki/4VFh)
 ```SQL
+#title: Which are the available referenced structure-organism pairs on Wikidata? (example limited to 1000 results)
 SELECT DISTINCT ?structure ?structure_inchikey ?taxon ?taxon_name ?reference ?reference_doi WHERE {
   ?structure wdt:P235 ?structure_inchikey;       # get the inchikey
     p:P703[                                      # statement found in taxon
