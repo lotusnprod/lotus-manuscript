@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/633077a336176cac590a0803325f1d428571604a/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/633077a336176cac590a0803325f1d428571604a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/633077a336176cac590a0803325f1d428571604a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/9e74935866222c54b0160089a40ec3868bd55707/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/9e74935866222c54b0160089a40ec3868bd55707/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/9e74935866222c54b0160089a40ec3868bd55707/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/633077a336176cac590a0803325f1d428571604a/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/633077a336176cac590a0803325f1d428571604a/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/9e74935866222c54b0160089a40ec3868bd55707/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/9e74935866222c54b0160089a40ec3868bd55707/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/633077a336176cac590a0803325f1d428571604a/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/9e74935866222c54b0160089a40ec3868bd55707/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@633077a](https://github.com/lotusnprod/lotus-manuscript/tree/633077a336176cac590a0803325f1d428571604a)
+from [lotusnprod/lotus-manuscript@9e74935](https://github.com/lotusnprod/lotus-manuscript/tree/9e74935866222c54b0160089a40ec3868bd55707)
 on December 3, 2021.
 </em></small>
 
@@ -529,7 +529,7 @@ Table: Potential questions about structure-organism relationships and correspond
 
 | Question | Wikidata SPARQL query | 
 |:------------------------:|:-------------:|
-| What are the compounds present in Mouse-ear cress (*Arabidopsis thaliana*)? | [https://w.wiki/4VFm](https://w.wiki/4VFm) | 
+| What are the compounds present in Mouse-ear cress (*Arabidopsis thaliana*) or its children taxa? | [https://w.wiki/4Vcv](https://w.wiki/4Vcv) | 
 | Which organisms are known to contain *β*-sitosterol? | [https://w.wiki/4VFn](https://w.wiki/4VFn) | 
 | Which organisms are known to contain stereoisomers of *β*-sitosterol?| [https://w.wiki/4VFq](https://w.wiki/4VFq) | 
 | Which pigments are found in which taxa, according to which reference? | [https://w.wiki/4VFx](https://w.wiki/4VFx) |
@@ -548,7 +548,7 @@ Data can then be exported in various formats, such as classical tabular formats,
 At the time of writing (2021-05-05), this query (without the LIMIT 1000) returned 797,123 entries; a frozen query result is available at [https://osf.io/thqaw](https://osf.io/thqaw).
 
 Targeted queries allowing to interrogate LOTUS data from the perspective of one of the three objects forming the referenced structure-organism pairs can also be built.
-Users can, for example, retrieve a list of all structures reported from a given organism, such as all structures reported from *Arabidopsis thaliana* ([Q158695](https://www.wikidata.org/wiki/Q158695)) ([https://w.wiki/4VFm](https://w.wiki/4VFm)).
+Users can, for example, retrieve a list of all structures reported from a given organism, such as all structures reported from *Arabidopsis thaliana* ([Q158695](https://www.wikidata.org/wiki/Q158695)) or its children taxa ([https://w.wiki/4Vcv](https://w.wiki/4Vcv)).
 Alternatively, all organisms containing a given chemical can be queried via its structure, such as in the search for all organisms where *β*-sitosterol ([Q121802](https://www.wikidata.org/wiki/Q121802)) was found in ([https://w.wiki/4VFn](https://w.wiki/4VFn)).
 For programmatic access, the [lotus-wikidata-exporter](https://github.com/lotusnprod/lotus-wikidata-exporter) repository also allows data retrieval in RDF format and as TSV tables.
 
@@ -1282,18 +1282,19 @@ Table: Summary of the Validation Statistics {#tbl:si-2 tag="SI-2"}
 This query answers to the following question:
 
 ```BASH
-What are the compounds found in Mouse-ear cress (Arabidopsis thaliana)?
+What are the compounds found in Mouse-ear cress Arabidopsis thaliana (Q158695) or children taxa?
 ```
 
-Link: [https://w.wiki/4VFm](https://w.wiki/4VFm)
+Link: [https://w.wiki/4Vcv](https://w.wiki/4Vcv)
 ```SQL
-#title: What are the compounds found in Mouse-ear cress Arabidopsis thaliana (Q158695)?
+#title: What are the compounds found in Mouse-ear cress Arabidopsis thaliana (Q158695) or children taxa?
 SELECT DISTINCT ?structure ?structureLabel ?structure_inchi WHERE {
   VALUES ?taxon {
     wd:Q158695                           # You can remove the Qxxxxxx and hit Ctrl+space, type the first letters and it should autocomplete
   }
+  ?children (wdt:P171*) ?taxon.          # Include children taxa
   ?structure wdt:P234 ?structure_inchi;  # Get the InChI
-    (p:P703/ps:P703) ?taxon.             # Found in given taxon/taxa
+    (p:P703/ps:P703) ?children.          # Found in given taxon/taxa
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
 ```
