@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-12-06'
+date-meta: '2021-12-07'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-12-06" />
-  <meta name="citation_publication_date" content="2021-12-06" />
+  <meta name="dc.date" content="2021-12-07" />
+  <meta name="citation_publication_date" content="2021-12-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/8f2473cce397d33626b9a9699d2c65c778d25113/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/8f2473cce397d33626b9a9699d2c65c778d25113/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/8f2473cce397d33626b9a9699d2c65c778d25113/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/8f2473cce397d33626b9a9699d2c65c778d25113/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/8f2473cce397d33626b9a9699d2c65c778d25113/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/8f2473cce397d33626b9a9699d2c65c778d25113/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@8f2473c](https://github.com/lotusnprod/lotus-manuscript/tree/8f2473cce397d33626b9a9699d2c65c778d25113)
-on December 6, 2021.
+from [lotusnprod/lotus-manuscript@7f29fba](https://github.com/lotusnprod/lotus-manuscript/tree/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52)
+on December 7, 2021.
 </em></small>
 
 ## Authors
@@ -533,7 +533,7 @@ Table: Potential questions about structure-organism relationships and correspond
 | Which organisms are known to contain *β*-sitosterol? | [https://w.wiki/4VFn](https://w.wiki/4VFn) | 
 | Which organisms are known to contain stereoisomers of *β*-sitosterol?| [https://w.wiki/4VFq](https://w.wiki/4VFq) | 
 | Which pigments are found in which taxa, according to which reference? | [https://w.wiki/4VFx](https://w.wiki/4VFx) |
-| What are examples of organisms where compounds were found in an organism sharing the same parent taxon, but not the organism itself? | [https://w.wiki/4VF$](https://w.wiki/4VF$) |
+| What are examples of organisms where compounds were found in an organism sharing the same parent taxon, but not the organism itself? | [https://w.wiki/4Wt3](https://w.wiki/4Wt3) |
 | Which *Zephyranthes* species lack compounds known from at least two species in the genus? | [https://w.wiki/4VG3](https://w.wiki/4VG3) |
 | How many compounds are structurally similar to compounds labeled as antibiotics? (grouped by the parent taxon of the containing organism) | [https://w.wiki/4VG4](https://w.wiki/4VG4) |
 | Which organisms contain indolic scaffolds? Count occurrences, group and order the results by the parent taxon. | [https://w.wiki/4VG9](https://w.wiki/4VG9) |
@@ -1405,15 +1405,15 @@ What are examples of organisms where compounds were found in an organism sharing
 ```
 
 
-Link: [https://w.wiki/4VF$](https://w.wiki/4VF$)
+Link: [https://w.wiki/4Wt3](https://w.wiki/4Wt3)
 ```SQL
 #title: What are examples of organisms where compounds were found in an organism sharing the same parent taxon, but not the organism itself?
 SELECT DISTINCT ?compound ?compoundLabel ?taxonname_with_compound ?taxonname_without_compound ?parent_taxon WITH{ 
   SELECT DISTINCT ?compound ?taxon_with_compound ?parent_taxon 
   WHERE {
     ?compound wdt:P235 ?inchikey.
-    SERVICE bd:sample { ?compound wdt:P703 ?taxon_with_compound . bd:serviceParam bd:sample.limit 1000 }   
-    ?taxon_with_compound wdt:P171 ?parent_taxon .
+    SERVICE bd:sample { ?compound wdt:P703 ?taxon_with_compound. bd:serviceParam bd:sample.limit 1000 }   
+    ?taxon_with_compound wdt:P171 ?parent_taxon.
   }
 } AS %taxon_with_compound 
 WITH
@@ -1421,16 +1421,16 @@ WITH
   SELECT DISTINCT ?taxon_without_compound ?parent_taxon ?compound 
   WHERE {
     INCLUDE %taxon_with_compound
-    ?taxon_without_compound wdt:P171 ?parent_taxon .
+    ?taxon_without_compound wdt:P171 ?parent_taxon.
     FILTER (?taxon_with_compound != ?taxon_without_compound)
   }
 } AS %taxon2 
 WHERE {
   INCLUDE %taxon_with_compound
   INCLUDE %taxon2
-  FILTER NOT EXISTS {  ?compound wdt:P703 ?taxon_without_compound .}
-  ?taxon_with_compound wdt:P225 ?taxonname_with_compound .
-  ?taxon_without_compound wdt:P225 ?taxonname_without_compound .
+  FILTER NOT EXISTS {?compound wdt:P703 ?taxon_without_compound.}
+  ?taxon_with_compound wdt:P225 ?taxonname_with_compound.
+  ?taxon_without_compound wdt:P225 ?taxonname_without_compound.
   ?compound rdfs:label ?compoundLabel.
   FILTER(LANG(?compoundLabel) = "en").
 }
