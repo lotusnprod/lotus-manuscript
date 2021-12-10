@@ -19,7 +19,7 @@
   <meta name="author" content="Jean-Luc Wolfender" />
   <meta name="author" content="Jonathan Bisson" />
   <meta name="author" content="Pierre-Marie Allard" />
-  <meta name="dcterms.date" content="2021-12-07" />
+  <meta name="dcterms.date" content="2021-12-10" />
   <meta name="keywords" content="Natural Products, Knowledge Management, Wikidata" />
   <title>The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata</title>
   <style>
@@ -124,8 +124,8 @@
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-12-07" />
-  <meta name="citation_publication_date" content="2021-12-07" />
+  <meta name="dc.date" content="2021-12-10" />
+  <meta name="citation_publication_date" content="2021-12-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -200,13 +200,13 @@
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5d20982e8f3b7975868527a328a60a5ce1cf41b9/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5d20982e8f3b7975868527a328a60a5ce1cf41b9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5d20982e8f3b7975868527a328a60a5ce1cf41b9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5d20982e8f3b7975868527a328a60a5ce1cf41b9/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5d20982e8f3b7975868527a328a60a5ce1cf41b9/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -225,10 +225,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lotusnprod.github.io/lotus-manuscript/v/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/">permalink</a>)
+(<a href="https://lotusnprod.github.io/lotus-manuscript/v/5d20982e8f3b7975868527a328a60a5ce1cf41b9/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52">lotusnprod/lotus-manuscript@7f29fba</a>
-on December 7, 2021.
+from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/5d20982e8f3b7975868527a328a60a5ce1cf41b9">lotusnprod/lotus-manuscript@5d20982</a>
+on December 10, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -1167,16 +1167,14 @@ This program takes the source data as input and outputs curated data, ready for 
 The first step involves checking if the source data has already been processed.
 If not, all three elements (biological organism, chemical structures, and references) are submitted to various steps of translation and curation, before validation for dissemination.</p>
 <h4 id="wikidata-4">Wikidata</h4>
-<h5 id="import">Import</h5>
-<p>The Wikidata importer is available at <a href="https://github.com/lotusnprod/lotus-wikidata-importer">https://github.com/lotusnprod/lotus-wikidata-importer</a>.
-This program takes the processed data resulting from the lotusProcessor subprocess as input and uploads it to Wikidata.
+<p>The programs to interact with Wikidata are available at <a href="https://github.com/lotusnprod/lotus-wikidata-interact">https://github.com/lotusnprod/lotus-wikidata-interact</a>.
+On the <a href="https://github.com/lotusnprod/lotus-wikidata-interact/blob/main/uploadLotus/README.md">upload side</a>, the program takes the processed data resulting from the lotusProcessor subprocess as input and uploads it to Wikidata.
 It performs a SPARQL query to check which objects already exist.
 If needed, it creates the missing objects.
 It then updates the content of each object.
-Finally, it updates the chemical compound page with a “found in taxon” statement complemented with a “stated in” reference.</p>
-<h5 id="export">Export</h5>
-<p>The Wikidata exporter is available at <a href="https://github.com/lotusnprod/lotus-wikidata-exporter">https://github.com/lotusnprod/lotus-wikidata-exporter</a>.
-This program takes the structured data in Wikidata corresponding to chemical compounds found in taxa with a reference associated as input and exports it in both RDF and tabular formats for further use.
+Finally, it updates the chemical compound page with a “found in taxon” statement complemented with a “stated in” reference.
+A <a href="https://github.com/lotusnprod/lotus-wikidata-interact/blob/main/importPublication/README.md">publication importer</a> creating an article page from a DOI is also available.</p>
+<p>On the <a href="https://github.com/lotusnprod/lotus-wikidata-interact/blob/main/downloadLotus/README.md">download side</a>, the program takes the structured data in Wikidata corresponding to chemical compounds found in taxa with a reference associated as input and exports it in both RDF and tabular formats for further use.
 Two subsequent options are (a) that the end-user can directly use the exported data.; or (b) that the exported data, which can be new or modified since the last iteration, is used as new source data in lotusProcessor.</p>
 <h3 id="lnpn-1">LNPN</h3>
 <p>The LNPN website and processing system is available at <a href="https://github.com/lotusnprod/lotus-web">https://github.com/lotusnprod/lotus-web</a>.
@@ -1202,7 +1200,7 @@ Common: Kotlin 1.4.21 up to 1.6.0, Univocity 2.9.1, OpenJDK 15, Kotlin serializa
 Wikidata Importer Bot:, wdkt 0.12.1, CDK 2.5 <span class="citation" data-cites="xpBWVpji">[<a href="#ref-xpBWVpji" role="doc-biblioref">107</a>]</span>, RDF4J 3.7.4, Ktor 1.6.5, KotlinXCli 0.3.3, Wikidata data processing: Shadow 5.0.0
 Quality control and testing: Ktlint 10.2.0, Kotlinter 3.3.0, Detekt 1.15.0, Ben Mane’s version plugin 0.36.0, Junit 5.8.1</p>
 <h4 id="additional-executable-files">Additional executable files</h4>
-<p><a href="https://github.com/gnames/gnfinder/releases/tag/v0.16.3">GNFinder</a> v.0.16.3, <a href="https://github.com/gnames/gnverifier/releases/tag/v0.5.2">GNVerifier</a> v.0.5.2, <a href="https://github.com/dan2097/opsin/releases/tag/2.5.0">OPSIN</a> v.2.5.0 <span class="citation" data-cites="pf43Zseq">[<a href="#ref-pf43Zseq" role="doc-biblioref">69</a>]</span></p>
+<p><a href="https://github.com/gnames/gnfinder/releases/tag/v0.16.3">GNFinder</a> v.0.16.3, <a href="https://github.com/gnames/gnverifier/releases/tag/v0.6.1">GNVerifier</a> v.0.6.1, <a href="https://github.com/dan2097/opsin/releases/tag/2.5.0">OPSIN</a> v.2.5.0 <span class="citation" data-cites="pf43Zseq">[<a href="#ref-pf43Zseq" role="doc-biblioref">69</a>]</span></p>
 <h2 id="data-availability">Data Availability</h2>
 <p>A snapshot of the obtained data at the time of submission is available at the following OSF repository (data): <a href="https://osf.io/pmgux">https://osf.io/pmgux</a>.
 The <a href="https://lotus.nprod.net">https://lotus.nprod.net</a> website is intended to gather news and features related to the LOTUS initiative in the future.</p>
