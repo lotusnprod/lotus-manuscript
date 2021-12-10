@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/dfd891110f823dda2ce67faa0795d19753ee10d6/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/dfd891110f823dda2ce67faa0795d19753ee10d6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/dfd891110f823dda2ce67faa0795d19753ee10d6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/dfd891110f823dda2ce67faa0795d19753ee10d6/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/dfd891110f823dda2ce67faa0795d19753ee10d6/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/dfd891110f823dda2ce67faa0795d19753ee10d6/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@4b4ff52](https://github.com/lotusnprod/lotus-manuscript/tree/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25)
+from [lotusnprod/lotus-manuscript@dfd8911](https://github.com/lotusnprod/lotus-manuscript/tree/dfd891110f823dda2ce67faa0795d19753ee10d6)
 on December 10, 2021.
 </em></small>
 
@@ -343,7 +343,7 @@ However, the organism field is not standardized and access to the data is not st
 One of the earliest-established electronic NP resources is the NAPRALERT dataset [@doi:10.1016/b978-008045382-8.00060-5], which was compiled over five decades from the NP literature, gathering and annotating data derived from over 200,000 primary literature sources.
 The dataset contains 200,000+ distinct compound names and structural elements, along with 500,000+ records of distinct, fully-cited structure-organism pairs.
 In total, NAPRALERT contains over 900,000 such records, due to equivalent structure-organism pairs reported in different citations.
-NAPRALERT is not an open platform, employing an access model that provides only limited free searches of the dataset.
+However, NAPRALERT is not an open platform and employs an access model that provides only limited free searches of the dataset.
 Finally, the [NPAtlas](https://www.npatlas.org) [@doi:10/gh5ptm] is a more recent project aimed at complying with the FAIR (<u>F</u>indability, <u>A</u>ccessibility, <u>I</u>nteroperability and <u>R</u>euse) guidelines for digital assets [@doi:10/bdd4] and offering web access.
 While the NPAtlas encourages submission of new compounds with their biological source, it focuses on microbial NP and ignores a wide range of biosynthetically active organisms found in the Archaeplastida.
 
