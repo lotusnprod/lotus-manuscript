@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-12-07'
+date-meta: '2021-12-10'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-12-07" />
-  <meta name="citation_publication_date" content="2021-12-07" />
+  <meta name="dc.date" content="2021-12-10" />
+  <meta name="citation_publication_date" content="2021-12-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5d20982e8f3b7975868527a328a60a5ce1cf41b9/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5d20982e8f3b7975868527a328a60a5ce1cf41b9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5d20982e8f3b7975868527a328a60a5ce1cf41b9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5d20982e8f3b7975868527a328a60a5ce1cf41b9/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5d20982e8f3b7975868527a328a60a5ce1cf41b9/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5d20982e8f3b7975868527a328a60a5ce1cf41b9/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@7f29fba](https://github.com/lotusnprod/lotus-manuscript/tree/7f29fbab6cb06c1adc0fb9d043aa6d6c34484d52)
-on December 7, 2021.
+from [lotusnprod/lotus-manuscript@5d20982](https://github.com/lotusnprod/lotus-manuscript/tree/5d20982e8f3b7975868527a328a60a5ce1cf41b9)
+on December 10, 2021.
 </em></small>
 
 ## Authors
@@ -1124,18 +1124,15 @@ If not, all three elements (biological organism, chemical structures, and refere
 
 #### Wikidata
 
-##### Import
-
-The Wikidata importer is available at [https://github.com/lotusnprod/lotus-wikidata-importer](https://github.com/lotusnprod/lotus-wikidata-importer).
-This program takes the processed data resulting from the lotusProcessor subprocess as input and uploads it to Wikidata.
+The programs to interact with Wikidata are available at [https://github.com/lotusnprod/lotus-wikidata-interact](https://github.com/lotusnprod/lotus-wikidata-interact).
+On the [upload side](https://github.com/lotusnprod/lotus-wikidata-interact/blob/main/uploadLotus/README.md), the program takes the processed data resulting from the lotusProcessor subprocess as input and uploads it to Wikidata.
 It performs a SPARQL query to check which objects already exist.
 If needed, it creates the missing objects.
 It then updates the content of each object.
 Finally, it updates the chemical compound page with a "found in taxon" statement complemented with a "stated in" reference.
+A [publication importer](https://github.com/lotusnprod/lotus-wikidata-interact/blob/main/importPublication/README.md) creating an article page from a DOI is also available.
 
-##### Export
-The Wikidata exporter is available at [https://github.com/lotusnprod/lotus-wikidata-exporter](https://github.com/lotusnprod/lotus-wikidata-exporter).
-This program takes the structured data in Wikidata corresponding to chemical compounds found in taxa with a reference associated as input and exports it in both RDF and tabular formats for further use.
+On the [download side](https://github.com/lotusnprod/lotus-wikidata-interact/blob/main/downloadLotus/README.md), the program takes the structured data in Wikidata corresponding to chemical compounds found in taxa with a reference associated as input and exports it in both RDF and tabular formats for further use.
 Two subsequent options are (a) that the end-user can directly use the exported data.; or (b) that the exported data, which can be new or modified since the last iteration, is used as new source data in lotusProcessor.
 
 ### LNPN 
@@ -1170,7 +1167,7 @@ Wikidata Importer Bot:, wdkt 0.12.1, CDK 2.5 [@doi:10/gbppnb], RDF4J 3.7.4, Ktor
 Quality control and testing: Ktlint 10.2.0, Kotlinter 3.3.0, Detekt 1.15.0, Ben Mane's version plugin 0.36.0, Junit 5.8.1
 
 #### Additional executable files
-[GNFinder](https://github.com/gnames/gnfinder/releases/tag/v0.16.3) v.0.16.3, [GNVerifier](https://github.com/gnames/gnverifier/releases/tag/v0.5.2) v.0.5.2, [OPSIN](https://github.com/dan2097/opsin/releases/tag/2.5.0) v.2.5.0 [@doi:10/b2zkr9]
+[GNFinder](https://github.com/gnames/gnfinder/releases/tag/v0.16.3) v.0.16.3, [GNVerifier](https://github.com/gnames/gnverifier/releases/tag/v0.6.1) v.0.6.1, [OPSIN](https://github.com/dan2097/opsin/releases/tag/2.5.0) v.2.5.0 [@doi:10/b2zkr9]
 
 
 ## Data Availability
