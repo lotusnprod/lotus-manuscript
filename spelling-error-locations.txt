@@ -33,9 +33,9 @@ content/02.introduction.md:34:indability
 content/02.introduction.md:34:npatlas
 content/02.introduction.md:34:NPAtlas
 content/02.introduction.md:34:nteroperability
-content/02.introduction.md:35:Archaeplastida
 content/02.introduction.md:35:biosynthetically
 content/02.introduction.md:35:NPAtlas
+content/02.introduction.md:35:Plantae
 content/02.introduction.md:37:naturalproducts
 content/02.introduction.md:39:curation
 content/02.introduction.md:40:interpretable

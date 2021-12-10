@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/dfd891110f823dda2ce67faa0795d19753ee10d6/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/dfd891110f823dda2ce67faa0795d19753ee10d6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/dfd891110f823dda2ce67faa0795d19753ee10d6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/532404b9ebf6afc4c1d171e97bf5495e1878259f/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/532404b9ebf6afc4c1d171e97bf5495e1878259f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/532404b9ebf6afc4c1d171e97bf5495e1878259f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/dfd891110f823dda2ce67faa0795d19753ee10d6/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/dfd891110f823dda2ce67faa0795d19753ee10d6/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/532404b9ebf6afc4c1d171e97bf5495e1878259f/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/532404b9ebf6afc4c1d171e97bf5495e1878259f/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/dfd891110f823dda2ce67faa0795d19753ee10d6/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/532404b9ebf6afc4c1d171e97bf5495e1878259f/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@dfd8911](https://github.com/lotusnprod/lotus-manuscript/tree/dfd891110f823dda2ce67faa0795d19753ee10d6)
+from [lotusnprod/lotus-manuscript@532404b](https://github.com/lotusnprod/lotus-manuscript/tree/532404b9ebf6afc4c1d171e97bf5495e1878259f)
 on December 10, 2021.
 </em></small>
 
@@ -345,7 +345,7 @@ The dataset contains 200,000+ distinct compound names and structural elements, a
 In total, NAPRALERT contains over 900,000 such records, due to equivalent structure-organism pairs reported in different citations.
 However, NAPRALERT is not an open platform and employs an access model that provides only limited free searches of the dataset.
 Finally, the [NPAtlas](https://www.npatlas.org) [@doi:10/gh5ptm] is a more recent project aimed at complying with the FAIR (<u>F</u>indability, <u>A</u>ccessibility, <u>I</u>nteroperability and <u>R</u>euse) guidelines for digital assets [@doi:10/bdd4] and offering web access.
-While the NPAtlas encourages submission of new compounds with their biological source, it focuses on microbial NP and ignores a wide range of biosynthetically active organisms found in the Archaeplastida.
+While the NPAtlas encourages submission of new compounds with their biological source, it focuses on microbial NP and ignores a wide range of biosynthetically active organisms found in the Plantae kingdom.
 
 Building on experience with the recently published [COlleCtion of Open NatUral producTs](https://coconut.naturalproducts.net) (COCONUT) [@doi:10/ghssx5], the LOTUS initiative seeks to address the aforementioned shortcomings.
 At its current stage of development, LOTUS disseminates 700,000+ referenced structure-organism pairs.
