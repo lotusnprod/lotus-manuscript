@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5d20982e8f3b7975868527a328a60a5ce1cf41b9/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5d20982e8f3b7975868527a328a60a5ce1cf41b9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5d20982e8f3b7975868527a328a60a5ce1cf41b9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5d20982e8f3b7975868527a328a60a5ce1cf41b9/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5d20982e8f3b7975868527a328a60a5ce1cf41b9/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5d20982e8f3b7975868527a328a60a5ce1cf41b9/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@5d20982](https://github.com/lotusnprod/lotus-manuscript/tree/5d20982e8f3b7975868527a328a60a5ce1cf41b9)
+from [lotusnprod/lotus-manuscript@4b4ff52](https://github.com/lotusnprod/lotus-manuscript/tree/4b4ff5287ce08cc37d0e2ade12d1708b00d6bc25)
 on December 10, 2021.
 </em></small>
 
@@ -316,7 +316,7 @@ The LOTUS initiative represents an important advancement in the design and deplo
 ### Evolution of Electronic Natural Products Resources
 
 Natural Products (NP) research is a transdisciplinary field with wide-ranging interests: from fundamental structural aspects of naturally-occurring molecular entities to their effects on living organisms and extending to the study of chemically-mediated interactions within entire ecosystems.
-Despite the ambiguous definition of "natural" [@doi:10.1057/s41599-020-0390-y; @doi:10/bkfd8h], the basis of our definition of a NP as a chemical entity *found in* a living organism is predicated on the identification of the explicit relationship between a naturally-occurring chemical entity and its source organism.
+Defining the "natural" qualifier is a complex task [@doi:10.1057/s41599-020-0390-y; @doi:10/bkfd8h]. We thus adopt here a broad definition of a NP as any chemical entity *found in* a living organism.
 A third fundamental element of a structure-organism pair is a reference to the experimental evidence that establishes the linkages between a chemical structure and a biological organism and a future-oriented electronic NP resource should contain only fully-referenced structure-organism pairs.
 
 Reliance on data from the NP literature presents many challenges.
