@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-12-10'
+date-meta: '2021-12-13'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-12-10" />
-  <meta name="citation_publication_date" content="2021-12-10" />
+  <meta name="dc.date" content="2021-12-13" />
+  <meta name="citation_publication_date" content="2021-12-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/532404b9ebf6afc4c1d171e97bf5495e1878259f/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/532404b9ebf6afc4c1d171e97bf5495e1878259f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/532404b9ebf6afc4c1d171e97bf5495e1878259f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/48f21df65664bf0516eb03649e2d86206cf19fa8/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/48f21df65664bf0516eb03649e2d86206cf19fa8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/48f21df65664bf0516eb03649e2d86206cf19fa8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/532404b9ebf6afc4c1d171e97bf5495e1878259f/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/532404b9ebf6afc4c1d171e97bf5495e1878259f/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/48f21df65664bf0516eb03649e2d86206cf19fa8/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/48f21df65664bf0516eb03649e2d86206cf19fa8/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/532404b9ebf6afc4c1d171e97bf5495e1878259f/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/48f21df65664bf0516eb03649e2d86206cf19fa8/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@532404b](https://github.com/lotusnprod/lotus-manuscript/tree/532404b9ebf6afc4c1d171e97bf5495e1878259f)
-on December 10, 2021.
+from [lotusnprod/lotus-manuscript@48f21df](https://github.com/lotusnprod/lotus-manuscript/tree/48f21df65664bf0516eb03649e2d86206cf19fa8)
+on December 13, 2021.
 </em></small>
 
 ## Authors
@@ -355,6 +355,7 @@ These efforts and experiences represent an intensive preliminary curatorial phas
 ### Accommodating Principles of FAIRness and TRUSTworthiness for Natural Products Knowledge Management
 
 In awareness of the multi-faceted pitfalls associated with implementing, using and maintaining classical scientific DBs [@doi:10/gc4h7x], and to enhance current and future sharing options, the LOTUS initiative selected the [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) platform for disseminating its resources.
+The idea of using Wikis to disseminate databases is not new, with multiple underlying advantages [@doi:10.1093/nar/gkr1195].
 Since its creation, Wikidata has focused on cross-disciplinary and multilingual support.
 Wikidata is curated and governed collaboratively by a global community of volunteers, about 20,000 of which are contributing monthly.
 Wikidata currently contains more than 1 billion statements in the form of subject-predicate-object triples.
