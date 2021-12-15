@@ -44,7 +44,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-bjonnh
+Bjonnh
 bkfd
 Bolzani
 Bromus
@@ -64,7 +64,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-chemodiversity
+Chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -75,7 +75,7 @@ Christoph
 Chun
 clade
 ClassyFire
-ClassyfireR
+classyfireR
 cmcrameri
 CMU
 codebase
@@ -109,7 +109,7 @@ dimers
 diterpene
 DM
 Dmitry
-dnp
+DNP
 Dockerized
 DOIs
 doit
@@ -139,7 +139,7 @@ Fidele
 FishBase
 flavolivaceus
 Flemingovo
-FooDB
+foodb
 FragmentRemover
 Fribourg
 Friedrich
@@ -168,7 +168,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerifier
 Gottlieb
@@ -189,8 +189,8 @@ idf
 IDSM
 Ilex
 iNaturalist
-InChI
-InChiKey
+inchi
+InChIKey
 indability
 indica
 Indolic
@@ -220,7 +220,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -264,7 +264,7 @@ Mietchen
 mitishamba
 modularity
 Molconvert
-molvs
+Molvs
 monogyna
 Mozzherin
 mSorok
@@ -283,7 +283,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -313,7 +313,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -361,7 +361,7 @@ Rutz
 rvest
 rwst
 sancdb
-Sanitization
+sanitization
 Scholia
 scipy
 SDF
@@ -417,15 +417,15 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-TMAP
+tmap
 tmdb
-TMMC
+tmmc
 tppt
 transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -442,7 +442,7 @@ unconserved
 underreporting
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts
