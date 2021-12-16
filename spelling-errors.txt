@@ -44,7 +44,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-Bjonnh
+bjonnh
 bkfd
 Bolzani
 Bromus
@@ -87,7 +87,7 @@ CRSII
 csteinbeck
 cstrnq
 curation
-Cyanometdb
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -109,11 +109,11 @@ dimers
 diterpene
 DM
 Dmitry
-DNP
+dnp
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -133,7 +133,7 @@ euse
 evidentiary
 EvoMRI
 EW
-Faerun
+faerun
 Fatcat
 Fidele
 FishBase
@@ -189,8 +189,8 @@ idf
 IDSM
 Ilex
 iNaturalist
-inchi
-InChIKey
+InChI
+InChiKey
 indability
 indica
 Indolic
@@ -220,7 +220,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -255,7 +255,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-Metabolomic
+metabolomic
 Metazoa
 MEYS
 mibig
@@ -264,7 +264,7 @@ Mietchen
 mitishamba
 modularity
 Molconvert
-Molvs
+molvs
 monogyna
 Mozzherin
 mSorok
@@ -273,7 +273,7 @@ MVLS
 NameBank
 náměstí
 nanpdb
-NAPRALERT
+napralert
 natively
 NaturalProducts
 NCBI
@@ -313,7 +313,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-phenolexplorer
+PhenolExplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -361,7 +361,7 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
 Scholia
 scipy
 SDF
@@ -382,11 +382,11 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -406,7 +406,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
@@ -417,9 +417,9 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-tmap
+TMAP
 tmdb
-tmmc
+TMMC
 tppt
 transdisciplinary
 transformational
@@ -433,7 +433,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger
@@ -442,7 +442,7 @@ unconserved
 underreporting
 Universiteitssingel
 Univocity
-UNPD
+unpd
 upsert
 upserting
 upserts
@@ -457,7 +457,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-Wakankensaku
+wakankensaku
 wdkt
 wdpage
 webchem
