@@ -61,7 +61,7 @@ content/02.introduction.md:62:generalistic
 content/02.introduction.md:62:LNPN
 content/02.introduction.md:63:LNPN
 content/02.introduction.md:64:LNPN
-content/02.introduction.md:67:phytochemistry
+content/02.introduction.md:67:pharmacognosy
 content/02.introduction.md:68:eg
 content/02.introduction.md:68:genbank
 content/02.introduction.md:68:Genbank

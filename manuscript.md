@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/c2e62865229bf634695130d850518ecca39cff70/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/c2e62865229bf634695130d850518ecca39cff70/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/c2e62865229bf634695130d850518ecca39cff70/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/ee9ded64cd785a112d5efc85a3f09ca783f8532a/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ee9ded64cd785a112d5efc85a3f09ca783f8532a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ee9ded64cd785a112d5efc85a3f09ca783f8532a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/c2e62865229bf634695130d850518ecca39cff70/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/c2e62865229bf634695130d850518ecca39cff70/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ee9ded64cd785a112d5efc85a3f09ca783f8532a/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ee9ded64cd785a112d5efc85a3f09ca783f8532a/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/c2e62865229bf634695130d850518ecca39cff70/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/ee9ded64cd785a112d5efc85a3f09ca783f8532a/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@c2e6286](https://github.com/lotusnprod/lotus-manuscript/tree/c2e62865229bf634695130d850518ecca39cff70)
+from [lotusnprod/lotus-manuscript@ee9ded6](https://github.com/lotusnprod/lotus-manuscript/tree/ee9ded64cd785a112d5efc85a3f09ca783f8532a)
 on December 17, 2021.
 </em></small>
 
@@ -377,8 +377,8 @@ LNPN is periodically updated with the latest LOTUS data.
 This dual hosting provides an integrated, community-curated and vast knowledge base (*via* Wikidata), as well as a NP community-oriented product with tailored search modes (*via* LNPN). The multiple data interaction options should establish the basis for the transparent and sustainable access, sharing and creation of knowledge on NP occurrence.
 
 
-The LOTUS initiative was initially launched to answer our need to access the most comprehensive compilation of biological occurrences of natural products. Indeed, recently, we highlighted the interest of considering the taxonomic dimension when annotating metabolites [@doi:10/fm73]. This being said, many other concrete applications can result from an access by the scientific community to the occurrence data released by the LOTUS initiative. For example, such a resource will facilitate the exploration of eco-evolutionary mechanisms at the molecular level [@doi:10/ghssx4]. In terms of drug discovery, these resources are extremely valuable to orient and guide researchers interested in a particular substructure of interest. On the same theme, LOTUS is expected to be the perfect place to encounter "molecular arguments" for biodiversity conservation [@doi:10.1046/j.1365-2664.2003.00803.x]. Researchers interested in the history of science will be able, through this kind of resource, to have a general and dynamic view of the temporal evolution of disciplines such as phytochemistry.
-More generally, the objective of the LOTUS initiative is to prepare the ground for an electronic and globally accessible resource that would be the counterpart, at the metabolite level, of established databases linking proteins and biological organisms (eg. [Uniprot](https://www.uniprot.org/)) and genes and biological organisms ([Genbank](https://www.ncbi.nlm.nih.gov/genbank/)). Once such an objective is reached, it will be possible to interconnect the three central objects of the living, i.e. molecules, proteins and genetic material, through the common entity of these three great types of resources, the biological organism. Such an interconnection, fosters cross-fertilization of the fields of chemistry, biology and associated disciplines and is desirable and necessary to advance towards a better understanding of Life.
+The LOTUS initiative was initially launched to answer our need to access the most comprehensive compilation of biological occurrences of natural products. Indeed, recently, we highlighted the interest of considering the taxonomic dimension when annotating metabolites [@doi:10/fm73]. This being said, many other concrete applications can result from an access by the scientific community to the LOTUS initiative data. For example, such a resource will facilitate the exploration of eco-evolutionary mechanisms at the molecular level [@doi:10/ghssx4]. In terms of drug discovery, this resource is extremely valuable to orient and guide researchers interested in a structure of interest. On the same theme, LOTUS is expected to be the perfect place to encounter "molecular arguments" for biodiversity conservation [@doi:10.1046/j.1365-2664.2003.00803.x]. Researchers interested in the history of science will be able, through this kind of resource, to gain a preliminary view of the temporal evolution of disciplines such as pharmacognosy.
+More generally, the objective of the LOTUS initiative is to prepare the ground for an electronic and globally accessible resource that would be the counterpart, at the metabolite level, of established databases linking proteins to biological organisms (eg. [Uniprot](https://www.uniprot.org/)) and genes to biological organisms ([Genbank](https://www.ncbi.nlm.nih.gov/genbank/)). Once such an objective is reached, it will be possible to interconnect the three central objects of the living, i.e. metabolites, proteins and genes, through the common entity of these resources, the biological organism. Such an interconnection, fosters cross-fertilization of the fields of chemistry, biology and associated disciplines and is desirable and necessary to advance towards a better understanding of Life.
 
 
 
