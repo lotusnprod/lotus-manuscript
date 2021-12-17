@@ -460,6 +460,7 @@ content/04.conclusion-perspectives.md:39:Chemodiversity
 content/04.conclusion-perspectives.md:41:granularities
 content/04.conclusion-perspectives.md:44:ChEBI
 content/04.conclusion-perspectives.md:44:ClassyFire
+content/04.conclusion-perspectives.md:44:emericellolide
 content/04.conclusion-perspectives.md:44:NPClassifier
 content/04.conclusion-perspectives.md:45:biosynthetic
 content/04.conclusion-perspectives.md:46:wikipathways
