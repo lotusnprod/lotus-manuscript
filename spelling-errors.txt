@@ -3,7 +3,7 @@ adafede
 Adriano
 afrotryp
 alkamid
-Allard
+allard
 Amoebozoa
 AmphibiaWeb
 Angelshark
@@ -44,7 +44,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-Bjonnh
+bjonnh
 bkfd
 Bolzani
 Bromus
@@ -75,7 +75,7 @@ Christoph
 Chun
 clade
 ClassyFire
-ClassyfireR
+classyfireR
 cmcrameri
 CMU
 codebase
@@ -113,7 +113,7 @@ DNP
 Dockerized
 DOIs
 doit
-drduke
+DrDuke
 DTGCRPNFSA
 eBird
 echnology
@@ -146,7 +146,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 Gaudry
 GBIF
 gdata
@@ -195,7 +195,7 @@ InChI
 InChIKey
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -257,7 +257,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-Metabolomic
+metabolomic
 Metazoa
 MEYS
 mibig
@@ -277,7 +277,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Ngozi
@@ -384,11 +384,11 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-squatina
+Squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -419,7 +419,7 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-tmap
+TMAP
 tmdb
 TMMC
 tppt
@@ -427,7 +427,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -435,7 +435,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger
@@ -445,7 +445,7 @@ underreporting
 Uniprot
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts
@@ -460,7 +460,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-Wakankensaku
+wakankensaku
 wdkt
 wdpage
 webchem
