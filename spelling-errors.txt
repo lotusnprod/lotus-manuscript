@@ -3,7 +3,7 @@ adafede
 Adriano
 afrotryp
 alkamid
-Allard
+allard
 Amoebozoa
 AmphibiaWeb
 Angelshark
@@ -44,7 +44,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-bjonnh
+Bjonnh
 bkfd
 Bolzani
 Bromus
@@ -113,7 +113,7 @@ dnp
 Dockerized
 DOIs
 doit
-drduke
+DrDuke
 DTGCRPNFSA
 eBird
 echnology
@@ -135,13 +135,13 @@ euse
 evidentiary
 EvoMRI
 EW
-faerun
+Faerun
 Fatcat
 Fidele
 FishBase
 flavolivaceus
 Flemingovo
-foodb
+FooDB
 FragmentRemover
 Fribourg
 Friedrich
@@ -171,7 +171,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerifier
 Gottlieb
@@ -286,7 +286,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -314,9 +314,9 @@ pamdb
 parallelization
 pbmcapply
 Pflanzen
-pharmacognosy
+Pharmacognosy
 Phasmida
-phenolexplorer
+PhenolExplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -345,7 +345,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 Reionization
@@ -385,7 +385,7 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
@@ -409,7 +409,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
@@ -420,9 +420,9 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-TMAP
+tmap
 tmdb
-tmmc
+TMMC
 tppt
 transdisciplinary
 transformational
@@ -446,7 +446,7 @@ underreporting
 Uniprot
 Universiteitssingel
 Univocity
-UNPD
+unpd
 upsert
 upserting
 upserts
@@ -476,6 +476,7 @@ Wolfender
 Xiao
 Xtools
 Youtrack
+Zenodo
 Zephyranthes
 zeylanica
 zeylanicus

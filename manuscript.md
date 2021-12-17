@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/ee9ded64cd785a112d5efc85a3f09ca783f8532a/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ee9ded64cd785a112d5efc85a3f09ca783f8532a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ee9ded64cd785a112d5efc85a3f09ca783f8532a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/92833166375aa9cc29f44cffdd5ad693fa42934c/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/92833166375aa9cc29f44cffdd5ad693fa42934c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/92833166375aa9cc29f44cffdd5ad693fa42934c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ee9ded64cd785a112d5efc85a3f09ca783f8532a/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ee9ded64cd785a112d5efc85a3f09ca783f8532a/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/92833166375aa9cc29f44cffdd5ad693fa42934c/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/92833166375aa9cc29f44cffdd5ad693fa42934c/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/ee9ded64cd785a112d5efc85a3f09ca783f8532a/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/92833166375aa9cc29f44cffdd5ad693fa42934c/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@ee9ded6](https://github.com/lotusnprod/lotus-manuscript/tree/ee9ded64cd785a112d5efc85a3f09ca783f8532a)
+from [lotusnprod/lotus-manuscript@9283316](https://github.com/lotusnprod/lotus-manuscript/tree/92833166375aa9cc29f44cffdd5ad693fa42934c)
 on December 17, 2021.
 </em></small>
 
@@ -569,6 +569,10 @@ To ensure that data is kept up-to-date, SMILES codes are automatically downloade
 The endpoint allows users to run [federated queries](https://www.w3.org/TR/sparql11-federated-query) and, thereby, proceed to structure-oriented searches on the LOTUS data hosted at Wikidata.
 For example, the SPARQL query [https://w.wiki/4VG9](https://w.wiki/4VG9) returns a list of all organisms that produce NP with an indolic scaffold.
 The output is aggregated at the parent taxa level of the containing organisms and ranked by the number of scaffold occurrences.
+
+Wikidata being a dynamic environment, the versioning aspects imply some challenges. However, tracking of the data dynamics can be achieved in multiple ways and at different levels: at the full Wikidata level, dumps are regularly created (https://dumps.wikimedia.org/wikidatawiki/entities) while at the individual entry level the full history of modification can be consulted (see following link for the full edit history of erythromycin https://www.wikidata.org/w/index.php?title=Q213511&action=history).
+
+We propose to the users a simple approach to document, version and share the output of queries on the LOTUS data at a defined time point. For this, in addition to sharing the short url of a the SPARQL query (which will return results evolving over time), a simple archiving of the returned table to Zenodo or similar platform can be done. In order to gather results of SPARQL queries we established [the LOTUS Initiative Community repository](https://zenodo.org/communities/the-lotus-initiative/). The following link allows to directly contribute to the community repository https://zenodo.org/deposit/new?c=the-lotus-initiative. For example the output of this Wikidata SPARQL query https://w.wiki/4N8G realized on the 2021-11-10T16:56 can be easily archived and shared in a publication via its DOI ​​(https://doi.org/10.5281/zenodo.5668380).
 
 ##### Lotus.NaturalProducts.Net (LNPN)
 
