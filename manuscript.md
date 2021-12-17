@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-12-16'
+date-meta: '2021-12-17'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-12-16" />
-  <meta name="citation_publication_date" content="2021-12-16" />
+  <meta name="dc.date" content="2021-12-17" />
+  <meta name="citation_publication_date" content="2021-12-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e3aad94eb54d5d640dd63c68130f7dc9d4f34a4e/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e3aad94eb54d5d640dd63c68130f7dc9d4f34a4e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e3aad94eb54d5d640dd63c68130f7dc9d4f34a4e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/67c4fbdae130b737dfc6acc3da0b6099d5ac2fb9/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/67c4fbdae130b737dfc6acc3da0b6099d5ac2fb9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/67c4fbdae130b737dfc6acc3da0b6099d5ac2fb9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e3aad94eb54d5d640dd63c68130f7dc9d4f34a4e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e3aad94eb54d5d640dd63c68130f7dc9d4f34a4e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/67c4fbdae130b737dfc6acc3da0b6099d5ac2fb9/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/67c4fbdae130b737dfc6acc3da0b6099d5ac2fb9/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/e3aad94eb54d5d640dd63c68130f7dc9d4f34a4e/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/67c4fbdae130b737dfc6acc3da0b6099d5ac2fb9/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@e3aad94](https://github.com/lotusnprod/lotus-manuscript/tree/e3aad94eb54d5d640dd63c68130f7dc9d4f34a4e)
-on December 16, 2021.
+from [lotusnprod/lotus-manuscript@67c4fbd](https://github.com/lotusnprod/lotus-manuscript/tree/67c4fbdae130b737dfc6acc3da0b6099d5ac2fb9)
+on December 17, 2021.
 </em></small>
 
 ## Authors
@@ -347,7 +347,7 @@ However, NAPRALERT is not an open platform and employs an access model that prov
 Finally, the [NPAtlas](https://www.npatlas.org) [@doi:10/gh5ptm] is a more recent project aimed at complying with the FAIR (<u>F</u>indability, <u>A</u>ccessibility, <u>I</u>nteroperability and <u>R</u>euse) guidelines for digital assets [@doi:10/bdd4] and offering web access.
 While the NPAtlas encourages submission of new compounds with their biological source, it focuses on microbial NP and ignores a wide range of biosynthetically active organisms found in the Plantae kingdom.
 
-Building on experience with the recently published [COlleCtion of Open NatUral producTs](https://coconut.naturalproducts.net) (COCONUT) [@doi:10/ghssx5], the LOTUS initiative seeks to address the aforementioned shortcomings.
+Building on experience gained with the recently published [COlleCtion of Open NatUral producTs](https://coconut.naturalproducts.net) (COCONUT) [@doi:10/ghssx5], the LOTUS initiative seeks to address the aforementioned shortcomings.
 At its current stage of development, LOTUS disseminates 700,000+ referenced structure-organism pairs.
 After extensive data curation and harmonization, each pair was standardized at the chemical, biological and reference levels.
 These efforts and experiences represent an intensive preliminary curatorial phase and the first major step towards providing a high quality, computer-interpretable knowledge base capable of transforming NP research data management from a classical (siloed) database approach to an optimally-shared resource.
@@ -370,11 +370,17 @@ LOTUS' data upload and retrieval procedures ensure optimal accessibility by the 
 Despite many advantages, Wikidata hosting has some notable, yet manageable drawbacks.
 While its SPARQL query language offers a powerful way to query available data, it can also appear intimidating to the less experienced user.
 Furthermore, some typical queries of molecular electronic NP resources such as structural or spectral searches are not yet available in Wikidata.
-To bridge this gap, LOTUS is hosted in parallel at [https://lotus.naturalproducts.net](https://lotus.naturalproducts.net) (LNPN) within the naturalproducts.net ecosystem.
+To address these shortcomings, LOTUS is hosted in parallel at [https://lotus.naturalproducts.net](https://lotus.naturalproducts.net) (LNPN) within the naturalproducts.net ecosystem.
 The [Natural Products Online](https://naturalproducts.net) is a portal for open-source and open-data resources for NP research.
 In addition to the generalistic COCONUT and LNPN databases, the portal will enable hosting of arbitrary and skinned collections, themed in particular by species or taxonomic clade, by geographic location or by institution, together with a range of cheminformatics tools for NP research.
 LNPN is periodically updated with the latest LOTUS data.
 This dual hosting provides an integrated, community-curated and vast knowledge base (*via* Wikidata), as well as a NP community-oriented product with tailored search modes (*via* LNPN).
+
+The LOTUS initiative was initially launched to answer our need to access the most complete source possible compiling biological occurrences of natural products. Indeed, recently, we highlighted the interest of considering the taxonomic dimension when annotating metabolites.[@doi:10/fm73].
+
+The LOTUS initiative was initially launched to answer our need to access the most comprehensive compilation of biological occurrences of natural products. Indeed, recently, we highlighted the interest of considering the taxonomic dimension when annotating metabolites [@doi:10/fm73]. This being said, many other concrete applications can result from an access by the scientific community to the occurrence data released by the LOTUS initiative. For example, such a resource will facilitate the exploration of eco-evolutionary mechanisms at the molecular level [@doi:10/ghssx4]. In terms of drug discovery, these resources are extremely valuable to orient and guide researchers interested in a particular substructure of interest. On the same theme, LOTUS is expected to be the perfect place to encounter "molecular arguments" for biodiversity conservation [@doi:10.1046/j.1365-2664.2003.00803.x]. Researchers interested in the history of science will be able, through this kind of resource, to have a general and dynamic view of the temporal evolution of disciplines such as phytochemistry.
+More generally, the objective of the LOTUS initiative is to prepare the ground for an electronic and globally accessible resource that would be the counterpart, at the metabolite level, of established databases linking proteins and biological organisms (eg. [Uniprot](https://www.uniprot.org/)) and genes and biological organisms ([Genbank](https://www.ncbi.nlm.nih.gov/genbank/)). Once such an objective is reached, it will be possible to interconnect the three central objects of the living, i.e. molecules, proteins and genetic material, through the common entity of these three great types of resources, the biological organism. Such an interconnection is desirable and necessary to advance towards a better understanding of Life.
+
 
 The LOTUS initiative and its multiple data interaction options establish the basis for transparent and sustainable access, sharing and creation of knowledge on NP occurrence.
 LOTUS represents an important advancement in the design and deployment of a comprehensive and collaborative NP knowledge base.

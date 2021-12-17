@@ -61,6 +61,13 @@ content/02.introduction.md:62:generalistic
 content/02.introduction.md:62:LNPN
 content/02.introduction.md:63:LNPN
 content/02.introduction.md:64:LNPN
+content/02.introduction.md:68:phytochemistry
+content/02.introduction.md:69:eg
+content/02.introduction.md:69:genbank
+content/02.introduction.md:69:Genbank
+content/02.introduction.md:69:ncbi
+content/02.introduction.md:69:uniprot
+content/02.introduction.md:69:Uniprot
 content/03.results-discussion.md:4:curation
 content/03.results-discussion.md:7:dataset
 content/03.results-discussion.md:11:subproject
