@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e5b1437f05e733fa2dd01f3c11dec0427b6da136/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e5b1437f05e733fa2dd01f3c11dec0427b6da136/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e5b1437f05e733fa2dd01f3c11dec0427b6da136/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/7317531a42e99d39528e24faf5cb4935e413e745/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/7317531a42e99d39528e24faf5cb4935e413e745/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/7317531a42e99d39528e24faf5cb4935e413e745/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e5b1437f05e733fa2dd01f3c11dec0427b6da136/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e5b1437f05e733fa2dd01f3c11dec0427b6da136/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/7317531a42e99d39528e24faf5cb4935e413e745/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/7317531a42e99d39528e24faf5cb4935e413e745/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/e5b1437f05e733fa2dd01f3c11dec0427b6da136/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/7317531a42e99d39528e24faf5cb4935e413e745/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@e5b1437](https://github.com/lotusnprod/lotus-manuscript/tree/e5b1437f05e733fa2dd01f3c11dec0427b6da136)
+from [lotusnprod/lotus-manuscript@7317531](https://github.com/lotusnprod/lotus-manuscript/tree/7317531a42e99d39528e24faf5cb4935e413e745)
 on December 17, 2021.
 </em></small>
 
@@ -776,15 +776,15 @@ In addition to facilitating the introduction of new data, it also provides a for
 ### Fostering FAIRness and TRUSTworthiness
 
 The LOTUS harmonized data and dissemination of referenced structure-organism pairs through Wikidata, enables novel forms of queries and transformational perspectives in NP research.
-As LOTUS follows the guidelines of FAIRness and TRUSTworthiness, all researchers across disciplines can benefit from this opportunity, whether the interest is in ecology and evolution, chemical ecology, drug discovery, biosynthesis pathway elucidation, chemotaxonomy, or other research fields that connect with NP.
+As LOTUS follows the guidelines of FAIRness and TRUSTworthiness, all researchers across disciplines can benefit from this opportunity, whether the interest is in ecology and evolution, chemical ecology, drug discovery, biosynthesis pathway elucidation, chemotaxonomy, or other research fields connected with NP.
 
-The introduction of LOTUS even provides a new opportunity to advance the FAIR guiding principles for scientific data management and stewardship originally established in 2016 [@doi:10/bdd4].
+
 Researchers worldwide uniformly acknowledge the limitations caused by the intrinsic unavailability of essential (raw) data [@doi:10.1039/c6np00022c].
-In addition to being FAIR, LOTUS data is also open with a clear license, as closed data sadly still is a major impediment to advancement in science [@doi:10.1038/npre.2008.1526.1].
-The lack of progress is, at least in part, due to elements in the dissemination channels of the classical print and static PDF publication formats that complicate or sometimes even discourage data sharing, e.g., due to page limitations and economically motivated mechanisms, including those involved in the focus on and calculation of journal impact factors.
+In addition to being FAIR, LOTUS data is also open with a clear license, while closed data is still sadly a major impediment to advancement of science [@doi:10.1038/npre.2008.1526.1].
+The lack of progress in such direction is partly due to elements in the dissemination channels of the classical print and static PDF publication formats that complicate or sometimes even discourage data sharing, e.g., due to page limitations and economically motivated mechanisms, including those involved in the focus on and calculation of journal impact factors.
 In particular raw data such as experimental readings, spectroscopic data, instrumental measurements, statistical, and other calculations are valued by all, but disseminated by only very few.
 The immense value of raw data and the desire to advance the public dissemination has recently been documented in detail for nuclear magnetic resonance (NMR) spectroscopic data by a large consortium of NP researchers [@doi:10.1039/c7np00064b].
-However, to generate the vital flow of contributed data, the effort associated with preparing and submitting content to open repositories as well as data reuse should be better acknowledged in academia, government, regulatory, and industrial environments [@doi:10/gh533h; @doi:10/gfnxpj; @doi:10/gf3j9t].
+However, to generate the vital flow of contributed data, the effort associated with preparing and submitting content to open repositories as well as data reuse should be better acknowledged in academia, government, regulatory, and industrial environments [@doi:10/gh533h; @doi:10/gfnxpj; @doi:10/gf3j9t]. The introduction of LOTUS provides here a new opportunity to advance the FAIR guiding principles for scientific data management and stewardship established in 2016 [@doi:10/bdd4].
 
 ### Opening New Perspectives for Spectral Data
 
