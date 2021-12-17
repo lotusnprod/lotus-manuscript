@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d28585f52d4c2501af60ca55a2e05d18aef74fd1/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d28585f52d4c2501af60ca55a2e05d18aef74fd1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d28585f52d4c2501af60ca55a2e05d18aef74fd1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e5b1437f05e733fa2dd01f3c11dec0427b6da136/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e5b1437f05e733fa2dd01f3c11dec0427b6da136/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e5b1437f05e733fa2dd01f3c11dec0427b6da136/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d28585f52d4c2501af60ca55a2e05d18aef74fd1/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d28585f52d4c2501af60ca55a2e05d18aef74fd1/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e5b1437f05e733fa2dd01f3c11dec0427b6da136/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e5b1437f05e733fa2dd01f3c11dec0427b6da136/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d28585f52d4c2501af60ca55a2e05d18aef74fd1/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/e5b1437f05e733fa2dd01f3c11dec0427b6da136/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@d28585f](https://github.com/lotusnprod/lotus-manuscript/tree/d28585f52d4c2501af60ca55a2e05d18aef74fd1)
+from [lotusnprod/lotus-manuscript@e5b1437](https://github.com/lotusnprod/lotus-manuscript/tree/e5b1437f05e733fa2dd01f3c11dec0427b6da136)
 on December 17, 2021.
 </em></small>
 
@@ -763,15 +763,15 @@ This understanding is of utmost importance for the chemotaxonomic field and will
 
 ### Advancing Natural Products Knowledge
 
-At its current development stage, data harmonized and curated throughout the LOTUS initiative remain imperfect and, by the very nature of research, at least partially biased (see [Introduction](#introduction)).
+At its current development stage, data harmonized and curated throughout the LOTUS initiative remains imperfect and, by the very nature of research, at least partially biased (see [Introduction](#introduction)).
 In the context of bioactive NP research, and due to global editorial practices, it should not be ignored that many publications tend to emphasize new compounds and/or those for which interesting bioactivity has been measured.
 Near-ubiquitous (primarily plant-based) compounds tend to be overrepresented in the NP literature, yet the implication of their wide distribution in nature and associated patterns of broad, non-specific activity are often underappreciated [@doi:10.1021/acs.jmedchem.5b01009].
 Ideally, all characterized compounds independent of structural novelty and/or bioactivity profile should be documented, and the expansion of verified structure-organism pairs is fundamental to the advancement of NP research.
 
 The LOTUS initiative provides a framework for rigorous review and incorporation of new records and already presents a valuable overview of the distribution of NP occurrences studied to date.
-While current data presents a reasonable approximation of the chemistries of a few well-studied organisms such as *Arabidopsis thaliana*, they remain patchy for many other organisms represented in the dataset.
-Community participation is the most efficient means of achieving more comprehensive documentation of NP occurrences, and the comprehensive editing opportunities provided within LOTUS and through the associated Wikidata distribution platform open new opportunities for collaborative engagement.
-In addition to facilitating the introduction of new data, it also provides a forum for critical review of existing data, as well as harmonization and verification of existing NP datasets as they come online.
+While current data presents a reasonable approximation of the chemistries of a few well-studied organisms such as *Arabidopsis thaliana*, it remains patchy for many other organisms represented in the dataset.
+Community participation is the most efficient means of achieving a better documentation of NP occurrences, and the comprehensive editing opportunities provided within LOTUS and through the associated Wikidata distribution platform open new opportunities for such collaborative engagement.
+In addition to facilitating the introduction of new data, it also provides a forum for critical review of existing data (see an example of wikidata Talk page [here](https://www.wikidata.org/wiki/Talk:Q104916955)), as well as harmonization and verification of existing NP datasets as they come online.
 
 ### Fostering FAIRness and TRUSTworthiness
 
