@@ -3,7 +3,7 @@ adafede
 Adriano
 afrotryp
 alkamid
-allard
+Allard
 Amoebozoa
 AmphibiaWeb
 Angelshark
@@ -31,7 +31,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-bioactive
+Bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -44,7 +44,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-Bjonnh
+bjonnh
 bkfd
 Bolzani
 Bromus
@@ -64,7 +64,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-Chemodiversity
+chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -113,7 +113,7 @@ dnp
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -147,7 +147,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 Gaudry
 GBIF
 gdata
@@ -171,7 +171,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -192,8 +192,8 @@ idf
 IDSM
 Ilex
 iNaturalist
-InChI
-InChiKey
+inchi
+InChIKey
 indability
 indica
 indolic
@@ -276,9 +276,9 @@ MVLS
 NameBank
 náměstí
 nanpdb
-napralert
+NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Ngozi
@@ -286,7 +286,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -314,9 +314,9 @@ pamdb
 parallelization
 pbmcapply
 Pflanzen
-Pharmacognosy
+pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -364,7 +364,7 @@ Rutz
 rvest
 rwst
 sancdb
-Sanitization
+sanitization
 Scholia
 scipy
 SDF
@@ -385,11 +385,11 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-squatina
+Squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -428,7 +428,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-trigocherrin
+Trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -446,7 +446,7 @@ underreporting
 Uniprot
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts
@@ -461,7 +461,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-wakankensaku
+Wakankensaku
 wdkt
 wdpage
 webchem
