@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/80fe26f6a6b3c550791f06af5de46f638804344f/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/80fe26f6a6b3c550791f06af5de46f638804344f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/80fe26f6a6b3c550791f06af5de46f638804344f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/80fe26f6a6b3c550791f06af5de46f638804344f/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/80fe26f6a6b3c550791f06af5de46f638804344f/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/80fe26f6a6b3c550791f06af5de46f638804344f/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@5fcb6c6](https://github.com/lotusnprod/lotus-manuscript/tree/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e)
+from [lotusnprod/lotus-manuscript@80fe26f](https://github.com/lotusnprod/lotus-manuscript/tree/80fe26f6a6b3c550791f06af5de46f638804344f)
 on December 21, 2021.
 </em></small>
 
@@ -302,7 +302,7 @@ Contemporary bioinformatic and chemoinformatic capabilities hold promise to resh
 Currently, reliance on a disparate set of non-standardized, insular, and specialized databases presents a series of challenges to data access, either within the discipline or to integration and interoperability between related domains.
 The fundamental elements of exchange are referenced structure-organism pairs that establish relationships between distinct molecular structures and the living organisms from which they were identified.
 Consolidating and sharing such information *via* an open platform has strong transformative potential for natural products research and beyond.
-This is the ultimate goal of the newly established LOTUS initiative, which has now completed the first steps toward the harmonization, curation, validation and open dissemination of 700,000+ referenced structure-organism pairs.
+This is the ultimate goal of the newly established LOTUS initiative, which has now completed the first steps toward the harmonization, curation, validation and open dissemination of 750,000+ referenced structure-organism pairs.
 LOTUS data is hosted on Wikidata and regularly mirrored on [https://lotus.naturalproducts.net](https://lotus.naturalproducts.net).
 Data sharing within the Wikidata framework broadens data access and interoperability, opening new possibilities for community curation and evolving publication models.
 Furthermore, embedding LOTUS data into the vast Wikidata knowledge graph will facilitate new biological and chemical insights.
@@ -348,7 +348,7 @@ Finally, the [NPAtlas](https://www.npatlas.org) [@doi:10/gh5ptm] is a more recen
 While the NPAtlas encourages submission of new compounds with their biological source, it focuses on microbial NP and ignores a wide range of biosynthetically active organisms found in the Plantae kingdom.
 
 Building on experience gained with the recently published [COlleCtion of Open NatUral producTs](https://coconut.naturalproducts.net) (COCONUT) [@doi:10/ghssx5], the LOTUS initiative seeks to address the aforementioned shortcomings.
-At its current stage of development, LOTUS disseminates 700,000+ referenced structure-organism pairs.
+At its current stage of development, LOTUS disseminates 750,000+ referenced structure-organism pairs.
 After extensive data curation and harmonization, each pair was standardized at the chemical, biological and reference levels.
 These efforts and experiences represent an intensive preliminary curatorial phase and the first major step towards providing a high quality, computer-interpretable knowledge base capable of transforming NP research data management from a classical (siloed) database approach to an optimally-shared resource.
 
@@ -415,7 +415,7 @@ The overall process leading to referenced and curated structure-organisms pairs 
 By design, this iterative process fosters community participation, essential to efficiently document NP occurrences.
 All stages of the workflow are described on the git sites of the LOTUS initiative at [https://github.com/lotusnprod](https://github.com/lotusnprod) and in the [methods](#Methods).
 At the time of writing, 700,000+ LOTUS entries contained a curated chemical structure, biological organism and reference and were available on both Wikidata and LNPN.
-As the LOTUS data volume is expected to increase over time, a frozen (as of 2021-05-23), tabular version of this dataset with its associated metadata is made available at [https://osf.io/eydjs](https://osf.io/eydjs).
+As the LOTUS data volume is expected to increase over time, a frozen (as of 2021-12-20), tabular version of this dataset with its associated metadata is made available at [https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106].
 
 ### Data Harmonization
 
@@ -446,7 +446,7 @@ The parameters of the automatic filtering are available as a function ([filter_d
 The filtering was then applied to all entries.
 To confirm the efficacy of the filtering process, a new subset of 100 diverse, automatically curated and automatically validated entries was manually checked, yielding a rate of 97% of true positives.
 The detailed results of the two manual validation steps are reported in Supporting Information [SI-2](#si-2-summary-of-the-validation-statistics).
-The resulting data is also available in the dataset shared at [https://osf.io/eydjs](https://osf.io/eydjs).
+The resulting data is also available in the dataset shared at [https://osf.io/8wh9y](https://osf.io/8wh9y).
 Table @tbl:examples shows an example of a referenced structure-organism pair before and after curation.
 This process resolved the structure to an InChIKey, the organism to a valid taxonomic name and the reference to a DOI, thereby completing the essential referenced structure-organism pair.
 
@@ -466,12 +466,12 @@ The alluvial plot in Figure @fig:alluvial illustrates the individual contributio
 The figure highlights, for example, the essential contribution of the references DOI category to the final validated entries. 
 Similar pattern can be seen concerning structures, where the validation rate of structural identifiers is higher than chemical names.
 The combination of the results of the automated curation pipeline and the manually curated entries led to the establishment of four categories (manually validated, manually rejected, automatically validated and automatically rejected) of the referenced structure-organism pairs that formed the processed part of the SSOT.
-Out of a total of 2.5M+ initial pairs, the manual and automatic validation retained 700,000+ pairs (approximately 30%), which were then selected for dissemination on Wikidata.
+Out of a total of 2.5M+ initial pairs, the manual and automatic validation retained 750,000+ pairs (approximately 30%), which were then selected for dissemination on Wikidata.
 Among validated entries, multiple ones were redundant among the source databases, thus also explaining the decrease of entries between the initial pairs and validated ones.
 Moreover, because data quality was favored over quantity, the number of rejected entries is high.
 Among them, multiple correct entries were certainly falsely rejected, but still not disseminated. 
 All rejected entries were kept aside for later manual inspection and validation.
-In the end, the disseminated data contained 250,000+ unique chemical structures, 30,000+ distinct organisms and 75,000+ references.
+In the end, the disseminated data contained 290,000+ unique chemical structures, 40,000+ distinct organisms and 75,000+ references.
 
 
 ### Data Dissemination
@@ -510,7 +510,7 @@ The following gives examples of how to retrieve, add and edit LOTUS data.
 
 LOTUS data can be queried and retrieved either directly in Wikidata or on LNPN, both of which have distinct advantages.
 While Wikidata offers modularity at the cost of potentially complex access to the data, LNPN has a graphical user interface with capabilities of drawing chemical structure, simplified structural or biological filtering and advanced chemical descriptors, albeit with a more rigid structure.
-For bulk download, a frozen version of LOTUS data (timestamp of 2021-05-23) is also available at [https://osf.io/eydjs](https://osf.io/eydjs).
+For bulk download, a frozen version of LOTUS data (timestamp of 2021-12-20) is also available at [https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106].
 More refined approaches to the direct interrogation of the up-to-date LOTUS data both in Wikidata and LNPN are detailed in the following.
 
 ##### Wikidata
@@ -547,7 +547,7 @@ The queries presented in Table @tbl:queries are only a few examples and many oth
 Generic queries can be used, for example, for hypothesis generation when starting a research project.
 For instance, a generic SPARQL query - listed in Table @tbl:queries as "Which are the available referenced structure-organism pairs?" - retrieves all structures, identified by their InChIKey ([P235](https://www.wikidata.org/wiki/Property:P235)), which contain "found in taxon" ([P703](https://www.wikidata.org/wiki/Property:P703)) statements that are stated in ([P248](https://www.wikidata.org/wiki/Property:P248)) a bibliographic reference: [https://w.wiki/4VFh](https://w.wiki/4VFh).
 Data can then be exported in various formats, such as classical tabular formats, json, or html tables (see Download tab on the lower right of the query frame).
-At the time of writing (2021-05-05), this query (without the LIMIT 1000) returned 797,123 entries; a frozen query result is available at [https://osf.io/thqaw](https://osf.io/thqaw).
+At the time of writing (2021-12-20), this query (without the LIMIT 1000) returned 951,800 entries; a frozen query result is available at [https://doi.org/10.5281/zenodo.5668854](https://doi.org/10.5281/zenodo.5668854) [@doi:10.5281/zenodo.5668854].
 
 Targeted queries allowing to interrogate LOTUS data from the perspective of one of the three objects forming the referenced structure-organism pairs can also be built.
 Users can, for example, retrieve a list of all structures reported from a given organism, such as all structures reported from *Arabidopsis thaliana* ([Q158695](https://www.wikidata.org/wiki/Q158695)) or its children taxa ([https://w.wiki/4Vcv](https://w.wiki/4Vcv)).
@@ -651,7 +651,7 @@ Furthermore, the individual electronic NP resources participation in LOTUS data 
 Across these figures we take again the two previous examples, i.e, *β*-sitosterol as chemical structure and *Arabidopsis thaliana* as biological organism because of their well-documented statuses.
 Finally, a biologically-interpreted chemical tree and a chemically-interpreted biological tree are presented (Figure @fig:tmap and Figure @fig:magicTree).
 The examples illustrate the overall chemical and biological coverage of LOTUS by linking family-specific classes of chemical structures to their taxonomic position.
-Table @tbl:distribution, Figures @fig:distribution, @fig:tmap and @fig:magicTree were generated using the frozen data (2021-05-23 timestamp), which is available for download at [https://osf.io/eydjs](https://osf.io/eydjs).
+Table @tbl:distribution, Figures @fig:distribution, @fig:tmap and @fig:magicTree were generated using the frozen data (2021-12-20 timestamp), which is available for download at [https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106].
 Figure @fig:upset required a dataset containing information from closed resources and the complete data used for its generation is therefore not available for public distribution.
 All scripts used for the generation of the figures (including [SI-5](#si-5-complement-to-figure-7)) are available in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/4_visualizing](https://github.com/lotusnprod/lotus-processor/tree/main/src/4_visualizing) directory for reproducibility.
 
@@ -672,10 +672,10 @@ Table: Distribution and specificity of chemical structures across four important
 
 | **Group** | **Organisms** | **Structure-Organism Pairs** | **Chemical Structures** | **Specific Chemical Structures** | **Chemical Classes** | **Specific Chemical Classes** | 
 |:-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|
-| **Plantae** | 26,204 | 485,018 | 186,906 | 181,263 (97%) | 510 | 62 (12%) |
-| **Fungi** | 3,642 | 54,744 | 38,695 | 35,538 (92%) | 398 | 31 (8%) |
-| **Animalia** | 2,524 | 34,464 | 24,757 | 21,084 (85%) | 427 | 16 (4%) |
-| **Bacteria** | 1,424 | 29,311 | 23,917 | 22,124 (93%) | 334 | 38 (11%) |
+| **Plantae** | 28,439 | 567,647 | 201,073 | 194,425 (97%) | 545 | 59 (11%) |
+| **Fungi** | 4,003 | 62,505 | 42,387 | 38,861 (92%) | 417 | 19 (5%) |
+| **Animalia** | 2,716 | 40,321 | 28,237 | 23,569 (83%) | 456 | 14 (3%) |
+| **Bacteria** | 1,555 | 35,644 | 27,415 | 25,208 (92%) | 385 | 42 (11%) |
 
 #### Distributions of Organisms per Structure and Structures per Organism 
 
@@ -691,14 +691,14 @@ This incomplete coverage may be partially explained by the habit in classical NP
 The added value of the LOTUS initiative to assemble multiple electronic NP resources is illustrated in Figure @fig:upset : Panel A shows the contributions of the individual electronic NP resources to the ensemble of chemical structures found in one of the most studied vascular plants, *Arabidopsis thaliana* ("Mouse-ear cress"; [Q147096](https://www.wikidata.org/wiki/Q147096)).
 Panel B shows the ensemble of taxa reported to contain the planar structure of the widely occurring triterpenoid *β*-sitosterol ([Q121802](https://www.wikidata.org/wiki/Q121802)).
 
-![**UpSet plots of the individual contribution of electronic NP resources** to the planar structures found in *Arabidopsis thaliana* (A) and to organisms reported to contain the planar structure of *β*-sitosterol (KZJWDPNRJALNS) (B). UpSet plots are evolved Venn diagrams, allowing to represent intersections between multiple sets. The horizontal bars on the lower left represent the number of corresponding entries per electronic NP resource. The dots and their connecting line represent the intersection between source and consolidate sets. The vertical bars indicate the number of entries at the intersection. For example, 479 organisms containing the planar structure of *β*-sitosterol are present in both UNPD and NAPRALERT, whereas each of them respectively reports 1,164 and 2,085 organisms containing the planar structure of *β*-sitosterol. The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_upset_plot.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_upset_plot.svg).](images/upset_combined.svg "upset"){#fig:upset width="100%"}
+![**UpSet plots of the individual contribution of electronic NP resources** to the planar structures found in *Arabidopsis thaliana* (A) and to organisms reported to contain the planar structure of *β*-sitosterol (KZJWDPNRJALNS) (B). UpSet plots are evolved Venn diagrams, allowing to represent intersections between multiple sets. The horizontal bars on the lower left represent the number of corresponding entries per electronic NP resource. The dots and their connecting line represent the intersection between source and consolidate sets. The vertical bars indicate the number of entries at the intersection. For example, 479 organisms containing the planar structure of *β*-sitosterol are present in both UNPD and NAPRALERT, whereas each of them respectively reports 1,349 and 2,330 organisms containing the planar structure of *β*-sitosterol. The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_upset_plot.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_upset_plot.svg).](images/upset_combined.svg "upset"){#fig:upset width="100%"}
 
 Figure @fig:upset A. also shows that according to NPClassifier, the chemical pathway distribution across electronic NP resources is unconserved.
 Note that NPClassifier and ClassyFire [@doi:10/gc5tqv] chemical taxonomies are both available as metadata in the frozen LOTUS export and LNPN.
 Both classification tools return a chemical taxonomy for individual structures, thus allowing their grouping at higher hierarchical levels, in the same way as it is done for biological taxonomies.
 The UpSet plot in Figure @fig:upset indicates the poor overlap of preexisting electronic NP resources and the added value of an aggregated dataset.
 This is particularly well illustrated in Figure @fig:upset B., where the number of organisms for which the planar structure of *β*-sitosterol (KZJWDPNRJALLNS) has been reported is shown for each intersection.
-NAPRALERT has by far the highest number of entries (2,085 in total), while other electronic NP resources complement this well: e.g., UNPD has 532 reported organisms with *β*-sitosterol that do not overlap with those reported in NAPRALERT.
+NAPRALERT has by far the highest number of entries (2,330 in total), while other electronic NP resources complement this well: e.g., UNPD has 573 reported organisms with *β*-sitosterol that do not overlap with any other resource.
 Of note, *β*-sitosterol is documented in only 3 organisms in the DNP, highlighting the importance of a better systematic reporting of ubiquitous metabolites and the interest of multiple data sources agglomeration.
 
 #### A Biologically-interpreted Chemical Tree
@@ -709,17 +709,13 @@ Planar structures were used for all compounds to generate the TMAP (chemical spa
 As the tree organizes structures according to their molecular fingerprint, an anticipated coherence between the clustering of compounds and the mapped NPClassifier chemical class is observed (Figure @fig:tmap A.).
 For clarity, the eight most represented chemical classes of LOTUS plus the quassinoids and carotenoids (C40, *β*-*β*) classes are mapped, with examples of a quassinoid (green star) and a carotenoid (yellow star) and their corresponding location in the TMAP.
 
-![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (green star) and an ubiquitous carotenoid (yellow star) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in red. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs in the chemical class. A chemical class biological specificity score of 1 means that compounds in that chemical class were reported in a unique biological family. Zooms on a group of compounds of high biological specificity score (in yellow) and on compounds of low specificity (black) are depicted. An interactive HTML visualization of the LOTUS TMAP is available at [https://lotus.nprod.net/post/lotus-tmap/](https://lotus.nprod.net/post/lotus-tmap/) and archived at [https://osf.io/kqa8b/](https://osf.io/kqa8b/). The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
+![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (green star) and an ubiquitous carotenoid (yellow star) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in red. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as a [Jensen-Shannon divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence). A score of 1 suggests that compounds are highly specific, 0 that they are ubiquituous. Zooms on a group of compounds of high biological specificity score (in pink) and on compounds of low specificity (blue) are depicted. An interactive HTML visualization of the LOTUS TMAP is available at [https://lotus.nprod.net/post/lotus-tmap/](https://lotus.nprod.net/post/lotus-tmap/) and archived at [https://osf.io/kqa8b/](https://osf.io/kqa8b/). The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
 
 <br/><br/>
 <br/><br/>
 
 To explore relationships between chemistry and biology, it is possible to map taxonomical information such as the most reported biological family per chemical compound (Figure @fig:tmap B.) or the biological specificity of chemical classes (Figure @fig:tmap C.) on the TMAP.
-The biological specificity score at a given taxonomic level for a given chemical class is calculated as the number of structure-organism pairs within the taxon where the chemical class occurs the most, divided by the total number of pairs.
-See Equation @eq:spec_bio:
-
-${\text {Specificity score}_{\text {bio}}=\frac{\mid \text{Pairs in chemical class} \cap \text {Pairs in taxon where chemical class occurs the most}\mid}{\mid \text {Pairs in chemical class}\mid}}$ {#eq:spec_bio}
-
+The biological specificity score at a given taxonomic level for a given chemical class is calculated as a [Jensen-Shannon divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence). A score of 1 suggests that compounds are highly specific, 0 that they are ubiquituous. For more details, see [3_analyzing/jensen_shannon_divergence.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/3_analyzing/jensen_shannon_divergence.R).
 This visualization allows to highlight chemical classes specific to a given taxon, such as the quassinoids in the Simaroubaceae family.
 In this case it is striking to see how well the compounds of a given chemical class (quassinoids) (Figure @fig:tmap A.) and the most reported plant family per compound (Simaroubaceae) (Figure @fig:tmap B.) overlap.
 This is also evidenced on Figure @fig:tmap C. with a chemical class specificity of 0.95 at the biological family level for quassinoids.
@@ -734,11 +730,9 @@ To limit bias due to underreporting in the literature and keep a reasonable disp
 Organisms were classified according to the OTL taxonomy and structures according to NPClassifier.
 The tips were labeled according to the biological family and colored according to their biological kingdom.
 The bars represent structure specificity of the most characteristic chemical class of the given biological family (the higher the more specific).
-This specificity score was calculated as in Equation @eq:spec_chem:
+This specificity score was a [Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index) between the chemical class and the biological family. For more details, see [4_visualizing/plot_magicTree.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/4_visualizing/plot_magicTree.R).
 
-${\text {Specificity score}_{\text {chem}}=\frac{\mid\text {Structures in chemical class}\cap\text{Structures in taxon}\mid^2}{\mid \text{Structures in chemical class}\mid\boldsymbol{\cdot}\mid\text{Structures in taxon} \mid}}$ {#eq:spec_chem}
-
-![**LOTUS provides new means of exploring and representing chemical and biological diversity.** The tree generated from current LOTUS data builds on biological taxonomy and employs the kingdom as tips label color (only families containing 50+ chemical structures were considered). The outer bars correspond to the most specific chemical class found in the biological family. The height of the bar is proportional to a specificity score corresponding to the square of the number of structures reported in the chemical class within the given biological family over the product of the number of reported structures in the chemical class with the number of reported structures in the biological family. The bar color corresponds to the chemical pathway of the most specific chemical class in the NPClassifier classification system. The size of the leaf nodes corresponds to the number of genera reported in the family. The figure is vectorized and zoomable for detailed inspection and is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_chemically_interpreted_biological_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_chemically_interpreted_biological_tree.svg).](images/magicTree.svg "magicTree"){#fig:magicTree width="100%"}
+![**LOTUS provides new means of exploring and representing chemical and biological diversity.** The tree generated from current LOTUS data builds on biological taxonomy and employs the kingdom as tips label color (only families containing 50+ chemical structures were considered). The outer bars correspond to the most specific chemical class found in the biological family. The height of the bar is proportional to a specificity score corresponding to a [Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index) between the chemical class and the biological family. The bar color corresponds to the chemical pathway of the most specific chemical class in the NPClassifier classification system. The size of the leaf nodes corresponds to the number of genera reported in the family. The figure is vectorized and zoomable for detailed inspection and is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_chemically_interpreted_biological_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_chemically_interpreted_biological_tree.svg).](images/magicTree.svg "magicTree"){#fig:magicTree width="100%"}
 
 Figure @fig:magicTree makes it possible to spot highly specific compound classes such as trinervitane terpenoids in the Termitidae, the rhizoxin macrolides in the Rhizopodaceae, or the quassinoids and limonoids typical, respectively, of Simaroubaceae and Meliaceae.
 Similarly, tendencies of more generic occurrence of NP can be observed.
@@ -1080,7 +1074,7 @@ LNPN is part of the NaturalProducts.net portal, an initiative aimed at gathering
 
 #### Data Retrieval
 
-Bulk retrieval of a frozen (2021-05-23) version of LOTUS data is also available at [https://osf.io/eydjs](https://osf.io/eydjs).
+Bulk retrieval of a frozen (2021-12-20) version of LOTUS data is also available at [https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106].
 
 
 [lotus-wikidata-exporter](https://github.com/lotusnprod/lotus-wikidata-exporter) allows the download of all chemical compounds with a "found in taxon" property.
@@ -1108,7 +1102,7 @@ The importer checks for the existence of each item based on their InChIKey and u
 
 ##### LNPN
 
-From the onset, LNPN has been importing data directly from the frozen tabular data of the LOTUS dataset ([https://osf.io/6kc2m](https://osf.io/6kc2m)).
+From the onset, LNPN has been importing data directly from the frozen tabular data of the LOTUS dataset ([https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106]).
 In future versions, LNPN will directly feed on the SSOT.
 
 ##### Data Edition
