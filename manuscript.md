@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-12-20'
+date-meta: '2021-12-21'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-12-20" />
-  <meta name="citation_publication_date" content="2021-12-20" />
+  <meta name="dc.date" content="2021-12-21" />
+  <meta name="citation_publication_date" content="2021-12-21" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/341626a82fccc561a8ab292f402152727fdf9668/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/341626a82fccc561a8ab292f402152727fdf9668/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/341626a82fccc561a8ab292f402152727fdf9668/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/341626a82fccc561a8ab292f402152727fdf9668/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/341626a82fccc561a8ab292f402152727fdf9668/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,10 +134,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/341626a82fccc561a8ab292f402152727fdf9668/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@341626a](https://github.com/lotusnprod/lotus-manuscript/tree/341626a82fccc561a8ab292f402152727fdf9668)
-on December 20, 2021.
+from [lotusnprod/lotus-manuscript@a866a01](https://github.com/lotusnprod/lotus-manuscript/tree/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e)
+on December 21, 2021.
 </em></small>
 
 ## Authors
@@ -821,12 +821,23 @@ Notably, the body of literature on the pharmacology and toxicology of NP is comp
 To this end, the LOTUS initiative represents a potential framework for new concepts by which such information could be valued and conserved in the digital era [@doi:10/ggb79p; @doi:10/gh533j; @doi:10.1177/1934578X1701200849].
 This underscores the transformative value of the LOTUS initiative for the advancement of traditional medicine and its interest for drug discovery in health systems worldwide.
 
+### Shortcomings & Challenges
+
+Despite these strong advantages, the establishment and functioning of the LOTUS curation pipeline is not devoid of defaults and we list hereafter some of the observed shortcomings and associated challenges.
+
+First, the LOTUS processing pipeline is heavy. It includes many dependencies and is convoluted. We tried to simplify it as much as possible but it remains a consequent amount of code. This is somehow linked to the heterogeneous nature of the input data and the number of successive operations required to process the data. The full code is publicly released so we welcome any improvement on these aspects. 
+
+Secondly, while the overall objective of the LOTUS processing pipeline is to increase data quality, the pipeline also _transforms_ data in this process, and, in some cases, data quality can be degraded or errors can be propagated. For examples, regarding the chemical objects, the processing pipeline performs a systematic sanitization step that includes salt removal, uncharging of molecules and dimers resolving. We applied this step systematically after observing a higher ratio of artefactual salts, charged or dimeric molecules. However, this also means that correct salts, charged or dimeric molecules in the input data will suffer an unwanted "sanitization" step. Also, overall, the automated "name to structure" and "structure to name" processes use a set of predefined rules which do not cover all cases and can commonly lead to incorrect translations.
+On the biological organisms curation side we are aware of shortcomings wether inherent to specific inputs or regarding limitations of the pipeline. Regarding inputs some cases are clearly not resolvable except by human curation. For example the word Lotus can refer both to the genus of a plant of the Fabaceae family ((https://www.wikidata.org/wiki/Q3645698) or to the vernacular name of the magnificent _Nelumbo nucifera_ (https://www.wikidata.org/wiki/Q16528)). In fact, the name of the LOTUS Initiative comes, in part, from this taxonomic curiosity - and the challenge for its automated curation. To give another illustration, _Ficus variegata_ corresponds both to a plant (https://www.wikidata.org/wiki/Q5446649) and to a species of molluscs (https://www.wikidata.org/wiki/Q502030). We relied on hand curated dictionaries to traduce common names and names from the chinese materia medica for example. This dictionaries are clearly not exhaustive.
+
+The validation of curated and processed entries relied on the application of imperfect and restrictive rules. Overall, we chose to favour quality over quantity (Figure @fig:alluvial). However, despite our efforts it is probable that incorrect structure-organism pairs have been uploaded on Wikidata. Here we thus rely on the editing facilities offered by this platform and on community efforts to progressively improve data quality.
+
 ### Summary & Outlook
 
-The various facets discussed above connect with ongoing and future developments that the tandem of the LOTUS initiative and its Wikidata integration can accommodate through a broader knowledge base.
-The information of the LOTUS initiative is already readily accessible by third party projects build on top of Wikidata such as the SLING project ([https://github.com/ringgaard/sling](https://github.com/ringgaard/sling), see entry for [gliotoxin](https://ringgaard.com/kb/Q413364)) or the Plant Humanities Lab project ([https://lab.plant-humanities.org](https://lab.plant-humanities.org), see entry for [*Ilex guayusa*](https://search.plant-humanities.org/?eid=wd%3AQ3772280)).
+Despite these challenges, the various facets discussed above connect with ongoing and future developments that the tandem of the LOTUS initiative and its Wikidata integration can accommodate through a broader knowledge base.
+The information of the LOTUS initiative is already readily accessible by third party projects build on top of Wikidata such as the SLING project ([https://github.com/ringgaard/sling](https://github.com/ringgaard/sling), see entry for [gliotoxin](https://ringgaard.com/kb/Q413364)) or the Plant Humanities Lab project ([https://lab.plant-humanities.org](https://lab.plant-humanities.org), see entry for [*Ilex guayusa*](https://search.plant-humanities.org/?eid=wd%3AQ3772280)). Ongoing discussions with the PubChem team should results in the addition of LOTUS data to complement the natural products related metadata of this major chemical DB.
 
-Behind the scenes, all underlying resources represent data in a multidimensional space and can be extracted as individual graphs that can be interconnected.
+Behind the scenes, all underlying resources represent data in a multidimensional space and can be extracted as individual graphs, which can then be interconnected.
 The craft of appropriate federated queries allows users to navigate these graphs and fully exploit their potential [@doi:10/gdn52j; @doi:10/ggqqc6].
 The development of interfaces such as RDFFrames [@wikidata:Q106204599] will also facilitate the use of the wide arsenal of existing machine learning approaches to automate reasoning on these knowledge graphs.
 
