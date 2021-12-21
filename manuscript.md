@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@a866a01](https://github.com/lotusnprod/lotus-manuscript/tree/a866a01bad10dfd8b3af90e2f30bb3ae51dd7b9e)
+from [lotusnprod/lotus-manuscript@5fcb6c6](https://github.com/lotusnprod/lotus-manuscript/tree/5fcb6c6ddbc0a4129892530fa8b5ec30cd7f6e6e)
 on December 21, 2021.
 </em></small>
 
@@ -843,8 +843,8 @@ The development of interfaces such as RDFFrames [@wikidata:Q106204599] will also
 
 Overall, the LOTUS initiative aims to make more and better data available.
 While we did our best to ensure high data quality, the current processing pipeline still removes a lot of correct entries and misses or induces some incorrect ones.
-Aware of those imperfections, our project paves the way for the establishment of an open and expandable electronic NP resource.
-The design and efforts of the LOTUS initiative reflect our conviction that the integration of NP research results is long-needed and requires a truly open and FAIR knowledge base, with high quality data directly flowing from its source to Wikidata.
+Aware of those imperfections, our project hopefully paves the way for the establishment of an open, durable and expandable electronic NP resource.
+The design and efforts of the LOTUS initiative reflect our conviction that the integration of NP research results is long-needed and requires a truly open and FAIR knowledge base, with high quality data directly flowing from its source to public knowledge bases.
 We believe that the LOTUS initiative has the potential to fuel a virtuous cycle of research habits and, as a result, *contribute to a better understanding of Life and its chemistry*.
 
 
