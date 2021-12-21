@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/67f9be8dfd6a5a3f8776346ed3201e2a2419f896/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/67f9be8dfd6a5a3f8776346ed3201e2a2419f896/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/67f9be8dfd6a5a3f8776346ed3201e2a2419f896/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/bf503b3a83dada9e750d769747d1d15ca18953f1/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/bf503b3a83dada9e750d769747d1d15ca18953f1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/bf503b3a83dada9e750d769747d1d15ca18953f1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/67f9be8dfd6a5a3f8776346ed3201e2a2419f896/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/67f9be8dfd6a5a3f8776346ed3201e2a2419f896/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/bf503b3a83dada9e750d769747d1d15ca18953f1/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/bf503b3a83dada9e750d769747d1d15ca18953f1/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/67f9be8dfd6a5a3f8776346ed3201e2a2419f896/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/bf503b3a83dada9e750d769747d1d15ca18953f1/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@67f9be8](https://github.com/lotusnprod/lotus-manuscript/tree/67f9be8dfd6a5a3f8776346ed3201e2a2419f896)
+from [lotusnprod/lotus-manuscript@bf503b3](https://github.com/lotusnprod/lotus-manuscript/tree/bf503b3a83dada9e750d769747d1d15ca18953f1)
 on December 21, 2021.
 </em></small>
 
@@ -707,9 +707,9 @@ The chemical diversity captured in LOTUS is here displayed using tmap (Figure @f
 Using Faerun, an interactive HTML file is generated to display metadata and molecule structures by embedding the SmilesDrawer library [@doi:10/gcmhc5; @doi:10/gjjz4d].
 Planar structures were used for all compounds to generate the TMAP (chemical space tree-map) using MAP4 encoding [@doi:10/gjjz4c].
 As the tree organizes structures according to their molecular fingerprint, an anticipated coherence between the clustering of compounds and the mapped NPClassifier chemical class is observed (Figure @fig:tmap A.).
-For clarity, the eight most represented chemical classes of LOTUS plus the quassinoids and carotenoids (C40, *β*-*β*) classes are mapped, with examples of a quassinoid (green star) and a carotenoid (yellow star) and their corresponding location in the TMAP.
+For clarity, some of the most represented chemical classes of LOTUS including quassinoids and stigmastane steroids  are mapped, with examples of a quassinoid (NXZXPYYKGQCDRO) (light green star) and a stigmastane steroid (KZJWDPNRJALLNS) (dark green diamond) and their corresponding location in the TMAP.
 
-![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (green star) and an ubiquitous carotenoid (yellow star) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in red. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as a [Jensen-Shannon divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence). A score of 1 suggests that compounds are highly specific, 0 that they are ubiquituous. Zooms on a group of compounds of high biological specificity score (in pink) and on compounds of low specificity (blue) are depicted. An interactive HTML visualization of the LOTUS TMAP is available at [https://lotus.nprod.net/post/lotus-tmap/](https://lotus.nprod.net/post/lotus-tmap/) and archived at [https://osf.io/kqa8b/](https://osf.io/kqa8b/). The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
+![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (NXZXPYYKGQCDRO) (light green star) and an ubiquitous stigmastane steroid (KZJWDPNRJALLNS) (dark green diamond) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in blue. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as a [Jensen-Shannon divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence). A score of 1 suggests that compounds are highly specific, 0 that they are ubiquituous. Zooms on a group of compounds of high biological specificity score (in pink) and on compounds of low specificity (blue) are depicted. An interactive HTML visualization of the LOTUS TMAP is available at [https://lotus.nprod.net/post/lotus-tmap/](https://lotus.nprod.net/post/lotus-tmap/) and archived at [https://osf.io/kqa8b/](https://osf.io/kqa8b/). The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
 
 <br/><br/>
 <br/><br/>
@@ -718,9 +718,10 @@ To explore relationships between chemistry and biology, it is possible to map ta
 The biological specificity score at a given taxonomic level for a given chemical class is calculated as a [Jensen-Shannon divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence). A score of 1 suggests that compounds are highly specific, 0 that they are ubiquituous. For more details, see [3_analyzing/jensen_shannon_divergence.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/3_analyzing/jensen_shannon_divergence.R).
 This visualization allows to highlight chemical classes specific to a given taxon, such as the quassinoids in the Simaroubaceae family.
 In this case it is striking to see how well the compounds of a given chemical class (quassinoids) (Figure @fig:tmap A.) and the most reported plant family per compound (Simaroubaceae) (Figure @fig:tmap B.) overlap.
-This is also evidenced on Figure @fig:tmap C. with a chemical class specificity of 0.95 at the biological family level for quassinoids.
-In this plot, it is also possible to identify chemical classes that are widely spread among living organisms, such as the carotenoids (C40, *β*-*β*), which exhibit a specificity of 0.12 at the biological family level.
-This means that among all the carotenoids (C40, *β*-*β*) - organism pairs, about one tenth belong to the most common family.
+This is also evidenced on Figure @fig:tmap C. with a Jensen-Shannon divergence of 0.99 at the biological family level for quassinoids.
+In this plot, it is also possible to identify chemical classes that are widely spread among living organisms, such as the stigmastane steroids, which exhibit a Jensen-Shannon divergence of 0.73 at the biological family level.
+This means that repartition of stigmastane steroids among families is not specific.
+An additional figure, [SI-5](#si-5-complement-to-figure-7) further supports this statement.
 
 #### A Chemically-interpreted Biological Tree
 
