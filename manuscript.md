@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/bf503b3a83dada9e750d769747d1d15ca18953f1/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/bf503b3a83dada9e750d769747d1d15ca18953f1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/bf503b3a83dada9e750d769747d1d15ca18953f1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/4885229a70ef21b01609d21cfe7e837e3f28fa73/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4885229a70ef21b01609d21cfe7e837e3f28fa73/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4885229a70ef21b01609d21cfe7e837e3f28fa73/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/bf503b3a83dada9e750d769747d1d15ca18953f1/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/bf503b3a83dada9e750d769747d1d15ca18953f1/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4885229a70ef21b01609d21cfe7e837e3f28fa73/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4885229a70ef21b01609d21cfe7e837e3f28fa73/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/bf503b3a83dada9e750d769747d1d15ca18953f1/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/4885229a70ef21b01609d21cfe7e837e3f28fa73/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@bf503b3](https://github.com/lotusnprod/lotus-manuscript/tree/bf503b3a83dada9e750d769747d1d15ca18953f1)
+from [lotusnprod/lotus-manuscript@4885229](https://github.com/lotusnprod/lotus-manuscript/tree/4885229a70ef21b01609d21cfe7e837e3f28fa73)
 on December 21, 2021.
 </em></small>
 
@@ -380,7 +380,7 @@ This dual hosting provides an integrated, community-curated and vast knowledge b
 The LOTUS initiative was initially launched to answer our need to access the most comprehensive compilation of biological occurrences of natural products. Indeed, recently, we highlighted the interest of considering the taxonomic dimension when annotating metabolites [@doi:10/fm73]. This being said, many other concrete applications can result from an access by the scientific community to the LOTUS initiative data. For example, such a resource will facilitate the exploration of eco-evolutionary mechanisms at the molecular level [@doi:10/ghssx4]. In terms of drug discovery, this resource is extremely valuable to orient and guide researchers interested in a structure of interest. On the same theme, LOTUS is expected to be the perfect place to encounter "molecular arguments" for biodiversity conservation [@doi:10.1046/j.1365-2664.2003.00803.x]. Researchers interested in the history of science will be able, through this kind of resource, to gain a preliminary view of the temporal evolution of disciplines such as pharmacognosy.
 More generally, the objective of the LOTUS initiative is to prepare the ground for an electronic and globally accessible resource that would be the counterpart, at the metabolite level, of established databases linking proteins to biological organisms (eg. [Uniprot](https://www.uniprot.org/)) and genes to biological organisms ([Genbank](https://www.ncbi.nlm.nih.gov/genbank/)). Once such an objective is reached, it will be possible to interconnect the three central objects of the living, i.e. metabolites, proteins and genes, through the common entity of these resources, the biological organism. Such an interconnection, fosters cross-fertilization of the fields of chemistry, biology and associated disciplines and is desirable and necessary to advance towards a better understanding of Life.
 
-
+<br/><br/>
 
 ## Results & Discussion
 
@@ -390,7 +390,7 @@ The [third section](#user-interaction-with-lotus-data) addresses the interaction
 Some examples on how LOTUS data can be used to answer research questions or develop hypothesis are given.
 The [final section](#data-interpretation) is dedicated to the interpretation of LOTUS data and illustrates the dimensions and qualities of the current LOTUS dataset from chemical and biological perspectives.
 
-### Blueprint of the LOTUS Initiative
+### Blueprint of the LOTUS Initiative {.page_break_before}
 
 Building on the standards established by the related Wikidata project ([Chemistry](https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry), [Taxonomy](https://www.wikidata.org/wiki/Wikidata:WikiProject_Taxonomy) and [Source Metadata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Source_MetaData)), a NP chemistry-oriented subproject was created ([Chemistry/Natural products](https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry/Natural_products)).
 Its central data consists of three minimal sufficient objects: 
@@ -409,8 +409,12 @@ The LOTUS processing pipeline is tailored to efficiently include and diffuse nov
 This iterative workflow relies both on data addition and retrieval actions as described in the [Data Interaction](#user-interaction-with-lotus-data) section.
 The overall process leading to referenced and curated structure-organisms pairs is illustrated in Figure @fig:workflow and detailed below.
 
+<br/><br/>
 
 ![**Blueprint of the LOTUS initiative.** Data undergo a four-stage process: (1) Harmonization, (2) Processing, (3) Validation and (4) Dissemination. The process was designed to incorporate future contributions (5), either by the addition of new data from within Wikidata (a) or new sources (b) or *via* curation of existing data (c). The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg).](images/workflow.svg "Workflow"){#fig:workflow width="100%"}
+
+<br/><br/>
+<br/><br/>
 
 By design, this iterative process fosters community participation, essential to efficiently document NP occurrences.
 All stages of the workflow are described on the git sites of the LOTUS initiative at [https://github.com/lotusnprod](https://github.com/lotusnprod) and in the [methods](#Methods).
@@ -428,7 +432,7 @@ A detailed list of data sources and related information is available as [SI-1](#
 All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/1_gathering](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering) directory or in the methods [gathering section](#data-gathering).
 All subsequent and future iterations that include additional data sources, either updated information from the same data sources or new data, will involve a comparison of the new with previously gathered data at the SSOT level to ensure that the data is only curated once.
 
-### Data Processing & Validation {.page_break_before}
+### Data Processing & Validation
 
 As shown in Figure @fig:workflow, data curation consisted of three stages: harmonization, processing and validation.
 Thereby, after the harmonization stage, each of the three central objects - chemical compounds, biological organisms and reference - were processed, as described in related [methods section](#data-processing).
@@ -461,6 +465,8 @@ Challenging examples encountered during the development of the curation process 
 These tests allow a continuous revalidation of any change made to the code, ensuring that corrected errors will not reappear.
 The alluvial plot in Figure @fig:alluvial illustrates the individual contribution of each *source* and *original* *subcategory* that led to the *processed* *categories*: structure, organism and reference.
 
+<br/><br/>
+
 ![**Alluvial plot of the data transformation flow within LOTUS during the automated curation and validation processes.** The figure also reflects the relative proportions of the data stream in terms of the contributions from the various sources ("source" block, left), the composition of the harmonized subcategories ("original subcategory" block, middle) and the validated data after curation ("processed category" block, right). Automatically validated entries are represented in green, rejected entries in blue. The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_alluvial_plot.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_alluvial_plot.svg).](images/alluvial.svg "Alluvial"){#fig:alluvial width="100%"}
 
 The figure highlights, for example, the essential contribution of the references DOI category to the final validated entries. 
@@ -472,7 +478,6 @@ Moreover, because data quality was favored over quantity, the number of rejected
 Among them, multiple correct entries were certainly falsely rejected, but still not disseminated. 
 All rejected entries were kept aside for later manual inspection and validation.
 In the end, the disseminated data contained 290,000+ unique chemical structures, 40,000+ distinct organisms and 75,000+ references.
-
 
 ### Data Dissemination
 
@@ -526,6 +531,7 @@ The typical approach to more elaborated queries consists in writing queries usin
 Below are some examples from simple to more elaborated queries, demonstrating what can be done using this approach.
 The full-text queries with explanations are included in [SI-3](#si-3-wikidata-queries).
 
+<br/><br/>
 
 Table: Potential questions about structure-organism relationships and corresponding Wikidata queries. {#tbl:queries}
 
@@ -587,7 +593,7 @@ Within LNPN, LOTUS bulk data can be retrieved as SDF or SMILES files, or as a co
 Extensive documentation describing the search possibilities and data entries is available at [https://lotus.naturalproducts.net/documentation](https://lotus.naturalproducts.net/documentation).
 LNPN can also be queried via the application programming interface (API) as described in the documentation.
 
-#### Data Addition and Evolution 
+#### Data Addition and Evolution {.page_break_before}
 
 One major advantage of the LOTUS architecture is that every user has the option to contribute to the NP occurrences documentation effort by adding new or editing existing data.
 As all LOTUS data applies the SSOT mechanism, reprocessing of previously treated elements is avoided.
@@ -665,8 +671,6 @@ The category corresponding to "Eukaryota_NA" mainly contained Algae, but also ot
 This represented less than 1% of all entries.
 The details of this process are available under [src/3_analyzing/structure_taxon_distribution.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/3_analyzing/structure_taxon_distribution.R).
 When the chemical structure/class was reported only in one taxonomic grouping, it was counted as "specific".
-
-<br/><br/>
 
 Table: Distribution and specificity of chemical structures across four important NP reservoirs: plants, fungi, animals and bacteria. When the chemical structure/class appeared only in one group and not the three others, they were counted as "specific". Chemical classes were attributed with NPClassifier. {#tbl:distribution}
 
@@ -796,7 +800,7 @@ The authors have previously demonstrated that taxonomically-informed metabolite 
 Alternative approaches linking structural annotation to biological organisms have also shown substantial improvements [@doi:10.1101/2021.03.18.435634].
 In this context, the LOTUS initiative offers new opportunities for linking chemical objects to both their biological occurrences and spectral information and should significantly facilitate such applications.
 
-### Integrating Chemodiversity, Biodiversity, and Human Health
+### Integrating Chemodiversity, Biodiversity, and Human Health {.page_break_before}
 
 As shown in [SI-5](#si-5-complement-to-figure-7), observing the chemical and biological diversity at various granularities offers new insights.
 Regarding the chemical objects involved, it will be important to document the taxonomies of chemical annotations for the Wikidata entries.
@@ -1289,8 +1293,8 @@ Table: Data Sources List {#tbl:si-1 tag="SI-1"}
 Table: Summary of the Validation Statistics {#tbl:si-2 tag="SI-2"}
 
 | | **First validation dataset (n =420)** <!-- $colspan="8" --> | | | | | | | | **Second validation dataset (n = 100)** <!-- $colspan="2" --> | |
-|:-----:|----:|----:|----:|----:|-----:|-----:|---:|---:|----:|----:|
-| **Reference Type ** | **True positive** | **False positive** |**False negative** |**True negative** |**Relative abundance** |**Precision** | **Recall** |**F~0.5~ score** |**True positive** |**False negative** |
+|:----:|----:|----:|----:|----:|----:|----:|---:|---:|----:|----:|
+| **Reference Type ** | **True positive** | **False positive** |**False negative** |**True negative** |**Ratio** |**Precision** | **Recall** |**F~0.5~ score** |**True positive** |**False negative** |
 | **Original** | 80 | 6 | 7 | 11 | 0.31 | 0.93 | 0.92 | 0.92 | 38 | 1 |
 | **Pubmed** | 37 | 1 | 5 | 6 | 0.30 | 0.97 | 0.88 | 0.92 | 5 | 1 |
 | **DOI** | 115 | 6 | 0 | 6 | 0.19 | 0.95 | 1.00 | 0.97 | 43 | 1 |
