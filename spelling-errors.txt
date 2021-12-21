@@ -3,7 +3,7 @@ adafede
 Adriano
 afrotryp
 alkamid
-allard
+Allard
 Amoebozoa
 AmphibiaWeb
 Angelshark
@@ -19,7 +19,6 @@ Archaeplastida
 ARKive
 Arnaud
 ArnaudGaudry
-artefactual
 Ashwani
 Aspergillus
 Asteraceae
@@ -32,7 +31,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-Bioactive
+bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -45,7 +44,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-bjonnh
+Bjonnh
 bkfd
 Bolzani
 Bromus
@@ -65,7 +64,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-Chemodiversity
+chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -76,7 +75,7 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 cmcrameri
 CMU
 codebase
@@ -199,7 +198,7 @@ InChI
 InChIKey
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -291,7 +290,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -320,9 +319,9 @@ pamdb
 parallelization
 pbmcapply
 Pflanzen
-Pharmacognosy
+pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -391,7 +390,7 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
@@ -428,7 +427,7 @@ tidyverse
 Tilmann
 tmap
 tmdb
-TMMC
+tmmc
 tppt
 transdisciplinary
 transformational
@@ -442,7 +441,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 ubiquituous
 UHFFFAOYSA
@@ -469,7 +468,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-Wakankensaku
+wakankensaku
 wdkt
 wdpage
 webchem

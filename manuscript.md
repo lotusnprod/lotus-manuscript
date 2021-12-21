@@ -108,13 +108,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/1e21119ab89ef9b662658666920605463bd33ac0/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1e21119ab89ef9b662658666920605463bd33ac0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1e21119ab89ef9b662658666920605463bd33ac0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/67f9be8dfd6a5a3f8776346ed3201e2a2419f896/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/67f9be8dfd6a5a3f8776346ed3201e2a2419f896/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/67f9be8dfd6a5a3f8776346ed3201e2a2419f896/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1e21119ab89ef9b662658666920605463bd33ac0/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1e21119ab89ef9b662658666920605463bd33ac0/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/67f9be8dfd6a5a3f8776346ed3201e2a2419f896/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/67f9be8dfd6a5a3f8776346ed3201e2a2419f896/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -134,9 +134,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/1e21119ab89ef9b662658666920605463bd33ac0/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/67f9be8dfd6a5a3f8776346ed3201e2a2419f896/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@1e21119](https://github.com/lotusnprod/lotus-manuscript/tree/1e21119ab89ef9b662658666920605463bd33ac0)
+from [lotusnprod/lotus-manuscript@67f9be8](https://github.com/lotusnprod/lotus-manuscript/tree/67f9be8dfd6a5a3f8776346ed3201e2a2419f896)
 on December 21, 2021.
 </em></small>
 
@@ -821,24 +821,28 @@ Despite these strong advantages, the establishment and functioning of the LOTUS 
 
 First, the LOTUS processing pipeline is heavy.
 It includes many dependencies and is convoluted.
-We tried to simplify the process as much as possible but it remains a consequent amount of code.
-This is somehow linked to the heterogeneous nature of the input data and the number of successive operations required to process the data.
+We tried to simplify the process and associated programs as much as possible but they remain consequent.
+This is the consequence of the heterogeneous nature of the source information and the number of successive operations required to process the data.
 
 Second, while the overall objective of the LOTUS processing pipeline is to increase data quality, the pipeline also _transforms_ data during the process, and, in some cases, data quality can be degraded or errors can be propagated.
-For examples, regarding the chemical objects, the processing pipeline performs a systematic sanitization step that includes salt removal, uncharging of molecules and dimers resolving.
-We applied this step systematically after observing a higher ratio of artefactual salts, charged or dimeric molecules.
-However, this also means that correct salts, charged or dimeric molecules in the input data will suffer an unwanted "sanitization" step.
-Also, overall, the automated "name to structure" and "structure to name" processes use a set of predefined rules which do not cover all cases and can commonly lead to incorrect translations.
+For example, regarding the chemical objects, the processing pipeline performs a systematic sanitization step that includes salt removal, uncharging of molecules and dimers resolving.
+We decided to apply this step systematically after observing a high ratio of artefacts within salts, charged or dimeric molecules.
+This thus implies that correct salts, charged or dimeric molecules in the input data will suffer an unwanted "sanitization" step.
+Also, the LOTUS processing step uses external libraries and tools for the automated "name to structure" and "structure to name" translations. 
+These remain challenging as they rely on sets of predefined rules which do not cover all cases and can commonly lead to incorrect translations.
+
 On the biological organisms curation side we are aware of shortcomings whether inherent to specific inputs or regarding limitations of the general process.
-Regarding inputs some cases are clearly not resolvable except by human curation.
-For example the word Lotus can refer both to the genus of a plant of the Fabaceae family (https://www.wikidata.org/wiki/Q3645698) or to the vernacular name of _Nelumbo nucifera_ (https://www.wikidata.org/wiki/Q16528)).
+Regarding inputs, some cases are clearly not resolvable except through human curation.
+For example the word Lotus can refer both to the genus of a plant of the Fabaceae family ([https://www.wikidata.org/wiki/Q3645698](https://www.wikidata.org/wiki/Q3645698)) or to the vernacular name of _Nelumbo nucifera_ ([https://www.wikidata.org/wiki/Q16528)](https://www.wikidata.org/wiki/Q16528))).
 In fact, the name of the LOTUS Initiative comes, in part, from this taxonomic curiosity - and the challenge for its automated curation.
-To give another illustration, _Ficus variegata_ corresponds both to a plant (https://www.wikidata.org/wiki/Q5446649) and to a mollusc (https://www.wikidata.org/wiki/Q502030).
-For specific names coming from traditional chinese medicine or other sources using vernacular names, translation was dependent on hand curated dictionaries, which were clearly not exhaustive.
-Finally, the validation of curated and processed entries relied on the application of imperfect and restrictive rules.
-Overall, we chose to favor quality over quantity (Figure @fig:alluvial).
-However, despite our efforts it is probable that incorrect structure-organism pairs have been uploaded on Wikidata.
-Here we thus rely on the editing facilities offered by this platform and on community efforts to progressively improve data quality.
+To give another striking illustration, _Ficus variegata_ corresponds both to a plant ([https://www.wikidata.org/wiki/Q5446649](https://www.wikidata.org/wiki/Q5446649)) and to a mollusc ([https://www.wikidata.org/wiki/Q502030](https://www.wikidata.org/wiki/Q502030)).
+For specific names coming from traditional chinese medicine or other sources using vernacular names, translation was dependent on hand curated dictionaries, which are clearly not exhaustive.
+Additionally, it is noteworthy to remind that the validation of the processed entries relies in part on partly imperfect rules, thus leading to erroneous entries in the output data. 
+However, we also deliberately kept those rules restrictive in order to overall favor quality over quantity (see Figure @fig:alluvial).
+
+Thus, despite our efforts, there is no doubt that incorrect structure-organism pairs have been uploaded on Wikidata (and correct ones have not).  
+We however expect that the editing facilities offered by this platform and community efforts will, over time, improve data quality.
+
 
 ### Summary & Outlook
 
