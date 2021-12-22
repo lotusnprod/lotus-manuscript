@@ -104,9 +104,11 @@ authors:
     initials: DM
     orcid: 0000-0001-9488-1870
     twitter: EvoMRI
-    email: dm7gn@virginia.edu
+    email: daniel.mietchen@ronininstitute.org
     affiliations:
-      - School of Data Science, University of Virginia, Dell 1 Building, Charlottesville, Virginia 22904, United States
+      - Ronin Institute, 127 Haddon Pl, Montclair, NJ 07043, United States
+      - Leibniz Institute of Freshwater Ecology and Inland Fisheries, Müggelseedamm 310, D-12587 Berlin
+      - School of Data Science, University of Virginia, Dell 1 Building, Charlottesville, VA 22904, United States
     funders: G-2019-11458
     roles:
       - Conceptualization: false
