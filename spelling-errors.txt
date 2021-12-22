@@ -31,7 +31,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-bioactive
+Bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -44,13 +44,14 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-bjonnh
+Bjonnh
 bkfd
 Bolzani
 Bromus
 Candolle
 carotenoiddb
 CAS
+CCBY
 ccessibility
 CDK
 centric
@@ -85,14 +86,14 @@ CRSII
 csteinbeck
 cstrnq
 curation
-cyanometdb
+Cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
 daphnane
 dataset
 datasets
-datawarrior
+Datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -112,7 +113,7 @@ DNP
 Dockerized
 DOIs
 doit
-drduke
+DrDuke
 DTGCRPNFSA
 eBird
 echnology
@@ -135,7 +136,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-Faerun
+faerun
 Fatcat
 Fidele
 FishBase
@@ -171,7 +172,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -192,8 +193,8 @@ idf
 IDSM
 Ilex
 iNaturalist
-InChI
-InChIKey
+inchi
+InChiKey
 indability
 indica
 Indolic
@@ -259,7 +260,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-Metabolomic
+metabolomic
 Metazoa
 MEYS
 mibig
@@ -268,7 +269,7 @@ Mietchen
 mitishamba
 modularity
 Molconvert
-molvs
+MolVS
 monogyna
 Mozzherin
 mSorok
@@ -277,7 +278,7 @@ MVLS
 NameBank
 náměstí
 nanpdb
-napralert
+NAPRALERT
 natively
 naturalproducts
 NCBI
@@ -288,7 +289,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -349,7 +350,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-RDKit
+rdkit
 rdmpage
 readxl
 Reionization
@@ -394,7 +395,7 @@ squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -452,7 +453,7 @@ underreporting
 Uniprot
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts
