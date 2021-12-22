@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/03ad439ac3980291eb768d6682d134dbd67f0f3f/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/03ad439ac3980291eb768d6682d134dbd67f0f3f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/03ad439ac3980291eb768d6682d134dbd67f0f3f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/6f39237d23980cf3af7c78e4ff7c2a2b4cc64629/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6f39237d23980cf3af7c78e4ff7c2a2b4cc64629/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6f39237d23980cf3af7c78e4ff7c2a2b4cc64629/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/03ad439ac3980291eb768d6682d134dbd67f0f3f/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/03ad439ac3980291eb768d6682d134dbd67f0f3f/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6f39237d23980cf3af7c78e4ff7c2a2b4cc64629/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6f39237d23980cf3af7c78e4ff7c2a2b4cc64629/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/03ad439ac3980291eb768d6682d134dbd67f0f3f/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/6f39237d23980cf3af7c78e4ff7c2a2b4cc64629/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@03ad439](https://github.com/lotusnprod/lotus-manuscript/tree/03ad439ac3980291eb768d6682d134dbd67f0f3f)
+from [lotusnprod/lotus-manuscript@6f39237](https://github.com/lotusnprod/lotus-manuscript/tree/6f39237d23980cf3af7c78e4ff7c2a2b4cc64629)
 on December 22, 2021.
 </em></small>
 
@@ -1117,7 +1117,9 @@ The importer processes the curated outputs grouping references, organisms, and c
 It then checks if they already exist in Wikidata (using SPARQL or a direct connection to Wikidata depending on the kind of data).
 It then uses *update* or *insert*, also called *upsert*, the entities as needed.
 The script currently takes the tabular file of the referenced structure-organism pairs resulting from the LOTUS curation process as input.
-It is currently being adapted to use directly the SSOT and avoid an unnecessary conversion step.
+Before upload, a filtering step is performed in order to avoid re-uploading entries we already uploaded.
+This way, if modifications occur in Wikidata, it will not be erased by the next iteration of the importer.
+The importer is currently being adapted to use directly the SSOT and avoid an unnecessary conversion step.
 To import references, it first double checks for the presence of duplicated DOIs and utilizes the [Crossref REST API](https://www.crossref.org/education/retrieve-metadata/rest-api) to retrieve metadata associated with the DOI, the support for other citation sources such as Europe PMC is in progress.
 The structure-related fields are only subject to limited processing: basic formatting of the molecular formula by subscripting of the numbers.
 Due to limitations in Wikidata, the molecule names are dropped if they are longer than 250 characters and likewise the InChI strings cannot be stored if they are longer than 1500 characters.
