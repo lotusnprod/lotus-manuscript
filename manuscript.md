@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/1178af98aeec41317a99fd1ff9fba17c940b28da/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1178af98aeec41317a99fd1ff9fba17c940b28da/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1178af98aeec41317a99fd1ff9fba17c940b28da/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d7a36bb2332cd847cda3bc93e499667570f034a5/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d7a36bb2332cd847cda3bc93e499667570f034a5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d7a36bb2332cd847cda3bc93e499667570f034a5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1178af98aeec41317a99fd1ff9fba17c940b28da/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1178af98aeec41317a99fd1ff9fba17c940b28da/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d7a36bb2332cd847cda3bc93e499667570f034a5/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d7a36bb2332cd847cda3bc93e499667570f034a5/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/1178af98aeec41317a99fd1ff9fba17c940b28da/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d7a36bb2332cd847cda3bc93e499667570f034a5/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@1178af9](https://github.com/lotusnprod/lotus-manuscript/tree/1178af98aeec41317a99fd1ff9fba17c940b28da)
+from [lotusnprod/lotus-manuscript@d7a36bb](https://github.com/lotusnprod/lotus-manuscript/tree/d7a36bb2332cd847cda3bc93e499667570f034a5)
 on December 22, 2021.
 </em></small>
 
@@ -389,7 +389,7 @@ More generally, the objective of the LOTUS initiative is to prepare the ground f
 
 This section is structured as follows: first, we present an [overview of the LOTUS initiative at its current stage of development](#blueprint-of-the-lotus-initiative).
 The central [curation](#data-processing-&-validation) and [dissemination](#data-dissemination) elements of the LOTUS initiative are then explained in detail.
-The [third section](#user-interaction-with-lotus-data) addresses the interaction modes between LOTUS and its end-users, including data retrieval, addition and editing.
+The [third section](#user-interaction-with-lotus-data) addresses the interaction modes between end-users and LOTUS, including _data retrieval_, _addition_ and _editing_.
 Some examples on how LOTUS data can be used to answer research questions or develop hypothesis are given.
 The [final section](#data-interpretation) is dedicated to the interpretation of LOTUS data and illustrates the dimensions and qualities of the current LOTUS dataset from chemical and biological perspectives.
 
@@ -432,7 +432,7 @@ The data were complemented with COCONUT's own referenced structure-organism pair
 
 The contacts of the electronic NP resources not explicitly licensed as open were individually reached for permission to access and reuse data.
 A detailed list of data sources and related information is available as [SI-1](#si-1-data-sources-list).
-All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/1_gathering](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering) directory or in the methods [gathering section](#data-gathering).
+All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/1_gathering](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering) directory and processed is detailed in the corresponding methods section [gathering section](#data-gathering).
 All subsequent and future iterations that include additional data sources, either updated information from the same data sources or new data, will involve a comparison of the new with previously gathered data at the SSOT level to ensure that the data is only curated once.
 
 ### Data Processing & Validation
@@ -450,12 +450,12 @@ An entry was considered as valid if: *i)* the structure (in the form of any stru
 More details are available in the related [methods section](#data-validation).
 This process allowed us to establish rules for automatic filtering and validation of the entries. 
 The parameters of the automatic filtering are available as a function ([filter_dirty.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/r/filter_dirty.R)) and are further described in the related [methods section](#data-validation).
-The filtering was then applied to all entries.
+The automatic filtering was then applied to all entries.
 To confirm the efficacy of the filtering process, a new subset of 100 diverse, automatically curated and automatically validated entries was manually checked, yielding a rate of 97% of true positives.
 The detailed results of the two manual validation steps are reported in Supporting Information [SI-2](#si-2-summary-of-the-validation-statistics).
 The resulting data is also available in the dataset shared at [https://osf.io/8wh9y](https://osf.io/8wh9y).
 Table @tbl:examples shows an example of a referenced structure-organism pair before and after curation.
-This process resolved the structure to an InChIKey, the organism to a valid taxonomic name and the reference to a DOI, thereby completing the essential referenced structure-organism pair.
+This process resolved the structure to an InChIKey, the organism to a valid taxonomic name and the reference to a DOI, thereby completing the establishment of the essential referenced structure-organism pair.
 
 Table: Example of a referenced structure-organism pair before and after curation {#tbl:examples}
 
@@ -464,7 +464,7 @@ Table: Example of a referenced structure-organism pair before and after curation
 | **Before curation** | Cyathocaline | Stem bark of Cyathocalyx zeylanica CHAMP. ex HOOK. f. & THOMS. (Annonaceae) | Wijeratne E. M. K., de Silva L. B., Kikuchi T., Tezuka Y., Gunatilaka A. A. L., Kingston D. G. I., J. Nat. Prod., 58, 459-462 (1995). | 
 | **After curation** | VFIIVOHWCNHINZ-UHFFFAOYSA-N | Cyathocalyx zeylanicus | 10.1021/NP50117A020 | 
 
-Challenging examples encountered during the development of the curation process were compiled in an edge case table ([tests/tests.tsv](https://github.com/lotusnprod/lotus-processor/blob/main/tests/tests.tsv)) to allow for automated unit testing.
+Challenging examples encountered during the development of the curation process were compiled in an edge cases table ([tests/tests.tsv](https://github.com/lotusnprod/lotus-processor/blob/main/tests/tests.tsv)) to allow for automated unit testing.
 These tests allow a continuous revalidation of any change made to the code, ensuring that corrected errors will not reappear.
 The alluvial plot in Figure @fig:alluvial illustrates the individual contribution of each *source* and *original* *subcategory* that led to the *processed* *categories*: structure, organism and reference.
 
@@ -479,7 +479,7 @@ Out of a total of 2.5M+ initial pairs, the manual and automatic validation retai
 Among validated entries, multiple ones were redundant among the source databases, thus also explaining the decrease of entries between the initial pairs and validated ones.
 Moreover, because data quality was favored over quantity, the number of rejected entries is high.
 Among them, multiple correct entries were certainly falsely rejected, but still not disseminated. 
-All rejected entries were kept aside for later manual inspection and validation.
+All rejected entries were kept aside for later manual inspection and validation. These are publicly available at [https://doi.org/10.5281/zenodo.5794597](https://doi.org/10.5281/zenodo.5794597) [@doi:10.5281/zenodo.5794597].
 In the end, the disseminated data contained 290,000+ unique chemical structures, 40,000+ distinct organisms and 75,000+ references.
 
 ### Data Dissemination
