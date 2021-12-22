@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/38e6e575e105a5652b61ca0319b2c0037648da8f/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/38e6e575e105a5652b61ca0319b2c0037648da8f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/38e6e575e105a5652b61ca0319b2c0037648da8f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e2f068eb1c4671a3095a328490efd2982fd18535/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e2f068eb1c4671a3095a328490efd2982fd18535/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e2f068eb1c4671a3095a328490efd2982fd18535/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/38e6e575e105a5652b61ca0319b2c0037648da8f/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/38e6e575e105a5652b61ca0319b2c0037648da8f/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e2f068eb1c4671a3095a328490efd2982fd18535/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e2f068eb1c4671a3095a328490efd2982fd18535/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/38e6e575e105a5652b61ca0319b2c0037648da8f/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/e2f068eb1c4671a3095a328490efd2982fd18535/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@38e6e57](https://github.com/lotusnprod/lotus-manuscript/tree/38e6e575e105a5652b61ca0319b2c0037648da8f)
+from [lotusnprod/lotus-manuscript@e2f068e](https://github.com/lotusnprod/lotus-manuscript/tree/e2f068eb1c4671a3095a328490efd2982fd18535)
 on December 22, 2021.
 </em></small>
 
@@ -585,7 +585,7 @@ We propose to the users a simple approach to document, version and share the out
 
 ##### Lotus.NaturalProducts.Net (LNPN)
 
-In the search field of the LNPN interface ([https://lotus.naturalproducts.net](https://lotus.naturalproducts.net)), simple queries can be achieved by typing the molecule name (e.g., [protopine](https://lotus.naturalproducts.net/search/simple/protopine)) or pasting a SMILES, InChI, InChIKey string, or a Wikidata identifier.
+In the search field of the LNPN interface ([https://lotus.naturalproducts.net](https://lotus.naturalproducts.net)), simple queries can be achieved by typing the molecule name (e.g., [ibogaine](https://lotus.naturalproducts.net/search/simple/ibogaine)) or pasting a SMILES, InChI, InChIKey string, or a Wikidata identifier.
 All compounds reported from a given organism can be found by entering the organism name at the species or any higher taxa level (e.g. [*Tabernanthe iboga*](https://lotus.naturalproducts.net/search/simple/Tabernanthe%20iboga)).
 Compound search by chemical class is also possible.
 

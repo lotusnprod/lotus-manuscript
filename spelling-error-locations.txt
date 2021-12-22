@@ -233,14 +233,14 @@ content/03.results-discussion.md:197:zenodo
 content/03.results-discussion.md:197:Zenodo
 content/03.results-discussion.md:199:LNPN
 content/03.results-discussion.md:199:NaturalProducts
+content/03.results-discussion.md:201:ibogaine
+content/03.results-discussion.md:201:ibogaine
 content/03.results-discussion.md:201:InChI
 content/03.results-discussion.md:201:InChIKey
 content/03.results-discussion.md:201:LNPN
 content/03.results-discussion.md:201:naturalproducts
 content/03.results-discussion.md:201:naturalproducts
 content/03.results-discussion.md:201:naturalproducts
-content/03.results-discussion.md:201:protopine
-content/03.results-discussion.md:201:protopine
 content/03.results-discussion.md:202:iboga
 content/03.results-discussion.md:202:naturalproducts
 content/03.results-discussion.md:202:Tabernanthe

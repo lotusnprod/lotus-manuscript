@@ -31,7 +31,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-Bioactive
+bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -44,7 +44,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-bjonnh
+Bjonnh
 bkfd
 Bolzani
 Bromus
@@ -81,7 +81,7 @@ codebase
 coroutines
 counterions
 Crataegus
-crossref
+Crossref
 CRSII
 csteinbeck
 cstrnq
@@ -93,7 +93,7 @@ Damerau
 daphnane
 dataset
 datasets
-Datawarrior
+datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -109,7 +109,7 @@ dimers
 diterpene
 DM
 Dmitry
-dnp
+DNP
 Dockerized
 DOIs
 doit
@@ -142,13 +142,13 @@ Fidele
 FishBase
 flavolivaceus
 Flemingovo
-foodb
+FooDB
 FragmentRemover
 Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 Gaudry
 GBIF
 gdata
@@ -190,15 +190,16 @@ hotspots
 Hu
 IBAHCM
 iboga
+ibogaine
 idf
 IDSM
 Ilex
 iNaturalist
 InChI
-InChiKey
+InChIKey
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -226,7 +227,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -280,7 +281,7 @@ MVLS
 NameBank
 náměstí
 nanpdb
-napralert
+NAPRALERT
 natively
 naturalproducts
 NCBI
@@ -321,7 +322,7 @@ pamdb
 parallelization
 pbmcapply
 Pflanzen
-Pharmacognosy
+pharmacognosy
 Phasmida
 PhenolExplorer
 physicochemical
@@ -340,7 +341,6 @@ procardb
 processingOriginal
 processingTranslated
 ProteinBoxBot
-protopine
 PubChem
 publishingDetails
 py
@@ -374,7 +374,7 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
 Scholia
 scipy
 SDF
@@ -430,7 +430,7 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-TMAP
+tmap
 tmdb
 tmmc
 tppt
@@ -438,7 +438,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
