@@ -63,7 +63,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-chemodiversity
+Chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -74,7 +74,7 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 cmcrameri
 CMU
 codebase
@@ -86,14 +86,14 @@ CRSII
 csteinbeck
 cstrnq
 curation
-cyanometdb
+Cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
 daphnane
 dataset
 datasets
-Datawarrior
+datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -136,7 +136,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-Faerun
+faerun
 Fatcat
 Fidele
 FishBase
@@ -148,7 +148,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 Gaudry
 GBIF
 gdata
@@ -172,7 +172,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -198,7 +198,7 @@ InChI
 InChIKey
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -281,9 +281,9 @@ MVLS
 NameBank
 náměstí
 nanpdb
-NAPRALERT
+napralert
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Nelumbo
@@ -292,7 +292,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -353,7 +353,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-RDKit
+rdkit
 rdmpage
 readxl
 Reionization
@@ -395,7 +395,7 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
@@ -432,13 +432,13 @@ tidyverse
 Tilmann
 tmap
 tmdb
-TMMC
+tmmc
 tppt
 transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -446,7 +446,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 ubiquituous
 UHFFFAOYSA
@@ -457,7 +457,7 @@ underreporting
 Uniprot
 Universiteitssingel
 Univocity
-UNPD
+unpd
 upsert
 upserting
 upserts
