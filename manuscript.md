@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e2f068eb1c4671a3095a328490efd2982fd18535/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e2f068eb1c4671a3095a328490efd2982fd18535/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e2f068eb1c4671a3095a328490efd2982fd18535/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/cf855fd983bb3dfc0f365e29f2a789cb786467e4/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/cf855fd983bb3dfc0f365e29f2a789cb786467e4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/cf855fd983bb3dfc0f365e29f2a789cb786467e4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e2f068eb1c4671a3095a328490efd2982fd18535/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e2f068eb1c4671a3095a328490efd2982fd18535/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/cf855fd983bb3dfc0f365e29f2a789cb786467e4/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/cf855fd983bb3dfc0f365e29f2a789cb786467e4/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/e2f068eb1c4671a3095a328490efd2982fd18535/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/cf855fd983bb3dfc0f365e29f2a789cb786467e4/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@e2f068e](https://github.com/lotusnprod/lotus-manuscript/tree/e2f068eb1c4671a3095a328490efd2982fd18535)
+from [lotusnprod/lotus-manuscript@cf855fd](https://github.com/lotusnprod/lotus-manuscript/tree/cf855fd983bb3dfc0f365e29f2a789cb786467e4)
 on December 22, 2021.
 </em></small>
 
@@ -612,26 +612,31 @@ Accordingly, by contributing to external electronic NP resources, any researcher
 
 ##### Wikidata
 
-The currently favored approach to add new data to LOTUS is to edit Wikidata entries directly.
-Newly edited data will then be imported into the SSOT repository.
+The currently favored approach to add new data to LOTUS is to create or edit Wikidata entries directly.
+Newly created or edited data will then be imported into the SSOT repository.
 There are several ways to interact with Wikidata which depend on the technical skills of the user and the volume of data to be imported/modified.
+
+
+###### Pre-requisites
+
+While direct Wikidata upload is possible, contributors are encouraged to use the LOTUS curation pipeline as a preliminary step to strengthen the initial data quality. For this a specific mode of the LOTUS processor can be called see [Manual mode](https://github.com/lotusnprod/lotus-processor/wiki/Make-commands#manual). 
+The added data will therefore benefit from the curation and validation stages implemented in the LOTUS processing pipeline.
 
 ###### Manual Upload
 
 Any researcher interested in reporting NP occurrences can manually add the data directly in Wikidata, without any particular technical knowledge requirement.
-The only prerequisite is a Wikidata account and following the [general object editing guidelines](https://www.wikidata.org/wiki/Wikidata:Tours).
+For this the creation of a Wikidata account and following the [general object editing guidelines](https://www.wikidata.org/wiki/Wikidata:Tours) is advised.
 Regarding the addition of NP-centered objects (i.e., referenced structure-organisms pairs), users shall refer to the [WikiProject Chemistry/Natural products](https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry/Natural_products) group page.
 
 A tutorial for the manual creation and upload of a referenced structure-organism pair to Wikidata is available in [SI-4](#si-4--wikidata-entry-creation-tutorial).
-While direct Wikidata upload is possible, contributors are encouraged to use the LOTUS curation pipeline as a preliminary step to strengthen the initial data quality.
-The added data will therefore benefit from the curation and validation stages implemented in the LOTUS processing pipeline.
+
 
 ###### Batch and Automated Upload
 
 Through the initial curation process described previously, 750,000+ referenced structure-organism pairs were validated for Wikidata upload.
 To automate this process, a set of programs were written to automatically process the curated outputs, group references, organisms and compounds, check if they are already present in Wikidata (using SPARQL and direct Wikidata querying) and insert or update the entities as needed (i.e., upserting).
 These scripts can be used for future batch upload of properly curated and referenced structure-organism pairs to Wikidata.
-Programs for data addition to Wikidata can be found in the repository [lotus-wikidata-importer](https://github.com/lotusnprod/lotus-wikidata-importer).
+Programs for data addition to Wikidata can be found in the repository [lotus-wikidata-interact](https://github.com/lotusnprod/lotus-wikidata-interact).
 The following [Xtools page](https://xtools.wmflabs.org/ec/www.wikidata.org/NPImporterBot) offers an overview of the latest activity performed by our [NPimporterBot](https://www.wikidata.org/wiki/User:NPImporterBothttps://www.wikidata.org/wiki/User:NPImporterBot), using those programs.
 
 #### Data Editing {.page_break_before}
