@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/38e6e575e105a5652b61ca0319b2c0037648da8f/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/38e6e575e105a5652b61ca0319b2c0037648da8f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/38e6e575e105a5652b61ca0319b2c0037648da8f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/38e6e575e105a5652b61ca0319b2c0037648da8f/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/38e6e575e105a5652b61ca0319b2c0037648da8f/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/38e6e575e105a5652b61ca0319b2c0037648da8f/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@5ed404c](https://github.com/lotusnprod/lotus-manuscript/tree/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be)
+from [lotusnprod/lotus-manuscript@38e6e57](https://github.com/lotusnprod/lotus-manuscript/tree/38e6e575e105a5652b61ca0319b2c0037648da8f)
 on December 22, 2021.
 </em></small>
 
@@ -569,8 +569,8 @@ The first work describes compounds found in Actinobacteria, with a biological fo
 The second one describes compounds found in *Aspergillus* spp., with a chemical focus on terpenoids. 
 In both cases, in seconds, the queries allow retrieving a table similar to the ones in the mentioned literature reviews. While these queries are not a direct substitute for manual literature review, they do allow researchers to quickly begin such a review process with a very strong body of relevant references.
 
-To obtain more granular results, certain types of queries that are customary in existing molecular electronic resources, such as structure or similarity searches, are not directly available in Wikidata as SPARQL does not natively support a simple integration of such queries.
-To address this issue, Galgonek et al. developed an in-house SPARQL engine that allows utilization of Sachem, a high-performance chemical DB cartridge for PostgreSQL for fingerprint-guided substructure and similarity search [@doi:10/gdn52j].
+For a convenient expansion or limitation of the results, certain types of queries such as structure or similarity searches usually exist in molecular electronic resources. As these queries are not natively integrated by SPARQL, they are not readily available for Wikidata exploration.
+To address such limitation, Galgonek et al. developed an in-house SPARQL engine that allows utilization of Sachem, a high-performance chemical DB cartridge for PostgreSQL for fingerprint-guided substructure and similarity search [@doi:10/gdn52j].
 The engine is used by the Integrated Database of Small Molecules (IDSM) that operates, among other things, several dedicated endpoints allowing structural search in selected small-molecule datasets via SPARQL [@doi:10/gf5bv5].
 To allow substructure and similarity searches via SPARQL also on compounds from Wikidata, a [dedicated IDSM/Sachem endpoint](https://idsm.elixir-czech.cz/sparql/endpoint/wikidata) was created for the LOTUS project.
 The endpoint indexes isomeric ([P2017](https://www.wikidata.org/wiki/Property:P2017)) and canonical ([P233](https://www.wikidata.org/wiki/Property:P233)) SMILES code available in Wikidata.
@@ -579,9 +579,9 @@ The endpoint allows users to run [federated queries](https://www.w3.org/TR/sparq
 For example, the SPARQL query [https://w.wiki/4VG9](https://w.wiki/4VG9) returns a list of all organisms that produce NP with an indolic scaffold.
 The output is aggregated at the parent taxa level of the containing organisms and ranked by the number of scaffold occurrences.
 
-Wikidata being a dynamic environment, the versioning aspects imply some challenges. However, tracking of the data dynamics can be achieved in multiple ways and at different levels: at the full Wikidata level, dumps are regularly created ([https://dumps.wikimedia.org/wikidatawiki/entities](https://dumps.wikimedia.org/wikidatawiki/entities)) while at the individual entry level the full history of modification can be consulted (see following link for the full edit history of erythromycin ([https://www.wikidata.org/w/index.php?title=Q213511&action=history](https://www.wikidata.org/w/index.php?title=Q213511&action=history))).
+Regarding the versioning aspects, some challenges are implied by the dynamic nature of the Wikidata environment. However, tracking of the data evolution can be achieved in multiple ways and at different levels: at the full Wikidata level, dumps are regularly created ([https://dumps.wikimedia.org/wikidatawiki/entities](https://dumps.wikimedia.org/wikidatawiki/entities)) while at the individual entry level the full history of modification can be consulted (see following link for the full edit history of erythromycin for example ([https://www.wikidata.org/w/index.php?title=Q213511&action=history](https://www.wikidata.org/w/index.php?title=Q213511&action=history))).
 
-We propose to the users a simple approach to document, version and share the output of queries on the LOTUS data at a defined time point. For this, in addition to sharing the short url of a the SPARQL query (which will return results evolving over time), a simple archiving of the returned table to Zenodo or similar platform can be done. In order to gather results of SPARQL queries we established [the LOTUS Initiative Community repository](https://zenodo.org/communities/the-lotus-initiative/). The following link allows to directly contribute to the community repository https://zenodo.org/deposit/new?c=the-lotus-initiative. For example the output of this Wikidata SPARQL query https://w.wiki/4N8G realized on the 2021-11-10T16:56 can be easily archived and shared in a publication via its DOI [10.5281/zenodo.5668380](https://doi.org/10.5281/zenodo.5668380).
+We propose to the users a simple approach to document, version and share the output of queries on the LOTUS data at a defined time point. For this, in addition to sharing the short url of a the SPARQL query (which will return results evolving over time), a simple archiving of the returned table to Zenodo or similar platform can be done. In order to gather results of SPARQL queries we established [the LOTUS Initiative Community repository](https://zenodo.org/communities/the-lotus-initiative/). The following link allows to directly contribute to the community repository [https://zenodo.org/deposit/new?c=the-lotus-initiative](https://zenodo.org/deposit/new?c=the-lotus-initiative). For example the output of this Wikidata SPARQL query [https://w.wiki/4N8G](https://w.wiki/4N8G) realized on the 2021-11-10T16:56 can be easily archived and shared in a publication via its DOI [10.5281/zenodo.5668380](https://doi.org/10.5281/zenodo.5668380).
 
 ##### Lotus.NaturalProducts.Net (LNPN)
 
