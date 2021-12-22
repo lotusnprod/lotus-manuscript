@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/cf855fd983bb3dfc0f365e29f2a789cb786467e4/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/cf855fd983bb3dfc0f365e29f2a789cb786467e4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/cf855fd983bb3dfc0f365e29f2a789cb786467e4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/f11c01dc5801664bf1ba2119d646ef2be5a7d365/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f11c01dc5801664bf1ba2119d646ef2be5a7d365/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f11c01dc5801664bf1ba2119d646ef2be5a7d365/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/cf855fd983bb3dfc0f365e29f2a789cb786467e4/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/cf855fd983bb3dfc0f365e29f2a789cb786467e4/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f11c01dc5801664bf1ba2119d646ef2be5a7d365/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f11c01dc5801664bf1ba2119d646ef2be5a7d365/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/cf855fd983bb3dfc0f365e29f2a789cb786467e4/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/f11c01dc5801664bf1ba2119d646ef2be5a7d365/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@cf855fd](https://github.com/lotusnprod/lotus-manuscript/tree/cf855fd983bb3dfc0f365e29f2a789cb786467e4)
+from [lotusnprod/lotus-manuscript@f11c01d](https://github.com/lotusnprod/lotus-manuscript/tree/f11c01dc5801664bf1ba2119d646ef2be5a7d365)
 on December 22, 2021.
 </em></small>
 
@@ -671,7 +671,7 @@ All scripts used for the generation of the figures (including [SI-5](#si-5-compl
 
 #### Distribution of Chemical Structures across reported Biological Organisms in LOTUS
 
-Table @tbl:distribution summarizes the distribution of chemical structures and their chemical classes (according to NPClassifier [@doi:10.26434/chemrxiv.12885494.v1]) across the biological organisms reported in LOTUS.
+Table @tbl:distribution summarizes the distribution of chemical structures and their chemical classes (according to NPClassifier [@doi:10.1021/acs.jnatprod.1c00399]) across the biological organisms reported in LOTUS.
 For this, biological organisms were grouped into four artificial taxonomic levels (plants, fungi, animals and bacteria).
 These were built by combining the two highest taxonomic levels in the OTL taxonomy, namely Domain and Kingdom levels.
 "Plants" corresponded to "Eukaryota_Archaeplastida", "Fungi" to "Eukaryota_Fungi", "Animals" to "Eukaryota_Metazoa" and "Bacteria" to "Bacteria_NA". 
