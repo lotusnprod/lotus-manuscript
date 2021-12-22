@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d7a36bb2332cd847cda3bc93e499667570f034a5/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d7a36bb2332cd847cda3bc93e499667570f034a5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d7a36bb2332cd847cda3bc93e499667570f034a5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/77fa70978b46515aa240aca4496951769f2e1d33/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/77fa70978b46515aa240aca4496951769f2e1d33/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/77fa70978b46515aa240aca4496951769f2e1d33/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d7a36bb2332cd847cda3bc93e499667570f034a5/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d7a36bb2332cd847cda3bc93e499667570f034a5/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/77fa70978b46515aa240aca4496951769f2e1d33/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/77fa70978b46515aa240aca4496951769f2e1d33/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d7a36bb2332cd847cda3bc93e499667570f034a5/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/77fa70978b46515aa240aca4496951769f2e1d33/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@d7a36bb](https://github.com/lotusnprod/lotus-manuscript/tree/d7a36bb2332cd847cda3bc93e499667570f034a5)
+from [lotusnprod/lotus-manuscript@77fa709](https://github.com/lotusnprod/lotus-manuscript/tree/77fa70978b46515aa240aca4496951769f2e1d33)
 on December 22, 2021.
 </em></small>
 
@@ -485,20 +485,20 @@ In the end, the disseminated data contained 290,000+ unique chemical structures,
 ### Data Dissemination
 
 Research worldwide can benefit the most when all results of published scientific studies are fully accessible immediately upon publication [@doi:10.1038/417222b].
-This concept is considered the foundation of scientific investigation and a prerequisite for effectively directing new research efforts based on prior information.
+This concept is considered the foundation of scientific investigation and a prerequisite for the effective direction of new research efforts based on prior information.
 To achieve this, research results have to be made publicly available and reusable.
 As computers are now the main investigation tool for a growing number of scientists, all research data including those in publications should be disseminated in computer-readable format, following the FAIR principles.
 LOTUS uses Wikidata as a repository for referenced structure-organism pairs, as this allows documented research data to be integrated with a large, pre-existing and extensible body of chemical and biological knowledge.
-The dynamic nature of Wikidata fosters the continuous curation of deposited data through the user community.
+The dynamic nature of Wikidata encourages the continuous curation of deposited data through the user community.
 Independence from individual and institutional funding represents another major advantage of Wikidata.
 The Wikidata knowledge base and the option to use elaborate SPARQL queries allow the exploration of the dataset from a sheer unlimited number of angles.
 The openness of Wikidata also offers unprecedented opportunities for community curation, which will support, if not guarantee, a dynamic and evolving data repository.
 At the same time, certain limitations of this approach can be anticipated.
-Despite (or possibly due to) their power, SPARQL queries are complex and often require a relatively in-depth understanding of the models and data structure.
-This involves a steep learning curve which tends to discourage end-users.
-Furthermore, traditional ways to query electronic NP resources such as structural or spectral searches are currently not within the scope of Wikidata and, thus, are addressed in LNPN.
-Using the pre-existing COCONUT template, LNPN hosting allows the user to perform structural searches by drawing a molecule, thereby addressing the current lack of structural search possibilities in Wikidata.
-Since metabolite profiling by Liquid Chromatography (LC) - Mass Spectrometry (MS) is now routinely used for the chemical composition assessment of natural extracts, future versions of LOTUS and COCONUT are envisioned to be augmented by predicted MS spectra and hosted at [https://naturalproducts.net](https://naturalproducts.net) to allow mass and spectral-based queries.
+Despite (or possibly due to) their power, SPARQL queries can be complex and potentially require an in-depth understanding of the models and data structure.
+This involves a steep learning curve which can discourage some end-users.
+Furthermore, traditional ways to query electronic NP resources such as structural or spectral searches are currently not within the scope of Wikidata and, are thus addressed in LNPN.
+Using the pre-existing COCONUT template, LNPN hosting allows the user to perform structural searches by directly drawing a molecule, thereby addressing the current lack of such structural search possibilities in Wikidata.
+Since metabolite profiling by Liquid Chromatography (LC) - Mass Spectrometry (MS) is now routinely used for the chemical composition assessment of natural extracts, future versions of LOTUS and COCONUT are envisioned to be augmented by predicted MS spectra and hosted at [https://naturalproducts.net](https://naturalproducts.net) to allow mass and spectral-based queries. Note that such spectral database is already available at [https://doi.org/10.5281/zenodo.5607264](https://doi.org/10.5281/zenodo.5607264) [@doi:10.5281/zenodo.5607264].
 To facilitate queries focused on specific taxa (e.g., "return all molecules found in the Asteraceae family"), a unified taxonomy is paramount.
 As the taxonomy of living organisms is a complex and constantly evolving field, all the taxon identifiers from all accepted taxonomic DB for a given taxon name were kept.
 Initiatives such as the [Open Tree of Life](https://tree.opentreeoflife.org) (OTL) [@doi:10/ggkjbt] will help to gradually reduce these discrepancies, and the Wikidata platform can and does support such developments.
