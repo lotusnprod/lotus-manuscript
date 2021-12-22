@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/77fa70978b46515aa240aca4496951769f2e1d33/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/77fa70978b46515aa240aca4496951769f2e1d33/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/77fa70978b46515aa240aca4496951769f2e1d33/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/77fa70978b46515aa240aca4496951769f2e1d33/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/77fa70978b46515aa240aca4496951769f2e1d33/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/77fa70978b46515aa240aca4496951769f2e1d33/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@77fa709](https://github.com/lotusnprod/lotus-manuscript/tree/77fa70978b46515aa240aca4496951769f2e1d33)
+from [lotusnprod/lotus-manuscript@5ed404c](https://github.com/lotusnprod/lotus-manuscript/tree/5ed404cbe839d7ef04f7f84ac6a1f759de97a6be)
 on December 22, 2021.
 </em></small>
 
@@ -517,9 +517,9 @@ The following gives examples of how to retrieve, add and edit LOTUS data.
 #### Data Retrieval
 
 LOTUS data can be queried and retrieved either directly in Wikidata or on LNPN, both of which have distinct advantages.
-While Wikidata offers modularity at the cost of potentially complex access to the data, LNPN has a graphical user interface with capabilities of drawing chemical structures, simplified structural or biological filtering and advanced chemical descriptors, albeit with a more rigid structure.
+While Wikidata offers flexible and powerful queries capacities at the cost of potential complexity, LNPN has a graphical user interface with capabilities of drawing chemical structures, simplified structural or biological filtering and advanced chemical descriptors, albeit with a more rigid structure.
 For bulk download, a frozen version of LOTUS data (timestamp of 2021-12-20) is also available at [https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106].
-More refined approaches to the direct interrogation of the up-to-date LOTUS data both in Wikidata and LNPN are detailed in the following.
+More refined approaches to the direct interrogation of the up-to-date LOTUS data both in Wikidata and LNPN are detailed hereafter.
 
 ##### Wikidata
 
@@ -552,9 +552,9 @@ Table: Potential questions about structure-organism relationships and correspond
 | Which compounds labeled as terpenoids were found in *Aspergillus* species, between 2010 and 2020, with related references? | [https://w.wiki/4VGD](https://w.wiki/4VGD) |
 | Which are the available referenced structure-organism pairs on wikidata? (example limited to 1000 results) | [https://w.wiki/4VFh](https://w.wiki/4VFh) |
 
-The queries presented in Table @tbl:queries are only a few examples, and many other ways of interrogating LOTUS can be formulated.
+The queries presented in Table @tbl:queries are only selected examples, and many other ways of interrogating LOTUS can be formulated.
 Generic queries can be used, for example, for hypothesis generation when starting a research project.
-For instance, a generic SPARQL query - listed in Table @tbl:queries as "Which are the available referenced structure-organism pairs?" - retrieves all structures, identified by their InChIKey ([P235](https://www.wikidata.org/wiki/Property:P235)), which contain "found in taxon" ([P703](https://www.wikidata.org/wiki/Property:P703)) statements that are stated in ([P248](https://www.wikidata.org/wiki/Property:P248)) a bibliographic reference: [https://w.wiki/4VFh](https://w.wiki/4VFh).
+For instance, a generic SPARQL query - listed in Table @tbl:queries as "Which are the available referenced structure-organism pairs on wikidata?" - retrieves all structures, identified by their InChIKey ([P235](https://www.wikidata.org/wiki/Property:P235)), which contain "found in taxon" ([P703](https://www.wikidata.org/wiki/Property:P703)) statements that are stated in ([P248](https://www.wikidata.org/wiki/Property:P248)) a bibliographic reference: [https://w.wiki/4VFh](https://w.wiki/4VFh).
 Data can then be exported in various formats, such as classical tabular formats, json, or html tables (see Download tab on the lower right of the query frame).
 At the time of writing (2021-12-20), this query (without the LIMIT 1000) returned 951,800 entries; a frozen query result is available at [https://doi.org/10.5281/zenodo.5668854](https://doi.org/10.5281/zenodo.5668854) [@doi:10.5281/zenodo.5668854].
 
@@ -567,7 +567,7 @@ To further showcase the possibilities, two additional queries were established (
 Both queries were inspired by recent literature review works [@doi:10.1016/j.micres.2021.126708; @doi:10.1016/j.phytochem.2021.113011]. 
 The first work describes compounds found in Actinobacteria, with a biological focus on compounds with reported bioactivity. 
 The second one describes compounds found in *Aspergillus* spp., with a chemical focus on terpenoids. 
-In both cases, in seconds, the queries allow retrieving a table similar to the ones in the mentioned literature reviews.
+In both cases, in seconds, the queries allow retrieving a table similar to the ones in the mentioned literature reviews. While these queries are not a direct substitute for manual literature review, they do allow researchers to quickly begin such a review process with a very strong body of relevant references.
 
 To obtain more granular results, certain types of queries that are customary in existing molecular electronic resources, such as structure or similarity searches, are not directly available in Wikidata as SPARQL does not natively support a simple integration of such queries.
 To address this issue, Galgonek et al. developed an in-house SPARQL engine that allows utilization of Sachem, a high-performance chemical DB cartridge for PostgreSQL for fingerprint-guided substructure and similarity search [@doi:10/gdn52j].

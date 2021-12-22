@@ -63,7 +63,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-chemodiversity
+Chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -93,7 +93,7 @@ Damerau
 daphnane
 dataset
 datasets
-Datawarrior
+datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -113,7 +113,7 @@ DNP
 Dockerized
 DOIs
 doit
-drduke
+DrDuke
 DTGCRPNFSA
 eBird
 echnology
@@ -136,7 +136,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-Faerun
+faerun
 Fatcat
 Fidele
 FishBase
@@ -172,7 +172,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerifier
 Gottlieb
@@ -226,7 +226,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -268,7 +268,6 @@ mibig
 Michán
 Mietchen
 mitishamba
-modularity
 Molconvert
 MolVS
 monogyna
@@ -353,7 +352,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-RDKit
+rdkit
 rdmpage
 readxl
 refered
@@ -375,7 +374,7 @@ Rutz
 rvest
 rwst
 sancdb
-Sanitization
+sanitization
 Scholia
 scipy
 SDF
@@ -420,7 +419,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-TCM
+tcm
 TCMID
 Termitidae
 terpenoid
@@ -431,7 +430,7 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-TMAP
+tmap
 tmdb
 TMMC
 tppt
@@ -439,7 +438,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-trigocherrin
+Trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -474,7 +473,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-wakankensaku
+Wakankensaku
 wdkt
 wdpage
 webchem
