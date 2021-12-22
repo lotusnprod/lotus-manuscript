@@ -31,7 +31,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-Bioactive
+bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -63,7 +63,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-Chemodiversity
+chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -172,7 +172,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerifier
 Gottlieb
@@ -181,6 +181,7 @@ granularities
 Guan
 guayusa
 Gunatilaka
+Haddon
 Hegnauer
 Hegnauer’s
 heptadecanoic
@@ -193,8 +194,8 @@ idf
 IDSM
 Ilex
 iNaturalist
-inchi
-InChiKey
+InChI
+InChIKey
 indability
 indica
 Indolic
@@ -225,7 +226,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -269,10 +270,12 @@ Mietchen
 mitishamba
 modularity
 Molconvert
-MolVS
+Molvs
 monogyna
+Montclair
 Mozzherin
 mSorok
+Müggelseedamm
 Musée
 MVLS
 NameBank
@@ -280,7 +283,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Nelumbo
@@ -289,7 +292,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -321,7 +324,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -350,7 +353,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 Reionization
@@ -364,6 +367,7 @@ Rhizopodaceae
 rhizoxin
 Roderic
 ROMol
+Ronin
 rotl
 RSQLite
 Rutz
@@ -415,7 +419,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-TCM
+tcm
 TCMID
 Termitidae
 terpenoid
@@ -428,13 +432,13 @@ tidyverse
 Tilmann
 tmap
 tmdb
-tmmc
+TMMC
 tppt
 transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -442,7 +446,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 ubiquituous
 UHFFFAOYSA
@@ -478,6 +482,7 @@ Wikidata’s
 Wikimedia
 WikiPathways
 WikiProject
+WikiProjects
 Wikispecies
 Willighagen
 Wolfender
