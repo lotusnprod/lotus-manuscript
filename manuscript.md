@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/10f9783c1dfd474721a4fd5f702377ef9c1beb51/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/10f9783c1dfd474721a4fd5f702377ef9c1beb51/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/10f9783c1dfd474721a4fd5f702377ef9c1beb51/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/533810c997a04e1f8c5dd1cfbc7b39ce488a8603/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/533810c997a04e1f8c5dd1cfbc7b39ce488a8603/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/533810c997a04e1f8c5dd1cfbc7b39ce488a8603/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/10f9783c1dfd474721a4fd5f702377ef9c1beb51/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/10f9783c1dfd474721a4fd5f702377ef9c1beb51/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/533810c997a04e1f8c5dd1cfbc7b39ce488a8603/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/533810c997a04e1f8c5dd1cfbc7b39ce488a8603/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/10f9783c1dfd474721a4fd5f702377ef9c1beb51/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/533810c997a04e1f8c5dd1cfbc7b39ce488a8603/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@10f9783](https://github.com/lotusnprod/lotus-manuscript/tree/10f9783c1dfd474721a4fd5f702377ef9c1beb51)
+from [lotusnprod/lotus-manuscript@533810c](https://github.com/lotusnprod/lotus-manuscript/tree/533810c997a04e1f8c5dd1cfbc7b39ce488a8603)
 on December 22, 2021.
 </em></small>
 
@@ -421,7 +421,7 @@ The overall process leading to referenced and curated structure-organisms pairs 
 
 By design, this iterative process fosters community participation, essential to efficiently document NP occurrences.
 All stages of the workflow are described on the git sites of the LOTUS initiative at [https://github.com/lotusnprod](https://github.com/lotusnprod) and in the [methods](#Methods).
-At the time of writing, 700,000+ LOTUS entries contained a curated chemical structure, biological organism and reference and were available on both Wikidata and LNPN.
+At the time of writing, 750,000+ LOTUS entries contained a curated chemical structure, biological organism and reference and were available on both Wikidata and LNPN.
 As the LOTUS data volume is expected to increase over time, a frozen (as of 2021-12-20), tabular version of this dataset with its associated metadata is made available at [https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106].
 
 ### Data Harmonization
@@ -579,7 +579,7 @@ The endpoint allows users to run [federated queries](https://www.w3.org/TR/sparq
 For example, the SPARQL query [https://w.wiki/4VG9](https://w.wiki/4VG9) returns a list of all organisms that produce NP with an indolic scaffold.
 The output is aggregated at the parent taxa level of the containing organisms and ranked by the number of scaffold occurrences.
 
-Wikidata being a dynamic environment, the versioning aspects imply some challenges. However, tracking of the data dynamics can be achieved in multiple ways and at different levels: at the full Wikidata level, dumps are regularly created (https://dumps.wikimedia.org/wikidatawiki/entities) while at the individual entry level the full history of modification can be consulted (see following link for the full edit history of erythromycin https://www.wikidata.org/w/index.php?title=Q213511&action=history).
+Wikidata being a dynamic environment, the versioning aspects imply some challenges. However, tracking of the data dynamics can be achieved in multiple ways and at different levels: at the full Wikidata level, dumps are regularly created ([https://dumps.wikimedia.org/wikidatawiki/entities](https://dumps.wikimedia.org/wikidatawiki/entities)) while at the individual entry level the full history of modification can be consulted (see following link for the full edit history of erythromycin ([https://www.wikidata.org/w/index.php?title=Q213511&action=history](https://www.wikidata.org/w/index.php?title=Q213511&action=history))).
 
 We propose to the users a simple approach to document, version and share the output of queries on the LOTUS data at a defined time point. For this, in addition to sharing the short url of a the SPARQL query (which will return results evolving over time), a simple archiving of the returned table to Zenodo or similar platform can be done. In order to gather results of SPARQL queries we established [the LOTUS Initiative Community repository](https://zenodo.org/communities/the-lotus-initiative/). The following link allows to directly contribute to the community repository https://zenodo.org/deposit/new?c=the-lotus-initiative. For example the output of this Wikidata SPARQL query https://w.wiki/4N8G realized on the 2021-11-10T16:56 can be easily archived and shared in a publication via its DOI ​​(https://doi.org/10.5281/zenodo.5668380).
 
@@ -628,7 +628,7 @@ The added data will therefore benefit from the curation and validation stages im
 
 ###### Batch and Automated Upload
 
-Through the initial curation process described previously, 700,000+ referenced structure-organism pairs were validated for Wikidata upload.
+Through the initial curation process described previously, 750,000+ referenced structure-organism pairs were validated for Wikidata upload.
 To automate this process, a set of programs were written to automatically process the curated outputs, group references, organisms and compounds, check if they are already present in Wikidata (using SPARQL and direct Wikidata querying) and insert or update the entities as needed (i.e., upserting).
 These scripts can be used for future batch upload of properly curated and referenced structure-organism pairs to Wikidata.
 Programs for data addition to Wikidata can be found in the repository [lotus-wikidata-importer](https://github.com/lotusnprod/lotus-wikidata-importer).
