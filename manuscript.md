@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d05587e927d7898c37b60e52841fbcbf4f79a899/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d05587e927d7898c37b60e52841fbcbf4f79a899/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d05587e927d7898c37b60e52841fbcbf4f79a899/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/1178af98aeec41317a99fd1ff9fba17c940b28da/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1178af98aeec41317a99fd1ff9fba17c940b28da/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1178af98aeec41317a99fd1ff9fba17c940b28da/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d05587e927d7898c37b60e52841fbcbf4f79a899/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d05587e927d7898c37b60e52841fbcbf4f79a899/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1178af98aeec41317a99fd1ff9fba17c940b28da/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1178af98aeec41317a99fd1ff9fba17c940b28da/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d05587e927d7898c37b60e52841fbcbf4f79a899/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/1178af98aeec41317a99fd1ff9fba17c940b28da/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@d05587e](https://github.com/lotusnprod/lotus-manuscript/tree/d05587e927d7898c37b60e52841fbcbf4f79a899)
+from [lotusnprod/lotus-manuscript@1178af9](https://github.com/lotusnprod/lotus-manuscript/tree/1178af98aeec41317a99fd1ff9fba17c940b28da)
 on December 22, 2021.
 </em></small>
 
@@ -334,20 +334,20 @@ In the past century alone, the rate at which unambiguous identification of new N
 Without a means to access and process these disparate NP data points, information is fragmented and scientific progress is impaired [@doi:10.1371/journal.pone.0118747].
 To this extent, contemporary bioinformatic tools enable the (re-)interpretation and (re-)annotation of (existing) datasets documenting molecular aspects of biodiversity [@doi:10.1038/s41598-021-87796-6; @doi:10.1038/s41592-020-0916-7].
 
-While large, well-structured and freely accessible DB exist, they are often concerned primarily with chemical structures (e.g. [PubChem](https://pubchem.ncbi.nlm.nih.gov) [@doi:10.1093/nar/gky1033], with over 100M entries) or biological organisms (e.g. [GBIF](https://www.gbif.org) [@GBIFOrg2020], with over 1,400M entries), but scarce interlinkages limit their application for documentation of NP occurrence(s).
-Currently, no open, cross-kingdom, comprehensive, computer-interpretable electronic NP resource links NP and their producing organisms, along with referral to the underlying experimental work.
+While large, well-structured and freely accessible DB exist, they are often concerned primarily with chemical structures (e.g. [PubChem](https://pubchem.ncbi.nlm.nih.gov) [@doi:10.1093/nar/gky1033], with over 100M entries) or biological organisms (e.g. [GBIF](https://www.gbif.org) [@GBIFOrg2020], with over 1,900M entries), but scarce interlinkages limit their application for documentation of NP occurrence(s).
+Currently, no open, cross-kingdom, comprehensive and computer-interpretable electronic NP resource links NP and their containing organisms, along with referral to the underlying experimental work.
 This shortcoming breaks the crucial evidentiary link required for tracing information back to the original data and assessing its quality.
 Even valuable commercially available efforts for compiling NP data, such as the [Dictionary of Natural Products](https://dnp.chemnetbase.com) (DNP), can lack proper documentation of these critical links.
 
 Pioneering efforts to address such challenges led to the establishment of [KNApSAck](http://www.knapsackfamily.com/KNApSAcK) [@doi:10.1007/3-540-29782-0_13], which is likely the first public, curated electronic NP resource of referenced structure-organism pairs.
 KNApSAck currently contains 50,000+ structures and 100,000+ structure-organism pairs.
 However, the organism field is not standardized and access to the data is not straightforward.
-One of the earliest-established electronic NP resources is the NAPRALERT dataset [@doi:10.1016/b978-008045382-8.00060-5], which was compiled over five decades from the NP literature, gathering and annotating data derived from over 200,000 primary literature sources.
-The dataset contains 200,000+ distinct compound names and structural elements, along with 500,000+ records of distinct, fully-cited structure-organism pairs.
+Another early-established electronic NP resources is the NAPRALERT dataset [@doi:10.1016/b978-008045382-8.00060-5], which was compiled over five decades from the NP literature, gathering and annotating data derived from over 200,000 primary literature sources.
+This dataset contains 200,000+ distinct compound names and structural elements, along with 500,000+ records of distinct, fully-cited structure-organism pairs.
 In total, NAPRALERT contains over 900,000 such records, due to equivalent structure-organism pairs reported in different citations.
 However, NAPRALERT is not an open platform and employs an access model that provides only limited free searches of the dataset.
-Finally, the [NPAtlas](https://www.npatlas.org) [@doi:10/gh5ptm] is a more recent project aimed at complying with the FAIR (<u>F</u>indability, <u>A</u>ccessibility, <u>I</u>nteroperability and <u>R</u>euse) guidelines for digital assets [@doi:10/bdd4] and offering web access.
-While the NPAtlas encourages submission of new compounds with their biological source, it focuses on microbial NP and ignores a wide range of biosynthetically active organisms found in the Plantae kingdom.
+Finally, the [NPAtlas](https://www.npatlas.org) [@doi:10/gh5ptm; @doi:10.1093/nar/gkab941] is a more recent project complying with the FAIR (<u>F</u>indability, <u>A</u>ccessibility, <u>I</u>nteroperability and <u>R</u>euse) guidelines for digital assets [@doi:10/bdd4] and offering convenient web access.
+While the NPAtlas allows retrieval and encourages submission of compounds with their biological source, it focuses on microbial NP and ignores a wide range of biosynthetically active organisms found in the Plantae kingdom.
 
 Building on experience gained with the recently published [COlleCtion of Open NatUral producTs](https://coconut.naturalproducts.net) (COCONUT) [@doi:10/ghssx5], the LOTUS initiative seeks to address the aforementioned shortcomings.
 At its current stage of development, LOTUS disseminates 750,000+ referenced structure-organism pairs.
@@ -366,8 +366,8 @@ Within Wikidata, data triples correspond to approximately 100 million entries, w
 The statements are closely integrated with [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) and serve as the source for many of its infoboxes.
 Various workflows have been established for reporting such classes, particularly those of interest to life sciences, such as genes, proteins, diseases, drugs, or biological taxa [@doi:10/ggqqc6].
 
-Building on the principles and experiences described above, the present report introduces the development and implementation of the LOTUS workflow for NP occurrences' curation and dissemination, which applies both FAIR and TRUST (<u>T</u>ransparency, <u>R</u>esponsibility, <u>U</u>ser focus, <u>S</u>ustainability and <u>T</u>echnology) principles [@doi:10/ggwrtj].
-LOTUS' data upload and retrieval procedures ensure optimal accessibility by the research community, allowing any researcher to contribute, edit and reuse the data with a clear and open CC0 license ([Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0)).
+Building on the principles and experiences described above, the present report introduces the development and implementation of the LOTUS workflow for NP occurrence curation and dissemination, which applies both FAIR and TRUST (<u>T</u>ransparency, <u>R</u>esponsibility, <u>U</u>ser focus, <u>S</u>ustainability and <u>T</u>echnology) principles [@doi:10/ggwrtj].
+LOTUS data upload and retrieval procedures ensure optimal accessibility by the research community, allowing any researcher to contribute, edit and reuse the data with a clear and open CC0 license ([Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0)).
 
 Despite many advantages, Wikidata hosting has some notable, yet manageable drawbacks.
 While its SPARQL query language offers a powerful way to query available data, it can also appear intimidating to the less experienced user.
@@ -379,8 +379,8 @@ LNPN is periodically updated with the latest LOTUS data.
 This dual hosting provides an integrated, community-curated and vast knowledge base (*via* Wikidata), as well as a NP community-oriented product with tailored search modes (*via* LNPN). The multiple data interaction options should establish the basis for the transparent and sustainable access, sharing and creation of knowledge on NP occurrence.
 
 
-The LOTUS initiative was initially launched to answer our need to access the most comprehensive compilation of biological occurrences of natural products. Indeed, recently, we highlighted the interest of considering the taxonomic dimension when annotating metabolites [@doi:10/fm73]. This being said, many other concrete applications can result from an access by the scientific community to the LOTUS initiative data. For example, such a resource will facilitate the exploration of eco-evolutionary mechanisms at the molecular level [@doi:10/ghssx4]. In terms of drug discovery, this resource is extremely valuable to orient and guide researchers interested in a structure of interest. On the same theme, LOTUS is expected to be the perfect place to encounter "molecular arguments" for biodiversity conservation [@doi:10.1046/j.1365-2664.2003.00803.x]. Researchers interested in the history of science will be able, through this kind of resource, to gain a preliminary view of the temporal evolution of disciplines such as pharmacognosy.
-More generally, the objective of the LOTUS initiative is to prepare the ground for an electronic and globally accessible resource that would be the counterpart, at the metabolite level, of established databases linking proteins to biological organisms (eg. [Uniprot](https://www.uniprot.org/)) and genes to biological organisms ([Genbank](https://www.ncbi.nlm.nih.gov/genbank/)). Once such an objective is reached, it will be possible to interconnect the three central objects of the living, i.e. metabolites, proteins and genes, through the common entity of these resources, the biological organism. Such an interconnection, fosters cross-fertilization of the fields of chemistry, biology and associated disciplines and is desirable and necessary to advance towards a better understanding of Life.
+The LOTUS initiative was initially launched to answer our need to access the most comprehensive compilation of biological occurrences of NP. Indeed, we recently highlighted the interest of considering the taxonomic dimension when annotating metabolites [@doi:10/fm73]. This being said, many other concrete applications can result from an access by the scientific community to the LOTUS initiative data. For example, such a resource will facilitate the exploration of eco-evolutionary mechanisms at the molecular level [@doi:10/ghssx4]. In terms of drug discovery, this resource is extremely valuable to orient and guide researchers interested in a structure of interest. On the same theme, LOTUS is expected to be the perfect place to encounter "molecular arguments" for biodiversity conservation [@doi:10.1046/j.1365-2664.2003.00803.x]. Researchers interested in the history of science will be able, through this kind of resource, to gain a preliminary view of the temporal evolution of disciplines such as pharmacognosy.
+More generally, the objective of the LOTUS initiative is to prepare the ground for an electronic and globally accessible resource that would be the counterpart, at the metabolite level, of established databases linking proteins to biological organisms (eg. [Uniprot](https://www.uniprot.org/)) and genes to biological organisms ([Genbank](https://www.ncbi.nlm.nih.gov/genbank/)). Once such an objective is reached, it will be possible to interconnect the three central objects of the living, i.e. metabolites, proteins and genes, through the common entity of these resources, the biological organism. Such an interconnection, fostering cross-fertilization of the fields of chemistry, biology and associated disciplines is desirable and necessary to advance towards a better understanding of Life.
 
 <br/><br/>
 
@@ -581,7 +581,7 @@ The output is aggregated at the parent taxa level of the containing organisms an
 
 Wikidata being a dynamic environment, the versioning aspects imply some challenges. However, tracking of the data dynamics can be achieved in multiple ways and at different levels: at the full Wikidata level, dumps are regularly created ([https://dumps.wikimedia.org/wikidatawiki/entities](https://dumps.wikimedia.org/wikidatawiki/entities)) while at the individual entry level the full history of modification can be consulted (see following link for the full edit history of erythromycin ([https://www.wikidata.org/w/index.php?title=Q213511&action=history](https://www.wikidata.org/w/index.php?title=Q213511&action=history))).
 
-We propose to the users a simple approach to document, version and share the output of queries on the LOTUS data at a defined time point. For this, in addition to sharing the short url of a the SPARQL query (which will return results evolving over time), a simple archiving of the returned table to Zenodo or similar platform can be done. In order to gather results of SPARQL queries we established [the LOTUS Initiative Community repository](https://zenodo.org/communities/the-lotus-initiative/). The following link allows to directly contribute to the community repository https://zenodo.org/deposit/new?c=the-lotus-initiative. For example the output of this Wikidata SPARQL query https://w.wiki/4N8G realized on the 2021-11-10T16:56 can be easily archived and shared in a publication via its DOI ​​(https://doi.org/10.5281/zenodo.5668380).
+We propose to the users a simple approach to document, version and share the output of queries on the LOTUS data at a defined time point. For this, in addition to sharing the short url of a the SPARQL query (which will return results evolving over time), a simple archiving of the returned table to Zenodo or similar platform can be done. In order to gather results of SPARQL queries we established [the LOTUS Initiative Community repository](https://zenodo.org/communities/the-lotus-initiative/). The following link allows to directly contribute to the community repository https://zenodo.org/deposit/new?c=the-lotus-initiative. For example the output of this Wikidata SPARQL query https://w.wiki/4N8G realized on the 2021-11-10T16:56 can be easily archived and shared in a publication via its DOI [10.5281/zenodo.5668380](https://doi.org/10.5281/zenodo.5668380).
 
 ##### Lotus.NaturalProducts.Net (LNPN)
 
