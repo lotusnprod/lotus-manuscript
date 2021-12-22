@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/533810c997a04e1f8c5dd1cfbc7b39ce488a8603/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/533810c997a04e1f8c5dd1cfbc7b39ce488a8603/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/533810c997a04e1f8c5dd1cfbc7b39ce488a8603/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/ecb4aecb60e2a86be96ebd0a3d46874cc82399c4/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ecb4aecb60e2a86be96ebd0a3d46874cc82399c4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ecb4aecb60e2a86be96ebd0a3d46874cc82399c4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/533810c997a04e1f8c5dd1cfbc7b39ce488a8603/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/533810c997a04e1f8c5dd1cfbc7b39ce488a8603/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ecb4aecb60e2a86be96ebd0a3d46874cc82399c4/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ecb4aecb60e2a86be96ebd0a3d46874cc82399c4/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/533810c997a04e1f8c5dd1cfbc7b39ce488a8603/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/ecb4aecb60e2a86be96ebd0a3d46874cc82399c4/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@533810c](https://github.com/lotusnprod/lotus-manuscript/tree/533810c997a04e1f8c5dd1cfbc7b39ce488a8603)
+from [lotusnprod/lotus-manuscript@ecb4aec](https://github.com/lotusnprod/lotus-manuscript/tree/ecb4aecb60e2a86be96ebd0a3d46874cc82399c4)
 on December 22, 2021.
 </em></small>
 
@@ -1916,7 +1916,7 @@ If you prefer to resolve your DOI to Wikidata directly, you can do so by using t
 If you think that no Wikidata entry exists for your target reference, you can use the DOI in the URL pattern [https://sourcemd.toolforge.org/index_old.php?id=**10.1021/ol2030907**&doit=Check+source](https://sourcemd.toolforge.org/index_old.php?id=10.1021/ol2030907&doit=Check+source), which will trigger a check with both Crossref and Wikidata, and if no Wikidata entry can be found, the metadata from Crossref will be fetched and presented to you for creating the respective Wikidata item semi-automatically.
 Using such semi-automated workflows does require and account that is a minimum number of days old and has made a minimum number of edits on Wikidata.
 
-If you are interested the annotation of article with topics in Scholia here is a tutorial [https://laurendupuis.github.io/Scholia_tutorial](https://laurendupuis.github.io/Scholia_tutorial)
+If you are interested in the annotation of articles with topics via Wikidata and Scholia, here is a tutorial: [https://laurendupuis.github.io/Scholia_tutorial](https://laurendupuis.github.io/Scholia_tutorial).
 
 
 ##### Voilà !
