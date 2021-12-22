@@ -3,7 +3,7 @@ adafede
 Adriano
 afrotryp
 alkamid
-Allard
+allard
 Amoebozoa
 AmphibiaWeb
 Angelshark
@@ -85,7 +85,7 @@ CRSII
 csteinbeck
 cstrnq
 curation
-Cyanometdb
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -112,7 +112,7 @@ DNP
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -147,7 +147,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 Gaudry
 GBIF
 gdata
@@ -192,11 +192,11 @@ idf
 IDSM
 Ilex
 iNaturalist
-inchi
+InChI
 InChIKey
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -277,9 +277,9 @@ MVLS
 NameBank
 náměstí
 nanpdb
-NAPRALERT
+napralert
 natively
-NaturalProducts
+naturalproducts
 NCBI
 NCCIH
 Nelumbo
@@ -288,7 +288,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -318,9 +318,9 @@ pamdb
 parallelization
 pbmcapply
 Pflanzen
-pharmacognosy
+Pharmacognosy
 Phasmida
-phenolexplorer
+PhenolExplorer
 physicochemical
 phytochemical
 Phytochemistry
@@ -349,7 +349,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 Reionization
@@ -425,7 +425,7 @@ thaliana
 THOMS
 tidyverse
 Tilmann
-TMAP
+tmap
 tmdb
 tmmc
 tppt
@@ -433,7 +433,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-trigocherrin
+Trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -441,7 +441,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 ubiquituous
 UHFFFAOYSA
