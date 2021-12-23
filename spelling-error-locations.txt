@@ -920,8 +920,6 @@ content/08.acknowledgments.md:8:MEYS
 content/08.acknowledgments.md:9:Dmitry
 content/08.acknowledgments.md:9:Mozzherin
 content/08.acknowledgments.md:10:Cheng
-content/08.acknowledgments.md:10:JB
-content/08.acknowledgments.md:10:PMA
 content/08.acknowledgments.md:10:PubChem
 content/08.acknowledgments.md:10:Tiejun
 content/08.acknowledgments.md:11:Michán

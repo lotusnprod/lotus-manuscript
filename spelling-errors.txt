@@ -3,7 +3,7 @@ adafede
 Adriano
 afrotryp
 alkamid
-allard
+Allard
 Amoebozoa
 AmphibiaWeb
 Angelshark
@@ -63,7 +63,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-Chemodiversity
+chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -87,14 +87,14 @@ CRSII
 csteinbeck
 cstrnq
 curation
-Cyanometdb
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
 daphnane
 dataset
 datasets
-Datawarrior
+datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -114,7 +114,7 @@ DNP
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -137,7 +137,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-faerun
+Faerun
 Fatcat
 Fidele
 FishBase
@@ -197,10 +197,10 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChIKey
+InChiKey
 indability
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -228,7 +228,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -282,7 +282,7 @@ MVLS
 NameBank
 náměstí
 nanpdb
-NAPRALERT
+napralert
 natively
 naturalproducts
 NCBI
@@ -293,7 +293,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -324,7 +324,7 @@ pbmcapply
 Pflanzen
 pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 Phytochemistry
 phytohub
@@ -373,7 +373,7 @@ Rutz
 rvest
 rwst
 sancdb
-Sanitization
+sanitization
 Scholia
 scipy
 SDF
@@ -430,7 +430,7 @@ THOMS
 tidyverse
 Tiejun
 Tilmann
-tmap
+TMAP
 tmdb
 tmmc
 tppt
@@ -446,7 +446,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger

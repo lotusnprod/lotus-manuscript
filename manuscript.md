@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e24f89a457ba52818ce96d6f04017fcb5cfda8d8/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e24f89a457ba52818ce96d6f04017fcb5cfda8d8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e24f89a457ba52818ce96d6f04017fcb5cfda8d8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/ac0a640d07af65997b3ea915c1ab7e263d32977f/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ac0a640d07af65997b3ea915c1ab7e263d32977f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ac0a640d07af65997b3ea915c1ab7e263d32977f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e24f89a457ba52818ce96d6f04017fcb5cfda8d8/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e24f89a457ba52818ce96d6f04017fcb5cfda8d8/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ac0a640d07af65997b3ea915c1ab7e263d32977f/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ac0a640d07af65997b3ea915c1ab7e263d32977f/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/e24f89a457ba52818ce96d6f04017fcb5cfda8d8/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/ac0a640d07af65997b3ea915c1ab7e263d32977f/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@e24f89a](https://github.com/lotusnprod/lotus-manuscript/tree/e24f89a457ba52818ce96d6f04017fcb5cfda8d8)
+from [lotusnprod/lotus-manuscript@ac0a640](https://github.com/lotusnprod/lotus-manuscript/tree/ac0a640d07af65997b3ea915c1ab7e263d32977f)
 on December 23, 2021.
 </em></small>
 
@@ -1226,8 +1226,8 @@ JB, JGG, and GFP gratefully acknowledge the support of this work by grant U41 AT
 MS and CS are supported by the German Research Foundation within the framework ChemBioSys (Project-ID 239748522, SFB 1127).
 EW and DM acknowledge the Scholia grant from the Alfred P. Sloan Foundation under grant number G-2019-11458.
 The work on the Wikidata IDSM/Sachem endpoint was supported by an ELIXIR CZ research infrastructure project grant (MEYS Grant No: LM2018131) including access to computing and storage facilities.
-AR would like to thank [Dmitry Mozzherin](https://github.com/dimus) for his work done for the Global Names Architecture and related improvements.
-AR, PMA, and JB would like to acknowledge help from the PubChem team in integrating LOTUS, especially Dr. Tiejun Cheng and Dr. Evan Bolton.
+The authors would like to thank [Dmitry Mozzherin](https://github.com/dimus) for his work done for the Global Names Architecture and related improvements.
+They would like to acknowledge help from the PubChem team in integrating LOTUS, especially Dr. Tiejun Cheng and Dr. Evan Bolton.
 The authors would also like to thank Layla Michán for starting to add pigment information on Wikidata.
 The authors would also like to thank the team behind [Manubot](https://manubot.org/) [@doi:10.1371/journal.pcbi.1007128], used to write this manuscript.
 The authors would also like to thank contributors of all electronic NP resources used in this work and the NP community at large.
