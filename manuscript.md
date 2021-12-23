@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-12-22'
+date-meta: '2021-12-23'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-12-22" />
-  <meta name="citation_publication_date" content="2021-12-22" />
+  <meta name="dc.date" content="2021-12-23" />
+  <meta name="citation_publication_date" content="2021-12-23" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5499e1bd69947ef32958e9af35eab181b2b4832f/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5499e1bd69947ef32958e9af35eab181b2b4832f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5499e1bd69947ef32958e9af35eab181b2b4832f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5499e1bd69947ef32958e9af35eab181b2b4832f/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5499e1bd69947ef32958e9af35eab181b2b4832f/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,10 +136,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5499e1bd69947ef32958e9af35eab181b2b4832f/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@6f9409e](https://github.com/lotusnprod/lotus-manuscript/tree/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3)
-on December 22, 2021.
+from [lotusnprod/lotus-manuscript@5499e1b](https://github.com/lotusnprod/lotus-manuscript/tree/5499e1bd69947ef32958e9af35eab181b2b4832f)
+on December 23, 2021.
 </em></small>
 
 ## Authors
@@ -739,7 +739,7 @@ An additional figure, [SI-5](#si-5-complement-to-figure-7) further supports this
 
 An alternative view of the biological and chemical diversity covered by LOTUS is illustrated in Figure @fig:magicTree.
 Here, chemical compounds are not organized but biological organisms are placed in their taxonomy.
-To limit bias due to underreporting in the literature and keep a reasonable display size, only families with at least 50 reported compounds were included.
+To limit bias due to under-reporting in the literature and keep a reasonable display size, only families with at least 50 reported compounds were included.
 Organisms were classified according to the OTL taxonomy and structures according to NPClassifier.
 The tips were labeled according to the biological family and colored according to their biological kingdom.
 The bars represent structure specificity of the most characteristic chemical class of the given biological family (the higher the more specific).
@@ -750,9 +750,9 @@ This specificity score was a [Jaccard index](https://en.wikipedia.org/wiki/Jacca
 Figure @fig:magicTree makes it possible to spot highly specific compound classes such as trinervitane terpenoids in the Termitidae, the rhizoxin macrolides in the Rhizopodaceae, or the quassinoids and limonoids typical, respectively, of Simaroubaceae and Meliaceae.
 Similarly, tendencies of more generic occurrence of NP can be observed.
 For example, within the fungal kingdom, Basidiomycotina appear to have a higher biosynthetic specificity toward terpenoids than other fungi, which mostly focus on polyketides production.
-As explained previously, Figure @fig:magicTree is highly dependent of what is reported in literature. 
-As also illustrated in Figure @fig:distribution, some compounds can be overstrudied among several organisms, and many organisms studied for specific compounds only.
-This is a direct consequence of the way the NP community report its data actually. 
+As explained previously, Figure @fig:magicTree is highly dependent of the data reported in literature. 
+As also illustrated in Figure @fig:distribution, some compounds can be over-studied among several organisms, and many organisms studied for specific compounds only.
+This is a direct consequence of the way the NP community reports its data actually. 
 Having this in mind, when observed at a finer scale, down to the structure level, such chemotaxonomic representation can give valuable insights.
 For example, among all chemical structures, only two were found in all biological kingdoms, namely heptadecanoic acid (KEMQGTRYUADPNZ-UHFFFAOYSA-N) and *β*-carotene (OENHQHLEOONYIE-JLTXGRSLSA-N). Looking at the distribution of *β*-sitosterol (KZJWDPNRJALLNS-VJSFXXLFSA-N) within the overall biological tree, [SI-5](#si-5-complement-to-figure-7) plots its presence/absence *versus* those of its superior chemical classifications, namely the stigmastane, steroid and terpenoid derivatives, over the same tree used in Figure @fig:magicTree.
 The comparison of these five chemically-interpreted biological trees clearly highlights the increasing speciation of the *β*-sitosterol biosynthetic pathway in the Archaeplastida kingdom, while the superior classes are distributed across all kingdoms.

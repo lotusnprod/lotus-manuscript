@@ -400,7 +400,6 @@ content/03.results-discussion.md:347:stigmastane
 content/03.results-discussion.md:348:repartition
 content/03.results-discussion.md:348:stigmastane
 content/03.results-discussion.md:353:magicTree
-content/03.results-discussion.md:355:underreporting
 content/03.results-discussion.md:356:NPClassifier
 content/03.results-discussion.md:356:OTL
 content/03.results-discussion.md:359:Jaccard
@@ -430,7 +429,6 @@ content/03.results-discussion.md:365:biosynthetic
 content/03.results-discussion.md:365:polyketides
 content/03.results-discussion.md:365:terpenoids
 content/03.results-discussion.md:366:magicTree
-content/03.results-discussion.md:367:overstrudied
 content/03.results-discussion.md:369:chemotaxonomic
 content/03.results-discussion.md:370:heptadecanoic
 content/03.results-discussion.md:370:JLTXGRSLSA
