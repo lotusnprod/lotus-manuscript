@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/ac0a640d07af65997b3ea915c1ab7e263d32977f/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ac0a640d07af65997b3ea915c1ab7e263d32977f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ac0a640d07af65997b3ea915c1ab7e263d32977f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ac0a640d07af65997b3ea915c1ab7e263d32977f/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ac0a640d07af65997b3ea915c1ab7e263d32977f/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/ac0a640d07af65997b3ea915c1ab7e263d32977f/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@ac0a640](https://github.com/lotusnprod/lotus-manuscript/tree/ac0a640d07af65997b3ea915c1ab7e263d32977f)
+from [lotusnprod/lotus-manuscript@a64eb91](https://github.com/lotusnprod/lotus-manuscript/tree/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd)
 on December 23, 2021.
 </em></small>
 
@@ -452,7 +452,7 @@ The parameters of the automatic filtering are available as a function ([filter_d
 The automatic filtering was then applied to all entries.
 To confirm the efficacy of the filtering process, a new subset of 100 diverse, automatically curated and automatically validated entries was manually checked, yielding a rate of 97% of true positives.
 The detailed results of the two manual validation steps are reported in Supporting Information [SI-2](#si-2-summary-of-the-validation-statistics).
-The resulting data is also available in the dataset shared at [https://osf.io/8wh9y](https://osf.io/8wh9y).
+The resulting data is also available in the dataset shared at [https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106].
 Table @tbl:examples shows an example of a referenced structure-organism pair before and after curation.
 This process resolved the structure to an InChIKey, the organism to a valid taxonomic name and the reference to a DOI, thereby completing the establishment of the essential referenced structure-organism pair.
 
@@ -720,7 +720,7 @@ Planar structures were used for all compounds to generate the TMAP (chemical spa
 As the tree organizes structures according to their molecular fingerprint, an anticipated coherence between the clustering of compounds and the mapped NPClassifier chemical class is observed (Figure @fig:tmap A.).
 For clarity, some of the most represented chemical classes of LOTUS plus quassinoids and stigmastane steroids are mapped, with examples of a quassinoid (NXZXPYYKGQCDRO) (light green star) and a stigmastane steroid (KZJWDPNRJALLNS) (dark green diamond) and their corresponding location in the TMAP.
 
-![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (NXZXPYYKGQCDRO) (light green star) and an ubiquitous stigmastane steroid (KZJWDPNRJALLNS) (dark green diamond) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in blue. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as a [Jensen-Shannon divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence). A score of 1 suggests that compounds are highly specific, 0 that they are ubiquitous. Zooms on a group of compounds of high biological specificity score (in pink) and on compounds of low specificity (blue) are depicted. An interactive HTML visualization of the LOTUS TMAP is available at [https://lotus.nprod.net/post/lotus-tmap/](https://lotus.nprod.net/post/lotus-tmap/) and archived at [https://osf.io/kqa8b/](https://osf.io/kqa8b/). The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
+![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (NXZXPYYKGQCDRO) (light green star) and an ubiquitous stigmastane steroid (KZJWDPNRJALLNS) (dark green diamond) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds that are mostly reported in the Simaroubaceae family are highlighted in blue. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as a [Jensen-Shannon divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence). A score of 1 suggests that compounds are highly specific, 0 that they are ubiquitous. Zooms on a group of compounds of high biological specificity score (in pink) and on compounds of low specificity (blue) are depicted. An interactive HTML visualization of the LOTUS TMAP is available at [https://lotus.nprod.net/post/lotus-tmap/](https://lotus.nprod.net/post/lotus-tmap/) and archived at [https://doi.org/10.5281/zenodo.5801807](https://doi.org/10.5281/zenodo.5801807) [@doi:10.5281/zenodo.5801807]. The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
 
 <br/><br/>
 <br/><br/>
@@ -976,13 +976,13 @@ When multiple translations were given for a single common name, the following pr
 For each common name, genus names and species names were counted.
 If both the species and genus names were consistent at more than 50%, they were considered consistent overall and, therefore, kept (for example, "Aberrant Bush Warbler" had "*Horornis flavolivaceus*" and "*Horornis flavolivaceus intricatus*" as translation; as both the generic ("*Horornis*") and the specific ("*flavolivaceus*") epithets were consistent at 100%, both ("*Horornis flavolivaceus*") were kept).
 When only the generic epithet had more than 50% consistency, it was kept (for example, "Angelshark" had "*Squatina australis*" and "*Squatina squatina*" as translation, so only "*Squatina*" was kept).
-Some unspecific common names were removed (see [https://osf.io/gqhcn](https://osf.io/gqhcn)) and only common names with more than three characters were kept.
+Some unspecific common names were removed (see [https://doi.org/10.5281/zenodo.5801816](https://doi.org/10.5281/zenodo.5801816) [@doi:10.5281/zenodo.5801816]) and only common names with more than three characters were kept.
 This resulted in 181,891 translation pairs further used for the conversion from common names to scientific names.
 For TCM names, translation dictionaries from TCMID, TMMC, and coming from the Chinese Medicine Board of Australia were aggregated.
 The script used for this was [src/1_gathering/translation/tcm.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering/translation/tcm.R).
-Some unspecific common names were removed (see [https://osf.io/zs7ky](https://osf.io/zs7ky)).
-Careful attention was given to the Latin genitive translations and custom dictionaries were written (see [https://osf.io/c3ja4](https://osf.io/c3ja4), [https://osf.io/u75e9](https://osf.io/u75e9)).
-Organ names of the producing organism were removed to avoid wrong translation (see [https://osf.io/94fa2](https://osf.io/94fa2)).
+Some unspecific common names were removed (see [https://doi.org/10.5281/zenodo.5801816](https://doi.org/10.5281/zenodo.5801816) [@doi:10.5281/zenodo.5801816]).
+Careful attention was given to the Latin genitive translations and custom dictionaries were written (see [https://doi.org/10.5281/zenodo.5801816](https://doi.org/10.5281/zenodo.5801816) [@doi:10.5281/zenodo.5801816]).
+Organ names of the producing organism were removed to avoid wrong translation (see [https://doi.org/10.5281/zenodo.5801816](https://doi.org/10.5281/zenodo.5801816) [@doi:10.5281/zenodo.5801816]).
 This resulted in 7,070 translation pairs.
 Both common and TCM translation pairs were then ordered by decreasing string length, first translating the longer names to avoid part of them being translated incorrectly.
 
@@ -1692,7 +1692,7 @@ LIMIT 1000
 
 [
 <i class="fas fa-scroll fa-lg"></i> **Tutorial for manual creation**<br>
-available at [https://osf.io/z45qc](https://osf.io/z45qc) and check [https://lotus.nprod.net/post/tuto-wd-entry-creation](https://lotus.nprod.net/post/tuto-wd-entry-creation) for the latest version of this tutorial.
+also check [https://lotus.nprod.net/post/tuto-wd-entry-creation](https://lotus.nprod.net/post/tuto-wd-entry-creation) for the latest version of this tutorial.
 ]{.banner .lightblue}
 
 #### Manual addition of a referenced structure-organism pair to Wikidata
