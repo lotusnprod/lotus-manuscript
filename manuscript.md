@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5a23b51e5869beba3527ef09425609200cd5b09e/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5a23b51e5869beba3527ef09425609200cd5b09e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5a23b51e5869beba3527ef09425609200cd5b09e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/1cf5ab4676d008473e4bbc7397ad584695d3ef12/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1cf5ab4676d008473e4bbc7397ad584695d3ef12/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1cf5ab4676d008473e4bbc7397ad584695d3ef12/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5a23b51e5869beba3527ef09425609200cd5b09e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5a23b51e5869beba3527ef09425609200cd5b09e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1cf5ab4676d008473e4bbc7397ad584695d3ef12/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1cf5ab4676d008473e4bbc7397ad584695d3ef12/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5a23b51e5869beba3527ef09425609200cd5b09e/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/1cf5ab4676d008473e4bbc7397ad584695d3ef12/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@5a23b51](https://github.com/lotusnprod/lotus-manuscript/tree/5a23b51e5869beba3527ef09425609200cd5b09e)
+from [lotusnprod/lotus-manuscript@1cf5ab4](https://github.com/lotusnprod/lotus-manuscript/tree/1cf5ab4676d008473e4bbc7397ad584695d3ef12)
 on December 23, 2021.
 </em></small>
 
@@ -1065,12 +1065,9 @@ The function resulting from those rules is ([filter_dirty.R](https://github.com/
 To validate those filtering criteria, an additional set of 100 structure-organism pairs were manually analyzed.
 F0.5 score was used as a metric.
 F0.5 score is a modified F1 score where precision has twice more weight than recall.
-
 The F-score was calculated with ß = 0.5, as in Equation @eq:validation: 
 
-
 ${F_{\beta}\ =\ \left(1+\beta^2\right)\cdot\frac{precision\cdot recall}{\left(\beta^2\ \cdot\ precision\right)\ +\ recall}}$ {#eq:validation}
-
 
 Based on this first manually validated dataset, filtering criteria ([src/r/filter_dirty.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/r/filter_dirty.R)) were established to maximize precision and recall.
 Another 100 entries were sampled, this time respecting the whole set ratios.
@@ -1107,7 +1104,7 @@ LNPN is part of the NaturalProducts.net portal, an initiative aimed at gathering
 Bulk retrieval of a frozen (2021-12-20) version of LOTUS data is also available at [https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106].
 
 
-[lotus-wikidata-exporter](https://github.com/lotusnprod/lotus-wikidata-exporter) allows the download of all chemical compounds with a "found in taxon" property.
+The [download lotus](https://github.com/lotusnprod/lotus-wikidata-interact/blob/main/downloadLotus/README.md) part of [lotus-wikidata-interact](https://github.com/lotusnprod/lotus-wikidata-interact) allows the download of all chemical compounds with a "found in taxon" property.
 That way, it does not only get the data produced by this work, but any that would have existed beforehand or that would have been added directly on Wikidata by our users.
 It makes a copy of all the entities (compounds, taxa, references) into a local triplestore that can be queried with SPARQL as is or converted to a TSV file for inclusion in other projects.
 It is currently adapted to export directly into the SSOT thus allowing direct reuse by the processing/curation pipeline.
@@ -1116,7 +1113,7 @@ It is currently adapted to export directly into the SSOT thus allowing direct re
 
 ##### Wikidata
 
-Data is loaded by the Kotlin importer available in the [lotus-wikidata-importer](https://github.com/lotusnprod/lotus-wikidata-importer) repository under a GPL V3 license and imported into Wikidata.
+Data is loaded by the Kotlin importer available in the [upload lotus](https://github.com/lotusnprod/lotus-wikidata-interact/blob/main/uploadLotus/README.md) part of [lotus-wikidata-interact](https://github.com/lotusnprod/lotus-wikidata-interact) repository under a GPL V3 license and imported into Wikidata.
 The importer processes the curated outputs grouping references, organisms, and compounds together.
 It then checks if they already exist in Wikidata (using SPARQL or a direct connection to Wikidata depending on the kind of data).
 It then uses *update* or *insert*, also called *upsert*, the entities as needed.
@@ -1139,7 +1136,7 @@ In future versions, LNPN will directly feed on the SSOT.
 
 ##### Data Edition
 
-The bot framework [lotus-wikidata-importer](https://github.com/lotusnprod/lotus-wikidata-importer) was adapted such that, in addition to batch upload capabilities, it can also edit erroneously created entries on Wikidata.
+The bot framework [lotus-wikidata-interact](https://github.com/lotusnprod/lotus-wikidata-interact) was adapted such that, in addition to batch upload capabilities, it can also edit erroneously created entries on Wikidata.
 As massive edits have a large potential to disrupt otherwise good data, progressive deployment of this script is used, starting by editing progressively 1, 10, then 100 entries that are manually checked.
 Upon validation of 100 entries, the full script is run and check its behavior checked at regular intervals.
 An example of a corrected entry is as follows: [https://www.wikidata.org/w/index.php?title=Q105349871&type=revision&diff=1365519277&oldid=1356145998](https://www.wikidata.org/w/index.php?title=Q105349871&type=revision&diff=1365519277&oldid=1356145998)
