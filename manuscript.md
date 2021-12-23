@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/740a29b7725a348e64fdeb2cdf4ef142ed5ad525/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/740a29b7725a348e64fdeb2cdf4ef142ed5ad525/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/740a29b7725a348e64fdeb2cdf4ef142ed5ad525/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/740a29b7725a348e64fdeb2cdf4ef142ed5ad525/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/740a29b7725a348e64fdeb2cdf4ef142ed5ad525/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/740a29b7725a348e64fdeb2cdf4ef142ed5ad525/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@a64eb91](https://github.com/lotusnprod/lotus-manuscript/tree/a64eb91ffbff0cc74ae8e878a3e8b1d5825f9cdd)
+from [lotusnprod/lotus-manuscript@740a29b](https://github.com/lotusnprod/lotus-manuscript/tree/740a29b7725a348e64fdeb2cdf4ef142ed5ad525)
 on December 23, 2021.
 </em></small>
 
@@ -398,11 +398,9 @@ The [final section](#data-interpretation) is dedicated to the interpretation of 
 Building on the standards established by the related WikiProjects on Wikidata ([Chemistry](https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry), [Taxonomy](https://www.wikidata.org/wiki/Wikidata:WikiProject_Taxonomy) and [Source Metadata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Source_MetaData)), a NP chemistry-oriented subproject was created ([Chemistry/Natural products](https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry/Natural_products)).
 Its central data consists of three minimal sufficient objects: 
 
-
 - A *chemical structure object*, with associated Simplified Molecular Input Line Entry System (SMILES) [@doi:10/fg6q5f], International Chemical Identifier (InChI) [@doi:10/6bg] and InChIKey (a hashed version of the InChI).
 - A *biological organism object*, with associated taxon name, the taxonomic DB where it was described and the taxon ID in the respective DB.
 - A *reference object* describing the structure-organism pair, with the associated article title and a Digital Object Identifier (DOI), a PubMed (PMID), or PubMed Central (PMCID) ID.
-
 
 As data formats are largely inhomogeneous among existing electronic NP resources, fields related to chemical structure, biological organism and references are variable and essentially not standardized.
 Therefore, LOTUS implements multiple stages of harmonization, processing and validation (Figure @fig:workflow, stages 1 to 3).
@@ -415,8 +413,6 @@ The overall process leading to referenced and curated structure-organisms pairs 
 <br/><br/>
 
 ![**Blueprint of the LOTUS initiative.** Data undergo a four-stage process: (1) Harmonization, (2) Processing, (3) Validation and (4) Dissemination. The process was designed to incorporate future contributions (5), either by the addition of new data from within Wikidata (a) or new sources (b) or *via* curation of existing data (c). The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg).](images/workflow.svg "Workflow"){#fig:workflow width="100%"}
-
-<br/><br/>
 
 By design, this iterative process fosters community participation, essential to efficiently document NP occurrences.
 All stages of the workflow are described on the git sites of the LOTUS initiative at [https://github.com/lotusnprod](https://github.com/lotusnprod) and in the [methods](#Methods).
@@ -455,6 +451,7 @@ The detailed results of the two manual validation steps are reported in Supporti
 The resulting data is also available in the dataset shared at [https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106].
 Table @tbl:examples shows an example of a referenced structure-organism pair before and after curation.
 This process resolved the structure to an InChIKey, the organism to a valid taxonomic name and the reference to a DOI, thereby completing the establishment of the essential referenced structure-organism pair.
+<br/><br/>
 
 Table: Example of a referenced structure-organism pair before and after curation {#tbl:examples}
 
@@ -532,8 +529,6 @@ Clicking the reference link under each taxon name links to the publication(s) do
 The typical approach to more elaborated querying involves writing SPARQL queries using the [Wikidata Query Service](https://query.wikidata.org) or another direct connection to a SPARQL endpoint.
 Below are some examples from simple to more elaborated queries, demonstrating what can be done using this approach.
 The full-text queries with explanations are included in [SI-3](#si-3-wikidata-queries).
-
-<br/><br/>
 
 Table: Potential questions about structure-organism relationships and corresponding Wikidata queries. {#tbl:queries}
 
