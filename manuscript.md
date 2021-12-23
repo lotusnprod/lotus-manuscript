@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/727eeebcb10d8d903dd34f9e058d558e20e36fa6/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/727eeebcb10d8d903dd34f9e058d558e20e36fa6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/727eeebcb10d8d903dd34f9e058d558e20e36fa6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e0779357a36104eb461f6b56a17dc987a1329258/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e0779357a36104eb461f6b56a17dc987a1329258/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e0779357a36104eb461f6b56a17dc987a1329258/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/727eeebcb10d8d903dd34f9e058d558e20e36fa6/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/727eeebcb10d8d903dd34f9e058d558e20e36fa6/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e0779357a36104eb461f6b56a17dc987a1329258/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e0779357a36104eb461f6b56a17dc987a1329258/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/727eeebcb10d8d903dd34f9e058d558e20e36fa6/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/e0779357a36104eb461f6b56a17dc987a1329258/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@727eeeb](https://github.com/lotusnprod/lotus-manuscript/tree/727eeebcb10d8d903dd34f9e058d558e20e36fa6)
+from [lotusnprod/lotus-manuscript@e077935](https://github.com/lotusnprod/lotus-manuscript/tree/e0779357a36104eb461f6b56a17dc987a1329258)
 on December 23, 2021.
 </em></small>
 
@@ -1180,10 +1180,10 @@ Many chemical molecular properties and molecular descriptors that otherwise are 
 
 ### Code Freezing
 
-All repository hyperlinks in the manuscript point to the preprint branches by default.
-The links contain all programs and code before submission (2021-02-23) and will eventually be updated to a publication branch using modifications resulting from the peer-reviewing process.
+All repository hyperlinks in the manuscript point to the main branches by default.
+The links contain all programs and code and will eventually be updated to a publication branch using modifications resulting from the peer-reviewing process.
 As the code evolves, readers are invited to refer to the main branch of each repository for the most up-to-date code.
-A frozen version (2021-02-23) of all programs and code is also available in the LOTUS OSF repository ([https://osf.io/pmgux](https://osf.io/pmgux)).
+A frozen version (2021-12-23) of all programs and code is also available in the [LOTUS Zenodo community](https://zenodo.org/communities/the-lotus-initiative) ([5802107](https://doi.org/10.5281/zenodo.5802107), [5802113](https://doi.org/10.5281/zenodo.5802113), and [5802120](https://doi.org/10.5281/zenodo.5802120)).
 
 ### Programs and packages {.page_break_before}
 
