@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5499e1bd69947ef32958e9af35eab181b2b4832f/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5499e1bd69947ef32958e9af35eab181b2b4832f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5499e1bd69947ef32958e9af35eab181b2b4832f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5a23b51e5869beba3527ef09425609200cd5b09e/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5a23b51e5869beba3527ef09425609200cd5b09e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5a23b51e5869beba3527ef09425609200cd5b09e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5499e1bd69947ef32958e9af35eab181b2b4832f/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5499e1bd69947ef32958e9af35eab181b2b4832f/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5a23b51e5869beba3527ef09425609200cd5b09e/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5a23b51e5869beba3527ef09425609200cd5b09e/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5499e1bd69947ef32958e9af35eab181b2b4832f/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5a23b51e5869beba3527ef09425609200cd5b09e/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@5499e1b](https://github.com/lotusnprod/lotus-manuscript/tree/5499e1bd69947ef32958e9af35eab181b2b4832f)
+from [lotusnprod/lotus-manuscript@5a23b51](https://github.com/lotusnprod/lotus-manuscript/tree/5a23b51e5869beba3527ef09425609200cd5b09e)
 on December 23, 2021.
 </em></small>
 
@@ -417,7 +417,6 @@ The overall process leading to referenced and curated structure-organisms pairs 
 ![**Blueprint of the LOTUS initiative.** Data undergo a four-stage process: (1) Harmonization, (2) Processing, (3) Validation and (4) Dissemination. The process was designed to incorporate future contributions (5), either by the addition of new data from within Wikidata (a) or new sources (b) or *via* curation of existing data (c). The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg).](images/workflow.svg "Workflow"){#fig:workflow width="100%"}
 
 <br/><br/>
-<br/><br/>
 
 By design, this iterative process fosters community participation, essential to efficiently document NP occurrences.
 All stages of the workflow are described on the git sites of the LOTUS initiative at [https://github.com/lotusnprod](https://github.com/lotusnprod) and in the [methods](#Methods).
@@ -433,7 +432,7 @@ The data were complemented with COCONUT's own referenced structure-organism pair
 The contacts of the electronic NP resources not explicitly licensed as open were individually reached for permission to access and reuse data.
 A detailed list of data sources and related information is available as [SI-1](#si-1-data-sources-list).
 All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/1_gathering](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering) directory and processed is detailed in the corresponding methods section [gathering section](#data-gathering).
-All subsequent and future iterations that include additional data sources, either updated information from the same data sources or new data, will involve a comparison of the new with previously gathered data at the SSOT level to ensure that the data is only curated once.
+All subsequent iterations including new data sources, either updated information from the same data sources or new data, will involve a comparison with the previously gathered data at the SSOT level to ensure that the data is only curated once.
 
 ### Data Processing & Validation
 
@@ -613,13 +612,13 @@ Accordingly, by contributing to external electronic NP resources, any researcher
 ##### Wikidata
 
 The currently favored approach to add new data to LOTUS is to create or edit Wikidata entries directly.
-Newly created or edited data will then be imported into the SSOT repository.
-There are several ways to interact with Wikidata which depend on the technical skills of the user and the volume of data to be imported/modified.
-
+Newly created or edited data will then be imported into the SSOT.
+There are several ways to interact with Wikidata which depend on the technical skills of the user and the volume of data to be uploaded/modified.
 
 ###### Pre-requisites
 
-While direct Wikidata upload is possible, contributors are encouraged to use the LOTUS curation pipeline as a preliminary step to strengthen the initial data quality. For this a specific mode of the LOTUS processor can be called see [Manual mode](https://github.com/lotusnprod/lotus-processor/wiki/Make-commands#manual). 
+While direct Wikidata upload is possible, contributors are encouraged to use the LOTUS curation pipeline as a preliminary step to strengthen the initial data quality. 
+For this, a specific mode of the LOTUS processor can be called (see [Custom mode](https://github.com/lotusnprod/lotus-processor/wiki/Make-commands#custom)). 
 The added data will therefore benefit from the curation and validation stages implemented in the LOTUS processing pipeline.
 
 ###### Manual Upload
@@ -1213,6 +1212,8 @@ Quality control and testing: Ktlint 10.2.0, Kotlinter 3.3.0, Detekt 1.15.0, Ben 
 #### Additional executable files
 [GNFinder](https://github.com/gnames/gnfinder/releases/tag/v0.16.3) v.0.16.3, [GNVerifier](https://github.com/gnames/gnverifier/releases/tag/v0.6.1) v.0.6.1, [OPSIN](https://github.com/dan2097/opsin/releases/tag/2.5.0) v.2.5.0 [@doi:10/b2zkr9]
 
+<br/><br/>
+
 
 ## Data Availability
 
@@ -1220,7 +1221,7 @@ A snapshot of the obtained data at the time of submission is available at the fo
 The [https://lotus.nprod.net](https://lotus.nprod.net) website is intended to gather news and features related to the LOTUS initiative in the future.
 
 
-## Acknowledgments
+## Acknowledgments {.page_break_before}
 
 JLW and PMA are thankful to the Swiss National Science Foundation for supporting part of this project through the SNF Sinergia grant CRSII5_189921.
 JB and AR are really thankful to JetBrains for the Free educational license of IntelliJ and the excellent support received on Youtrack.
@@ -1228,7 +1229,8 @@ JB, JGG, and GFP gratefully acknowledge the support of this work by grant U41 AT
 MS and CS are supported by the German Research Foundation within the framework ChemBioSys (Project-ID 239748522, SFB 1127).
 EW and DM acknowledge the Scholia grant from the Alfred P. Sloan Foundation under grant number G-2019-11458.
 The work on the Wikidata IDSM/Sachem endpoint was supported by an ELIXIR CZ research infrastructure project grant (MEYS Grant No: LM2018131) including access to computing and storage facilities.
-The authors would like to thank [Dmitry Mozzherin](https://github.com/dimus) for his work done for the Global Names Architecture and related improvements.
+AR would like to thank [Dmitry Mozzherin](https://github.com/dimus) for his work done for the Global Names Architecture and related improvements.
+AR, PMA, and JB would like to acknowledge help from the PubChem team in integrating LOTUS, especially Dr. Tiejun Cheng and Dr. Evan Bolton.
 The authors would also like to thank Layla Michán for starting to add pigment information on Wikidata.
 The authors would also like to thank the team behind [Manubot](https://manubot.org/) [@doi:10.1371/journal.pcbi.1007128], used to write this manuscript.
 The authors would also like to thank contributors of all electronic NP resources used in this work and the NP community at large.
