@@ -845,6 +845,9 @@ content/06.code-availability.md:40:zenodo
 content/06.code-availability.md:40:zenodo
 content/06.code-availability.md:40:zenodo
 content/06.code-availability.md:40:zenodo
+content/06.code-availability.md:40:zenodo
+content/06.code-availability.md:40:zenodo
+content/06.code-availability.md:40:zenodo
 content/06.code-availability.md:40:Zenodo
 content/06.code-availability.md:46:ChemmineR
 content/06.code-availability.md:46:chorddiag
@@ -900,6 +903,10 @@ content/06.code-availability.md:59:gnverifier
 content/06.code-availability.md:59:GNVerifier
 content/06.code-availability.md:59:opsin
 content/06.code-availability.md:59:OPSIN
+content/07.data-availability.md:3:zenodo
+content/07.data-availability.md:3:zenodo
+content/07.data-availability.md:3:zenodo
+content/07.data-availability.md:3:zenodo
 content/07.data-availability.md:3:zenodo
 content/07.data-availability.md:3:zenodo
 content/07.data-availability.md:3:zenodo

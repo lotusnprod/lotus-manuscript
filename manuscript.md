@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/e0779357a36104eb461f6b56a17dc987a1329258/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e0779357a36104eb461f6b56a17dc987a1329258/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/e0779357a36104eb461f6b56a17dc987a1329258/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/c829d6cb02502d9c79072debe1515631465fd9dc/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/c829d6cb02502d9c79072debe1515631465fd9dc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/c829d6cb02502d9c79072debe1515631465fd9dc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e0779357a36104eb461f6b56a17dc987a1329258/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/e0779357a36104eb461f6b56a17dc987a1329258/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/c829d6cb02502d9c79072debe1515631465fd9dc/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/c829d6cb02502d9c79072debe1515631465fd9dc/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/e0779357a36104eb461f6b56a17dc987a1329258/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/c829d6cb02502d9c79072debe1515631465fd9dc/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@e077935](https://github.com/lotusnprod/lotus-manuscript/tree/e0779357a36104eb461f6b56a17dc987a1329258)
+from [lotusnprod/lotus-manuscript@c829d6c](https://github.com/lotusnprod/lotus-manuscript/tree/c829d6cb02502d9c79072debe1515631465fd9dc)
 on December 23, 2021.
 </em></small>
 
@@ -147,145 +147,145 @@ on December 23, 2021.
 
 
 + **Adriano Rutz** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-0443-9902](https://orcid.org/0000-0003-0443-9902)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [adafede](https://github.com/adafede)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [adafede](https://twitter.com/adafede)<br>
   <small>
      School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
   </small>
 
 + **Maria Sorokina** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-9359-7149](https://orcid.org/0000-0001-9359-7149)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [mSorok](https://github.com/mSorok)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [ms_sorok](https://twitter.com/ms_sorok)<br>
   <small>
      Institute for Inorganic and Analytical Chemistry, Friedrich-Schiller-University Jena, Lessingstr. 8, 07732 Jena, Germany
   </small>
 
 + **Jakub Galgonek** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-7038-544X](https://orcid.org/0000-0002-7038-544X)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [galgonek](https://github.com/galgonek)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [JGalgonek](https://twitter.com/JGalgonek)<br>
   <small>
      Institute of Organic Chemistry and Biochemistry of the CAS, Flemingovo náměstí 2, 166 10, Prague 6, Czech Republic
   </small>
 
 + **Daniel Mietchen** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-9488-1870](https://orcid.org/0000-0001-9488-1870)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [Daniel-Mietchen](https://github.com/Daniel-Mietchen)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [EvoMRI](https://twitter.com/EvoMRI)<br>
   <small>
      Ronin Institute, 127 Haddon Pl, Montclair, NJ 07043, United States; Leibniz Institute of Freshwater Ecology and Inland Fisheries, Müggelseedamm 310, D-12587 Berlin; School of Data Science, University of Virginia, Dell 1 Building, Charlottesville, VA 22904, United States
   </small>
 
 + **Egon Willighagen** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-7542-0286](https://orcid.org/0000-0001-7542-0286)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [egonw](https://github.com/egonw)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [egonwillighagen](https://twitter.com/egonwillighagen)<br>
   <small>
      Dept of Bioinformatics-BiGCaT, NUTRIM, Maastricht University, Universiteitssingel 50, NL-6229 ER, Maastricht, The Netherlands
   </small>
 
 + **Arnaud Gaudry** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-3648-7362](https://orcid.org/0000-0002-3648-7362)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [ArnaudGaudry](https://github.com/ArnaudGaudry)<br>
   <small>
      School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
   </small>
 
 + **James G. Graham** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-7114-8921](https://orcid.org/0000-0002-7114-8921)<br>
   <small>
      Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States; Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
   </small>
 
 + **Ralf Stephan** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-4650-631X](https://orcid.org/0000-0002-4650-631X)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [rwst](https://github.com/rwst)<br>
   <small>
      Ontario Institute for Cancer Research (OICR), 661 University Ave Suite 510, Toronto, Canada
   </small>
 
 + **Roderic Page** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-7101-9767](https://orcid.org/0000-0002-7101-9767)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [rdmpage](https://github.com/rdmpage)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [rdmpage](https://twitter.com/rdmpage)<br>
   <small>
      IBAHCM, MVLS, University of Glasgow, Glasgow, United Kingdom
   </small>
 
 + **Jiří Vondrášek** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-6066-973X](https://orcid.org/0000-0002-6066-973X)<br>
   <small>
      Institute of Organic Chemistry and Biochemistry of the CAS, Flemingovo náměstí 2, 166 10, Prague 6, Czech Republic
   </small>
 
 + **Christoph Steinbeck** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-6966-0814](https://orcid.org/0000-0001-6966-0814)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [steinbeck](https://github.com/steinbeck)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [csteinbeck](https://twitter.com/csteinbeck)<br>
   <small>
      Institute for Inorganic and Analytical Chemistry, Friedrich-Schiller-University Jena, Lessingstr. 8, 07732 Jena, Germany
   </small>
 
 + **Guido F. Pauli** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-1022-4326](https://orcid.org/0000-0003-1022-4326)<br>
   <small>
      Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States; Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
   </small>
 
 + **Jean-Luc Wolfender** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-0125-952X](https://orcid.org/0000-0002-0125-952X)<br>
   <small>
      School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
   </small>
 
 + **Jonathan Bisson** ^[✉](#correspondence)^<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-1640-9989](https://orcid.org/0000-0003-1640-9989)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [bjonnh](https://github.com/bjonnh)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [Bjonnh](https://twitter.com/Bjonnh)<br>
   <small>
      Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States; Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
   </small>
 
 + **Pierre-Marie Allard** ^[✉](#correspondence)^<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-3389-2191](https://orcid.org/0000-0003-3389-2191)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [oolonek](https://github.com/oolonek)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [allard_pm](https://twitter.com/allard_pm)<br>
   <small>
      School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Department of Biology, University of Fribourg, Chemin du Musée 10, 1700 Fribourg, Switzerland
@@ -1183,7 +1183,7 @@ Many chemical molecular properties and molecular descriptors that otherwise are 
 All repository hyperlinks in the manuscript point to the main branches by default.
 The links contain all programs and code and will eventually be updated to a publication branch using modifications resulting from the peer-reviewing process.
 As the code evolves, readers are invited to refer to the main branch of each repository for the most up-to-date code.
-A frozen version (2021-12-23) of all programs and code is also available in the [LOTUS Zenodo community](https://zenodo.org/communities/the-lotus-initiative) ([5802107](https://doi.org/10.5281/zenodo.5802107), [5802113](https://doi.org/10.5281/zenodo.5802113), and [5802120](https://doi.org/10.5281/zenodo.5802120)).
+A frozen version (2021-12-23) of all programs and code is also available in the [LOTUS Zenodo community](https://zenodo.org/communities/the-lotus-initiative) ([5802107](https://doi.org/10.5281/zenodo.5802107) [@doi:10.5281/zenodo.5802107], [5802113](https://doi.org/10.5281/zenodo.5802113) [@doi:10.5281/zenodo.5802113], and [5802120](https://doi.org/10.5281/zenodo.5802120) [@doi:10.5281/zenodo.5802120]).
 
 ### Programs and packages {.page_break_before}
 
@@ -1209,7 +1209,7 @@ Quality control and testing: Ktlint 10.2.0, Kotlinter 3.3.0, Detekt 1.15.0, Ben 
 
 ## Data Availability
 
-A snapshot of the obtained data at the time of re-submission (2021-12-20) is available at the following Zenodo community: [https://zenodo.org/communities/the-lotus-initiative](https://zenodo.org/communities/the-lotus-initiative) (and related records, for data: [5793224](https://zenodo.org/record/5793224), [5794107](https://zenodo.org/record/5794107), [5794597](https://zenodo.org/record/5794597), [5801816](https://zenodo.org/record/5801816).
+A snapshot of the obtained data at the time of re-submission (2021-12-20) is available at the following Zenodo community: [https://zenodo.org/communities/the-lotus-initiative](https://zenodo.org/communities/the-lotus-initiative) (and related records, for data: [5793224](https://zenodo.org/record/5793224) [@doi:10.5281/zenodo.5793224], [5794107](https://zenodo.org/record/5794107) [@doi:10.5281/zenodo.5794107], [5794597](https://zenodo.org/record/5794597) [@doi:10.5281/zenodo.5793224], [5794597](https://zenodo.org/record/5801816) [@doi:10.5281/zenodo.5801816].
 The [https://lotus.nprod.net](https://lotus.nprod.net) website is intended to gather news and features related to the LOTUS initiative in the future.
 
 
