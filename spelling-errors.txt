@@ -44,7 +44,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-bjonnh
+Bjonnh
 bkfd
 Bolzani
 Bromus
@@ -82,19 +82,19 @@ codebase
 coroutines
 counterions
 Crataegus
-crossref
+Crossref
 CRSII
 csteinbeck
 cstrnq
 curation
-cyanometdb
+Cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
 daphnane
 dataset
 datasets
-datawarrior
+Datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -114,7 +114,7 @@ DNP
 Dockerized
 DOIs
 doit
-drduke
+DrDuke
 DTGCRPNFSA
 eBird
 echnology
@@ -149,7 +149,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 Gaudry
 GBIF
 gdata
@@ -173,7 +173,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -196,7 +196,7 @@ idf
 IDSM
 Ilex
 iNaturalist
-inchi
+InChI
 InChIKey
 indability
 indica
@@ -263,7 +263,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-metabolomic
+Metabolomic
 Metazoa
 MEYS
 mibig
@@ -271,7 +271,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-molvs
+Molvs
 monogyna
 Montclair
 Mozzherin
@@ -284,7 +284,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-NaturalProducts
+naturalproducts
 NCBI
 NCCIH
 Nelumbo
@@ -293,7 +293,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -322,7 +322,7 @@ pamdb
 parallelization
 pbmcapply
 Pflanzen
-Pharmacognosy
+pharmacognosy
 Phasmida
 PhenolExplorer
 physicochemical
@@ -334,7 +334,7 @@ plotly
 PMA
 PMIDs
 polyketides
-Pre
+pre
 preprint
 procardb
 processingOriginal
@@ -394,11 +394,11 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -438,7 +438,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -470,7 +470,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-wakankensaku
+Wakankensaku
 wdkt
 wdpage
 webchem
