@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/740a29b7725a348e64fdeb2cdf4ef142ed5ad525/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/740a29b7725a348e64fdeb2cdf4ef142ed5ad525/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/740a29b7725a348e64fdeb2cdf4ef142ed5ad525/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/727eeebcb10d8d903dd34f9e058d558e20e36fa6/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/727eeebcb10d8d903dd34f9e058d558e20e36fa6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/727eeebcb10d8d903dd34f9e058d558e20e36fa6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/740a29b7725a348e64fdeb2cdf4ef142ed5ad525/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/740a29b7725a348e64fdeb2cdf4ef142ed5ad525/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/727eeebcb10d8d903dd34f9e058d558e20e36fa6/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/727eeebcb10d8d903dd34f9e058d558e20e36fa6/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/740a29b7725a348e64fdeb2cdf4ef142ed5ad525/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/727eeebcb10d8d903dd34f9e058d558e20e36fa6/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@740a29b](https://github.com/lotusnprod/lotus-manuscript/tree/740a29b7725a348e64fdeb2cdf4ef142ed5ad525)
+from [lotusnprod/lotus-manuscript@727eeeb](https://github.com/lotusnprod/lotus-manuscript/tree/727eeebcb10d8d903dd34f9e058d558e20e36fa6)
 on December 23, 2021.
 </em></small>
 
@@ -1209,7 +1209,7 @@ Quality control and testing: Ktlint 10.2.0, Kotlinter 3.3.0, Detekt 1.15.0, Ben 
 
 ## Data Availability
 
-A snapshot of the obtained data at the time of submission is available at the following OSF repository (data): [https://osf.io/pmgux](https://osf.io/pmgux).
+A snapshot of the obtained data at the time of re-submission (2021-12-20) is available at the following Zenodo community: [https://zenodo.org/communities/the-lotus-initiative](https://zenodo.org/communities/the-lotus-initiative) (and related records, for data: [5793224](https://zenodo.org/record/5793224), [5794107](https://zenodo.org/record/5794107), [5794597](https://zenodo.org/record/5794597), [5801816](https://zenodo.org/record/5801816).
 The [https://lotus.nprod.net](https://lotus.nprod.net) website is intended to gather news and features related to the LOTUS initiative in the future.
 
 

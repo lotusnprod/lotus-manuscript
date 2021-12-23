@@ -899,9 +899,13 @@ content/06.code-availability.md:59:gnverifier
 content/06.code-availability.md:59:GNVerifier
 content/06.code-availability.md:59:opsin
 content/06.code-availability.md:59:OPSIN
-content/07.data-availability.md:3:osf
-content/07.data-availability.md:3:osf
-content/07.data-availability.md:3:OSF
+content/07.data-availability.md:3:zenodo
+content/07.data-availability.md:3:zenodo
+content/07.data-availability.md:3:zenodo
+content/07.data-availability.md:3:zenodo
+content/07.data-availability.md:3:zenodo
+content/07.data-availability.md:3:zenodo
+content/07.data-availability.md:3:Zenodo
 content/08.acknowledgments.md:3:JLW
 content/08.acknowledgments.md:3:PMA
 content/08.acknowledgments.md:3:Sinergia
