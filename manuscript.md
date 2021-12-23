@@ -110,13 +110,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/f086b421504238d897f1b08805c4f4e8fa0f06e3/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f086b421504238d897f1b08805c4f4e8fa0f06e3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f086b421504238d897f1b08805c4f4e8fa0f06e3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f086b421504238d897f1b08805c4f4e8fa0f06e3/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f086b421504238d897f1b08805c4f4e8fa0f06e3/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,9 +136,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/f086b421504238d897f1b08805c4f4e8fa0f06e3/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@f086b42](https://github.com/lotusnprod/lotus-manuscript/tree/f086b421504238d897f1b08805c4f4e8fa0f06e3)
+from [lotusnprod/lotus-manuscript@6f9409e](https://github.com/lotusnprod/lotus-manuscript/tree/6f9409ebe1e582f3ad6aafdae1f779cc9762a6e3)
 on December 22, 2021.
 </em></small>
 
@@ -706,28 +706,28 @@ Panel B shows the ensemble of taxa reported to contain the planar structure of t
 ![**UpSet plots of the individual contribution of electronic NP resources** to the planar structures found in *Arabidopsis thaliana* (A) and to organisms reported to contain the planar structure of *β*-sitosterol (KZJWDPNRJALNS) (B). UpSet plots are evolved Venn diagrams, allowing to represent intersections between multiple sets. The horizontal bars on the lower left represent the number of corresponding entries per electronic NP resource. The dots and their connecting line represent the intersection between source and consolidate sets. The vertical bars indicate the number of entries at the intersection. For example, 479 organisms containing the planar structure of *β*-sitosterol are present in both UNPD and NAPRALERT, whereas each of them respectively reports 1,349 and 2,330 organisms containing the planar structure of *β*-sitosterol. The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_upset_plot.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_upset_plot.svg).](images/upset_combined.svg "upset"){#fig:upset width="100%"}
 
 Figure @fig:upset A. also shows that according to NPClassifier, the "chemical pathway" category distribution across electronic NP resources is not conserved.
-Note that NPClassifier and ClassyFire [@doi:10/gc5tqv] chemical taxonomies are both available as metadata in the frozen LOTUS export and LNPN.
+Note that NPClassifier and ClassyFire [@doi:10/gc5tqv] chemical classification results are both available as metadata in the frozen LOTUS export and LNPN.
 Both classification tools return a chemical taxonomy for individual structures, thus allowing their grouping at higher hierarchical levels, in the same way as it is done for biological taxonomies.
 The UpSet plot in Figure @fig:upset indicates the poor overlap of preexisting electronic NP resources and the added value of an aggregated dataset.
 This is particularly well illustrated in Figure @fig:upset B., where the number of organisms for which the planar structure of *β*-sitosterol (KZJWDPNRJALLNS) has been reported is shown for each intersection.
 NAPRALERT has by far the highest number of entries (2,330 in total), while other electronic NP resources complement this well: e.g., UNPD has 573 reported organisms with *β*-sitosterol that do not overlap with any other resource.
-Of note, *β*-sitosterol is documented in only 3 organisms in the DNP, highlighting the importance of a better systematic reporting of ubiquitous metabolites and the interest of multiple data sources agglomeration.
+Of note, *β*-sitosterol is documented in only 13 organisms in the DNP, highlighting the importance of a better systematic reporting of ubiquitous metabolites and the interest of multiple data sources agglomeration.
 
 #### A Biologically-interpreted Chemical Tree
 
-The chemical diversity captured in LOTUS is here displayed using tmap (Figure @fig:tmap), a visualization library allowing the structural organization of large chemical datasets as a minimum spanning tree [@doi:10/gjjz4f].
+The chemical diversity captured in LOTUS is here displayed using TMAP (Figure @fig:tmap), a visualization library allowing the structural organization of large chemical datasets as a minimum spanning tree [@doi:10/gjjz4f].
 Using Faerun, an interactive HTML file is generated to display metadata and molecule structures by embedding the SmilesDrawer library [@doi:10/gcmhc5; @doi:10/gjjz4d].
 Planar structures were used for all compounds to generate the TMAP (chemical space tree-map) using MAP4 encoding [@doi:10/gjjz4c].
 As the tree organizes structures according to their molecular fingerprint, an anticipated coherence between the clustering of compounds and the mapped NPClassifier chemical class is observed (Figure @fig:tmap A.).
-For clarity, some of the most represented chemical classes of LOTUS including quassinoids and stigmastane steroids  are mapped, with examples of a quassinoid (NXZXPYYKGQCDRO) (light green star) and a stigmastane steroid (KZJWDPNRJALLNS) (dark green diamond) and their corresponding location in the TMAP.
+For clarity, some of the most represented chemical classes of LOTUS plus quassinoids and stigmastane steroids are mapped, with examples of a quassinoid (NXZXPYYKGQCDRO) (light green star) and a stigmastane steroid (KZJWDPNRJALLNS) (dark green diamond) and their corresponding location in the TMAP.
 
-![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (NXZXPYYKGQCDRO) (light green star) and an ubiquitous stigmastane steroid (KZJWDPNRJALLNS) (dark green diamond) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in blue. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as a [Jensen-Shannon divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence). A score of 1 suggests that compounds are highly specific, 0 that they are ubiquituous. Zooms on a group of compounds of high biological specificity score (in pink) and on compounds of low specificity (blue) are depicted. An interactive HTML visualization of the LOTUS TMAP is available at [https://lotus.nprod.net/post/lotus-tmap/](https://lotus.nprod.net/post/lotus-tmap/) and archived at [https://osf.io/kqa8b/](https://osf.io/kqa8b/). The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
+![**TMAP visualizations of the chemical diversity present in LOTUS.** Each dot corresponds to a chemical structure. A highly specific quassinoid (NXZXPYYKGQCDRO) (light green star) and an ubiquitous stigmastane steroid (KZJWDPNRJALLNS) (dark green diamond) are mapped as examples in all visualizations. In panel A., compounds (dots) are colored according to the NPClassifier chemical class they belong to. In panel B., compounds which are mostly reported in the Simaroubaceae family are highlighted in blue. Finally, in panel C., the compounds are colored according to the specificity score of chemical classes found in biological organisms. This biological specificity score at a given taxonomic level for a given chemical class is calculated as a [Jensen-Shannon divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence). A score of 1 suggests that compounds are highly specific, 0 that they are ubiquitous. Zooms on a group of compounds of high biological specificity score (in pink) and on compounds of low specificity (blue) are depicted. An interactive HTML visualization of the LOTUS TMAP is available at [https://lotus.nprod.net/post/lotus-tmap/](https://lotus.nprod.net/post/lotus-tmap/) and archived at [https://osf.io/kqa8b/](https://osf.io/kqa8b/). The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_biologically_interpreted_chemical_tree.svg).](images/tmap.svg "tmap"){#fig:tmap width="100%"}
 
 <br/><br/>
 <br/><br/>
 
 To explore relationships between chemistry and biology, it is possible to map taxonomical information such as the most reported biological family per chemical compound (Figure @fig:tmap B.) or the biological specificity of chemical classes (Figure @fig:tmap C.) on the TMAP.
-The biological specificity score at a given taxonomic level for a given chemical class is calculated as a [Jensen-Shannon divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence). A score of 1 suggests that compounds are highly specific, 0 that they are ubiquituous. For more details, see [3_analyzing/jensen_shannon_divergence.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/3_analyzing/jensen_shannon_divergence.R).
+The biological specificity score at a given taxonomic level for a given chemical class is calculated as a [Jensen-Shannon divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence). A score of 1 suggests that compounds are highly specific, 0 that they are ubiquitous. For more details, see [3_analyzing/jensen_shannon_divergence.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/3_analyzing/jensen_shannon_divergence.R).
 This visualization allows to highlight chemical classes specific to a given taxon, such as the quassinoids in the Simaroubaceae family.
 In this case it is striking to see how well the compounds of a given chemical class (quassinoids) (Figure @fig:tmap A.) and the most reported plant family per compound (Simaroubaceae) (Figure @fig:tmap B.) overlap.
 This is also evidenced on Figure @fig:tmap C. with a Jensen-Shannon divergence of 0.99 at the biological family level for quassinoids.

@@ -353,7 +353,7 @@ content/03.results-discussion.md:327:DNP
 content/03.results-discussion.md:327:sitosterol
 content/03.results-discussion.md:331:datasets
 content/03.results-discussion.md:331:tmap
-content/03.results-discussion.md:331:tmap
+content/03.results-discussion.md:331:TMAP
 content/03.results-discussion.md:332:Faerun
 content/03.results-discussion.md:332:SmilesDrawer
 content/03.results-discussion.md:333:TMAP
@@ -381,7 +381,6 @@ content/03.results-discussion.md:337:tmap
 content/03.results-discussion.md:337:tmap
 content/03.results-discussion.md:337:TMAP
 content/03.results-discussion.md:337:TMAP
-content/03.results-discussion.md:337:ubiquituous
 content/03.results-discussion.md:337:wikimedia
 content/03.results-discussion.md:337:wikimedia
 content/03.results-discussion.md:342:taxonomical
@@ -389,7 +388,6 @@ content/03.results-discussion.md:342:tmap
 content/03.results-discussion.md:342:tmap
 content/03.results-discussion.md:342:TMAP
 content/03.results-discussion.md:343:src
-content/03.results-discussion.md:343:ubiquituous
 content/03.results-discussion.md:344:quassinoids
 content/03.results-discussion.md:344:Simaroubaceae
 content/03.results-discussion.md:345:quassinoids
