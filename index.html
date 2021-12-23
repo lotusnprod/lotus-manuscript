@@ -202,13 +202,13 @@
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5a23b51e5869beba3527ef09425609200cd5b09e/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5a23b51e5869beba3527ef09425609200cd5b09e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5a23b51e5869beba3527ef09425609200cd5b09e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/1cf5ab4676d008473e4bbc7397ad584695d3ef12/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1cf5ab4676d008473e4bbc7397ad584695d3ef12/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1cf5ab4676d008473e4bbc7397ad584695d3ef12/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5a23b51e5869beba3527ef09425609200cd5b09e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5a23b51e5869beba3527ef09425609200cd5b09e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1cf5ab4676d008473e4bbc7397ad584695d3ef12/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1cf5ab4676d008473e4bbc7397ad584695d3ef12/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -227,9 +227,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lotusnprod.github.io/lotus-manuscript/v/5a23b51e5869beba3527ef09425609200cd5b09e/">permalink</a>)
+(<a href="https://lotusnprod.github.io/lotus-manuscript/v/1cf5ab4676d008473e4bbc7397ad584695d3ef12/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/5a23b51e5869beba3527ef09425609200cd5b09e">lotusnprod/lotus-manuscript@5a23b51</a>
+from <a href="https://github.com/lotusnprod/lotus-manuscript/tree/1cf5ab4676d008473e4bbc7397ad584695d3ef12">lotusnprod/lotus-manuscript@1cf5ab4</a>
 on December 23, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -1132,8 +1132,8 @@ Except for COCONUT, exceptions to this filter were made for all DOI-based refere
 The function resulting from those rules is (<a href="https://github.com/lotusnprod/lotus-processor/blob/main/src/r/filter_dirty.R">filter_dirty.R</a>).
 To validate those filtering criteria, an additional set of 100 structure-organism pairs were manually analyzed.
 F0.5 score was used as a metric.
-F0.5 score is a modified F1 score where precision has twice more weight than recall.</p>
-<p>The F-score was calculated with ß = 0.5, as in Equation <a href="#eq:validation">1</a>:</p>
+F0.5 score is a modified F1 score where precision has twice more weight than recall.
+The F-score was calculated with ß = 0.5, as in Equation <a href="#eq:validation">1</a>:</p>
 <p><span id="eq:validation" class="eqnos"><span class="math inline">\({F_{\beta}\ =\ \left(1+\beta^2\right)\cdot\frac{precision\cdot recall}{\left(\beta^2\ \cdot\ precision\right)\ +\ recall}}\)</span><span class="eqnos-number">(1)</span></span> </p>
 <p>Based on this first manually validated dataset, filtering criteria (<a href="https://github.com/lotusnprod/lotus-processor/tree/main/src/r/filter_dirty.R">src/r/filter_dirty.R</a>) were established to maximize precision and recall.
 Another 100 entries were sampled, this time respecting the whole set ratios.
@@ -1157,13 +1157,13 @@ LNPN is part of the NaturalProducts.net portal, an initiative aimed at gathering
 <h3 id="data-interaction">Data Interaction</h3>
 <h4 id="data-retrieval-1">Data Retrieval</h4>
 <p>Bulk retrieval of a frozen (2021-12-20) version of LOTUS data is also available at <a href="https://doi.org/10.5281/zenodo.5794106">https://doi.org/10.5281/zenodo.5794106</a> <span class="citation" data-cites="hSYcB5oO">[<a href="#ref-hSYcB5oO" role="doc-biblioref">25</a>]</span>.</p>
-<p><a href="https://github.com/lotusnprod/lotus-wikidata-exporter">lotus-wikidata-exporter</a> allows the download of all chemical compounds with a “found in taxon” property.
+<p>The <a href="https://github.com/lotusnprod/lotus-wikidata-interact/blob/main/downloadLotus/README.md">download lotus</a> part of <a href="https://github.com/lotusnprod/lotus-wikidata-interact">lotus-wikidata-interact</a> allows the download of all chemical compounds with a “found in taxon” property.
 That way, it does not only get the data produced by this work, but any that would have existed beforehand or that would have been added directly on Wikidata by our users.
 It makes a copy of all the entities (compounds, taxa, references) into a local triplestore that can be queried with SPARQL as is or converted to a TSV file for inclusion in other projects.
 It is currently adapted to export directly into the SSOT thus allowing direct reuse by the processing/curation pipeline.</p>
 <h4 id="data-addition">Data Addition</h4>
 <h5 id="wikidata-3">Wikidata</h5>
-<p>Data is loaded by the Kotlin importer available in the <a href="https://github.com/lotusnprod/lotus-wikidata-importer">lotus-wikidata-importer</a> repository under a GPL V3 license and imported into Wikidata.
+<p>Data is loaded by the Kotlin importer available in the <a href="https://github.com/lotusnprod/lotus-wikidata-interact/blob/main/uploadLotus/README.md">upload lotus</a> part of <a href="https://github.com/lotusnprod/lotus-wikidata-interact">lotus-wikidata-interact</a> repository under a GPL V3 license and imported into Wikidata.
 The importer processes the curated outputs grouping references, organisms, and compounds together.
 It then checks if they already exist in Wikidata (using SPARQL or a direct connection to Wikidata depending on the kind of data).
 It then uses <em>update</em> or <em>insert</em>, also called <em>upsert</em>, the entities as needed.
@@ -1181,7 +1181,7 @@ The importer checks for the existence of each item based on their InChIKey and u
 <p>From the onset, LNPN has been importing data directly from the frozen tabular data of the LOTUS dataset (<a href="https://doi.org/10.5281/zenodo.5794106">https://doi.org/10.5281/zenodo.5794106</a> <span class="citation" data-cites="hSYcB5oO">[<a href="#ref-hSYcB5oO" role="doc-biblioref">25</a>]</span>).
 In future versions, LNPN will directly feed on the SSOT.</p>
 <h5 id="data-edition">Data Edition</h5>
-<p>The bot framework <a href="https://github.com/lotusnprod/lotus-wikidata-importer">lotus-wikidata-importer</a> was adapted such that, in addition to batch upload capabilities, it can also edit erroneously created entries on Wikidata.
+<p>The bot framework <a href="https://github.com/lotusnprod/lotus-wikidata-interact">lotus-wikidata-interact</a> was adapted such that, in addition to batch upload capabilities, it can also edit erroneously created entries on Wikidata.
 As massive edits have a large potential to disrupt otherwise good data, progressive deployment of this script is used, starting by editing progressively 1, 10, then 100 entries that are manually checked.
 Upon validation of 100 entries, the full script is run and check its behavior checked at regular intervals.
 An example of a corrected entry is as follows: <a href="https://www.wikidata.org/w/index.php?title=Q105349871&amp;type=revision&amp;diff=1365519277&amp;oldid=1356145998">https://www.wikidata.org/w/index.php?title=Q105349871&amp;type=revision&amp;diff=1365519277&amp;oldid=1356145998</a></p>
