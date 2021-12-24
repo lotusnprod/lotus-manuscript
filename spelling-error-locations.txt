@@ -523,8 +523,16 @@ content/04.conclusion-perspectives.md:77:curation
 content/04.conclusion-perspectives.md:90:gliotoxin
 content/04.conclusion-perspectives.md:90:guayusa
 content/04.conclusion-perspectives.md:90:Ilex
+content/04.conclusion-perspectives.md:91:ncbi
+content/04.conclusion-perspectives.md:91:ncbi
+content/04.conclusion-perspectives.md:91:pubchem
+content/04.conclusion-perspectives.md:91:pubchem
 content/04.conclusion-perspectives.md:91:PubChem
-content/04.conclusion-perspectives.md:95:RDFFrames
+content/04.conclusion-perspectives.md:92:Gentiana
+content/04.conclusion-perspectives.md:92:lutea
+content/04.conclusion-perspectives.md:92:ncbi
+content/04.conclusion-perspectives.md:92:pubchem
+content/04.conclusion-perspectives.md:96:RDFFrames
 content/05.methods.md:7:DNP
 content/05.methods.md:8:foodb
 content/05.methods.md:8:FooDB
