@@ -5,7 +5,7 @@ keywords:
 - Knowledge Management
 - Wikidata
 lang: en-US
-date-meta: '2021-12-24'
+date-meta: '2021-12-27'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -32,8 +32,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-12-24" />
-  <meta name="citation_publication_date" content="2021-12-24" />
+  <meta name="dc.date" content="2021-12-27" />
+  <meta name="citation_publication_date" content="2021-12-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -67,6 +67,7 @@ header-includes: |-
   <meta name="citation_author_institution" content="School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
   <meta name="citation_author_institution" content="Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0002-3648-7362" />
+  <meta name="twitter:creator" content="@gaudarn" />
   <meta name="citation_author" content="James G. Graham" />
   <meta name="citation_author_institution" content="Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States" />
   <meta name="citation_author_institution" content="Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States" />
@@ -110,13 +111,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/92d1e5a4559ce2b86067b27fef2fceb73399b283/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/92d1e5a4559ce2b86067b27fef2fceb73399b283/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/92d1e5a4559ce2b86067b27fef2fceb73399b283/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/cdf48727e7926f7260d38398a11cc1c6ef231f5d/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/cdf48727e7926f7260d38398a11cc1c6ef231f5d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/cdf48727e7926f7260d38398a11cc1c6ef231f5d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/92d1e5a4559ce2b86067b27fef2fceb73399b283/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/92d1e5a4559ce2b86067b27fef2fceb73399b283/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/cdf48727e7926f7260d38398a11cc1c6ef231f5d/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/cdf48727e7926f7260d38398a11cc1c6ef231f5d/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -136,10 +137,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/92d1e5a4559ce2b86067b27fef2fceb73399b283/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/cdf48727e7926f7260d38398a11cc1c6ef231f5d/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@92d1e5a](https://github.com/lotusnprod/lotus-manuscript/tree/92d1e5a4559ce2b86067b27fef2fceb73399b283)
-on December 24, 2021.
+from [lotusnprod/lotus-manuscript@cdf4872](https://github.com/lotusnprod/lotus-manuscript/tree/cdf48727e7926f7260d38398a11cc1c6ef231f5d)
+on December 27, 2021.
 </em></small>
 
 ## Authors
@@ -205,7 +206,9 @@ on December 24, 2021.
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-3648-7362](https://orcid.org/0000-0002-3648-7362)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ArnaudGaudry](https://github.com/ArnaudGaudry)<br>
+    [ArnaudGaudry](https://github.com/ArnaudGaudry)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [gaudarn](https://twitter.com/gaudarn)<br>
   <small>
      School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
   </small>
