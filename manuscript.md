@@ -1,9 +1,12 @@
 ---
 title: 'The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata'
 keywords:
+- Open Science
 - Natural Products
-- Knowledge Management
 - Wikidata
+- Knowledge Graph
+- Linked Data
+- LOTUS Initiative
 lang: en-US
 date-meta: '2021-12-27'
 author-meta:
@@ -111,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/cdf48727e7926f7260d38398a11cc1c6ef231f5d/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/cdf48727e7926f7260d38398a11cc1c6ef231f5d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/cdf48727e7926f7260d38398a11cc1c6ef231f5d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5abed5fac38b1ea4305a5f442cfaec77b7bbe502/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5abed5fac38b1ea4305a5f442cfaec77b7bbe502/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5abed5fac38b1ea4305a5f442cfaec77b7bbe502/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/cdf48727e7926f7260d38398a11cc1c6ef231f5d/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/cdf48727e7926f7260d38398a11cc1c6ef231f5d/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5abed5fac38b1ea4305a5f442cfaec77b7bbe502/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5abed5fac38b1ea4305a5f442cfaec77b7bbe502/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -137,9 +140,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/cdf48727e7926f7260d38398a11cc1c6ef231f5d/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5abed5fac38b1ea4305a5f442cfaec77b7bbe502/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@cdf4872](https://github.com/lotusnprod/lotus-manuscript/tree/cdf48727e7926f7260d38398a11cc1c6ef231f5d)
+from [lotusnprod/lotus-manuscript@5abed5f](https://github.com/lotusnprod/lotus-manuscript/tree/5abed5fac38b1ea4305a5f442cfaec77b7bbe502)
 on December 27, 2021.
 </em></small>
 
