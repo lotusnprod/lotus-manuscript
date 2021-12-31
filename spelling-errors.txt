@@ -31,7 +31,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-bioactive
+Bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -75,7 +75,7 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 cmcrameri
 CMU
 codebase
@@ -137,7 +137,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-Faerun
+faerun
 Fatcat
 Fidele
 FishBase
@@ -149,7 +149,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 gaudarn
 Gaudry
 GBIF
@@ -175,7 +175,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerifier
 Gottlieb
@@ -198,11 +198,11 @@ idf
 IDSM
 Ilex
 iNaturalist
-InChI
-InChIKey
+inchi
+InChiKey
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -266,7 +266,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-metabolomic
+Metabolomic
 Metazoa
 MEYS
 mibig
@@ -287,7 +287,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-NaturalProducts
+naturalproducts
 NCBI
 NCCIH
 Nelumbo
@@ -296,7 +296,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -324,9 +324,9 @@ pamdb
 parallelization
 pbmcapply
 Pflanzen
-Pharmacognosy
+pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 Phytochemistry
 phytohub
@@ -374,7 +374,7 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
 Scholia
 scipy
 SDF
@@ -399,7 +399,7 @@ squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -439,7 +439,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -447,7 +447,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
@@ -471,7 +471,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-Wakankensaku
+wakankensaku
 wdkt
 wdpage
 webchem
