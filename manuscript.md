@@ -8,7 +8,7 @@ keywords:
 - Linked Data
 - LOTUS Initiative
 lang: en-US
-date-meta: '2021-12-27'
+date-meta: '2021-12-31'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-12-27" />
-  <meta name="citation_publication_date" content="2021-12-27" />
+  <meta name="dc.date" content="2021-12-31" />
+  <meta name="citation_publication_date" content="2021-12-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5abed5fac38b1ea4305a5f442cfaec77b7bbe502/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5abed5fac38b1ea4305a5f442cfaec77b7bbe502/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5abed5fac38b1ea4305a5f442cfaec77b7bbe502/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/93a06d5ddf1e90974a03252d5b388f981b249e76/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/93a06d5ddf1e90974a03252d5b388f981b249e76/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/93a06d5ddf1e90974a03252d5b388f981b249e76/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5abed5fac38b1ea4305a5f442cfaec77b7bbe502/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5abed5fac38b1ea4305a5f442cfaec77b7bbe502/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/93a06d5ddf1e90974a03252d5b388f981b249e76/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/93a06d5ddf1e90974a03252d5b388f981b249e76/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,10 +140,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5abed5fac38b1ea4305a5f442cfaec77b7bbe502/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/93a06d5ddf1e90974a03252d5b388f981b249e76/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@5abed5f](https://github.com/lotusnprod/lotus-manuscript/tree/5abed5fac38b1ea4305a5f442cfaec77b7bbe502)
-on December 27, 2021.
+from [lotusnprod/lotus-manuscript@93a06d5](https://github.com/lotusnprod/lotus-manuscript/tree/93a06d5ddf1e90974a03252d5b388f981b249e76)
+on December 31, 2021.
 </em></small>
 
 ## Authors
@@ -316,8 +316,6 @@ Data sharing within the Wikidata framework broadens data access and interoperabi
 Furthermore, embedding LOTUS data into the vast Wikidata knowledge graph will facilitate new biological and chemical insights.
 The LOTUS initiative represents an important advancement in the design and deployment of a comprehensive and collaborative natural products knowledge base.
 
-![](images/graphicalAbstract.svg "Graphical Abstract"){graphical-abstract}
-
 
 ## Introduction {.page_break_before}
 
@@ -388,8 +386,6 @@ This dual hosting provides an integrated, community-curated and vast knowledge b
 The LOTUS initiative was initially launched to answer our need to access the most comprehensive compilation of biological occurrences of NP. Indeed, we recently highlighted the interest of considering the taxonomic dimension when annotating metabolites [@doi:10/fm73]. This being said, many other concrete applications can result from an access by the scientific community to the LOTUS initiative data. For example, such a resource will facilitate the exploration of eco-evolutionary mechanisms at the molecular level [@doi:10/ghssx4]. In terms of drug discovery, this resource is extremely valuable to orient and guide researchers interested in a structure of interest. On the same theme, LOTUS is expected to be the perfect place to encounter "molecular arguments" for biodiversity conservation [@doi:10.1046/j.1365-2664.2003.00803.x]. Researchers interested in the history of science will be able, through this kind of resource, to gain a preliminary view of the temporal evolution of disciplines such as pharmacognosy.
 More generally, the objective of the LOTUS initiative is to prepare the ground for an electronic and globally accessible resource that would be the counterpart, at the metabolite level, of established databases linking proteins to biological organisms (eg. [Uniprot](https://www.uniprot.org/)) and genes to biological organisms ([Genbank](https://www.ncbi.nlm.nih.gov/genbank/)). Once such an objective is reached, it will be possible to interconnect the three central objects of the living, i.e. metabolites, proteins and genes, through the common entity of these resources, the biological organism. Such an interconnection, fostering cross-fertilization of the fields of chemistry, biology and associated disciplines is desirable and necessary to advance towards a better understanding of Life.
 
-<br/><br/>
-
 
 ## Results & Discussion
 
@@ -432,7 +428,7 @@ All publicly accessible electronic NP resources included in [COCONUT](https://ze
 The data were complemented with COCONUT's own referenced structure-organism pairs [@doi:10/gh6dqw], as well as the following additional electronic NP resources: Dr. Duke [@DepartmentAgricultureAgricultural1992], Cyanometdb [@doi:10/gjgdzm], Datawarrior [@doi:10/f637rz], a subset of NAPRALERT, Wakankensaku [@MainPageWAKANKENSAKU] and DiaNat-DB [@doi:10.1039/D0RA10453A].
 
 The contacts of the electronic NP resources not explicitly licensed as open were individually reached for permission to access and reuse data.
-A detailed list of data sources and related information is available as [SI-1](#si-1-data-sources-list).
+A detailed list of data sources and related information is available as [Appendix 1](#appendix-1-data-sources-list).
 All necessary scripts for data gathering and harmonization can be found in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/1_gathering](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering) directory and processed is detailed in the corresponding methods section [gathering section](#data-gathering).
 All subsequent iterations including new data sources, either updated information from the same data sources or new data, will involve a comparison with the previously gathered data at the SSOT level to ensure that the data is only curated once.
 
@@ -453,7 +449,7 @@ This process allowed us to establish rules for automatic filtering and validatio
 The parameters of the automatic filtering are available as a function ([filter_dirty.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/r/filter_dirty.R)) and are further described in the related [methods section](#data-validation).
 The automatic filtering was then applied to all entries.
 To confirm the efficacy of the filtering process, a new subset of 100 diverse, automatically curated and automatically validated entries was manually checked, yielding a rate of 97% of true positives.
-The detailed results of the two manual validation steps are reported in Supporting Information [SI-2](#si-2-summary-of-the-validation-statistics).
+The detailed results of the two manual validation steps are reported in Supporting Information [Appendix 2](#appendix-2-summary-of-the-validation-statistics).
 The resulting data is also available in the dataset shared at [https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106].
 Table @tbl:examples shows an example of a referenced structure-organism pair before and after curation.
 This process resolved the structure to an InChIKey, the organism to a valid taxonomic name and the reference to a DOI, thereby completing the establishment of the essential referenced structure-organism pair.
@@ -534,7 +530,7 @@ Clicking the reference link under each taxon name links to the publication(s) do
 
 The typical approach to more elaborated querying involves writing SPARQL queries using the [Wikidata Query Service](https://query.wikidata.org) or another direct connection to a SPARQL endpoint.
 Below are some examples from simple to more elaborated queries, demonstrating what can be done using this approach.
-The full-text queries with explanations are included in [SI-3](#si-3-wikidata-queries).
+The full-text queries with explanations are included in [Appendix 3](#appendix-3-wikidata-queries).
 
 Table: Potential questions about structure-organism relationships and corresponding Wikidata queries. {#tbl:queries}
 
@@ -628,7 +624,7 @@ Any researcher interested in reporting NP occurrences can manually add the data 
 For this the creation of a Wikidata account and following the [general object editing guidelines](https://www.wikidata.org/wiki/Wikidata:Tours) is advised.
 Regarding the addition of NP-centered objects (i.e., referenced structure-organisms pairs), users shall refer to the [WikiProject Chemistry/Natural products](https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry/Natural_products) group page.
 
-A tutorial for the manual creation and upload of a referenced structure-organism pair to Wikidata is available in [SI-4](#si-4--wikidata-entry-creation-tutorial).
+A tutorial for the manual creation and upload of a referenced structure-organism pair to Wikidata is available in [Appendix 4](#appendix-4-wikidata-entry-creation-tutorial).
 
 
 ###### Batch and Automated Upload
@@ -649,7 +645,7 @@ Field-specific robots such as [SuccuBot](https://www.wikidata.org/wiki/User:Succ
 The robots are capable of performing thousands of edits without the need for human input.
 This automation helps reduce the amount of incorrect data that would otherwise require manual editing.
 However, manual curation by human experts remains irreplaceable as a standard.
-Users who value this approach and are interested in contributing are invited to follow the manual curation tutorial in [SI-4](#si-4--wikidata-entry-creation-tutorial).
+Users who value this approach and are interested in contributing are invited to follow the manual curation tutorial in [Appendix 4](#appendix-4-wikidata-entry-creation-tutorial).
 
 The [Scholia platform](https://scholia.toolforge.org) provides a visual interface to display the links among Wikidata objects such as researchers, topics, species or chemicals.
 It now provides an interesting way to view the chemical compounds found in a given biological organism (see here for the metabolome view of [*Eurycoma longifolia*](https://scholia.toolforge.org/taxon/Q311710)).
@@ -667,7 +663,7 @@ Finally, a biologically-interpreted chemical tree and a chemically-interpreted b
 The examples illustrate the overall chemical and biological coverage of LOTUS by linking family-specific classes of chemical structures to their taxonomic position.
 Table @tbl:distribution, Figures @fig:distribution, @fig:tmap and @fig:magicTree were generated using the frozen data (2021-12-20 timestamp), which is available for download at [https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106].
 Figure @fig:upset required a dataset containing information from closed resources and the complete data used for its generation is therefore not available for public distribution.
-All scripts used for the generation of the figures (including [SI-5](#si-5-complement-to-figure-7)) are available in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/4_visualizing](https://github.com/lotusnprod/lotus-processor/tree/main/src/4_visualizing) directory for reproducibility.
+All scripts used for the generation of the figures are available in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/4_visualizing](https://github.com/lotusnprod/lotus-processor/tree/main/src/4_visualizing) directory for reproducibility.
 
 #### Distribution of Chemical Structures across reported Biological Organisms in LOTUS
 
@@ -733,7 +729,7 @@ In this case it is striking to see how well the compounds of a given chemical cl
 This is also evidenced on Figure @fig:tmap C. with a Jensen-Shannon divergence of 0.99 at the biological family level for quassinoids.
 In this plot, it is also possible to identify chemical classes that are widely spread among living organisms, such as the stigmastane steroids, which exhibit a Jensen-Shannon divergence of 0.73 at the biological family level.
 This means that repartition of stigmastane steroids among families is not specific.
-An additional figure, [SI-5](#si-5-complement-to-figure-7) further supports this statement.
+Figure @fig:magicTree-additional further supports this statement.
 
 #### A Chemically-interpreted Biological Tree
 
@@ -747,6 +743,8 @@ This specificity score was a [Jaccard index](https://en.wikipedia.org/wiki/Jacca
 
 ![**LOTUS provides new means of exploring and representing chemical and biological diversity.** The tree generated from current LOTUS data builds on biological taxonomy and employs the kingdom as tips label color (only families containing 50+ chemical structures were considered). The outer bars correspond to the most specific chemical class found in the biological family. The height of the bar is proportional to a specificity score corresponding to a [Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index) between the chemical class and the biological family. The bar color corresponds to the chemical pathway of the most specific chemical class in the NPClassifier classification system. The size of the leaf nodes corresponds to the number of genera reported in the family. The figure is vectorized and zoomable for detailed inspection and is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_chemically_interpreted_biological_tree.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_chemically_interpreted_biological_tree.svg).](images/magicTree.svg "magicTree"){#fig:magicTree width="100%"}
 
+![Distribution of *β*-sitosterol and related chemical parents among families with at least 50 reported compounds present in LOTUS. Script used for the generation of each tree in the figure is the same ([src/4_visualizing/plot_magicTree.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/4_visualizing/plot_magicTree.R)) as for Figure @fig:magicTree as both figures are related. The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_chemically_interpreted_biological_tree_supplement.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_chemically_interpreted_biological_tree_supplement.svg).](images/magicTree_additional.svg "magicTree_additional"){#fig:magicTree-additional tag="7-figure supplement 1"}
+
 Figure @fig:magicTree makes it possible to spot highly specific compound classes such as trinervitane terpenoids in the Termitidae, the rhizoxin macrolides in the Rhizopodaceae, or the quassinoids and limonoids typical, respectively, of Simaroubaceae and Meliaceae.
 Similarly, tendencies of more generic occurrence of NP can be observed.
 For example, within the fungal kingdom, Basidiomycotina appear to have a higher biosynthetic specificity toward terpenoids than other fungi, which mostly focus on polyketides production.
@@ -754,7 +752,7 @@ As explained previously, Figure @fig:magicTree is highly dependent of the data r
 As also illustrated in Figure @fig:distribution, some compounds can be over-studied among several organisms, and many organisms studied for specific compounds only.
 This is a direct consequence of the way the NP community reports its data actually. 
 Having this in mind, when observed at a finer scale, down to the structure level, such chemotaxonomic representation can give valuable insights.
-For example, among all chemical structures, only two were found in all biological kingdoms, namely heptadecanoic acid (KEMQGTRYUADPNZ-UHFFFAOYSA-N) and *β*-carotene (OENHQHLEOONYIE-JLTXGRSLSA-N). Looking at the distribution of *β*-sitosterol (KZJWDPNRJALLNS-VJSFXXLFSA-N) within the overall biological tree, [SI-5](#si-5-complement-to-figure-7) plots its presence/absence *versus* those of its superior chemical classifications, namely the stigmastane, steroid and terpenoid derivatives, over the same tree used in Figure @fig:magicTree.
+For example, among all chemical structures, only two were found in all biological kingdoms, namely heptadecanoic acid (KEMQGTRYUADPNZ-UHFFFAOYSA-N) and *β*-carotene (OENHQHLEOONYIE-JLTXGRSLSA-N). Looking at the distribution of *β*-sitosterol (KZJWDPNRJALLNS-VJSFXXLFSA-N) within the overall biological tree, Figure @fig:magicTree-additional plots its presence/absence *versus* those of its superior chemical classifications, namely the stigmastane, steroid and terpenoid derivatives, over the same tree used in Figure @fig:magicTree.
 The comparison of these five chemically-interpreted biological trees clearly highlights the increasing speciation of the *β*-sitosterol biosynthetic pathway in the Archaeplastida kingdom, while the superior classes are distributed across all kingdoms.
 Figure @fig:magicTree is zoomable and vectorized for detailed inspection.
 
@@ -770,7 +768,7 @@ The integration of multiple knowledge sources, e.g. genetics for NP producing ge
 This understanding is of utmost importance for the chemotaxonomic field and will help to understand to which extent microorganisms (endosymbionts) play a role in host development and its NP expression potential [@doi:10.1016/j.tplants.2004.04.005].
 
 
-## Conclusion & Perspectives
+## Conclusion & Perspectives {.page_break_before}
 
 ### Advancing Natural Products Knowledge
 
@@ -796,7 +794,7 @@ In particular raw data such as experimental readings, spectroscopic data, instru
 The immense value of raw data and the desire to advance the public dissemination has recently been documented in detail for nuclear magnetic resonance (NMR) spectroscopic data by a large consortium of NP researchers [@doi:10.1039/c7np00064b].
 However, to generate the vital flow of contributed data, the effort associated with preparing and submitting content to open repositories as well as data reuse should be better acknowledged in academia, government, regulatory, and industrial environments [@doi:10/gh533h; @doi:10/gfnxpj; @doi:10/gf3j9t]. The introduction of LOTUS provides here a new opportunity to advance the FAIR guiding principles for scientific data management and stewardship [@doi:10/bdd4].
 
-### Opening New Perspectives for Spectral Data
+### Opening New Perspectives for Spectral Data {.page_break_before}
 
 The possibilities for expansion and future applications of the Wikidata-based LOTUS initiative are significant.
 For example, properly formatted spectral data (e.g. obtained by MS or NMR) can be linked to the Wikidata entries of the originating chemical compounds.
@@ -807,9 +805,9 @@ The authors have previously demonstrated that taxonomically-informed metabolite 
 Alternative approaches linking structural annotation to biological organisms have also shown substantial improvements [@doi:10.1101/2021.03.18.435634].
 In this context, the LOTUS initiative offers new opportunities for linking chemical objects to both their biological occurrences and spectral information and should significantly facilitate such applications.
 
-### Integrating Chemodiversity, Biodiversity, and Human Health {.page_break_before}
+### Integrating Chemodiversity, Biodiversity, and Human Health
 
-As shown in [SI-5](#si-5-complement-to-figure-7), observing the chemical and biological diversity at various granularities offers new insights.
+As shown in Figure @fig:magicTree-additional, observing the chemical and biological diversity at various granularities offers new insights.
 Regarding the chemical objects involved, it will be important to document the taxonomies of chemical annotations for the Wikidata entries.
 However, this is a rather complex task, for which stability and coverage issues will have to be addressed first.
 Existing chemical taxonomies such as ChEBI, ClassyFire, or NPClassifier are evolving steadily, and it will be important to constantly update the tools used to make further annotations. [Promising efforts](https://www.wikidata.org/wiki/User:SCIdude/Modeling#Chemical_ontology) have been undertaken to automate the inclusion of Wikidata structures into a chemical ontology. Such approach exploits the [SMILES](https://www.wikidata.org/wiki/Q466769) and [SMARTS](https://www.wikidata.org/wiki/Q7544680) associated properties to infer a chemical classification for the structure. See for example the entry related to [emericellolide B](https://www.wikidata.org/wiki/Q77573987).
@@ -827,7 +825,7 @@ Notably, the body of literature on the pharmacology and toxicology of NP is comp
 To this end, the LOTUS initiative represents a potential framework for new concepts by which such information could be valued and conserved in the digital era [@doi:10/ggb79p; @doi:10/gh533j; @doi:10.1177/1934578X1701200849].
 This underscores the transformative value of the LOTUS initiative for the advancement of traditional medicine and its interest for drug discovery in health systems worldwide.
 
-### Shortcomings & Challenges
+### Shortcomings & Challenges {.page_break_before}
 
 Despite these strong advantages, the establishment and functioning of the LOTUS curation pipeline is not devoid of defaults and we list hereafter some of the observed shortcomings and associated challenges.
 
@@ -882,7 +880,7 @@ Before their inclusion, the overall quality of the source was manually assessed 
 This led to the identification of thirty-six electronic NP resources as valuable LOTUS input.
 Data from the proprietary Dictionary of Natural Products (DNP v 29.2) was also used for comparison purposes only and is not publicly disseminated.
 [FooDB](https://foodb.ca) was also curated but not publicly disseminated since its license proscribed sharing in Wikidata.
-[SI-1](#si-1-data-sources-list) gives all necessary details regarding electronic NP resources access and characteristics.
+[Appendix 1](#appendix-1-data-sources-list) gives all necessary details regarding electronic NP resources access and characteristics.
 
 Manual inspection of each electronic NP resource revealed that the structure, organism, and reference fields were widely variable in format and contents, thus requiring standardization to be comparable.
 The initial stage consisted of writing tailored scripts that are capable of harmonizing and categorizing knowledge from each source (Figure @fig:workflow).
@@ -890,7 +888,7 @@ This transformative process led to three categories: fields relevant to the chem
 This process resulted in categorized columns for each source, providing an initial harmonized format for each table.
 
 For all thirty-eight sources, if a single file or multiple files were accessible *via* a download option including FTP, data was gathered that way.
-For some sources, data was scraped (cf. [SI-1](#si-1-data-sources-list)).
+For some sources, data was scraped (cf. [Appendix 1](#appendix-1-data-sources-list)).
 All scraping scripts can be found in the [lotus-processor](https://github.com/lotusnprod/lotus-processor) repository in the [src/1_gathering](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering) directory (under each respective subdirectory).
 Data extraction scripts for the DNP are available and should allow users with a DNP license only to further exploit the data ([src/1_gathering/db/dnp](https://github.com/lotusnprod/lotus-processor/tree/main/src/1_gathering/db/dnp)).
 The chemical structure fields, organism fields, and reference fields were manually categorized into three, two, and ten subcategories, respectively.
@@ -1057,7 +1055,7 @@ Globally, structure and organism translation was satisfactory whereas reference 
 Therefore, to assess the validity of the obtained results, a randomized set of 420 referenced structure-organism pairs was sampled in each reference subcategory and validated or rejected manually.
 Entries were sampled with at least 55 of each reference subcategory present (to get a representative idea of each subcategory) ([src/3_analyzing/1_sampling.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/3_analyzing/1_sampling.R)).
 An entry was only validated if: *i)* the structure (as any structural descriptor that could be linked to the final sanitized InChIKey) was described in the reference *ii)* the producing organism (as any organism descriptor that could be linked to the accepted canonical name) was described in the reference and *iii)* the reference was describing the occurrence of the chemical structure in the biological organism.
-Results obtained on the manually analyzed set were categorized according to the initial reference subcategory and are detailed in [SI-2](#si-2-summary-of-the-validation-statistics).
+Results obtained on the manually analyzed set were categorized according to the initial reference subcategory and are detailed in [Appendix 2](#appendix-2-summary-of-the-validation-statistics).
 To improve these results, further processing of the references was needed.
 This was done by accepting entries whose reference was coming from a DOI, a PMID, or from a title which restricted Damerau-Levenshtein distance between original and translated was lower than ten or if it was coming from one of the three main journals where NP occurrences are commonly expected to be published (i.e., *Journal of Natural Products*, *Phytochemistry*, or *Journal of Agricultural and Food Chemistry*).
 For "split", "publishingDetails" and "original" subcategories, the year of publication of the obtained reference, its journal, and the name of the first author were searched in the original entry and if at least two of them were present, the entry was kept.
@@ -1074,7 +1072,7 @@ ${F_{\beta}\ =\ \left(1+\beta^2\right)\cdot\frac{precision\cdot recall}{\left(\b
 Based on this first manually validated dataset, filtering criteria ([src/r/filter_dirty.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/r/filter_dirty.R)) were established to maximize precision and recall.
 Another 100 entries were sampled, this time respecting the whole set ratios.
 After manual validation, 97% of true positives were reached on the second set.
-A summary of the validation results is given in [SI-2](#si-2-summary-of-the-validation-statistics).
+A summary of the validation results is given in [Appendix 2](#appendix-2-summary-of-the-validation-statistics).
 Once validated, the filtering criteria were established to the whole curated set to filter entries chosen for dissemination ([src/3_analyzing/2_validating.R](https://github.com/lotusnprod/lotus-processor/tree/main/src/3_analyzing/2_validating.R)).
 
 ### Unit Testing
@@ -1238,17 +1236,14 @@ The authors would also like to thank contributors of all electronic NP resources
 
 The authors declare no competing interest.
 
-## Author contributions
 
-![](images/author_contribution.svg "Author Contribution"){author-contribution}
+## Appendices {.page_break_before}
 
-## Supporting Information {.page_break_before}
-
-### SI 1 Data Sources List
+### Appendix 1 Data Sources List
 
 <div style="font-size:6pt">
 
-Table: Data Sources List {#tbl:si-1 tag="SI-1"}
+Table: Data Sources List {#tbl:si-1}
 
 |database|type|initial retrieved unique entries|cleaned referenced structure-organism pairs|pairs validated for wikidata export|actual validated pairs on wikidata|website|article|retrieval|license status|contact|dump|status|timestamp|
 |:------:|:----:|-----:|-----:|-----:|-----:|:----:|:----:|:----:|:------:|:-----:|:---:|:-----:|
@@ -1296,11 +1291,11 @@ Table: Data Sources List {#tbl:si-1 tag="SI-1"}
 </div>
 
 
-### SI 2 Summary of the Validation Statistics {.page_break_before}
+### Appendix 2 Summary of the Validation Statistics {.page_break_before}
 
 <div style="font-size:10pt">
 
-Table: Summary of the Validation Statistics {#tbl:si-2 tag="SI-2"}
+Table: Summary of the Validation Statistics {#tbl:si-2}
 
 | | **First validation dataset (n =420)** <!-- $colspan="8" --> | | | | | | | | **Second validation dataset (n = 100)** <!-- $colspan="2" --> | |
 |:----:|----:|----:|----:|----:|----:|----:|---:|---:|----:|----:|
@@ -1317,7 +1312,7 @@ Table: Summary of the Validation Statistics {#tbl:si-2 tag="SI-2"}
 </div>
 
 
-### SI 3 Wikidata Queries {.page_break_before}
+### Appendix 3 Wikidata Queries {.page_break_before}
 
 #### Query 1 - *Arabidopsis thaliana*
 
@@ -1690,7 +1685,7 @@ LIMIT 1000
 ```
 
 
-### SI 4 Wikidata Entry Creation Tutorial {.page_break_before}
+### Appendix 4 Wikidata Entry Creation Tutorial {.page_break_before}
 
 [
 <i class="fas fa-scroll fa-lg"></i> **Tutorial for manual creation**<br>
@@ -1967,11 +1962,6 @@ SELECT ?item ?itemLabel ?taxonLabel ?artLabel WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
 }
 ```
-
-
-### SI 5 Complement to Figure 7{.page_break_before}
-
-![**Complement to Figure 7**: distribution of *β*-sitosterol and related chemical parents among families with at least 50 reported compounds present in LOTUS. Script used for the generation of each tree in the figure is the same ([src/4_visualizing/plot_magicTree.R](https://github.com/lotusnprod/lotus-processor/blob/main/src/4_visualizing/plot_magicTree.R)) as for Figure @fig:magicTree as both figures are related. The figure is available under CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_chemically_interpreted_biological_tree_supplement.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_chemically_interpreted_biological_tree_supplement.svg).](images/magicTree_additional.svg "magicTree_additional"){#fig:magicTree-additional tag="SI-5"}
 
 
 ## References {.page_break_before}
