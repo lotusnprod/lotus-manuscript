@@ -31,7 +31,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-bioactive
+Bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -63,7 +63,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-Chemodiversity
+chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -75,19 +75,19 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 cmcrameri
 CMU
 codebase
 coroutines
 counterions
 Crataegus
-crossref
+Crossref
 CRSII
 csteinbeck
 cstrnq
 curation
-Cyanometdb
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -110,11 +110,11 @@ dimers
 diterpene
 DM
 Dmitry
-DNP
+dnp
 Dockerized
 DOIs
 doit
-drduke
+DrDuke
 DTGCRPNFSA
 eBird
 echnology
@@ -137,7 +137,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-faerun
+Faerun
 Fatcat
 Fidele
 FishBase
@@ -199,10 +199,10 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChIKey
+InChiKey
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -230,7 +230,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -287,7 +287,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Nelumbo
@@ -296,7 +296,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -326,7 +326,7 @@ pbmcapply
 Pflanzen
 Pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 Phytochemistry
 phytohub
@@ -336,7 +336,7 @@ plotly
 PMA
 PMIDs
 polyketides
-Pre
+pre
 procardb
 processingOriginal
 processingTranslated
@@ -374,7 +374,7 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
 Scholia
 scipy
 SDF
@@ -419,7 +419,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
@@ -431,7 +431,7 @@ THOMS
 tidyverse
 Tiejun
 Tilmann
-tmap
+TMAP
 tmdb
 TMMC
 tppt
@@ -439,7 +439,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane

@@ -8,7 +8,7 @@ keywords:
 - Linked Data
 - LOTUS Initiative
 lang: en-US
-date-meta: '2021-12-31'
+date-meta: '2022-01-02'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2021-12-31" />
-  <meta name="citation_publication_date" content="2021-12-31" />
+  <meta name="dc.date" content="2022-01-02" />
+  <meta name="citation_publication_date" content="2022-01-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/487c8229c9267fd2a7becdd6947371621ba88551/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/487c8229c9267fd2a7becdd6947371621ba88551/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/487c8229c9267fd2a7becdd6947371621ba88551/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/6c944388d837dc869ea205e298edd401fdb11939/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6c944388d837dc869ea205e298edd401fdb11939/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6c944388d837dc869ea205e298edd401fdb11939/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/487c8229c9267fd2a7becdd6947371621ba88551/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/487c8229c9267fd2a7becdd6947371621ba88551/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6c944388d837dc869ea205e298edd401fdb11939/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6c944388d837dc869ea205e298edd401fdb11939/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,10 +140,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/487c8229c9267fd2a7becdd6947371621ba88551/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/6c944388d837dc869ea205e298edd401fdb11939/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@487c822](https://github.com/lotusnprod/lotus-manuscript/tree/487c8229c9267fd2a7becdd6947371621ba88551)
-on December 31, 2021.
+from [lotusnprod/lotus-manuscript@6c94438](https://github.com/lotusnprod/lotus-manuscript/tree/6c944388d837dc869ea205e298edd401fdb11939)
+on January 2, 2022.
 </em></small>
 
 ## Authors
@@ -1194,7 +1194,7 @@ A frozen version (2021-12-23) of all programs and code is also available in the 
 
 #### R
 The [R](https://www.r-project.org) versions used for the project were 4.0.2 up to 4.1.2, and R-packages used were, in alphabetical order:
-ChemmineR (3.42.1) [@doi:10/b46rs7], chorddiag (0.1.3) [@florChorddiagInteractiveChord2020], ClassyfireR (0.3.6) [@doi:10/gc5tqv], data.table (1.14.2) [@dowleDataTableExtension2020], DBI (1.1.1) [@rspecialinterestgroupondatabasesr-sig-dbDBIDatabaseInterface2021], gdata (2.18.0) [@warnesGdataVariousProgramming2017], ggalluvial (0.12.3) [@doi:10/gg4ghf], ggfittext (0.9.1) [@wilkinsGgfittextFitText2020], ggnewscale (0.4.5) [@campitelliGgnewscaleMultipleFill2021], ggraph (2.0.5) [@pedersenGgraphImplementationGrammar2020], ggstar (1.0.2) [@xuGgstarStarLayer2021], ggtree (3.2.0) [@doi:10/f9qv8x], ggtreeExtra (1.4.0) [@doi:10.21203/rs.3.rs-155672/v2], jsonlite (1.7.2) [@wikidata:Q106204620], pbmcapply (1.5.0) [@kuangPbmcapplyTrackingProgress2019], plotly (4.10.0) [@sievertInteractiveWebBasedData2020], rcrossref(1.1.0.99) [@chamberlainRcrossrefClientVarious2020], readxl (1.3.1) [@wickhamReadxlReadExcel2019], rentrez (1.2.3) [@doi:10/gh5ptg], rotl (3.0.11) [@doi:10/f9jgkm], rvest (1.0.2) [@wickhamRvestEasilyHarvest2020], splitstackshape (1.4.8) [@mahtoSplitstackshapeStackReshape2019], RSQLite (2.2.8) [@mullerRSQLiteSQLiteInterface2021], stringdist (0.9.8) [@doi:10/ghfr9v], stringi (1.7.6) [@gagolewskiPackageStringiCharacter2020], tidyverse (1.3.1) [@doi:10/ggddkj], treeio (1.18.0) [@doi:10/ggwr93], UpSetR (1.4.0) [@gehlenborgUpSetRMoreScalable2019], webchem (1.1.1) [@doi:10/gh5ptf], XML (3.99-0.8) [@langXMLToolsParsing2020], xml2 (1.3.3) [@wickhamXml2ParseXML2020]
+ChemmineR (3.42.1) [@doi:10/b46rs7], chorddiag (0.1.3) [@florChorddiagInteractiveChord2020], ClassyfireR (0.3.6) [@doi:10/gc5tqv], data.table (1.14.2) [@dowleDataTableExtension2020], DBI (1.1.1) [@rspecialinterestgroupondatabasesr-sig-dbDBIDatabaseInterface2021], gdata (2.18.0) [@warnesGdataVariousProgramming2017], ggalluvial (0.12.3) [@doi:10/gg4ghf], ggfittext (0.9.1) [@wilkinsGgfittextFitText2020], ggnewscale (0.4.5) [@campitelliGgnewscaleMultipleFill2021], ggraph (2.0.5) [@pedersenGgraphImplementationGrammar2020], ggstar (1.0.2) [@xuGgstarStarLayer2021], ggtree (3.2.0) [@doi:10/f9qv8x], ggtreeExtra (1.4.0) [@doi:10.1093/molbev/msab166], jsonlite (1.7.2) [@wikidata:Q106204620], pbmcapply (1.5.0) [@kuangPbmcapplyTrackingProgress2019], plotly (4.10.0) [@sievertInteractiveWebBasedData2020], rcrossref(1.1.0.99) [@chamberlainRcrossrefClientVarious2020], readxl (1.3.1) [@wickhamReadxlReadExcel2019], rentrez (1.2.3) [@doi:10/gh5ptg], rotl (3.0.11) [@doi:10/f9jgkm], rvest (1.0.2) [@wickhamRvestEasilyHarvest2020], splitstackshape (1.4.8) [@mahtoSplitstackshapeStackReshape2019], RSQLite (2.2.8) [@mullerRSQLiteSQLiteInterface2021], stringdist (0.9.8) [@doi:10/ghfr9v], stringi (1.7.6) [@gagolewskiPackageStringiCharacter2020], tidyverse (1.3.1) [@doi:10/ggddkj], treeio (1.18.0) [@doi:10/ggwr93], UpSetR (1.4.0) [@gehlenborgUpSetRMoreScalable2019], webchem (1.1.1) [@doi:10/gh5ptf], XML (3.99-0.8) [@langXMLToolsParsing2020], xml2 (1.3.3) [@wickhamXml2ParseXML2020]
 
 #### Python
 The [Python](https://www.python.org) version used was 3.7.12 up to 3.9.7, and the Python packages utilized were, in alphabetical order: 
