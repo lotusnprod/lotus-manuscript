@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/6c944388d837dc869ea205e298edd401fdb11939/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6c944388d837dc869ea205e298edd401fdb11939/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/6c944388d837dc869ea205e298edd401fdb11939/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/99e27ed217052e156d5270904423e252d5ba29d8/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/99e27ed217052e156d5270904423e252d5ba29d8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/99e27ed217052e156d5270904423e252d5ba29d8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6c944388d837dc869ea205e298edd401fdb11939/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/6c944388d837dc869ea205e298edd401fdb11939/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/99e27ed217052e156d5270904423e252d5ba29d8/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/99e27ed217052e156d5270904423e252d5ba29d8/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,9 +140,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/6c944388d837dc869ea205e298edd401fdb11939/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/99e27ed217052e156d5270904423e252d5ba29d8/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@6c94438](https://github.com/lotusnprod/lotus-manuscript/tree/6c944388d837dc869ea205e298edd401fdb11939)
+from [lotusnprod/lotus-manuscript@99e27ed](https://github.com/lotusnprod/lotus-manuscript/tree/99e27ed217052e156d5270904423e252d5ba29d8)
 on January 2, 2022.
 </em></small>
 
@@ -1269,7 +1269,7 @@ Table: Data Sources List {#tbl:si-1}
 |nanpdb|open|5752|6383|5937|5283|[website](http://african-compounds.org/nanpdb)|[article](https://doi.org/10.1021/acs.jnatprod.7b00283) [@doi:10/ggfdw7]|[script](https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/nanpdb/scraping.R)|[license_copyright](https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/nanpdb.md)|[ntiekfidele@gmail.com](mailto:ntiekfidele@gmail.com) [stefan.guenther@pharmazie.uni-freiburg.de](mailto:stefan.guenther@pharmazie.uni-freiburg.de)|NO|maintained|2020-06-12T13:43:10Z|
 |napralert|commercial|681401|392498|294818|270743|[website](https://www.napralert.org)|[article](https://doi.org/10.1016/B978-008045382-8.00060-5) [@doi:10.1016/b978-008045382-8.00060-5]|-|[license_copyright](https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/napralert.md)|[napralert@uic.edu](mailto:napralert@uic.edu)|NO|defunct|2020-12-31T21:47:44Z|
 |npass|open|290535|30185|25429|23612|[website](http://bidd2.nus.edu.sg/NPASS/about.php)|[article](https://academic.oup.com/nar/article/46/D1/D1217/4584628) [@doi:10/gh5ptk]|[download](http://bidd.group/NPASS/downloadnpass.html)|[license_CCBY_NC](https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/npass.md)|[phacyz@nus.edu.sg](mailto:phacyz@nus.edu.sg) [jiangyy@sz.tsinghua.edu.cn](mailto:jiangyy@sz.tsinghua.edu.cn) [iaochen@163.com](mailto:iaochen@163.com)|YES|unmaintained|2020-07-10T13:03:09Z|
-|npatlas|open|32539|34726|34548|33087|[website](https://www.npatlas.org/joomla)|[article](https://doi.org/10.1021/acscentsci.9b00806) [@doi:10/gh5ptm]|[download](https://www.npatlas.org/custom/versions/np_atlas_2020_06/download.tsv)|[license_CCBY_4.0](https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/npatlas.md)|[rliningt@sfu.ca](mailto:rliningt@sfu.ca)|YES|maintained|2021-08-18T18:29:55Z|
+|npatlas|open|32539|34726|34548|33087|[website](https://www.npatlas.org/joomla)|[article](https://doi.org/10.1021/acscentsci.9b00806) [@doi:10/gh5ptm; @doi:10.1093/nar/gkab941]|[download](https://www.npatlas.org/custom/versions/np_atlas_2020_06/download.tsv)|[license_CCBY_4.0](https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/npatlas.md)|[rliningt@sfu.ca](mailto:rliningt@sfu.ca)|YES|maintained|2021-08-18T18:29:55Z|
 |npcare|open|7763|5878|3790|3538|[website](http://silver.sejong.ac.kr/npcare)|[article](https://doi.org/10.1186/s13321-016-0188-5) [@doi:10/f9rhrj]|[download](http://silver.sejong.ac.kr/npcare/csv/npcare.zip)|[license_CCBY_4.0](https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/npcare.md)|[choihwanho@gmail.com](mailto:choihwanho@gmail.com)|YES|unmaintained|2016-12-20T12:40:12Z|
 |npedia|open|82|99|28|28|[website](http://www.cbrg.riken.jp/npedia/?LANG=en)|[article](https://www.jstage.jst.go.jp/article/ciqs/2006/0/2006_0_JL6/_article) [@inenglishplease]|[script](https://github.com/lotusnprod/lotus-processor/blob/main//src/1_gathering/db/npedia/scraping.R)|[no_license](https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/npedia.md)|[hisyo@riken.jp](mailto:hisyo@riken.jp) [npd@riken.jp](mailto:npd@riken.jp)|NO|defunct|2020-06-03T08:23:04Z|
 |nubbe|open|2189|2340|2340|2119|[website](https://nubbe.iq.unesp.br/portal/nubbe-search.html)|[article](https://www.nature.com/articles/s41598-017-07451-x) [@doi:10/gh5ps7]|-|[license_copyright](https://github.com/lotusnprod/lotus-processor/blob/main/docs/licenses/nubbe.md)|[Vanderlan S. Bolzani](https://www.nature.com/articles/s41598-017-07451-x/email/correspondent/c1/new)|NO|maintained|2021-11-02T10:55:18Z|
