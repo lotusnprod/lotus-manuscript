@@ -3,7 +3,7 @@ adafede
 Adriano
 afrotryp
 alkamid
-Allard
+allard
 Amoebozoa
 AmphibiaWeb
 Angelshark
@@ -45,7 +45,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-bjonnh
+Bjonnh
 bkfd
 Bolzani
 Bromus
@@ -76,7 +76,7 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 cmcrameri
 CMU
 codebase
@@ -87,7 +87,7 @@ Crossref
 CRSII
 csteinbeck
 cstrnq
-curation
+Curation
 cyanometdb
 Cyathocaline
 Cyathocalyx
@@ -115,7 +115,7 @@ dnp
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -150,7 +150,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 gaudarn
 Gaudry
 GBIF
@@ -203,7 +203,7 @@ InChI
 InChIKey
 indability
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -231,7 +231,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -267,7 +267,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-Metabolomic
+metabolomic
 Metazoa
 MEYS
 mibig
@@ -297,7 +297,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -325,7 +325,7 @@ pamdb
 parallelization
 pbmcapply
 Pflanzen
-Pharmacognosy
+pharmacognosy
 Phasmida
 phenolexplorer
 physicochemical
@@ -399,7 +399,7 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
@@ -423,7 +423,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-TCM
+tcm
 TCMID
 Termitidae
 terpenoid
@@ -435,15 +435,15 @@ THOMS
 tidyverse
 Tiejun
 Tilmann
-TMAP
+tmap
 tmdb
-tmmc
+TMMC
 tppt
 transdisciplinary
 transformational
 transformative
 treeio
-trigocherrin
+Trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -459,7 +459,7 @@ uncharging
 Uniprot
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts
@@ -475,7 +475,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-Wakankensaku
+wakankensaku
 wdkt
 wdpage
 webchem
