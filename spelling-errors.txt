@@ -3,7 +3,7 @@ adafede
 Adriano
 afrotryp
 alkamid
-Allard
+allard
 Amoebozoa
 AmphibiaWeb
 Angelshark
@@ -16,6 +16,7 @@ antimarin
 Apteryx
 Arabidopsis
 Archaeplastida
+Architeture
 ARKive
 Arnaud
 ArnaudGaudry
@@ -75,26 +76,26 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 cmcrameri
 CMU
 codebase
 coroutines
 counterions
 Crataegus
-Crossref
+CrossRef
 CRSII
 csteinbeck
 cstrnq
 curation
-Cyanometdb
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
 daphnane
 dataset
 datasets
-datawarrior
+Datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -114,7 +115,7 @@ DNP
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -137,7 +138,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-faerun
+Faerun
 Fatcat
 Fidele
 FishBase
@@ -149,7 +150,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 gaudarn
 Gaudry
 GBIF
@@ -199,7 +200,7 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChIKey
+InChiKey
 indability
 indica
 indolic
@@ -266,7 +267,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-metabolomic
+Metabolomic
 Metazoa
 MEYS
 mibig
@@ -274,7 +275,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-MolVS
+Molvs
 monogyna
 Montclair
 Mozzherin
@@ -287,7 +288,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Nelumbo
@@ -296,7 +297,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -336,7 +337,7 @@ plotly
 PMA
 PMIDs
 polyketides
-Pre
+pre
 procardb
 processingOriginal
 processingTranslated
@@ -345,6 +346,7 @@ PubChem
 publishingDetails
 py
 Pyramus
+QID
 quassinoid
 quassinoids
 Ralf
@@ -352,7 +354,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-RDKit
+rdkit
 rdmpage
 readxl
 refered
@@ -369,6 +371,7 @@ Roderic
 ROMol
 Ronin
 rotl
+RRID
 RSQLite
 Rutz
 rvest
@@ -377,6 +380,7 @@ sancdb
 sanitization
 Scholia
 scipy
+SCR
 SDF
 ser
 Servet
@@ -419,7 +423,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-TCM
+tcm
 TCMID
 Termitidae
 terpenoid
@@ -439,7 +443,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -447,7 +451,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger
@@ -455,7 +459,7 @@ uncharging
 Uniprot
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts
