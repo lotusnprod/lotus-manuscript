@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/781d4c0a6201f350611ce24dba71ce6d5d789a4e/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/781d4c0a6201f350611ce24dba71ce6d5d789a4e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/781d4c0a6201f350611ce24dba71ce6d5d789a4e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/23dafc692e4f801658b1828b8e847ee23c119dfa/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/23dafc692e4f801658b1828b8e847ee23c119dfa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/23dafc692e4f801658b1828b8e847ee23c119dfa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/781d4c0a6201f350611ce24dba71ce6d5d789a4e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/781d4c0a6201f350611ce24dba71ce6d5d789a4e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/23dafc692e4f801658b1828b8e847ee23c119dfa/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/23dafc692e4f801658b1828b8e847ee23c119dfa/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,9 +140,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/781d4c0a6201f350611ce24dba71ce6d5d789a4e/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/23dafc692e4f801658b1828b8e847ee23c119dfa/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@781d4c0](https://github.com/lotusnprod/lotus-manuscript/tree/781d4c0a6201f350611ce24dba71ce6d5d789a4e)
+from [lotusnprod/lotus-manuscript@23dafc6](https://github.com/lotusnprod/lotus-manuscript/tree/23dafc692e4f801658b1828b8e847ee23c119dfa)
 on January 6, 2022.
 </em></small>
 
@@ -874,11 +874,11 @@ We believe that the LOTUS initiative has the potential to fuel a virtuous cycle 
 
 ## Methods {.page_break_before}
 
-### Key resources
+### Key Resources
 
 <div style="font-size:9pt">
 
-Table: Key resources table {#tbl:key-resources}
+Table: Key resources {#tbl:key-resources}
 
 | Reagent type (species) or resource | Designation | Source or reference | Identifiers | Additional information | 
 |:---:|:---:|:------:|:---:|:------:| 
