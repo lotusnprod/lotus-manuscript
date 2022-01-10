@@ -1,5 +1,5 @@
 ---
-title: 'The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata'
+title: The LOTUS Initiative for Open Knowledge Management in Natural Products Research
 keywords:
 - Open Science
 - Natural Products
@@ -8,7 +8,7 @@ keywords:
 - Linked Data
 - LOTUS Initiative
 lang: en-US
-date-meta: '2022-01-06'
+date-meta: '2022-01-10'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -31,12 +31,12 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="citation_title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta property="og:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta property="twitter:title" content="The LOTUS Initiative for Open Natural Products Research: Knowledge Management through Wikidata" />
-  <meta name="dc.date" content="2022-01-06" />
-  <meta name="citation_publication_date" content="2022-01-06" />
+  <meta name="dc.title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
+  <meta name="citation_title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
+  <meta property="og:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
+  <meta property="twitter:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
+  <meta name="dc.date" content="2022-01-10" />
+  <meta name="citation_publication_date" content="2022-01-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/23dafc692e4f801658b1828b8e847ee23c119dfa/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/23dafc692e4f801658b1828b8e847ee23c119dfa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/23dafc692e4f801658b1828b8e847ee23c119dfa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/23dafc692e4f801658b1828b8e847ee23c119dfa/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/23dafc692e4f801658b1828b8e847ee23c119dfa/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,10 +140,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/23dafc692e4f801658b1828b8e847ee23c119dfa/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@23dafc6](https://github.com/lotusnprod/lotus-manuscript/tree/23dafc692e4f801658b1828b8e847ee23c119dfa)
-on January 6, 2022.
+from [lotusnprod/lotus-manuscript@8f3d7a0](https://github.com/lotusnprod/lotus-manuscript/tree/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485)
+on January 10, 2022.
 </em></small>
 
 ## Authors
@@ -1240,8 +1240,6 @@ Quality control and testing: Ktlint 10.2.0, Kotlinter 3.3.0, Detekt 1.15.0, Ben 
 #### Additional executable files
 [GNFinder](https://github.com/gnames/gnfinder/releases/tag/v0.16.3) v.0.16.3, [GNVerifier](https://github.com/gnames/gnverifier/releases/tag/v0.6.1) v.0.6.1, [OPSIN](https://github.com/dan2097/opsin/releases/tag/2.5.0) v.2.5.0 [@doi:10/b2zkr9]
 
-<br/><br/>
-
 
 ## Data Availability
 
@@ -1251,7 +1249,7 @@ The [https://lotus.nprod.net](https://lotus.nprod.net) website is intended to ga
 
 ## Acknowledgments {.page_break_before}
 
-JLW and PMA are thankful to the Swiss National Science Foundation for supporting part of this project through the SNF Sinergia grant CRSII5_189921.
+AR, JLW and PMA are thankful to the Swiss National Science Foundation for supporting part of this project through the SNF Sinergia grant CRSII5_189921.
 JB and AR are really thankful to JetBrains for the Free educational license of IntelliJ and the excellent support received on Youtrack.
 JB, JGG, and GFP gratefully acknowledge the support of this work by grant U41 AT008706 and supplemental funding to P50 AT000155 from NCCIH and ODS of the NIH.
 MS and CS are supported by the German Research Foundation within the framework ChemBioSys (Project-ID 239748522, SFB 1127).
