@@ -8,7 +8,7 @@ keywords:
 - Linked Data
 - LOTUS Initiative
 lang: en-US
-date-meta: '2022-01-10'
+date-meta: '2022-01-26'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="og:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
-  <meta name="dc.date" content="2022-01-10" />
-  <meta name="citation_publication_date" content="2022-01-10" />
+  <meta name="dc.date" content="2022-01-26" />
+  <meta name="citation_publication_date" content="2022-01-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/b8616b21eef72d4f69d633932dd14653385d2bbb/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/b8616b21eef72d4f69d633932dd14653385d2bbb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/b8616b21eef72d4f69d633932dd14653385d2bbb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/b8616b21eef72d4f69d633932dd14653385d2bbb/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/b8616b21eef72d4f69d633932dd14653385d2bbb/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,10 +140,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/b8616b21eef72d4f69d633932dd14653385d2bbb/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@8f3d7a0](https://github.com/lotusnprod/lotus-manuscript/tree/8f3d7a0522a7a8a93121c96550c7d9ccb2ed3485)
-on January 10, 2022.
+from [lotusnprod/lotus-manuscript@b8616b2](https://github.com/lotusnprod/lotus-manuscript/tree/b8616b21eef72d4f69d633932dd14653385d2bbb)
+on January 26, 2022.
 </em></small>
 
 ## Authors
@@ -699,7 +699,7 @@ This incomplete coverage may be partially explained by the habit in classical NP
 The added value of the LOTUS initiative to assemble multiple electronic NP resources is illustrated in Figure @fig:upset : Panel A shows the contributions of the individual electronic NP resources to the ensemble of chemical structures found in one of the most studied vascular plants, *Arabidopsis thaliana* ("Mouse-ear cress"; [Q147096](https://www.wikidata.org/wiki/Q147096)).
 Panel B shows the ensemble of taxa reported to contain the planar structure of the widely occurring triterpenoid *β*-sitosterol ([Q121802](https://www.wikidata.org/wiki/Q121802)).
 
-![**UpSet plots of the individual contribution of electronic NP resources** to the planar structures found in *Arabidopsis thaliana* (A) and to organisms reported to contain the planar structure of *β*-sitosterol (KZJWDPNRJALNS) (B). UpSet plots are evolved Venn diagrams, allowing to represent intersections between multiple sets. The horizontal bars on the lower left represent the number of corresponding entries per electronic NP resource. The dots and their connecting line represent the intersection between source and consolidate sets. The vertical bars indicate the number of entries at the intersection. For example, 479 organisms containing the planar structure of *β*-sitosterol are present in both UNPD and NAPRALERT, whereas each of them respectively reports 1,349 and 2,330 organisms containing the planar structure of *β*-sitosterol. The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_upset_plot.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_upset_plot.svg).](images/upset_combined.svg "upset"){#fig:upset width="100%"}
+![**UpSet plots of the individual contribution of electronic NP resources** to the planar structures found in *Arabidopsis thaliana* (A) and to organisms reported to contain the planar structure of *β*-sitosterol (KZJWDPNRJALLNS) (B). UpSet plots are evolved Venn diagrams, allowing to represent intersections between multiple sets. The horizontal bars on the lower left represent the number of corresponding entries per electronic NP resource. The dots and their connecting line represent the intersection between source and consolidate sets. The vertical bars indicate the number of entries at the intersection. For example, 479 organisms containing the planar structure of *β*-sitosterol are present in both UNPD and NAPRALERT, whereas each of them respectively reports 1,349 and 2,330 organisms containing the planar structure of *β*-sitosterol. The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_upset_plot.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_upset_plot.svg).](images/upset_combined.svg "upset"){#fig:upset width="100%"}
 
 Figure @fig:upset A. also shows that according to NPClassifier, the "chemical pathway" category distribution across electronic NP resources is not conserved.
 Note that NPClassifier and ClassyFire [@doi:10/gc5tqv] chemical classification results are both available as metadata in the frozen LOTUS export and LNPN.
@@ -757,7 +757,7 @@ The comparison of these five chemically-interpreted biological trees clearly hig
 Figure @fig:magicTree is zoomable and vectorized for detailed inspection.
 
 As illustrated, the possibility of data interrogation at multiple precision levels, from fully defined chemical structures to broader chemical classes, is of great interest, e.g., for taxonomic and evolution studies.
-This makes LOTUS a unique ressource for the advancement of chemotaxonomy, a discipline pioneered by Augustin Pyramus de Candolle and pursued by other notable researchers (Robert Hegnauer, Otto R. Gottlieb) [@doi:10.1007/978-3-642-68641-2; @doi:10/d592kt; @decandolleEssaiProprietesMedicales1816].
+This makes LOTUS a unique resource for the advancement of chemotaxonomy, a discipline pioneered by Augustin Pyramus de Candolle and pursued by other notable researchers (Robert Hegnauer, Otto R. Gottlieb) [@doi:10.1007/978-3-642-68641-2; @doi:10/d592kt; @decandolleEssaiProprietesMedicales1816].
 Six decades after Hegnauer's publication of "Die Chemotaxonomie der Pflanzen" [@doi:10.1007/978-3-0348-9314-5] much remains to be done for the advancement of this field of study and the LOTUS initiative aims to provide a solid basis for researchers willing to pursue these exciting explorations at the interface of chemistry, biology and evolution.
 
 As shown recently in the context of spectral annotation [@doi:10.1038/s41587-020-0740-8], lowering the precision level of the annotation allows a broader coverage along with greater confidence.

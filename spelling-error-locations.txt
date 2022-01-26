@@ -331,7 +331,7 @@ content/03.results-discussion.md:310:thaliana
 content/03.results-discussion.md:311:sitosterol
 content/03.results-discussion.md:311:triterpenoid
 content/03.results-discussion.md:313:Arabidopsis
-content/03.results-discussion.md:313:KZJWDPNRJALNS
+content/03.results-discussion.md:313:KZJWDPNRJALLNS
 content/03.results-discussion.md:313:NAPRALERT
 content/03.results-discussion.md:313:sitosterol
 content/03.results-discussion.md:313:sitosterol
@@ -465,7 +465,6 @@ content/03.results-discussion.md:371:chemotaxonomy
 content/03.results-discussion.md:371:Gottlieb
 content/03.results-discussion.md:371:Hegnauer
 content/03.results-discussion.md:371:Pyramus
-content/03.results-discussion.md:371:ressource
 content/03.results-discussion.md:372:Chemotaxonomie
 content/03.results-discussion.md:372:der
 content/03.results-discussion.md:372:Hegnauer
