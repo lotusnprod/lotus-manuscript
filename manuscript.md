@@ -8,7 +8,7 @@ keywords:
 - Linked Data
 - LOTUS Initiative
 lang: en-US
-date-meta: '2022-01-26'
+date-meta: '2022-02-01'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="og:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
-  <meta name="dc.date" content="2022-01-26" />
-  <meta name="citation_publication_date" content="2022-01-26" />
+  <meta name="dc.date" content="2022-02-01" />
+  <meta name="citation_publication_date" content="2022-02-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/b8616b21eef72d4f69d633932dd14653385d2bbb/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/b8616b21eef72d4f69d633932dd14653385d2bbb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/b8616b21eef72d4f69d633932dd14653385d2bbb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/3ddb00e7499c7e810790045d55c6117dd03ecc5b/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/3ddb00e7499c7e810790045d55c6117dd03ecc5b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/3ddb00e7499c7e810790045d55c6117dd03ecc5b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/b8616b21eef72d4f69d633932dd14653385d2bbb/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/b8616b21eef72d4f69d633932dd14653385d2bbb/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/3ddb00e7499c7e810790045d55c6117dd03ecc5b/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/3ddb00e7499c7e810790045d55c6117dd03ecc5b/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,161 +140,189 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/b8616b21eef72d4f69d633932dd14653385d2bbb/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/3ddb00e7499c7e810790045d55c6117dd03ecc5b/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@b8616b2](https://github.com/lotusnprod/lotus-manuscript/tree/b8616b21eef72d4f69d633932dd14653385d2bbb)
-on January 26, 2022.
+from [lotusnprod/lotus-manuscript@3ddb00e](https://github.com/lotusnprod/lotus-manuscript/tree/3ddb00e7499c7e810790045d55c6117dd03ecc5b)
+on February 1, 2022.
 </em></small>
 
 ## Authors
 
 
 
-+ **Adriano Rutz** <br>
++ **Adriano Rutz** \
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-0443-9902](https://orcid.org/0000-0003-0443-9902)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [adafede](https://github.com/adafede)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [adafede](https://twitter.com/adafede)<br>
+    [adafede](https://twitter.com/adafede)
+    \
   <small>
      School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+     · Funded by CRSII5_189921
   </small>
 
-+ **Maria Sorokina** <br>
++ **Maria Sorokina** \
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-9359-7149](https://orcid.org/0000-0001-9359-7149)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [mSorok](https://github.com/mSorok)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [ms_sorok](https://twitter.com/ms_sorok)<br>
+    [ms_sorok](https://twitter.com/ms_sorok)
+    \
   <small>
      Institute for Inorganic and Analytical Chemistry, Friedrich-Schiller-University Jena, Lessingstr. 8, 07732 Jena, Germany
+     · Funded by CRC1127
   </small>
 
-+ **Jakub Galgonek** <br>
++ **Jakub Galgonek** \
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-7038-544X](https://orcid.org/0000-0002-7038-544X)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [galgonek](https://github.com/galgonek)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [JGalgonek](https://twitter.com/JGalgonek)<br>
+    [JGalgonek](https://twitter.com/JGalgonek)
+    \
   <small>
      Institute of Organic Chemistry and Biochemistry of the CAS, Flemingovo náměstí 2, 166 10, Prague 6, Czech Republic
+     · Funded by LM2018131
   </small>
 
-+ **Daniel Mietchen** <br>
++ **Daniel Mietchen** \
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-9488-1870](https://orcid.org/0000-0001-9488-1870)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [Daniel-Mietchen](https://github.com/Daniel-Mietchen)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [EvoMRI](https://twitter.com/EvoMRI)<br>
+    [EvoMRI](https://twitter.com/EvoMRI)
+    \
   <small>
      Ronin Institute, 127 Haddon Pl, Montclair, NJ 07043, United States; Leibniz Institute of Freshwater Ecology and Inland Fisheries, Müggelseedamm 310, D-12587 Berlin; School of Data Science, University of Virginia, Dell 1 Building, Charlottesville, VA 22904, United States
+     · Funded by G-2019-11458
   </small>
 
-+ **Egon Willighagen** <br>
++ **Egon Willighagen** \
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-7542-0286](https://orcid.org/0000-0001-7542-0286)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [egonw](https://github.com/egonw)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [egonwillighagen](https://twitter.com/egonwillighagen)<br>
+    [egonwillighagen](https://twitter.com/egonwillighagen)
+    \
   <small>
      Dept of Bioinformatics-BiGCaT, NUTRIM, Maastricht University, Universiteitssingel 50, NL-6229 ER, Maastricht, The Netherlands
+     · Funded by G-2019-11458
   </small>
 
-+ **Arnaud Gaudry** <br>
++ **Arnaud Gaudry** \
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-3648-7362](https://orcid.org/0000-0002-3648-7362)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [ArnaudGaudry](https://github.com/ArnaudGaudry)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [gaudarn](https://twitter.com/gaudarn)<br>
+    [gaudarn](https://twitter.com/gaudarn)
+    \
   <small>
      School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+     · Funded by CRSII5_189921
   </small>
 
-+ **James G. Graham** <br>
++ **James G. Graham** \
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-7114-8921](https://orcid.org/0000-0002-7114-8921)<br>
+    [0000-0002-7114-8921](https://orcid.org/0000-0002-7114-8921)
+      \
   <small>
      Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States; Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
+     · Funded by U41 AT008706 and AT000155
   </small>
 
-+ **Ralf Stephan** <br>
++ **Ralf Stephan** \
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-4650-631X](https://orcid.org/0000-0002-4650-631X)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [rwst](https://github.com/rwst)<br>
+    [rwst](https://github.com/rwst)
+      \
   <small>
      Ontario Institute for Cancer Research (OICR), 661 University Ave Suite 510, Toronto, Canada
   </small>
 
-+ **Roderic Page** <br>
++ **Roderic Page** \
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-7101-9767](https://orcid.org/0000-0002-7101-9767)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [rdmpage](https://github.com/rdmpage)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [rdmpage](https://twitter.com/rdmpage)<br>
+    [rdmpage](https://twitter.com/rdmpage)
+    \
   <small>
      IBAHCM, MVLS, University of Glasgow, Glasgow, United Kingdom
   </small>
 
-+ **Jiří Vondrášek** <br>
++ **Jiří Vondrášek** \
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-6066-973X](https://orcid.org/0000-0002-6066-973X)<br>
+    [0000-0002-6066-973X](https://orcid.org/0000-0002-6066-973X)
+      \
   <small>
      Institute of Organic Chemistry and Biochemistry of the CAS, Flemingovo náměstí 2, 166 10, Prague 6, Czech Republic
+     · Funded by LM2018131
   </small>
 
-+ **Christoph Steinbeck** <br>
++ **Christoph Steinbeck** \
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-6966-0814](https://orcid.org/0000-0001-6966-0814)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [steinbeck](https://github.com/steinbeck)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [csteinbeck](https://twitter.com/csteinbeck)<br>
+    [csteinbeck](https://twitter.com/csteinbeck)
+    \
   <small>
      Institute for Inorganic and Analytical Chemistry, Friedrich-Schiller-University Jena, Lessingstr. 8, 07732 Jena, Germany
+     · Funded by CRC1127
   </small>
 
-+ **Guido F. Pauli** <br>
++ **Guido F. Pauli** \
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-1022-4326](https://orcid.org/0000-0003-1022-4326)<br>
+    [0000-0003-1022-4326](https://orcid.org/0000-0003-1022-4326)
+      \
   <small>
      Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States; Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
+     · Funded by U41 AT008706 and AT000155
   </small>
 
-+ **Jean-Luc Wolfender** <br>
++ **Jean-Luc Wolfender** \
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-0125-952X](https://orcid.org/0000-0002-0125-952X)<br>
+    [0000-0002-0125-952X](https://orcid.org/0000-0002-0125-952X)
+      \
   <small>
      School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+     · Funded by CRSII5_189921
   </small>
 
-+ **Jonathan Bisson** ^[✉](#correspondence)^<br>
++ **Jonathan Bisson** ^[✉](#correspondence)^\
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-1640-9989](https://orcid.org/0000-0003-1640-9989)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [bjonnh](https://github.com/bjonnh)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [Bjonnh](https://twitter.com/Bjonnh)<br>
+    [Bjonnh](https://twitter.com/Bjonnh)
+    \
   <small>
      Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States; Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
+     · Funded by U41 AT008706 and AT000155
   </small>
 
-+ **Pierre-Marie Allard** ^[✉](#correspondence)^<br>
++ **Pierre-Marie Allard** ^[✉](#correspondence)^\
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-3389-2191](https://orcid.org/0000-0003-3389-2191)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [oolonek](https://github.com/oolonek)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [allard_pm](https://twitter.com/allard_pm)<br>
+    [allard_pm](https://twitter.com/allard_pm)
+    \
   <small>
      School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; Department of Biology, University of Fribourg, Chemin du Musée 10, 1700 Fribourg, Switzerland
+     · Funded by CRSII5_189921
   </small>
 
 
@@ -412,7 +440,7 @@ The LOTUS processing pipeline is tailored to efficiently include and diffuse nov
 This iterative workflow relies both on data addition and retrieval actions as described in the [Data Interaction](#user-interaction-with-lotus-data) section.
 The overall process leading to referenced and curated structure-organisms pairs is illustrated in Figure @fig:workflow and detailed below.
 
-<br/><br/>
+\
 
 ![**Blueprint of the LOTUS initiative.** Data undergo a four-stage process: (1) Harmonization, (2) Processing, (3) Validation and (4) Dissemination. The process was designed to incorporate future contributions (5), either by the addition of new data from within Wikidata (a) or new sources (b) or *via* curation of existing data (c). The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_blueprint.svg).](images/workflow.svg "Workflow"){#fig:workflow width="100%"}
 
@@ -453,7 +481,7 @@ The detailed results of the two manual validation steps are reported in Supporti
 The resulting data is also available in the dataset shared at [https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106].
 Table @tbl:examples shows an example of a referenced structure-organism pair before and after curation.
 This process resolved the structure to an InChIKey, the organism to a valid taxonomic name and the reference to a DOI, thereby completing the establishment of the essential referenced structure-organism pair.
-<br/><br/>
+\
 
 Table: Example of a referenced structure-organism pair before and after curation {#tbl:examples}
 
@@ -466,7 +494,7 @@ Challenging examples encountered during the development of the curation process 
 These tests allow a continuous revalidation of any change made to the code, ensuring that corrected errors will not reappear.
 The alluvial plot in Figure @fig:alluvial illustrates the individual contribution of each *source* and *original* *subcategory* that led to the *processed* *categories*: structure, organism and reference.
 
-<br/><br/>
+\
 
 ![**Alluvial plot of the data transformation flow within LOTUS during the automated curation and validation processes.** The figure also reflects the relative proportions of the data stream in terms of the contributions from the various sources ("source" block, left), the composition of the harmonized subcategories ("original subcategory" block, middle) and the validated data after curation ("processed category" block, right). Automatically validated entries are represented in green, rejected entries in blue. The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_alluvial_plot.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_alluvial_plot.svg).](images/alluvial.svg "Alluvial"){#fig:alluvial width="100%"}
 
@@ -1735,7 +1763,7 @@ Throughout this demonstration, we are going to use the following example:
 Search PubChem for your compound, here [trigocherrin A](https://pubchem.ncbi.nlm.nih.gov/#query=%22trigocherrin%20A%22).
 This leads to [https://pubchem.ncbi.nlm.nih.gov/compound/101556657](https://pubchem.ncbi.nlm.nih.gov/compound/101556657).
 
-![](images/tutorial/2021-02-25-14-15-54.png)
+![](images/tutorial/2021-02-25-14-15-54.png){width="100%"}
 
 From there, you can fetch the compound's name, InChIKey and InChI as well as its Canonical and Isomeric SMILES.
 Here we keep, respectively:
@@ -1752,7 +1780,7 @@ Here we keep, respectively:
 
 You can check if your organism name is correctly spelled using the Global Names resolver service: [http://gni.globalnames.org/name_strings?search_term=trigonostemon+cherrieri&commit=Search](http://gni.globalnames.org/name_strings?search_term=trigonostemon+cherrieri&commit=Search).
 
-![](images/tutorial/2021-02-27-18-40-20.png)
+![](images/tutorial/2021-02-27-18-40-20.png){width="100%"}
 
 Alternatively, you can use [gnfinder](https://github.com/gnames/gnfinder) in your command line interface to check for the spelling of your organism string.
  
@@ -1851,34 +1879,34 @@ If you are unfamiliar with how Wikidata works, you can start by reading the Wiki
 Now that you are all set up, you can go to Wikidata's page for creating new items, [https://www.wikidata.org/wiki/Special:NewItem](https://www.wikidata.org/wiki/Special:NewItem):
 
 
-![](images/tutorial/2021-02-25-14-18-03.png)
+![](images/tutorial/2021-02-25-14-18-03.png){width="100%"}
 
 An empty page with a new Wikidata identifier is created 
 
-![](images/tutorial/2021-02-25-14-18-50.png)
+![](images/tutorial/2021-02-25-14-18-50.png){width="100%"}
 
 ###### Add the chemical compound information <a name="add_chemical"></a>
 
 Create a new statement for ```is an instance of```
 
-![](images/tutorial/2021-02-25-14-20-08.png)
+![](images/tutorial/2021-02-25-14-20-08.png){width="100%"}
 
 and select chemical compound (i.e. [Q11173](https://www.wikidata.org/wiki/Q11173)):
 
-![](images/tutorial/2021-02-25-14-20-58.png)
+![](images/tutorial/2021-02-25-14-20-58.png){width="100%"}
 
 Click ```publish``` to save your changes and make them public.
 
 Since you created a new item about an instance of a chemical compound, the user interface will automatically propose to you a set of additional statements commonly found on items about chemical compounds.
 
-![](images/tutorial/2021-02-25-14-22-44.png)
+![](images/tutorial/2021-02-25-14-22-44.png){width="100%"}
 
 You can then go on and fill these in.
 
 Here, we start with the InChIKey.
 Note the little flag which will automatically tell you if you have some problems with the recently created statements.
 
-![](images/tutorial/2021-02-25-14-24-34.png)
+![](images/tutorial/2021-02-25-14-24-34.png){width="100%"}
 
 Here, Wikidata tells us that if we add an InChiKey, we will need to also add an InChI.
 Logical, but good to have a reminder!
@@ -1901,12 +1929,12 @@ Now let's add the ```found in taxon``` property ([P703](https://www.wikidata.org
 
 Just click on ```Add a new statement``` and type in the first letters of the property you want to add:
 
-![](images/tutorial/2021-02-25-14-31-56.png)
+![](images/tutorial/2021-02-25-14-31-56.png){width="100%"}
 
 Again, type in the first letters of the taxon, and if the organism is present, it will autocomplete.
 Here is how this looks like for _Trigonostemon cherrieri_:
 
-![](images/tutorial/2021-02-25-14-33-14.png)
+![](images/tutorial/2021-02-25-14-33-14.png){width="100%"}
 
 Click ```publish``` to save your changes and make them public.
 
@@ -1922,21 +1950,21 @@ Finally, since we report referenced structure-organisms pairs, we need to add th
 This happens on the item about the compound, just below the ```found in taxon``` statement.
 Click on the ```0 references``` link and then on ```add reference```:
 
-![](images/tutorial/2021-02-25-14-35-33.png)
+![](images/tutorial/2021-02-25-14-35-33.png){width="100%"}
 
 Here, we use the ```stated in``` property ([P248](https://www.wikidata.org/wiki/Property:P248)):
 
-![](images/tutorial/2021-02-25-14-36-33.png)
+![](images/tutorial/2021-02-25-14-36-33.png){width="100%"}
 
 Now, type in the first letters or word of the scientific publication documenting the natural product occurrence, autocompletion happens again.
 Note that multiple publications might have the same title, and that there could be minor differences in punctuation or special characters between the information you and Wikidata have about the same reference.
 If you are not sure whether your target reference is already in Wikidata, you can use its DOI to check, as outlined in the [Check whether your target reference is already on Wikidata](#check_ref) section.
 
-![](images/tutorial/2021-02-25-14-38-54.png)
+![](images/tutorial/2021-02-25-14-38-54.png){width="100%"}
 
 Click ```publish``` to save your changes and make them public.
 
-![](images/tutorial/2021-02-25-14-39-48.png)
+![](images/tutorial/2021-02-25-14-39-48.png){width="100%"}
 
 ###### Check whether your target reference is already on Wikidata <a name="check_ref"></a>
 
