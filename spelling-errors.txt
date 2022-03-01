@@ -64,7 +64,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-Chemodiversity
+chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -84,7 +84,7 @@ coroutines
 counterions
 Crataegus
 CRC
-CrossRef
+Crossref
 CRSII
 csteinbeck
 cstrnq
@@ -116,7 +116,7 @@ DNP
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -151,7 +151,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 gaudarn
 Gaudry
 GBIF
@@ -201,10 +201,10 @@ IDSM
 Ilex
 iNaturalist
 inchi
-InChiKey
+InChIKey
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -267,7 +267,7 @@ Meliaceae
 metabolights
 metabolome
 metabolomes
-Metabolomic
+metabolomic
 Metazoa
 MEYS
 mibig
@@ -288,7 +288,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Nelumbo
@@ -297,7 +297,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -325,7 +325,7 @@ pamdb
 parallelization
 pbmcapply
 Pflanzen
-Pharmacognosy
+pharmacognosy
 Phasmida
 phenolexplorer
 physicochemical
@@ -337,7 +337,7 @@ plotly
 PMA
 PMIDs
 polyketides
-pre
+Pre
 procardb
 processingOriginal
 processingTranslated
@@ -376,7 +376,7 @@ Rutz
 rvest
 rwst
 sancdb
-Sanitization
+sanitization
 Scholia
 scipy
 SCR
@@ -402,7 +402,7 @@ Squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -434,7 +434,7 @@ THOMS
 tidyverse
 Tiejun
 Tilmann
-tmap
+TMAP
 tmdb
 tmmc
 tppt
@@ -442,7 +442,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-trigocherrin
+Trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -450,7 +450,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
@@ -474,7 +474,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-Wakankensaku
+wakankensaku
 wdkt
 wdpage
 webchem

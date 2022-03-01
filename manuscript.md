@@ -8,7 +8,7 @@ keywords:
 - Linked Data
 - LOTUS Initiative
 lang: en-US
-date-meta: '2022-02-27'
+date-meta: '2022-03-01'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="og:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
-  <meta name="dc.date" content="2022-02-27" />
-  <meta name="citation_publication_date" content="2022-02-27" />
+  <meta name="dc.date" content="2022-03-01" />
+  <meta name="citation_publication_date" content="2022-03-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/5878e10f4f5f921d4096152ce53f14a0943d6096/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5878e10f4f5f921d4096152ce53f14a0943d6096/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/5878e10f4f5f921d4096152ce53f14a0943d6096/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/ab78a3fb7e2ee7b58cd5126a8bbf80ace2103cb0/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ab78a3fb7e2ee7b58cd5126a8bbf80ace2103cb0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/ab78a3fb7e2ee7b58cd5126a8bbf80ace2103cb0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5878e10f4f5f921d4096152ce53f14a0943d6096/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/5878e10f4f5f921d4096152ce53f14a0943d6096/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ab78a3fb7e2ee7b58cd5126a8bbf80ace2103cb0/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/ab78a3fb7e2ee7b58cd5126a8bbf80ace2103cb0/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,10 +140,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/5878e10f4f5f921d4096152ce53f14a0943d6096/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/ab78a3fb7e2ee7b58cd5126a8bbf80ace2103cb0/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@5878e10](https://github.com/lotusnprod/lotus-manuscript/tree/5878e10f4f5f921d4096152ce53f14a0943d6096)
-on February 27, 2022.
+from [lotusnprod/lotus-manuscript@ab78a3f](https://github.com/lotusnprod/lotus-manuscript/tree/ab78a3fb7e2ee7b58cd5126a8bbf80ace2103cb0)
+on March 1, 2022.
 </em></small>
 
 ## Authors
