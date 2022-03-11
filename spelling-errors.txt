@@ -1,9 +1,10 @@
+acido
 Actinobacteria
 adafede
 Adriano
 afrotryp
 alkamid
-allard
+Allard
 Amoebozoa
 AmphibiaWeb
 Angelshark
@@ -32,7 +33,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-Bioactive
+bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -64,7 +65,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-chemodiversity
+Chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -76,7 +77,7 @@ Christoph
 Chun
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 cmcrameri
 CMU
 codebase
@@ -112,7 +113,7 @@ dimers
 diterpene
 DM
 Dmitry
-DNP
+dnp
 Dockerized
 DOIs
 doit
@@ -139,7 +140,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-faerun
+Faerun
 Fatcat
 Fidele
 FishBase
@@ -151,7 +152,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 gaudarn
 Gaudry
 GBIF
@@ -177,7 +178,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -200,11 +201,11 @@ idf
 IDSM
 Ilex
 iNaturalist
-InChI
-InChiKey
+inchi
+InChIKey
 indability
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -268,6 +269,7 @@ metabolights
 metabolome
 metabolomes
 metabolomic
+Metabolomics
 Metazoa
 MEYS
 mibig
@@ -275,7 +277,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-Molvs
+MolVS
 monogyna
 Montclair
 Mozzherin
@@ -327,7 +329,7 @@ pbmcapply
 Pflanzen
 pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 Phytochemistry
 phytohub
@@ -354,7 +356,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 refered
@@ -398,7 +400,7 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
@@ -422,7 +424,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
@@ -474,7 +476,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-Wakankensaku
+wakankensaku
 wdkt
 wdpage
 webchem
