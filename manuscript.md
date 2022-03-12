@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/4cc8584e21997896b1513c7adcf1ecda14fb4cd5/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4cc8584e21997896b1513c7adcf1ecda14fb4cd5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/4cc8584e21997896b1513c7adcf1ecda14fb4cd5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/14d3de5484f68a23d53f6c82496b4a3876a324d8/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/14d3de5484f68a23d53f6c82496b4a3876a324d8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/14d3de5484f68a23d53f6c82496b4a3876a324d8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4cc8584e21997896b1513c7adcf1ecda14fb4cd5/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/4cc8584e21997896b1513c7adcf1ecda14fb4cd5/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/14d3de5484f68a23d53f6c82496b4a3876a324d8/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/14d3de5484f68a23d53f6c82496b4a3876a324d8/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,9 +140,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/4cc8584e21997896b1513c7adcf1ecda14fb4cd5/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/14d3de5484f68a23d53f6c82496b4a3876a324d8/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@4cc8584](https://github.com/lotusnprod/lotus-manuscript/tree/4cc8584e21997896b1513c7adcf1ecda14fb4cd5)
+from [lotusnprod/lotus-manuscript@14d3de5](https://github.com/lotusnprod/lotus-manuscript/tree/14d3de5484f68a23d53f6c82496b4a3876a324d8)
 on March 12, 2022.
 </em></small>
 
@@ -739,9 +739,19 @@ Readily achievable outcomes from LOTUS show that the depth of exploration of the
 Notably, half of all structures have been reported from a single organism and half of all studied organisms are reported to contain five or fewer structures.
 Metabolomics studies suggest that these numbers are heavily underrated [@doi:10/b3z2g7; @doi:10/ggwr93] and indicate that a better reporting of the metabolites detected in the course of NP chemistry investigations should greatly improve coverage. 
 
-This incomplete coverage may be partially explained by the habit in classical NP journals to accept only new and/or bioactive chemical structures for publication. Another possible explanation is the fact that specific chemical classes have been under heavier scrutiny by the natural products community than others. For example, alkaloids have two specific characteristics which favors their reporting in the literature. First, their are often endowed with potent biological activities making them a target in the frame of pharmacognosy research. Second, their chemical nature makes them readily accessible from complex biological matrices through acido-basic extraction. It is thus a complex task to answer the following question: "Is the currently observed repartition of alkaloids across the tree of life a reflection of their true biological occurrence or is this repartition biased by the aforementioned characteristics of this chemical class ?" Both is an easy, and most likely correct, answer. However the challenge lies in disentangling the bias form the true occurrence. This complex challenge is an open one for which we have no definitive answers. The LOTUS initiative should however offer sound and strong foundations for such research problematic.
+This incomplete coverage may be partially explained by the habit in classical NP journals to accept only new and/or bioactive chemical structures for publication.
+Another possible explanation is the fact that specific chemical classes have been under heavier scrutiny by the natural products community than others.
+For example, alkaloids have three specific characteristics which favor their reporting in the literature.
+First, their are often endowed with potent biological activities making them a target in the frame of pharmacognosy research.
+Second, their chemical nature makes them readily accessible from complex biological matrices through acido-basic extraction.
+Third, they ionize greatly in positive MS mode, which makes their detection even at very low level possible, where other compounds present in much higher concentrations are not detected.
+It is thus a complex task to answer the following question: "Is the currently observed repartition of alkaloids across the tree of life a reflection of their true biological occurrence or is this repartition biased by the aforementioned characteristics of this chemical class ?" 
+While the LOTUS initiative does not allow yet to disentangling the bias form the true occurrence, it should offer sound and strong foundations for such challenging research problematic.
 
-Another obvious explanation to the limited coverage is the fact that most of the chemical structures in LOTUS have been physically isolated and described. This is an extremely time consuming effort which can obviously not be carried on all metabolites of all biological organisms. Here, the sensitivity of mass spectrometry and the ever-increasing efficiency of computational metabolite annotation solution could offer a strong take. The documentation of metabolite annotation results obtained on large collections of biological matrices and the associated metadata within knowledge graphs offers exciting perspectives regarding the possibilities to expand both the chemical and biological coverage of the LOTUS data in a feasible manner.
+Another obvious explanation to the limited coverage is the fact that most of the chemical structures in LOTUS have been physically isolated and described.
+This is an extremely time consuming effort which can obviously not be carried on all metabolites of all biological organisms.
+Here, the sensitivity of mass spectrometry and the ever-increasing efficiency of computational metabolite annotation solution could offer a strong take.
+The documentation of metabolite annotation results obtained on large collections of biological matrices and the associated metadata within knowledge graphs offers exciting perspectives regarding the possibilities to expand both the chemical and biological coverage of the LOTUS data in a feasible manner.
 
 ![**Distribution of "structures per organism" and "organisms per structure"**. The number of organisms linked to the planar structure of *β*-sitosterol (KZJWDPNRJALLNS) and the number of chemical structures in *Arabidopsis thaliana are* two exemplary highlights. The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_structure_organism_distribution.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_structure_organism_distribution.svg).](images/distribution.svg "distribution"){#fig:distribution width="100%"}
 
