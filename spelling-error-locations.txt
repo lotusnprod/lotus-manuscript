@@ -328,11 +328,9 @@ content/03.results-discussion.md:323:repartition
 content/03.results-discussion.md:323:repartition
 content/03.results-discussion.md:328:spectrometry
 content/03.results-discussion.md:331:Arabidopsis
-content/03.results-discussion.md:331:englobe
-content/03.results-discussion.md:331:inchikeys
+content/03.results-discussion.md:331:InChIKeys
 content/03.results-discussion.md:331:KZJWDPNRJALLNS
 content/03.results-discussion.md:331:KZJWDPNRJALLNS
-content/03.results-discussion.md:331:Parallelly
 content/03.results-discussion.md:331:sitosterol
 content/03.results-discussion.md:331:thaliana
 content/03.results-discussion.md:331:thaliana

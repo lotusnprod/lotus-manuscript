@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d539a88476fa8b6d148f7c0f3166dfc1619c80dd/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d539a88476fa8b6d148f7c0f3166dfc1619c80dd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d539a88476fa8b6d148f7c0f3166dfc1619c80dd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/baefb6cccc3965fde564a20892f1a99b6242669a/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/baefb6cccc3965fde564a20892f1a99b6242669a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/baefb6cccc3965fde564a20892f1a99b6242669a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d539a88476fa8b6d148f7c0f3166dfc1619c80dd/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d539a88476fa8b6d148f7c0f3166dfc1619c80dd/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/baefb6cccc3965fde564a20892f1a99b6242669a/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/baefb6cccc3965fde564a20892f1a99b6242669a/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,9 +140,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d539a88476fa8b6d148f7c0f3166dfc1619c80dd/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/baefb6cccc3965fde564a20892f1a99b6242669a/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@d539a88](https://github.com/lotusnprod/lotus-manuscript/tree/d539a88476fa8b6d148f7c0f3166dfc1619c80dd)
+from [lotusnprod/lotus-manuscript@baefb6c](https://github.com/lotusnprod/lotus-manuscript/tree/baefb6cccc3965fde564a20892f1a99b6242669a)
 on March 14, 2022.
 </em></small>
 
@@ -757,7 +757,7 @@ This is an extremely time-consuming effort that can obviously not be carried on 
 Here, the sensitivity of mass spectrometry and the ever-increasing efficiency of computational metabolite annotation solutions could offer a strong take.
 The documentation of metabolite annotation results obtained on large collections of biological matrices and the associated metadata within knowledge graphs offers exciting perspectives regarding the possibilities to expand both the chemical and biological coverage of the LOTUS data in a feasible manner.
 
-![**Distribution of "structures per organism" and "organisms per structure"**. The number of organisms linked to the planar structure of *β*-sitosterol (KZJWDPNRJALLNS) and the number of chemical structures in *Arabidopsis thaliana are* two exemplary highlights. *A. thaliana*contains 687 different short inchikeys and KZJWDPNRJALLNS is reported in 3979 distinct organisms. Less than 10 percent of the species englobe more than 80 percent of the structural diversity present within LOTUS. Parallelly, 80 percent of the species present in LOTUS are covered with less than 10 percent of the structures. The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_structure_organism_distribution.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_structure_organism_distribution.svg).](images/distribution.svg "distribution"){#fig:distribution width="100%"}
+![**Distribution of "structures per organism" and "organisms per structure"**. The number of organisms linked to the planar structure of *β*-sitosterol (KZJWDPNRJALLNS) and the number of chemical structures in *Arabidopsis thaliana are* two exemplary highlights. *A. thaliana* contains 687 different short InChIKeys (i.e 2D structures) and KZJWDPNRJALLNS is reported in 3979 distinct organisms. Less than 10 percent of the species contain more than 80 percent of the structural diversity present within LOTUS. In parallel, 80 percent of the species present in LOTUS are linked to less than 10 percent of the structures. The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_structure_organism_distribution.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_structure_organism_distribution.svg).](images/distribution.svg "distribution"){#fig:distribution width="100%"}
 
 #### Contribution of Individual Electronic NP Resources to LOTUS {.page_break_before}
 
