@@ -37,8 +37,10 @@ content/02.introduction.md:36:nteroperability
 content/02.introduction.md:37:biosynthetically
 content/02.introduction.md:37:NPAtlas
 content/02.introduction.md:37:Plantae
+content/02.introduction.md:39:curation
 content/02.introduction.md:39:naturalproducts
-content/02.introduction.md:41:curation
+content/02.introduction.md:40:curation
+content/02.introduction.md:40:ressources
 content/02.introduction.md:42:interpretable
 content/02.introduction.md:42:siloed
 content/02.introduction.md:46:DBs

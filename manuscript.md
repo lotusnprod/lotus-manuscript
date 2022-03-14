@@ -8,7 +8,7 @@ keywords:
 - Linked Data
 - LOTUS Initiative
 lang: en-US
-date-meta: '2022-03-13'
+date-meta: '2022-03-14'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="og:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
-  <meta name="dc.date" content="2022-03-13" />
-  <meta name="citation_publication_date" content="2022-03-13" />
+  <meta name="dc.date" content="2022-03-14" />
+  <meta name="citation_publication_date" content="2022-03-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/810af12b914f67875140fbd9b423e952490bf4d8/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/810af12b914f67875140fbd9b423e952490bf4d8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/810af12b914f67875140fbd9b423e952490bf4d8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/435364f582d91c5f7f5f61af1b57fb85643ea9b7/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/435364f582d91c5f7f5f61af1b57fb85643ea9b7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/435364f582d91c5f7f5f61af1b57fb85643ea9b7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/810af12b914f67875140fbd9b423e952490bf4d8/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/810af12b914f67875140fbd9b423e952490bf4d8/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/435364f582d91c5f7f5f61af1b57fb85643ea9b7/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/435364f582d91c5f7f5f61af1b57fb85643ea9b7/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,10 +140,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/810af12b914f67875140fbd9b423e952490bf4d8/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/435364f582d91c5f7f5f61af1b57fb85643ea9b7/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@810af12](https://github.com/lotusnprod/lotus-manuscript/tree/810af12b914f67875140fbd9b423e952490bf4d8)
-on March 13, 2022.
+from [lotusnprod/lotus-manuscript@435364f](https://github.com/lotusnprod/lotus-manuscript/tree/435364f582d91c5f7f5f61af1b57fb85643ea9b7)
+on March 14, 2022.
 </em></small>
 
 ## Authors
@@ -383,9 +383,9 @@ However, NAPRALERT is not an open platform and employs an access model that prov
 Finally, the [NPAtlas](https://www.npatlas.org) [@doi:10/gh5ptm; @doi:10.1093/nar/gkab941] is a more recent project complying with the FAIR (<u>F</u>indability, <u>A</u>ccessibility, <u>I</u>nteroperability and <u>R</u>euse) guidelines for digital assets [@doi:10/bdd4] and offering convenient web access.
 While the NPAtlas allows retrieval and encourages submission of compounds with their biological source, it focuses on microbial NP and ignores a wide range of biosynthetically active organisms found in the Plantae kingdom.
 
-Building on experience gained with the recently published [COlleCtion of Open NatUral producTs](https://coconut.naturalproducts.net) (COCONUT) [@doi:10/ghssx5], the LOTUS initiative seeks to address the aforementioned shortcomings.
+The LOTUS initiative seeks to address the aforementioned shortcomings. Building on the experience gained through the establishment of the recently published [COlleCtion of Open NatUral producTs](https://coconut.naturalproducts.net) (COCONUT) [@doi:10/ghssx5] regarding the aggregation and curation of NP structural databases, this _savoir-faire_ was expanded to accommodate biological organisms and scientific references in the equation.
+After extensive data curation and harmonization of over 40 electronic ressources, pairs characterizing a NP occurrence were standardized at the chemical, biological and reference levels.
 At its current stage of development, LOTUS disseminates 750,000+ referenced structure-organism pairs.
-After extensive data curation and harmonization, each pair was standardized at the chemical, biological and reference levels.
 These efforts and experiences represent an intensive preliminary curatorial phase and the first major step towards providing a high quality, computer-interpretable knowledge base capable of transforming NP research data management from a classical (siloed) database approach to an optimally-shared resource.
 
 ### Accommodating Principles of FAIRness and TRUSTworthiness for Natural Products Knowledge Management

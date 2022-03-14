@@ -33,7 +33,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-Bioactive
+bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -46,7 +46,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-Bjonnh
+bjonnh
 bkfd
 Bolzani
 Bromus
@@ -85,12 +85,12 @@ coroutines
 counterions
 Crataegus
 CRC
-CrossRef
+Crossref
 CRSII
 csteinbeck
 cstrnq
 curation
-Cyanometdb
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -113,7 +113,7 @@ dimers
 diterpene
 DM
 Dmitry
-DNP
+dnp
 Dockerized
 DOIs
 doit
@@ -140,7 +140,8 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-faerun
+Faerun
+faire
 Fatcat
 Fidele
 FishBase
@@ -233,7 +234,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -277,7 +278,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-MolVS
+molvs
 monogyna
 Montclair
 Mozzherin
@@ -288,7 +289,7 @@ MVLS
 NameBank
 náměstí
 nanpdb
-napralert
+NAPRALERT
 natively
 NaturalProducts
 NCBI
@@ -299,7 +300,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -327,7 +328,7 @@ pamdb
 parallelization
 pbmcapply
 Pflanzen
-Pharmacognosy
+pharmacognosy
 Phasmida
 phenolexplorer
 physicochemical
@@ -339,7 +340,7 @@ plotly
 PMA
 PMIDs
 polyketides
-Pre
+pre
 procardb
 processingOriginal
 processingTranslated
@@ -364,6 +365,7 @@ Reionization
 rentrez
 repartition
 reproducibility
+ressources
 resubmission
 revalidation
 Rhizopodaceae
@@ -378,7 +380,8 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
+savoir
 Scholia
 scipy
 SCR
@@ -396,7 +399,7 @@ sorok
 Sorokina
 SPARQL
 speciation
-Spectrometry
+spectrometry
 Spiegeleer
 splitstackshape
 spp
@@ -404,7 +407,7 @@ squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -438,13 +441,13 @@ Tiejun
 Tilmann
 TMAP
 tmdb
-TMMC
+tmmc
 tppt
 transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -452,7 +455,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
