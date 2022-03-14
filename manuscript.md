@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/435364f582d91c5f7f5f61af1b57fb85643ea9b7/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/435364f582d91c5f7f5f61af1b57fb85643ea9b7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/435364f582d91c5f7f5f61af1b57fb85643ea9b7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/21385215617fd60133fc719d51c85d0aec080449/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/21385215617fd60133fc719d51c85d0aec080449/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/21385215617fd60133fc719d51c85d0aec080449/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/435364f582d91c5f7f5f61af1b57fb85643ea9b7/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/435364f582d91c5f7f5f61af1b57fb85643ea9b7/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/21385215617fd60133fc719d51c85d0aec080449/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/21385215617fd60133fc719d51c85d0aec080449/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,9 +140,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/435364f582d91c5f7f5f61af1b57fb85643ea9b7/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/21385215617fd60133fc719d51c85d0aec080449/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@435364f](https://github.com/lotusnprod/lotus-manuscript/tree/435364f582d91c5f7f5f61af1b57fb85643ea9b7)
+from [lotusnprod/lotus-manuscript@2138521](https://github.com/lotusnprod/lotus-manuscript/tree/21385215617fd60133fc719d51c85d0aec080449)
 on March 14, 2022.
 </em></small>
 
@@ -383,7 +383,8 @@ However, NAPRALERT is not an open platform and employs an access model that prov
 Finally, the [NPAtlas](https://www.npatlas.org) [@doi:10/gh5ptm; @doi:10.1093/nar/gkab941] is a more recent project complying with the FAIR (<u>F</u>indability, <u>A</u>ccessibility, <u>I</u>nteroperability and <u>R</u>euse) guidelines for digital assets [@doi:10/bdd4] and offering convenient web access.
 While the NPAtlas allows retrieval and encourages submission of compounds with their biological source, it focuses on microbial NP and ignores a wide range of biosynthetically active organisms found in the Plantae kingdom.
 
-The LOTUS initiative seeks to address the aforementioned shortcomings. Building on the experience gained through the establishment of the recently published [COlleCtion of Open NatUral producTs](https://coconut.naturalproducts.net) (COCONUT) [@doi:10/ghssx5] regarding the aggregation and curation of NP structural databases, this _savoir-faire_ was expanded to accommodate biological organisms and scientific references in the equation.
+The LOTUS initiative seeks to address the aforementioned shortcomings.
+Building on the experience gained through the establishment of the recently published [COlleCtion of Open NatUral producTs](https://coconut.naturalproducts.net) (COCONUT) [@doi:10/ghssx5] regarding the aggregation and curation of NP structural databases, this _savoir-faire_ was expanded to accommodate biological organisms and scientific references in the equation.
 After extensive data curation and harmonization of over 40 electronic ressources, pairs characterizing a NP occurrence were standardized at the chemical, biological and reference levels.
 At its current stage of development, LOTUS disseminates 750,000+ referenced structure-organism pairs.
 These efforts and experiences represent an intensive preliminary curatorial phase and the first major step towards providing a high quality, computer-interpretable knowledge base capable of transforming NP research data management from a classical (siloed) database approach to an optimally-shared resource.
@@ -726,12 +727,12 @@ When the chemical structure/class was reported only in one taxonomic grouping, i
 
 Table: Distribution and specificity of chemical structures across four important NP reservoirs: plants, fungi, animals and bacteria. When the chemical structure/class appeared only in one group and not the three others, they were counted as "specific". Chemical classes were attributed with NPClassifier. {#tbl:distribution}
 
-| **Group** | **Organisms** | **Structure-Organism Pairs** | **Chemical Structures** | **Specific Chemical Structures** | **Chemical Classes** | **Specific Chemical Classes** | 
+| **Group** | **Organisms** | **2D Structure-Organism Pairs** | **2D Chemical Structures** | **Specific Chemical Structures** | **Chemical Classes** | **Specific Chemical Classes** | 
 |:-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|
-| **Plantae** | 28,439 | 567,647 | 201,073 | 194,425 (97%) | 545 | 59 (11%) |
-| **Fungi** | 4,003 | 62,505 | 42,387 | 38,861 (92%) | 417 | 19 (5%) |
-| **Animalia** | 2,716 | 40,321 | 28,237 | 23,569 (83%) | 456 | 14 (3%) |
-| **Bacteria** | 1,555 | 35,644 | 27,415 | 25,208 (92%) | 385 | 42 (11%) |
+| **Plantae** | 28,439 | 342,891 | 95,191 | 90,672 (95%) | 545 | 59 (11%) |
+| **Fungi** | 4,003 | 36,950 | 22,594 | 20,194 (89%) | 417 | 19 (5%) |
+| **Animalia** | 2,716 | 24,114 | 15,242 | 11,822 (78%) | 455 | 14 (3%) |
+| **Bacteria** | 1,555 | 23,198 | 15,895 | 14,130 (89%) | 385 | 43 (11%) |
 
 #### Distributions of Organisms per Structure and Structures per Organism 
 
@@ -753,7 +754,7 @@ This is an extremely time-consuming effort that can obviously not be carried on 
 Here, the sensitivity of mass spectrometry and the ever-increasing efficiency of computational metabolite annotation solutions could offer a strong take.
 The documentation of metabolite annotation results obtained on large collections of biological matrices and the associated metadata within knowledge graphs offers exciting perspectives regarding the possibilities to expand both the chemical and biological coverage of the LOTUS data in a feasible manner.
 
-![**Distribution of "structures per organism" and "organisms per structure"**. The number of organisms linked to the planar structure of *β*-sitosterol (KZJWDPNRJALLNS) and the number of chemical structures in *Arabidopsis thaliana are* two exemplary highlights. The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_structure_organism_distribution.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_structure_organism_distribution.svg).](images/distribution.svg "distribution"){#fig:distribution width="100%"}
+![**Distribution of "structures per organism" and "organisms per structure"**. The number of organisms linked to the planar structure of *β*-sitosterol (KZJWDPNRJALLNS) and the number of chemical structures in *Arabidopsis thaliana are* two exemplary highlights. *A. thaliana*contains 687 different short inchikeys and KZJWDPNRJALLNS is reported in 3979 distinct organisms. Less than 10 percent of the species englobe more than 80 percent of the structural diversity present within LOTUS. Parallelly, 80 percent of the species present in LOTUS are covered with less than 10 percent of the structures. The figure is available under the CC0 license at [https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_structure_organism_distribution.svg](https://commons.wikimedia.org/wiki/File:Lotus_initiative_1_structure_organism_distribution.svg).](images/distribution.svg "distribution"){#fig:distribution width="100%"}
 
 #### Contribution of Individual Electronic NP Resources to LOTUS {.page_break_before}
 
