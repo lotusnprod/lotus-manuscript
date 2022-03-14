@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/21385215617fd60133fc719d51c85d0aec080449/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/21385215617fd60133fc719d51c85d0aec080449/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/21385215617fd60133fc719d51c85d0aec080449/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d539a88476fa8b6d148f7c0f3166dfc1619c80dd/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d539a88476fa8b6d148f7c0f3166dfc1619c80dd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d539a88476fa8b6d148f7c0f3166dfc1619c80dd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/21385215617fd60133fc719d51c85d0aec080449/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/21385215617fd60133fc719d51c85d0aec080449/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d539a88476fa8b6d148f7c0f3166dfc1619c80dd/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d539a88476fa8b6d148f7c0f3166dfc1619c80dd/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,9 +140,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/21385215617fd60133fc719d51c85d0aec080449/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d539a88476fa8b6d148f7c0f3166dfc1619c80dd/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@2138521](https://github.com/lotusnprod/lotus-manuscript/tree/21385215617fd60133fc719d51c85d0aec080449)
+from [lotusnprod/lotus-manuscript@d539a88](https://github.com/lotusnprod/lotus-manuscript/tree/d539a88476fa8b6d148f7c0f3166dfc1619c80dd)
 on March 14, 2022.
 </em></small>
 
@@ -493,6 +493,7 @@ The detailed results of the two manual validation steps are reported in Supporti
 The resulting data is also available in the dataset shared at [https://doi.org/10.5281/zenodo.5794106](https://doi.org/10.5281/zenodo.5794106) [@doi:10.5281/zenodo.5794106].
 Table @tbl:examples shows an example of a referenced structure-organism pair before and after curation.
 This process resolved the structure to an InChIKey, the organism to a valid taxonomic name and the reference to a DOI, thereby completing the establishment of the essential referenced structure-organism pair.
+
 \
 
 Table: Example of a referenced structure-organism pair before and after curation {#tbl:examples}
@@ -548,6 +549,8 @@ The property is now available as "Open Tree of Life ID" ([P9157](https://www.wik
 
 Following the previously described curation process, all validated entries have been made available through Wikidata and LNPN.
 LNPN will be regularly mirroring Wikidata LOTUS through the SSOT as described in Figure @fig:workflow.
+
+\
 
 ### User Interaction with LOTUS Data
 
@@ -728,7 +731,7 @@ When the chemical structure/class was reported only in one taxonomic grouping, i
 Table: Distribution and specificity of chemical structures across four important NP reservoirs: plants, fungi, animals and bacteria. When the chemical structure/class appeared only in one group and not the three others, they were counted as "specific". Chemical classes were attributed with NPClassifier. {#tbl:distribution}
 
 | **Group** | **Organisms** | **2D Structure-Organism Pairs** | **2D Chemical Structures** | **Specific Chemical Structures** | **Chemical Classes** | **Specific Chemical Classes** | 
-|:-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|
+|:-------------:|-----------:|--------------:|-------------:|--------------:|-------------:|-------------:|
 | **Plantae** | 28,439 | 342,891 | 95,191 | 90,672 (95%) | 545 | 59 (11%) |
 | **Fungi** | 4,003 | 36,950 | 22,594 | 20,194 (89%) | 417 | 19 (5%) |
 | **Animalia** | 2,716 | 24,114 | 15,242 | 11,822 (78%) | 455 | 14 (3%) |
