@@ -8,7 +8,7 @@ keywords:
 - Linked Data
 - LOTUS Initiative
 lang: en-US
-date-meta: '2022-03-14'
+date-meta: '2022-03-16'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="og:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
-  <meta name="dc.date" content="2022-03-14" />
-  <meta name="citation_publication_date" content="2022-03-14" />
+  <meta name="dc.date" content="2022-03-16" />
+  <meta name="citation_publication_date" content="2022-03-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/baefb6cccc3965fde564a20892f1a99b6242669a/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/baefb6cccc3965fde564a20892f1a99b6242669a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/baefb6cccc3965fde564a20892f1a99b6242669a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d33aec907b84684697a3d4ad8193d62dad19cc5b/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d33aec907b84684697a3d4ad8193d62dad19cc5b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d33aec907b84684697a3d4ad8193d62dad19cc5b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/baefb6cccc3965fde564a20892f1a99b6242669a/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/baefb6cccc3965fde564a20892f1a99b6242669a/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d33aec907b84684697a3d4ad8193d62dad19cc5b/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d33aec907b84684697a3d4ad8193d62dad19cc5b/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,10 +140,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/baefb6cccc3965fde564a20892f1a99b6242669a/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d33aec907b84684697a3d4ad8193d62dad19cc5b/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@baefb6c](https://github.com/lotusnprod/lotus-manuscript/tree/baefb6cccc3965fde564a20892f1a99b6242669a)
-on March 14, 2022.
+from [lotusnprod/lotus-manuscript@d33aec9](https://github.com/lotusnprod/lotus-manuscript/tree/d33aec907b84684697a3d4ad8193d62dad19cc5b)
+on March 16, 2022.
 </em></small>
 
 ## Authors
@@ -958,21 +958,21 @@ Table: Key resources {#tbl:key-resources}
 | Software, algorithm| Lotus-processor code| This work ([https://github.com/lotusnprod/lotus-processor](https://github.com/lotusnprod/lotus-processor))|| Archived at [https://doi.org/10.5281/zenodo.5802107](https://doi.org/10.5281/zenodo.5802107) | 
 | Software, algorithm| Lotus-web code| This work ([https://github.com/lotusnprod/lotus-web](https://github.com/lotusnprod/lotus-web))|| Archived at [https://doi.org/10.5281/zenodo.5802119](https://doi.org/10.5281/zenodo.5802119) | 
 | Software, algorithm| Lotus-wikidata-interact code| This work ([https://github.com/lotusnprod/lotus-wikidata-interact](https://github.com/lotusnprod/lotus-wikidata-interact)) || Archived at [https://doi.org/10.5281/zenodo.5802113](https://doi.org/10.5281/zenodo.5802113) | 
-| Software, algorithm| Global Names Architeture| [https://globalnames.org](https://globalnames.org) | QID:[Q65691453](https://www.wikidata.org/wiki/Q65691453)|  See [Additional executable files](#additional-executable-files)  | 
+| Software, algorithm| Global Names Architeture| [https://globalnames.org](https://globalnames.org) | QID:[Q65691453](https://www.wikidata.org/wiki/Q65691453)| See [Additional executable files](#additional-executable-files)  | 
 | Software, algorithm| Java| [https://www.java.com](https://www.java.com) | QID:[Q251](https://www.wikidata.org/wiki/Q251)| | 
 | Software, algorithm| Kotlin| [https://kotlinlang.org](https://kotlinlang.org) | QID:[Q3816639](https://www.wikidata.org/wiki/Q3816639)| See [Kotlin packages](#kotlin) | 
 | Software, algorithm| Manubot| [https://manubot.org](https://manubot.org) | QID:[Q96473455](https://www.wikidata.org/wiki/Q96473455) RRID:SCR_018553 | Repository available at [https://github.com/lotusnprod/lotus-manuscript](https://github.com/lotusnprod/lotus-manuscript) | 
-| Software, algorithm| NPClassifier| [https://npclassifier.ucsd.edu](https://npclassifier.ucsd.edu) ||| 
-| Software, algorithm| OPSIN| [https://github.com/dan2097/opsin](https://github.com/dan2097/opsin) | QID:[Q26481302](https://www.wikidata.org/wiki/Q26481302)|| 
+| Software, algorithm| NPClassifier| [https://npclassifier.ucsd.edu](https://npclassifier.ucsd.edu) || See [https://doi.org/10.1021/acs.jnatprod.1c00399](https://doi.org/10.1021/acs.jnatprod.1c00399) | 
+| Software, algorithm| OPSIN| [https://github.com/dan2097/opsin](https://github.com/dan2097/opsin) | QID:[Q26481302](https://www.wikidata.org/wiki/Q26481302)| See [Additional executable files](#additional-executable-files) | 
 | Software, algorithm| Python Programming Language| [https://www.python.org](https://www.python.org) | QID:[Q28865](https://www.wikidata.org/wiki/Q28865) RRID:SCR_008394| See [Python packages](#python) | 
 | Software, algorithm| R Project for Statistical Computing| [https://www.r-project.org](https://www.r-project.org) | QID:[Q206904](https://www.wikidata.org/wiki/Q206904) RRID:SCR_001905| See [R packages](#r) | 
-| Software, algorithm| Molconvert| [https://docs.chemaxon.com/display/docs/molconvert.md](https://docs.chemaxon.com/display/docs/molconvert.md) | QID:[Q55377678](https://www.wikidata.org/wiki/Q55377678)|| 
+| Software, algorithm| Molconvert| [https://docs.chemaxon.com/display/docs/molconvert.md](https://docs.chemaxon.com/display/docs/molconvert.md) | QID:[Q55377678](https://www.wikidata.org/wiki/Q55377678)| See [Chemical structures](#chemical-structures) | 
 | Software, algorithm| Wikidata | [https://www.wikidata.org](https://www.wikidata.org) | QID:[Q2013](https://www.wikidata.org/wiki/Q2013) RRID:SCR_018492| Project page [https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry/Natural_products](https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry/Natural_products)|
 | Other| Lotus custom dictionaries| This work || Archived at [https://doi.org/10.5281/zenodo.5801798](https://doi.org/10.5281/zenodo.5801798) | 
-| Other| Chemical identifier resolver| [https://cactus.nci.nih.gov/chemical/structure](https://cactus.nci.nih.gov/chemical/structure) ||| 
-| Other| CrossRef | [https://www.crossref.org](https://www.crossref.org) | QID:[Q5188229](https://www.wikidata.org/wiki/Q5188229) RRID:SCR_003217||
+| Other| Chemical identifier resolver| [https://cactus.nci.nih.gov/chemical/structure](https://cactus.nci.nih.gov/chemical/structure) || See [Chemical structures](#chemical-structures)| 
+| Other| CrossRef | [https://www.crossref.org](https://www.crossref.org) | QID:[Q5188229](https://www.wikidata.org/wiki/Q5188229) RRID:SCR_003217|See [References](#references)|
 | Other| PubChem| [https://pubchem.ncbi.nlm.nih.gov](https://pubchem.ncbi.nlm.nih.gov) | QID:[Q278487](https://www.wikidata.org/wiki/Q278487) RRID:SCR_004284| LOTUS data [https://pubchem.ncbi.nlm.nih.gov/source/25132](https://pubchem.ncbi.nlm.nih.gov/source/25132) | 
-| Other| PubMed| [https://pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov) | QID:[Q180686](https://www.wikidata.org/wiki/Q180686) RRID:SCR_004846||
+| Other| PubMed| [https://pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov) | QID:[Q180686](https://www.wikidata.org/wiki/Q180686) RRID:SCR_004846|See [References](#references)|
 | Other| Taxonomic data sources | [https://resolver.globalnames.org/data_sources](https://resolver.globalnames.org/data_sources) || See [Translation](#translation) | 
 | Other| Natural Products data sources ||| See [Appendix 1](#appendix-1-data-sources-list) | 
 
