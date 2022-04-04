@@ -33,7 +33,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-bioactive
+Bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -85,12 +85,12 @@ coroutines
 counterions
 Crataegus
 CRC
-CrossRef
+Crossref
 CRSII
 csteinbeck
 cstrnq
-Curation
-cyanometdb
+curation
+Cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -117,7 +117,7 @@ DNP
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -140,7 +140,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-Faerun
+faerun
 faire
 Fatcat
 Fidele
@@ -207,7 +207,7 @@ InChIKey
 InChIKeys
 indability
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -279,7 +279,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-Molvs
+MolVS
 monogyna
 Montclair
 Mozzherin
@@ -292,7 +292,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Nelumbo
@@ -331,7 +331,7 @@ pbmcapply
 Pflanzen
 pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 Phytochemistry
 phytohub
@@ -341,7 +341,7 @@ plotly
 PMA
 PMIDs
 polyketides
-pre
+Pre
 procardb
 processingOriginal
 processingTranslated
@@ -358,7 +358,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-RDKit
+rdkit
 rdmpage
 readxl
 refered
@@ -448,7 +448,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
