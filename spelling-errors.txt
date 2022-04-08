@@ -65,7 +65,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-chemodiversity
+Chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -90,14 +90,14 @@ CRSII
 csteinbeck
 cstrnq
 curation
-Cyanometdb
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
 daphnane
 dataset
 datasets
-Datawarrior
+datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -140,7 +140,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-faerun
+Faerun
 faire
 Fatcat
 Fidele
@@ -235,7 +235,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -279,7 +279,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-MolVS
+Molvs
 monogyna
 Montclair
 Mozzherin
@@ -292,7 +292,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-NaturalProducts
+naturalproducts
 NCBI
 NCCIH
 Nelumbo
@@ -301,7 +301,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -341,7 +341,7 @@ plotly
 PMA
 PMIDs
 polyketides
-Pre
+pre
 procardb
 processingOriginal
 processingTranslated
@@ -358,7 +358,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 refered
@@ -456,7 +456,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
