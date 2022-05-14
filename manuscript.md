@@ -8,7 +8,7 @@ keywords:
 - Linked Data
 - LOTUS Initiative
 lang: en-US
-date-meta: '2022-05-09'
+date-meta: '2022-05-14'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -35,8 +35,8 @@ header-includes: |-
   <meta name="citation_title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="og:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
-  <meta name="dc.date" content="2022-05-09" />
-  <meta name="citation_publication_date" content="2022-05-09" />
+  <meta name="dc.date" content="2022-05-14" />
+  <meta name="citation_publication_date" content="2022-05-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -114,13 +114,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/1112eecae26be9c4f69598fa432ac621acd1af76/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1112eecae26be9c4f69598fa432ac621acd1af76/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/1112eecae26be9c4f69598fa432ac621acd1af76/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/f25049b9b44b44dfbe78ae78d545c1a691170290/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f25049b9b44b44dfbe78ae78d545c1a691170290/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/f25049b9b44b44dfbe78ae78d545c1a691170290/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1112eecae26be9c4f69598fa432ac621acd1af76/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/1112eecae26be9c4f69598fa432ac621acd1af76/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f25049b9b44b44dfbe78ae78d545c1a691170290/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/f25049b9b44b44dfbe78ae78d545c1a691170290/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -140,10 +140,10 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.75
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/1112eecae26be9c4f69598fa432ac621acd1af76/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/f25049b9b44b44dfbe78ae78d545c1a691170290/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@1112eec](https://github.com/lotusnprod/lotus-manuscript/tree/1112eecae26be9c4f69598fa432ac621acd1af76)
-on May 9, 2022.
+from [lotusnprod/lotus-manuscript@f25049b](https://github.com/lotusnprod/lotus-manuscript/tree/f25049b9b44b44dfbe78ae78d545c1a691170290)
+on May 14, 2022.
 </em></small>
 
 ## Authors
@@ -591,11 +591,11 @@ Table: Potential questions about structure-organism relationships and correspond
 | Which organisms contain indolic scaffolds? Count occurrences, group and order the results by the parent taxon. | [https://w.wiki/4VG9](https://w.wiki/4VG9) |
 | Which compounds with known bioactivities were isolated from Actinobacteria, between 2014 and 2019, with related organisms and references? | [https://w.wiki/4VGC](https://w.wiki/4VGC) |
 | Which compounds labeled as terpenoids were found in *Aspergillus* species, between 2010 and 2020, with related references? | [https://w.wiki/4VGD](https://w.wiki/4VGD) |
-| Which are the available referenced structure-organism pairs on wikidata? (example limited to 1000 results) | [https://w.wiki/4VFh](https://w.wiki/4VFh) |
+| Which are the available referenced structure-organism pairs on Wikidata? (example limited to 1000 results) | [https://w.wiki/4VFh](https://w.wiki/4VFh) |
 
 The queries presented in Table @tbl:queries are only selected examples, and many other ways of interrogating LOTUS can be formulated.
 Generic queries can be used, for example, for hypothesis generation when starting a research project.
-For instance, a generic SPARQL query - listed in Table @tbl:queries as "Which are the available referenced structure-organism pairs on wikidata?" - retrieves all structures, identified by their InChIKey ([P235](https://www.wikidata.org/wiki/Property:P235)), which contain "found in taxon" ([P703](https://www.wikidata.org/wiki/Property:P703)) statements that are stated in ([P248](https://www.wikidata.org/wiki/Property:P248)) a bibliographic reference: [https://w.wiki/4VFh](https://w.wiki/4VFh).
+For instance, a generic SPARQL query - listed in Table @tbl:queries as "Which are the available referenced structure-organism pairs on Wikidata?" - retrieves all structures, identified by their InChIKey ([P235](https://www.wikidata.org/wiki/Property:P235)), which contain "found in taxon" ([P703](https://www.wikidata.org/wiki/Property:P703)) statements that are stated in ([P248](https://www.wikidata.org/wiki/Property:P248)) a bibliographic reference: [https://w.wiki/4VFh](https://w.wiki/4VFh).
 Data can then be exported in various formats, such as classical tabular formats, json, or html tables (see Download tab on the lower right of the query frame).
 At the time of writing (2021-12-20), this query (without the LIMIT 1000) returned 951,800 entries; a frozen query result is available at [https://doi.org/10.5281/zenodo.5668854](https://doi.org/10.5281/zenodo.5668854) [@doi:10.5281/zenodo.5668854].
 
@@ -701,7 +701,7 @@ Users who value this approach and are interested in contributing are invited to 
 
 The [Scholia platform](https://scholia.toolforge.org) provides a visual interface to display the links among Wikidata objects such as researchers, topics, species or chemicals.
 It now provides an interesting way to view the chemical compounds found in a given biological organism (see here for the metabolome view of [*Eurycoma longifolia*](https://scholia.toolforge.org/taxon/Q311710)).
-If Scholia currently does not offer a direct editing interface for scientific references, it still allows users to proceed to convenient batch editing via [Quick Statements](https://www.wikidata.org/wiki/Help:QuickStatements).
+If Scholia currently does not offer a direct editing interface for scientific references, it still allows users to proceed to convenient batch editing via [QuickStatements](https://www.wikidata.org/wiki/Help:QuickStatements).
 The adaptation of such a framework to edit the referenced structure-pairs in the LOTUS initiative could thus facilitate the capture of future expert curation, especially manual efforts that cannot be replaced by automated scripts.
 
 ### Data Interpretation

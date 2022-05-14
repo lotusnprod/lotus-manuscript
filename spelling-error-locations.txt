@@ -296,6 +296,8 @@ content/03.results-discussion.md:274:Eurycoma
 content/03.results-discussion.md:274:longifolia
 content/03.results-discussion.md:274:metabolome
 content/03.results-discussion.md:274:scholia
+content/03.results-discussion.md:275:QuickStatements
+content/03.results-discussion.md:275:QuickStatements
 content/03.results-discussion.md:275:Scholia
 content/03.results-discussion.md:276:curation
 content/03.results-discussion.md:280:dataset
