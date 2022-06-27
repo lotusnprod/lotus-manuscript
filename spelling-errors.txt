@@ -65,7 +65,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-Chemodiversity
+chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -78,7 +78,7 @@ Chun
 citable
 clade
 ClassyFire
-ClassyfireR
+classyfireR
 cmcrameri
 CMU
 codebase
@@ -91,7 +91,7 @@ CRSII
 csteinbeck
 cstrnq
 curation
-cyanometdb
+Cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -118,7 +118,7 @@ DNP
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -154,7 +154,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 gaudarn
 Gaudry
 GBIF
@@ -180,7 +180,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerifier
 Gottlieb
@@ -203,7 +203,7 @@ idf
 IDSM
 Ilex
 iNaturalist
-inchi
+InChI
 InChiKey
 InChIKeys
 indability
@@ -236,7 +236,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -280,7 +280,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-MolVS
+Molvs
 monogyna
 Montclair
 Mozzherin
@@ -293,7 +293,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Nelumbo
@@ -332,7 +332,7 @@ pbmcapply
 Pflanzen
 pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 Phytochemistry
 phytohub
@@ -342,7 +342,7 @@ plotly
 PMA
 PMIDs
 polyketides
-Pre
+pre
 procardb
 processingOriginal
 processingTranslated
@@ -383,7 +383,7 @@ Rutz
 rvest
 rwst
 sancdb
-Sanitization
+sanitization
 savoir
 Scholia
 scipy
@@ -402,7 +402,7 @@ sorok
 Sorokina
 SPARQL
 speciation
-spectrometry
+Spectrometry
 Spiegeleer
 splitstackshape
 spp
@@ -430,7 +430,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
