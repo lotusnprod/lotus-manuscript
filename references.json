@@ -7250,7 +7250,7 @@
         ]
       ]
     },
-    "abstract": "An In Silico spectral DataBase (<strong>ISDB</strong>) of natural products calculated from structures aggregated in the frame of the LOTUS Initiative. This spectral file is in positive ionisation mode only. Fragmented using cfm-predict 3.0 https://cfmid.wishartlab.com/ Intensities at the low, medium and high energy level have been meaned. In silico spectral database preparation and use for dereplication initially described in <em>Integration of Molecular Networking and In-Silico MS/MS Fragmentation for Natural Products Dereplication</em> https://doi.org/10.1021/ACS.ANALCHEM.5B04804 See http://oolonek.github.io/ISDB/ for associated spectral matching scripts LOTUS Initiative initially described in https://doi.org/10.1101/2021.02.28.433265",
+    "abstract": "An In Silico spectral DataBase (<strong>ISDB</strong>) of natural products calculated from structures aggregated in the frame of the LOTUS Initiative. This spectral file is in positive ionisation mode only. Fragmented using cfm-predict 3.0 https://cfmid.wishartlab.com/ Intensities at the low, medium and high energy level have been meaned. In silico spectral database preparation and use for dereplication initially described in <em>Integration of Molecular Networking and In-Silico MS/MS Fragmentation for Natural Products Dereplication</em> https://doi.org/10.1021/ACS.ANALCHEM.5B04804 See http://oolonek.github.io/ISDB/ for associated spectral matching scripts LOTUS Initiative initially described in https://doi.org/10.7554/eLife.70780",
     "DOI": "10.5281/zenodo.5607264",
     "publisher": "Zenodo",
     "title": "ISDB: In Silico Spectral Databases of Natural Products",
@@ -7367,12 +7367,12 @@
       "date-parts": [
         [
           2022,
-          5,
-          25
+          7,
+          1
         ]
       ]
     },
-    "abstract": "Dataset present on Wikidata used in the frame of the LOTUS Initiative: https://doi.org/10.1101/2021.02.28.433265",
+    "abstract": "Dataset present on Wikidata used in the frame of the LOTUS Initiative: https://doi.org/10.7554/eLife.70780",
     "DOI": "10.5281/zenodo.5794106",
     "publisher": "Zenodo",
     "title": "The LOTUS Initiative for Open Natural Products Research: frozen dataset union wikidata (with metadata)",
@@ -7469,12 +7469,12 @@
       "date-parts": [
         [
           2022,
-          3,
-          23
+          7,
+          1
         ]
       ]
     },
-    "abstract": "TMAP of the compounds present on Wikidata curated in the frame of the LOTUS Initiative: https://doi.org/10.1101/2021.02.28.433265",
+    "abstract": "TMAP of the compounds present on Wikidata curated in the frame of the LOTUS Initiative: https://doi.org/10.7554/eLife.70780",
     "DOI": "10.5281/zenodo.5801807",
     "publisher": "Zenodo",
     "title": "The LOTUS Initiative for Open Natural Products Research: TMAP",
@@ -8193,7 +8193,7 @@
         "given": "R"
       },
       {
-        "family": "Low yanwen",
+        "family": "Low Yanwen",
         "given": "Dorrain"
       },
       {
@@ -8246,7 +8246,7 @@
         [
           "2022",
           7,
-          8
+          26
         ]
       ]
     },

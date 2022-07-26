@@ -4,7 +4,7 @@ adafede
 Adriano
 afrotryp
 alkamid
-allard
+Allard
 Amoebozoa
 AmphibiaWeb
 Angelshark
@@ -33,7 +33,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-bioactive
+Bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -90,7 +90,7 @@ CrossRef
 CRSII
 csteinbeck
 cstrnq
-curation
+Curation
 cyanometdb
 Cyathocaline
 Cyathocalyx
@@ -141,7 +141,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-faerun
+Faerun
 faire
 Fatcat
 Fidele
@@ -180,7 +180,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -203,7 +203,7 @@ idf
 IDSM
 Ilex
 iNaturalist
-InChI
+inchi
 InChIKey
 InChIKeys
 indability
@@ -236,7 +236,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -280,7 +280,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-Molvs
+molvs
 monogyna
 Montclair
 Mozzherin
@@ -291,7 +291,7 @@ MVLS
 NameBank
 náměstí
 nanpdb
-NAPRALERT
+napralert
 natively
 naturalproducts
 NCBI
@@ -302,7 +302,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -342,7 +342,7 @@ plotly
 PMA
 PMIDs
 polyketides
-pre
+Pre
 procardb
 processingOriginal
 processingTranslated
@@ -360,7 +360,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 refered
@@ -402,11 +402,11 @@ sorok
 Sorokina
 SPARQL
 speciation
-Spectrometry
+spectrometry
 Spiegeleer
 splitstackshape
 spp
-Squatina
+squatina
 src
 SSOT
 standardizer
@@ -430,7 +430,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
@@ -442,15 +442,15 @@ THOMS
 tidyverse
 Tiejun
 Tilmann
-TMAP
+tmap
 tmdb
-tmmc
+TMMC
 tppt
 transdisciplinary
 transformational
 transformative
 treeio
-Trigocherrin
+trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -482,7 +482,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-wakankensaku
+Wakankensaku
 wdkt
 wdpage
 webchem
