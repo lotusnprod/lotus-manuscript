@@ -33,7 +33,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-Bioactive
+bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -65,7 +65,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-Chemodiversity
+chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -78,7 +78,7 @@ Chun
 citable
 clade
 ClassyFire
-ClassyfireR
+classyfireR
 cmcrameri
 CMU
 codebase
@@ -86,12 +86,12 @@ coroutines
 counterions
 Crataegus
 CRC
-Crossref
+CrossRef
 CRSII
 csteinbeck
 cstrnq
-Curation
-cyanometdb
+curation
+Cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -118,7 +118,7 @@ DNP
 Dockerized
 DOIs
 doit
-DrDuke
+drduke
 DTGCRPNFSA
 eBird
 echnology
@@ -180,7 +180,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerifier
 Gottlieb
@@ -208,7 +208,7 @@ InChIKey
 InChIKeys
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -236,7 +236,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -402,7 +402,7 @@ sorok
 Sorokina
 SPARQL
 speciation
-spectrometry
+Spectrometry
 Spiegeleer
 splitstackshape
 spp
@@ -410,7 +410,7 @@ squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -442,9 +442,9 @@ THOMS
 tidyverse
 Tiejun
 Tilmann
-tmap
+TMAP
 tmdb
-tmmc
+TMMC
 tppt
 transdisciplinary
 transformational
@@ -458,7 +458,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger
@@ -482,7 +482,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-Wakankensaku
+wakankensaku
 wdkt
 wdpage
 webchem
