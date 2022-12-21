@@ -1918,7 +1918,7 @@
   {
     "publisher": "Springer Science and Business Media LLC",
     "issue": "1",
-    "abstract": "<jats:title>Abstract</jats:title>\n<jats:p>The accurate representation of data is essential in science communication. However, colour maps that visually distort data through uneven colour gradients or are unreadable to those with colour-vision deficiency remain prevalent in science. These include, but are not limited to, rainbow-like and red–green colour maps. Here, we present a simple guide for the scientific use of colour. We show how scientifically derived colour maps report true data variations, reduce complexity, and are accessible for people with colour-vision deficiencies. We highlight ways for the scientific community to identify and prevent the misuse of colour in science, and call for a proactive step away from colour misuse among the community, publishers, and the press.</jats:p>",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>The accurate representation of data is essential in science communication. However, colour maps that visually distort data through uneven colour gradients or are unreadable to those with colour-vision deficiency remain prevalent in science. These include, but are not limited to, rainbow-like and red–green colour maps. Here, we present a simple guide for the scientific use of colour. We show how scientifically derived colour maps report true data variations, reduce complexity, and are accessible for people with colour-vision deficiencies. We highlight ways for the scientific community to identify and prevent the misuse of colour in science, and call for a proactive step away from colour misuse among the community, publishers, and the press.</jats:p>",
     "DOI": "10.1038/s41467-020-19160-7",
     "type": "article-journal",
     "source": "Crossref",
@@ -3153,6 +3153,7 @@
   {
     "publisher": "Springer Science and Business Media LLC",
     "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>This article presents a practical roadmap for scholarly publishers to implement data citation in accordance with the Joint Declaration of Data Citation Principles (JDDCP), a synopsis and harmonization of the recommendations of major science policy bodies. It was developed by the Publishers Early Adopters Expert Group as part of the Data Citation Implementation Pilot (DCIP) project, an initiative of FORCE11.org and the NIH BioCADDIE program. The structure of the roadmap presented here follows the “life of a paper” workflow and includes the categories Pre-submission, Submission, Production, and Publication. The roadmap is intended to be publisher-agnostic so that all publishers can use this as a starting point when implementing JDDCP-compliant data citation. Authors reading this roadmap will also better know what to expect from publishers and how to enable their own data citations to gain maximum impact, as well as complying with what will become increasingly common funder mandates on data transparency.</jats:p>",
     "DOI": "10.1038/sdata.2018.259",
     "type": "article-journal",
     "source": "Crossref",
@@ -8307,7 +8308,7 @@
         [
           "2022",
           12,
-          5
+          21
         ]
       ]
     },
