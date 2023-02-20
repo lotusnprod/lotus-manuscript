@@ -2816,6 +2816,7 @@
   {
     "publisher": "Springer Science and Business Media LLC",
     "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>The intrinsic value of biodiversity extends beyond species diversity, genetic heritage, ecosystem variability and ecological services, such as climate regulation, water quality, nutrient cycling and the provision of reproductive habitats it is also an inexhaustible source of molecules and products beneficial to human well-being. To uncover the chemistry of Brazilian natural products, the Nuclei of Bioassays, Ecophysiology and Biosynthesis of Natural Products Database (NuBBE<jats:sub>DB</jats:sub>) was created as the first natural product library from Brazilian biodiversity. Since its launch in 2013, the NuBBE<jats:sub>DB</jats:sub> has proven to be an important resource for new drug design and dereplication studies. Consequently, continuous efforts have been made to expand its contents and include a greater diversity of natural sources to establish it as a comprehensive compendium of available biogeochemical information about Brazilian biodiversity. The content in the NuBBE<jats:sub>DB</jats:sub> is freely accessible online (https://nubbe.iq.unesp.br/portal/nubbedb.html) and provides validated multidisciplinary information, chemical descriptors, species sources, geographic locations, spectroscopic data (NMR) and pharmacological properties. Herein, we report the latest advancements concerning the interface, content and functionality of the NuBBE<jats:sub>DB</jats:sub>. We also present a preliminary study on the current profile of the compounds present in Brazilian territory.</jats:p>",
     "DOI": "10.1038/s41598-017-07451-x",
     "type": "article-journal",
     "source": "Crossref",
@@ -2913,6 +2914,7 @@
   {
     "publisher": "Springer Science and Business Media LLC",
     "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>There is an urgent need to improve the infrastructure supporting the reuse of scholarly data. A diverse set of stakeholders—representing academia, industry, funding agencies, and scholarly publishers—have come together to design and jointly endorse a concise and measureable set of principles that we refer to as the FAIR Data Principles. The intent is that these may act as a guideline for those wishing to enhance the reusability of their data holdings. Distinct from peer initiatives that focus on the human scholar, the FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals. This Comment is the first formal publication of the FAIR Principles, and includes the rationale behind them, and some exemplar implementations in the community.</jats:p>",
     "DOI": "10.1038/sdata.2016.18",
     "type": "article-journal",
     "source": "Crossref",
@@ -3783,6 +3785,7 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "15",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Motivation: Software applications for structural similarity searching and clustering of small molecules play an important role in drug discovery and chemical genomics. Here, we present the first open-source compound mining framework for the popularstatistical programming environment R. The integration with a powerful statistical environment maximizes the flexibility, expandability and programmability of the provided analysis functions.</jats:p>\n               <jats:p>Results: We discuss the algorithms and compound mining utilities provided by the R package ChemmineR. It contains functions for structural similarity searching, clustering of compound libraries with a wide spectrum of classification algorithms and various utilities for managing complex compound data. It also offers a wide range of visualization functions for compound clusters and chemical structures. The package is well integrated with the online ChemMine environment and allows bidirectional communications between the two services.</jats:p>\n               <jats:p>Availability:  ChemmineR is freely available as an R package from the ChemMine project site: http://bioweb.ucr.edu/ChemMineV2/chemminer</jats:p>\n               <jats:p>Contact:  thomas.girke@ucr.edu</jats:p>",
     "DOI": "10.1093/bioinformatics/btn307",
     "type": "article-journal",
     "page": "1733-1734",
@@ -3791,23 +3794,23 @@
     "volume": "24",
     "author": [
       {
-        "given": "Y.",
+        "given": "Yiqun",
         "family": "Cao"
       },
       {
-        "given": "A.",
+        "given": "Anna",
         "family": "Charisi"
       },
       {
-        "given": "L.-C.",
+        "given": "Li-Chang",
         "family": "Cheng"
       },
       {
-        "given": "T.",
+        "given": "Tao",
         "family": "Jiang"
       },
       {
-        "given": "T.",
+        "given": "Thomas",
         "family": "Girke"
       }
     ],
@@ -3823,7 +3826,6 @@
       ]
     },
     "URL": "https://doi.org/b46rs7",
-    "container-title-short": "Bioinformatics",
     "PMCID": "PMC2638865",
     "PMID": "18596077",
     "id": "zukFZ2aq",
@@ -3832,31 +3834,32 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "20",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Summary: Metabolomic publications and databases use different database identifiers or even trivial names which disable queries across databases or between studies. The best way to annotate metabolites is by chemical structures, encoded by the International Chemical Identifier code (InChI) or InChIKey. We have implemented a web-based Chemical Translation Service that performs batch conversions of the most common compound identifiers, including CAS, CHEBI, compound formulas, Human Metabolome Database HMDB, InChI, InChIKey, IUPAC name, KEGG, LipidMaps, PubChem CID+SID, SMILES and chemical synonym names. Batch conversion downloads of 1410 CIDs are performed in 2.5 min. Structures are automatically displayed.</jats:p>\n               <jats:p>Implementation: The software was implemented in Groovy and JAVA, the web frontend was implemented in GRAILS and the database used was PostgreSQL.</jats:p>\n               <jats:p>Availability: The source code and an online web interface are freely available. Chemical Translation Service (CTS): http://cts.fiehnlab.ucdavis.edu</jats:p>\n               <jats:p>Contact:  ofiehn@ucdavis.edu</jats:p>",
     "DOI": "10.1093/bioinformatics/btq476",
     "type": "article-journal",
     "page": "2647-2648",
     "source": "Crossref",
-    "title": "The Chemical Translation Service--a web-based tool to improve standardization of metabolomic reports",
+    "title": "The Chemical Translation Service—a web-based tool to improve standardization of metabolomic reports",
     "volume": "26",
     "author": [
       {
-        "given": "G.",
+        "given": "Gert",
         "family": "Wohlgemuth"
       },
       {
-        "given": "P. K.",
+        "given": "Pradeep Kumar",
         "family": "Haldiya"
       },
       {
-        "given": "E.",
+        "given": "Egon",
         "family": "Willighagen"
       },
       {
-        "given": "T.",
+        "given": "Tobias",
         "family": "Kind"
       },
       {
-        "given": "O.",
+        "given": "Oliver",
         "family": "Fiehn"
       }
     ],
@@ -3872,7 +3875,6 @@
       ]
     },
     "URL": "https://doi.org/drvfdr",
-    "container-title-short": "Bioinformatics",
     "PMCID": "PMC2951090",
     "PMID": "20829444",
     "id": "WRJsojww",
@@ -3881,6 +3883,7 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "8",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>During the past decade, big data have become a major tool in scientific endeavors. Although statistical methods and algorithms are well-suited for analyzing and summarizing enormous amounts of data, the results do not allow for a visual inspection of the entire data. Current scientific software, including R packages and Python libraries such as ggplot2, matplotlib and plot.ly, do not support interactive visualizations of datasets exceeding 100 000 data points on the web. Other solutions enable the web-based visualization of big data only through data reduction or statistical representations. However, recent hardware developments, especially advancements in graphical processing units, allow for the rendering of millions of data points on a wide range of consumer hardware such as laptops, tablets and mobile phones. Similar to the challenges and opportunities brought to virtually every scientific field by big data, both the visualization of and interaction with copious amounts of data are both demanding and hold great promise.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Here we present FUn, a framework consisting of a client (Faerun) and server (Underdark) module, facilitating the creation of web-based, interactive 3D visualizations of large datasets, enabling record level visual inspection. We also introduce a reference implementation providing access to SureChEMBL, a database containing patent information on more than 17 million chemical compounds.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>The source code and the most recent builds of Faerun and Underdark, Lore.js and the data preprocessing toolchain used in the reference implementation, are available on the project website (http://doc.gdb.tools/fun/).</jats:p>\n               </jats:sec>",
     "DOI": "10.1093/bioinformatics/btx760",
     "type": "article-journal",
     "page": "1433-1435",
@@ -8223,20 +8226,23 @@
   },
   {
     "id": "1APrBLQ3X",
-    "type": "article",
+    "type": "paper-conference",
     "abstract": "PhytoHub, an online platform to gather expert knowledge on polyphenols and other dietary phytochemicals. 8. International Conference on Polyphenols and Health (ICPH 2017)",
-    "note": "Published: 8. International Conference on Polyphenols and Health (ICPH 2017)\nThis CSL Item was generated by Manubot v0.5.5 from its persistent identifier (standard_id).\nstandard_id: url:https://hal.archives-ouvertes.fr/hal-01697081",
-    "source": "HAL Archives Ouvertes",
+    "event-title": "8. International Conference on Polyphenols and Health (ICPH 2017)",
+    "language": "en",
+    "page": "np",
+    "source": "hal.science",
     "title": "PhytoHub, an online platform to gather expert knowledge on polyphenols and other dietary phytochemicals",
-    "URL": "https://hal.archives-ouvertes.fr/hal-01697081",
+    "URL": "https://hal.science/hal-01697081",
     "author": [
       {
         "family": "Giacomoni",
         "given": "Franck"
       },
       {
-        "family": "Bento da Silva",
-        "given": "Andreia Leonor"
+        "family": "Silva",
+        "given": "Andreia Leonor Bento",
+        "dropping-particle": "da"
       },
       {
         "family": "Bronze",
@@ -8252,19 +8258,20 @@
       },
       {
         "family": "Kopec",
-        "given": "R"
+        "given": "R."
       },
       {
-        "family": "Low Yanwen",
-        "given": "Dorrain"
+        "family": "Yanwen",
+        "given": "Dorrain Low"
       },
       {
         "family": "Micheau",
         "given": "Pierre"
       },
       {
-        "family": "Nunes dos Santos",
-        "given": "Maria Claudia"
+        "family": "Santos",
+        "given": "Maria Claudia Nunes",
+        "dropping-particle": "dos"
       },
       {
         "family": "Pavot",
@@ -8272,19 +8279,19 @@
       },
       {
         "family": "Schmidt",
-        "given": "G"
+        "given": "G."
       },
       {
         "family": "Morand",
         "given": "Christine"
       },
       {
-        "family": "Urpi Sarda",
-        "given": "Mireia"
+        "family": "Sarda",
+        "given": "Mireia Urpi"
       },
       {
-        "family": "Vazquez Manjarrez",
-        "given": "Natalia"
+        "family": "Manjarrez",
+        "given": "Natalia Vazquez"
       },
       {
         "family": "Verny",
@@ -8306,9 +8313,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2022",
-          12,
-          21
+          "2023",
+          2,
+          20
         ]
       ]
     },
@@ -8316,10 +8323,12 @@
       "date-parts": [
         [
           "2017",
-          10
+          10,
+          3
         ]
       ]
-    }
+    },
+    "note": "This CSL Item was generated by Manubot v0.5.5 from its persistent identifier (standard_id).\nstandard_id: url:https://hal.archives-ouvertes.fr/hal-01697081"
   },
   {
     "id": "7AFWc7sN",
