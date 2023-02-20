@@ -98,7 +98,7 @@ Damerau
 daphnane
 dataset
 datasets
-datawarrior
+Datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -118,7 +118,7 @@ DNP
 Dockerized
 DOIs
 doit
-drduke
+DrDuke
 DTGCRPNFSA
 eBird
 echnology
@@ -141,7 +141,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-faerun
+Faerun
 faire
 Fatcat
 Fidele
@@ -204,11 +204,11 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChiKey
+InChIKey
 InChIKeys
 indability
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -280,7 +280,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-MolVS
+molvs
 monogyna
 Montclair
 Mozzherin
@@ -293,7 +293,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Nelumbo
@@ -302,7 +302,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -360,7 +360,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 refered
@@ -402,7 +402,7 @@ sorok
 Sorokina
 SPARQL
 speciation
-Spectrometry
+spectrometry
 Spiegeleer
 splitstackshape
 spp
@@ -430,7 +430,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-tcm
+TCM
 TCMID
 Termitidae
 terpenoid
@@ -442,9 +442,9 @@ THOMS
 tidyverse
 Tiejun
 Tilmann
-TMAP
+tmap
 tmdb
-TMMC
+tmmc
 tppt
 transdisciplinary
 transformational
@@ -466,7 +466,7 @@ uncharging
 Uniprot
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts
