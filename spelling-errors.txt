@@ -46,7 +46,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-Bjonnh
+bjonnh
 bkfd
 Bolzani
 Bromus
@@ -65,7 +65,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-Chemodiversity
+chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -86,19 +86,19 @@ coroutines
 counterions
 Crataegus
 CRC
-crossref
+CrossRef
 CRSII
 csteinbeck
 cstrnq
-Curation
-Cyanometdb
+curation
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
 daphnane
 dataset
 datasets
-datawarrior
+Datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -114,7 +114,7 @@ dimers
 diterpene
 DM
 Dmitry
-dnp
+DNP
 Dockerized
 DOIs
 doit
@@ -141,7 +141,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-Faerun
+faerun
 faire
 Fatcat
 Fidele
@@ -154,7 +154,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 gaudarn
 Gaudry
 GBIF
@@ -204,7 +204,7 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChiKey
+InChIKey
 InChIKeys
 indability
 indica
@@ -280,7 +280,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-MolVS
+molvs
 monogyna
 Montclair
 Mozzherin
@@ -291,9 +291,9 @@ MVLS
 NameBank
 náměstí
 nanpdb
-NAPRALERT
+napralert
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Nelumbo
@@ -302,7 +302,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -330,7 +330,7 @@ pamdb
 parallelization
 pbmcapply
 Pflanzen
-pharmacognosy
+Pharmacognosy
 Phasmida
 PhenolExplorer
 physicochemical
@@ -383,7 +383,7 @@ Rutz
 rvest
 rwst
 sancdb
-sanitization
+Sanitization
 savoir
 Scholia
 scipy
@@ -406,7 +406,7 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-squatina
+Squatina
 src
 SSOT
 standardizer
@@ -450,7 +450,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-trigocherrin
+Trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -458,7 +458,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
@@ -466,7 +466,7 @@ uncharging
 Uniprot
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts
