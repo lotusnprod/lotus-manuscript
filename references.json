@@ -5259,6 +5259,7 @@
   {
     "publisher": "Wiley",
     "issue": "12",
+    "abstract": "<jats:title>Summary</jats:title><jats:p>\n<jats:list>\n\n<jats:list-item>\n<jats:p>While phylogenies have been getting easier to build, it has been difficult to reuse, combine and synthesize the information they provide because published trees are often only available as image files, and taxonomic information is not standardized across studies.</jats:p>\n</jats:list-item>\n\n<jats:list-item>\n<jats:p>The Open Tree of Life (<jats:styled-content style=\"fixed-case\">OTL</jats:styled-content>) project addresses these issues by providing a digital tree that encompasses all organisms, built by combining taxonomic information and published phylogenies. The project also provides tools and services to query and download parts of this synthetic tree, as well as the source data used to build it. Here, we present <jats:styled-content>rotl</jats:styled-content>, an R package to search and download data from the Open Tree of Life directly in R.</jats:p>\n</jats:list-item>\n\n<jats:list-item>\n<jats:p><jats:styled-content>rotl</jats:styled-content> uses common data structures allowing researchers to take advantage of the rich set of tools and methods that are available in R to manipulate, analyse and visualize phylogenies. Here, and in the vignettes accompanying the package, we demonstrate how <jats:styled-content>rotl</jats:styled-content> can be used with other R packages to analyse biodiversity data.</jats:p>\n</jats:list-item>\n\n<jats:list-item>\n<jats:p>As phylogenies are being used in a growing number of applications, <jats:styled-content>rotl</jats:styled-content> facilitates access to phylogenetic data and allows their integration with statistical methods and data sources available in R.</jats:p>\n</jats:list-item>\n</jats:list>\n</jats:p>",
     "DOI": "10.1111/2041-210x.12593",
     "type": "article-journal",
     "page": "1476-1481",
@@ -5304,11 +5305,12 @@
   {
     "publisher": "Wiley",
     "issue": "1",
+    "abstract": "<jats:title>Summary</jats:title><jats:p>\n<jats:list>\n\n<jats:list-item><jats:p>We present an <jats:sc>r</jats:sc> package, <jats:sc>ggtree</jats:sc>, which provides programmable visualization and annotation of phylogenetic trees.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p><jats:sc>ggtree</jats:sc> can read more tree file formats than other softwares, including <jats:italic>newick</jats:italic>,<jats:italic> nexus</jats:italic>,<jats:italic> NHX</jats:italic>,<jats:italic> phylip</jats:italic> and <jats:italic>jplace</jats:italic> formats, and support visualization of <jats:italic>phylo, multiphylo, phylo4, phylo4d, obkdata</jats:italic> and <jats:italic>phyloseq</jats:italic> tree objects defined in other <jats:sc>r</jats:sc> packages. It can also extract the tree/branch/node‐specific and other data from the analysis outputs of <jats:sc>beast</jats:sc>,<jats:sc> epa</jats:sc>,<jats:sc> hyphy</jats:sc>,<jats:sc> paml</jats:sc>,<jats:sc> phylodog</jats:sc>,<jats:sc> pplacer</jats:sc>,<jats:sc> r8s</jats:sc>,<jats:sc> raxml</jats:sc> and <jats:sc>revbayes</jats:sc> software, and allows using these data to annotate the tree.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>The package allows colouring and annotation of a tree by numerical/categorical node attributes, manipulating a tree by rotating, collapsing and zooming out clades, highlighting user selected clades or operational taxonomic units and exploration of a large tree by zooming into a selected portion.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>A two‐dimensional tree can be drawn by scaling the tree width based on an attribute of the nodes. A tree can be annotated with an associated numerical matrix (as a heat map), multiple sequence alignment, subplots or silhouette images.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>The package <jats:sc>ggtree</jats:sc> is released under the <jats:sc>artistic‐2.0 license</jats:sc>. The source code and documents are freely available through <jats:sc>bioconductor</jats:sc> (<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"http://www.bioconductor.org/packages/ggtree\">http://www.bioconductor.org/packages/ggtree</jats:ext-link>).</jats:p></jats:list-item>\n</jats:list>\n</jats:p>",
     "DOI": "10.1111/2041-210x.12628",
     "type": "article-journal",
     "page": "28-36",
     "source": "Crossref",
-    "title": "<scp>ggtree</scp>\n            : an\n            <scp>r</scp>\n            package for visualization and annotation of phylogenetic trees with their covariates and other associated data",
+    "title": "<scp>ggtree</scp>: an <scp>r</scp> package for visualization and annotation of phylogenetic trees with their covariates and other associated data",
     "volume": "8",
     "author": [
       {
@@ -8298,7 +8300,7 @@
         [
           "2023",
           9,
-          4
+          23
         ]
       ]
     },
