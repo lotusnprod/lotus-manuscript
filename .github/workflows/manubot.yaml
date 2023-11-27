@@ -75,7 +75,7 @@ jobs:
           restore-keys: |
             ci-cache-${{ env.DEFAULT_BRANCH_REF }}
       - name: Install Environment
-        uses: conda-incubator/setup-miniconda@v2
+        uses: conda-incubator/setup-miniconda@v3
         with:
           activate-environment: manubot
           environment-file: build/environment.yml
