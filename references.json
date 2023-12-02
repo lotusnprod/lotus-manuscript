@@ -212,6 +212,7 @@
   {
     "publisher": "Wiley",
     "issue": "1",
+    "abstract": "<jats:p>Research on bias in peer review examines scholarly communication and funding processes to assess the epistemic and social legitimacy of the mechanisms by which knowledge communities vet and self‐regulate their work. Despite vocal concerns, a closer look at the empirical and methodological limitations of research on bias raises questions about the existence and extent of many hypothesized forms of bias. In addition, the notion of bias is predicated on an implicit ideal that, once articulated, raises questions about the normative implications of research on bias in peer review. This review provides a brief description of the function, history, and scope of peer review; articulates and critiques the conception of bias unifying research on bias in peer review; characterizes and examines the empirical, methodological, and normative claims of bias in peer review research; and assesses possible alternatives to the status quo. We close by identifying ways to expand conceptions and studies of bias to contend with the complexity of social interactions among actors involved directly and indirectly in peer review.</jats:p>",
     "DOI": "10.1002/asi.22784",
     "type": "article-journal",
     "page": "2-17",
@@ -255,6 +256,7 @@
   {
     "publisher": "Wiley",
     "issue": "7",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>MassBank is the first public repository of mass spectra of small chemical compounds for life sciences (&lt;3000 Da). The database contains 605 electron‐ionization mass spectrometry(EI‐MS), 137 fast atom bombardment MS and 9276 electrospray ionization (ESI)‐MS<jats:sup><jats:italic>n</jats:italic></jats:sup> data of 2337 authentic compounds of metabolites, 11 545 EI‐MS and 834 other‐MS data of 10 286 volatile natural and synthetic compounds, and 3045 ESI‐MS<jats:sup>2</jats:sup> data of 679 synthetic drugs contributed by 16 research groups (January 2010). ESI‐MS<jats:sup>2</jats:sup> data were analyzed under nonstandardized, independent experimental conditions. MassBank is a distributed database. Each research group provides data from its own MassBank data servers distributed on the Internet. MassBank users can access either all of the MassBank data or a subset of the data by specifying one or more experimental conditions. In a spectral search to retrieve mass spectra similar to a query mass spectrum, the similarity score is calculated by a weighted cosine correlation in which weighting exponents on peak intensity and the mass‐to‐charge ratio are optimized to the ESI‐MS<jats:sup>2</jats:sup> data. MassBank also provides a merged spectrum for each compound prepared by merging the analyzed ESI‐MS<jats:sup>2</jats:sup> data on an identical compound under different collision‐induced dissociation conditions. Data merging has significantly improved the precision of the identification of a chemical compound by 21–23% at a similarity score of 0.6. Thus, MassBank is useful for the identification of chemical compounds and the publication of experimental data. Copyright © 2010 John Wiley &amp; Sons, Ltd.</jats:p>",
     "DOI": "10.1002/jms.1777",
     "type": "article-journal",
     "page": "703-714",
@@ -409,7 +411,6 @@
       "date-parts": [
         [
           2010,
-          7,
           7
         ]
       ]
@@ -3633,6 +3634,7 @@
   {
     "publisher": "Wiley",
     "issue": "2",
+    "abstract": "<jats:title>Summary</jats:title><jats:p> <jats:bold>1.</jats:bold> Biodiversity involves diversity of species, genetics and habitats. But there is a fourth source of biodiversity – molecular biodiversity – without which evolution cannot occur, either in the origin of a new species, its survival and development, or its eventual extinction.</jats:p><jats:p> <jats:bold>2</jats:bold>. Molecular biodiversity is distinct from genetic diversity, though both ultimately depend on inheritable DNA. It occurs within one individual, between individuals of the same species, between related species, within and between phyla and ecosystems, and throughout evolution. There is also a crucial evolutionary role for ‘hidden’ molecular biodiversity in ‘bad’ genes. These highlight what Darwin and Wallace missed, the <jats:italic>origin</jats:italic> of a biological process, or a species.</jats:p><jats:p> <jats:bold>3.</jats:bold> Genetic engineering of bioluminescence, coupled with molecular imaging, has given us a wonderful technology for lighting up the molecular biodiversity of individual living cells, and even whole organisms. This has highlighted a major challenge – when is a biological process analogue or digital?</jats:p><jats:p> <jats:bold>4.</jats:bold> <jats:italic>Synthesis and applications</jats:italic>. The care of our planet, and ecology in the 21st century, depend on a new thinking based on molecular biodiversity. My go‐home message is that ecologists must grasp the opportunities presented by advances in molecular and cellular biology. But, although molecules are at the centre of modern biology and medicine, science begins and ends with a curiosity about the whole – the cell, the organ or the individual organism, within a particular ecosystem.</jats:p>",
     "DOI": "10.1046/j.1365-2664.2003.00803.x",
     "type": "article-journal",
     "page": "193-203",
@@ -3656,6 +3658,7 @@
       ]
     },
     "URL": "https://doi.org/dkg97q",
+    "container-title-short": "Journal of Applied Ecology",
     "id": "1bhfObov",
     "note": "This CSL Item was generated by Manubot v0.5.5 from its persistent identifier (standard_id).\nstandard_id: doi:10.1046/j.1365-2664.2003.00803.x"
   },
@@ -5172,7 +5175,7 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
-    "abstract": "<jats:title>Abstract</jats:title><jats:p>Untargeted metabolomics experiments rely on spectral libraries for structure annotation, but these libraries are vastly incomplete; <jats:italic>in silico</jats:italic> methods search in structure databases but cannot distinguish between correct and incorrect annotations. As biological interpretation relies on accurate structure annotations, the ability to assign confidence to such annotations is a key outstanding problem. We introduce the COSMIC workflow that combines structure database generation, <jats:italic>in silico</jats:italic> annotation, and a confidence score consisting of kernel density p-value estimation and a Support Vector Machine with enforced directionality of features. In evaluation, COSMIC annotates a substantial number of hits at small false discovery rates, and outperforms spectral library search for this purpose. To demonstrate that COSMIC can annotate structures never reported before, we annotated twelve novel bile acid conjugates; nine structures were confirmed by manual evaluation and two structures using synthetic standards. Second, we annotated and manually evaluated 315 molecular structures in human samples currently absent from the Human Metabolome Database. Third, we applied COSMIC to 17,400 experimental runs and annotated 1,715 structures with high confidence that were absent from spectral libraries.</jats:p>",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Untargeted metabolomics experiments rely on spectral libraries for structure annotation, but these libraries are vastly incomplete;<jats:italic>in silico</jats:italic>methods search in structure databases but cannot distinguish between correct and incorrect annotations. As biological interpretation relies on accurate structure annotations, the ability to assign confidence to such annotations is a key outstanding problem. We introduce the COSMIC workflow that combines structure database generation,<jats:italic>in silico</jats:italic>annotation, and a confidence score consisting of kernel density p-value estimation and a Support Vector Machine with enforced directionality of features. In evaluation, COSMIC annotates a substantial number of hits at small false discovery rates, and outperforms spectral library search for this purpose. To demonstrate that COSMIC can annotate structures never reported before, we annotated twelve novel bile acid conjugates; nine structures were confirmed by manual evaluation and two structures using synthetic standards. Second, we annotated and manually evaluated 315 molecular structures in human samples currently absent from the Human Metabolome Database. Third, we applied COSMIC to 17,400 experimental runs and annotated 1,715 structures with high confidence that were absent from spectral libraries.</jats:p>",
     "DOI": "10.1101/2021.03.18.435634",
     "type": "manuscript",
     "source": "Crossref",
@@ -7031,8 +7034,8 @@
       "date-parts": [
         [
           2023,
-          6,
-          14
+          10,
+          5
         ]
       ]
     },
@@ -7041,7 +7044,7 @@
     "publisher": "Zenodo",
     "title": "Scientific colour maps",
     "URL": "https://doi.org/gnm9fm",
-    "version": "8.0.0",
+    "version": "8.0.1",
     "note": "This CSL Item was generated by Manubot v0.5.5 from its persistent identifier (standard_id).\nstandard_id: doi:10.5281/zenodo.1243862"
   },
   {
@@ -8299,8 +8302,8 @@
       "date-parts": [
         [
           "2023",
-          9,
-          23
+          12,
+          2
         ]
       ]
     },
