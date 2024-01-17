@@ -46,7 +46,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-Bjonnh
+bjonnh
 bkfd
 Bolzani
 Bromus
@@ -78,7 +78,7 @@ Chun
 citable
 clade
 ClassyFire
-ClassyfireR
+classyfireR
 cmcrameri
 CMU
 codebase
@@ -86,12 +86,12 @@ coroutines
 counterions
 Crataegus
 CRC
-crossref
+Crossref
 CRSII
 csteinbeck
 cstrnq
 curation
-Cyanometdb
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -114,7 +114,7 @@ dimers
 diterpene
 DM
 Dmitry
-DNP
+dnp
 Dockerized
 DOIs
 doit
@@ -148,13 +148,13 @@ Fidele
 FishBase
 flavolivaceus
 Flemingovo
-FooDB
+foodb
 FragmentRemover
 Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 gaudarn
 Gaudry
 GBIF
@@ -208,7 +208,7 @@ InChIKey
 InChIKeys
 indability
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -280,7 +280,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-Molvs
+molvs
 monogyna
 Montclair
 Mozzherin
@@ -293,7 +293,7 @@ náměstí
 nanpdb
 napralert
 natively
-NaturalProducts
+naturalproducts
 NCBI
 NCCIH
 Nelumbo
@@ -302,7 +302,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -406,11 +406,11 @@ Spectrometry
 Spiegeleer
 splitstackshape
 spp
-squatina
+Squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -430,7 +430,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-TCM
+tcm
 TCMID
 Termitidae
 terpenoid
@@ -442,7 +442,7 @@ THOMS
 tidyverse
 Tiejun
 Tilmann
-TMAP
+tmap
 tmdb
 tmmc
 tppt
@@ -450,7 +450,7 @@ transdisciplinary
 transformational
 transformative
 treeio
-trigocherrin
+Trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -458,7 +458,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
@@ -482,7 +482,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-Wakankensaku
+wakankensaku
 wdkt
 wdpage
 webchem
