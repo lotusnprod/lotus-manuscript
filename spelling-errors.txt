@@ -86,7 +86,7 @@ coroutines
 counterions
 Crataegus
 CRC
-Crossref
+crossref
 CRSII
 csteinbeck
 cstrnq
@@ -98,7 +98,7 @@ Damerau
 daphnane
 dataset
 datasets
-datawarrior
+Datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -114,7 +114,7 @@ dimers
 diterpene
 DM
 Dmitry
-DNP
+dnp
 Dockerized
 DOIs
 doit
@@ -154,7 +154,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 gaudarn
 Gaudry
 GBIF
@@ -180,7 +180,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -204,11 +204,11 @@ IDSM
 Ilex
 iNaturalist
 inchi
-InChiKey
+InChIKey
 InChIKeys
 indability
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -236,7 +236,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -302,7 +302,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -332,7 +332,7 @@ pbmcapply
 Pflanzen
 pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 Phytochemistry
 phytohub
@@ -402,7 +402,7 @@ sorok
 Sorokina
 SPARQL
 speciation
-spectrometry
+Spectrometry
 Spiegeleer
 splitstackshape
 spp
@@ -410,7 +410,7 @@ squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -430,7 +430,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-TCM
+tcm
 TCMID
 Termitidae
 terpenoid
@@ -482,7 +482,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-wakankensaku
+Wakankensaku
 wdkt
 wdpage
 webchem
