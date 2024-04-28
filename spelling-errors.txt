@@ -118,7 +118,7 @@ DNP
 Dockerized
 DOIs
 doit
-drduke
+DrDuke
 DTGCRPNFSA
 eBird
 echnology
@@ -204,11 +204,11 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChiKey
+InChIKey
 InChIKeys
 indability
 indica
-indolic
+Indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -236,7 +236,7 @@ js
 json
 jsonlite
 Ju
-Junit
+JUnit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -280,7 +280,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-Molvs
+MolVS
 monogyna
 Montclair
 Mozzherin
@@ -291,7 +291,7 @@ MVLS
 NameBank
 náměstí
 nanpdb
-NAPRALERT
+napralert
 natively
 NaturalProducts
 NCBI
@@ -332,7 +332,7 @@ pbmcapply
 Pflanzen
 pharmacognosy
 Phasmida
-phenolexplorer
+PhenolExplorer
 physicochemical
 Phytochemistry
 phytohub
@@ -342,7 +342,7 @@ plotly
 PMA
 PMIDs
 polyketides
-pre
+Pre
 procardb
 processingOriginal
 processingTranslated
@@ -402,7 +402,7 @@ sorok
 Sorokina
 SPARQL
 speciation
-Spectrometry
+spectrometry
 Spiegeleer
 splitstackshape
 spp
@@ -430,7 +430,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-TCM
+tcm
 TCMID
 Termitidae
 terpenoid
@@ -442,7 +442,7 @@ THOMS
 tidyverse
 Tiejun
 Tilmann
-TMAP
+tmap
 tmdb
 TMMC
 tppt
@@ -458,7 +458,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-tsv
+TSV
 uBio
 UHFFFAOYSA
 Uncharger
@@ -482,7 +482,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-wakankensaku
+Wakankensaku
 wdkt
 wdpage
 webchem
