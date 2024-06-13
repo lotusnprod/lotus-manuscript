@@ -8,7 +8,7 @@ keywords:
 - Linked Data
 - LOTUS Initiative
 lang: en-US
-date-meta: '2024-04-28'
+date-meta: '2024-06-13'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -36,11 +36,11 @@ header-includes: |
   <meta name="citation_title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="og:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
-  <meta name="dc.date" content="2024-04-28" />
-  <meta name="citation_publication_date" content="2024-04-28" />
-  <meta property="article:published_time" content="2024-04-28" />
-  <meta name="dc.modified" content="2024-04-28T14:12:42+00:00" />
-  <meta property="article:modified_time" content="2024-04-28T14:12:42+00:00" />
+  <meta name="dc.date" content="2024-06-13" />
+  <meta name="citation_publication_date" content="2024-06-13" />
+  <meta property="article:published_time" content="2024-06-13" />
+  <meta name="dc.modified" content="2024-06-13T19:50:28+00:00" />
+  <meta property="article:modified_time" content="2024-06-13T19:50:28+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -147,7 +147,7 @@ This manuscript
 ([permalink](https://lotusnprod.github.io/lotus-manuscript/v/53cf2ade81b55b687c05943ab28504078c89a31a/))
 was automatically generated
 from [lotusnprod/lotus-manuscript@53cf2ad](https://github.com/lotusnprod/lotus-manuscript/tree/53cf2ade81b55b687c05943ab28504078c89a31a)
-on 2024-04-28.
+on 2024-06-13.
 </em></small>
 
 ## Authors

@@ -488,6 +488,7 @@
         "family": "Hegnauer"
       }
     ],
+    "language": "de",
     "issued": {
       "date-parts": [
         [
@@ -511,6 +512,7 @@
         "family": "Gottlieb"
       }
     ],
+    "language": "en",
     "issued": {
       "date-parts": [
         [
@@ -622,6 +624,7 @@
       }
     ],
     "container-title": "Comprehensive Natural Products II",
+    "language": "en",
     "issued": {
       "date-parts": [
         [
@@ -8303,8 +8306,8 @@
       "date-parts": [
         [
           "2024",
-          4,
-          28
+          6,
+          13
         ]
       ]
     },
