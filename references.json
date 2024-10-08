@@ -469,7 +469,7 @@
         "family": "Kanaya"
       }
     ],
-    "container-title": "Plant Metabolomics",
+    "container-title": "Biotechnology in Agriculture and Forestry",
     "language": "en",
     "issued": {},
     "URL": "https://doi.org/db44mg",
@@ -2161,6 +2161,7 @@
         "given": "Paul",
         "family": "van Mulbregt"
       },
+      {},
       {
         "given": "Aditya",
         "family": "Vijaykumar"
@@ -2468,8 +2469,7 @@
       {
         "given": "Yoshiki",
         "family": "Vázquez-Baeza"
-      },
-      {}
+      }
     ],
     "container-title": "Nature Methods",
     "language": "en",
@@ -5437,7 +5437,6 @@
     "abstract": "<jats:p> Natural products matter, for they are essential contributors to societal well-being and global health. Flavors, fragrances, essential oils, traditional medicines and phytopharmaceuticals, and prescription and over-the-counter products all utilize constituent materials from natural sources. However, these vast natural resources of Earth are disappearing, and climate change and market expansion by a dramatically increasing and ageing population will continue to strain plant sourcing in the decades ahead. It was with these and other considerations that the term “ecopharmacognosy” was developed as both a philosophy and a practice, and from which the necessity for a “medicines security” strategy evolved. </jats:p><jats:p> Extending previous presentations, a series of sixty challenges for 2030 to the status quo promotes the discussion of a different vision for the natural product sciences as applied to traditional medicines. Among the topics presented are areas for global collaborative initiatives in science and in data management, the impact of climate change on medicinal plant accessibility, the sustainability and quality of the natural products that patients receive, and the integration of new technologies, particularly the genomics of secondary metabolite biosynthesis, hand-held detection systems and artificial intelligence, and the implications of increased life expectancy on future health care needs. The presentation closes with two examples of newer approaches in drug discovery. </jats:p>",
     "DOI": "10.1177/1934578x1701200849",
     "type": "article-journal",
-    "page": "1934578X1701200",
     "source": "Crossref",
     "title": "Sixty Challenges – A 2030 Perspective on Natural Products and Medicines Security",
     "volume": "12",
@@ -8306,8 +8305,8 @@
       "date-parts": [
         [
           "2024",
-          7,
-          22
+          10,
+          8
         ]
       ]
     },
