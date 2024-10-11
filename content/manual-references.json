@@ -1,0 +1,740 @@
+[
+  {
+    "id": "campitelliGgnewscaleMultipleFill2021",
+    "author": [
+      {
+        "family": "Campitelli",
+        "given": "Elio"
+      }
+    ],
+    "genre": "manual",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "title": "ggnewscale: Multiple fill and colour scales in 'ggplot2'",
+    "type": "report",
+    "URL": "https://CRAN.R-project.org/package=ggnewscale"
+  },
+  {
+    "id": "chamberlainRcrossrefClientVarious2020",
+    "author": [
+      {
+        "family": "Chamberlain",
+        "given": "Scott"
+      },
+      {
+        "family": "Zhu",
+        "given": "Hao"
+      },
+      {
+        "family": "Jahn",
+        "given": "Najko"
+      },
+      {
+        "family": "Boettiger",
+        "given": "Carl"
+      },
+      {
+        "family": "Ram",
+        "given": "Karthik"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "rcrossref: Client for Various 'CrossRef' 'APIs'",
+    "type": "book",
+    "URL": "https://CRAN.R-project.org/package=rcrossref"
+  },
+  {
+    "id": "DepartmentAgricultureAgricultural1992",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          8
+        ]
+      ]
+    },
+    "container-title": "Home Page",
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ],
+        [
+          2016
+        ]
+      ]
+    },
+    "title": "U.S. Department of Agriculture, Agricultural Research Service. Dr. Duke's Phytochemical and Ethnobotanical Databases.",
+    "type": "webpage",
+    "URL": "https://phytochem.nal.usda.gov/"
+  },
+  {
+    "id": "deresesolomonMitishambaDatabaseWeb2015",
+    "author": [
+      {
+        "literal": "Derese, Solomon"
+      },
+      {
+        "literal": "Ndakala, Albert"
+      },
+      {
+        "literal": "Rogo, Michael"
+      },
+      {
+        "literal": "Maynim, Cholastica"
+      },
+      {
+        "literal": "Oyim, James"
+      }
+    ],
+    "event": "The 16th symposium of the natural products reseach network for eastern and central Africa (NAPRECA)",
+    "event-place": "Arusha, Tanzania",
+    "issued": {
+      "literal": "31st August to 3rd September 2015"
+    },
+    "note": "ZSCC: NoCitationData[s1]",
+    "publisher-place": "Arusha, Tanzania",
+    "title": "Mitishamba database: a web based in silico database of natural products from Kenya plants",
+    "type": "speech"
+  },
+  {
+    "id": "dowleDataTableExtension2020",
+    "author": [
+      {
+        "family": "Dowle",
+        "given": "Matt"
+      },
+      {
+        "family": "Srinivasan",
+        "given": "Arun"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "data.table: Extension of `data.frame`",
+    "type": "book",
+    "URL": "https://CRAN.R-project.org/package=data.table"
+  },
+  {
+    "id": "florChorddiagInteractiveChord2020",
+    "author": [
+      {
+        "family": "Flor",
+        "given": "Matthias"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "chorddiag: Interactive Chord Diagrams",
+    "type": "book",
+    "URL": "http://github.com/mattflor/chorddiag/"
+  },
+  {
+    "id": "gagolewskiPackageStringiCharacter2020",
+    "author": [
+      {
+        "family": "Gagolewski",
+        "given": "Marek"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "R package stringi: Character string processing facilities",
+    "type": "book",
+    "URL": "http://www.gagolewski.com/software/stringi/"
+  },
+  {
+    "id": "GBIFOrg2020",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          8
+        ]
+      ]
+    },
+    "container-title": "GBIF Home Page",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "GBIF.org",
+    "type": "webpage",
+    "URL": "https://www.gbif.org"
+  },
+  {
+    "id": "gehlenborgUpSetRMoreScalable2019",
+    "author": [
+      {
+        "family": "Gehlenborg",
+        "given": "Nils"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "title": "UpSetR: A More Scalable Alternative to Venn and Euler Diagrams for Visualizing Intersecting Sets",
+    "type": "book",
+    "URL": "https://CRAN.R-project.org/package=UpSetR"
+  },
+  {
+    "id": "hesterVroomReadWrite2020",
+    "author": [
+      {
+        "family": "Hester",
+        "given": "Jim"
+      },
+      {
+        "family": "Wickham",
+        "given": "Hadley"
+      }
+    ],
+    "genre": "manual",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "vroom: Read and write rectangular text data quickly",
+    "type": "report",
+    "URL": "https://CRAN.R-project.org/package=vroom"
+  },
+  {
+    "id": "jrHmiscHarrellMiscellaneous2020",
+    "author": [
+      {
+        "family": "Jr",
+        "given": "Frank E. Harrell"
+      },
+      {
+        "family": "Dupont",
+        "given": "with contributions from Charles"
+      },
+      {
+        "family": "others",
+        "given": "many"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "Hmisc: Harrell Miscellaneous",
+    "type": "book",
+    "URL": "https://CRAN.R-project.org/package=Hmisc"
+  },
+  {
+    "id": "kuangPbmcapplyTrackingProgress2019",
+    "author": [
+      {
+        "family": "Kuang",
+        "given": "Kevin"
+      },
+      {
+        "family": "Kong",
+        "given": "Quyu"
+      },
+      {
+        "family": "Napolitano",
+        "given": "Francesco"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "title": "pbmcapply: Tracking the Progress of Mc*pply with Progress Bar",
+    "type": "book",
+    "URL": "https://CRAN.R-project.org/package=pbmcapply"
+  },
+  {
+    "id": "langXMLToolsParsing2020",
+    "author": [
+      {
+        "family": "Lang",
+        "given": "Duncan Temple"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "XML: Tools for Parsing and Generating XML Within R and S-Plus",
+    "type": "book",
+    "URL": "https://CRAN.R-project.org/package=XML"
+  },
+  {
+    "id": "mahtoSplitstackshapeStackReshape2019",
+    "author": [
+      {
+        "family": "Mahto",
+        "given": "Ananda"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "title": "splitstackshape: Stack and Reshape Datasets After Splitting Concatenated Values",
+    "type": "book",
+    "URL": "https://CRAN.R-project.org/package=splitstackshape"
+  },
+  {
+    "id": "MainPageWAKANKENSAKU",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          8
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "WAKANKENSAKU - Main Page",
+    "type": "webpage",
+    "URL": "https://wakankensaku.inm.u-toyama.ac.jp/wiki/Main_Page"
+  },
+  {
+    "id": "mullerRSQLiteSQLiteInterface2021",
+    "author": [
+      {
+        "family": "Müller",
+        "given": "Kirill"
+      },
+      {
+        "family": "Wickham",
+        "given": "Hadley"
+      },
+      {
+        "family": "James",
+        "given": "David A."
+      },
+      {
+        "family": "Falcon",
+        "given": "Seth"
+      }
+    ],
+    "genre": "manual",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "title": "RSQLite: 'SQLite' interface for r",
+    "type": "report",
+    "URL": "https://CRAN.R-project.org/package=RSQLite"
+  },
+  {
+    "id": "pedersenGgraphImplementationGrammar2020",
+    "author": [
+      {
+        "family": "Pedersen",
+        "given": "Thomas Lin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "ggraph: An Implementation of Grammar of Graphics for Graphs and Networks",
+    "type": "book",
+    "URL": "https://CRAN.R-project.org/package=ggraph"
+  },
+  {
+    "id": "rcoreteamLanguageEnvironmentStatistical2020",
+    "author": [
+      {
+        "literal": "R Core Team"
+      }
+    ],
+    "event-place": "Vienna, Austria",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "R Foundation for Statistical Computing",
+    "publisher-place": "Vienna, Austria",
+    "title": "R: A Language and Environment for Statistical Computing",
+    "type": "book",
+    "URL": "https://www.R-project.org/"
+  },
+  {
+    "id": "RDKitOpensourceCheminformatics",
+    "title": "RDKit: Open-source cheminformatics",
+    "type": "article-journal",
+    "URL": "http://www.rdkit.org",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rspecialinterestgroupondatabasesr-sig-dbDBIDatabaseInterface2021",
+    "author": [
+      {
+        "literal": "R Special Interest Group on Databases (R-SIG-DB)"
+      },
+      {
+        "family": "Wickham",
+        "given": "Hadley"
+      },
+      {
+        "family": "Müller",
+        "given": "Kirill"
+      }
+    ],
+    "genre": "manual",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "title": "DBI: R database interface",
+    "type": "report",
+    "URL": "https://CRAN.R-project.org/package=DBI"
+  },
+  {
+    "id": "sievertInteractiveWebBasedData2020",
+    "author": [
+      {
+        "family": "Sievert",
+        "given": "Carson"
+      }
+    ],
+    "ISBN": "978-1-138-33145-7",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "Chapman and Hall/CRC",
+    "title": "Interactive Web-Based Data Visualization with R, plotly, and shiny",
+    "type": "book",
+    "URL": "https://plotly-r.com"
+  },
+  {
+    "id": "warnesGdataVariousProgramming2017",
+    "author": [
+      {
+        "family": "Warnes",
+        "given": "Gregory R."
+      },
+      {
+        "family": "Bolker",
+        "given": "Ben"
+      },
+      {
+        "family": "Gorjanc",
+        "given": "Gregor"
+      },
+      {
+        "family": "Grothendieck",
+        "given": "Gabor"
+      },
+      {
+        "family": "Korosec",
+        "given": "Ales"
+      },
+      {
+        "family": "Lumley",
+        "given": "Thomas"
+      },
+      {
+        "family": "MacQueen",
+        "given": "Don"
+      },
+      {
+        "family": "Magnusson",
+        "given": "Arni"
+      },
+      {
+        "family": "Rogers",
+        "given": "Jim"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "genre": "manual",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "title": "gdata: Various r programming tools for data manipulation",
+    "type": "report",
+    "URL": "https://CRAN.R-project.org/package=gdata"
+  },
+  {
+    "id": "wickhamReadxlReadExcel2019",
+    "author": [
+      {
+        "family": "Wickham",
+        "given": "Hadley"
+      },
+      {
+        "family": "Bryan",
+        "given": "Jennifer"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "title": "readxl: Read Excel Files",
+    "type": "book",
+    "URL": "https://CRAN.R-project.org/package=readxl"
+  },
+  {
+    "id": "wickhamRvestEasilyHarvest2020",
+    "author": [
+      {
+        "family": "Wickham",
+        "given": "Hadley"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "rvest: Easily Harvest (Scrape) Web Pages",
+    "type": "book",
+    "URL": "https://CRAN.R-project.org/package=rvest"
+  },
+  {
+    "id": "wickhamXml2ParseXML2020",
+    "author": [
+      {
+        "family": "Wickham",
+        "given": "Hadley"
+      },
+      {
+        "family": "Hester",
+        "given": "Jim"
+      },
+      {
+        "family": "Ooms",
+        "given": "Jeroen"
+      }
+    ],
+    "genre": "manual",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "xml2: Parse XML",
+    "type": "report",
+    "URL": "https://CRAN.R-project.org/package=xml2"
+  },
+  {
+    "id": "wilkinsGgfittextFitText2020",
+    "author": [
+      {
+        "family": "Wilkins",
+        "given": "David"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "ggfittext: Fit Text Inside a Box in 'ggplot2'",
+    "type": "book",
+    "URL": "https://CRAN.R-project.org/package=ggfittext"
+  },
+  {
+    "id": "xuGgstarStarLayer2021",
+    "author": [
+      {
+        "family": "Xu",
+        "given": "Shuangbin"
+      }
+    ],
+    "genre": "manual",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "title": "ggstar: Star Layer for 'ggplot2'",
+    "type": "report",
+    "URL": "https://CRAN.R-project.org/package=ggstar"
+  },
+  {
+    "id": "decandolleEssaiProprietesMedicales1816",
+    "accessed": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          3
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Candolle",
+        "given": "Augustin Pyramus",
+        "non-dropping-particle": "de",
+        "dropping-particle": "de"
+      }
+    ],
+    "DOI": "10.5962/bhl.title.112422",
+    "event-place": "Paris",
+    "issued": {
+      "date-parts": [
+        [
+          1816
+        ]
+      ]
+    },
+    "note": "ZSCC: NoCitationData[s1]",
+    "publisher": "Chez Crochard, Libraire,",
+    "publisher-place": "Paris",
+    "source": "DOI.org (Crossref)",
+    "title": "Essai sur les propriétés médicales des plantes, comparées avec leurs formes extérieures et leur classification naturelle",
+    "type": "book",
+    "URL": "http://www.biodiversitylibrary.org/bibliography/112422"
+  },
+  {
+    "id": "inenglishplease",
+    "type": "article-journal",
+    "container-title": "Proceedings of the Symposium on Chemoinformatics",
+    "DOI": "10.11545/ciqs.2006.0.JL6.0",
+    "page": "JL6-JL6",
+    "title": "RIKEN natural products encyclopedia (RIKEN NPEdia), a chemical database of RIKEN natural products depository (RIKEN NPDepo)",
+    "volume": "2006",
+    "author": [
+      {
+        "family": "Tomiki",
+        "given": "Takeshi"
+      },
+      {
+        "family": "Saito",
+        "given": "Tamio"
+      },
+      {
+        "family": "Ueki",
+        "given": "Masashi"
+      },
+      {
+        "family": "Konno",
+        "given": "Hideaki"
+      },
+      {
+        "family": "Asaoka",
+        "given": "Takeo"
+      },
+      {
+        "family": "Suzuki",
+        "given": "Ryuichiro"
+      },
+      {
+        "family": "Uramoto",
+        "given": "Masakazu"
+      },
+      {
+        "family": "Kakeya",
+        "given": "Hideaki"
+      },
+      {
+        "family": "Osada",
+        "given": "Hiroyuki"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2006"
+        ]
+      ]
+    }
+  }
+]

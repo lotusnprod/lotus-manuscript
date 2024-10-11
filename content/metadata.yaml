@@ -1,0 +1,463 @@
+title: "The LOTUS Initiative for Open Knowledge Management in Natural Products Research"
+keywords:
+  - Open Science
+  - Natural Products
+  - Wikidata
+  - Knowledge Graph
+  - Linked Data
+  - LOTUS Initiative
+
+lang: en-US
+
+thumbnail: content/images/thumbnail.png
+
+authors:
+  -
+    github: adafede
+    name: Adriano Rutz
+    initials: AR
+    orcid: 0000-0003-0443-9902
+    twitter: adafede
+    email: adriano.rutz@unige.ch
+    affiliations:
+      - School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+      - Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+    funders: CRSII5_189921
+    # correspondence: true
+    roles:
+      - Conceptualization: true
+      - Data curation: true
+      - Formal analysis: true
+      - Funding acquisition: true
+      - Investigation: true
+      - Methodology: true
+      - Project administration: true
+      - Resources: false
+      - Software: true
+      - Supervision: true
+      - Validation: true
+      - Visualization: true
+      - Writing – original draft: true
+      - Writing – review & editing: true
+      - Additional – LNPN website: false
+      - Additional – NAPRALERT: false
+      - Additional – Sachem, IDSM: false
+      - Additional – Wikidata: true
+  -
+    github: mSorok
+    name: Maria Sorokina
+    initials: MS
+    orcid: 0000-0001-9359-7149
+    twitter: ms_sorok
+    email: maria.sorokina@uni-jena.de
+    affiliations:
+      - Institute for Inorganic and Analytical Chemistry, Friedrich-Schiller-University Jena, Lessingstr. 8, 07732 Jena, Germany
+    funders: CRC1127
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: false
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: false
+      - Software: true
+      - Supervision: false
+      - Validation: false
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: true
+      - Additional – LNPN website: true
+      - Additional – NAPRALERT: false
+      - Additional – Sachem, IDSM: false
+      - Additional – Wikidata: false
+  -
+    github: galgonek
+    name: Jakub Galgonek
+    initials: JGa
+    orcid: 0000-0002-7038-544X
+    twitter: JGalgonek
+    email: jakub.galgonek@uochb.cas.cz
+    affiliations:
+      - Institute of Organic Chemistry and Biochemistry of the CAS, Flemingovo náměstí 2, 166 10, Prague 6, Czech Republic
+    funders: LM2018131
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: false
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: false
+      - Software: true
+      - Supervision: false
+      - Validation: false
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: true
+      - Additional – LNPN website: false
+      - Additional – NAPRALERT: false
+      - Additional – Sachem, IDSM: true
+      - Additional – Wikidata: false
+  -
+    github: Daniel-Mietchen
+    name: Daniel Mietchen
+    initials: DM
+    orcid: 0000-0001-9488-1870
+    twitter: EvoMRI
+    email: daniel.mietchen@ronininstitute.org
+    affiliations:
+      - Ronin Institute, 127 Haddon Pl, Montclair, NJ 07043, United States
+      - Leibniz Institute of Freshwater Ecology and Inland Fisheries, Müggelseedamm 310, D-12587 Berlin
+      - School of Data Science, University of Virginia, Dell 1 Building, Charlottesville, VA 22904, United States
+    funders: G-2019-11458
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: false
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: false
+      - Software: false
+      - Supervision: false
+      - Validation: false
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: true
+      - Additional – LNPN website: false
+      - Additional – NAPRALERT: false
+      - Additional – Sachem, IDSM: false
+      - Additional – Wikidata: true
+  -
+    github: egonw
+    name: Egon Willighagen
+    initials: EW
+    orcid: 0000-0001-7542-0286
+    twitter: egonwillighagen
+    email: egon.willighagen@gmail.com
+    affiliations:
+      - Dept of Bioinformatics-BiGCaT, NUTRIM, Maastricht University, Universiteitssingel 50, NL-6229 ER, Maastricht, The Netherlands
+    funders: G-2019-11458
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: false
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: false
+      - Software: false
+      - Supervision: false
+      - Validation: false
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: true
+      - Additional – LNPN website: false
+      - Additional – NAPRALERT: false
+      - Additional – Sachem, IDSM: false
+      - Additional – Wikidata: true
+  -
+    github: ArnaudGaudry
+    name: Arnaud Gaudry
+    initials: AG
+    orcid: 0000-0002-3648-7362
+    twitter: gaudarn
+    email: arnaud.gaudry@unige.ch
+    affiliations:
+      - School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+      - Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+    funders: CRSII5_189921
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: false
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: false
+      - Software: false
+      - Supervision: false
+      - Validation: false
+      - Visualization: true
+      - Writing – original draft: false
+      - Writing – review & editing: true
+      - Additional – LNPN website: false
+      - Additional – NAPRALERT: false
+      - Additional – Sachem, IDSM: false
+      - Additional – Wikidata: false
+  -
+    # github: 
+    name: James G. Graham
+    initials: JGG
+    orcid: 0000-0002-7114-8921
+    # twitter: 
+    email: ucayali@uic.edu
+    affiliations:
+      - Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
+      - Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
+    funders: U41 AT008706 and AT000155
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: false
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: false
+      - Software: false
+      - Supervision: false
+      - Validation: false
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: true
+      - Additional – LNPN website: false
+      - Additional – NAPRALERT: true
+      - Additional – Sachem, IDSM: false
+      - Additional – Wikidata: false
+  -
+    github: rwst
+    name: Ralf Stephan
+    initials: RS
+    orcid: 0000-0002-4650-631X
+    # twitter: 
+    email: gtrwst9@gmail.com
+    affiliations:
+      -  Ontario Institute for Cancer Research (OICR), 661 University Ave Suite 510, Toronto, Canada
+    # funders: 
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: false
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: false
+      - Software: false
+      - Supervision: false
+      - Validation: false
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: true
+      - Additional – LNPN website: false
+      - Additional – NAPRALERT: false
+      - Additional – Sachem, IDSM: false
+      - Additional – Wikidata: true
+  -
+    github: rdmpage
+    name: Roderic Page
+    initials: RP
+    orcid: 0000-0002-7101-9767
+    twitter: rdmpage
+    email: roderic.page@glasgow.ac.uk
+    affiliations:
+      -  IBAHCM, MVLS, University of Glasgow, Glasgow, United Kingdom
+    # funders: 
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: false
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: false
+      - Software: false
+      - Supervision: false
+      - Validation: false
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: false
+      - Additional – LNPN website: false
+      - Additional – NAPRALERT: false
+      - Additional – Sachem, IDSM: false
+      - Additional – Wikidata: true
+  -
+    # github: 
+    name: Jiří Vondrášek
+    initials: JV
+    orcid: 0000-0002-6066-973X
+    # twitter: 
+    email: jiri.vondrasek@uochb.cas.cz
+    affiliations:
+      - Institute of Organic Chemistry and Biochemistry of the CAS, Flemingovo náměstí 2, 166 10, Prague 6, Czech Republic
+    funders: LM2018131
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: true
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: true
+      - Software: false
+      - Supervision: false
+      - Validation: false
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: true
+      - Additional – LNPN website: false
+      - Additional – NAPRALERT: false
+      - Additional – Sachem, IDSM: true
+      - Additional – Wikidata: false
+  -
+    github: steinbeck
+    name: Christoph Steinbeck
+    initials: CS
+    orcid: 0000-0001-6966-0814
+    twitter: csteinbeck
+    email: christoph.steinbeck@uni-jena.de
+    affiliations:
+      - Institute for Inorganic and Analytical Chemistry, Friedrich-Schiller-University Jena, Lessingstr. 8, 07732 Jena, Germany
+    funders: CRC1127
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: true
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: true
+      - Software: false
+      - Supervision: false
+      - Validation: false
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: true
+      - Additional – LNPN website: true
+      - Additional – NAPRALERT: false
+      - Additional – Sachem, IDSM: false
+      - Additional – Wikidata: false
+  -
+    # github: 
+    name: Guido F. Pauli
+    initials: GFP
+    orcid: 0000-0003-1022-4326
+    # twitter: 
+    email: gfp@uic.edu
+    affiliations:
+      - Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
+      - Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
+    funders: U41 AT008706 and AT000155
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: true
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: true
+      - Software: false
+      - Supervision: false
+      - Validation: false
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: true
+      - Additional – LNPN website: false
+      - Additional – NAPRALERT: true
+      - Additional – Sachem, IDSM: false
+      - Additional – Wikidata: false
+  -
+    # github: 
+    name: Jean-Luc Wolfender
+    initials: JLW
+    orcid: 0000-0002-0125-952X
+    # twitter: 
+    email: Jean-Luc.Wolfender@unige.ch
+    affiliations:
+      - School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+      - Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+    funders: CRSII5_189921
+    correspondence: false
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: true
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: true
+      - Software: false
+      - Supervision: false
+      - Validation: false
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: true
+      - Additional – LNPN website: false
+      - Additional – NAPRALERT: false
+      - Additional – Sachem, IDSM: false
+      - Additional – Wikidata: false
+  -
+    github: bjonnh
+    name: Jonathan Bisson
+    initials: JB
+    orcid: 0000-0003-1640-9989
+    twitter: Bjonnh #CENAPT
+    email: research@bjonnh.net
+    affiliations:
+      - Center for Natural Product Technologies and WHO Collaborating Centre for Traditional Medicine (WHO CC/TRM), Pharmacognosy Institute; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
+      - Department of Pharmaceutical Sciences; College of Pharmacy, University of Illinois at Chicago, 833 South Wood Street, Chicago, Illinois 60612, United States
+    funders: U41 AT008706 and AT000155
+    correspondence: true
+    roles:
+      - Conceptualization: true
+      - Data curation: true
+      - Formal analysis: true
+      - Funding acquisition: false
+      - Investigation: true
+      - Methodology: true
+      - Project administration: true
+      - Resources: true
+      - Software: true
+      - Supervision: true
+      - Validation: true
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: true
+      - Additional – LNPN website: false
+      - Additional – NAPRALERT: true
+      - Additional – Sachem, IDSM: false
+      - Additional – Wikidata: true
+  -
+    github: oolonek
+    name: Pierre-Marie Allard
+    initials: PMA
+    orcid: 0000-0003-3389-2191
+    twitter: allard_pm 
+    email: pierre-marie.allard@unifr.ch
+    affiliations:
+      - School of Pharmaceutical Sciences, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+      - Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva, CMU - Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland
+      - Department of Biology, University of Fribourg, Chemin du Musée 10, 1700 Fribourg, Switzerland
+    funders: CRSII5_189921
+    correspondence: true
+    roles:
+      - Conceptualization: true
+      - Data curation: true
+      - Formal analysis: true
+      - Funding acquisition: true
+      - Investigation: true
+      - Methodology: true
+      - Project administration: true
+      - Resources: true
+      - Software: true
+      - Supervision: true
+      - Validation: true
+      - Visualization: false
+      - Writing – original draft: true
+      - Writing – review & editing: true
+      - Additional – LNPN website: false
+      - Additional – NAPRALERT: false
+      - Additional – Sachem, IDSM: false
+      - Additional – Wikidata: true

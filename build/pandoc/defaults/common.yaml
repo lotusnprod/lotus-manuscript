@@ -1,0 +1,15 @@
+# Pandoc --defaults shared between Manubot output formats.
+from: markdown
+input-file: output/manuscript.md
+filters:
+- pandoc-fignos
+- pandoc-eqnos
+- pandoc-tablenos
+- pandoc-manubot-cite
+- build/pandoc/filters/extract-cito.lua
+- citeproc
+- build/pandoc/filters/insert-cito-in-ref.lua
+wrap: preserve
+metadata:
+  csl: build/assets/style.csl
+  link-citations: true
