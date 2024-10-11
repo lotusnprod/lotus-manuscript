@@ -33,7 +33,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-Bioactive
+bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -46,7 +46,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-Bjonnh
+bjonnh
 bkfd
 Bolzani
 Bromus
@@ -65,7 +65,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-Chemodiversity
+chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -78,7 +78,7 @@ Chun
 citable
 clade
 ClassyFire
-classyfireR
+ClassyfireR
 cmcrameri
 CMU
 codebase
@@ -141,7 +141,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-Faerun
+faerun
 faire
 Fatcat
 Fidele
@@ -180,7 +180,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -236,7 +236,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -280,7 +280,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-Molvs
+MolVS
 monogyna
 Montclair
 Mozzherin
@@ -293,7 +293,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Nelumbo
@@ -302,7 +302,7 @@ NL
 NMR
 Nonmarine
 npass
-NPAtlas
+npatlas
 npcare
 NPClassifier
 npedia
@@ -330,7 +330,7 @@ pamdb
 parallelization
 pbmcapply
 Pflanzen
-Pharmacognosy
+pharmacognosy
 Phasmida
 PhenolExplorer
 physicochemical
@@ -342,7 +342,7 @@ plotly
 PMA
 PMIDs
 polyketides
-pre
+Pre
 procardb
 processingOriginal
 processingTranslated
@@ -406,11 +406,11 @@ spectrometry
 Spiegeleer
 splitstackshape
 spp
-squatina
+Squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -444,7 +444,7 @@ Tiejun
 Tilmann
 tmap
 tmdb
-TMMC
+tmmc
 tppt
 transdisciplinary
 transformational
@@ -466,7 +466,7 @@ uncharging
 Uniprot
 Universiteitssingel
 Univocity
-UNPD
+unpd
 upsert
 upserting
 upserts

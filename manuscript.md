@@ -39,8 +39,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-11" />
   <meta name="citation_publication_date" content="2024-10-11" />
   <meta property="article:published_time" content="2024-10-11" />
-  <meta name="dc.modified" content="2024-10-11T09:15:24+00:00" />
-  <meta property="article:modified_time" content="2024-10-11T09:15:24+00:00" />
+  <meta name="dc.modified" content="2024-10-11T11:21:58+00:00" />
+  <meta property="article:modified_time" content="2024-10-11T11:21:58+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -118,13 +118,13 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/cc792669d5b8240b6511522c45ddfb6ad465fcfc/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/cc792669d5b8240b6511522c45ddfb6ad465fcfc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/cc792669d5b8240b6511522c45ddfb6ad465fcfc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/d7f9df7c4685b5305a43781c53b0067fb8ec9b98/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d7f9df7c4685b5305a43781c53b0067fb8ec9b98/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/d7f9df7c4685b5305a43781c53b0067fb8ec9b98/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/cc792669d5b8240b6511522c45ddfb6ad465fcfc/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/cc792669d5b8240b6511522c45ddfb6ad465fcfc/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d7f9df7c4685b5305a43781c53b0067fb8ec9b98/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/d7f9df7c4685b5305a43781c53b0067fb8ec9b98/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -144,9 +144,9 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.75
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/cc792669d5b8240b6511522c45ddfb6ad465fcfc/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/d7f9df7c4685b5305a43781c53b0067fb8ec9b98/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@cc79266](https://github.com/lotusnprod/lotus-manuscript/tree/cc792669d5b8240b6511522c45ddfb6ad465fcfc)
+from [lotusnprod/lotus-manuscript@d7f9df7](https://github.com/lotusnprod/lotus-manuscript/tree/d7f9df7c4685b5305a43781c53b0067fb8ec9b98)
 on 2024-10-11.
 </em></small>
 
