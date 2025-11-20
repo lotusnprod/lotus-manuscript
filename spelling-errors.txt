@@ -4,7 +4,7 @@ adafede
 Adriano
 afrotryp
 alkamid
-Allard
+allard
 Amoebozoa
 AmphibiaWeb
 Angelshark
@@ -64,7 +64,7 @@ Chemin
 cheminformatics
 chemistries
 ChemmineR
-chemodiversity
+Chemodiversity
 chemoinformatic
 chemotaxonomic
 Chemotaxonomie
@@ -76,7 +76,7 @@ Christoph
 Chun
 citable
 ClassyFire
-ClassyfireR
+classyfireR
 cmcrameri
 CMU
 codebase
@@ -88,13 +88,13 @@ CrossRef
 CRSII
 csteinbeck
 cstrnq
-curation
-Cyanometdb
+Curation
+cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
 daphnane
-datawarrior
+Datawarrior
 DBI
 DBs
 decandolleEssaiProprietesMedicales
@@ -137,7 +137,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-Faerun
+faerun
 faire
 Fatcat
 Fidele
@@ -150,7 +150,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 gaudarn
 Gaudry
 GBIF
@@ -200,11 +200,11 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChiKey
+InChIKey
 InChIKeys
 indability
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -289,7 +289,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Nelumbo
@@ -337,7 +337,7 @@ plotly
 PMA
 PMIDs
 polyketides
-pre
+Pre
 procardb
 processingOriginal
 processingTranslated
@@ -355,7 +355,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-rdkit
+RDKit
 rdmpage
 readxl
 refered
@@ -405,7 +405,7 @@ squatina
 src
 SSOT
 standardizer
-Stereochemistry
+stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -425,7 +425,7 @@ Tastan
 taxonID
 taxonomical
 taxonomically
-TCM
+tcm
 TCMID
 Termitidae
 terpenoid
@@ -444,7 +444,7 @@ tppt
 transdisciplinary
 transformative
 treeio
-trigocherrin
+Trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -452,7 +452,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
@@ -476,7 +476,7 @@ VJSFXXLFSA
 Voilà
 Vondrášek
 Vue
-Wakankensaku
+wakankensaku
 wdkt
 wdpage
 webchem
