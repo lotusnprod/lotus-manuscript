@@ -4,7 +4,7 @@ adafede
 Adriano
 afrotryp
 alkamid
-Allard
+allard
 Amoebozoa
 AmphibiaWeb
 Angelshark
@@ -33,7 +33,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-Bioactive
+bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -46,7 +46,7 @@ biosynthetic
 biosynthetically
 BirdLife
 Bisson
-Bjonnh
+bjonnh
 bkfd
 Bolzani
 Bromus
@@ -84,11 +84,11 @@ coroutines
 counterions
 Crataegus
 CRC
-CrossRef
+Crossref
 CRSII
 csteinbeck
 cstrnq
-Curation
+curation
 Cyanometdb
 Cyathocaline
 Cyathocalyx
@@ -137,7 +137,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-Faerun
+faerun
 faire
 Fatcat
 Fidele
@@ -150,7 +150,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-galgonek
+Galgonek
 gaudarn
 Gaudry
 GBIF
@@ -176,7 +176,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-gnfinder
+GNFinder
 GNV
 GNVerifier
 Gottlieb
@@ -199,8 +199,8 @@ idf
 IDSM
 Ilex
 iNaturalist
-InChI
-InChIKey
+inchi
+InChiKey
 InChIKeys
 indability
 indica
@@ -276,7 +276,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-MolVS
+molvs
 monogyna
 Montclair
 Mozzherin
@@ -289,7 +289,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-NaturalProducts
+naturalproducts
 NCBI
 NCCIH
 Nelumbo
@@ -298,7 +298,7 @@ NL
 NMR
 Nonmarine
 npass
-npatlas
+NPAtlas
 npcare
 NPClassifier
 npedia
@@ -327,7 +327,7 @@ pbmcapply
 Pflanzen
 pharmacognosy
 Phasmida
-PhenolExplorer
+phenolexplorer
 physicochemical
 Phytochemistry
 phytohub
@@ -397,7 +397,7 @@ sorok
 Sorokina
 SPARQL
 speciation
-Spectrometry
+spectrometry
 Spiegeleer
 splitstackshape
 spp
@@ -405,7 +405,7 @@ squatina
 src
 SSOT
 standardizer
-stereochemistry
+Stereochemistry
 stereoisomers
 stevenii
 stigmastane
@@ -439,7 +439,7 @@ Tiejun
 Tilmann
 tmap
 tmdb
-tmmc
+TMMC
 tppt
 transdisciplinary
 transformative
@@ -460,7 +460,7 @@ uncharging
 Uniprot
 Universiteitssingel
 Univocity
-unpd
+UNPD
 upsert
 upserting
 upserts
