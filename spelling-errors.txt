@@ -76,7 +76,7 @@ Christoph
 Chun
 citable
 ClassyFire
-ClassyfireR
+classyfireR
 cmcrameri
 CMU
 codebase
@@ -84,7 +84,7 @@ coroutines
 counterions
 Crataegus
 CRC
-Crossref
+CrossRef
 CRSII
 csteinbeck
 cstrnq
@@ -110,7 +110,7 @@ dimers
 diterpene
 DM
 Dmitry
-dnp
+DNP
 Dockerized
 DOIs
 doit
@@ -144,13 +144,13 @@ Fidele
 FishBase
 flavolivaceus
 Flemingovo
-FooDB
+foodb
 FragmentRemover
 Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 gaudarn
 Gaudry
 GBIF
@@ -199,12 +199,12 @@ idf
 IDSM
 Ilex
 iNaturalist
-inchi
-InChiKey
+InChI
+InChIKey
 InChIKeys
 indability
 indica
-Indolic
+indolic
 inflamnat
 infoboxes
 inhomogeneous
@@ -232,7 +232,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -276,7 +276,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-molvs
+Molvs
 monogyna
 Montclair
 Mozzherin
@@ -289,7 +289,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-naturalproducts
+NaturalProducts
 NCBI
 NCCIH
 Nelumbo
@@ -355,7 +355,7 @@ ransparency
 Rcrossref
 RDF
 RDFFrames
-RDKit
+rdkit
 rdmpage
 readxl
 refered
@@ -378,7 +378,7 @@ Rutz
 rvest
 rwst
 sancdb
-Sanitization
+sanitization
 savoir
 Scholia
 scipy
@@ -397,11 +397,11 @@ sorok
 Sorokina
 SPARQL
 speciation
-spectrometry
+Spectrometry
 Spiegeleer
 splitstackshape
 spp
-squatina
+Squatina
 src
 SSOT
 standardizer
@@ -444,7 +444,7 @@ tppt
 transdisciplinary
 transformative
 treeio
-trigocherrin
+Trigocherrin
 Trigonostemon
 Trigonstemion
 trinervitane
@@ -452,7 +452,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
