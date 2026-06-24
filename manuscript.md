@@ -8,7 +8,7 @@ keywords:
 - Linked Data
 - LOTUS Initiative
 lang: en-US
-date-meta: '2026-06-23'
+date-meta: '2026-06-24'
 author-meta:
 - Adriano Rutz
 - Maria Sorokina
@@ -36,11 +36,11 @@ header-includes: |
   <meta name="citation_title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="og:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
   <meta property="twitter:title" content="The LOTUS Initiative for Open Knowledge Management in Natural Products Research" />
-  <meta name="dc.date" content="2026-06-23" />
-  <meta name="citation_publication_date" content="2026-06-23" />
-  <meta property="article:published_time" content="2026-06-23" />
-  <meta name="dc.modified" content="2026-06-23T23:47:27+00:00" />
-  <meta property="article:modified_time" content="2026-06-23T23:47:27+00:00" />
+  <meta name="dc.date" content="2026-06-24" />
+  <meta name="citation_publication_date" content="2026-06-24" />
+  <meta property="article:published_time" content="2026-06-24" />
+  <meta name="dc.modified" content="2026-06-24T21:26:14+00:00" />
+  <meta property="article:modified_time" content="2026-06-24T21:26:14+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -118,13 +118,13 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://lotusnprod.github.io/lotus-manuscript/" />
   <meta name="citation_pdf_url" content="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lotusnprod.github.io/lotus-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/fbd4ac8e9be34aab294672543715b02e38d1fbee/" />
-  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/fbd4ac8e9be34aab294672543715b02e38d1fbee/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/fbd4ac8e9be34aab294672543715b02e38d1fbee/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lotusnprod.github.io/lotus-manuscript/v/33840b373d7213fbcc6dbb5cd1ecddbdad50c5ab/" />
+  <meta name="manubot_html_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/33840b373d7213fbcc6dbb5cd1ecddbdad50c5ab/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lotusnprod.github.io/lotus-manuscript/v/33840b373d7213fbcc6dbb5cd1ecddbdad50c5ab/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/fbd4ac8e9be34aab294672543715b02e38d1fbee/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/fbd4ac8e9be34aab294672543715b02e38d1fbee/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/33840b373d7213fbcc6dbb5cd1ecddbdad50c5ab/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/lotusnprod/lotus-manuscript/raw/33840b373d7213fbcc6dbb5cd1ecddbdad50c5ab/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -144,10 +144,10 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.75
 
 <small><em>
 This manuscript
-([permalink](https://lotusnprod.github.io/lotus-manuscript/v/fbd4ac8e9be34aab294672543715b02e38d1fbee/))
+([permalink](https://lotusnprod.github.io/lotus-manuscript/v/33840b373d7213fbcc6dbb5cd1ecddbdad50c5ab/))
 was automatically generated
-from [lotusnprod/lotus-manuscript@fbd4ac8](https://github.com/lotusnprod/lotus-manuscript/tree/fbd4ac8e9be34aab294672543715b02e38d1fbee)
-on 2026-06-23.
+from [lotusnprod/lotus-manuscript@33840b3](https://github.com/lotusnprod/lotus-manuscript/tree/33840b373d7213fbcc6dbb5cd1ecddbdad50c5ab)
+on 2026-06-24.
 </em></small>
 
 ## Authors

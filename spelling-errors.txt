@@ -33,7 +33,7 @@ Bao
 Basidiomycotina
 Bhardwaj
 BiGCaT
-Bioactive
+bioactive
 bioactivities
 bioactivity
 biofacquim
@@ -89,7 +89,7 @@ CRSII
 csteinbeck
 cstrnq
 curation
-cyanometdb
+Cyanometdb
 Cyathocaline
 Cyathocalyx
 Damerau
@@ -137,7 +137,7 @@ evidentiary
 EvoMRI
 EW
 Fabaceae
-Faerun
+faerun
 faire
 Fatcat
 Fidele
@@ -150,7 +150,7 @@ Fribourg
 Friedrich
 frontend
 Fungorum
-Galgonek
+galgonek
 gaudarn
 Gaudry
 GBIF
@@ -176,7 +176,7 @@ gjjz
 gliotoxin
 GNA
 GNF
-GNFinder
+gnfinder
 GNV
 GNVerifier
 Gottlieb
@@ -200,7 +200,7 @@ IDSM
 Ilex
 iNaturalist
 InChI
-InChIKey
+InChiKey
 InChIKeys
 indability
 indica
@@ -232,7 +232,7 @@ js
 json
 jsonlite
 Ju
-JUnit
+Junit
 Justina
 Kang
 KEMQGTRYUADPNZ
@@ -276,7 +276,7 @@ Michán
 Mietchen
 mitishamba
 Molconvert
-MolVS
+molvs
 monogyna
 Montclair
 Mozzherin
@@ -289,7 +289,7 @@ náměstí
 nanpdb
 NAPRALERT
 natively
-NaturalProducts
+naturalproducts
 NCBI
 NCCIH
 Nelumbo
@@ -325,7 +325,7 @@ oxyacantha
 pamdb
 pbmcapply
 Pflanzen
-pharmacognosy
+Pharmacognosy
 Phasmida
 PhenolExplorer
 physicochemical
@@ -337,7 +337,7 @@ plotly
 PMA
 PMIDs
 polyketides
-pre
+Pre
 procardb
 processingOriginal
 processingTranslated
@@ -378,7 +378,7 @@ Rutz
 rvest
 rwst
 sancdb
-Sanitization
+sanitization
 savoir
 Scholia
 scipy
@@ -437,9 +437,9 @@ THOMS
 tidyverse
 Tiejun
 Tilmann
-tmap
+TMAP
 tmdb
-TMMC
+tmmc
 tppt
 transdisciplinary
 transformative
@@ -452,7 +452,7 @@ triplestore
 triterpenoid
 TRM
 Tropicos
-TSV
+tsv
 uBio
 UHFFFAOYSA
 Uncharger
